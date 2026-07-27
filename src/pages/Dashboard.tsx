@@ -1,25 +1,15 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getSubjects } from '../lib/contentLoader'
-import { CN_NUMERALS, SUBJECT_EN, subjectVars } from '../lib/constants'
+import {
+  ALL_GRADE_IDS,
+  CN_NUMERALS,
+  GRADE_TITLES,
+  SUBJECT_EN,
+  semesterFullLabel,
+  subjectVars,
+} from '../lib/constants'
 import type { Grade, Subject, SubjectId } from '../types'
-
-/** 年级前缀 → 中文年级名 */
-const GRADE_NAMES: Record<string, string> = {
-  '7': '七年级',
-  '8': '八年级',
-  '9': '九年级',
-  '10': '高一',
-  '11': '高二',
-  '12': '高三',
-}
-
-/** 学期 id（如 "7a"）→ 目录标题（如 "七年级上学期"） */
-function semesterLabel(gradeId: string): string {
-  const prefix = gradeId.replace(/[ab]$/, '')
-  const suffix = gradeId.slice(-1)
-  return `${GRADE_NAMES[prefix] ?? prefix}${suffix === 'a' ? '上学期' : '下学期'}`
-}
 
 /** 当前学期：2-7 月 → 下学期(b)，8-1 月 → 上学期(a) */
 function currentSemesterSuffix(): 'a' | 'b' {
@@ -59,8 +49,36 @@ export default function Dashboard() {
         </p>
       </header>
 
+      {/* 学期快捷入口 */}
+      <div className="mt-4 border-b border-line pb-4">
+        <div className="mb-2 flex items-baseline gap-2">
+          <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
+            按学期
+          </span>
+          <span className="text-[12px] text-ink-faint">
+            选择学期，查看该学期全部科目目录
+          </span>
+        </div>
+        <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
+          {ALL_GRADE_IDS.map((gradeId) => (
+            <Link
+              key={gradeId}
+              to={`/semester/${gradeId}`}
+              className="shrink-0 rounded-full border border-line bg-panel px-3.5 py-1 text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-gold hover:bg-[var(--s-soft,#f2eadc)] hover:text-ink"
+            >
+              {GRADE_TITLES[gradeId]}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* 科目选择栏 */}
       <div className="mt-4 border-b border-line pb-4">
+        <div className="mb-2 flex items-baseline gap-2">
+          <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
+            按科目
+          </span>
+        </div>
         <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
           {subjects.map((subject) => {
             const active = subject.id === activeSubjectId
@@ -169,7 +187,7 @@ function SemesterSection({
       >
         <span className="unit-badge">{gradeNum}</span>
         <span className="font-sans text-[18px] font-extrabold tracking-normal text-ink">
-          {semesterLabel(grade.id)}
+          {semesterFullLabel(grade.id)}
         </span>
         {grade.textbook && hasContent && (
           <span className="hidden text-[12.5px] text-ink-soft sm:inline">

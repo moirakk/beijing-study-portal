@@ -81,6 +81,23 @@ export const ALL_GRADE_IDS: GradeId[] = [
   '10a', '10b', '11a', '11b', '12a', '12b',
 ]
 
+/** 年级前缀 → 中文年级名 */
+export const GRADE_NAMES: Record<string, string> = {
+  '7': '七年级',
+  '8': '八年级',
+  '9': '九年级',
+  '10': '高一',
+  '11': '高二',
+  '12': '高三',
+}
+
+/** 学期 id（如 "7a"）→ 完整标题（如 "七年级上学期"） */
+export function semesterFullLabel(gradeId: string): string {
+  const prefix = gradeId.replace(/[ab]$/, '')
+  const suffix = gradeId.slice(-1)
+  return `${GRADE_NAMES[prefix] ?? prefix}${suffix === 'a' ? '上学期' : '下学期'}`
+}
+
 /** 资料类型 → 展示名 */
 export const MATERIAL_LABELS: Record<MaterialType, string> = {
   note: '笔记',

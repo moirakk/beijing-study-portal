@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
 import SubjectDetail from './pages/SubjectDetail'
 import TopicDetail from './pages/TopicDetail'
+import Semester from './pages/Semester'
 import Search from './pages/Search'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/subjects" element={<Navigate to="/" replace />} />
           <Route path="/subject/:id" element={<SubjectDetail />} />
           <Route path="/topic/:id" element={<TopicDetail />} />
+          <Route path="/semester/:id" element={<Semester />} />
           <Route path="/search" element={<Search />} />
         </Route>
       </Routes>
