@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import Breadcrumb from '../components/Breadcrumb'
-import { MasteryDot } from '../components/ui'
 import { findTopic, getSubjects } from '../lib/contentLoader'
 import type { TopicLocation } from '../lib/contentLoader'
 import { searchAll, encodeCJK } from '../lib/searchEngine'
 import type { SearchHit } from '../lib/searchEngine'
-import { ALL_GRADE_IDS, GRADE_TITLES, MATERIAL_LABELS } from '../lib/constants'
-import { masteryOf, useProgress } from '../lib/useProgress'
+import {
+  ALL_GRADE_IDS,
+  GRADE_TITLES,
+  MATERIAL_LABELS,
+  subjectVars,
+} from '../lib/constants'
 import type { GradeId, MaterialType, SubjectId, TopicTag } from '../types'
 
 const ALL_TAGS: TopicTag[] = [
@@ -66,13 +68,12 @@ function Highlight({ text, query }: { text: string; query: string }) {
   return <>{parts}</>
 }
 
-/** 搜索页：FlexSearch 全文检索（标题 + 标签 + 资料正文），支持学科/年级/资料类型/标签筛选 */
+/** 搜索页：大搜索框居中 + FlexSearch 全文检索，支持学科/年级/资料类型/标签筛选 */
 export default function Search() {
   const [params, setParams] = useSearchParams()
   const query = params.get('q') ?? ''
   const [input, setInput] = useState(query)
   const inputRef = useRef<HTMLInputElement>(null)
-  const { state } = useProgress()
 
   const [fSubject, setFSubject] = useState<SubjectId | ''>('')
   const [fGrade, setFGrade] = useState<GradeId | ''>('')
@@ -129,15 +130,16 @@ export default function Search() {
   }
 
   const selectCls =
-    'rounded-full border border-line bg-card px-3 py-1.5 text-sm outline-none focus:border-gold dark:border-neutral-600 dark:bg-neutral-800'
+    'rounded-full border border-line bg-panel px-3 py-1 text-[13px] text-ink-soft outline-none focus:border-gold'
 
   return (
     <div>
-      <Breadcrumb items={[{ label: '首页', to: '/' }, { label: '搜索' }]} />
-
-      <h1 className="mb-4 text-2xl font-bold md:text-3xl">🔍 搜索知识点</h1>
-
-      <div className="card">
+      {/* 大搜索框居中 */}
+      <header className="mx-auto max-w-xl pt-8 text-center md:pt-14">
+        <div className="text-[13px] font-bold tracking-[0.24em] text-gold">全文检索</div>
+        <h1 className="mb-5 mt-2 font-serif text-[clamp(26px,5vw,36px)] font-bold">
+          搜索知识点
+        </h1>
         <div className="flex gap-2">
           <input
             ref={inputRef}
@@ -146,19 +148,19 @@ export default function Search() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && submit()}
             placeholder="输入关键词，如「绝对值」「有理数」…"
-            className="w-full rounded-full border border-line bg-paper px-5 py-2.5 text-base outline-none placeholder:text-ink-faint focus:border-gold dark:border-neutral-600 dark:bg-neutral-900 dark:placeholder:text-neutral-500"
+            className="w-full rounded-full border border-line bg-panel px-5 py-2.5 text-base outline-none placeholder:text-ink-faint focus:border-gold"
           />
           <button
             type="button"
             onClick={submit}
-            className="shrink-0 rounded-full bg-gold px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+            className="shrink-0 rounded-full bg-gold px-6 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90"
           >
             搜索
           </button>
         </div>
 
         {/* 筛选器 */}
-        <div className="mt-3 flex flex-wrap gap-2">
+        <div className="mt-3.5 flex flex-wrap justify-center gap-2">
           <select value={fSubject} onChange={(e) => setFSubject(e.target.value as SubjectId | '')} className={selectCls} aria-label="按学科筛选">
             <option value="">全部学科</option>
             {getSubjects().map((s) => (
@@ -184,51 +186,52 @@ export default function Search() {
             ))}
           </select>
         </div>
-      </div>
+      </header>
 
       {/* 结果 */}
-      <div className="mt-5">
+      <div className="mx-auto mt-8 max-w-2xl">
         {query.trim() === '' ? (
-          <p className="text-center text-sm text-ink-faint dark:text-neutral-500">
-            输入关键词开始搜索（提示：按 <kbd className="rounded border border-line px-1.5 dark:border-neutral-600">/</kbd> 可快速聚焦顶栏搜索框）
+          <p className="text-center text-sm text-ink-faint">
+            输入关键词开始搜索（提示：按{' '}
+            <kbd className="rounded border border-line bg-panel px-1.5">/</kbd>{' '}
+            可快速聚焦顶栏搜索框）
           </p>
         ) : searching ? (
-          <p className="text-center text-sm text-ink-faint dark:text-neutral-500">
+          <p className="text-center text-sm text-ink-faint">
             正在检索…（首次搜索需要构建索引，请稍候）
           </p>
         ) : results.length === 0 ? (
           <div className="card text-center">
-            <div className="text-3xl">🍂</div>
-            <p className="mt-2 text-sm text-ink-soft dark:text-neutral-400">
+            <p className="text-sm text-ink-soft">
               没有找到与「{query}」相关的知识点
             </p>
-            <p className="mt-1 text-xs text-ink-faint dark:text-neutral-500">
+            <p className="mt-1 text-xs text-ink-faint">
               试试更换关键词，或清除上方筛选条件
             </p>
           </div>
         ) : (
           <>
-            <p className="mb-3 text-sm text-ink-soft dark:text-neutral-400">
-              共 {results.length} 条结果
-            </p>
-            <ul className="space-y-3">
+            <p className="mb-3 text-[13px] text-ink-soft">共 {results.length} 条结果</p>
+            <ul className="space-y-3.5">
               {results.map(({ hit, loc }) => (
-                <li key={hit.topicId}>
-                  <Link to={`/topic/${hit.topicId}`} className="card block transition-shadow hover:shadow-lg">
-                    <div className="flex items-center gap-2.5">
-                      <MasteryDot status={masteryOf(state, hit.topicId)} />
-                      <span className="text-base font-semibold">
+                <li key={hit.topicId} style={subjectVars(loc.subject.id as SubjectId)}>
+                  <Link
+                    to={`/topic/${hit.topicId}`}
+                    className="card block transition-colors hover:border-[var(--s)]"
+                  >
+                    <div className="flex flex-wrap items-center gap-2.5">
+                      <span className="font-serif text-base font-bold text-[var(--s-deep)]">
                         <Highlight text={loc.topic.title} query={query.trim()} />
                       </span>
                       {hit.materialType && (
                         <span className="tag">{MATERIAL_LABELS[hit.materialType]}</span>
                       )}
                     </div>
-                    <div className="mt-1 text-xs text-ink-faint dark:text-neutral-500">
+                    <div className="mt-1 text-xs text-ink-faint">
                       {loc.subject.name} › {loc.grade.title} › {loc.chapter.title}
                     </div>
                     {hit.snippet && (
-                      <p className="mt-2 text-sm text-ink-soft dark:text-neutral-400">
+                      <p className="mb-0 mt-2 text-sm leading-relaxed text-ink-soft">
                         <Highlight text={hit.snippet} query={query.trim()} />
                       </p>
                     )}

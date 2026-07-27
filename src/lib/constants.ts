@@ -1,45 +1,63 @@
 /**
- * UI 常量：掌握状态四色、学科主题色、学期列表。
- * 颜色值与 tailwind.config.js 保持一致；用于内联样式（动态类名无法被 JIT 收集）。
+ * UI 常量：学科主题色（主色/浅底/深色）、学期列表、资料类型文案。
+ * 学科三色与 references/ui-reference.html 的 --hist/--geo 模式一致，
+ * 通过 CSS 变量（--s / --s-soft / --s-deep）注入组件树。
  */
-import type { GradeId, MasteryStatus, MaterialType, SubjectId } from '../types'
+import type { CSSProperties } from 'react'
+import type { GradeId, MaterialType, SubjectId } from '../types'
 
-/** 掌握状态 → 显示文案 */
-export const MASTERY_LABELS: Record<MasteryStatus, string> = {
-  unlearned: '未学',
-  learning: '学习中',
-  mastered: '已掌握',
-  review: '需复习',
+/** 学科主题三色 */
+export interface SubjectTheme {
+  /** 主色：色条、表头、mark 强调 */
+  main: string
+  /** 浅底：标签、要点框背景 */
+  soft: string
+  /** 深色：标题文字 */
+  deep: string
 }
 
-/** 掌握状态 → 颜色（与 tailwind mastery.* 一致） */
-export const MASTERY_COLORS: Record<MasteryStatus, string> = {
-  unlearned: '#9ca3af',
-  learning: '#3b82f6',
-  mastered: '#22c55e',
-  review: '#f97316',
+export const SUBJECT_THEMES: Record<SubjectId, SubjectTheme> = {
+  chinese: { main: '#8B4513', soft: '#F2E8DD', deep: '#5A2D0C' },
+  math: { main: '#2E5A9A', soft: '#E4ECF4', deep: '#1B3660' },
+  english: { main: '#4A7C59', soft: '#E4EFE7', deep: '#2D4D36' },
+  physics: { main: '#6B5B95', soft: '#EBE7F2', deep: '#3D3460' },
+  chemistry: { main: '#C84C3C', soft: '#F4E0DD', deep: '#7A2E24' },
+  biology: { main: '#2E8B57', soft: '#DFF0E7', deep: '#1A5234' },
+  politics: { main: '#B8860B', soft: '#F2EADC', deep: '#6F5107' },
+  history: { main: '#9A5B2A', soft: '#F4EADD', deep: '#5C3417' },
+  geography: { main: '#16697A', soft: '#E2EEF1', deep: '#0C3D48' },
+  misc: { main: '#C08A3E', soft: '#F2EADC', deep: '#6F5107' },
 }
 
-/** 掌握状态切换顺序：未学 → 学习中 → 已掌握 → 需复习 → 未学 */
-export const MASTERY_CYCLE: MasteryStatus[] = [
-  'unlearned',
-  'learning',
-  'mastered',
-  'review',
-]
+/** 学科英文名（小字装饰，参考文件 .subject-head .en） */
+export const SUBJECT_EN: Record<SubjectId, string> = {
+  chinese: 'Chinese',
+  math: 'Mathematics',
+  english: 'English',
+  physics: 'Physics',
+  chemistry: 'Chemistry',
+  biology: 'Biology',
+  politics: 'Politics & Law',
+  history: 'History',
+  geography: 'Geography',
+  misc: 'General',
+}
 
-/** 学科主题色（与 tailwind subject.* 一致） */
-export const SUBJECT_COLORS: Record<SubjectId, string> = {
-  chinese: '#B03A2E',
-  math: '#2E5A9A',
-  english: '#5B3A9A',
-  physics: '#1F6F8B',
-  chemistry: '#7A9A2E',
-  biology: '#2E9A5B',
-  politics: '#9A2E5B',
-  history: '#9A5B2A',
-  geography: '#16697A',
-  misc: '#6B6659',
+/** 大写数字（学科序号装饰，宋体大字） */
+export const CN_NUMERALS = ['壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖', '拾']
+
+/**
+ * 把学科主题三色注入为 CSS 变量（--sj 系列，亮色原值）。
+ * index.css 会将其映射为实际使用的 --s / --s-soft / --s-deep，
+ * 并在暗色模式下自动重算以保证对比度。
+ */
+export function subjectVars(id: SubjectId): CSSProperties {
+  const t = SUBJECT_THEMES[id]
+  return {
+    '--sj': t.main,
+    '--sj-soft': t.soft,
+    '--sj-deep': t.deep,
+  } as CSSProperties
 }
 
 /** 学期 id → 中文标题 */
@@ -63,26 +81,13 @@ export const ALL_GRADE_IDS: GradeId[] = [
   '10a', '10b', '11a', '11b', '12a', '12b',
 ]
 
-/** 资料类型 → 展示名（含图标） */
+/** 资料类型 → 展示名 */
 export const MATERIAL_LABELS: Record<MaterialType, string> = {
-  note: '📒 笔记',
-  formula: '🧮 公式',
-  example: '✏️ 例题',
-  exam: '📄 真题',
-  mindmap: '🧠 导图',
-}
-
-/** 当前学期（默认初一上），持久化到 localStorage */
-const SEMESTER_KEY = 'bsp-current-semester'
-
-export function getCurrentSemester(): GradeId {
-  const raw = localStorage.getItem(SEMESTER_KEY)
-  if (raw && (ALL_GRADE_IDS as string[]).includes(raw)) return raw as GradeId
-  return '7a'
-}
-
-export function setCurrentSemester(id: GradeId): void {
-  localStorage.setItem(SEMESTER_KEY, id)
+  note: '笔记',
+  formula: '公式',
+  example: '例题',
+  exam: '真题',
+  mindmap: '导图',
 }
 
 /** 难度星标，如 difficulty=3 → "★★★☆☆" */

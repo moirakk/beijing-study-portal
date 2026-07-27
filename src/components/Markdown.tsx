@@ -26,7 +26,10 @@ function Markdown({ markdown, stripH1 }: Props) {
         rehypePlugins={[rehypeKatex]}
         components={{
           a: ({ href, children }) => (
-            <a href={href} className="text-gold-dark underline decoration-gold-light underline-offset-2 hover:text-gold dark:text-gold-light">
+            <a
+              href={href}
+              className="font-medium text-[var(--s)] underline decoration-[var(--s-soft)] underline-offset-2 hover:decoration-[var(--s)]"
+            >
               {children}
             </a>
           ),

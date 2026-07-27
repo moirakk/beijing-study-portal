@@ -5,16 +5,57 @@
 @tailwind utilities;
 
 /* ---------------------------------------------------------------------------
- * 全局基调：学术讲义感 —— 暖色纸张底、宋体标题、苹方正文
+ * 全局变量：与 references/ui-reference.html 一致的讲义风格
+ *   基调 —— 暖白纸张、白卡片、暖墨色、金色点缀
+ *   学科三色 —— 由组件通过 style 注入 --s / --s-soft / --s-deep
  * ------------------------------------------------------------------------- */
+:root {
+  --paper: #fbfaf7;
+  --panel: #ffffff;
+  --ink: #29251f;
+  --muted: #6e665c;
+  --faint: #9c968a;
+  --line: #e7e0d4;
+  --gold: #c08a3e;
+  /* 学科三色默认值（未注入时退化为金色系） */
+  --s: #c08a3e;
+  --s-soft: #f2eadc;
+  --s-deep: #6f5107;
+}
+
+.dark {
+  --paper: #1c1a16;
+  --panel: #26221c;
+  --ink: #eae4d8;
+  --muted: #a89f90;
+  --faint: #7a7264;
+  --line: #3b352b;
+  --gold: #d3a35a;
+  /* 学科三色默认值（暗色下的金色系退化） */
+  --s: #d3a35a;
+  --s-soft: #3a3226;
+  --s-deep: #e2c391;
+}
+
+/* 组件通过 style 注入 --sj / --sj-soft / --sj-deep（亮色原值），
+   这里映射到实际使用的 --s 系列；暗色下浅底/深色向主色重算，保证对比度 */
+[style*='--sj'] {
+  --s: var(--sj);
+  --s-soft: var(--sj-soft);
+  --s-deep: var(--sj-deep);
+}
+.dark [style*='--sj'] {
+  --s: color-mix(in srgb, var(--sj) 78%, #ffffff);
+  --s-soft: color-mix(in srgb, var(--sj) 24%, var(--panel));
+  --s-deep: color-mix(in srgb, var(--sj) 45%, var(--ink));
+}
+
 @layer base {
   html {
     @apply bg-paper text-ink font-sans antialiased;
-  }
-
-  .dark html,
-  html.dark {
-    @apply bg-neutral-900 text-neutral-100;
+    font-size: 16px;
+    line-height: 1.75;
+    scroll-behavior: smooth;
   }
 
   h1,
@@ -23,62 +64,230 @@
   h4 {
     @apply font-serif tracking-wide;
   }
+
+  @media (max-width: 560px) {
+    html {
+      font-size: 15px;
+    }
+  }
 }
 
 /* ---------------------------------------------------------------------------
- * 讲义组件：卡片 / 标签 / 高亮 / 要点框 / KV 列表
+ * 讲义组件（对齐参考文件的 .card / .tag / .kv / .key / mark / .hl 等）
  * ------------------------------------------------------------------------- */
 @layer components {
-  /* 白色圆角卡片（14px 圆角） */
+  /* 白色圆角卡片：bg #fff、1px 边框、14px 圆角、20px 22px 内距 */
   .card {
-    @apply bg-card rounded-card shadow-card border border-line p-5 dark:bg-neutral-800 dark:border-neutral-700;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  @media (max-width: 560px) {
+    .card {
+      padding: 16px;
+    }
   }
 
-  /* 标签（tag）：如 #中考高频 #易错 */
+  /* 顶部毛玻璃导航 */
+  .nav-blur {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+
+  /* 导航链接（胶囊） */
+  .nav-link {
+    @apply whitespace-nowrap rounded-full border border-transparent px-3 py-1 text-[13px] font-semibold text-ink-soft transition-colors;
+  }
+  .nav-link:hover {
+    color: var(--ink);
+    background: var(--panel);
+    border-color: var(--line);
+  }
+  .nav-link.active {
+    color: var(--s-deep, var(--gold));
+    background: var(--s-soft);
+    border-color: var(--line);
+  }
+
+  /* 学科头部：大号宋体数字 + 学科名 + 英文小字（参考 .subject-head） */
+  .subject-head {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+  .subject-head .num {
+    font-family: theme('fontFamily.serif');
+    font-size: clamp(52px, 12vw, 86px);
+    line-height: 0.8;
+    font-weight: 700;
+    color: var(--s-deep);
+  }
+  .subject-head .name {
+    font-family: theme('fontFamily.serif');
+    font-size: clamp(22px, 5vw, 30px);
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: var(--s-deep);
+  }
+  .subject-head .en {
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  /* 渐变色条（参考 .rule） */
+  .rule {
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--s), transparent);
+  }
+
+  /* 单元序号方块（参考 .unit-title .badge） */
+  .unit-badge {
+    font-family: theme('fontFamily.serif');
+    font-weight: 700;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: var(--s);
+  }
+
+  /* 标签：学科浅底圆角（参考 .card>h4 .tag） */
   .tag {
-    @apply inline-block rounded-full border border-gold-light bg-paper px-2.5 py-0.5 text-xs text-gold-dark dark:bg-neutral-800 dark:text-gold-light dark:border-gold-dark;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 6px;
+    letter-spacing: 0.03em;
+    background: var(--s-soft);
+    color: var(--s-deep);
   }
 
-  /* 行内高亮（mark / hl） */
-  .hl,
-  mark {
-    @apply rounded bg-gold-light/50 px-1 text-inherit dark:bg-gold-dark/40;
+  /* 胶囊 meta（参考 .hero .meta span） */
+  .pill {
+    padding: 4px 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 12.5px;
   }
 
-  /* 要点提示框（key）：金色左边线 */
+  /* 行内高亮：学科浅底（参考 .hl） */
+  .hl {
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-weight: 700;
+    font-size: 13px;
+    background: var(--s-soft);
+    color: var(--s-deep);
+  }
+
+  /* 要点提示框：学科浅底圆角 + 粗体标签（参考 .key） */
   .key {
-    @apply rounded-card border-l-4 border-gold bg-gold-light/20 px-4 py-3 dark:bg-gold-dark/15;
+    margin: 14px 0 2px;
+    padding: 11px 15px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: var(--s-soft);
+  }
+  .key b {
+    white-space: nowrap;
+    color: var(--s-deep);
   }
 
-  /* KV 键值对列表 */
+  /* KV 键值对列表：虚线分隔、左键右值（参考 .kv） */
   .kv {
-    @apply divide-y divide-line dark:divide-neutral-700;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
+  .kv > li,
   .kv > div {
-    @apply flex items-baseline gap-4 py-2;
+    display: flex;
+    gap: 12px;
+    padding: 7px 0;
+    border-top: 1px dashed var(--line);
+    font-size: 14.5px;
+    align-items: baseline;
+  }
+  .kv > li:first-child,
+  .kv > div:first-child {
+    border-top: none;
   }
   .kv .k {
-    @apply w-24 shrink-0 text-sm text-ink-soft dark:text-neutral-400;
+    flex: 0 0 92px;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: var(--s-deep);
   }
   .kv .v {
-    @apply text-sm;
+    flex: 1;
+    color: color-mix(in srgb, var(--ink) 88%, var(--muted));
   }
+  @media (max-width: 560px) {
+    .kv .k {
+      flex-basis: 74px;
+      font-size: 12.5px;
+    }
+  }
+}
 
-  /* Markdown 正文排版（讲义风格） */
+/* ---------------------------------------------------------------------------
+ * mark 高亮：学科主题色、无背景、加粗（参考 mark 规则）
+ * ------------------------------------------------------------------------- */
+mark {
+  background: transparent;
+  color: var(--s);
+  font-weight: 700;
+  padding: 0 1px;
+}
+
+/* ---------------------------------------------------------------------------
+ * Markdown 正文排版（讲义风格，颜色随学科变量）
+ * ------------------------------------------------------------------------- */
+@layer components {
   .markdown-body {
-    @apply text-[15px] leading-7 md:text-base md:leading-8;
+    font-size: 14.5px;
+    line-height: 1.85;
   }
   .markdown-body h1 {
     @apply mb-3 mt-6 text-xl font-bold first:mt-0;
+    color: var(--s-deep);
   }
   .markdown-body h2 {
-    @apply mb-2 mt-6 border-b border-line pb-1.5 text-lg font-bold first:mt-0 dark:border-neutral-700;
+    @apply mb-2 mt-6 pb-1.5 text-lg font-bold first:mt-0;
+    border-bottom: 1px solid var(--line);
+    color: var(--s-deep);
   }
   .markdown-body h3 {
     @apply mb-2 mt-4 text-base font-bold;
+    color: var(--s-deep);
   }
   .markdown-body p {
     @apply my-2.5;
+  }
+  .markdown-body strong {
+    color: var(--s);
+    font-weight: 700;
   }
   .markdown-body ul,
   .markdown-body ol {
@@ -90,31 +299,88 @@
   .markdown-body ol {
     @apply list-decimal;
   }
+  .markdown-body li::marker {
+    color: var(--s);
+  }
+
+  /* 引用块 → 要点提示框风格（学科浅底、圆角） */
   .markdown-body blockquote {
-    @apply my-3 rounded-card border-l-4 border-gold bg-gold-light/20 px-4 py-2.5 text-[14.5px] dark:bg-gold-dark/15;
+    margin: 14px 0;
+    padding: 11px 15px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    background: var(--s-soft);
+    border: none;
   }
   .markdown-body blockquote p {
     @apply my-1;
   }
+  .markdown-body blockquote strong {
+    color: var(--s-deep);
+  }
+
+  /* 表格：表头学科色白字、白底行、1px 线（参考 table 规则） */
   .markdown-body table {
-    @apply my-3 w-full border-collapse text-sm;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 4px;
+    font-size: 13.5px;
   }
-  .markdown-body th {
-    @apply border border-line bg-gold-light/30 px-3 py-1.5 text-left font-semibold dark:border-neutral-700 dark:bg-gold-dark/20;
-  }
+  .markdown-body th,
   .markdown-body td {
-    @apply border border-line px-3 py-1.5 dark:border-neutral-700;
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
   }
+  .markdown-body thead th {
+    background: var(--s);
+    color: #fff;
+    font-weight: 700;
+  }
+  .markdown-body thead th strong {
+    color: #fff;
+  }
+  .markdown-body tbody td {
+    background: var(--panel);
+  }
+
   .markdown-body code {
-    @apply rounded bg-paper px-1.5 py-0.5 text-[0.9em] dark:bg-neutral-900;
+    border-radius: 4px;
+    background: var(--paper);
+    padding: 2px 6px;
+    font-size: 0.9em;
   }
   .markdown-body pre {
-    @apply my-3 overflow-x-auto rounded-card bg-paper p-4 dark:bg-neutral-900;
+    margin: 12px 0;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--paper);
+    padding: 14px 16px;
+  }
+  .markdown-body pre code {
+    background: transparent;
+    padding: 0;
   }
   .markdown-body hr {
-    @apply my-5 border-line dark:border-neutral-700;
+    @apply my-5;
+    border-color: var(--line);
+  }
+  .markdown-body img,
+  .markdown-body svg {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--panel);
+    max-width: 100%;
   }
   .markdown-body .katex-display {
     @apply my-3 overflow-x-auto overflow-y-hidden py-1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
   }
 }

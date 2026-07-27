@@ -5,22 +5,19 @@ export interface Crumb {
   to?: string
 }
 
-/** 面包屑导航：所有页面常驻，如 首页 > 数学 > 初一上 > 第一章 > 有理数 */
+/** 面包屑导航：所有页面常驻，如 首页 › 数学 › 初一上 › 第一章 › 有理数 */
 export default function Breadcrumb({ items }: { items: Crumb[] }) {
   return (
-    <nav className="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-ink-soft dark:text-neutral-400">
+    <nav className="flex flex-wrap items-center gap-1.5 text-[13px] text-ink-soft">
       {items.map((item, i) => (
         <span key={i} className="flex items-center gap-1.5">
-          {i > 0 && <span className="text-ink-faint dark:text-neutral-600">›</span>}
+          {i > 0 && <span className="text-ink-faint">›</span>}
           {item.to ? (
-            <Link
-              to={item.to}
-              className="hover:text-gold-dark hover:underline dark:hover:text-gold-light"
-            >
+            <Link to={item.to} className="transition-colors hover:text-gold">
               {item.label}
             </Link>
           ) : (
-            <span className="text-ink dark:text-neutral-200">{item.label}</span>
+            <span className="text-ink">{item.label}</span>
           )}
         </span>
       ))}

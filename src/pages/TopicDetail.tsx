@@ -2,31 +2,22 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import Markdown from '../components/Markdown'
-import { MasteryDot } from '../components/ui'
 import { findTopic, getAllTopics, loadTopicContent } from '../lib/contentLoader'
-import {
-  MASTERY_COLORS,
-  MASTERY_CYCLE,
-  MASTERY_LABELS,
-  SUBJECT_COLORS,
-  difficultyStars,
-} from '../lib/constants'
-import { masteryOf, useProgress } from '../lib/useProgress'
+import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
 
 interface Section {
   key: string
   anchor: string
-  icon: string
   title: string
 }
 
 const SECTIONS: Section[] = [
-  { key: 'note', anchor: 'sec-note', icon: '📒', title: '笔记' },
-  { key: 'formulas', anchor: 'sec-formulas', icon: '🧮', title: '公式' },
-  { key: 'examples', anchor: 'sec-examples', icon: '✏️', title: '例题' },
-  { key: 'exams', anchor: 'sec-exams', icon: '📄', title: '真题' },
-  { key: 'mindmap', anchor: 'sec-mindmap', icon: '🧠', title: '导图' },
+  { key: 'note', anchor: 'sec-note', title: '笔记' },
+  { key: 'formulas', anchor: 'sec-formulas', title: '公式' },
+  { key: 'examples', anchor: 'sec-examples', title: '例题' },
+  { key: 'exams', anchor: 'sec-exams', title: '真题' },
+  { key: 'mindmap', anchor: 'sec-mindmap', title: '导图' },
 ]
 
 /** 把例题/真题 Markdown 按 `## ` 标题拆分为独立题块 */
@@ -46,15 +37,15 @@ function splitProblems(md: string): { heading: string; body: string }[] {
 }
 
 /** 单个题块：题目常显，解析默认折叠 */
-function ProblemCard({ heading, body, color }: { heading: string; body: string; color: string }) {
+function ProblemCard({ heading, body }: { heading: string; body: string }) {
   const [open, setOpen] = useState(false)
   const idx = body.search(/###\s+解析/)
   const question = idx === -1 ? body : body.slice(0, idx).replace(/###\s+题目\n?/, '').trim()
   const solution = idx === -1 ? null : body.slice(idx).replace(/###\s+解析\n?/, '').trim()
 
   return (
-    <div className="rounded-card border border-line bg-paper/60 p-4 md:p-5 dark:border-neutral-700 dark:bg-neutral-900/40">
-      <div className="mb-2 font-serif text-base font-bold" style={{ color }}>
+    <div className="rounded-xl border border-line bg-paper/60 p-4 md:p-5">
+      <div className="mb-2 font-serif text-base font-bold text-[var(--s-deep)]">
         {heading}
       </div>
       <Markdown markdown={question} />
@@ -63,13 +54,13 @@ function ProblemCard({ heading, body, color }: { heading: string; body: string; 
           <button
             type="button"
             onClick={() => setOpen(!open)}
-            className="flex w-full items-center gap-2 rounded-lg border border-gold-light bg-gold-light/20 px-4 py-2.5 text-sm font-semibold text-gold-dark transition-colors hover:bg-gold-light/40 dark:border-gold-dark dark:bg-gold-dark/15 dark:text-gold-light"
+            className="flex w-full items-center gap-2 rounded-lg bg-[var(--s-soft)] px-4 py-2.5 text-sm font-bold text-[var(--s-deep)] transition-opacity hover:opacity-85"
           >
             <span className={`text-xs transition-transform ${open ? 'rotate-90' : ''}`}>▶</span>
             {open ? '收起解析' : '展开解析'}
           </button>
           {open && (
-            <div className="mt-3 border-l-2 pl-4" style={{ borderColor: color }}>
+            <div className="mt-3 border-l-2 border-[var(--s)] pl-4">
               <Markdown markdown={solution} />
             </div>
           )}
@@ -79,11 +70,10 @@ function ProblemCard({ heading, body, color }: { heading: string; body: string; 
   )
 }
 
-/** 知识点详情页：单页瀑布流 + 顶部锚点电梯导航 */
+/** 知识点详情页：讲义排版（学科色标题、KV、标签、要点框、表格） */
 export default function TopicDetail() {
   const { id } = useParams<{ id: string }>()
   const loc = id ? findTopic(id) : undefined
-  const { state, cycleMastery, toggleFavorite, addRecent } = useProgress()
   const [content, setContent] = useState<TopicContent | null>(null)
 
   useEffect(() => {
@@ -93,7 +83,6 @@ export default function TopicDetail() {
     loadTopicContent(loc.topic).then((c) => {
       if (!cancelled) setContent(c)
     })
-    addRecent(loc.topic.id, 'note')
     window.scrollTo(0, 0)
     return () => {
       cancelled = true
@@ -110,14 +99,10 @@ export default function TopicDetail() {
   }, [loc])
 
   if (!loc || !id) {
-    return <div className="card">未找到该知识点。</div>
+    return <div className="card text-ink-soft">未找到该知识点。</div>
   }
 
   const { subject, grade, chapter, topic } = loc
-  const color = SUBJECT_COLORS[subject.id as SubjectId]
-  const mastery = masteryOf(state, id)
-  const favorite = state.favorites.includes(id)
-  const nextMastery = MASTERY_CYCLE[(MASTERY_CYCLE.indexOf(mastery) + 1) % MASTERY_CYCLE.length]
 
   const availableSections = SECTIONS.filter(
     (s) => content && (content as Record<string, string | undefined>)[s.key],
@@ -131,65 +116,51 @@ export default function TopicDetail() {
     .filter((x) => x != null)
 
   return (
-    <div>
+    <div style={subjectVars(subject.id as SubjectId)}>
       <Breadcrumb
         items={[
           { label: '首页', to: '/' },
           { label: subject.name, to: `/subject/${subject.id}` },
           { label: grade.title, to: `/subject/${subject.id}` },
-          { label: chapter.title, to: `/subject/${subject.id}/tree` },
+          { label: chapter.title, to: `/subject/${subject.id}` },
           { label: topic.title },
         ]}
       />
 
-      {/* 顶部信息卡 */}
-      <section className="card" style={{ borderTopWidth: 4, borderTopColor: color }}>
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
-            <h1 className="text-2xl font-bold md:text-3xl">{topic.title}</h1>
-            <div className="mt-2 flex flex-wrap items-center gap-2">
-              <span className="text-sm text-gold" title={`难度 ${topic.difficulty}/5`}>
-                {difficultyStars(topic.difficulty)}
-              </span>
+      {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息 */}
+      <header className="mt-6">
+        <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
+          {topic.title}
+        </h1>
+        <div className="rule mt-2.5" />
+        <ul className="kv mt-4">
+          <li>
+            <span className="k">所属章节</span>
+            <span className="v">
+              {subject.name} · {grade.title} · {chapter.title}
+            </span>
+          </li>
+          <li>
+            <span className="k">难度</span>
+            <span className="v text-[var(--s)]">
+              {difficultyStars(topic.difficulty)}
+            </span>
+          </li>
+          <li>
+            <span className="k">标签</span>
+            <span className="v flex flex-wrap items-center gap-1.5">
               <span className="tag">{topic.importance}</span>
               {topic.tags.map((t) => (
-                <span key={t} className="tag">{t}</span>
+                <span key={t} className="tag">{t.replace(/^#/, '')}</span>
               ))}
-            </div>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => toggleFavorite(id)}
-              aria-label={favorite ? '取消收藏' : '收藏'}
-              title={favorite ? '取消收藏' : '收藏'}
-              className={`flex h-11 w-11 items-center justify-center rounded-full border text-xl transition-colors ${
-                favorite
-                  ? 'border-gold bg-gold-light/30 dark:bg-gold-dark/20'
-                  : 'border-line hover:border-gold dark:border-neutral-600'
-              }`}
-            >
-              {favorite ? '⭐' : '☆'}
-            </button>
-            <button
-              type="button"
-              onClick={() => cycleMastery(id)}
-              title={`点击切换为「${MASTERY_LABELS[nextMastery]}」`}
-              className="flex h-11 items-center gap-2 rounded-full px-5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              style={{ backgroundColor: MASTERY_COLORS[mastery] }}
-            >
-              <MasteryDot status={mastery} size={8} />
-              {MASTERY_LABELS[mastery]}
-              <span className="text-white/70">→ {MASTERY_LABELS[nextMastery]}</span>
-            </button>
-          </div>
-        </div>
-      </section>
+            </span>
+          </li>
+        </ul>
+      </header>
 
       {/* 锚点电梯导航 */}
       {availableSections.length > 0 && (
-        <nav className="sticky top-14 z-[5] mt-4 flex gap-2 overflow-x-auto rounded-card border border-line bg-card/95 p-2 backdrop-blur dark:border-neutral-700 dark:bg-neutral-800/95">
+        <nav className="nav-blur top-12 z-[5] -mx-1 mt-5 flex gap-1.5 overflow-x-auto rounded-full border border-line px-2 py-1.5">
           {availableSections.map((s) => (
             <a
               key={s.key}
@@ -198,76 +169,74 @@ export default function TopicDetail() {
                 e.preventDefault()
                 document.getElementById(s.anchor)?.scrollIntoView({ behavior: 'smooth' })
               }}
-              className="shrink-0 rounded-full px-4 py-2 text-sm font-medium text-ink-soft transition-colors hover:bg-paper hover:text-ink dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-100"
+              className="nav-link"
             >
-              {s.icon} {s.title}
+              {s.title}
             </a>
           ))}
         </nav>
       )}
 
-      {/* 瀑布流内容区 */}
-      <div className="mt-4 space-y-5">
+      {/* 内容区 */}
+      <div className="mt-5 space-y-5">
         {content === null && topic.materials.length > 0 && (
-          <div className="card text-center text-sm text-ink-faint dark:text-neutral-500">
-            资料加载中…
-          </div>
+          <div className="card text-center text-sm text-ink-faint">资料加载中…</div>
         )}
 
         {content !== null && availableSections.length === 0 && (
-          <div className="card text-center text-ink-soft dark:text-neutral-400">
+          <div className="card text-center text-ink-soft">
             该知识点的学习资料还在整理中，敬请期待。
           </div>
         )}
 
         {content?.note && (
-          <section id="sec-note" className="card scroll-mt-32">
-            <h2 className="mb-3 flex items-center gap-2 text-xl font-bold" style={{ color }}>
-              📒 笔记
+          <section id="sec-note" className="card scroll-mt-28">
+            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
+              笔记 <span className="tag">概念讲解</span>
             </h2>
             <Markdown markdown={content.note} stripH1 />
           </section>
         )}
 
         {content?.formulas && (
-          <section id="sec-formulas" className="card scroll-mt-32">
-            <h2 className="mb-3 flex items-center gap-2 text-xl font-bold" style={{ color }}>
-              🧮 公式
+          <section id="sec-formulas" className="card scroll-mt-28">
+            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
+              公式 <span className="tag">速查卡片</span>
             </h2>
             <Markdown markdown={content.formulas} stripH1 />
           </section>
         )}
 
         {content?.examples && (
-          <section id="sec-examples" className="card scroll-mt-32">
-            <h2 className="mb-4 flex items-center gap-2 text-xl font-bold" style={{ color }}>
-              ✏️ 例题
+          <section id="sec-examples" className="card scroll-mt-28">
+            <h2 className="m-0 mb-4 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
+              例题 <span className="tag">典型题精讲</span>
             </h2>
             <div className="space-y-4">
               {splitProblems(content.examples).map((p, i) => (
-                <ProblemCard key={i} heading={p.heading} body={p.body} color={color} />
+                <ProblemCard key={i} heading={p.heading} body={p.body} />
               ))}
             </div>
           </section>
         )}
 
         {content?.exams && (
-          <section id="sec-exams" className="card scroll-mt-32">
-            <h2 className="mb-4 flex items-center gap-2 text-xl font-bold" style={{ color }}>
-              📄 真题
+          <section id="sec-exams" className="card scroll-mt-28">
+            <h2 className="m-0 mb-4 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
+              真题 <span className="tag">北京中高考</span>
             </h2>
             <div className="space-y-4">
               {splitProblems(content.exams).map((p, i) => (
-                <ProblemCard key={i} heading={p.heading} body={p.body} color={color} />
+                <ProblemCard key={i} heading={p.heading} body={p.body} />
               ))}
             </div>
           </section>
         )}
 
         {content?.mindmap && (
-          <section id="sec-mindmap" className="card scroll-mt-32">
-            <h2 className="mb-3 flex items-center gap-2 text-xl font-bold" style={{ color }}>
-              🧠 导图
+          <section id="sec-mindmap" className="card scroll-mt-28">
+            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
+              导图 <span className="tag">知识脉络</span>
             </h2>
             <Markdown markdown={content.mindmap} stripH1 />
           </section>
@@ -279,19 +248,21 @@ export default function TopicDetail() {
         <div className="mt-6 grid gap-5 md:grid-cols-2">
           {prereqTopics.length > 0 && (
             <section className="card">
-              <h2 className="mb-3 text-base font-bold text-ink-soft dark:text-neutral-400">
-                ⬅️ 前置知识（建议先掌握）
+              <h2 className="m-0 mb-2.5 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
+                前置知识
               </h2>
-              <ul className="space-y-1">
+              <ul className="kv">
                 {prereqTopics.map((p) => (
                   <li key={p!.topic.id}>
-                    <Link
-                      to={`/topic/${p!.topic.id}`}
-                      className="flex items-center gap-2.5 rounded-lg px-2 py-2 transition-colors hover:bg-paper dark:hover:bg-neutral-700/50"
-                    >
-                      <MasteryDot status={masteryOf(state, p!.topic.id)} />
-                      <span className="text-[15px]">{p!.topic.title}</span>
-                    </Link>
+                    <span className="k">建议先学</span>
+                    <span className="v">
+                      <Link
+                        to={`/topic/${p!.topic.id}`}
+                        className="font-medium text-[var(--s)] hover:underline"
+                      >
+                        {p!.topic.title}
+                      </Link>
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -300,31 +271,34 @@ export default function TopicDetail() {
 
           {(nextTopics.length > 0 || relatedTopics.length > 0) && (
             <section className="card">
-              <h2 className="mb-3 text-base font-bold text-ink-soft dark:text-neutral-400">
-                ➡️ 下一步学什么
+              <h2 className="m-0 mb-2.5 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
+                下一步学什么
               </h2>
-              <ul className="space-y-1">
+              <ul className="kv">
                 {nextTopics.map((n) => (
                   <li key={n.topic.id}>
-                    <Link
-                      to={`/topic/${n.topic.id}`}
-                      className="flex items-center gap-2.5 rounded-lg px-2 py-2 transition-colors hover:bg-paper dark:hover:bg-neutral-700/50"
-                    >
-                      <MasteryDot status={masteryOf(state, n.topic.id)} />
-                      <span className="text-[15px]">{n.topic.title}</span>
-                    </Link>
+                    <span className="k">进阶</span>
+                    <span className="v">
+                      <Link
+                        to={`/topic/${n.topic.id}`}
+                        className="font-medium text-[var(--s)] hover:underline"
+                      >
+                        {n.topic.title}
+                      </Link>
+                    </span>
                   </li>
                 ))}
                 {relatedTopics.map((r) => (
                   <li key={r!.topic.id}>
-                    <Link
-                      to={`/topic/${r!.topic.id}`}
-                      className="flex items-center gap-2.5 rounded-lg px-2 py-2 transition-colors hover:bg-paper dark:hover:bg-neutral-700/50"
-                    >
-                      <MasteryDot status={masteryOf(state, r!.topic.id)} />
-                      <span className="text-[15px]">{r!.topic.title}</span>
-                      <span className="tag">关联</span>
-                    </Link>
+                    <span className="k">关联</span>
+                    <span className="v">
+                      <Link
+                        to={`/topic/${r!.topic.id}`}
+                        className="font-medium text-[var(--s)] hover:underline"
+                      >
+                        {r!.topic.title}
+                      </Link>
+                    </span>
                   </li>
                 ))}
               </ul>

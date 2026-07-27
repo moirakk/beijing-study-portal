@@ -1,5 +1,5 @@
 /**
- * 全局类型定义：四层知识树结构、5 类资料内容、学习进度、搜索结果。
+ * 全局类型定义：四层知识树结构、5 类资料内容、搜索结果。
  * 与 DESIGN.md 第二部分 §3 数据存储方案保持一致。
  */
 
@@ -124,40 +124,6 @@ export interface TopicContent {
 }
 
 // ---------------------------------------------------------------------------
-// 学习进度（localStorage）
-// ---------------------------------------------------------------------------
-
-/** 掌握状态：灰=未学、蓝=学习中、绿=已掌握、橙=需复习 */
-export type MasteryStatus = 'unlearned' | 'learning' | 'mastered' | 'review'
-
-/** 最近浏览记录 */
-export interface RecentEntry {
-  topicId: string
-  /** 上次停留的资料 Tab */
-  tab: MaterialType
-  /** 时间戳（ms） */
-  ts: number
-}
-
-/** 连续学习天数 */
-export interface StreakState {
-  /** 最近一次学习日期，格式 YYYY-MM-DD */
-  lastDate: string
-  days: number
-}
-
-/** 进度状态整体结构（localStorage 单 key 存储） */
-export interface ProgressState {
-  /** topicId → 掌握状态（未记录视为 unlearned） */
-  mastery: Record<string, MasteryStatus>
-  /** 收藏的知识点 id */
-  favorites: string[]
-  /** 最近浏览（最多保留 10 条，新的在前） */
-  recent: RecentEntry[]
-  streak: StreakState
-}
-
-// ---------------------------------------------------------------------------
 // 搜索
 // ---------------------------------------------------------------------------
 
@@ -182,5 +148,4 @@ export interface SearchFilters {
   grade?: GradeId
   materialType?: MaterialType
   tag?: TopicTag
-  mastery?: MasteryStatus
 }
