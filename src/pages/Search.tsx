@@ -88,6 +88,15 @@ export default function Search() {
 
   useEffect(() => {
     inputRef.current?.focus()
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== '/') return
+      const target = e.target as HTMLElement
+      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) return
+      e.preventDefault()
+      inputRef.current?.focus()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
   }, [])
 
   // FlexSearch 检索（索引首次搜索时异步构建）
@@ -153,7 +162,7 @@ export default function Search() {
           <button
             type="button"
             onClick={submit}
-            className="shrink-0 rounded-full bg-gold px-6 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90"
+            className="shrink-0 rounded-full bg-gold px-6 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
           >
             搜索
           </button>

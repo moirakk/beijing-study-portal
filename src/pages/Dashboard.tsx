@@ -47,10 +47,16 @@ export default function Dashboard() {
   return (
     <div>
       {/* 顶部 */}
-      <header className="pt-8 md:pt-10">
+      <header className="border-b border-line pb-[30px] pt-8 md:pt-[56px]">
         <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
           北京 · 初高中学习资料
         </div>
+        <h1 className="mb-[0.2em] mt-[0.28em] font-serif text-[clamp(34px,7vw,54px)] font-bold leading-[1.15] tracking-[0.02em]">
+          北京初高中<br />图文讲义
+        </h1>
+        <p className="mt-0 max-w-[44ch] text-[15px] text-ink-soft">
+          把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
+        </p>
       </header>
 
       {/* 科目选择栏 */}
@@ -66,7 +72,7 @@ export default function Dashboard() {
                 style={subjectVars(subject.id as SubjectId)}
                 className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-colors ${
                   active
-                    ? 'border-transparent bg-[var(--s)] text-white'
+                    ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
                     : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'
                 }`}
               >
@@ -78,12 +84,14 @@ export default function Dashboard() {
       </div>
 
       {/* 教材目录 */}
-      {activeSubject && (
+      {activeSubject ? (
         <SubjectToc
           key={activeSubject.id}
           subject={activeSubject}
           subjectIndex={subjects.findIndex((s) => s.id === activeSubject.id)}
         />
+      ) : (
+        <div className="mt-10 text-center text-[14px] text-ink-soft">暂无学科数据，请先添加内容。</div>
       )}
     </div>
   )

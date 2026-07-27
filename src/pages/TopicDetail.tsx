@@ -151,7 +151,7 @@ export default function TopicDetail() {
             <span className="v flex flex-wrap items-center gap-1.5">
               <span className="tag">{topic.importance}</span>
               {topic.tags.map((t) => (
-                <span key={t} className="tag">{t.replace(/^#/, '')}</span>
+                <span key={t} className="hl">{t.replace(/^#/, '')}</span>
               ))}
             </span>
           </li>

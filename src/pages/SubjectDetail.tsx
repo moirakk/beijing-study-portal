@@ -60,7 +60,7 @@ export default function SubjectDetail() {
                   onClick={() => setActiveGradeId(grade.id)}
                   className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-colors ${
                     active
-                      ? 'border-transparent bg-[var(--s)] text-white'
+                      ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
                       : hasContent
                         ? 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:text-[var(--s-deep)]'
                         : 'cursor-not-allowed border-line bg-paper text-ink-faint'

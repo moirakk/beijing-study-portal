@@ -30,6 +30,7 @@ export default function Layout() {
       const target = e.target as HTMLElement
       if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) return
       e.preventDefault()
+      if (window.location.hash.startsWith('#/search')) return
       searchRef.current?.focus()
     }
     window.addEventListener('keydown', onKey)
