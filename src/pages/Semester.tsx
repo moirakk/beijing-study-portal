@@ -117,7 +117,7 @@ function SubjectSection({
       style={subjectVars(subject.id as SubjectId)}
     >
       <div className="subject-head">
-        <span className="num">{CN_NUMERALS[index] ?? '壹'}</span>
+        <span className="num">{CN_NUMERALS[index] ?? '1'}</span>
         <div>
           <h2 className="name">{subject.name}</h2>
           <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>

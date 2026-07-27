@@ -140,7 +140,7 @@ function SubjectToc({
     <div style={subjectVars(subject.id as SubjectId)}>
       {/* 学科大标题（subject-head 风格）+ 渐变色条 */}
       <div className="subject-head mt-10">
-        <span className="num">{CN_NUMERALS[subjectIndex] ?? '壹'}</span>
+        <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
         <div>
           <h1 className="name">{subject.name}</h1>
           <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>

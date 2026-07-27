@@ -43,8 +43,8 @@ export const SUBJECT_EN: Record<SubjectId, string> = {
   misc: 'General',
 }
 
-/** 大写数字（学科序号装饰，宋体大字） */
-export const CN_NUMERALS = ['壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖', '拾']
+/** 学科序号（阿拉伯数字） */
+export const CN_NUMERALS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
 
 /**
  * 把学科主题三色注入为 CSS 变量（--sj 系列，亮色原值）。

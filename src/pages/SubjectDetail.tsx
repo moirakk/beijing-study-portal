@@ -33,7 +33,7 @@ export default function SubjectDetail() {
 
       {/* subject-head：大号宋体数字 + 学科名 + 英文小字 + 渐变色条 */}
       <div className="subject-head mt-6">
-        <span className="num">{CN_NUMERALS[subjectIndex] ?? '壹'}</span>
+        <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
         <div>
           <h1 className="name">{subject.name}</h1>
           <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
