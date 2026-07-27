@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>初中历史·地理 图文讲义 · 七年级上册前两单元</title>
+<style>
+  :root{
+    --paper:#FBFAF7; --panel:#FFFFFF;
+    --ink:#29251F; --muted:#6E665C; --line:#E7E0D4;
+    --hist:#9A5B2A; --hist-soft:#F4EADD; --hist-deep:#5C3417; --hist-line:#E4CBAE;
+    --geo:#16697A;  --geo-soft:#E2EEF1;  --geo-deep:#0C3D48;  --geo-line:#BFDCE1;
+    --gold:#C08A3E;
+    --serif:"Songti SC","STSong",Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.75;font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---------- top nav ---------- */
+  .nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,250,247,.92);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+    padding:9px 14px;
+  }
+  .nav .brand{font-weight:700;margin-right:auto;font-size:14px;letter-spacing:.02em}
+  .nav a{
+    text-decoration:none;color:var(--muted);font-size:13px;font-weight:600;
+    padding:5px 11px;border-radius:999px;white-space:nowrap;
+    border:1px solid transparent;transition:.18s;
+  }
+  .nav a:hover{color:var(--ink);background:#fff;border-color:var(--line)}
+  .nav a.h{color:var(--hist-deep)} .nav a.h:hover{background:var(--hist-soft);border-color:var(--hist-line)}
+  .nav a.g{color:var(--geo-deep)} .nav a.g:hover{background:var(--geo-soft);border-color:var(--geo-line)}
+
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px 90px}
+
+  /* ---------- hero ---------- */
+  .hero{padding:56px 0 30px;border-bottom:1px solid var(--line)}
+  .hero .kicker{font-size:13px;letter-spacing:.24em;color:var(--gold);font-weight:700}
+  .hero h1{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(34px,7vw,54px);line-height:1.15;margin:.28em 0 .2em;
+    letter-spacing:.02em;
+  }
+  .hero .sub{color:var(--muted);font-size:15px;max-width:44ch}
+  .hero .meta{
+    margin-top:22px;display:flex;gap:10px;flex-wrap:wrap;font-size:12.5px;
+  }
+  .hero .meta span{
+    padding:4px 12px;border:1px solid var(--line);border-radius:999px;
+    background:#fff;color:var(--muted);
+  }
+  .note{
+    margin-top:24px;font-size:13px;color:var(--muted);
+    background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);
+    padding:12px 16px;border-radius:0 8px 8px 0;
+  }
+
+  /* ---------- subject dividers ---------- */
+  .subject{scroll-margin-top:56px;padding-top:58px}
+  .subject-head{display:flex;align-items:flex-end;gap:16px;margin-bottom:8px}
+  .subject-head .num{
+    font-family:var(--serif);font-size:clamp(52px,12vw,86px);line-height:.8;font-weight:700;
+  }
+  .subject-head h2{font-size:clamp(22px,5vw,30px);margin:0;font-weight:800;letter-spacing:.04em}
+  .subject-head .en{color:var(--muted);font-size:12px;letter-spacing:.22em;text-transform:uppercase}
+  .subject.hist .subject-head .num,.subject.hist .subject-head h2{color:var(--hist-deep)}
+  .subject.geo  .subject-head .num,.subject.geo  .subject-head h2{color:var(--geo-deep)}
+  .subject .rule{height:4px;border-radius:2px;margin:4px 0 0}
+  .subject.hist .rule{background:linear-gradient(90deg,var(--hist),transparent)}
+  .subject.geo  .rule{background:linear-gradient(90deg,var(--geo),transparent)}
+
+  /* ---------- unit ---------- */
+  .unit{scroll-margin-top:56px;margin-top:40px}
+  .unit-title{
+    display:flex;align-items:center;gap:12px;font-size:19px;font-weight:800;margin:0 0 4px;
+  }
+  .unit-title .badge{
+    font-family:var(--serif);font-weight:700;font-size:15px;
+    width:30px;height:30px;flex:0 0 30px;border-radius:8px;
+    display:grid;place-items:center;color:#fff;
+  }
+  .subject.hist .badge{background:var(--hist)} .subject.geo .badge{background:var(--geo)}
+  .unit-sub{color:var(--muted);font-size:13px;margin:0 0 18px 42px}
+
+  /* ---------- lesson card ---------- */
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:20px 22px;margin:14px 0;
+  }
+  .card > h4{
+    margin:0 0 12px;font-size:16.5px;font-weight:800;display:flex;align-items:center;gap:9px;
+  }
+  .card > h4 .tag{
+    font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;letter-spacing:.03em;
+  }
+  .subject.hist .tag{background:var(--hist-soft);color:var(--hist-deep)}
+  .subject.geo  .tag{background:var(--geo-soft);color:var(--geo-deep)}
+
+  .kv{margin:0;padding:0;list-style:none}
+  .kv li{
+    display:flex;gap:12px;padding:7px 0;border-top:1px dashed var(--line);
+    font-size:14.5px;align-items:baseline;
+  }
+  .kv li:first-child{border-top:none}
+  .kv .k{
+    flex:0 0 92px;font-weight:700;color:var(--ink);font-size:13.5px;
+  }
+  .subject.hist .kv .k{color:var(--hist-deep)}
+  .subject.geo  .kv .k{color:var(--geo-deep)}
+  .kv .v{flex:1;color:#3c372f}
+  mark{background:transparent;font-weight:700;padding:0 1px}
+  .subject.hist mark{color:var(--hist)}
+  .subject.geo  mark{color:var(--geo)}
+  .hl{border-radius:4px;padding:1px 5px;font-weight:700;font-size:13px}
+  .subject.hist .hl{background:var(--hist-soft);color:var(--hist-deep)}
+  .subject.geo  .hl{background:var(--geo-soft);color:var(--geo-deep)}
+
+  /* pull-quote / key point */
+  .key{
+    margin:14px 0 2px;padding:11px 15px;border-radius:10px;font-size:13.5px;
+    display:flex;gap:10px;align-items:flex-start;
+  }
+  .subject.hist .key{background:var(--hist-soft)}
+  .subject.geo  .key{background:var(--geo-soft)}
+  .key b{white-space:nowrap}
+  .subject.hist .key b{color:var(--hist-deep)}
+  .subject.geo  .key b{color:var(--geo-deep)}
+
+  /* figure */
+  figure{margin:16px 0 4px;text-align:center}
+  figure svg{width:100%;height:auto;max-width:640px;display:block;margin:0 auto;
+    border:1px solid var(--line);border-radius:12px;background:#fff}
+  figcaption{font-size:12px;color:var(--muted);margin-top:7px}
+
+  /* compare table */
+  table{width:100%;border-collapse:collapse;margin:14px 0 4px;font-size:13.5px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  thead th{color:#fff;font-weight:700}
+  .subject.hist thead th{background:var(--hist)}
+  .subject.geo  thead th{background:var(--geo)}
+  tbody th{background:#faf6ef;font-weight:700;width:34%}
+  .subject.geo tbody th{background:#f0f7f8}
+
+  /* diagram text helpers */
+  .dlabel{font:600 12px var(--sans)} .dsmall{font:500 10.5px var(--sans)}
+  .dtitle{font:700 13px var(--sans)}
+
+  footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:12.5px;text-align:center}
+
+  @media (max-width:560px){
+    body{font-size:15px}
+    .kv .k{flex-basis:74px;font-size:12.5px}
+    .wrap{padding:0 14px 70px}
+    .card{padding:16px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  @media print{
+    .nav{display:none}.card,figure svg{break-inside:avoid}
+    body{font-size:12px}.hero{padding-top:10px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <span class="brand">图文讲义 · 七上前两单元</span>
+  <a class="h" href="#hist">历史</a>
+  <a class="h" href="#h1">史前</a>
+  <a class="h" href="#h2">夏商周</a>
+  <a class="g" href="#geo">地理</a>
+  <a class="g" href="#g1">地球</a>
+  <a class="g" href="#g2">地图</a>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="kicker">初中 · 七年级上册</div>
+    <h1>历史 · 地理<br>图文讲义</h1>
+    <p class="sub">把课本前两单元的核心考点，配上时间轴、经纬网、地球运动、等高线等示意图，方便看图记知识。</p>
+    <div class="meta">
+      <span>历史：统编版（2024）</span>
+      <span>地理：人教版（2024）</span>
+      <span>历史 第一、二单元</span>
+      <span>地理 第一、二章</span>
+    </div>
+  </header>
+
+  <footer>
+    UI 参考文件 · 用于北京初高中学习门户视觉风格参照
+  </footer>
+
+</div>
+</body>
+</html>

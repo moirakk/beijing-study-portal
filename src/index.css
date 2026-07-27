@@ -1,0 +1,120 @@
+@import 'katex/dist/katex.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+ * 全局基调：学术讲义感 —— 暖色纸张底、宋体标题、苹方正文
+ * ------------------------------------------------------------------------- */
+@layer base {
+  html {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+
+  .dark html,
+  html.dark {
+    @apply bg-neutral-900 text-neutral-100;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif tracking-wide;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * 讲义组件：卡片 / 标签 / 高亮 / 要点框 / KV 列表
+ * ------------------------------------------------------------------------- */
+@layer components {
+  /* 白色圆角卡片（14px 圆角） */
+  .card {
+    @apply bg-card rounded-card shadow-card border border-line p-5 dark:bg-neutral-800 dark:border-neutral-700;
+  }
+
+  /* 标签（tag）：如 #中考高频 #易错 */
+  .tag {
+    @apply inline-block rounded-full border border-gold-light bg-paper px-2.5 py-0.5 text-xs text-gold-dark dark:bg-neutral-800 dark:text-gold-light dark:border-gold-dark;
+  }
+
+  /* 行内高亮（mark / hl） */
+  .hl,
+  mark {
+    @apply rounded bg-gold-light/50 px-1 text-inherit dark:bg-gold-dark/40;
+  }
+
+  /* 要点提示框（key）：金色左边线 */
+  .key {
+    @apply rounded-card border-l-4 border-gold bg-gold-light/20 px-4 py-3 dark:bg-gold-dark/15;
+  }
+
+  /* KV 键值对列表 */
+  .kv {
+    @apply divide-y divide-line dark:divide-neutral-700;
+  }
+  .kv > div {
+    @apply flex items-baseline gap-4 py-2;
+  }
+  .kv .k {
+    @apply w-24 shrink-0 text-sm text-ink-soft dark:text-neutral-400;
+  }
+  .kv .v {
+    @apply text-sm;
+  }
+
+  /* Markdown 正文排版（讲义风格） */
+  .markdown-body {
+    @apply text-[15px] leading-7 md:text-base md:leading-8;
+  }
+  .markdown-body h1 {
+    @apply mb-3 mt-6 text-xl font-bold first:mt-0;
+  }
+  .markdown-body h2 {
+    @apply mb-2 mt-6 border-b border-line pb-1.5 text-lg font-bold first:mt-0 dark:border-neutral-700;
+  }
+  .markdown-body h3 {
+    @apply mb-2 mt-4 text-base font-bold;
+  }
+  .markdown-body p {
+    @apply my-2.5;
+  }
+  .markdown-body ul,
+  .markdown-body ol {
+    @apply my-2.5 space-y-1 pl-6;
+  }
+  .markdown-body ul {
+    @apply list-disc;
+  }
+  .markdown-body ol {
+    @apply list-decimal;
+  }
+  .markdown-body blockquote {
+    @apply my-3 rounded-card border-l-4 border-gold bg-gold-light/20 px-4 py-2.5 text-[14.5px] dark:bg-gold-dark/15;
+  }
+  .markdown-body blockquote p {
+    @apply my-1;
+  }
+  .markdown-body table {
+    @apply my-3 w-full border-collapse text-sm;
+  }
+  .markdown-body th {
+    @apply border border-line bg-gold-light/30 px-3 py-1.5 text-left font-semibold dark:border-neutral-700 dark:bg-gold-dark/20;
+  }
+  .markdown-body td {
+    @apply border border-line px-3 py-1.5 dark:border-neutral-700;
+  }
+  .markdown-body code {
+    @apply rounded bg-paper px-1.5 py-0.5 text-[0.9em] dark:bg-neutral-900;
+  }
+  .markdown-body pre {
+    @apply my-3 overflow-x-auto rounded-card bg-paper p-4 dark:bg-neutral-900;
+  }
+  .markdown-body hr {
+    @apply my-5 border-line dark:border-neutral-700;
+  }
+  .markdown-body .katex-display {
+    @apply my-3 overflow-x-auto overflow-y-hidden py-1;
+  }
+}
