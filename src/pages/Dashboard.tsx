@@ -14,9 +14,20 @@ const GRADE_FILTERS = [
   { label: '高三', val: '12' },
 ]
 
+const SEMESTER_FILTERS = [
+  { label: '全部', val: 'all' },
+  { label: '上学期', val: 'a' },
+  { label: '下学期', val: 'b' },
+]
+
 export default function Dashboard() {
   const subjects = getSubjects()
   const [gradeFilter, setGradeFilter] = useState('all')
+  
+  const currentMonth = new Date().getMonth() + 1
+  const defaultSemester = (currentMonth >= 2 && currentMonth <= 7) ? 'b' : 'a'
+  const [semesterFilter, setSemesterFilter] = useState(defaultSemester)
+  
   const [subjectFilter, setSubjectFilter] = useState('all')
 
   const subjectFilters = [
@@ -52,6 +63,10 @@ export default function Dashboard() {
   const filteredChapters = allChapters.filter((item) => {
     if (gradeFilter !== 'all' && item.gradePrefix !== gradeFilter) return false
     if (subjectFilter !== 'all' && item.subject.id !== subjectFilter) return false
+    if (semesterFilter !== 'all') {
+      const semesterSuffix = item.grade.id.slice(-1)
+      if (semesterSuffix !== semesterFilter) return false
+    }
     return true
   })
 
@@ -80,6 +95,25 @@ export default function Dashboard() {
               <button
                 key={f.val}
                 onClick={() => setGradeFilter(f.val)}
+                className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-colors ${
+                  active
+                    ? 'border-transparent bg-gold text-white'
+                    : 'border-transparent bg-paper text-ink-soft hover:border-line hover:bg-panel hover:text-ink'
+                }`}
+              >
+                {f.label}
+              </button>
+            )
+          })}
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="w-10 text-[14px] font-bold text-ink-soft">学期</span>
+          {SEMESTER_FILTERS.map((f) => {
+            const active = semesterFilter === f.val
+            return (
+              <button
+                key={f.val}
+                onClick={() => setSemesterFilter(f.val)}
                 className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-colors ${
                   active
                     ? 'border-transparent bg-gold text-white'
