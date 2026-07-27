@@ -165,6 +165,10 @@
     color: #fff;
     background: var(--s);
   }
+  /* 暗色下 --s 被提亮，改用深色文字保证对比度 */
+  .dark .unit-badge {
+    color: var(--panel);
+  }
 
   /* 标签：学科浅底圆角（参考 .card>h4 .tag） */
   .tag {
@@ -178,16 +182,6 @@
     color: var(--s-deep);
   }
 
-  /* 胶囊 meta（参考 .hero .meta span） */
-  .pill {
-    padding: 4px 12px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    background: var(--panel);
-    color: var(--muted);
-    font-size: 12.5px;
-  }
-
   /* 行内高亮：学科浅底（参考 .hl） */
   .hl {
     border-radius: 4px;
@@ -195,22 +189,6 @@
     font-weight: 700;
     font-size: 13px;
     background: var(--s-soft);
-    color: var(--s-deep);
-  }
-
-  /* 要点提示框：学科浅底圆角 + 粗体标签（参考 .key） */
-  .key {
-    margin: 14px 0 2px;
-    padding: 11px 15px;
-    border-radius: 10px;
-    font-size: 13.5px;
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    background: var(--s-soft);
-  }
-  .key b {
-    white-space: nowrap;
     color: var(--s-deep);
   }
 
@@ -340,6 +318,11 @@ mark {
   }
   .markdown-body thead th strong {
     color: #fff;
+  }
+  /* 暗色下 --s 被提亮，表头改用深色文字保证对比度 */
+  .dark .markdown-body thead th,
+  .dark .markdown-body thead th strong {
+    color: var(--panel);
   }
   .markdown-body tbody td {
     background: var(--panel);

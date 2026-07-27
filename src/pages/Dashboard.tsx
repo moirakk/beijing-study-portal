@@ -1,10 +1,9 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import ChapterCard from '../components/ChapterCard'
+import SemesterPillNav from '../components/SemesterPillNav'
 import { getSubjects } from '../lib/contentLoader'
 import {
-  ALL_GRADE_IDS,
   CN_NUMERALS,
-  GRADE_TITLES,
   SUBJECT_EN,
   semesterFullLabel,
   subjectVars,
@@ -51,7 +50,7 @@ export default function Dashboard() {
 
       {/* 学期快捷入口 */}
       <div className="mt-4 border-b border-line pb-4">
-        <div className="mb-2 flex items-baseline gap-2">
+        <div className="mb-2.5 flex items-baseline gap-2">
           <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
             按学期
           </span>
@@ -59,24 +58,17 @@ export default function Dashboard() {
             选择学期，查看该学期全部科目目录
           </span>
         </div>
-        <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
-          {ALL_GRADE_IDS.map((gradeId) => (
-            <Link
-              key={gradeId}
-              to={`/semester/${gradeId}`}
-              className="shrink-0 rounded-full border border-line bg-panel px-3.5 py-1 text-[12.5px] font-semibold text-ink-soft transition-colors hover:border-gold hover:bg-[var(--s-soft,#f2eadc)] hover:text-ink"
-            >
-              {GRADE_TITLES[gradeId]}
-            </Link>
-          ))}
-        </div>
+        <SemesterPillNav />
       </div>
 
       {/* 科目选择栏 */}
       <div className="mt-4 border-b border-line pb-4">
-        <div className="mb-2 flex items-baseline gap-2">
+        <div className="mb-2.5 flex items-baseline gap-2">
           <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
             按科目
+          </span>
+          <span className="text-[12px] text-ink-faint">
+            选择科目，浏览各学期教材目录
           </span>
         </div>
         <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
@@ -142,7 +134,7 @@ function SubjectToc({
       <div className="subject-head mt-10">
         <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
         <div>
-          <h1 className="name">{subject.name}</h1>
+          <h2 className="name">{subject.name}</h2>
           <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
         </div>
       </div>
@@ -215,35 +207,7 @@ function SemesterSection({
             </div>
           ) : (
             grade.chapters.map((chapter) => (
-              <div key={chapter.id} className="card mt-3 first:mt-0">
-                <h4 className="m-0 mb-1 flex items-center gap-2.5 font-sans text-[16px] font-extrabold tracking-normal text-ink">
-                  <span className="tag">{chapter.title.match(/^第.+?章/)?.[0] ?? '章节'}</span>
-                  {chapter.title.replace(/^第.+?章\s*/, '')}
-                </h4>
-                {chapter.topics.length === 0 ? (
-                  <div className="pt-1 text-[13.5px] text-ink-faint">
-                    本章内容整理中
-                  </div>
-                ) : (
-                  <ul className="kv mt-1">
-                    {chapter.topics.map((topic) => (
-                      <li key={topic.id} className="!p-0">
-                        <Link
-                          to={`/topic/${topic.id}`}
-                          className="group/t -mx-2 flex w-full items-baseline gap-3 rounded-md px-2 py-[7px] transition-colors hover:bg-[var(--s-soft)]"
-                        >
-                          <span className="flex-1 text-[14.5px] font-semibold text-[var(--s-deep)]">
-                            {topic.title}
-                          </span>
-                          <span className="text-[13px] text-ink-faint transition-colors group-hover/t:text-[var(--s)]">
-                            →
-                          </span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
+              <ChapterCard key={chapter.id} chapter={chapter} />
             ))
           )}
         </div>

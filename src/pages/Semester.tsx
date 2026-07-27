@@ -1,10 +1,12 @@
 import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb'
+import ChapterCard from '../components/ChapterCard'
+import SemesterPillNav from '../components/SemesterPillNav'
 import { getSubjects } from '../lib/contentLoader'
 import {
   ALL_GRADE_IDS,
   CN_NUMERALS,
-  GRADE_TITLES,
   SUBJECT_EN,
   semesterFullLabel,
   subjectVars,
@@ -62,8 +64,15 @@ export default function Semester() {
 
   return (
     <div>
+      <Breadcrumb
+        items={[
+          { label: '首页', to: '/' },
+          { label: semesterFullLabel(gradeId) },
+        ]}
+      />
+
       {/* 学期大标题 + 金色渐变分隔线 */}
-      <header className="pt-8 md:pt-[56px]">
+      <header className="mt-6">
         <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
           北京 · 初高中学习资料 · 按学期
         </div>
@@ -75,26 +84,19 @@ export default function Semester() {
           style={{ background: 'linear-gradient(90deg, var(--gold), transparent)' }}
         />
         {/* 学期切换胶囊 */}
-        <div className="mt-5 flex flex-wrap gap-2">
-          {ALL_GRADE_IDS.map((g) => (
-            <Link
-              key={g}
-              to={`/semester/${g}`}
-              className={`rounded-full border px-3.5 py-1 text-[12.5px] font-semibold transition-colors ${
-                g === gradeId
-                  ? 'border-transparent bg-gold text-white dark:text-panel'
-                  : 'border-line bg-panel text-ink-soft hover:border-gold hover:text-ink'
-              }`}
-            >
-              {GRADE_TITLES[g]}
-            </Link>
-          ))}
+        <div className="mt-5">
+          <SemesterPillNav current={gradeId} />
         </div>
       </header>
 
       {/* 按学科分段 */}
       {entries.map((entry, i) => (
-        <SubjectSection key={entry.subject.id} entry={entry} index={i} />
+        <SubjectSection
+          key={entry.subject.id}
+          entry={entry}
+          index={i}
+          gradeId={gradeId}
+        />
       ))}
     </div>
   )
@@ -104,9 +106,11 @@ export default function Semester() {
 function SubjectSection({
   entry,
   index,
+  gradeId,
 }: {
   entry: SubjectSemesterEntry
   index: number
+  gradeId: GradeId
 }) {
   const { subject, chapters, textbook } = entry
   const hasContent = chapters.length > 0
@@ -119,7 +123,18 @@ function SubjectSection({
       <div className="subject-head">
         <span className="num">{CN_NUMERALS[index] ?? '1'}</span>
         <div>
-          <h2 className="name">{subject.name}</h2>
+          <h2 className="name">
+            {hasContent ? (
+              <Link
+                to={`/subject/${subject.id}?grade=${gradeId}`}
+                className="transition-opacity hover:opacity-80"
+              >
+                {subject.name}
+              </Link>
+            ) : (
+              subject.name
+            )}
+          </h2>
           <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
         </div>
         {textbook && hasContent && (
@@ -137,37 +152,7 @@ function SubjectSection({
       ) : (
         <div className="mt-4">
           {chapters.map((chapter) => (
-            <div key={chapter.id} className="card mt-3 first:mt-0">
-              <h4 className="m-0 mb-1 flex items-center gap-2.5 font-sans text-[16px] font-extrabold tracking-normal text-ink">
-                <span className="tag">
-                  {chapter.title.match(/^第.+?[章单元]/)?.[0] ?? '章节'}
-                </span>
-                {chapter.title.replace(/^第.+?[章单元]\s*/, '')}
-              </h4>
-              {chapter.topics.length === 0 ? (
-                <div className="pt-1 text-[13.5px] text-ink-faint">
-                  本章内容整理中
-                </div>
-              ) : (
-                <ul className="kv mt-1">
-                  {chapter.topics.map((topic) => (
-                    <li key={topic.id} className="!p-0">
-                      <Link
-                        to={`/topic/${topic.id}`}
-                        className="group/t -mx-2 flex w-full items-baseline gap-3 rounded-md px-2 py-[7px] transition-colors hover:bg-[var(--s-soft)]"
-                      >
-                        <span className="flex-1 text-[14.5px] font-semibold text-[var(--s-deep)]">
-                          {topic.title}
-                        </span>
-                        <span className="text-[13px] text-ink-faint transition-colors group-hover/t:text-[var(--s)]">
-                          →
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+            <ChapterCard key={chapter.id} chapter={chapter} />
           ))}
         </div>
       )}

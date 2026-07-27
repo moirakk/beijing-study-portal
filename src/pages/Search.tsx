@@ -203,7 +203,7 @@ export default function Search() {
           <p className="text-center text-sm text-ink-faint">
             输入关键词开始搜索（提示：按{' '}
             <kbd className="rounded border border-line bg-panel px-1.5">/</kbd>{' '}
-            可快速聚焦顶栏搜索框）
+            可快速聚焦搜索框）
           </p>
         ) : searching ? (
           <p className="text-center text-sm text-ink-faint">

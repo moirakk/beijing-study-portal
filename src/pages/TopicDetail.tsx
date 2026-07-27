@@ -83,7 +83,6 @@ export default function TopicDetail() {
     loadTopicContent(loc.topic).then((c) => {
       if (!cancelled) setContent(c)
     })
-    window.scrollTo(0, 0)
     return () => {
       cancelled = true
     }
@@ -99,7 +98,17 @@ export default function TopicDetail() {
   }, [loc])
 
   if (!loc || !id) {
-    return <div className="card text-ink-soft">未找到该知识点。</div>
+    return (
+      <div className="py-20 text-center">
+        <div className="text-[15px] text-ink-soft">未找到该知识点。</div>
+        <Link
+          to="/"
+          className="mt-4 inline-block rounded-full border border-line bg-panel px-4 py-1.5 text-[13.5px] font-semibold text-ink-soft transition-colors hover:border-gold hover:text-ink"
+        >
+          ← 返回首页
+        </Link>
+      </div>
+    )
   }
 
   const { subject, grade, chapter, topic } = loc
@@ -110,10 +119,10 @@ export default function TopicDetail() {
 
   const prereqTopics = topic.prerequisites
     .map((pid) => findTopic(pid))
-    .filter((x) => x != null)
+    .filter((x): x is NonNullable<typeof x> => x != null)
   const relatedTopics = topic.related
     .map((rid) => findTopic(rid))
-    .filter((x) => x != null)
+    .filter((x): x is NonNullable<typeof x> => x != null)
 
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
@@ -121,8 +130,8 @@ export default function TopicDetail() {
         items={[
           { label: '首页', to: '/' },
           { label: subject.name, to: `/subject/${subject.id}` },
-          { label: grade.title, to: `/subject/${subject.id}` },
-          { label: chapter.title, to: `/subject/${subject.id}` },
+          { label: grade.title, to: `/subject/${subject.id}?grade=${grade.id}` },
+          { label: chapter.title, to: `/subject/${subject.id}?grade=${grade.id}` },
           { label: topic.title },
         ]}
       />
@@ -162,17 +171,16 @@ export default function TopicDetail() {
       {availableSections.length > 0 && (
         <nav className="nav-blur top-12 z-[5] -mx-1 mt-5 flex gap-1.5 overflow-x-auto rounded-full border border-line px-2 py-1.5">
           {availableSections.map((s) => (
-            <a
+            <button
               key={s.key}
-              href={`#/topic/${id}`}
-              onClick={(e) => {
-                e.preventDefault()
+              type="button"
+              onClick={() => {
                 document.getElementById(s.anchor)?.scrollIntoView({ behavior: 'smooth' })
               }}
               className="nav-link"
             >
               {s.title}
-            </a>
+            </button>
           ))}
         </nav>
       )}
@@ -214,7 +222,7 @@ export default function TopicDetail() {
             </h2>
             <div className="space-y-4">
               {splitProblems(content.examples).map((p, i) => (
-                <ProblemCard key={i} heading={p.heading} body={p.body} />
+                <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
               ))}
             </div>
           </section>
@@ -227,7 +235,7 @@ export default function TopicDetail() {
             </h2>
             <div className="space-y-4">
               {splitProblems(content.exams).map((p, i) => (
-                <ProblemCard key={i} heading={p.heading} body={p.body} />
+                <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
               ))}
             </div>
           </section>
@@ -253,14 +261,14 @@ export default function TopicDetail() {
               </h2>
               <ul className="kv">
                 {prereqTopics.map((p) => (
-                  <li key={p!.topic.id}>
+                  <li key={p.topic.id}>
                     <span className="k">建议先学</span>
                     <span className="v">
                       <Link
-                        to={`/topic/${p!.topic.id}`}
+                        to={`/topic/${p.topic.id}`}
                         className="font-medium text-[var(--s)] hover:underline"
                       >
-                        {p!.topic.title}
+                        {p.topic.title}
                       </Link>
                     </span>
                   </li>
@@ -289,14 +297,14 @@ export default function TopicDetail() {
                   </li>
                 ))}
                 {relatedTopics.map((r) => (
-                  <li key={r!.topic.id}>
+                  <li key={r.topic.id}>
                     <span className="k">关联</span>
                     <span className="v">
                       <Link
-                        to={`/topic/${r!.topic.id}`}
+                        to={`/topic/${r.topic.id}`}
                         className="font-medium text-[var(--s)] hover:underline"
                       >
-                        {r!.topic.title}
+                        {r.topic.title}
                       </Link>
                     </span>
                   </li>

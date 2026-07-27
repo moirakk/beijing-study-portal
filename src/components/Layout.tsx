@@ -59,7 +59,7 @@ export default function Layout() {
               end
               className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
             >
-              学科
+              目录
             </NavLink>
             <NavLink
               to="/search"

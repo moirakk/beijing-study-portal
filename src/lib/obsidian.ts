@@ -41,14 +41,3 @@ export function transformWikilinks(markdown: string): string {
     return `[${label}](#/topic/${topicId})`
   })
 }
-
-/** 提取正文中出现的 #标签（与全局标签体系配合，用于搜索/筛选） */
-export function extractHashTags(markdown: string): string[] {
-  const tags = new Set<string>()
-  const re = /(^|\s)(#[\u4e00-\u9fa5\w]+)/g
-  let m: RegExpExecArray | null
-  while ((m = re.exec(markdown)) !== null) {
-    tags.add(m[2])
-  }
-  return Array.from(tags)
-}

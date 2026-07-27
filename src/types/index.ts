@@ -122,30 +122,3 @@ export interface TopicContent {
   /** 🧠 导图：markmap 大纲 */
   mindmap?: string
 }
-
-// ---------------------------------------------------------------------------
-// 搜索
-// ---------------------------------------------------------------------------
-
-export interface SearchResult {
-  /** 命中的知识点 id */
-  topicId: string
-  /** 知识点标题 */
-  title: string
-  /** 命中的资料类型（标题命中时为 null） */
-  materialType: MaterialType | null
-  /** 所属路径，如 ["数学", "初一上", "第一章 有理数"] */
-  breadcrumb: string[]
-  /** 命中片段（用于高亮展示） */
-  snippet: string
-  /** 相关度得分 */
-  score: number
-}
-
-/** 搜索筛选条件 */
-export interface SearchFilters {
-  subject?: SubjectId
-  grade?: GradeId
-  materialType?: MaterialType
-  tag?: TopicTag
-}

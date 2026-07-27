@@ -63,16 +63,9 @@ export function findTopic(topicId: string): TopicLocation | undefined {
   return buildTopicIndex().get(topicId)
 }
 
-/** 获取全部知识点（用于搜索索引、进度统计） */
+/** 获取全部知识点（用于搜索索引、关联推荐） */
 export function getAllTopics(): TopicLocation[] {
   return Array.from(buildTopicIndex().values())
-}
-
-/** 知识点的面包屑，如 ["数学", "初一上", "第一章 有理数", "正数和负数"] */
-export function getBreadcrumb(topicId: string): string[] {
-  const loc = findTopic(topicId)
-  if (!loc) return []
-  return [loc.subject.name, loc.grade.title, loc.chapter.title, loc.topic.title]
 }
 
 // ---------------------------------------------------------------------------

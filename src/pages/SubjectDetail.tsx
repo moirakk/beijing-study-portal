@@ -1,31 +1,40 @@
-import { useMemo, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useMemo } from 'react'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import { getSubject, getSubjects } from '../lib/contentLoader'
-import { CN_NUMERALS, SUBJECT_EN, subjectVars } from '../lib/constants'
+import { CN_NUMERALS, SUBJECT_EN, difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId } from '../types'
 
 /**
  * 学科详情页：subject-head（大宋体数字 + 学科名 + 英文 + 渐变色条）
  * + 学期切换 + 章节卡片（unit-badge 序号方块 + 知识点列表）。
+ * 学期选中状态存于 ?grade= 查询参数，便于外部链接直达并保持返回定位。
  */
 export default function SubjectDetail() {
   const { id } = useParams<{ id: string }>()
+  const [params, setParams] = useSearchParams()
   const subject = id ? getSubject(id) : undefined
 
   const gradesWithContent = useMemo(
     () => subject?.grades.filter((g) => g.chapters.length > 0) ?? [],
     [subject],
   )
-  const [activeGradeId, setActiveGradeId] = useState<string | null>(null)
+  const paramGradeId = params.get('grade')
 
   if (!subject) {
     return <div className="card text-ink-soft">未找到该学科。</div>
   }
 
   const subjectIndex = getSubjects().findIndex((s) => s.id === subject.id)
-  const currentGradeId = activeGradeId ?? gradesWithContent[0]?.id ?? null
+  const currentGradeId =
+    (paramGradeId && gradesWithContent.some((g) => g.id === paramGradeId)
+      ? paramGradeId
+      : null) ??
+    gradesWithContent[0]?.id ??
+    null
   const currentGrade = gradesWithContent.find((g) => g.id === currentGradeId) ?? null
+  const setActiveGradeId = (gradeId: string) =>
+    setParams({ grade: gradeId }, { replace: true })
 
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
@@ -109,8 +118,7 @@ export default function SubjectDetail() {
                           className="ml-auto text-xs text-[var(--s)]"
                           title={`难度 ${topic.difficulty}/5`}
                         >
-                          {'★'.repeat(topic.difficulty)}
-                          {'☆'.repeat(5 - topic.difficulty)}
+                          {difficultyStars(topic.difficulty)}
                         </span>
                       </div>
                       <div className="mt-1.5 flex flex-wrap items-center gap-1.5 text-xs text-ink-soft">
