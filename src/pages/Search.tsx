@@ -19,6 +19,9 @@ const ALL_TAGS: TopicTag[] = [
 ]
 const MATERIAL_TYPES: MaterialType[] = ['note', 'formula', 'example', 'exam', 'mindmap']
 
+/** 渐进披露：结果先展示前 8 条，点击"展开更多"每次多显示 8 条 */
+const PAGE_SIZE = 8
+
 interface ResultRow {
   hit: SearchHit
   loc: TopicLocation
@@ -81,6 +84,7 @@ export default function Search() {
   const [fTag, setFTag] = useState<TopicTag | ''>('')
   const [hits, setHits] = useState<SearchHit[]>([])
   const [searching, setSearching] = useState(false)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   useEffect(() => {
     setInput(query)
@@ -132,6 +136,14 @@ export default function Search() {
         return true
       })
   }, [hits, fSubject, fGrade, fMaterial, fTag])
+
+  // 查询或筛选变化时重置渐进披露条数
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [query, fSubject, fGrade, fMaterial, fTag])
+
+  const visibleResults = results.slice(0, visibleCount)
+  const remaining = results.length - visibleResults.length
 
   const submit = () => {
     const q = input.trim()
@@ -220,9 +232,12 @@ export default function Search() {
           </div>
         ) : (
           <>
-            <p className="mb-3 text-[13px] text-ink-soft">共 {results.length} 条结果</p>
+            <p className="mb-3 text-[13px] text-ink-soft">
+              共 {results.length} 条结果
+              {remaining > 0 && `，先展示前 ${visibleResults.length} 条`}
+            </p>
             <ul className="space-y-3.5">
-              {results.map(({ hit, loc }) => (
+              {visibleResults.map(({ hit, loc }) => (
                 <li key={hit.topicId} style={subjectVars(loc.subject.id as SubjectId)}>
                   <Link
                     to={`/topic/${hit.topicId}`}
@@ -248,6 +263,16 @@ export default function Search() {
                 </li>
               ))}
             </ul>
+            {remaining > 0 && (
+              <button
+                type="button"
+                onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+                className="mt-4 flex w-full items-center justify-center gap-2 rounded-full border border-line bg-panel px-4 py-2 text-[13.5px] font-semibold text-ink-soft transition-colors hover:border-gold hover:text-ink"
+              >
+                展开更多（还有 {remaining} 条）
+                <span className="text-[11px] leading-none" aria-hidden>▾</span>
+              </button>
+            )}
           </>
         )}
       </div>

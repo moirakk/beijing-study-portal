@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import type { ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import Markdown from '../components/Markdown'
@@ -19,6 +20,60 @@ const SECTIONS: Section[] = [
   { key: 'exams', anchor: 'sec-exams', title: '真题' },
   { key: 'mindmap', anchor: 'sec-mindmap', title: '导图' },
 ]
+
+/** 各内容区的小标签文案 */
+const SECTION_BADGES: Record<string, string> = {
+  note: '概念讲解',
+  formulas: '速查卡片',
+  examples: '典型题精讲',
+  exams: '北京中高考',
+  mindmap: '知识脉络',
+}
+
+/**
+ * 可折叠内容分区：标题整行可点收起/展开，与目录页折叠交互一致。
+ * 由父级受控（锚点导航点击时需强制展开再滚动）。
+ */
+function CollapsibleSection({
+  anchor,
+  title,
+  badge,
+  open,
+  onToggle,
+  children,
+}: {
+  anchor: string
+  title: string
+  badge: string
+  open: boolean
+  onToggle: () => void
+  children: ReactNode
+}) {
+  return (
+    <section id={anchor} className="card scroll-mt-28 overflow-hidden !p-0">
+      <button
+        type="button"
+        onClick={onToggle}
+        aria-expanded={open}
+        className="flex w-full items-center gap-2.5 px-4 py-3.5 text-left transition-colors hover:bg-[var(--s-soft)] md:px-[26px]"
+      >
+        <span className="font-sans text-[16.5px] font-extrabold tracking-normal text-ink">
+          {title}
+        </span>
+        <span className="tag">{badge}</span>
+        <span
+          className={`ml-auto shrink-0 text-[11px] leading-none text-ink-faint transition-transform duration-200 ${
+            open ? '' : '-rotate-90'
+          }`}
+          aria-hidden
+        >
+          ▾
+        </span>
+      </button>
+      {open && <div className="px-4 pb-4 md:px-[26px] md:pb-5">{children}</div>}
+    </section>
+  )
+}
 
 /** 把例题/真题 Markdown 按 `## ` 标题拆分为独立题块 */
 function splitProblems(md: string): { heading: string; body: string }[] {
@@ -54,9 +109,17 @@ function ProblemCard({ heading, body }: { heading: string; body: string }) {
           <button
             type="button"
             onClick={() => setOpen(!open)}
+            aria-expanded={open}
             className="flex w-full items-center gap-2 rounded-lg bg-[var(--s-soft)] px-4 py-2.5 text-sm font-bold text-[var(--s-deep)] transition-opacity hover:opacity-85"
           >
-            <span className={`text-xs transition-transform ${open ? 'rotate-90' : ''}`}>▶</span>
+            <span
+              className={`text-[11px] leading-none transition-transform duration-200 ${
+                open ? '' : '-rotate-90'
+              }`}
+              aria-hidden
+            >
+              ▾
+            </span>
             {open ? '收起解析' : '展开解析'}
           </button>
           {open && (
@@ -75,10 +138,13 @@ export default function TopicDetail() {
   const { id } = useParams<{ id: string }>()
   const loc = id ? findTopic(id) : undefined
   const [content, setContent] = useState<TopicContent | null>(null)
+  // 各内容分区的展开状态（key → open）；换知识点时重置为全展开
+  const [openSections, setOpenSections] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
     if (!loc) return
     setContent(null)
+    setOpenSections({})
     let cancelled = false
     loadTopicContent(loc.topic).then((c) => {
       if (!cancelled) setContent(c)
@@ -130,6 +196,17 @@ export default function TopicDetail() {
   const prevTopic = idx > 0 ? siblings[idx - 1] : null
   const nextInChapter = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null
 
+  const isOpen = (key: string) => openSections[key] ?? true
+  const toggleSection = (key: string) =>
+    setOpenSections((prev) => ({ ...prev, [key]: !(prev[key] ?? true) }))
+  /** 锚点导航：先确保目标分区展开，再平滑滚动过去 */
+  const jumpToSection = (s: Section) => {
+    setOpenSections((prev) => ({ ...prev, [s.key]: true }))
+    requestAnimationFrame(() => {
+      document.getElementById(s.anchor)?.scrollIntoView({ behavior: 'smooth' })
+    })
+  }
+
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
       <Breadcrumb
@@ -174,9 +251,7 @@ export default function TopicDetail() {
             <button
               key={s.key}
               type="button"
-              onClick={() => {
-                document.getElementById(s.anchor)?.scrollIntoView({ behavior: 'smooth' })
-              }}
+              onClick={() => jumpToSection(s)}
               className="nav-link"
             >
               {s.title}
@@ -198,56 +273,71 @@ export default function TopicDetail() {
         )}
 
         {content?.note && (
-          <section id="sec-note" className="card scroll-mt-28">
-            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
-              笔记 <span className="tag">概念讲解</span>
-            </h2>
+          <CollapsibleSection
+            anchor="sec-note"
+            title="笔记"
+            badge={SECTION_BADGES.note}
+            open={isOpen('note')}
+            onToggle={() => toggleSection('note')}
+          >
             <Markdown markdown={content.note} stripH1 />
-          </section>
+          </CollapsibleSection>
         )}
 
         {content?.formulas && (
-          <section id="sec-formulas" className="card scroll-mt-28">
-            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
-              公式 <span className="tag">速查卡片</span>
-            </h2>
+          <CollapsibleSection
+            anchor="sec-formulas"
+            title="公式"
+            badge={SECTION_BADGES.formulas}
+            open={isOpen('formulas')}
+            onToggle={() => toggleSection('formulas')}
+          >
             <Markdown markdown={content.formulas} stripH1 />
-          </section>
+          </CollapsibleSection>
         )}
 
         {content?.examples && (
-          <section id="sec-examples" className="card scroll-mt-28">
-            <h2 className="m-0 mb-4 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
-              例题 <span className="tag">典型题精讲</span>
-            </h2>
+          <CollapsibleSection
+            anchor="sec-examples"
+            title="例题"
+            badge={SECTION_BADGES.examples}
+            open={isOpen('examples')}
+            onToggle={() => toggleSection('examples')}
+          >
             <div className="space-y-4">
               {splitProblems(content.examples).map((p, i) => (
                 <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
               ))}
             </div>
-          </section>
+          </CollapsibleSection>
         )}
 
         {content?.exams && (
-          <section id="sec-exams" className="card scroll-mt-28">
-            <h2 className="m-0 mb-4 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
-              真题 <span className="tag">北京中高考</span>
-            </h2>
+          <CollapsibleSection
+            anchor="sec-exams"
+            title="真题"
+            badge={SECTION_BADGES.exams}
+            open={isOpen('exams')}
+            onToggle={() => toggleSection('exams')}
+          >
             <div className="space-y-4">
               {splitProblems(content.exams).map((p, i) => (
                 <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
               ))}
             </div>
-          </section>
+          </CollapsibleSection>
         )}
 
         {content?.mindmap && (
-          <section id="sec-mindmap" className="card scroll-mt-28">
-            <h2 className="m-0 mb-3 flex items-center gap-2.5 font-sans text-[16.5px] font-extrabold tracking-normal">
-              导图 <span className="tag">知识脉络</span>
-            </h2>
+          <CollapsibleSection
+            anchor="sec-mindmap"
+            title="导图"
+            badge={SECTION_BADGES.mindmap}
+            open={isOpen('mindmap')}
+            onToggle={() => toggleSection('mindmap')}
+          >
             <Markdown markdown={content.mindmap} stripH1 />
-          </section>
+          </CollapsibleSection>
         )}
       </div>
 
