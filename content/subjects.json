@@ -5,18 +5,1088 @@
       "name": "语文",
       "icon": "📖",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "部编版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "部编版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "部编版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "部编版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "部编版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "部编版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "部编版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "部编版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "部编版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "部编版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "部编版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "部编版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-diyidanyuan",
+              "title": "第一单元",
+              "topics": [
+                {
+                  "id": "chinese-7a-1-1chunzhuziqing",
+                  "title": "1 春（朱自清）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-2jinandedongtianlaoshe",
+                  "title": "2 济南的冬天（老舍）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-3yudesijiliuzhanqiu",
+                  "title": "3* 雨的四季（刘湛秋）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-guancanghai",
+                  "title": "观沧海",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-cibeigushanxia",
+                  "title": "次北固山下",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-wenwangchanglingzuoqianlongb",
+                  "title": "闻王昌龄左迁龙标遥有此寄",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-tianjingshaqiusi",
+                  "title": "天净沙·秋思",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-1-xiezuoreaishenghuoxuehuiguan",
+                  "title": "写作：热爱生活，学会观察",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-dierdanyuan",
+              "title": "第二单元",
+              "topics": [
+                {
+                  "id": "chinese-7a-2-5qiutiandehuainianshitieshen",
+                  "title": "5 秋天的怀念（史铁生）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-6sanbumohuaiqi",
+                  "title": "6 散步（莫怀戚）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-jinsehua",
+                  "title": "金色花",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-heyemuqin",
+                  "title": "荷叶·母亲",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-8shishuoxinyuerzeyongxuechen",
+                  "title": "8 《世说新语》二则（咏雪；陈太丘与友期行）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-xuehuijishi",
+                  "title": "学会记事",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-2-zonghexingxuexiyoupengziyuan",
+                  "title": "综合性学习：有朋自远方来",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-disandanyuan",
+              "title": "第三单元",
+              "topics": [
+                {
+                  "id": "chinese-7a-3-9congbaicaoyuandaosanweishuw",
+                  "title": "9 从百草园到三味书屋（鲁迅）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-10wangshiyiyiyuyi",
+                  "title": "10 往事依依（于漪）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-11zaisushengmingderenhailunk",
+                  "title": "11* 再塑生命的人（海伦·凯勒）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-12lunyushierzhang",
+                  "title": "12 《论语》十二章",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-ruhetuchuzhongxin",
+                  "title": "如何突出中心",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-zhengbenshuyueduchaohuaxishi",
+                  "title": "整本书阅读：《朝花夕拾》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-3-kewaigushicisongduemeishanyu",
+                  "title": "课外古诗词诵读：峨眉山月歌／江南逢李龟年／行军九日思长安故园／夜上受降城闻笛",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-disidanyuan",
+              "title": "第四单元",
+              "topics": [
+                {
+                  "id": "chinese-7a-4-13jinianbaiqiuenmaozedong",
+                  "title": "13 纪念白求恩（毛泽东）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-4-14huiyiwodemuqinzhude",
+                  "title": "14 回忆我的母亲（朱德）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-4-15meilingsanzhangchenyi",
+                  "title": "15* 梅岭三章（陈毅）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-4-16jiezishuzhugeliang",
+                  "title": "16 诫子书（诸葛亮）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-4-siluyaoqingxi",
+                  "title": "思路要清晰",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-4-zonghexingxuexishaonianzheng",
+                  "title": "综合性学习：少年正是读书时",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-huodongtanjiu",
+              "title": "第五单元（活动·探究）",
+              "topics": [
+                {
+                  "id": "chinese-7a-5-17maozhengzhenduo",
+                  "title": "17 猫（郑振铎）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-5-18wodebaigechenzhongshi",
+                  "title": "18 我的白鸽（陈忠实）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-5-19dayanguilailiaobode",
+                  "title": "19 大雁归来（利奥波德）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-5-20langpusongling",
+                  "title": "20 狼（蒲松龄）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-diliudanyuan",
+              "title": "第六单元",
+              "topics": [
+                {
+                  "id": "chinese-7a-6-21xiaoshengshiweijiangdashen",
+                  "title": "21 小圣施威降大圣（吴承恩）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-22huangdidexinzhuangantushen",
+                  "title": "22 皇帝的新装（安徒生）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-23nvwazaorenyuanke",
+                  "title": "23* 女娲造人（袁珂）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-heermosihediaoxiangzhe",
+                  "title": "赫耳墨斯和雕像者",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-wenziheshizi",
+                  "title": "蚊子和狮子",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-chuanjingdeyiren",
+                  "title": "穿井得一人",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-qirenyoutian",
+                  "title": "杞人忧天",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7a-6-fahuilianxianghexiangxiangzh",
+                  "title": "发挥联想和想象／整本书阅读：《西游记》／课外古诗词诵读：秋词（其一）／夜雨寄北／十一月四日风雨大作（其二）／潼关",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-diyidanyuan",
+              "title": "第一单元",
+              "topics": [
+                {
+                  "id": "chinese-7b-1-1dengjiaxian",
+                  "title": "1 邓稼先",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-1-2shuohezuojiwenyiduoxianshen",
+                  "title": "2 说和做——记闻一多先生言行片段",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-1-3liefutuoersitai",
+                  "title": "3* 列夫·托尔斯泰",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-1-4sunquanquanxue",
+                  "title": "4 孙权劝学",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-1-xiezuoxiechurenwutedian",
+                  "title": "写作：写出人物特点",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-dierdanyuan",
+              "title": "第二单元",
+              "topics": [
+                {
+                  "id": "chinese-7b-2-5huanghesong",
+                  "title": "5 黄河颂",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-6laoshanjie",
+                  "title": "6 老山界",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-7shuishizuikeaideren",
+                  "title": "7 谁是最可爱的人",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-8tudideshiyan",
+                  "title": "8* 土地的誓言",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-9mulanshi",
+                  "title": "9 木兰诗",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-xiezuoxuexishuqing",
+                  "title": "写作：学习抒情",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-2-zhuantixuexihuodongwodeyuwen",
+                  "title": "专题学习活动：我的语文生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-disandanyuan",
+              "title": "第三单元",
+              "topics": [
+                {
+                  "id": "chinese-7b-3-10azhangyushanhaijing",
+                  "title": "10 阿长与《山海经》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-11shandihuiyisunli",
+                  "title": "11 山地回忆（孙犁）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-12taijie",
+                  "title": "12* 台阶",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-13maiyouweng",
+                  "title": "13 卖油翁",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-xiezuozhuazhuxijie",
+                  "title": "写作：抓住细节",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-zhengbenshuyueduluotuoxiangz",
+                  "title": "整本书阅读：《骆驼祥子》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-3-kewaigushicisongduzhuliguanc",
+                  "title": "课外古诗词诵读：竹里馆／春夜洛城闻笛／逢入京使／晚春",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-disidanyuan",
+              "title": "第四单元",
+              "topics": [
+                {
+                  "id": "chinese-7b-4-14yilulihua",
+                  "title": "14 驿路梨花",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-4-15qingchunzhiguangzhuhonglei",
+                  "title": "15 青春之光（祝红蕾，黄文秀事迹）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-4-16youweiyoubuweijixianlin",
+                  "title": "16* 有为有不为（季羡林）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-4-17duanwenliangpianloushiming",
+                  "title": "17 短文两篇（陋室铭；爱莲说）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-4-xiezuozenyangxuancai",
+                  "title": "写作：怎样选材",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-4-zhuantixuexihuodongxiaoqinji",
+                  "title": "专题学习活动：孝亲敬老，传承家风",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-diwudanyuan",
+              "title": "第五单元",
+              "topics": [
+                {
+                  "id": "chinese-7b-5-18jinggangcuizhuyuanying",
+                  "title": "18 井冈翠竹（袁鹰）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-19zitengluopubu",
+                  "title": "19 紫藤萝瀑布",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-20waiguoshiershoujiarushengh",
+                  "title": "20* 外国诗二首（假如生活欺骗了你；未选择的路）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-dengyouzhoutaige",
+                  "title": "登幽州台歌",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-wangyue",
+                  "title": "望岳",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-dengfeilaifeng",
+                  "title": "登飞来峰",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-youshanxicun",
+                  "title": "游山西村",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-5-jihaizashiqiwuxiezuoyuyanyao",
+                  "title": "己亥杂诗其五／写作：语言要简明／整本书阅读：《钢铁是怎样炼成的》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-huodongtanjiu",
+              "title": "第六单元（活动·探究）",
+              "topics": [
+                {
+                  "id": "chinese-7b-6-22taikongyiri",
+                  "title": "22 太空一日",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-6-23jiaolongtanhaixuchen",
+                  "title": "23 \"蛟龙\"探海（许晨）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-6-24daishangtadeyanjing",
+                  "title": "24 带上她的眼睛",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-6-25huoban",
+                  "title": "25 活板",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "chinese-7b-6-kewaigushicisongdupoqinhuaij",
+                  "title": "课外古诗词诵读：泊秦淮／贾生／过松源晨炊漆公店（其五）／约客",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "部编版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -30,15 +1100,17 @@
           "textbook": "人教版",
           "chapters": [
             {
-              "id": "ch1-rational-numbers",
+              "id": "ch1-youlishu",
               "title": "第一章 有理数",
               "topics": [
                 {
-                  "id": "math-7a-1-1",
-                  "title": "正数和负数",
-                  "difficulty": 1,
-                  "importance": "中考必考",
-                  "tags": ["#基础"],
+                  "id": "math-7a-1-11zhengshuhefushu",
+                  "title": "1.1 正数和负数",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
                   "prerequisites": [],
                   "related": [],
                   "materials": []
@@ -48,150 +1120,364 @@
                   "title": "有理数（概念与数轴、相反数、绝对值）",
                   "difficulty": 2,
                   "importance": "中考必考",
-                  "tags": ["#基础", "#易错"],
-                  "prerequisites": ["math-7a-1-1"],
-                  "related": ["math-7b-6-3"],
-                  "materials": ["note", "formula", "example"],
+                  "tags": [
+                    "#基础",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
                   "contentPath": "math/grade7-1/chapter1/rational-numbers"
                 },
+                {
+                  "id": "math-7a-1-shuzhou",
+                  "title": "数轴",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-1-xiangfanshu",
+                  "title": "相反数",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-1-jueduizhi",
+                  "title": "绝对值",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-1-daxiaobijiao",
+                  "title": "大小比较",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-youlishudeyunsuan",
+              "title": "第二章 有理数的运算",
+              "topics": [
                 {
                   "id": "math-7a-1-3",
                   "title": "有理数的加减法",
                   "difficulty": 2,
                   "importance": "中考必考",
-                  "tags": ["#基础", "#易错", "#需大量练习"],
-                  "prerequisites": ["math-7a-1-2"],
+                  "tags": [
+                    "#基础",
+                    "#易错",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [
+                    "math-7a-1-2"
+                  ],
                   "related": [],
-                  "materials": ["note", "formula", "example"],
-                  "contentPath": "math/grade7-1/chapter1/rational-add-subtract"
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter2/rational-add-subtract"
                 },
                 {
                   "id": "math-7a-1-4",
                   "title": "有理数的乘除法",
                   "difficulty": 2,
                   "importance": "中考必考",
-                  "tags": ["#基础", "#需大量练习"],
-                  "prerequisites": ["math-7a-1-3"],
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [
+                    "math-7a-1-3"
+                  ],
                   "related": [],
-                  "materials": ["note", "formula", "example"],
-                  "contentPath": "math/grade7-1/chapter1/rational-multiply-divide"
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter2/rational-multiply-divide"
                 },
                 {
-                  "id": "math-7a-1-5",
-                  "title": "有理数的乘方与科学记数法",
-                  "difficulty": 3,
+                  "id": "math-7a-2-chengfang",
+                  "title": "乘方",
+                  "difficulty": 2,
                   "importance": "中考高频",
-                  "tags": ["#易错"],
-                  "prerequisites": ["math-7a-1-4"],
-                  "related": [],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch2-integral-expressions",
-              "title": "第二章 整式的加减",
-              "topics": [
-                {
-                  "id": "math-7a-2-1",
-                  "title": "整式（单项式与多项式）",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7a-1-4"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7a-2-2",
-                  "title": "整式的加减（合并同类项、去括号）",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础", "#易错", "#需大量练习"],
-                  "prerequisites": ["math-7a-2-1"],
-                  "related": ["math-7a-3-2"],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch3-linear-equations",
-              "title": "第三章 一元一次方程",
-              "topics": [
-                {
-                  "id": "math-7a-3-1",
-                  "title": "从算式到方程（方程与等式的性质）",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7a-2-2"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7a-3-2",
-                  "title": "解一元一次方程（一）：合并同类项与移项",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础", "#需大量练习"],
-                  "prerequisites": ["math-7a-3-1", "math-7a-2-2"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7a-3-3",
-                  "title": "解一元一次方程（二）：去括号与去分母",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#易错", "#需大量练习"],
-                  "prerequisites": ["math-7a-3-2"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7a-3-4",
-                  "title": "实际问题与一元一次方程",
-                  "difficulty": 3,
-                  "importance": "中考高频",
-                  "tags": ["#提高", "#需大量练习"],
-                  "prerequisites": ["math-7a-3-3"],
-                  "related": ["math-7b-8-3"],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch4-geometry-basics",
-              "title": "第四章 几何图形初步",
-              "topics": [
-                {
-                  "id": "math-7a-4-1",
-                  "title": "几何图形（立体图形与平面图形）",
-                  "difficulty": 1,
-                  "importance": "了解即可",
-                  "tags": ["#基础"],
+                  "tags": [
+                    "#基础"
+                  ],
                   "prerequisites": [],
                   "related": [],
                   "materials": []
                 },
                 {
-                  "id": "math-7a-4-2",
-                  "title": "直线、射线、线段",
+                  "id": "math-7a-2-kexuejishufa",
+                  "title": "科学记数法",
                   "difficulty": 2,
                   "importance": "中考高频",
-                  "tags": ["#基础", "#需背诵"],
-                  "prerequisites": ["math-7a-4-1"],
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
                   "related": [],
                   "materials": []
                 },
                 {
-                  "id": "math-7a-4-3",
-                  "title": "角（度量、比较与运算、余角补角）",
-                  "difficulty": 3,
+                  "id": "math-7a-2-jinsishu",
+                  "title": "近似数",
+                  "difficulty": 2,
                   "importance": "中考高频",
-                  "tags": ["#易错", "#需背诵"],
-                  "prerequisites": ["math-7a-4-2"],
-                  "related": ["math-7b-5-1"],
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-daishushi",
+              "title": "第三章 代数式",
+              "topics": [
+                {
+                  "id": "math-7a-3-31liedaishushibiaoshishulian",
+                  "title": "3.1 列代数式表示数量关系",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-3-32daishushidezhi",
+                  "title": "3.2 代数式的值",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-3-daishushizhongdianshuli",
+                  "title": "代数式·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-zhengshidejiajian",
+              "title": "第四章 整式的加减",
+              "topics": [
+                {
+                  "id": "math-7a-4-41zhengshi",
+                  "title": "4.1 整式",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-4-42zhengshidejiafayujianfa",
+                  "title": "4.2 整式的加法与减法",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-4-zhengshidejiajianzhongdiansh",
+                  "title": "整式的加减·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-yiyuanyicifangcheng",
+              "title": "第五章 一元一次方程",
+              "topics": [
+                {
+                  "id": "math-7a-5-congsuanshidaofangcheng",
+                  "title": "从算式到方程",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-5-dengshidexingzhi",
+                  "title": "等式的性质",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-5-52jieyiyuanyicifangcheng",
+                  "title": "5.2 解一元一次方程",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-5-53shijiwentiyuyiyuanyicifang",
+                  "title": "5.3 实际问题与一元一次方程",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-jihetuxingchubu",
+              "title": "第六章 几何图形初步",
+              "topics": [
+                {
+                  "id": "math-7a-6-litituxingyupingmiantuxing",
+                  "title": "立体图形与平面图形",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-6-dianxianmianti",
+                  "title": "点线面体",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-6-62zhixianshexianxianduan",
+                  "title": "6.2 直线、射线、线段",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-6-jiaodegainian",
+                  "title": "角的概念",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-6-bijiaoyuyunsuan",
+                  "title": "比较与运算",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7a-6-yujiaohebujiao",
+                  "title": "余角和补角",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
                   "materials": []
                 }
               ]
@@ -204,216 +1490,372 @@
           "textbook": "人教版",
           "chapters": [
             {
-              "id": "ch5-intersecting-parallel-lines",
-              "title": "第五章 相交线与平行线",
+              "id": "ch7-xiangjiaoxianyupingxingxian",
+              "title": "第七章 相交线与平行线",
               "topics": [
                 {
-                  "id": "math-7b-5-1",
-                  "title": "相交线（对顶角、垂线）",
+                  "id": "math-7b-7-liangtiaozhixianxiangjiao",
+                  "title": "两条直线相交",
                   "difficulty": 2,
                   "importance": "中考高频",
-                  "tags": ["#基础", "#需背诵"],
-                  "prerequisites": ["math-7a-4-3"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-5-2",
-                  "title": "平行线及其判定",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#需背诵", "#易错"],
-                  "prerequisites": ["math-7b-5-1"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-5-3",
-                  "title": "平行线的性质",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#需背诵", "#易错"],
-                  "prerequisites": ["math-7b-5-2"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-5-4",
-                  "title": "平移",
-                  "difficulty": 2,
-                  "importance": "中考高频",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7b-5-3"],
-                  "related": [],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch6-real-numbers",
-              "title": "第六章 实数",
-              "topics": [
-                {
-                  "id": "math-7b-6-1",
-                  "title": "平方根",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#易错", "#需大量练习"],
-                  "prerequisites": ["math-7a-1-5"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-6-2",
-                  "title": "立方根",
-                  "difficulty": 2,
-                  "importance": "中考高频",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7b-6-1"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-6-3",
-                  "title": "实数（无理数与实数分类）",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#易错"],
-                  "prerequisites": ["math-7b-6-2", "math-7a-1-2"],
-                  "related": [],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch7-coordinate-system",
-              "title": "第七章 平面直角坐标系",
-              "topics": [
-                {
-                  "id": "math-7b-7-1",
-                  "title": "平面直角坐标系",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础", "#需背诵"],
-                  "prerequisites": ["math-7a-1-2"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-7-2",
-                  "title": "坐标方法的简单应用",
-                  "difficulty": 3,
-                  "importance": "中考高频",
-                  "tags": ["#提高"],
-                  "prerequisites": ["math-7b-7-1"],
-                  "related": ["math-7b-5-4"],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch8-simultaneous-linear-equations",
-              "title": "第八章 二元一次方程组",
-              "topics": [
-                {
-                  "id": "math-7b-8-1",
-                  "title": "二元一次方程组（概念）",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7a-3-3"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-8-2",
-                  "title": "消元——解二元一次方程组",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#需大量练习", "#易错"],
-                  "prerequisites": ["math-7b-8-1"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-8-3",
-                  "title": "实际问题与二元一次方程组",
-                  "difficulty": 4,
-                  "importance": "中考高频",
-                  "tags": ["#提高", "#需大量练习"],
-                  "prerequisites": ["math-7b-8-2"],
-                  "related": ["math-7a-3-4"],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-8-4",
-                  "title": "三元一次方程组的解法",
-                  "difficulty": 4,
-                  "importance": "了解即可",
-                  "tags": ["#拔高"],
-                  "prerequisites": ["math-7b-8-2"],
-                  "related": [],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch9-inequalities",
-              "title": "第九章 不等式与不等式组",
-              "topics": [
-                {
-                  "id": "math-7b-9-1",
-                  "title": "不等式（性质）",
-                  "difficulty": 2,
-                  "importance": "中考必考",
-                  "tags": ["#基础", "#易错"],
-                  "prerequisites": ["math-7a-3-1"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-9-2",
-                  "title": "一元一次不等式",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#需大量练习", "#易错"],
-                  "prerequisites": ["math-7b-9-1", "math-7a-3-3"],
-                  "related": [],
-                  "materials": []
-                },
-                {
-                  "id": "math-7b-9-3",
-                  "title": "一元一次不等式组",
-                  "difficulty": 3,
-                  "importance": "中考必考",
-                  "tags": ["#需大量练习"],
-                  "prerequisites": ["math-7b-9-2"],
-                  "related": [],
-                  "materials": []
-                }
-              ]
-            },
-            {
-              "id": "ch10-data-statistics",
-              "title": "第十章 数据的收集、整理与描述",
-              "topics": [
-                {
-                  "id": "math-7b-10-1",
-                  "title": "统计调查（全面调查与抽样调查）",
-                  "difficulty": 2,
-                  "importance": "中考高频",
-                  "tags": ["#基础", "#需背诵"],
+                  "tags": [
+                    "#基础"
+                  ],
                   "prerequisites": [],
                   "related": [],
                   "materials": []
                 },
                 {
-                  "id": "math-7b-10-2",
+                  "id": "math-7b-7-chuizhi",
+                  "title": "垂直",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-beidisantiaozhixiansuojie",
+                  "title": "被第三条直线所截",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-gainian",
+                  "title": "概念",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-panding",
+                  "title": "判定",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-xingzhi",
+                  "title": "性质",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-73dingyimingtidingli",
+                  "title": "7.3 定义、命题、定理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-7-74pingyi",
+                  "title": "7.4 平移",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch8-shishu",
+              "title": "第八章 实数",
+              "topics": [
+                {
+                  "id": "math-7b-8-81pingfanggen",
+                  "title": "8.1 平方根",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-8-82lifanggen",
+                  "title": "8.2 立方根",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-8-83shishujiqijiandanyunsuan",
+                  "title": "8.3 实数及其简单运算",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch9-pingmianzhijiaozuobiaoxi",
+              "title": "第九章 平面直角坐标系",
+              "topics": [
+                {
+                  "id": "math-7b-9-91yongzuobiaomiaoshupingmian",
+                  "title": "9.1 用坐标描述平面内点的位置",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-9-biaoshidiliweizhi",
+                  "title": "表示地理位置",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-9-biaoshipingyi",
+                  "title": "表示平移",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch10-eryuanyicifangchengzu",
+              "title": "第十章 二元一次方程组",
+              "topics": [
+                {
+                  "id": "math-7b-10-101gainian",
+                  "title": "10.1 概念",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-10-dairu",
+                  "title": "代入",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-10-jiajian",
+                  "title": "加减",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-10-103shijiwenti",
+                  "title": "10.3 实际问题",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-10-104sanyuanyicifangchengzudex",
+                  "title": "*10.4 三元一次方程组的解法（选学）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch11-budengshiyubudengshizu",
+              "title": "第十一章 不等式与不等式组",
+              "topics": [
+                {
+                  "id": "math-7b-11-jieji",
+                  "title": "解集",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-11-xingzhi",
+                  "title": "性质",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-11-112yiyuanyicibudengshi",
+                  "title": "11.2 一元一次不等式",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-11-113yiyuanyicibudengshizu",
+                  "title": "11.3 一元一次不等式组",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch12-shujudeshoujizhengliyumiaosh",
+              "title": "第十二章 数据的收集、整理与描述",
+              "topics": [
+                {
+                  "id": "math-7b-12-quanmiandiaocha",
+                  "title": "全面调查",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-12-chouyangdiaocha",
+                  "title": "抽样调查",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-12-shanxingtutiaoxingtuzhexiant",
+                  "title": "扇形图条形图折线图",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-12-zhifangtu",
                   "title": "直方图",
                   "difficulty": 2,
                   "importance": "中考高频",
-                  "tags": ["#基础"],
-                  "prerequisites": ["math-7b-10-1"],
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "math-7b-12-qushitu",
+                  "title": "趋势图",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
                   "related": [],
                   "materials": []
                 }
@@ -421,16 +1863,66 @@
             }
           ]
         },
-        { "id": "8a", "title": "初二上", "textbook": "人教版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "人教版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "人教版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教A版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教A版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教A版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教A版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教A版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教A版", "chapters": [] }
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教A版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教A版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教A版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教A版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教A版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教A版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -438,18 +1930,626 @@
       "name": "英语",
       "icon": "🔤",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "人教版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "人教版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "人教版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "人教版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "人教版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "外研版",
+          "chapters": [
+            {
+              "id": "ch1-starter",
+              "title": "Starter",
+              "topics": [
+                {
+                  "id": "english-7a-1-welcometojuniorhighhuanyingl",
+                  "title": "Welcome to junior high!（欢迎来到初中）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-1-starterzhongdianshuli",
+                  "title": "Starter·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-1-starterzonghelianxi",
+                  "title": "Starter·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-unit-1",
+              "title": "Unit 1",
+              "topics": [
+                {
+                  "id": "english-7a-2-anewstartxindekaishi",
+                  "title": "A new start（新的开始）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-2-unit1zhongdianshuli",
+                  "title": "Unit 1·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-2-unit1zonghelianxi",
+                  "title": "Unit 1·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-unit-2",
+              "title": "Unit 2",
+              "topics": [
+                {
+                  "id": "english-7a-3-morethanfunbuzhishilequxingq",
+                  "title": "More than fun（不只是乐趣——兴趣爱好）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-3-unit2zhongdianshuli",
+                  "title": "Unit 2·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-3-unit2zonghelianxi",
+                  "title": "Unit 2·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-unit-3",
+              "title": "Unit 3",
+              "topics": [
+                {
+                  "id": "english-7a-4-familytiesjiatingniudai",
+                  "title": "Family ties（家庭纽带）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-4-unit3zhongdianshuli",
+                  "title": "Unit 3·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-4-unit3zonghelianxi",
+                  "title": "Unit 3·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-unit-4",
+              "title": "Unit 4",
+              "topics": [
+                {
+                  "id": "english-7a-5-timetocelebratehuanqingshike",
+                  "title": "Time to celebrate（欢庆时刻——节日）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-5-unit4zhongdianshuli",
+                  "title": "Unit 4·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-5-unit4zonghelianxi",
+                  "title": "Unit 4·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-unit-5",
+              "title": "Unit 5",
+              "topics": [
+                {
+                  "id": "english-7a-6-thepowerofplantszhiwudelilia",
+                  "title": "The power of plants（植物的力量）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-6-unit5zhongdianshuli",
+                  "title": "Unit 5·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-6-unit5zonghelianxi",
+                  "title": "Unit 5·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch7-unit-6",
+              "title": "Unit 6",
+              "topics": [
+                {
+                  "id": "english-7a-7-fantasticfriendsliaobuqidepe",
+                  "title": "Fantastic friends（了不起的朋友）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-7-unit6zhongdianshuli",
+                  "title": "Unit 6·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7a-7-unit6zonghelianxi",
+                  "title": "Unit 6·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "外研版",
+          "chapters": [
+            {
+              "id": "ch1-unit-1",
+              "title": "Unit 1",
+              "topics": [
+                {
+                  "id": "english-7b-1-thesecretsofhappinessxingfud",
+                  "title": "The secrets of happiness（幸福的秘诀）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-1-unit1zhongdianshuli",
+                  "title": "Unit 1·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-1-unit1zonghelianxi",
+                  "title": "Unit 1·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-unit-2",
+              "title": "Unit 2",
+              "topics": [
+                {
+                  "id": "english-7b-2-goforityongganchangshi",
+                  "title": "Go for it!（勇敢尝试）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-2-unit2zhongdianshuli",
+                  "title": "Unit 2·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-2-unit2zonghelianxi",
+                  "title": "Unit 2·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-unit-3",
+              "title": "Unit 3",
+              "topics": [
+                {
+                  "id": "english-7b-3-foodmattersshiwuhenzhongyao",
+                  "title": "Food matters（食物很重要）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-3-unit3zhongdianshuli",
+                  "title": "Unit 3·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-3-unit3zonghelianxi",
+                  "title": "Unit 3·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-unit-4",
+              "title": "Unit 4",
+              "topics": [
+                {
+                  "id": "english-7b-4-theartofhavingfunyuledeyishu",
+                  "title": "The art of having fun（娱乐的艺术）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-4-unit4zhongdianshuli",
+                  "title": "Unit 4·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-4-unit4zonghelianxi",
+                  "title": "Unit 4·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-unit-5",
+              "title": "Unit 5",
+              "topics": [
+                {
+                  "id": "english-7b-5-amazingnatureqimiaodedaziran",
+                  "title": "Amazing nature（奇妙的大自然）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-5-unit5zhongdianshuli",
+                  "title": "Unit 5·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-5-unit5zonghelianxi",
+                  "title": "Unit 5·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-unit-6",
+              "title": "Unit 6",
+              "topics": [
+                {
+                  "id": "english-7b-6-hittingtheroadtashanglvtu",
+                  "title": "Hitting the road（踏上旅途）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-6-unit6zhongdianshuli",
+                  "title": "Unit 6·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "english-7b-6-unit6zonghelianxi",
+                  "title": "Unit 6·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -457,16 +2557,66 @@
       "name": "物理",
       "icon": "⚡",
       "grades": [
-        { "id": "8a", "title": "初二上", "textbook": "人教版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "人教版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "人教版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教版", "chapters": [] }
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -474,31 +2624,807 @@
       "name": "化学",
       "icon": "🧪",
       "grades": [
-        { "id": "9a", "title": "初三上", "textbook": "人教版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教版", "chapters": [] }
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教版",
+          "chapters": []
+        }
       ]
     },
     {
       "id": "biology",
-      "name": "生物",
+      "name": "生物学",
       "icon": "🌱",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "人教版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "人教版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "人教版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "人教版",
+          "chapters": [
+            {
+              "id": "ch1-renshishengwu",
+              "title": "第一章 认识生物",
+              "topics": [
+                {
+                  "id": "biology-7a-1-diyijieguanchazhoubianhuanji",
+                  "title": "第一节 观察周边环境中的生物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-1-dierjieshengwudetezheng",
+                  "title": "第二节 生物的特征",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-1-renshishengwuzhongdianshuli",
+                  "title": "认识生物·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-renshixibao",
+              "title": "第二章 认识细胞",
+              "topics": [
+                {
+                  "id": "biology-7a-2-diyijiexuexishiyongxianweiji",
+                  "title": "第一节 学习使用显微镜",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-2-dierjiezhiwuxibao",
+                  "title": "第二节 植物细胞",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-2-disanjiedongwuxibao",
+                  "title": "第三节 动物细胞",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-2-disijiexibaodeshenghuo",
+                  "title": "第四节 细胞的生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-congxibaodaoshengwuti",
+              "title": "第三章 从细胞到生物体",
+              "topics": [
+                {
+                  "id": "biology-7a-3-diyijiexibaotongguofenliecha",
+                  "title": "第一节 细胞通过分裂产生新细胞",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-3-dierjiedongwutidejiegoucengc",
+                  "title": "第二节 动物体的结构层次",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-3-disanjiezhiwutidejiegoucengc",
+                  "title": "第三节 植物体的结构层次",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-3-disijiedanxibaoshengwu",
+                  "title": "第四节 单细胞生物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-3-zongheshijianxiangmuzhizuoxi",
+                  "title": "综合实践项目：制作细胞模型",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-zhiwudeleiqun",
+              "title": "第一章 植物的类群",
+              "topics": [
+                {
+                  "id": "biology-7a-4-diyijiezaoleitaixianhejuelei",
+                  "title": "第一节 藻类、苔藓和蕨类",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-4-dierjiezhongzizhiwu",
+                  "title": "第二节 种子植物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-4-zhiwudeleiqunzhongdianshuli",
+                  "title": "植物的类群·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-dongwudeleiqun",
+              "title": "第二章 动物的类群",
+              "topics": [
+                {
+                  "id": "biology-7a-5-diyijiewujizhuidongwu",
+                  "title": "第一节 无脊椎动物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-5-yiyu",
+                  "title": "一 鱼",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-5-erliangqidongwuhepaxingdongw",
+                  "title": "二 两栖动物和爬行动物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-5-sanniaoheburudongwu",
+                  "title": "三 鸟和哺乳动物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-weishengwu",
+              "title": "第三章 微生物",
+              "topics": [
+                {
+                  "id": "biology-7a-6-diyijieweishengwudefenbu",
+                  "title": "第一节 微生物的分布",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-6-dierjiexijun",
+                  "title": "第二节 细菌",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-6-disanjiezhenjun",
+                  "title": "第三节 真菌",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-6-disijiebingdu",
+                  "title": "第四节 病毒",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-6-zongheshijianxiangmuliyongxi",
+                  "title": "综合实践项目：利用细菌或真菌制作发酵食品",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch7-shengwufenleidefangfa",
+              "title": "第四章 生物分类的方法",
+              "topics": [
+                {
+                  "id": "biology-7a-7-diyijiechangshiduishengwujin",
+                  "title": "第一节 尝试对生物进行分类",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-7-dierjiecongzhongdaojie",
+                  "title": "第二节 从种到界",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7a-7-shengwufenleidefangfazhongdi",
+                  "title": "生物分类的方法·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "人教版",
+          "chapters": [
+            {
+              "id": "ch1-beizizhiwudeyisheng",
+              "title": "第一章 被子植物的一生",
+              "topics": [
+                {
+                  "id": "biology-7b-1-diyijiezhongzidemengfa",
+                  "title": "第一节 种子的萌发",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-1-dierjiezhizhudeshengzhang",
+                  "title": "第二节 植株的生长",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-1-disanjiekaihuahejieguo",
+                  "title": "第三节 开花和结果",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-zhiwutineidewuzhiyunengliang",
+              "title": "第二章 植物体内的物质与能量变化",
+              "topics": [
+                {
+                  "id": "biology-7b-2-diyijieshuideliyongyusanshi",
+                  "title": "第一节 水的利用与散失",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-2-dierjieguanghezuoyong",
+                  "title": "第二节 光合作用",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-2-disanjiehuxizuoyong",
+                  "title": "第三节 呼吸作用",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-2-disijiezhiwuzaiziranjiezhong",
+                  "title": "第四节 植物在自然界中的作用",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-2-zongheshijianxiangmuzaipeiyi",
+                  "title": "综合实践项目：栽培一种植物，探究所需的环境条件",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-rendeshengzhihefayu",
+              "title": "第一章 人的生殖和发育",
+              "topics": [
+                {
+                  "id": "biology-7b-3-diyijierendeshengzhi",
+                  "title": "第一节 人的生殖",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-3-dierjieqingchunqi",
+                  "title": "第二节 青春期",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-3-rendeshengzhihefayuzhongdian",
+                  "title": "人的生殖和发育·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-rentideyingyang",
+              "title": "第二章 人体的营养",
+              "topics": [
+                {
+                  "id": "biology-7b-4-diyijieshiwuzhongdeyingyangw",
+                  "title": "第一节 食物中的营养物质",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-4-dierjiexiaohuahexishou",
+                  "title": "第二节 消化和吸收",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-4-disanjieheliyingyangyushipin",
+                  "title": "第三节 合理营养与食品安全",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-rentidehuxi",
+              "title": "第三章 人体的呼吸",
+              "topics": [
+                {
+                  "id": "biology-7b-5-diyijiehuxidaoduikongqidechu",
+                  "title": "第一节 呼吸道对空气的处理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-5-dierjiefashengzaifeineideqit",
+                  "title": "第二节 发生在肺内的气体交换",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-5-rentidehuxizhongdianshuli",
+                  "title": "人体的呼吸·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch6-rentineiwuzhidiyunshu",
+              "title": "第四章 人体内物质的运输",
+              "topics": [
+                {
+                  "id": "biology-7b-6-diyijieliudongdezuzhixueye",
+                  "title": "第一节 流动的组织——血液",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-6-dierjiexueliudeguandaoxuegua",
+                  "title": "第二节 血流的管道——血管",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-6-disanjieshusongxueyedebengxi",
+                  "title": "第三节 输送血液的泵——心脏",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch7-rentineifeiwudepaichu",
+              "title": "第五章 人体内废物的排出",
+              "topics": [
+                {
+                  "id": "biology-7b-7-zongheshijianxiangmushejibin",
+                  "title": "综合实践项目：设计并制作人体结构模型",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-7-rentineifeiwudepaichuzhongdi",
+                  "title": "人体内废物的排出·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "biology-7b-7-rentineifeiwudepaichuzonghel",
+                  "title": "人体内废物的排出·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -506,18 +3432,752 @@
       "name": "道德与法治 / 政治",
       "icon": "⚖️",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "部编版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "部编版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "部编版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "部编版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "部编版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "部编版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "部编版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "部编版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "部编版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "部编版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "部编版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "部编版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-shaonianyoumeng",
+              "title": "第一单元 少年有梦",
+              "topics": [
+                {
+                  "id": "politics-7a-1-zouxiangzhongxuexuqu",
+                  "title": "奏响中学序曲",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-1-guihuachuzhongshenghuo",
+                  "title": "规划初中生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-1-renshiziji",
+                  "title": "认识自己",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-1-zuogenghaodeziji",
+                  "title": "做更好的自己",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-1-zuoyoumengxiangdeshaonian",
+                  "title": "做有梦想的少年",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-1-xuexichengjiumengxiang",
+                  "title": "学习成就梦想",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-chengzhangdeshikong",
+              "title": "第二单元 成长的时空",
+              "topics": [
+                {
+                  "id": "politics-7a-2-jiadeyiwei",
+                  "title": "家的意味",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-rangjiagengmeihao",
+                  "title": "让家更美好",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-zoujinlaoshi",
+                  "title": "走近老师",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-zhenxishishengqingyi",
+                  "title": "珍惜师生情谊",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-youyidezhendi",
+                  "title": "友谊的真谛",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-jiaoyoudezhihui",
+                  "title": "交友的智慧",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-jitishenghuochengjiuwo",
+                  "title": "集体生活成就我",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-2-gongjianmeihaojiti",
+                  "title": "共建美好集体",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-zhenaiwomendeshengming",
+              "title": "第三单元 珍爱我们的生命",
+              "topics": [
+                {
+                  "id": "politics-7a-3-renshishengming",
+                  "title": "认识生命",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-3-jingweishengming",
+                  "title": "敬畏生命",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-3-zengqianganquanyishi",
+                  "title": "增强安全意识",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-3-tigaofanghunengli",
+                  "title": "提高防护能力",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-3-aihushenti",
+                  "title": "爱护身体",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-3-ziyangxinling",
+                  "title": "滋养心灵",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-zhuiqiumeihaorensheng",
+              "title": "第四单元 追求美好人生",
+              "topics": [
+                {
+                  "id": "politics-7a-4-tanwenrenshengmubiao",
+                  "title": "探问人生目标",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-4-shulizhengquederenshengmubia",
+                  "title": "树立正确的人生目标",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-4-yongyoujijiderenshengtaidu",
+                  "title": "拥有积极的人生态度",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-4-zhengqueduidaishunjingheniji",
+                  "title": "正确对待顺境和逆境",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-4-zailaodongzhongchuangzaorens",
+                  "title": "在劳动中创造人生价值",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7a-4-zaifengxianzhongchengjiujing",
+                  "title": "在奉献中成就精彩人生",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-zhenxiqingchunshiguang",
+              "title": "第一单元 珍惜青春时光",
+              "topics": [
+                {
+                  "id": "politics-7b-1-qingchundeyaoyue",
+                  "title": "青春的邀约",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-1-nanshengnvsheng",
+                  "title": "男生女生",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-1-xuehuiziwobaohu",
+                  "title": "学会自我保护",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-1-jiekaiqingxudemiansha",
+                  "title": "揭开情绪的面纱",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-1-xuehuiguanliqingxu",
+                  "title": "学会管理情绪",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-1-pinweimeihaoqinggan",
+                  "title": "品味美好情感",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-huanfaqingchunhuoli",
+              "title": "第二单元 焕发青春活力",
+              "topics": [
+                {
+                  "id": "politics-7b-2-renxuyouzizun",
+                  "title": "人须有自尊",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-2-zuozizunderen",
+                  "title": "做自尊的人",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-2-renyaoyouzixin",
+                  "title": "人要有自信",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-2-zuozixinderen",
+                  "title": "做自信的人",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-2-renyaoziqiang",
+                  "title": "人要自强",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-2-zuoziqiangbuxidezhongguoren",
+                  "title": "做自强不息的中国人",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-chuanchengzhonghuayouxiuchua",
+              "title": "第三单元 传承中华优秀传统文化",
+              "topics": [
+                {
+                  "id": "politics-7b-3-lijiumixindesixianglinian",
+                  "title": "历久弥新的思想理念",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-3-zuohexinsixiangliniandechuan",
+                  "title": "做核心思想理念的传承者",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-3-yingxiangshenyuanderenwenjin",
+                  "title": "影响深远的人文精神",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-3-zuozhonghuarenwenjingshendeh",
+                  "title": "做中华人文精神的弘扬者",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-3-xinhuoxiangchuandechuantongm",
+                  "title": "薪火相传的传统美德",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-3-zuozhonghuachuantongmeidedej",
+                  "title": "做中华传统美德的践行者",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-shenghuozaifazhishehui",
+              "title": "第四单元 生活在法治社会",
+              "topics": [
+                {
+                  "id": "politics-7b-4-riyiwanshandefalvtixi",
+                  "title": "日益完善的法律体系",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-falvbaozhangshenghuo",
+                  "title": "法律保障生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-renshiminfadian",
+                  "title": "认识民法典",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-baohurenshenquan",
+                  "title": "保护人身权",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-baozhangcaichanquan",
+                  "title": "保障财产权",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-fabukewei",
+                  "title": "法不可违",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-fanzuiyuxingfa",
+                  "title": "犯罪与刑罚",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "politics-7b-4-yanyulvji",
+                  "title": "严于律己",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "部编版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -525,18 +4185,710 @@
       "name": "历史",
       "icon": "🏛️",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "部编版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "部编版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "部编版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "部编版", "chapters": [] },
-        { "id": "9a", "title": "初三上", "textbook": "部编版", "chapters": [] },
-        { "id": "9b", "title": "初三下", "textbook": "部编版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "部编版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "部编版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "部编版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "部编版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "部编版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "部编版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-shiqianshiqi",
+              "title": "第一单元 史前时期",
+              "topics": [
+                {
+                  "id": "history-7a-1-yuanshishehuiyuzhonghuawenmi",
+                  "title": "原始社会与中华文明的起源",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-1-di1keyuangushiqiderenleihuod",
+                  "title": "第1课 远古时期的人类活动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-1-di2keyuanshinongyeyushiqians",
+                  "title": "第2课 原始农业与史前社会",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-1-di3kezhonghuawenmingdeqiyuan",
+                  "title": "第3课 中华文明的起源",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-xiashangzhoushiqi",
+              "title": "第二单元 夏商周时期",
+              "topics": [
+                {
+                  "id": "history-7a-2-nulizhiwangchaodegengtihexia",
+                  "title": "奴隶制王朝的更替和向封建社会的过渡",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-2-di4kexiashangxizhouwangchaod",
+                  "title": "第4课 夏商西周王朝的更替",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-2-di5kedongdangbianhuazhongdec",
+                  "title": "第5课 动荡变化中的春秋时期",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-2-di6kezhanguoshiqideshehuibia",
+                  "title": "第6课 战国时期的社会变革",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-2-di7kebaijiazhengming",
+                  "title": "第7课 百家争鸣",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-2-di8kexiashangzhoushiqidekeji",
+                  "title": "第8课 夏商周时期的科技与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-qinhanshiqi",
+              "title": "第三单元 秦汉时期",
+              "topics": [
+                {
+                  "id": "history-7a-3-tongyiduominzufengjianguojia",
+                  "title": "统一多民族封建国家的建立和巩固",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di9keqintongyizhongguo",
+                  "title": "第9课 秦统一中国",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di10keqinmonongmindaqiyi",
+                  "title": "第10课 秦末农民大起义",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di11kexihanjianlihewenjingzh",
+                  "title": "第11课 西汉建立和\"文景之治\"",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di12kedayitongwangchaodegong",
+                  "title": "第12课 大一统王朝的巩固",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di13kedonghandexingshuai",
+                  "title": "第13课 东汉的兴衰",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di14kesichouzhiludekaitongyu",
+                  "title": "第14课 丝绸之路的开通与经营西域",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-3-di15keqinhanshiqidekejiyuwen",
+                  "title": "第15课 秦汉时期的科技与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-sanguoliangjinnanbeichaoshiq",
+              "title": "第四单元 三国两晋南北朝时期",
+              "topics": [
+                {
+                  "id": "history-7a-4-zhengquanfenliyuminzujiaoron",
+                  "title": "政权分立与民族交融",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di16kesanguodingli",
+                  "title": "第16课 三国鼎立",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di17kexijindeduanzantongyihe",
+                  "title": "第17课 西晋的短暂统一和北方各族的内迁",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di18kedongjinnanchaozhengzhi",
+                  "title": "第18课 东晋南朝政治和江南地区开发",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di19kebeichaozhengzhihebeifa",
+                  "title": "第19课 北朝政治和北方民族大交融",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di20kesanguoliangjinnanbeich",
+                  "title": "第20课 三国两晋南北朝时期的科技与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7a-4-di21kehuodongkecongkaogufaxi",
+                  "title": "第21课 活动课：从考古发现看中华文明的起源",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "部编版",
+          "chapters": [
+            {
+              "id": "ch1-suitangshiqi",
+              "title": "第一单元 隋唐时期",
+              "topics": [
+                {
+                  "id": "history-7b-1-fanrongyukaifangdeshidai",
+                  "title": "繁荣与开放的时代",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di1kesuichaotongyiyumiewang",
+                  "title": "第1课 隋朝统一与灭亡",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di2ketangchaojianliyuzhengua",
+                  "title": "第2课 唐朝建立与\"贞观之治\"",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di3kekaiyuanshengshi",
+                  "title": "第3课 开元盛世",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di4keanshizhiluanyutangchaos",
+                  "title": "第4课 安史之乱与唐朝衰亡",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di5kesuitangshiqideminzujiao",
+                  "title": "第5课 隋唐时期的民族交往与交融",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di6kesuitangshiqidezhongwaiw",
+                  "title": "第6课 隋唐时期的中外文化交流",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-1-di7kesuitangshiqidekejiyuwen",
+                  "title": "第7课 隋唐时期的科技与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-liaosongxiajinyuanshiqi",
+              "title": "第二单元 辽宋夏金元时期",
+              "topics": [
+                {
+                  "id": "history-7b-2-minzuguanxifazhanheshehuibia",
+                  "title": "民族关系发展和社会变化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di8kebeisongdezhengzhi",
+                  "title": "第8课 北宋的政治",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di9keliaoxixiayubeisongbingl",
+                  "title": "第9课 辽、西夏与北宋并立",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di10kejinyunansongduizhi",
+                  "title": "第10课 金与南宋对峙",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di11keyuanchaodetongyi",
+                  "title": "第11课 元朝的统一",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di12kesongyuanshiqijingjidef",
+                  "title": "第12课 宋元时期经济的繁荣",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di13kesongyuanshiqideduiwaij",
+                  "title": "第13课 宋元时期的对外交流",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-2-di14keliaosongxiajinyuanshiq",
+                  "title": "第14课 辽宋夏金元时期的科技与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-mingqingshiqizhiyapianzhanzh",
+              "title": "第三单元 明清时期（至鸦片战争前）",
+              "topics": [
+                {
+                  "id": "history-7b-3-tongyiduominzufengjianguojia",
+                  "title": "统一多民族封建国家的巩固与发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di15kemingchaodetongzhi",
+                  "title": "第15课 明朝的统治",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di16kemingchaodeduiwaiguanxi",
+                  "title": "第16课 明朝的对外关系",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di17kemingchaodemiewangheqin",
+                  "title": "第17课 明朝的灭亡和清朝的建立",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di18ketongyiduominzufengjian",
+                  "title": "第18课 统一多民族封建国家的巩固和发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di19keqingchaojunzhuzhuanzhi",
+                  "title": "第19课 清朝君主专制的强化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di20kemingqingshiqishehuijin",
+                  "title": "第20课 明清时期社会经济的发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "history-7b-3-di21kemingqingshiqidekejiyuw",
+                  "title": "第21课 明清时期的科技与文化／第22课 活动课：我国传统节日的起源与传承",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9a",
+          "title": "初三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "9b",
+          "title": "初三下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "部编版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "部编版",
+          "chapters": []
+        }
       ]
     },
     {
@@ -544,16 +4896,554 @@
       "name": "地理",
       "icon": "🌍",
       "grades": [
-        { "id": "7a", "title": "初一上", "textbook": "人教版", "chapters": [] },
-        { "id": "7b", "title": "初一下", "textbook": "人教版", "chapters": [] },
-        { "id": "8a", "title": "初二上", "textbook": "人教版", "chapters": [] },
-        { "id": "8b", "title": "初二下", "textbook": "人教版", "chapters": [] },
-        { "id": "10a", "title": "高一上", "textbook": "人教版", "chapters": [] },
-        { "id": "10b", "title": "高一下", "textbook": "人教版", "chapters": [] },
-        { "id": "11a", "title": "高二上", "textbook": "人教版", "chapters": [] },
-        { "id": "11b", "title": "高二下", "textbook": "人教版", "chapters": [] },
-        { "id": "12a", "title": "高三上", "textbook": "人教版", "chapters": [] },
-        { "id": "12b", "title": "高三下", "textbook": "人教版", "chapters": [] }
+        {
+          "id": "7a",
+          "title": "初一上",
+          "textbook": "中图版（北京版）",
+          "chapters": [
+            {
+              "id": "ch1-renshidiqiu",
+              "title": "第一章 认识地球",
+              "topics": [
+                {
+                  "id": "geography-7a-1-diyijieyuzhouzhongdediqiu",
+                  "title": "第一节 宇宙中的地球",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-1-dierjietaikongtansuo",
+                  "title": "第二节 太空探索",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-1-disanjiediqiudemoxing",
+                  "title": "第三节 地球的模型",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-1-disijiediqiuzaiyundong",
+                  "title": "第四节 地球在运动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-1-zhutitanjiuchangxiangdiqiu20",
+                  "title": "主题探究：畅想\"地球2.0\"",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch2-xueyongditu",
+              "title": "第二章 学用地图",
+              "topics": [
+                {
+                  "id": "geography-7a-2-diyijierenshiditu",
+                  "title": "第一节 认识地图",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-2-dierjiedixingtudepandu",
+                  "title": "第二节 地形图的判读",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-2-zhutitanjiudingxiangyueye",
+                  "title": "主题探究：定向越野",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch3-renshihaiyangheludi",
+              "title": "第三章 认识海洋和陆地",
+              "topics": [
+                {
+                  "id": "geography-7a-3-diyijiehaiyangheludidefenbu",
+                  "title": "第一节 海洋和陆地的分布",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-3-dierjiehaiyangheludidebianqi",
+                  "title": "第二节 海洋和陆地的变迁",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-3-zhutitanjiuhaidimanyoulvyoul",
+                  "title": "主题探究：\"海底漫游\"旅游路线设计",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch4-renshitianqiyuqihou",
+              "title": "第四章 认识天气与气候",
+              "topics": [
+                {
+                  "id": "geography-7a-4-diyijieganzhitianqi",
+                  "title": "第一节 感知天气",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-4-dierjieqiwenhejiangshui",
+                  "title": "第二节 气温和降水",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-4-disanjieshijiezhuyaoqihoulei",
+                  "title": "第三节 世界主要气候类型",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-4-disijieqihouyurenleihuodong",
+                  "title": "第四节 气候与人类活动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-4-zhutitanjiuweixiaoniaozhucha",
+                  "title": "主题探究：为小鸟筑巢",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch5-renshirenwenhuanjing",
+              "title": "第五章 认识人文环境",
+              "topics": [
+                {
+                  "id": "geography-7a-5-diyijiejuminyuwenhua",
+                  "title": "第一节 居民与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-5-dierjiefazhanyuhezuo",
+                  "title": "第二节 发展与合作",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7a-5-zhutitanjiuwoweiguohuopinpai",
+                  "title": "主题探究：我为国货品牌作代言",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7b",
+          "title": "初一下",
+          "textbook": "中图版（北京版）",
+          "chapters": [
+            {
+              "id": "ch6-renshidazhou",
+              "title": "第六章 认识大洲",
+              "topics": [
+                {
+                  "id": "geography-7b-6-diyijieyazhou",
+                  "title": "第一节 亚洲",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-6-dierjiefeizhou",
+                  "title": "第二节 非洲",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-6-zhutitanjiuzhongzougusichouz",
+                  "title": "主题探究：重走古丝绸之路",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch7-renshidiqu",
+              "title": "第七章 认识地区",
+              "topics": [
+                {
+                  "id": "geography-7b-7-diyijiedongnanya",
+                  "title": "第一节 东南亚",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-7-dierjiexiya",
+                  "title": "第二节 西亚",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-7-disanjieouzhouxibu",
+                  "title": "第三节 欧洲西部",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-7-disijiejididiqu",
+                  "title": "第四节 极地地区",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-7-zhutitanjiushejilvxingfangan",
+                  "title": "主题探究：设计旅行方案",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch8-renshiguojia",
+              "title": "第八章 认识国家",
+              "topics": [
+                {
+                  "id": "geography-7b-8-diyijieriben",
+                  "title": "第一节 日本",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-8-dierjieeluosi",
+                  "title": "第二节 俄罗斯",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-8-disanjieaodaliya",
+                  "title": "第三节 澳大利亚",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-8-disijiemeiguo",
+                  "title": "第四节 美国",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-8-diwujiebaxi",
+                  "title": "第五节 巴西",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-8-zhutitanjiuzoujinyigeguojia",
+                  "title": "主题探究：走近一个国家",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            },
+            {
+              "id": "ch9-gongjianrenleidiqiujiayuan",
+              "title": "第九章 共建人类地球家园",
+              "topics": [
+                {
+                  "id": "geography-7b-9-zhutitanjiumonilianheguoqiho",
+                  "title": "主题探究：模拟联合国气候变化大会",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-9-gongjianrenleidiqiujiayuanzh",
+                  "title": "共建人类地球家园·重点梳理",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                },
+                {
+                  "id": "geography-7b-9-gongjianrenleidiqiujiayuanzo",
+                  "title": "共建人类地球家园·综合练习",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8a",
+          "title": "初二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "8b",
+          "title": "初二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10a",
+          "title": "高一上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "10b",
+          "title": "高一下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11a",
+          "title": "高二上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "11b",
+          "title": "高二下",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12a",
+          "title": "高三上",
+          "textbook": "人教版",
+          "chapters": []
+        },
+        {
+          "id": "12b",
+          "title": "高三下",
+          "textbook": "人教版",
+          "chapters": []
+        }
       ]
     }
   ]
