@@ -1113,7 +1113,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter1/positive-negative"
                 },
                 {
                   "id": "math-7a-1-2",
@@ -1143,7 +1148,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter1/number-line"
                 },
                 {
                   "id": "math-7a-1-xiangfanshu",
@@ -1155,7 +1165,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter1/opposite-number"
                 },
                 {
                   "id": "math-7a-1-jueduizhi",
@@ -1167,7 +1182,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter1/absolute-value"
                 },
                 {
                   "id": "math-7a-1-daxiaobijiao",
@@ -1179,7 +1199,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter1/comparing-numbers"
                 }
               ]
             },
@@ -1238,7 +1263,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter2/power"
                 },
                 {
                   "id": "math-7a-2-kexuejishufa",
@@ -1250,7 +1280,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter2/scientific-notation"
                 },
                 {
                   "id": "math-7a-2-jinsishu",
@@ -1262,7 +1297,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter2/approximate-number"
                 }
               ]
             },
@@ -1280,7 +1320,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter3/writing-expressions"
                 },
                 {
                   "id": "math-7a-3-32daishushidezhi",
@@ -1292,7 +1337,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter3/evaluating-expressions"
                 },
                 {
                   "id": "math-7a-3-daishushizhongdianshuli",
@@ -1304,7 +1354,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter3/review"
                 }
               ]
             },
@@ -1322,7 +1377,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter4/monomials-polynomials"
                 },
                 {
                   "id": "math-7a-4-42zhengshidejiafayujianfa",
@@ -1334,7 +1394,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter4/adding-subtracting"
                 },
                 {
                   "id": "math-7a-4-zhengshidejiajianzhongdiansh",
@@ -1346,7 +1411,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter4/review"
                 }
               ]
             },
@@ -1364,7 +1434,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter5/equation-intro"
                 },
                 {
                   "id": "math-7a-5-dengshidexingzhi",
@@ -1376,7 +1451,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter5/equation-properties"
                 },
                 {
                   "id": "math-7a-5-52jieyiyuanyicifangcheng",
@@ -1388,7 +1468,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter5/solving-equations"
                 },
                 {
                   "id": "math-7a-5-53shijiwentiyuyiyuanyicifang",
@@ -1400,7 +1485,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter5/word-problems"
                 }
               ]
             },
@@ -1418,7 +1508,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/solid-plane-figures"
                 },
                 {
                   "id": "math-7a-6-dianxianmianti",
@@ -1430,7 +1525,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/point-line-plane"
                 },
                 {
                   "id": "math-7a-6-62zhixianshexianxianduan",
@@ -1442,7 +1542,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/line-ray-segment"
                 },
                 {
                   "id": "math-7a-6-jiaodegainian",
@@ -1454,7 +1559,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/angle-concept"
                 },
                 {
                   "id": "math-7a-6-bijiaoyuyunsuan",
@@ -1466,7 +1576,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/angle-operations"
                 },
                 {
                   "id": "math-7a-6-yujiaohebujiao",
@@ -1478,7 +1593,12 @@
                   ],
                   "prerequisites": [],
                   "related": [],
-                  "materials": []
+                  "materials": [
+                    "note",
+                    "formula",
+                    "example"
+                  ],
+                  "contentPath": "math/grade7-1/chapter6/complementary-supplementary"
                 }
               ]
             }
