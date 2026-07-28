@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
@@ -22,16 +22,17 @@ interface SubjectSemesterEntry {
 
 /**
  * 学期专页：/semester/:id（如 /semester/7a）
- * 按学科分段展示该学期所有科目的章节与知识点目录，
- * 有内容的学科靠前，空学科排后面（各自保持语数英物化生政史地顺序）。
+ * 按学科分段展示该学期所有科目的章节与知识点目录（学科分段可折叠）。
+ * 有内容的学科完整展示，暂无内容的学科集中收进底部一行胶囊，避免空段落刷屏。
  */
 export default function Semester() {
   const { id } = useParams<{ id: string }>()
   const gradeId = (id ?? '') as GradeId
   const valid = ALL_GRADE_IDS.includes(gradeId)
 
-  const entries = useMemo<SubjectSemesterEntry[]>(() => {
-    if (!valid) return []
+  const { withContent, empty } = useMemo(() => {
+    if (!valid)
+      return { withContent: [] as SubjectSemesterEntry[], empty: [] as SubjectSemesterEntry[] }
     const list = getSubjects()
       .filter((s) => s.id !== 'misc')
       .map((subject) => {
@@ -42,10 +43,10 @@ export default function Semester() {
           textbook: grade?.textbook,
         }
       })
-    return [
-      ...list.filter((e) => e.chapters.length > 0),
-      ...list.filter((e) => e.chapters.length === 0),
-    ]
+    return {
+      withContent: list.filter((e) => e.chapters.length > 0),
+      empty: list.filter((e) => e.chapters.length === 0),
+    }
   }, [gradeId, valid])
 
   if (!valid) {
@@ -89,20 +90,45 @@ export default function Semester() {
         </div>
       </header>
 
-      {/* 按学科分段 */}
-      {entries.map((entry, i) => (
-        <SubjectSection
-          key={entry.subject.id}
-          entry={entry}
-          index={i}
-          gradeId={gradeId}
-        />
-      ))}
+      {/* 有内容的学科分段（可折叠） */}
+      {withContent.length === 0 ? (
+        <div className="mt-12 rounded-xl border border-dashed border-line px-5 py-8 text-center text-[14px] text-ink-soft">
+          本学期各科内容整理中，敬请期待。
+        </div>
+      ) : (
+        withContent.map((entry, i) => (
+          <SubjectSection
+            key={entry.subject.id}
+            entry={entry}
+            index={i}
+            gradeId={gradeId}
+          />
+        ))
+      )}
+
+      {/* 暂无内容的学科：集中收纳，不占大版面 */}
+      {empty.length > 0 && (
+        <div className="mt-14 border-t border-line pt-5">
+          <div className="mb-2.5 text-[12px] font-bold tracking-[0.18em] text-ink-faint">
+            以下科目本学期内容整理中
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {empty.map(({ subject }) => (
+              <span
+                key={subject.id}
+                className="rounded-full border border-dashed border-line px-3.5 py-1 text-[12.5px] text-ink-faint"
+              >
+                {subject.name}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
 
-/** 一个学科分段：subject-head 大标题 + 学科色渐变线 + 章节目录 */
+/** 一个学科分段：subject-head 大标题（整行可点击折叠）+ 学科色渐变线 + 章节目录 */
 function SubjectSection({
   entry,
   index,
@@ -113,48 +139,60 @@ function SubjectSection({
   gradeId: GradeId
 }) {
   const { subject, chapters, textbook } = entry
-  const hasContent = chapters.length > 0
+  const [open, setOpen] = useState(true)
 
   return (
     <section
-      className="mt-[58px] first-of-type:mt-10"
+      className="mt-[52px] first-of-type:mt-10"
       style={subjectVars(subject.id as SubjectId)}
     >
-      <div className="subject-head">
-        <span className="num">{CN_NUMERALS[index] ?? '1'}</span>
-        <div>
-          <h2 className="name">
-            {hasContent ? (
-              <Link
-                to={`/subject/${subject.id}?grade=${gradeId}`}
-                className="transition-opacity hover:opacity-80"
-              >
-                {subject.name}
-              </Link>
-            ) : (
-              subject.name
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="group block w-full text-left"
+      >
+        <div className="subject-head">
+          <span className="num">{CN_NUMERALS[index] ?? '1'}</span>
+          <div>
+            <h2 className="name">{subject.name}</h2>
+            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+          </div>
+          <span className="mb-1 ml-auto flex items-center gap-3">
+            {textbook && (
+              <span className="hidden text-[12.5px] text-ink-soft sm:inline">
+                {textbook}
+              </span>
             )}
-          </h2>
-          <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
-        </div>
-        {textbook && hasContent && (
-          <span className="mb-1 ml-auto hidden text-[12.5px] text-ink-soft sm:inline">
-            {textbook}
+            <span
+              className={`text-[12px] leading-none text-ink-faint transition-transform duration-200 group-hover:text-[var(--s)] ${
+                open ? '' : '-rotate-90'
+              }`}
+              aria-hidden
+            >
+              ▾
+            </span>
           </span>
-        )}
-      </div>
-      <div className="rule" />
+        </div>
+        <div className="rule" />
+      </button>
 
-      {!hasContent ? (
-        <div className="mt-4 rounded-xl border border-dashed border-line px-4 py-3 text-[13.5px] text-ink-faint">
-          暂无内容，敬请期待。
-        </div>
-      ) : (
-        <div className="mt-4">
-          {chapters.map((chapter) => (
-            <ChapterCard key={chapter.id} chapter={chapter} />
-          ))}
-        </div>
+      {open && (
+        <>
+          <div className="mt-4">
+            {chapters.map((chapter) => (
+              <ChapterCard key={chapter.id} chapter={chapter} />
+            ))}
+          </div>
+          <div className="mt-3 text-right">
+            <Link
+              to={`/subject/${subject.id}?grade=${gradeId}`}
+              className="text-[13px] font-semibold text-[var(--s-deep)] transition-opacity hover:opacity-75"
+            >
+              查看{subject.name}全部学期 →
+            </Link>
+          </div>
+        </>
       )}
     </section>
   )

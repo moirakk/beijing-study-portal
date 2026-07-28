@@ -10,12 +10,6 @@ import {
 } from '../lib/constants'
 import type { Grade, Subject, SubjectId } from '../types'
 
-/** 当前学期：2-7 月 → 下学期(b)，8-1 月 → 上学期(a) */
-function currentSemesterSuffix(): 'a' | 'b' {
-  const month = new Date().getMonth() + 1
-  return month >= 2 && month <= 7 ? 'b' : 'a'
-}
-
 export default function Dashboard() {
   const subjects = useMemo(
     () => getSubjects().filter((s) => s.id !== 'misc'),
@@ -107,7 +101,7 @@ export default function Dashboard() {
   )
 }
 
-/** 选中科目的教材目录树：学期（可折叠）→ 章节 → 知识点 */
+/** 选中科目的教材目录树：学期（可折叠）→ 章节（可折叠）→ 知识点 */
 function SubjectToc({
   subject,
   subjectIndex,
@@ -115,12 +109,11 @@ function SubjectToc({
   subject: Subject
   subjectIndex: number
 }) {
-  // 默认展开当前学期（每个年级的同学期）
+  // 默认只展开有内容的学期，空学期收起
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
-    const suffix = currentSemesterSuffix()
     const init: Record<string, boolean> = {}
     for (const grade of subject.grades) {
-      init[grade.id] = grade.id.endsWith(suffix)
+      init[grade.id] = grade.chapters.length > 0
     }
     return init
   })
@@ -167,49 +160,58 @@ function SemesterSection({
 }) {
   const gradeNum = grade.id.replace(/[ab]$/, '')
   const hasContent = grade.chapters.length > 0
+  const chapterCount = grade.chapters.length
 
   return (
-    <section className="mt-6 first:mt-4">
-      {/* 学期标题（可折叠） */}
+    <section className="mt-2 first:mt-3">
+      {/* 学期标题（整行可点击折叠） */}
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="group flex w-full items-center gap-3 text-left"
+        className="group -mx-2 flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-[var(--s-soft)]"
       >
-        <span className="unit-badge">{gradeNum}</span>
-        <span className="font-sans text-[18px] font-extrabold tracking-normal text-ink">
-          {semesterFullLabel(grade.id)}
+        <span className={`unit-badge ${hasContent ? '' : 'opacity-40 saturate-0'}`}>
+          {gradeNum}
         </span>
-        {grade.textbook && hasContent && (
-          <span className="hidden text-[12.5px] text-ink-soft sm:inline">
-            {grade.textbook}
-          </span>
-        )}
-        {!hasContent && (
-          <span className="text-[12.5px] text-ink-faint">暂无内容</span>
-        )}
         <span
-          className={`ml-auto text-[13px] text-ink-faint transition-transform group-hover:text-[var(--s)] ${
-            open ? 'rotate-90' : ''
+          className={`font-sans text-[16.5px] font-extrabold tracking-normal ${
+            hasContent ? 'text-ink' : 'text-ink-faint'
           }`}
         >
-          ▸
+          {semesterFullLabel(grade.id)}
+        </span>
+        {hasContent ? (
+          <span className="text-[12px] tabular-nums text-ink-faint">
+            {chapterCount} 章
+            {grade.textbook && (
+              <span className="hidden sm:inline"> · {grade.textbook}</span>
+            )}
+          </span>
+        ) : (
+          <span className="text-[12px] text-ink-faint">暂无内容</span>
+        )}
+        <span
+          className={`ml-auto text-[11px] leading-none text-ink-faint transition-transform duration-200 group-hover:text-[var(--s)] ${
+            open ? '' : '-rotate-90'
+          }`}
+          aria-hidden
+        >
+          ▾
         </span>
       </button>
 
       {/* 章节列表 */}
-      {open && (
-        <div className="ml-0 mt-3 sm:ml-[42px]">
-          {!hasContent ? (
-            <div className="rounded-xl border border-dashed border-line px-4 py-3 text-[13.5px] text-ink-faint">
-              暂无内容，敬请期待。
-            </div>
-          ) : (
-            grade.chapters.map((chapter) => (
-              <ChapterCard key={chapter.id} chapter={chapter} />
-            ))
-          )}
+      {open && hasContent && (
+        <div className="ml-0 mb-5 mt-1.5 sm:ml-[42px]">
+          {grade.chapters.map((chapter) => (
+            <ChapterCard key={chapter.id} chapter={chapter} />
+          ))}
+        </div>
+      )}
+      {open && !hasContent && (
+        <div className="mb-5 ml-0 mt-1.5 rounded-xl border border-dashed border-line px-4 py-3 text-[13.5px] text-ink-faint sm:ml-[42px]">
+          本学期内容整理中，敬请期待。
         </div>
       )}
     </section>

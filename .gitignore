@@ -19,3 +19,7 @@ content/.obsidian/
 logs
 *.log
 npm-debug.log*
+
+# 截图产物（UI 走查用）
+shots-before/
+shots-after/
