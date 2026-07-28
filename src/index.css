@@ -304,6 +304,13 @@ mark {
     margin: 14px 0 4px;
     font-size: 13.5px;
   }
+  /* 窄屏：宽表格允许横向滚动，不撑破卡片 */
+  @media (max-width: 560px) {
+    .markdown-body table {
+      display: block;
+      overflow-x: auto;
+    }
+  }
   .markdown-body th,
   .markdown-body td {
     border: 1px solid var(--line);
@@ -359,6 +366,19 @@ mark {
   }
   .markdown-body .katex-display {
     @apply my-3 overflow-x-auto overflow-y-hidden py-1;
+  }
+  /* 行内公式：允许在窄屏折行，避免超宽公式撑破容器被截断 */
+  .markdown-body .katex {
+    white-space: normal;
+  }
+  .markdown-body .katex-display .katex {
+    white-space: nowrap;
+  }
+  /* 窄屏：块级公式略缩小，减少横向滚动 */
+  @media (max-width: 560px) {
+    .markdown-body .katex-display {
+      font-size: 0.92em;
+    }
   }
 }
 

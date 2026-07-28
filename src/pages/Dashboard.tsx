@@ -30,14 +30,14 @@ export default function Dashboard() {
   return (
     <div>
       {/* 顶部 */}
-      <header className="border-b border-line pb-[30px] pt-8 md:pt-[56px]">
+      <header className="border-b border-line pb-5 pt-4 md:pt-7">
         <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
           北京 · 初高中学习资料
         </div>
-        <h1 className="mb-[0.2em] mt-[0.28em] font-serif text-[clamp(34px,7vw,54px)] font-bold leading-[1.15] tracking-[0.02em]">
-          北京初高中<br />图文讲义
+        <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
+          北京初高中图文讲义
         </h1>
-        <p className="mt-0 max-w-[44ch] text-[15px] text-ink-soft">
+        <p className="mt-0 max-w-[52ch] text-[14.5px] text-ink-soft">
           把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
         </p>
       </header>

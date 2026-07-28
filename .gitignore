@@ -23,3 +23,9 @@ npm-debug.log*
 # 截图产物（UI 走查用）
 shots-before/
 shots-after/
+
+# 走查截图（本地验证产物，不入库）
+journey-before/
+journey-after/
+shots-before/
+shots-after/

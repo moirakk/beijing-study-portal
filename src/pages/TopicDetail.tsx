@@ -124,6 +124,12 @@ export default function TopicDetail() {
     .map((rid) => findTopic(rid))
     .filter((x): x is NonNullable<typeof x> => x != null)
 
+  // 章节内顺序导航：上一个 / 下一个知识点
+  const siblings = chapter.topics
+  const idx = siblings.findIndex((t) => t.id === topic.id)
+  const prevTopic = idx > 0 ? siblings[idx - 1] : null
+  const nextInChapter = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null
+
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
       <Breadcrumb
@@ -131,40 +137,34 @@ export default function TopicDetail() {
           { label: '首页', to: '/' },
           { label: subject.name, to: `/subject/${subject.id}` },
           { label: grade.title, to: `/subject/${subject.id}?grade=${grade.id}` },
-          { label: chapter.title, to: `/subject/${subject.id}?grade=${grade.id}` },
+          { label: chapter.title },
           { label: topic.title },
         ]}
       />
 
-      {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息 */}
+      {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息（单区紧凑排布） */}
       <header className="mt-6">
         <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
           {topic.title}
         </h1>
         <div className="rule mt-2.5" />
-        <ul className="kv mt-4">
-          <li>
-            <span className="k">所属章节</span>
-            <span className="v">
-              {subject.name} · {grade.title} · {chapter.title}
-            </span>
-          </li>
-          <li>
-            <span className="k">难度</span>
-            <span className="v text-[var(--s)]">
-              {difficultyStars(topic.difficulty)}
-            </span>
-          </li>
-          <li>
-            <span className="k">标签</span>
-            <span className="v flex flex-wrap items-center gap-1.5">
-              <span className="tag">{topic.importance}</span>
-              {topic.tags.map((t) => (
-                <span key={t} className="hl">{t.replace(/^#/, '')}</span>
-              ))}
-            </span>
-          </li>
-        </ul>
+        <div className="mt-3.5 flex flex-wrap items-center gap-x-3 gap-y-2 text-[13.5px]">
+          <span className="text-ink-soft">
+            {grade.title} · {chapter.title}
+          </span>
+          <span
+            className="text-[var(--s)]"
+            title={`难度 ${topic.difficulty}/5`}
+          >
+            {difficultyStars(topic.difficulty)}
+          </span>
+          <span className="flex flex-wrap items-center gap-1.5">
+            <span className="tag">{topic.importance}</span>
+            {topic.tags.map((t) => (
+              <span key={t} className="hl">{t.replace(/^#/, '')}</span>
+            ))}
+          </span>
+        </div>
       </header>
 
       {/* 锚点电梯导航 */}
@@ -251,69 +251,79 @@ export default function TopicDetail() {
         )}
       </div>
 
-      {/* 底部：前置知识 & 下一步学什么 */}
-      {(prereqTopics.length > 0 || nextTopics.length > 0 || relatedTopics.length > 0) && (
-        <div className="mt-6 grid gap-5 md:grid-cols-2">
-          {prereqTopics.length > 0 && (
-            <section className="card">
-              <h2 className="m-0 mb-2.5 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
-                前置知识
-              </h2>
-              <ul className="kv">
-                {prereqTopics.map((p) => (
-                  <li key={p.topic.id}>
-                    <span className="k">建议先学</span>
-                    <span className="v">
-                      <Link
-                        to={`/topic/${p.topic.id}`}
-                        className="font-medium text-[var(--s)] hover:underline"
-                      >
-                        {p.topic.title}
-                      </Link>
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </section>
+      {/* 章节内顺序导航：上一个 / 下一个 */}
+      {(prevTopic || nextInChapter) && (
+        <nav className="mt-6 grid gap-3 sm:grid-cols-2">
+          {prevTopic ? (
+            <Link
+              to={`/topic/${prevTopic.id}`}
+              className="group rounded-xl border border-line bg-panel px-4 py-3 transition-colors hover:border-[var(--s)]"
+            >
+              <div className="text-[12px] font-bold text-ink-faint">← 上一个</div>
+              <div className="mt-0.5 truncate text-[14px] font-semibold text-[var(--s-deep)] group-hover:text-[var(--s)]">
+                {prevTopic.title}
+              </div>
+            </Link>
+          ) : (
+            <span className="hidden sm:block" />
           )}
-
-          {(nextTopics.length > 0 || relatedTopics.length > 0) && (
-            <section className="card">
-              <h2 className="m-0 mb-2.5 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
-                下一步学什么
-              </h2>
-              <ul className="kv">
-                {nextTopics.map((n) => (
-                  <li key={n.topic.id}>
-                    <span className="k">进阶</span>
-                    <span className="v">
-                      <Link
-                        to={`/topic/${n.topic.id}`}
-                        className="font-medium text-[var(--s)] hover:underline"
-                      >
-                        {n.topic.title}
-                      </Link>
-                    </span>
-                  </li>
-                ))}
-                {relatedTopics.map((r) => (
-                  <li key={r.topic.id}>
-                    <span className="k">关联</span>
-                    <span className="v">
-                      <Link
-                        to={`/topic/${r.topic.id}`}
-                        className="font-medium text-[var(--s)] hover:underline"
-                      >
-                        {r.topic.title}
-                      </Link>
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </section>
+          {nextInChapter && (
+            <Link
+              to={`/topic/${nextInChapter.id}`}
+              className="group rounded-xl border border-line bg-panel px-4 py-3 text-right transition-colors hover:border-[var(--s)]"
+            >
+              <div className="text-[12px] font-bold text-ink-faint">下一个 →</div>
+              <div className="mt-0.5 truncate text-[14px] font-semibold text-[var(--s-deep)] group-hover:text-[var(--s)]">
+                {nextInChapter.title}
+              </div>
+            </Link>
           )}
-        </div>
+        </nav>
       )}
+
+      {/* 底部：前置知识 & 下一步学什么（胶囊链接，紧凑排布） */}
+      {(prereqTopics.length > 0 || nextTopics.length > 0 || relatedTopics.length > 0) && (
+        <section className="card mt-4">
+          <h2 className="m-0 mb-3 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
+            继续学习
+          </h2>
+          <div className="space-y-3">
+            {prereqTopics.length > 0 && (
+              <TopicChipRow label="建议先学" topics={prereqTopics.map((p) => p.topic)} />
+            )}
+            {nextTopics.length > 0 && (
+              <TopicChipRow label="进阶" topics={nextTopics.map((n) => n.topic)} />
+            )}
+            {relatedTopics.length > 0 && (
+              <TopicChipRow label="关联" topics={relatedTopics.map((r) => r.topic)} />
+            )}
+          </div>
+        </section>
+      )}
+    </div>
+  )
+}
+
+/** 一行推荐：左侧小标签 + 一组知识点胶囊链接 */
+function TopicChipRow({
+  label,
+  topics,
+}: {
+  label: string
+  topics: { id: string; title: string }[]
+}) {
+  return (
+    <div className="flex flex-wrap items-baseline gap-2">
+      <span className="shrink-0 text-[12.5px] font-bold text-ink-faint">{label}</span>
+      {topics.map((t) => (
+        <Link
+          key={t.id}
+          to={`/topic/${t.id}`}
+          className="rounded-full border border-line bg-paper/60 px-3 py-1 text-[13px] font-semibold text-[var(--s-deep)] transition-colors hover:border-[var(--s)] hover:bg-[var(--s-soft)]"
+        >
+          {t.title}
+        </Link>
+      ))}
     </div>
   )
 }

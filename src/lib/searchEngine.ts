@@ -68,15 +68,26 @@ interface ContentDoc {
   text: string
 }
 
-/** 粗略去除 Markdown 语法，保留正文纯文本 */
+/** 粗略去除 Markdown 语法与 LaTeX 命令，保留正文纯文本 */
 export function stripMarkdown(md: string): string {
   return md
     .replace(/```[\s\S]*?```/g, ' ')
     .replace(/^#{1,6}\s+/gm, '')
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
-    .replace(/[*_`>|#-]{1,3}/g, (m) => (m === '-' || m === '>' ? ' ' : ''))
-    .replace(/\$\$?/g, '')
+    // 块级公式整体去掉（源码形式对摘要毫无可读性）
+    .replace(/\$\$[\s\S]*?\$\$/g, ' ')
+    // 行内公式：剥掉 $ 后清理 LaTeX 命令，保留字母数字等可读部分
+    .replace(/\$([^$\n]+)\$/g, (_, expr: string) =>
+      expr
+        .replace(/\\[a-zA-Z]+\s*(\{[^{}]*\})?/g, (_m, g: string | undefined) =>
+          g ? ` ${g.slice(1, -1)} ` : ' ',
+        )
+        .replace(/[{}^_]/g, ' '),
+    )
+    // 列表符/分隔线：只清行首的 - 和 ---，保留正文中的负号
+    .replace(/^[ \t]*-{1,3}[ \t]*/gm, '')
+    .replace(/[*_`>|#]{1,3}/g, (m) => (m === '>' ? ' ' : ''))
     .replace(/\n{2,}/g, '\n')
     .replace(/[ \t]{2,}/g, ' ')
     .trim()
