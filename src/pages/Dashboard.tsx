@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import ChapterCard from '../components/ChapterCard'
 import SemesterPillNav from '../components/SemesterPillNav'
-import { getSubjects } from '../lib/contentLoader'
+import { countRealInGrade, getSubjects } from '../lib/contentLoader'
 import {
   CN_NUMERALS,
   SUBJECT_EN,
@@ -16,9 +16,9 @@ export default function Dashboard() {
     [],
   )
 
-  // 默认选中第一个有内容的科目
+  // 默认选中第一个有真内容的科目
   const defaultSubjectId =
-    subjects.find((s) => s.grades.some((g) => g.chapters.length > 0))?.id ??
+    subjects.find((s) => s.grades.some((g) => countRealInGrade(g) > 0))?.id ??
     subjects[0]?.id ??
     null
   const [activeSubjectId, setActiveSubjectId] = useState<string | null>(
@@ -109,11 +109,11 @@ function SubjectToc({
   subject: Subject
   subjectIndex: number
 }) {
-  // 默认只展开有内容的学期，空学期收起
+  // 默认只展开有真内容的学期，空学期/全 draft 学期收起
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
     const init: Record<string, boolean> = {}
     for (const grade of subject.grades) {
-      init[grade.id] = grade.chapters.length > 0
+      init[grade.id] = countRealInGrade(grade) > 0
     }
     return init
   })
@@ -159,7 +159,9 @@ function SemesterSection({
   onToggle: () => void
 }) {
   const gradeNum = grade.id.replace(/[ab]$/, '')
-  const hasContent = grade.chapters.length > 0
+  const hasChapters = grade.chapters.length > 0
+  const realCount = countRealInGrade(grade)
+  const hasReal = realCount > 0
   const chapterCount = grade.chapters.length
 
   return (
@@ -171,25 +173,27 @@ function SemesterSection({
         aria-expanded={open}
         className="group -mx-2 flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-[var(--s-soft)]"
       >
-        <span className={`unit-badge ${hasContent ? '' : 'opacity-40 saturate-0'}`}>
+        <span className={`unit-badge ${hasReal ? '' : 'opacity-40 saturate-0'}`}>
           {gradeNum}
         </span>
         <span
           className={`font-sans text-[16.5px] font-extrabold tracking-normal ${
-            hasContent ? 'text-ink' : 'text-ink-faint'
+            hasReal ? 'text-ink' : 'text-ink-faint'
           }`}
         >
           {semesterFullLabel(grade.id)}
         </span>
-        {hasContent ? (
+        {hasReal ? (
           <span className="text-[12px] tabular-nums text-ink-faint">
-            {chapterCount} 章
+            {chapterCount} 章 · {realCount} 篇
             {grade.textbook && (
               <span className="hidden sm:inline"> · {grade.textbook}</span>
             )}
           </span>
         ) : (
-          <span className="text-[12px] text-ink-faint">暂无内容</span>
+          <span className="text-[12px] text-ink-faint">
+            {hasChapters ? '待补充' : '暂无内容'}
+          </span>
         )}
         <span
           className={`ml-auto text-[11px] leading-none text-ink-faint transition-transform duration-200 group-hover:text-[var(--s)] ${
@@ -201,15 +205,15 @@ function SemesterSection({
         </span>
       </button>
 
-      {/* 章节列表 */}
-      {open && hasContent && (
+      {/* 章节列表（有章节即可浏览，draft 行由 ChapterCard 弱化显示） */}
+      {open && hasChapters && (
         <div className="ml-0 mb-5 mt-1.5 sm:ml-[42px]">
           {grade.chapters.map((chapter) => (
             <ChapterCard key={chapter.id} chapter={chapter} />
           ))}
         </div>
       )}
-      {open && !hasContent && (
+      {open && !hasChapters && (
         <div className="mb-5 ml-0 mt-1.5 rounded-xl border border-dashed border-line px-4 py-3 text-[13.5px] text-ink-faint sm:ml-[42px]">
           本学期内容整理中，敬请期待。
         </div>

@@ -10,7 +10,7 @@
 import FlexSearch from 'flexsearch'
 import type { Index as FlexIndex, IndexOptions } from 'flexsearch'
 import type { MaterialType } from '../types'
-import { getAllTopics, loadMaterial } from './contentLoader'
+import { findTopic, getAllTopics, isDraftTopic, loadMaterial } from './contentLoader'
 
 const { Index } = FlexSearch as {
   Index: new (options?: IndexOptions<string>) => FlexIndex
@@ -59,6 +59,8 @@ export interface SearchHit {
   snippet: string
   /** 相关度得分：标题 10 > 标签 6 > 正文 3 */
   score: number
+  /** 是否 draft 骨架页（排序时排在真内容之后） */
+  isDraft: boolean
 }
 
 interface ContentDoc {
@@ -207,13 +209,20 @@ export async function searchAll(query: string): Promise<SearchHit[]> {
       score: Math.max(prev.score, hit.score),
       materialType: prev.materialType ?? hit.materialType,
       snippet: prev.snippet || hit.snippet,
+      isDraft: prev.isDraft,
     })
+  }
+
+  const draftOf = (topicId: string): boolean => {
+    const loc = findTopic(topicId)
+    return loc ? isDraftTopic(loc.topic) : false
   }
 
   // 标题/标签命中
   for (const id of titleIndex.search(q, SEARCH_LIMIT)) {
     const topicId = titleIds[id as number]
-    if (topicId) put({ topicId, materialType: null, snippet: '', score: 10 })
+    if (topicId)
+      put({ topicId, materialType: null, snippet: '', score: 10, isDraft: draftOf(topicId) })
   }
 
   // 正文命中
@@ -225,8 +234,12 @@ export async function searchAll(query: string): Promise<SearchHit[]> {
       materialType: doc.materialType,
       snippet: makeSnippet(doc.text, q),
       score: 3,
+      isDraft: draftOf(doc.topicId),
     })
   }
 
-  return Array.from(byTopic.values()).sort((a, b) => b.score - a.score)
+  // draft 骨架页统一排在真内容之后，同组内按得分降序
+  return Array.from(byTopic.values()).sort(
+    (a, b) => Number(a.isDraft) - Number(b.isDraft) || b.score - a.score,
+  )
 }

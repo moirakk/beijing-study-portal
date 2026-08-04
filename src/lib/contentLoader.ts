@@ -14,12 +14,31 @@ import type {
 } from '../types'
 import { MATERIAL_FILES } from '../types'
 import subjectsJson from '../../content/subjects.json'
+import { draftPaths } from 'virtual:content-status'
 
 // ---------------------------------------------------------------------------
 // 知识树
 // ---------------------------------------------------------------------------
 
 const subjectsData = subjectsJson as SubjectsData
+
+/** draft 骨架页的 contentPath 集合（构建时扫描 note.md frontmatter 生成） */
+const draftPathSet = new Set(draftPaths)
+
+/** 该知识点是否为 draft 骨架（无 status 或 status != draft 视为真内容） */
+export function isDraftTopic(topic: Topic): boolean {
+  return topic.contentPath != null && draftPathSet.has(topic.contentPath)
+}
+
+/** 章节内真内容（非 draft）知识点数量 */
+export function countRealTopics(chapter: Chapter): number {
+  return chapter.topics.reduce((n, t) => n + (isDraftTopic(t) ? 0 : 1), 0)
+}
+
+/** 学期内真内容知识点数量 */
+export function countRealInGrade(grade: Grade): number {
+  return grade.chapters.reduce((n, c) => n + countRealTopics(c), 0)
+}
 
 /** 获取全部学科（整棵知识树） */
 export function getSubjects(): Subject[] {
@@ -81,6 +100,11 @@ const markdownModules = import.meta.glob('../../content/**/*.md', {
   import: 'default',
 }) as Record<string, () => Promise<string>>
 
+/** 去除 Markdown 开头的 YAML frontmatter（渲染与索引均不需要） */
+function stripFrontmatter(md: string): string {
+  return md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '')
+}
+
 /** 根据 contentPath（相对 content/ 的目录）与资料类型加载 Markdown 原文 */
 export async function loadMaterial(
   contentPath: string,
@@ -89,7 +113,7 @@ export async function loadMaterial(
   const key = `../../content/${contentPath}/${MATERIAL_FILES[type]}`
   const loader = markdownModules[key]
   if (!loader) return null
-  return loader()
+  return stripFrontmatter(await loader())
 }
 
 /** 加载某知识点已有的全部资料 */

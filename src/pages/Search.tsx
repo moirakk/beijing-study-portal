@@ -244,9 +244,16 @@ export default function Search() {
                     className="card block transition-colors hover:border-[var(--s)]"
                   >
                     <div className="flex flex-wrap items-center gap-2.5">
-                      <span className="font-serif text-base font-bold text-[var(--s-deep)]">
+                      <span
+                        className={`font-serif text-base font-bold text-[var(--s-deep)] ${
+                          hit.isDraft ? 'opacity-55' : ''
+                        }`}
+                      >
                         <Highlight text={loc.topic.title} query={query.trim()} />
                       </span>
+                      {hit.isDraft && (
+                        <span className="tag opacity-70">待补充</span>
+                      )}
                       {hit.materialType && (
                         <span className="tag">{MATERIAL_LABELS[hit.materialType]}</span>
                       )}

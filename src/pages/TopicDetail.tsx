@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import Markdown from '../components/Markdown'
-import { findTopic, getAllTopics, loadTopicContent } from '../lib/contentLoader'
+import { findTopic, getAllTopics, isDraftTopic, loadTopicContent } from '../lib/contentLoader'
 import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
 
@@ -178,6 +178,7 @@ export default function TopicDetail() {
   }
 
   const { subject, grade, chapter, topic } = loc
+  const draft = isDraftTopic(topic)
 
   const availableSections = SECTIONS.filter(
     (s) => content && (content as Record<string, string | undefined>)[s.key],
@@ -196,9 +197,10 @@ export default function TopicDetail() {
   const prevTopic = idx > 0 ? siblings[idx - 1] : null
   const nextInChapter = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null
 
-  const isOpen = (key: string) => openSections[key] ?? true
+  // draft 骨架页：占位分区默认折叠收起，避免空骨架造成困惑
+  const isOpen = (key: string) => openSections[key] ?? !draft
   const toggleSection = (key: string) =>
-    setOpenSections((prev) => ({ ...prev, [key]: !(prev[key] ?? true) }))
+    setOpenSections((prev) => ({ ...prev, [key]: !(prev[key] ?? !draft) }))
   /** 锚点导航：先确保目标分区展开，再平滑滚动过去 */
   const jumpToSection = (s: Section) => {
     setOpenSections((prev) => ({ ...prev, [s.key]: true }))
@@ -244,8 +246,19 @@ export default function TopicDetail() {
         </div>
       </header>
 
-      {/* 锚点电梯导航 */}
-      {availableSections.length > 0 && (
+      {/* draft 骨架页提示条 */}
+      {draft && (
+        <div className="mt-5 flex flex-wrap items-baseline gap-x-2.5 gap-y-1 rounded-xl border border-dashed border-line bg-panel px-4 py-3">
+          <span className="tag shrink-0">待补充</span>
+          <span className="text-[13.5px] leading-relaxed text-ink-soft">
+            这一页还没有内容。你可以在 Obsidian 里打开对应笔记补充，或用 AI
+            生成后粘贴进来，保存后这里会自动更新。
+          </span>
+        </div>
+      )}
+
+      {/* 锚点电梯导航（draft 页只有占位骨架，不显示） */}
+      {!draft && availableSections.length > 0 && (
         <nav className="nav-blur top-12 z-[5] -mx-1 mt-5 flex gap-1.5 overflow-x-auto rounded-full border border-line px-2 py-1.5">
           {availableSections.map((s) => (
             <button

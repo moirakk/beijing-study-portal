@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
 import SemesterPillNav from '../components/SemesterPillNav'
-import { getSubjects } from '../lib/contentLoader'
+import { countRealInGrade, getSubjects } from '../lib/contentLoader'
 import {
   ALL_GRADE_IDS,
   CN_NUMERALS,
@@ -18,6 +18,8 @@ interface SubjectSemesterEntry {
   subject: Subject
   chapters: Chapter[]
   textbook?: string
+  /** 真内容（非 draft）知识点数量 */
+  realCount: number
 }
 
 /**
@@ -41,11 +43,13 @@ export default function Semester() {
           subject,
           chapters: grade?.chapters ?? [],
           textbook: grade?.textbook,
+          realCount: grade ? countRealInGrade(grade) : 0,
         }
       })
     return {
-      withContent: list.filter((e) => e.chapters.length > 0),
-      empty: list.filter((e) => e.chapters.length === 0),
+      // 全 draft / 无章节的学科按"空学科"处理，收进底部胶囊
+      withContent: list.filter((e) => e.realCount > 0),
+      empty: list.filter((e) => e.realCount === 0),
     }
   }, [gradeId, valid])
 
