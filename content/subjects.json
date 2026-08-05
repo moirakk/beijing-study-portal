@@ -1264,8 +1264,405 @@
         {
           "id": "8a",
           "title": "初二上",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-huodongtanjiu",
+              "title": "第一单元 活动·探究",
+              "topics": [
+                {
+                  "id": "chinese-8a-1-renwuyixinwenyuedu",
+                  "title": "任务一 新闻阅读",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "chinese-8a-1-renwuerxinwencaifang",
+                  "title": "任务二 新闻采访",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "chinese-8a-1-renwusanxinwenxiezuo",
+                  "title": "任务三 新闻写作",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "chinese-8a-1-danyuanzongheshijian",
+                  "title": "单元综合实践",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-dierdanyuan",
+              "title": "第二单元",
+              "topics": [
+                {
+                  "id": "chinese-8a-2-jingdukewentengyexianshengyuhuiyilux",
+                  "title": "精读课文：藤野先生与回忆鲁迅先生",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "chinese-8a-2-zidukewentianshangyoukenanrendongxin",
+                  "title": "自读课文：天上有颗“南仁东星”与美丽的颜色",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "chinese-8a-2-xiezuoxuexiezhuanji",
+                  "title": "写作：学写传记",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "chinese-8a-2-zhengbenshuyueduhongxingzhaoyaozhong",
+                  "title": "整本书阅读：《红星照耀中国》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-disandanyuan",
+              "title": "第三单元",
+              "topics": [
+                {
+                  "id": "chinese-8a-3-gushiwenjingdusanxiaduanwenerpianyuz",
+                  "title": "古诗文精读：三峡、短文二篇、与朱元思书",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "chinese-8a-3-tangshiwushou",
+                  "title": "唐诗五首",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "chinese-8a-3-xiezuoxueximiaoxiejingwu",
+                  "title": "写作：学习描写景物",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch3/t3"
+                },
+                {
+                  "id": "chinese-8a-3-zhuantixuexihuodongyukewaigushicison",
+                  "title": "专题学习活动与课外古诗词诵读",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch3/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch4-disidanyuan",
+              "title": "第四单元",
+              "topics": [
+                {
+                  "id": "chinese-8a-4-jingdukewenbeiyingyubaiyanglizan",
+                  "title": "精读课文：背影与白杨礼赞",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "chinese-8a-4-zidukewensanwenerpianyukunmingdeyu",
+                  "title": "自读课文：散文二篇与昆明的雨",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "chinese-8a-4-xiezuoyuyanyaolianguan",
+                  "title": "写作：语言要连贯",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch4/t3"
+                },
+                {
+                  "id": "chinese-8a-4-zhengbenshuyueduhongyan",
+                  "title": "整本书阅读：《红岩》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch4/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch5-diwudanyuan",
+              "title": "第五单元",
+              "topics": [
+                {
+                  "id": "chinese-8a-5-jingdukewenzhongguoshigongqiaoyusuzh",
+                  "title": "精读课文：中国石拱桥与苏州园林",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch5/t1"
+                },
+                {
+                  "id": "chinese-8a-5-zidukewenrenminyingxiongyongchuibuxi",
+                  "title": "自读课文：人民英雄永垂不朽与梦回繁华",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch5/t2"
+                },
+                {
+                  "id": "chinese-8a-5-xiezuoshuomingshiwuyaozhuazhutezheng",
+                  "title": "写作：说明事物要抓住特征",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch5/t3"
+                },
+                {
+                  "id": "chinese-8a-5-zhuantixuexihuodongshenbiandewenhuay",
+                  "title": "专题学习活动：身边的文化遗产",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch5/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch6-diliudanyuan",
+              "title": "第六单元",
+              "topics": [
+                {
+                  "id": "chinese-8a-6-gushiwenjingdumengzisanzhangyugongyi",
+                  "title": "古诗文精读：《孟子》三章、愚公移山、周亚夫军细柳",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch6/t1"
+                },
+                {
+                  "id": "chinese-8a-6-shiciwushou",
+                  "title": "诗词五首",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch6/t2"
+                },
+                {
+                  "id": "chinese-8a-6-xiezuobiaodayaodeti",
+                  "title": "写作：表达要得体",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch6/t3"
+                },
+                {
+                  "id": "chinese-8a-6-kewaigushicisongdu",
+                  "title": "课外古诗词诵读",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade8-1/ch6/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -2305,7 +2702,407 @@
           "id": "8a",
           "title": "初二上",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-sanjiaoxing",
+              "title": "第十三章 三角形",
+              "topics": [
+                {
+                  "id": "math-8a-1-131sanjiaoxingdegainian",
+                  "title": "13.1 三角形的概念",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "math-8a-1-132yusanjiaoxingyouguandexianduan",
+                  "title": "13.2 与三角形有关的线段",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "math-8a-1-133sanjiaoxingdeneijiaoyuwaijiao",
+                  "title": "13.3 三角形的内角与外角",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "math-8a-1-zongheyushijianquedingyunzhibaobande",
+                  "title": "综合与实践：确定匀质薄板的重心位置",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-quandengsanjiaoxing",
+              "title": "第十四章 全等三角形",
+              "topics": [
+                {
+                  "id": "math-8a-2-141quandengsanjiaoxingjiqixingzhi",
+                  "title": "14.1 全等三角形及其性质",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "math-8a-2-142sanjiaoxingquandengdepanding",
+                  "title": "14.2 三角形全等的判定",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "math-8a-2-143jiaodepingfenxian",
+                  "title": "14.3 角的平分线",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-zhouduichen",
+              "title": "第十五章 轴对称",
+              "topics": [
+                {
+                  "id": "math-8a-3-151zhouduichenjiqixingzhi",
+                  "title": "15.1 轴对称及其性质",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "math-8a-3-1512xianduandechuizhipingfenxian",
+                  "title": "15.1.2 线段的垂直平分线",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "math-8a-3-152huazhouduichendetuxing",
+                  "title": "15.2 画轴对称的图形",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch3/t3"
+                },
+                {
+                  "id": "math-8a-3-153dengyaosanjiaoxingyudengbiansanji",
+                  "title": "15.3 等腰三角形与等边三角形",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch3/t4"
+                },
+                {
+                  "id": "math-8a-3-zongheyushijianzuiduanlujingwenti",
+                  "title": "综合与实践：最短路径问题",
+                  "difficulty": 3,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-zhengshidechengfa",
+              "title": "第十六章 整式的乘法",
+              "topics": [
+                {
+                  "id": "math-8a-4-161mideyunsuan",
+                  "title": "16.1 幂的运算",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "math-8a-4-162zhengshidechengfa",
+                  "title": "16.2 整式的乘法",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "math-8a-4-163chengfagongshi",
+                  "title": "16.3 乘法公式",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch4/t3"
+                },
+                {
+                  "id": "math-8a-4-zhengshichengfazongheyingyong",
+                  "title": "整式乘法综合应用",
+                  "difficulty": 3,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch4/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch5-yinshifenjie",
+              "title": "第十七章 因式分解",
+              "topics": [
+                {
+                  "id": "math-8a-5-171yongtigongyinshifafenjieyinshi",
+                  "title": "17.1 用提公因式法分解因式",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch5/t1"
+                },
+                {
+                  "id": "math-8a-5-172yonggongshifafenjieyinshi",
+                  "title": "17.2 用公式法分解因式",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch5/t2"
+                },
+                {
+                  "id": "math-8a-5-yinshifenjiezongheyingyong",
+                  "title": "因式分解综合应用",
+                  "difficulty": 3,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch5/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch6-fenshi",
+              "title": "第十八章 分式",
+              "topics": [
+                {
+                  "id": "math-8a-6-181fenshijiqijibenxingzhi",
+                  "title": "18.1 分式及其基本性质",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch6/t1"
+                },
+                {
+                  "id": "math-8a-6-182fenshidechengfayuchufa",
+                  "title": "18.2 分式的乘法与除法",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch6/t2"
+                },
+                {
+                  "id": "math-8a-6-183fenshidejiafayujianfa",
+                  "title": "18.3 分式的加法与减法",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch6/t3"
+                },
+                {
+                  "id": "math-8a-6-184zhengshuzhishumi",
+                  "title": "18.4 整数指数幂",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch6/t4"
+                },
+                {
+                  "id": "math-8a-6-185fenshifangcheng",
+                  "title": "18.5 分式方程",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade8-1/ch6/t5"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -3048,8 +3845,507 @@
         {
           "id": "8a",
           "title": "初二上",
-          "textbook": "人教版",
-          "chapters": []
+          "textbook": "外研版",
+          "chapters": [
+            {
+              "id": "ch1-unit-1-this-is-me",
+              "title": "Unit 1 This is me",
+              "topics": [
+                {
+                  "id": "english-8a-1-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "english-8a-1-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "english-8a-1-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "english-8a-1-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch1/t4"
+                },
+                {
+                  "id": "english-8a-1-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch1/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch2-unit-2-getting-along",
+              "title": "Unit 2 Getting along",
+              "topics": [
+                {
+                  "id": "english-8a-2-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "english-8a-2-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "english-8a-2-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "english-8a-2-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch2/t4"
+                },
+                {
+                  "id": "english-8a-2-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch2/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch3-unit-3-make-it-happen",
+              "title": "Unit 3 Make it happen!",
+              "topics": [
+                {
+                  "id": "english-8a-3-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "english-8a-3-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "english-8a-3-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch3/t3"
+                },
+                {
+                  "id": "english-8a-3-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch3/t4"
+                },
+                {
+                  "id": "english-8a-3-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-unit-4-digital-life",
+              "title": "Unit 4 Digital life",
+              "topics": [
+                {
+                  "id": "english-8a-4-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "english-8a-4-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "english-8a-4-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch4/t3"
+                },
+                {
+                  "id": "english-8a-4-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch4/t4"
+                },
+                {
+                  "id": "english-8a-4-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch4/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch5-unit-5-play-by-the-rules",
+              "title": "Unit 5 Play by the rules?",
+              "topics": [
+                {
+                  "id": "english-8a-5-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch5/t1"
+                },
+                {
+                  "id": "english-8a-5-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch5/t2"
+                },
+                {
+                  "id": "english-8a-5-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch5/t3"
+                },
+                {
+                  "id": "english-8a-5-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch5/t4"
+                },
+                {
+                  "id": "english-8a-5-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch5/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch6-unit-6-when-disaster-strikes",
+              "title": "Unit 6 When disaster strikes",
+              "topics": [
+                {
+                  "id": "english-8a-6-starting-out",
+                  "title": "Starting out",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch6/t1"
+                },
+                {
+                  "id": "english-8a-6-understanding-ideas",
+                  "title": "Understanding ideas",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础",
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch6/t2"
+                },
+                {
+                  "id": "english-8a-6-developing-ideas",
+                  "title": "Developing ideas",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch6/t3"
+                },
+                {
+                  "id": "english-8a-6-presenting-ideas",
+                  "title": "Presenting ideas",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch6/t4"
+                },
+                {
+                  "id": "english-8a-6-reflection",
+                  "title": "Reflection",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade8-1/ch6/t5"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -3116,7 +4412,467 @@
           "id": "8a",
           "title": "初二上",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-jixieyundong",
+              "title": "第一章 机械运动",
+              "topics": [
+                {
+                  "id": "physics-8a-1-changduheshijiandeceliang",
+                  "title": "长度和时间的测量",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "physics-8a-1-yundongdemiaoshu",
+                  "title": "运动的描述",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "physics-8a-1-yundongdekuaiman",
+                  "title": "运动的快慢",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "physics-8a-1-sududeceliang",
+                  "title": "速度的测量",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-shengxianxiang",
+              "title": "第二章 声现象",
+              "topics": [
+                {
+                  "id": "physics-8a-2-shengyindechanshengyuchuanbo",
+                  "title": "声音的产生与传播",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "physics-8a-2-shengyindetexing",
+                  "title": "声音的特性",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "physics-8a-2-shengdeliyong",
+                  "title": "声的利用",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "physics-8a-2-zaoshengdeweihaihekongzhi",
+                  "title": "噪声的危害和控制",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch2/t4"
+                },
+                {
+                  "id": "physics-8a-2-kuaxuekeshijianzhizuogeyinfangjianmo",
+                  "title": "跨学科实践：制作隔音房间模型",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch2/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch3-wutaibianhua",
+              "title": "第三章 物态变化",
+              "topics": [
+                {
+                  "id": "physics-8a-3-wendu",
+                  "title": "温度",
+                  "difficulty": 1,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "physics-8a-3-ronghuaheninggu",
+                  "title": "熔化和凝固",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "physics-8a-3-qihuaheyehua",
+                  "title": "汽化和液化",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习",
+                    "#易错"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch3/t3"
+                },
+                {
+                  "id": "physics-8a-3-shenghuaheninghua",
+                  "title": "升华和凝华",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch3/t4"
+                },
+                {
+                  "id": "physics-8a-3-kuaxuekeshijiantansuochufangzhongdew",
+                  "title": "跨学科实践：探索厨房中的物态变化问题",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-guangxianxiang",
+              "title": "第四章 光现象",
+              "topics": [
+                {
+                  "id": "physics-8a-4-guangdezhixianchuanbo",
+                  "title": "光的直线传播",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "physics-8a-4-guangdefanshe",
+                  "title": "光的反射",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "physics-8a-4-pingmianjingchengxiang",
+                  "title": "平面镜成像",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch4/t3"
+                },
+                {
+                  "id": "physics-8a-4-guangdezheshe",
+                  "title": "光的折射",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch4/t4"
+                },
+                {
+                  "id": "physics-8a-4-guangdesesan",
+                  "title": "光的色散",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch4/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch5-toujingjiqiyingyong",
+              "title": "第五章 透镜及其应用",
+              "topics": [
+                {
+                  "id": "physics-8a-5-toujing",
+                  "title": "透镜",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch5/t1"
+                },
+                {
+                  "id": "physics-8a-5-shenghuozhongdetoujing",
+                  "title": "生活中的透镜",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch5/t2"
+                },
+                {
+                  "id": "physics-8a-5-tutoujingchengxiangdeguilv",
+                  "title": "凸透镜成像的规律",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵",
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch5/t3"
+                },
+                {
+                  "id": "physics-8a-5-yanjingheyanjing",
+                  "title": "眼睛和眼镜",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch5/t4"
+                },
+                {
+                  "id": "physics-8a-5-kuaxuekeshijianzhizuowangyuanjing",
+                  "title": "跨学科实践：制作望远镜",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch5/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch6-zhiliangyumidu",
+              "title": "第六章 质量与密度",
+              "topics": [
+                {
+                  "id": "physics-8a-6-zhiliang",
+                  "title": "质量",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch6/t1"
+                },
+                {
+                  "id": "physics-8a-6-midu",
+                  "title": "密度",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch6/t2"
+                },
+                {
+                  "id": "physics-8a-6-celiangyetihegutidemidu",
+                  "title": "测量液体和固体的密度",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch6/t3"
+                },
+                {
+                  "id": "physics-8a-6-midudeyingyong",
+                  "title": "密度的应用",
+                  "difficulty": 3,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade8-1/ch6/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -4086,7 +5842,242 @@
           "id": "8a",
           "title": "初二上",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-rentishengminghuodongdetiaojie",
+              "title": "第六章 人体生命活动的调节",
+              "topics": [
+                {
+                  "id": "biology-8a-1-diyijierentiduiwaijiehuanjingdeganzh",
+                  "title": "第一节 人体对外界环境的感知",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "biology-8a-1-dierjieshenjingtiaojie",
+                  "title": "第二节 神经调节",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "biology-8a-1-disanjieshenjingxitongzhipeixiadeyun",
+                  "title": "第三节 神经系统支配下的运动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "biology-8a-1-disijiejisutiaojie",
+                  "title": "第四节 激素调节",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-jiankangdishenghuo",
+              "title": "第七章 健康地生活",
+              "topics": [
+                {
+                  "id": "biology-8a-2-diyijiechuanranbingjiqiyufang",
+                  "title": "第一节 传染病及其预防",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "biology-8a-2-dierjiemianyiyumianyiguihua",
+                  "title": "第二节 免疫与免疫规划",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "biology-8a-2-disanjieyongyaoyujijiu",
+                  "title": "第三节 用药与急救",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "biology-8a-2-disijieyuzongheshijianxuanzejiankang",
+                  "title": "第四节与综合实践：选择健康的生活方式",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-shengtaixitong",
+              "title": "第一章 生态系统",
+              "topics": [
+                {
+                  "id": "biology-8a-3-diyijieshengwuyuhuanjingdexianghuzuo",
+                  "title": "第一节 生物与环境的相互作用",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "biology-8a-3-dierjieshengtaixitongdejiegouhegongn",
+                  "title": "第二节 生态系统的结构和功能",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "biology-8a-3-disanjieshengwuquan",
+                  "title": "第三节 生物圈",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-shengtaianquan",
+              "title": "第二章 生态安全",
+              "topics": [
+                {
+                  "id": "biology-8a-4-diyijiefenxirenleihuodongduishengtai",
+                  "title": "第一节 分析人类活动对生态环境的影响",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "biology-8a-4-dierjieweihushengtaianquan",
+                  "title": "第二节 维护生态安全",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "biology-8a-4-zongheshijianxiangmushejibingzhizuos",
+                  "title": "综合实践项目：设计并制作生态瓶",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade8-1/ch4/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -4982,8 +6973,273 @@
         {
           "id": "8a",
           "title": "初二上",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-zoujinshehuishenghuo",
+              "title": "第一单元 走进社会生活",
+              "topics": [
+                {
+                  "id": "politics-8a-1-fengfudeshehuishenghuo",
+                  "title": "第一课 丰富的社会生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "politics-8a-1-zaishehuizhongjiankangchengzhang",
+                  "title": "第二课 在社会中健康成长",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "politics-8a-1-gongjianwangluomeihaojiayuan",
+                  "title": "第三课 共建网络美好家园",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch1/t3"
+                },
+                {
+                  "id": "politics-8a-1-danyuansikaoyuxingdong",
+                  "title": "单元思考与行动",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-weihushehuizhixu",
+              "title": "第二单元 维护社会秩序",
+              "topics": [
+                {
+                  "id": "politics-8a-2-zunshoushehuiguize",
+                  "title": "第四课 遵守社会规则",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "politics-8a-2-shehuishenghuojiangdaode",
+                  "title": "第五课 社会生活讲道德",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "politics-8a-2-tishengfazhisuyang",
+                  "title": "第六课 提升法治素养",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "politics-8a-2-danyuansikaoyuxingdong",
+                  "title": "单元思考与行动",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-yongdanshehuizeren",
+              "title": "第三单元 勇担社会责任",
+              "topics": [
+                {
+                  "id": "politics-8a-3-zhuiqiuziyoupingdeng",
+                  "title": "第七课 追求自由平等",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "politics-8a-3-weihugongpingzhengyi",
+                  "title": "第八课 维护公平正义",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "politics-8a-3-jijifengxianshehui",
+                  "title": "第九课 积极奉献社会",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch3/t3"
+                },
+                {
+                  "id": "politics-8a-3-danyuansikaoyuxingdong",
+                  "title": "单元思考与行动",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch3/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch4-weihuguojialiyi",
+              "title": "第四单元 维护国家利益",
+              "topics": [
+                {
+                  "id": "politics-8a-4-guojialiyizhishang",
+                  "title": "第十课 国家利益至上",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "politics-8a-4-junqiangcainengguoan",
+                  "title": "第十一课 军强才能国安",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "politics-8a-4-shulizongtiguojiaanquanguan",
+                  "title": "第十二课 树立总体国家安全观",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch4/t3"
+                },
+                {
+                  "id": "politics-8a-4-danyuansikaoyuxingdong",
+                  "title": "单元思考与行动",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade8-1/ch4/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -5840,8 +8096,396 @@
         {
           "id": "8a",
           "title": "初二上",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-zhongguokaishilunweibanzhimindibanfe",
+              "title": "第一单元 中国开始沦为半殖民地半封建社会",
+              "topics": [
+                {
+                  "id": "history-8a-1-di1keyapianzhanzheng",
+                  "title": "第1课 鸦片战争",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "history-8a-1-di2kedierciyapianzhanzheng",
+                  "title": "第2课 第二次鸦片战争",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "history-8a-1-di3ketaipingtianguoyundong",
+                  "title": "第3课 太平天国运动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-zaoqixiandaihuadechubutansuoheminzuw",
+              "title": "第二单元 早期现代化的初步探索和民族危机加剧",
+              "topics": [
+                {
+                  "id": "history-8a-2-di4keyangwuyundonghebianjiangweiji",
+                  "title": "第4课 洋务运动和边疆危机",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "history-8a-2-di5kejiawuzhongrizhanzhengyulieqiang",
+                  "title": "第5课 甲午中日战争与列强瓜分中国狂潮",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "history-8a-2-di6kewuxubianfa",
+                  "title": "第6课 戊戌变法",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch2/t3"
+                },
+                {
+                  "id": "history-8a-2-di7keyihetuanyundonghebaguolianjunqi",
+                  "title": "第7课 义和团运动和八国联军侵华",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-zichanjiejiminzhugemingyuzhonghuamin",
+              "title": "第三单元 资产阶级民主革命与中华民国的建立",
+              "topics": [
+                {
+                  "id": "history-8a-3-di8kezhongguotongmenghui",
+                  "title": "第8课 中国同盟会",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "history-8a-3-di9kexinhaigeming",
+                  "title": "第9课 辛亥革命",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "history-8a-3-di10kedizhifubiyujunfageju",
+                  "title": "第10课 帝制复辟与军阀割据",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-xinminzhuzhuyigemingdexingqi",
+              "title": "第四单元 新民主主义革命的兴起",
+              "topics": [
+                {
+                  "id": "history-8a-4-di11kewusiyundong",
+                  "title": "第11课 五四运动",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "history-8a-4-di12kezhongguogongchandangdansheng",
+                  "title": "第12课 中国共产党诞生",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "history-8a-4-xinminzhuzhuyigemingxingqizongshu",
+                  "title": "新民主主义革命兴起综述",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch4/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch5-congguogonghezuodaonongcungeminggenj",
+              "title": "第五单元 从国共合作到农村革命根据地的建立",
+              "topics": [
+                {
+                  "id": "history-8a-5-di13keguogonghezuoyubeifazhanzheng",
+                  "title": "第13课 国共合作与北伐战争",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch5/t1"
+                },
+                {
+                  "id": "history-8a-5-di14kemaozedongkaipijinggangshandaol",
+                  "title": "第14课 毛泽东开辟井冈山道路",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch5/t2"
+                },
+                {
+                  "id": "history-8a-5-di15kezhongguogongnonghongjunchangzh",
+                  "title": "第15课 中国工农红军长征与遵义会议",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch5/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch6-zhonghuaminzudekangrizhanzheng",
+              "title": "第六单元 中华民族的抗日战争",
+              "topics": [
+                {
+                  "id": "history-8a-6-di16kecongjiuyibashibiandaoxianshibi",
+                  "title": "第16课 从九一八事变到西安事变",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch6/t1"
+                },
+                {
+                  "id": "history-8a-6-di17keqiqishibianyuquanminzukangzhan",
+                  "title": "第17课 七七事变与全民族抗战",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch6/t2"
+                },
+                {
+                  "id": "history-8a-6-di18kequanminzukangzhanzhongdezhengm",
+                  "title": "第18课 全民族抗战中的正面战场和敌后战场",
+                  "difficulty": 3,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch6/t3"
+                },
+                {
+                  "id": "history-8a-6-di19kekangrizhanzhengdeshengli",
+                  "title": "第19课 抗日战争的胜利",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch6/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch7-renminjiefangzhanzheng",
+              "title": "第七单元 人民解放战争",
+              "topics": [
+                {
+                  "id": "history-8a-7-di20keguomindangtiaoqineizhan",
+                  "title": "第20课 国民党挑起内战",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch7/t1"
+                },
+                {
+                  "id": "history-8a-7-di21kerenminjiefangzhanzhengdeshengl",
+                  "title": "第21课 人民解放战争的胜利",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch7/t2"
+                },
+                {
+                  "id": "history-8a-7-di22kehuodongketanxunhongsewenhuadel",
+                  "title": "第22课 活动课：探寻红色文化的历史基因",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade8-1/ch7/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
@@ -6515,8 +9159,213 @@
         {
           "id": "8a",
           "title": "初二上",
-          "textbook": "人教版",
-          "chapters": []
+          "textbook": "中图北京版",
+          "chapters": [
+            {
+              "id": "ch1-shijiedehaiyangheludi",
+              "title": "第一章 世界的海洋和陆地",
+              "topics": [
+                {
+                  "id": "geography-8a-1-diyijiehaiyangheludidefenbu",
+                  "title": "第一节 海洋和陆地的分布",
+                  "difficulty": 2,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch1/t1"
+                },
+                {
+                  "id": "geography-8a-1-dierjiehaiyangheludidebianqian",
+                  "title": "第二节 海洋和陆地的变迁",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch1/t2"
+                },
+                {
+                  "id": "geography-8a-1-hailufenbuyubianqianzonghe",
+                  "title": "海陆分布与变迁综合",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-shijiedeqihou",
+              "title": "第二章 世界的气候",
+              "topics": [
+                {
+                  "id": "geography-8a-2-diyijieqiwenyujiangshuidefenbuhebian",
+                  "title": "第一节 气温与降水的分布和变化",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch2/t1"
+                },
+                {
+                  "id": "geography-8a-2-dierjiezhuyaodeqihouleixing",
+                  "title": "第二节 主要的气候类型",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch2/t2"
+                },
+                {
+                  "id": "geography-8a-2-disanjieqihouduishengchanheshenghuod",
+                  "title": "第三节 气候对生产和生活的影响",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-shijiedejumin",
+              "title": "第三章 世界的居民",
+              "topics": [
+                {
+                  "id": "geography-8a-3-diyijierenkouherenzhong",
+                  "title": "第一节 人口和人种",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch3/t1"
+                },
+                {
+                  "id": "geography-8a-3-dierjieyuyanhezongjiao",
+                  "title": "第二节 语言和宗教",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch3/t2"
+                },
+                {
+                  "id": "geography-8a-3-disanjiejuluo",
+                  "title": "第三节 聚落",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-shijiebutongdiyudefazhanchayi",
+              "title": "第四章 世界不同地域的发展差异",
+              "topics": [
+                {
+                  "id": "geography-8a-4-diyijiefazhanzhongguojiahefadaguojia",
+                  "title": "第一节 发展中国家和发达国家",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch4/t1"
+                },
+                {
+                  "id": "geography-8a-4-dierjieguojijingjihezuo",
+                  "title": "第二节 国际经济合作",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch4/t2"
+                },
+                {
+                  "id": "geography-8a-4-disanjieshijiediliquyudehuafenxuanxu",
+                  "title": "第三节 世界地理区域的划分（选学）",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade8-1/ch4/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "8b",
