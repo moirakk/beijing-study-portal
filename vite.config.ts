@@ -51,6 +51,6 @@ function contentStatusPlugin(): Plugin {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/beijing-study-portal/',
+  base: process.env.GITHUB_ACTIONS ? '/beijing-study-portal/' : '/',
   plugins: [react(), contentStatusPlugin()],
 })
