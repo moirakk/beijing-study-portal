@@ -27,6 +27,13 @@ function Markdown({ markdown, stripH1 }: Props) {
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={{
+          pre: ({ children, ...props }) => {
+            const child = children as { props?: { className?: string } } | undefined
+            if (/language-mermaid/.test(child?.props?.className ?? '')) {
+              return <>{children}</>
+            }
+            return <pre {...props}>{children}</pre>
+          },
           code: ({ className, children, ...props }) => {
             if (/language-mermaid/.test(className ?? '')) {
               return <Mermaid chart={String(children).trim()} />
