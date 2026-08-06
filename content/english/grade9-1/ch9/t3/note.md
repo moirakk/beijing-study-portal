@@ -13,6 +13,14 @@
 | 一般现在时被动 | am/is/are + done | Football is played all over the world. |
 | 一般过去时被动 | was/were + done | The match was played yesterday. |
 
+```mermaid
+flowchart LR
+    Now[一般现在时被动] --> A[am/is/are + done]
+    Past[一般过去时被动] --> B[was/were + done]
+    A --> Ex1[English is spoken widely.]
+    B --> Ex2[The match was won by our team.]
+```
+
 **转换练习示范**：
 - People play basketball everywhere. → Basketball **is played** everywhere.
 - They held the Olympics in 2008. → The Olympics **were held** in 2008.

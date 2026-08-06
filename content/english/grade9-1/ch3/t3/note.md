@@ -20,6 +20,17 @@
 
 **3. 连词连用禁忌**：because ≠ so 同现；although ≠ but 同现。
 
+```mermaid
+flowchart TD
+    S1[简单句 A] --> S2[简单句 B]
+    style S1 fill:#e1f5fe
+    style S2 fill:#e8f5e9
+    and[and 顺承/并列] --> Ex1[He finished school and became a doctor.]
+    but[but 转折] --> Ex2[He was ill, but he still went to work.]
+    or[or 选择/否则] --> Ex3[Study hard, or you will fail.]
+    so[so 结果] --> Ex4[She trained hard, so she played well.]
+```
+
 ## 三、few / little 复习表
 
 - few + 可数复数（否定）｜ a few + 可数复数（肯定）

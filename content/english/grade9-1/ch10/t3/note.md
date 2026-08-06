@@ -15,6 +15,18 @@
 | 一般将来时 | will be + done | A new library will be built. |
 | 情态动词 | 情态 + be + done | E-books can be downloaded. |
 
+```mermaid
+flowchart LR
+    A[一般现在时] --> B[am/is/are + done]
+    C[一般过去时] --> D[was/were + done]
+    E[一般将来时] --> F[will be + done]
+    G[情态动词] --> H[can/must/should + be + done]
+    B --> Ex1[English is spoken.]
+    D --> Ex2[Paper was invented.]
+    F --> Ex3[More trees will be planted.]
+    H --> Ex4[Rubbish should be recycled.]
+```
+
 **扩展**：现在完成时被动 have/has been done：Great changes **have been made** in my hometown.
 
 ## 三、主动改被动通用步骤

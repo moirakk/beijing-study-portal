@@ -25,6 +25,16 @@
 4. so...that（从句）与 too...to（短语）、enough to 的三者转换：
    - He is so strong that he can lift the box. = He is strong **enough to** lift the box.
 
+```mermaid
+flowchart LR
+    A[although/though<br/>虽然/尽管] --> B[让步状语从句]
+    B --> C[Although he is young,<br/>he works hard.]
+    C --> D[❌不能与 but 连用]
+    E[so...that<br/>如此……以至于] --> F[结果状语从句]
+    F --> G[He is so young that<br/>he can't go to school.]
+    G --> H[= too young to go to school]
+```
+
 ## 四、重点短语回顾
 
 - look after / take care of 照顾  **leave sb. alone** 不打扰某人

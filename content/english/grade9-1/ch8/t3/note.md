@@ -16,6 +16,16 @@
 | 一般过去时 | was/were + done | It was written in 1876. |
 | 情态动词 | can/must/should + be + done | It can be borrowed. |
 
+```mermaid
+flowchart LR
+    A[主动句] -->|宾语提前| B[被动主语]
+    B --> C[be + 过去分词
+按主语和时态变化]
+    C -->|可加 by + 原主语| D[被动句]
+    D --> E[He wrote the book.]
+    E --> F[The book was written by him.]
+```
+
 **2. 主动改被动步骤**：
 - 主动宾语 → 被动主语；动词 → be + 过去分词；主动主语 → by + 宾格（可省）。
 - He wrote the book. → The book **was written** (by him).

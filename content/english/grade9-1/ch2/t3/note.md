@@ -17,6 +17,19 @@
   - She **has been** a teacher **for** twenty years.
 
 **3. since 与 for 辨析**：
+
+```mermaid
+timeline
+    title 现在完成时 + since / for 时间线
+    section 过去
+        动作开始 : since + 过去时间点
+        2010 / 出生 / came here : since 2010
+    section 持续到现在
+        for + 时间段 : for ten years
+    section 现在
+        动作/状态仍在继续 : She has been a teacher
+```
+
 | 引导词 | 后接内容 | 例句 |
 | --- | --- | --- |
 | since | 时间点 / 过去时从句 | since 2010; since I was born |

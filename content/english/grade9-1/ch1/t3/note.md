@@ -22,6 +22,13 @@
 
 判断口诀：**名词中心 What，形（副）中心 How**。
 
+```mermaid
+flowchart LR
+    A[感叹句] --> B{中心词}
+    B -->|名词| C[What + a/an + adj. + n.]
+    B -->|形容词/副词| D[How + adj./adv.]
+```
+
 ## 三、一般过去时要点回顾
 
 1. 表过去发生的动作/状态，常与 yesterday, last week, in 2008, two days ago 等连用。

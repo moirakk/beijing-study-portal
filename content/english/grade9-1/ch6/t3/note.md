@@ -14,6 +14,18 @@
 
 **if 从句时态口诀**：条件句里现在时，主句将来/祈使/情态随语境。
 
+```mermaid
+flowchart TD
+    A[if 条件从句
+一般现在时] -->|触发| B{主句类型}
+    B -->|将来| C[主将从现
+If it rains, I will stay at home.]
+    B -->|祈使| D[主祈从现
+If you see a snake, don't touch it.]
+    B -->|情态| E[主情态从现
+If you are careful, you can be safe.]
+```
+
 ## 三、疑问词 + 不定式
 
 1. 结构：what/which/how/where/when + to do，作宾语：

@@ -16,6 +16,21 @@
 | can't | 不可以 | You can't park here. |
 | needn't | 不必 | You needn't pay. |
 
+```mermaid
+mindmap
+  root((情态动词表规则))
+    must[必须]
+      You must be quiet.
+    mustn't[禁止]
+      You mustn't touch it.
+    can[可以]
+      You can take photos outside.
+    can't[不可以]
+      You can't make noise.
+    needn't[不必]
+      You needn't pay.
+```
+
 - Must I...? → 肯定：Yes, you must. 否定：**No, you needn't.**
 - have to 与 must：have to 客观需要，有时态变化（had to, will have to）。
 

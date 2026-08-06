@@ -12,6 +12,19 @@
 - 1787 年：制宪会议制定美国宪法（1787 年宪法）
 - 1789 年：华盛顿当选美国第一任总统
 
+```mermaid
+timeline
+    title 美国独立战争进程
+    1775年4月 : 来克星顿枪声 战争爆发
+    1775年5月 : 大陆会议 华盛顿任总司令
+    1776年7月4日 : 《独立宣言》 美国诞生
+    1777年 : 萨拉托加大捷（转折点）
+    1781年 : 约克镇英军投降
+    1783年 : 英国承认美国独立
+    1787年 : 制宪会议 联邦宪法
+    1789年 : 华盛顿任第一任总统
+```
+
 ## 历史事件
 
 英属北美 13 个殖民地经济发展较快，逐渐形成新的美利坚民族。英国竭力压制殖民地经济发展，把殖民地作为原料产地和商品市场，不断颁布法令加征税收（如印花税），激起殖民地人民强烈不满。"无代表不纳税"成为反抗口号。
@@ -19,6 +32,34 @@
 1775 年来克星顿枪声打响独立战争第一枪。1776 年 7 月 4 日《独立宣言》发表，宣称人人生而平等，享有生命权、自由权和追求幸福的权利，同时宣布 13 个殖民地脱离英国独立。战争初期大陆军连遭挫败，1777 年萨拉托加大捷扭转战局，法国等国相继援美。1781 年约克镇英军投降，1783 年英国承认美国独立。
 
 1787 年宪法依据分权制衡原则设计联邦制共和国：行政、立法、司法三权分立，总统、国会、最高法院分别行使，相互制约；联邦政府与州政府分享权力。但宪法允许奴隶制存在，打上了种族歧视的烙印。
+
+## 结构示意：1787 年宪法三权分立
+
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%">
+  <rect width="560" height="300" fill="#fdfaf3"/>
+  <rect x="200" y="20" width="160" height="55" rx="8" fill="#2e6da4"/>
+  <text x="240" y="43" font-size="14" fill="#fff" font-weight="bold">立法权</text>
+  <text x="228" y="63" font-size="13" fill="#dce9f5">国会（参·众两院）</text>
+  <rect x="40" y="190" width="160" height="55" rx="8" fill="#3f8f5f"/>
+  <text x="85" y="213" font-size="14" fill="#fff" font-weight="bold">行政权</text>
+  <text x="88" y="233" font-size="13" fill="#e0f0e5">总统</text>
+  <rect x="360" y="190" width="160" height="55" rx="8" fill="#b06a2b"/>
+  <text x="400" y="213" font-size="14" fill="#fff" font-weight="bold">司法权</text>
+  <text x="385" y="233" font-size="13" fill="#f5e8da">最高法院</text>
+  <path d="M215,80 Q150,120 130,185" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <path d="M150,190 Q200,130 240,82" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <text x="80" y="130" font-size="11" fill="#555">国会可弹劾总统 /</text>
+  <text x="80" y="145" font-size="11" fill="#555">总统可否决法案</text>
+  <path d="M345,80 Q410,120 430,185" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <path d="M410,190 Q365,130 325,82" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <text x="390" y="130" font-size="11" fill="#555">法院可裁定法律违宪 /</text>
+  <text x="390" y="145" font-size="11" fill="#555">国会批准大法官任命</text>
+  <path d="M205,225 L355,225" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <path d="M355,210 L205,210" stroke="#666" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <text x="218" y="270" font-size="11" fill="#555">总统提名大法官 / 法院可判行政违宪</text>
+  <defs><marker id="a5" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#666"/></marker></defs>
+  <text x="20" y="292" font-size="12" fill="#888">分权制衡：三大机构相互制约，防止任何一方权力独大</text>
+</svg>
 
 ## 人物
 

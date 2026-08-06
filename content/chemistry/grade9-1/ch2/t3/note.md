@@ -40,6 +40,30 @@ $$
 - 离：先把导管移出水面。
 - 熄：再熄灭酒精灯（防止水倒吸炸裂试管）。
 
+## 图解：加热高锰酸钾制氧气（排水法收集）
+
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="max-width:620px;width:100%;font-family:sans-serif">
+  <g transform="rotate(8 190 100)">
+    <rect x="90" y="86" width="200" height="30" rx="15" fill="#f0f9ff" stroke="#334155" stroke-width="2"/>
+    <rect x="100" y="90" width="80" height="22" rx="6" fill="#a78bfa"/>
+    <circle cx="270" cy="101" r="6" fill="#fef3c7" stroke="#d97706"/>
+  </g>
+  <text x="140" y="66" font-size="12" fill="#5b21b6">高锰酸钾</text>
+  <line x1="268" y1="92" x2="330" y2="52" stroke="#64748b" stroke-width="1"/>
+  <text x="336" y="50" font-size="12" fill="#b45309">管口放棉花</text>
+  <text x="70" y="140" font-size="12" fill="#b91c1c">管口略向下倾斜</text>
+  <ellipse cx="160" cy="170" rx="22" ry="12" fill="#fbbf24"/>
+  <rect x="135" y="182" width="50" height="14" rx="4" fill="#94a3b8"/>
+  <text x="160" y="216" text-anchor="middle" font-size="12" fill="#334155">酒精灯(外焰)</text>
+  <path d="M296 100 H400 V210" fill="none" stroke="#334155" stroke-width="2.5"/>
+  <rect x="330" y="150" width="200" height="90" rx="6" fill="#bfdbfe" stroke="#2563eb"/>
+  <path d="M380 235 Q380 160 430 160 Q480 160 480 235" fill="#f0f9ff" stroke="#334155" stroke-width="2" opacity="0.9"/>
+  <circle cx="400" cy="220" r="4" fill="#fff" stroke="#0284c7"/>
+  <circle cx="404" cy="200" r="4" fill="#fff" stroke="#0284c7"/>
+  <text x="430" y="145" text-anchor="middle" font-size="12" fill="#1e3a8a">集气瓶（排水法）</text>
+  <text x="470" y="256" font-size="12" fill="#475569">气泡连续均匀时开始收集</text>
+</svg>
+
 ## 收集方法与验满
 
 | 方法 | 依据 | 验满 |
