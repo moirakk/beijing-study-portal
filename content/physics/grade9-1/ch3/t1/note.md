@@ -22,6 +22,46 @@
 
 **导体和绝缘体**：容易导电的物体叫导体，如金属、人体、大地、石墨、酸碱盐溶液；不容易导电的物体叫绝缘体，如橡胶、玻璃、塑料、陶瓷、干燥的空气。金属导电靠**自由电子**。导体和绝缘体之间没有绝对界限，条件改变时可以相互转化（如玻璃加热到红炽状态能导电）。
 
+## 示意图
+
+**电荷间相互作用与验电器原理**：
+
+<svg viewBox="0 0 560 190" width="560" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="arq" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#dc2626"/></marker></defs>
+  <circle cx="60" cy="50" r="16" fill="#fecaca" stroke="#334155"/><text x="60" y="55" text-anchor="middle" font-size="13">+</text>
+  <circle cx="140" cy="50" r="16" fill="#fecaca" stroke="#334155"/><text x="140" y="55" text-anchor="middle" font-size="13">+</text>
+  <path d="M40 50 h-20" stroke="#dc2626" stroke-width="2" marker-end="url(#arq)"/>
+  <path d="M160 50 h20" stroke="#dc2626" stroke-width="2" marker-end="url(#arq)"/>
+  <text x="100" y="95" text-anchor="middle" font-size="12" fill="#dc2626">同种电荷相斥</text>
+  <circle cx="60" cy="140" r="16" fill="#fecaca" stroke="#334155"/><text x="60" y="145" text-anchor="middle" font-size="13">+</text>
+  <circle cx="140" cy="140" r="16" fill="#bfdbfe" stroke="#334155"/><text x="140" y="145" text-anchor="middle" font-size="13">−</text>
+  <path d="M80 140 h18" stroke="#16a34a" stroke-width="2" marker-end="url(#arg)"/>
+  <path d="M120 140 h-18" stroke="#16a34a" stroke-width="2" marker-end="url(#arg)"/>
+  <defs><marker id="arg" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#16a34a"/></marker></defs>
+  <text x="100" y="182" text-anchor="middle" font-size="12" fill="#16a34a">异种电荷相吸</text>
+  <circle cx="400" cy="35" r="14" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <line x1="400" y1="49" x2="400" y2="95" stroke="#334155" stroke-width="3"/>
+  <rect x="330" y="60" width="140" height="115" rx="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="400" y1="95" x2="378" y2="145" stroke="#eab308" stroke-width="2.5"/>
+  <line x1="400" y1="95" x2="422" y2="145" stroke="#eab308" stroke-width="2.5"/>
+  <text x="400" y="168" text-anchor="middle" font-size="11" fill="#334155">金属箔张开</text>
+  <text x="497" y="100" text-anchor="middle" font-size="11" fill="#64748b">原理：同种电荷</text>
+  <text x="497" y="116" text-anchor="middle" font-size="11" fill="#64748b">相互排斥</text>
+</svg>
+
+**摩擦起电的实质——电子转移**：
+
+<svg viewBox="0 0 460 120" width="460" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <rect x="40" y="35" width="130" height="40" rx="8" fill="#fde68a" stroke="#334155"/>
+  <text x="105" y="60" text-anchor="middle" font-size="12">玻璃棒（失电子带+）</text>
+  <rect x="290" y="35" width="130" height="40" rx="8" fill="#e9d5ff" stroke="#334155"/>
+  <text x="355" y="60" text-anchor="middle" font-size="12">丝绸（得电子带−）</text>
+  <path d="M175 55 h108" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arel)"/>
+  <defs><marker id="arel" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#2563eb"/></marker></defs>
+  <text x="229" y="45" text-anchor="middle" font-size="12" fill="#2563eb">电子 e⁻</text>
+  <text x="230" y="105" text-anchor="middle" font-size="11" fill="#64748b">电子从束缚弱的物体转移到束缚强的物体，两者带等量异种电荷</text>
+</svg>
+
 ## 实验要点
 
 - 用摩擦过的塑料尺靠近碎纸屑，纸屑被吸起——带电体能吸引轻小物体。

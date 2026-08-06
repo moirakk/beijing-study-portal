@@ -28,6 +28,62 @@
 
 生活实例：马路上的路灯、家庭中的各用电器都是**并联**；节日小彩灯（老式）、开关与它控制的用电器是**串联**。
 
+## 电路图
+
+**串联电路与并联电路对比**：
+
+<svg viewBox="0 0 620 230" width="620" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="arc3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#dc2626"/></marker></defs>
+  <g>
+    <path d="M40 40 h220 v140 h-220 z" fill="none" stroke="#334155" stroke-width="2"/>
+    <line x1="135" y1="28" x2="135" y2="52" stroke="#334155" stroke-width="2.5"/>
+    <line x1="150" y1="34" x2="150" y2="46" stroke="#334155" stroke-width="5"/>
+    <text x="126" y="20" font-size="11">+</text><text x="152" y="20" font-size="11">−</text>
+    <circle cx="100" cy="180" r="13" fill="#fff" stroke="#334155" stroke-width="2"/>
+    <line x1="91" y1="171" x2="109" y2="189" stroke="#334155" stroke-width="1.8"/>
+    <line x1="109" y1="171" x2="91" y2="189" stroke="#334155" stroke-width="1.8"/>
+    <text x="100" y="212" text-anchor="middle" font-size="11">L₁</text>
+    <circle cx="200" cy="180" r="13" fill="#fff" stroke="#334155" stroke-width="2"/>
+    <line x1="191" y1="171" x2="209" y2="189" stroke="#334155" stroke-width="1.8"/>
+    <line x1="209" y1="171" x2="191" y2="189" stroke="#334155" stroke-width="1.8"/>
+    <text x="200" y="212" text-anchor="middle" font-size="11">L₂</text>
+    <circle cx="260" cy="110" r="3" fill="#334155"/><line x1="260" y1="110" x2="278" y2="94" stroke="#334155" stroke-width="2.2"/>
+    <path d="M60 40 h24" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arc3)"/>
+    <text x="150" y="230" text-anchor="middle" font-size="12" fill="#334155">串联：电流一条路径</text>
+  </g>
+  <g>
+    <path d="M360 40 h220 v140 h-220 z" fill="none" stroke="#334155" stroke-width="2"/>
+    <line x1="455" y1="28" x2="455" y2="52" stroke="#334155" stroke-width="2.5"/>
+    <line x1="470" y1="34" x2="470" y2="46" stroke="#334155" stroke-width="5"/>
+    <text x="446" y="20" font-size="11">+</text><text x="472" y="20" font-size="11">−</text>
+    <line x1="420" y1="180" x2="420" y2="80" stroke="#334155" stroke-width="2"/>
+    <line x1="530" y1="180" x2="530" y2="80" stroke="#334155" stroke-width="2"/>
+    <line x1="420" y1="80" x2="530" y2="80" stroke="#334155" stroke-width="2"/>
+    <line x1="420" y1="130" x2="530" y2="130" stroke="#334155" stroke-width="2"/>
+    <circle cx="420" cy="180" r="3.5" fill="#334155"/><circle cx="530" cy="180" r="3.5" fill="#334155"/>
+    <circle cx="475" cy="80" r="13" fill="#fff" stroke="#334155" stroke-width="2"/>
+    <line x1="466" y1="71" x2="484" y2="89" stroke="#334155" stroke-width="1.8"/>
+    <line x1="484" y1="71" x2="466" y2="89" stroke="#334155" stroke-width="1.8"/>
+    <text x="500" y="70" font-size="11">L₁</text>
+    <circle cx="475" cy="130" r="13" fill="#fff" stroke="#334155" stroke-width="2"/>
+    <line x1="466" y1="121" x2="484" y2="139" stroke="#334155" stroke-width="1.8"/>
+    <line x1="484" y1="121" x2="466" y2="139" stroke="#334155" stroke-width="1.8"/>
+    <text x="500" y="120" font-size="11">L₂</text>
+    <circle cx="380" cy="180" r="3" fill="#334155"/><line x1="380" y1="180" x2="398" y2="164" stroke="#334155" stroke-width="2.2"/>
+    <path d="M380 40 h24" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arc3)"/>
+    <text x="470" y="230" text-anchor="middle" font-size="12" fill="#334155">并联：节点处分流，多条路径</text>
+  </g>
+</svg>
+
+**识别方法流程**：
+
+```mermaid
+flowchart TD
+  A[沿电流方向从正极走起] --> B{电流是否在某点分成几条支路?}
+  B -- 否，依次通过各用电器 --> C[串联]
+  B -- 是，分开后又汇合 --> D[并联]
+```
+
 ## 对比分析
 
 | 比较项 | 串联电路 | 并联电路 |
