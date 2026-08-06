@@ -22,6 +22,31 @@ $$
 
 注意：并不是所有原子都有中子（普通氢原子无中子）；质子数不一定等于中子数。
 
+## 图解：原子的构成与钠原子结构示意图
+
+<svg viewBox="0 0 620 250" xmlns="http://www.w3.org/2000/svg" style="max-width:620px;width:100%;font-family:sans-serif">
+  <circle cx="150" cy="120" r="26" fill="#fecaca" stroke="#dc2626"/>
+  <circle cx="141" cy="112" r="7" fill="#ef4444"/><circle cx="159" cy="112" r="7" fill="#94a3b8"/>
+  <circle cx="141" cy="128" r="7" fill="#94a3b8"/><circle cx="159" cy="128" r="7" fill="#ef4444"/>
+  <circle cx="150" cy="120" r="60" fill="none" stroke="#60a5fa" stroke-dasharray="4 4"/>
+  <circle cx="150" cy="120" r="92" fill="none" stroke="#60a5fa" stroke-dasharray="4 4"/>
+  <circle cx="210" cy="120" r="5" fill="#2563eb"/><circle cx="90" cy="120" r="5" fill="#2563eb"/>
+  <circle cx="150" cy="28" r="5" fill="#2563eb"/>
+  <text x="150" y="230" text-anchor="middle" font-size="13" fill="#334155">原子核（质子●+中子●）+ 核外电子●</text>
+  <g>
+    <circle cx="450" cy="120" r="30" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="450" y="126" text-anchor="middle" font-size="15" fill="#9a3412">+11</text>
+    <path d="M395 120 A55 55 0 0 1 505 120" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <text x="450" y="58" text-anchor="middle" font-size="13" fill="#334155">2</text>
+    <path d="M372 120 A78 78 0 0 1 528 120" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <text x="450" y="35" text-anchor="middle" font-size="13" fill="#334155">8</text>
+    <path d="M350 120 A100 100 0 0 1 550 120" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <text x="450" y="12" text-anchor="middle" font-size="13" fill="#334155">1</text>
+    <text x="450" y="180" text-anchor="middle" font-size="13" fill="#334155">钠原子结构示意图（2,8,1）</text>
+    <text x="450" y="200" text-anchor="middle" font-size="12" fill="#b45309">最外层1个电子 → 易失去 → Na⁺</text>
+  </g>
+</svg>
+
 ## 核外电子排布
 
 - 电子在原子核外分层排布，第一层最多容纳2个电子，第二层最多容纳8个，最外层不超过8个（只有一层时不超过2个）。

@@ -44,6 +44,35 @@
 - 同一族（纵行）：最外层电子数相同（多数情况），化学性质相似。
 - 金属元素名称多带"钅"旁，非金属带"石、气、氵"旁。
 
+## 图解：元素周期表局部（前18号元素）
+
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="max-width:620px;width:100%;font-family:sans-serif" font-size="11">
+  <g text-anchor="middle">
+    <rect x="10" y="10" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="40" y="30">1 H</text><text x="40" y="50" font-size="13">氢</text>
+    <rect x="550" y="10" width="60" height="60" fill="#fef9c3" stroke="#334155"/><text x="580" y="30">2 He</text><text x="580" y="50" font-size="13">氦</text>
+    <rect x="10" y="75" width="60" height="60" fill="#dbeafe" stroke="#334155"/><text x="40" y="95">3 Li</text><text x="40" y="115" font-size="13">锂</text>
+    <rect x="75" y="75" width="60" height="60" fill="#dbeafe" stroke="#334155"/><text x="105" y="95">4 Be</text><text x="105" y="115" font-size="13">铍</text>
+    <rect x="225" y="75" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="255" y="95">5 B</text><text x="255" y="115" font-size="13">硼</text>
+    <rect x="290" y="75" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="320" y="95">6 C</text><text x="320" y="115" font-size="13">碳</text>
+    <rect x="355" y="75" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="385" y="95">7 N</text><text x="385" y="115" font-size="13">氮</text>
+    <rect x="420" y="75" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="450" y="95">8 O</text><text x="450" y="115" font-size="13">氧</text>
+    <rect x="485" y="75" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="515" y="95">9 F</text><text x="515" y="115" font-size="13">氟</text>
+    <rect x="550" y="75" width="60" height="60" fill="#fef9c3" stroke="#334155"/><text x="580" y="95">10 Ne</text><text x="580" y="115" font-size="13">氖</text>
+    <rect x="10" y="140" width="60" height="60" fill="#dbeafe" stroke="#334155"/><text x="40" y="160">11 Na</text><text x="40" y="180" font-size="13">钠</text>
+    <rect x="75" y="140" width="60" height="60" fill="#dbeafe" stroke="#334155"/><text x="105" y="160">12 Mg</text><text x="105" y="180" font-size="13">镁</text>
+    <rect x="225" y="140" width="60" height="60" fill="#dbeafe" stroke="#334155"/><text x="255" y="160">13 Al</text><text x="255" y="180" font-size="13">铝</text>
+    <rect x="290" y="140" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="320" y="160">14 Si</text><text x="320" y="180" font-size="13">硅</text>
+    <rect x="355" y="140" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="385" y="160">15 P</text><text x="385" y="180" font-size="13">磷</text>
+    <rect x="420" y="140" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="450" y="160">16 S</text><text x="450" y="180" font-size="13">硫</text>
+    <rect x="485" y="140" width="60" height="60" fill="#dcfce7" stroke="#334155"/><text x="515" y="160">17 Cl</text><text x="515" y="180" font-size="13">氯</text>
+    <rect x="550" y="140" width="60" height="60" fill="#fef9c3" stroke="#334155"/><text x="580" y="160">18 Ar</text><text x="580" y="180" font-size="13">氩</text>
+  </g>
+  <rect x="10" y="220" width="14" height="14" fill="#dbeafe" stroke="#334155"/><text x="30" y="232" font-size="12">金属</text>
+  <rect x="80" y="220" width="14" height="14" fill="#dcfce7" stroke="#334155"/><text x="100" y="232" font-size="12">非金属</text>
+  <rect x="160" y="220" width="14" height="14" fill="#fef9c3" stroke="#334155"/><text x="180" y="232" font-size="12">稀有气体</text>
+  <text x="360" y="232" font-size="12" fill="#64748b">同一横行=周期（电子层数相同），同一纵行=族</text>
+</svg>
+
 ## 对比分析：元素与原子
 
 | 项目 | 元素 | 原子 |

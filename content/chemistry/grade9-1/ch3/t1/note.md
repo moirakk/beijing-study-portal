@@ -37,6 +37,33 @@ $$
 2H_2O \xrightarrow{通电} 2H_2\uparrow + O_2\uparrow
 $$
 
+## 图解：水的电解（微观过程）
+
+<svg viewBox="0 0 620 220" xmlns="http://www.w3.org/2000/svg" style="max-width:620px;width:100%;font-family:sans-serif">
+  <g>
+    <circle cx="70" cy="80" r="16" fill="#ef4444"/><circle cx="55" cy="62" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="85" cy="62" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="150" cy="80" r="16" fill="#ef4444"/><circle cx="135" cy="62" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="165" cy="62" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="110" y="120" text-anchor="middle" font-size="13" fill="#334155">2个水分子</text>
+  </g>
+  <text x="215" y="85" text-anchor="middle" font-size="20" fill="#64748b">→</text>
+  <g>
+    <circle cx="270" cy="60" r="16" fill="#ef4444"/><circle cx="320" cy="60" r="16" fill="#ef4444"/>
+    <circle cx="270" cy="105" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="295" cy="105" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="320" cy="105" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="345" cy="105" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="305" y="145" text-anchor="middle" font-size="13" fill="#334155">分解成原子</text>
+  </g>
+  <text x="395" y="85" text-anchor="middle" font-size="20" fill="#64748b">→</text>
+  <g>
+    <circle cx="450" cy="55" r="16" fill="#ef4444"/><circle cx="484" cy="55" r="16" fill="#ef4444"/>
+    <text x="530" y="60" font-size="13" fill="#7f1d1d">1个氧分子</text>
+    <circle cx="445" cy="110" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="467" cy="110" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="497" cy="110" r="10" fill="#e2e8f0" stroke="#94a3b8"/><circle cx="519" cy="110" r="10" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="545" y="115" font-size="13" fill="#334155">2个氢分子</text>
+    <text x="490" y="150" text-anchor="middle" font-size="13" fill="#334155">原子重新组合成新分子</text>
+  </g>
+  <text x="310" y="195" text-anchor="middle" font-size="13" fill="#b45309">化学变化中：分子可分，原子不可再分</text>
+</svg>
+
 ## 用分子观点区分物质
 
 - 纯净物：由同种分子构成（如纯水中只有水分子）。
