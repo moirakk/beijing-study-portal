@@ -13,6 +13,17 @@
 | 人 | who / that | who / whom / that |
 | 物 | which / that | which / that |
 
+```mermaid
+flowchart TD
+    A[定语从句关系代词选择] --> B{先行词}
+    B -->|人| C[who / that]
+    B -->|物| D[which / that]
+    C -->|作主语| E[不可省略]
+    C -->|作宾语| F[可省略]
+    D -->|作主语| G[不可省略]
+    D -->|作宾语| H[可省略]
+```
+
 **只用 that 的场合**：
 1. 先行词被最高级/序数词修饰：the best photo **that**...
 2. 先行词被 all, only, no, any, every 修饰：the only one **that**...

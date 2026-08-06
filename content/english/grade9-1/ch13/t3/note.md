@@ -15,6 +15,16 @@
 3. 主句还可以是祈使句/情态动词句：
    - **Unless** you're tired, **let's** walk to school.
 
+```mermaid
+flowchart TD
+    A[if 条件句] --> B[如果……]
+    B --> C[If we save energy,<br/>we'll help the earth.]
+    D[unless 条件句] --> E[除非……
+= if ... not]
+    E --> F[Unless we act now,<br/>it will be too late.]
+    E --> G[If we don't act now,<br/>it will be too late.]
+```
+
 ## 三、环保话题被动句集锦
 
 - Rubbish **should be put** into different bins. 垃圾应分类投放。

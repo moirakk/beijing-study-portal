@@ -16,6 +16,16 @@
 - **Don't buy** things **unless** you really need them. 除非真正需要，否则不要购买。
 - Things **that are made of** paper, plastic or glass **can be recycled**. 纸质、塑料或玻璃制品可以回收。
 
+```mermaid
+flowchart LR
+    A[Reduce 减少] --> B[less waste, save resources]
+    B --> C[Reuse 重复使用]
+    C --> D[use again, donate, repair]
+    D --> E[Recycle 回收再造]
+    E --> F[sort rubbish, make new products]
+    F --> A
+```
+
 ## 二、重点词汇
 
 - **repeat** v. 重复  **daily** adv. 每天 adj. 日常的
