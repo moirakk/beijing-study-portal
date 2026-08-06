@@ -10,11 +10,42 @@
 - 17 世纪下半叶起：英、法、荷为争夺殖民地与世界市场展开激烈争夺
 - 18 世纪中期：英国最终确立海上霸主地位，成为"日不落帝国"
 
+```mermaid
+timeline
+    title 早期殖民争霸
+    15世纪末起 : 葡萄牙建立殖民据点商站
+    16世纪 : 西班牙"无敌舰队"称霸美洲
+    1588年 : 英国打败"无敌舰队"
+    17世纪 : 荷兰"海上马车夫" : 英法荷殖民争夺
+    18世纪中期 : 英国成为"日不落帝国"
+```
+
 ## 历史事件
 
 最早进行殖民扩张的国家是葡萄牙和西班牙。葡萄牙主要在亚洲和非洲沿海建立殖民据点与商站，从事香料等转手贸易；西班牙则凭借"无敌舰队"在美洲大肆掠夺金银、屠杀印第安人，建立起殖民大帝国。
 
 英国从 16 世纪开始拓展海外贸易和殖民活动。1588 年打败西班牙"无敌舰队"后，英国逐渐建立北美殖民地，发展种植园经济（烟草、蔗糖等），并进行罪恶的"三角贸易"：欧洲商人携带枪支、纺织品等从欧洲出发（出程）到非洲换取黑奴，再将黑奴运往美洲（中程）卖掉，最后把美洲的金银和工业原料运回欧洲（归程）。荷兰、法国也积极参与殖民争夺和黑奴贸易。经过一系列战争，英国在 18 世纪中期打败法国，成为最大的殖民国家。
+
+## 地图示意："三角贸易"路线
+
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" style="max-width:600px;width:100%">
+  <rect width="600" height="340" fill="#cfe6f5"/>
+  <path d="M60,60 Q100,40 140,65 Q155,110 130,160 Q115,220 120,270 Q95,290 75,270 Q55,190 50,120 Z" fill="#f2e2b8" stroke="#c8b98a"/>
+  <text x="70" y="160" font-size="14" fill="#7c5c10" font-weight="bold">美洲</text>
+  <path d="M420,35 Q470,20 510,45 Q520,70 505,90 Q470,100 440,85 Q420,60 420,35 Z" fill="#e8d5b5" stroke="#c8b98a"/>
+  <text x="445" y="65" font-size="14" fill="#7c5c10" font-weight="bold">欧洲</text>
+  <path d="M430,120 Q490,105 535,135 Q555,190 535,245 Q505,290 465,300 Q435,260 425,200 Q420,155 430,120 Z" fill="#e8d5b5" stroke="#c8b98a"/>
+  <text x="465" y="205" font-size="14" fill="#7c5c10" font-weight="bold">非洲</text>
+  <path d="M455,95 Q450,105 452,115" stroke="#2e7d32" stroke-width="4" fill="none" marker-end="url(#a4)"/>
+  <text x="240" y="90" font-size="13" fill="#2e7d32" font-weight="bold">① 出程：枪支·纺织品·杂物</text>
+  <path d="M470,92 Q468,104 468,116" stroke="#2e7d32" stroke-width="0" fill="none"/>
+  <path d="M425,180 Q270,220 145,200" stroke="#c0392b" stroke-width="4" fill="none" marker-end="url(#a4)"/>
+  <text x="200" y="245" font-size="13" fill="#c0392b" font-weight="bold">② 中程：黑奴（最不人道）</text>
+  <path d="M135,120 Q280,55 415,55" stroke="#1d4e89" stroke-width="4" fill="none" marker-end="url(#a4)"/>
+  <text x="195" y="45" font-size="13" fill="#1d4e89" font-weight="bold">③ 归程：金银·工业原料</text>
+  <defs><marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333"/></marker></defs>
+  <text x="20" y="328" font-size="12" fill="#666">示意图：欧洲→非洲→美洲→欧洲，构成大西洋上的三角航程</text>
+</svg>
 
 ## 人物与群体
 

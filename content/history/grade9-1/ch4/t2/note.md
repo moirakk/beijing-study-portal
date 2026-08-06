@@ -10,6 +10,17 @@
 - 8 世纪中期：阿拉伯帝国横跨欧、亚、非三洲，是当时世界上疆域最大的帝国
 - 830 年：哈里发设立"智慧宫"，集科学院、图书馆、翻译馆于一体
 
+```mermaid
+timeline
+    title 伊斯兰教与阿拉伯帝国
+    610年前后 : 穆罕默德创立伊斯兰教（麦加）
+    622年 : 迁居麦地那 建政教合一国家雏形（伊斯兰教历元年）
+    630年 : 占领麦加 各部落归附
+    632年 : 半岛基本统一
+    8世纪中期 : 帝国地跨欧亚非三洲
+    830年 : 设"智慧宫" 翻译运动兴盛
+```
+
 ## 历史事件
 
 穆罕默德创立伊斯兰教，宣扬"独尊安拉"，反对多神崇拜，顺应了阿拉伯半岛统一的需要。622 年他迁居麦地那，建立起政教合一的国家雏形；到他去世时，半岛已基本统一。
@@ -17,6 +28,27 @@
 此后阿拉伯人大规模向外扩张：北进叙利亚，东灭波斯，进而征服中亚和印度西北部；751 年在中亚打败唐朝军队，控制中亚大部分地区；向西攻占埃及和北非，一直到达西班牙。8 世纪中期，阿拉伯帝国形成，地跨欧、亚、非三洲。
 
 哈里发重视知识，支持翻译运动，将希腊、波斯、印度的典籍译为阿拉伯语（"翻译运动"），设立"智慧宫"。阿拉伯学者改造印度数字形成"阿拉伯数字"并传入欧洲；完整代数学由阿拉伯人创造；《医学集成》《医典》长期是欧洲医学标准教科书；《天方夜谭》（《一千零一夜》）是阿拉伯文学的瑰宝。
+
+## 地图示意：8 世纪中期阿拉伯帝国疆域与扩张
+
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="max-width:640px;width:100%">
+  <rect width="640" height="300" fill="#eaf4fb"/>
+  <path d="M40,80 Q180,45 340,65 Q500,40 605,85 Q625,160 590,235 Q440,275 300,255 Q150,270 50,225 Q20,150 40,80 Z" fill="#d9ead3" stroke="#8fb573" stroke-width="2"/>
+  <circle cx="360" cy="200" r="7" fill="#2e7d32"/>
+  <text x="330" y="225" font-size="13" fill="#2e7d32" font-weight="bold">麦加·麦地那</text>
+  <path d="M360,193 Q350,150 330,120" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  <text x="300" y="108" font-size="12" fill="#7c4a10">叙利亚</text>
+  <path d="M368,195 Q440,160 505,130" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  <text x="470" y="118" font-size="12" fill="#7c4a10">波斯·中亚（751年败唐军）</text>
+  <path d="M352,200 Q260,205 190,190" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  <text x="170" y="215" font-size="12" fill="#7c4a10">埃及·北非</text>
+  <path d="M185,188 Q110,160 75,115" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  <text x="38" y="102" font-size="12" fill="#7c4a10">西班牙</text>
+  <circle cx="395" cy="140" r="6" fill="#8e44ad"/>
+  <text x="405" y="140" font-size="12" fill="#8e44ad">巴格达（智慧宫）</text>
+  <defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/></marker></defs>
+  <text x="20" y="290" font-size="12" fill="#888">示意图：自阿拉伯半岛三路扩张，8世纪中期成为地跨欧亚非的大帝国</text>
+</svg>
 
 ## 人物
 
