@@ -9,6 +9,16 @@
 - 公元前 334 年：亚历山大率军东征波斯
 - 公元前 323 年：亚历山大病逝，帝国随后分裂
 
+```mermaid
+timeline
+    title 古希腊历史脉络
+    公元前2000年左右 : 克里特文明 : 迈锡尼文明
+    公元前8世纪 : 城邦出现（雅典·斯巴达）
+    公元前5世纪中后期 : 伯里克利主政 雅典民主高峰
+    公元前4世纪 : 马其顿控制希腊
+    公元前334—前323年 : 亚历山大东征 建立地跨三洲帝国
+```
+
 ## 历史事件
 
 希腊地理范围包括希腊半岛和爱琴海诸岛，环海、多山、多岛屿，平原面积狭小，不适于农耕，但适合发展海外贸易，这种地理环境孕育了小国寡民的城邦。城邦的居民分为公民和非公民，只有成年男性公民才有参与政治的权利。
@@ -16,6 +26,29 @@
 伯里克利主政时期，扩大公民权利，公职人员几乎都从全体公民中抽签产生；代表各地的 10 个主席团轮流主持城邦日常事务；公民大会是最高权力机构，具有立法、司法等多种职能；为保证贫穷公民参政议政，还建立了津贴制度。但占人口多数的外邦人、奴隶和妇女没有任何政治权利。
 
 公元前 4 世纪，马其顿国王亚历山大东征，历经 10 年征战，灭亡波斯帝国，建立起地跨欧、亚、非三洲的亚历山大帝国，定都巴比伦。
+
+## 地图示意：亚历山大东征路线
+
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="max-width:640px;width:100%">
+  <rect width="640" height="300" fill="#eaf4fb"/>
+  <path d="M30,70 Q150,40 300,60 Q460,35 600,70 Q620,150 590,230 Q450,270 300,250 Q140,265 40,225 Q15,150 30,70 Z" fill="#f5efdc" stroke="#c8b98a" stroke-width="2"/>
+  <ellipse cx="180" cy="160" rx="90" ry="45" fill="#7fb6d9" opacity="0.75"/>
+  <text x="140" y="165" font-size="13" fill="#1d4e89">地中海</text>
+  <circle cx="90" cy="95" r="7" fill="#2e7d32"/>
+  <text x="45" y="82" font-size="14" fill="#2e7d32" font-weight="bold">马其顿·希腊</text>
+  <path d="M97,100 Q170,90 240,110" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <path d="M240,110 Q260,160 220,205" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <text x="185" y="228" font-size="12" fill="#7c5c10">埃及</text>
+  <path d="M225,205 Q310,220 370,170" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <circle cx="382" cy="163" r="6" fill="#c0392b"/>
+  <text x="360" y="150" font-size="12" fill="#c0392b">巴比伦（定都）</text>
+  <path d="M388,165 Q470,150 540,130" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <text x="455" y="128" font-size="12" fill="#7c5c10">波斯</text>
+  <path d="M545,132 Q580,150 595,185" stroke="#c0392b" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <text x="545" y="210" font-size="12" fill="#7c5c10">印度河流域</text>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/></marker></defs>
+  <text x="20" y="290" font-size="12" fill="#888">示意图：公元前334年自马其顿出发，经埃及、两河流域、波斯，抵达印度河流域</text>
+</svg>
 
 ## 人物
 
