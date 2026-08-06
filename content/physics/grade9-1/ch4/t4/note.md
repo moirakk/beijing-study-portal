@@ -52,7 +52,7 @@
   <circle cx="100" cy="112" r="5" fill="#dc2626"/><text x="60" y="116" font-size="11" fill="#dc2626">C(下)</text>
   <circle cx="340" cy="112" r="5" fill="#94a3b8"/><text x="355" y="116" font-size="11" fill="#64748b">D(下)</text>
   <line x1="100" y1="135" x2="140" y2="112" stroke="#f97316" stroke-width="0"/>
-  <path d="M100 117 L204 133" stroke="#f97316" stroke-width="3" fill="none" opacity="0.55"/>
+  <path d="M100 128 H209" stroke="#f97316" stroke-width="4" fill="none" opacity="0.6"/>
   <text x="150" y="160" font-size="11" fill="#ea580c">接 A、C：有效电阻为 C→P 段</text>
   <text x="150" y="180" font-size="11" fill="#64748b">P 右移，有效电阻线变长，R 变大</text>
   <text x="150" y="205" font-size="12" fill="#334155">口诀：一上一下，看下不看上</text>
