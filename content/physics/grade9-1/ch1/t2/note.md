@@ -21,6 +21,30 @@
 
 做功和热传递在改变内能上是**等效的**。做功是能量形式的转化（机械能与内能相互转化），热传递是内能的转移。
 
+## 示意图
+
+**做功改变内能的两个演示实验**：
+
+<svg viewBox="0 0 520 190" width="520" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <rect x="60" y="40" width="50" height="110" rx="5" fill="#e0f2fe" stroke="#334155" stroke-width="2"/>
+  <rect x="66" y="20" width="38" height="30" fill="#94a3b8" stroke="#334155"/>
+  <rect x="78" y="0" width="14" height="24" fill="#64748b" stroke="#334155"/>
+  <path d="M85 62 v20" stroke="#dc2626" stroke-width="3" marker-end="url(#ard)"/>
+  <circle cx="85" cy="125" r="10" fill="#f97316"/>
+  <path d="M85 112 q-6 -10 0 -16 q6 6 0 16" fill="#facc15" stroke="#ea580c"/>
+  <text x="85" y="175" text-anchor="middle" font-size="12" fill="#334155">下压活塞→硝化棉燃烧</text>
+  <text x="85" y="189" text-anchor="middle" font-size="11" fill="#dc2626">对物体做功，内能增大</text>
+  <defs><marker id="ard" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#dc2626"/></marker></defs>
+  <ellipse cx="360" cy="110" rx="55" ry="45" fill="#e0f2fe" stroke="#334155" stroke-width="2"/>
+  <rect x="345" y="45" width="30" height="25" fill="#f1f5f9" stroke="#334155"/>
+  <rect x="348" y="18" width="24" height="18" rx="4" fill="#fbbf24" stroke="#334155" transform="rotate(-18 360 27)"/>
+  <path d="M362 40 l6 -14" stroke="#334155" stroke-width="2" marker-end="url(#arb)"/>
+  <defs><marker id="arb" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <circle cx="345" cy="95" r="4" fill="#cbd5e1"/><circle cx="372" cy="118" r="5" fill="#cbd5e1"/><circle cx="352" cy="128" r="4" fill="#cbd5e1"/>
+  <text x="360" y="175" text-anchor="middle" font-size="12" fill="#334155">瓶塞跳出，瓶内现白雾</text>
+  <text x="360" y="189" text-anchor="middle" font-size="11" fill="#2563eb">气体对外做功，内能减小</text>
+</svg>
+
 ## 实验要点
 
 - 压缩空气点火实验：迅速下压活塞，筒内硝化棉燃烧，说明对物体做功，物体内能增大，温度升高。

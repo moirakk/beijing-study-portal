@@ -23,6 +23,42 @@
 - 距离增大时，引力大于斥力，表现为引力（固体很难被拉断）；
 - 距离很大（约大于分子直径10倍）时，作用力可忽略（气体分子间作用力极小）。
 
+## 示意图
+
+**气体扩散实验**（二氧化氮密度大放下方，排除重力干扰）：
+
+<svg viewBox="0 0 460 170" width="460" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <rect x="30" y="20" width="80" height="55" rx="6" fill="#eef2ff" stroke="#334155"/>
+  <rect x="30" y="85" width="80" height="55" rx="6" fill="#fed7aa" stroke="#334155"/>
+  <line x1="25" y1="80" x2="115" y2="80" stroke="#334155" stroke-width="3"/>
+  <text x="70" y="50" text-anchor="middle" font-size="12" fill="#334155">空气</text>
+  <text x="70" y="115" text-anchor="middle" font-size="12" fill="#9a3412">二氧化氮</text>
+  <text x="70" y="160" text-anchor="middle" font-size="11" fill="#64748b">抽板前</text>
+  <path d="M150 80 h60" stroke="#334155" stroke-width="2" marker-end="url(#ar1)"/>
+  <defs><marker id="ar1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <text x="180" y="70" text-anchor="middle" font-size="11" fill="#64748b">抽去玻璃板</text>
+  <rect x="250" y="20" width="80" height="120" rx="6" fill="#fbd6b0" stroke="#334155"/>
+  <circle cx="270" cy="45" r="3" fill="#9a3412"/><circle cx="300" cy="60" r="3" fill="#9a3412"/>
+  <circle cx="285" cy="95" r="3" fill="#6366f1"/><circle cx="310" cy="120" r="3" fill="#6366f1"/>
+  <circle cx="265" cy="125" r="3" fill="#9a3412"/><circle cx="315" cy="35" r="3" fill="#6366f1"/>
+  <text x="290" y="160" text-anchor="middle" font-size="11" fill="#64748b">一段时间后颜色均匀</text>
+  <text x="400" y="75" text-anchor="middle" font-size="12" fill="#334155">分子在不停地</text>
+  <text x="400" y="93" text-anchor="middle" font-size="12" fill="#334155">做无规则运动</text>
+</svg>
+
+**分子间作用力随距离变化**：
+
+<svg viewBox="0 0 420 130" width="420" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <circle cx="60" cy="45" r="14" fill="#c7d2fe" stroke="#334155"/><circle cx="110" cy="45" r="14" fill="#c7d2fe" stroke="#334155"/>
+  <path d="M78 45 h14 M92 41 l-6 4 6 4 M78 41 l6 4 -6 4" stroke="#dc2626" fill="none" stroke-width="2"/>
+  <text x="85" y="85" text-anchor="middle" font-size="11" fill="#dc2626">r 小：斥力为主</text>
+  <circle cx="220" cy="45" r="14" fill="#c7d2fe" stroke="#334155"/><circle cx="300" cy="45" r="14" fill="#c7d2fe" stroke="#334155"/>
+  <path d="M238 45 h44" stroke="#16a34a" stroke-width="2"/>
+  <path d="M244 41 l-6 4 6 4 M276 41 l6 4 -6 4" stroke="#16a34a" fill="none" stroke-width="2"/>
+  <text x="260" y="85" text-anchor="middle" font-size="11" fill="#16a34a">r 大：引力为主</text>
+  <text x="210" y="115" text-anchor="middle" font-size="11" fill="#64748b">r 很大（&gt;10倍分子直径）时作用力可忽略</text>
+</svg>
+
 ## 实验要点
 
 - 气体扩散实验：二氧化氮（密度大）放下方，空气放上方，抽去玻璃板后两瓶气体颜色变均匀，排除重力影响。

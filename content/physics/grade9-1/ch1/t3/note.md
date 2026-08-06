@@ -41,6 +41,46 @@ $$
 
 其中 $t_0$ 为初温，$t$ 为末温，$\Delta t$ 为温度变化量。
 
+## 实验装置图
+
+**比较水和食用油的吸热能力**（相同质量、相同规格加热器）：
+
+<svg viewBox="0 0 480 190" width="480" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <g>
+    <rect x="60" y="50" width="90" height="90" rx="4" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+    <rect x="97" y="20" width="16" height="45" fill="#fff" stroke="#334155"/>
+    <rect x="101" y="28" width="8" height="30" fill="#ef4444"/>
+    <path d="M75 70 q10 8 0 16 M90 100 q8 6 0 14" stroke="#f59e0b" fill="none" stroke-width="3"/>
+    <rect x="70" y="125" width="70" height="8" rx="3" fill="#94a3b8" stroke="#334155"/>
+    <text x="105" y="160" text-anchor="middle" font-size="12" fill="#1d4ed8">水（m 相同）</text>
+    <text x="105" y="178" text-anchor="middle" font-size="11" fill="#64748b">电加热器规格相同</text>
+  </g>
+  <g>
+    <rect x="300" y="50" width="90" height="90" rx="4" fill="#fef3c7" stroke="#334155" stroke-width="2"/>
+    <rect x="337" y="20" width="16" height="45" fill="#fff" stroke="#334155"/>
+    <rect x="341" y="24" width="8" height="34" fill="#ef4444"/>
+    <path d="M315 70 q10 8 0 16 M330 100 q8 6 0 14" stroke="#f59e0b" fill="none" stroke-width="3"/>
+    <rect x="310" y="125" width="70" height="8" rx="3" fill="#94a3b8" stroke="#334155"/>
+    <text x="345" y="160" text-anchor="middle" font-size="12" fill="#b45309">食用油（m 相同）</text>
+    <text x="345" y="178" text-anchor="middle" font-size="11" fill="#64748b">相同时间油升温更快</text>
+  </g>
+  <text x="225" y="100" text-anchor="middle" font-size="13" fill="#334155">对比</text>
+</svg>
+
+**升温对比图象**（相同加热时间）：
+
+<svg viewBox="0 0 340 180" width="340" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <line x1="40" y1="150" x2="320" y2="150" stroke="#334155" stroke-width="2" marker-end="url(#axc)"/>
+  <line x1="40" y1="150" x2="40" y2="15" stroke="#334155" stroke-width="2" marker-end="url(#axc)"/>
+  <defs><marker id="axc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <text x="310" y="168" font-size="12" fill="#334155">t/min</text>
+  <text x="18" y="25" font-size="12" fill="#334155">T/℃</text>
+  <line x1="40" y1="150" x2="290" y2="45" stroke="#f59e0b" stroke-width="2.5"/>
+  <line x1="40" y1="150" x2="290" y2="95" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="255" y="40" font-size="12" fill="#b45309">食用油（升温快，c 小）</text>
+  <text x="255" y="118" font-size="12" fill="#1d4ed8">水（升温慢，c 大）</text>
+</svg>
+
 ## 实验要点
 
 - 比较不同物质吸热能力：取**质量相同**的水和食用油，用相同规格加热器加热（控制变量法）。

@@ -20,6 +20,56 @@
 
 一个工作循环中，曲轴转动 **2 周**，活塞往复 **2 次**，对外做功 **1 次**。飞轮靠惯性完成其余三个辅助冲程。
 
+## 示意图
+
+**汽油机四冲程**（简化剖面图，◀▶ 表示气门开闭）：
+
+<svg viewBox="0 0 620 200" width="620" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="arh" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#dc2626"/></marker></defs>
+  <g>
+    <rect x="20" y="40" width="70" height="110" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+    <rect x="26" y="95" width="58" height="22" fill="#94a3b8" stroke="#334155"/>
+    <rect x="30" y="24" width="18" height="14" fill="#16a34a"/>
+    <rect x="62" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <path d="M55 60 v30" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arh)"/>
+    <text x="55" y="172" text-anchor="middle" font-size="12" fill="#334155">吸气</text>
+    <text x="55" y="188" text-anchor="middle" font-size="10" fill="#16a34a">进气门开</text>
+  </g>
+  <g>
+    <rect x="170" y="40" width="70" height="110" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+    <rect x="176" y="60" width="58" height="22" fill="#94a3b8" stroke="#334155"/>
+    <rect x="180" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <rect x="212" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <path d="M205 115 v-28" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arh)"/>
+    <text x="205" y="172" text-anchor="middle" font-size="12" fill="#334155">压缩</text>
+    <text x="205" y="188" text-anchor="middle" font-size="10" fill="#64748b">机械能→内能</text>
+  </g>
+  <g>
+    <rect x="320" y="40" width="70" height="110" fill="#fee2e2" stroke="#334155" stroke-width="2"/>
+    <rect x="326" y="100" width="58" height="22" fill="#94a3b8" stroke="#334155"/>
+    <rect x="330" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <rect x="362" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <path d="M355 48 l0 8 M348 52 l4 6 M362 52 l-4 6" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M355 60 v34" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arh)"/>
+    <text x="355" y="172" text-anchor="middle" font-size="12" fill="#334155">做功</text>
+    <text x="355" y="188" text-anchor="middle" font-size="10" fill="#dc2626">内能→机械能</text>
+  </g>
+  <g>
+    <rect x="470" y="40" width="70" height="110" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+    <rect x="476" y="60" width="58" height="22" fill="#94a3b8" stroke="#334155"/>
+    <rect x="480" y="24" width="18" height="14" fill="#cbd5e1"/>
+    <rect x="512" y="24" width="18" height="14" fill="#f97316"/>
+    <path d="M505 115 v-28" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arh)"/>
+    <text x="505" y="172" text-anchor="middle" font-size="12" fill="#334155">排气</text>
+    <text x="505" y="188" text-anchor="middle" font-size="10" fill="#ea580c">排气门开</text>
+  </g>
+</svg>
+
+```mermaid
+flowchart LR
+  A[吸气冲程] --> B[压缩冲程<br/>机械能→内能] --> C[做功冲程<br/>内能→机械能] --> D[排气冲程] --> A
+```
+
 ## 对比分析
 
 | 比较项 | 汽油机 | 柴油机 |

@@ -32,6 +32,36 @@
 | 电池放电 | 化学能→电能 |
 | 太阳能电池 | 光能→电能 |
 
+## 能量转化关系图
+
+```mermaid
+flowchart LR
+  化学能 -- 燃烧 --> 内能
+  内能 -- 热机做功冲程 --> 机械能
+  机械能 -- 摩擦/压缩 --> 内能
+  机械能 -- 发电机 --> 电能
+  电能 -- 电动机 --> 机械能
+  电能 -- 电灯 --> 光能
+  光能 -- 光合作用 --> 化学能
+  化学能 -- 电池放电 --> 电能
+  光能 -- 太阳能电池 --> 电能
+```
+
+**乒乓球反弹变低——机械能转化为内能**：
+
+<svg viewBox="0 0 420 160" width="420" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <line x1="20" y1="140" x2="400" y2="140" stroke="#334155" stroke-width="3"/>
+  <circle cx="60" cy="35" r="9" fill="#f97316" stroke="#334155"/>
+  <path d="M60 48 Q95 140 130 140" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+  <circle cx="165" cy="70" r="9" fill="#f97316" stroke="#334155"/>
+  <path d="M130 140 Q165 60 200 140" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+  <circle cx="255" cy="100" r="9" fill="#f97316" stroke="#334155"/>
+  <path d="M200 140 Q255 92 310 140" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+  <circle cx="340" cy="122" r="9" fill="#f97316" stroke="#334155"/>
+  <path d="M310 140 Q340 115 370 140" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+  <text x="210" y="25" text-anchor="middle" font-size="12" fill="#334155">反弹高度逐次降低：机械能↓ 内能↑ 总能量守恒</text>
+</svg>
+
 ## 实验要点
 
 - 来回迅速摩擦双手：机械能转化为内能，手变热。

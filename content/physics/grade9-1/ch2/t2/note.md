@@ -37,6 +37,28 @@ $$
 \eta=\frac{W_{\text{有用}}}{Q_{\text{放}}}\times100\%=\frac{W_{\text{有用}}}{mq}\times100\%
 $$
 
+## 能量流向图
+
+**热机的能量流向**（以汽油机为例）：
+
+<svg viewBox="0 0 560 200" width="560" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="are" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <rect x="20" y="70" width="130" height="55" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="85" y="94" text-anchor="middle" font-size="13" fill="#78350f">燃料完全燃烧</text>
+  <text x="85" y="112" text-anchor="middle" font-size="13" fill="#78350f">放出热量 Q=mq</text>
+  <path d="M150 97 h60" stroke="#334155" stroke-width="2.5" marker-end="url(#are)"/>
+  <rect x="212" y="70" width="110" height="55" rx="8" fill="#e0e7ff" stroke="#4338ca" stroke-width="2"/>
+  <text x="267" y="102" text-anchor="middle" font-size="13" fill="#312e81">热机</text>
+  <path d="M322 85 h70 l0 -35" stroke="#dc2626" stroke-width="2" fill="none" marker-end="url(#are)"/>
+  <text x="452" y="42" font-size="12" fill="#dc2626">废气带走（最多）</text>
+  <path d="M322 97 h70" stroke="#16a34a" stroke-width="2.5" marker-end="url(#are)"/>
+  <rect x="396" y="80" width="145" height="36" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="468" y="103" text-anchor="middle" font-size="13" fill="#14532d">有用机械功 W</text>
+  <path d="M322 110 h70 l0 35" stroke="#f97316" stroke-width="2" fill="none" marker-end="url(#are)"/>
+  <text x="452" y="165" font-size="12" fill="#ea580c">散热、摩擦损失</text>
+  <text x="280" y="188" text-anchor="middle" font-size="13" fill="#334155">η = W有用 / Q放 &lt; 1</text>
+</svg>
+
 ## 对比分析
 
 | 装置 | 效率范围（大致） | 主要损失 |
