@@ -17,6 +17,14 @@ Revision Module B 综合复习 **Module 7 – Module 12** 的全部语言点，�
 | 一般将来时 | will be + done | More satellites will be sent up. |
 | 情态动词 | can/must/should be + done | Rubbish should be recycled. |
 
+```mermaid
+flowchart LR
+    A[被动语态四种时态] --> B[现在 is/are + done]
+    A --> C[过去 was/were + done]
+    A --> D[将来 will be + done]
+    A --> E[情态 can/must/should + be + done]
+```
+
 **要点**：不及物动词无被动；短语动词介副词不丢；双宾语两种被动形式。
 
 ## 三、定语从句总复习
@@ -25,6 +33,17 @@ Revision Module B 综合复习 **Module 7 – Module 12** 的全部语言点，�
 2. 作主语不可省略，作宾语可省略。
 3. 只用 that：先行词含最高级、序数词、all/only/every/no，或为不定代词，或"人+物"。
 4. 三步解题：找先行词 → 判成分 → 查一致。
+
+```mermaid
+flowchart TD
+    A[定语从句解题三步法] --> B[1. 找先行词
+人 / 物]
+    B --> C[2. 判断成分
+主语 / 宾语]
+    C --> D[3. 查一致性
+单复数 / 是否重复代词]
+    D --> E[选 who / which / that]
+```
 
 ## 四、条件与让步从句回顾
 
