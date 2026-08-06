@@ -17,6 +17,55 @@
 **探究电流与电阻的关系**：保持定值电阻两端电压 $U$ 不变，更换不同阻值的定值电阻（5 Ω→10 Ω→20 Ω），每次更换后**调节滑动变阻器**使电阻两端电压恢复到控制值，记录 $R$、$I$ 数据。
 结论：**电压一定时，通过导体的电流与导体的电阻成反比**。
 
+## 实验电路图与图象
+
+**探究电路**（电压表并联在定值电阻 R 两端，滑动变阻器串联）：
+
+<svg viewBox="0 0 460 210" width="460" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <path d="M50 40 h360 v110 h-360 z" fill="none" stroke="#334155" stroke-width="2"/>
+  <line x1="215" y1="28" x2="215" y2="52" stroke="#334155" stroke-width="2.5"/>
+  <line x1="231" y1="34" x2="231" y2="46" stroke="#334155" stroke-width="5"/>
+  <circle cx="110" cy="40" r="0"/>
+  <circle cx="120" cy="150" r="15" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="155" text-anchor="middle" font-size="12">A</text>
+  <rect x="200" y="140" width="55" height="20" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <text x="227" y="132" text-anchor="middle" font-size="11">R（定值）</text>
+  <rect x="310" y="140" width="60" height="20" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <line x1="316" y1="132" x2="340" y2="132" stroke="#334155" stroke-width="2"/>
+  <path d="M340 132 l-6 -4 m6 4 l-6 4" stroke="#334155" stroke-width="1.5" fill="none"/>
+  <text x="340" y="122" text-anchor="middle" font-size="11">滑动变阻器</text>
+  <line x1="200" y1="160" x2="200" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="255" y1="160" x2="255" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="200" y1="188" x2="212" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="243" y1="188" x2="255" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <circle cx="227" cy="188" r="13" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="227" y="193" text-anchor="middle" font-size="11" fill="#2563eb">V</text>
+  <circle cx="90" cy="40" r="3.5" fill="#334155"/>
+  <line x1="90" y1="40" x2="112" y2="24" stroke="#334155" stroke-width="2.2"/>
+  <text x="100" y="14" font-size="11">S</text>
+</svg>
+
+**I-U 图象与 I-R 图象**：
+
+<svg viewBox="0 0 560 190" width="560" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="ax5" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <g>
+    <line x1="40" y1="155" x2="250" y2="155" stroke="#334155" stroke-width="2" marker-end="url(#ax5)"/>
+    <line x1="40" y1="155" x2="40" y2="20" stroke="#334155" stroke-width="2" marker-end="url(#ax5)"/>
+    <text x="240" y="175" font-size="12">U/V</text><text x="18" y="30" font-size="12">I/A</text>
+    <line x1="40" y1="155" x2="220" y2="45" stroke="#dc2626" stroke-width="2.5"/>
+    <circle cx="100" cy="118" r="3" fill="#dc2626"/><circle cx="160" cy="82" r="3" fill="#dc2626"/>
+    <text x="145" y="35" font-size="11" fill="#dc2626">R 一定：I ∝ U（过原点直线）</text>
+  </g>
+  <g>
+    <line x1="330" y1="155" x2="540" y2="155" stroke="#334155" stroke-width="2" marker-end="url(#ax5)"/>
+    <line x1="330" y1="155" x2="330" y2="20" stroke="#334155" stroke-width="2" marker-end="url(#ax5)"/>
+    <text x="528" y="175" font-size="12">R/Ω</text><text x="308" y="30" font-size="12">I/A</text>
+    <path d="M350 40 Q380 120 520 145" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+    <text x="440" y="90" font-size="11" fill="#2563eb">U 一定：I ∝ 1/R（双曲线一支）</text>
+  </g>
+</svg>
+
 ## 实验要点
 
 - **滑动变阻器的作用**：①保护电路；②探究 $I$ 与 $U$ 关系时改变定值电阻两端电压；③探究 $I$ 与 $R$ 关系时保持定值电阻两端电压不变。

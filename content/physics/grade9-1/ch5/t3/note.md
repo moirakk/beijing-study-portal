@@ -20,6 +20,47 @@
 
 **测小灯泡电阻**：灯丝电阻随温度升高而**增大**，不同电压下测得的电阻不同，因此**不能取平均值**，多次测量的目的是研究灯丝电阻随温度的变化规律。
 
+## 实验电路图
+
+**伏安法测电阻电路**（电流表串联、电压表并联在 Rx 两端、变阻器串联）：
+
+<svg viewBox="0 0 460 210" width="460" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <path d="M50 40 h360 v110 h-360 z" fill="none" stroke="#334155" stroke-width="2"/>
+  <line x1="215" y1="28" x2="215" y2="52" stroke="#334155" stroke-width="2.5"/>
+  <line x1="231" y1="34" x2="231" y2="46" stroke="#334155" stroke-width="5"/>
+  <circle cx="90" cy="40" r="3.5" fill="#334155"/>
+  <line x1="90" y1="40" x2="112" y2="24" stroke="#334155" stroke-width="2.2"/>
+  <text x="100" y="14" font-size="11">S</text>
+  <circle cx="120" cy="150" r="15" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="155" text-anchor="middle" font-size="12">A</text>
+  <rect x="200" y="140" width="55" height="20" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <text x="227" y="132" text-anchor="middle" font-size="11">Rx（待测）</text>
+  <rect x="310" y="140" width="60" height="20" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <line x1="316" y1="132" x2="340" y2="132" stroke="#334155" stroke-width="2"/>
+  <path d="M340 132 l-6 -4 m6 4 l-6 4" stroke="#334155" stroke-width="1.5" fill="none"/>
+  <text x="342" y="122" text-anchor="middle" font-size="11">滑动变阻器 R'</text>
+  <line x1="200" y1="160" x2="200" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="255" y1="160" x2="255" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="200" y1="188" x2="212" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <line x1="243" y1="188" x2="255" y2="188" stroke="#2563eb" stroke-width="1.6"/>
+  <circle cx="227" cy="188" r="13" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="227" y="193" text-anchor="middle" font-size="11" fill="#2563eb">V</text>
+  <text x="335" y="200" font-size="11" fill="#64748b">R = U/I，多次测量</text>
+</svg>
+
+**故障判断流程**：
+
+```mermaid
+flowchart TD
+  A[闭合开关观察两表] --> B{电流表有示数?}
+  B -- 有 --> C{电压表有示数?}
+  C -- 无 --> D[Rx 被短路]
+  C -- 有 --> E[电路正常]
+  B -- 无 --> F{电压表有示数且接近电源电压?}
+  F -- 是 --> G[Rx 断路]
+  F -- 否 --> H[干路其他位置断路]
+```
+
 ## 实验要点
 
 - 连接电路时开关断开，滑片置于阻值最大处。

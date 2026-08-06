@@ -32,6 +32,36 @@ $$
 - $R=\dfrac{U}{I}$ 只是电阻的**计算式**，不是决定式。电阻由导体本身的材料、长度、横截面积、温度决定，与 $U$、$I$ 无关。电压为零时电流为零，但电阻不变。
 - 使用欧姆定律时三个量必须对应**同一段电路、同一时刻**（同体性、同时性），解题时可用下标区分（$I_1=U_1/R_1$）。
 
+## 图象与公式关系图
+
+**两个不同电阻的 I-U 图象对比**（斜率大→电阻小）：
+
+<svg viewBox="0 0 380 210" width="380" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <defs><marker id="axo" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker></defs>
+  <line x1="50" y1="170" x2="350" y2="170" stroke="#334155" stroke-width="2" marker-end="url(#axo)"/>
+  <line x1="50" y1="170" x2="50" y2="25" stroke="#334155" stroke-width="2" marker-end="url(#axo)"/>
+  <text x="340" y="190" font-size="12">U/V</text><text x="26" y="35" font-size="12">I/A</text>
+  <line x1="50" y1="170" x2="300" y2="45" stroke="#dc2626" stroke-width="2.5"/>
+  <line x1="50" y1="170" x2="320" y2="115" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="255" y="45" font-size="12" fill="#dc2626">R₁（斜率大，电阻小）</text>
+  <text x="255" y="140" font-size="12" fill="#2563eb">R₂（斜率小，电阻大）</text>
+  <line x1="190" y1="170" x2="190" y2="100" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="50" y1="100" x2="190" y2="100" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="200" y="208" text-anchor="middle" font-size="11" fill="#64748b">同一电压下，R₁ 中电流更大 → R₁ &lt; R₂</text>
+</svg>
+
+**公式三角（遮住谁求谁）**：
+
+<svg viewBox="0 0 300 170" width="300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <path d="M150 20 L60 140 L240 140 Z" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <line x1="97" y1="90" x2="203" y2="90" stroke="#334155" stroke-width="1.5"/>
+  <line x1="150" y1="90" x2="150" y2="140" stroke="#334155" stroke-width="1.5"/>
+  <text x="150" y="72" text-anchor="middle" font-size="20" fill="#dc2626">U</text>
+  <text x="120" y="122" text-anchor="middle" font-size="20" fill="#2563eb">I</text>
+  <text x="180" y="122" text-anchor="middle" font-size="20" fill="#16a34a">R</text>
+  <text x="150" y="163" text-anchor="middle" font-size="11" fill="#64748b">I=U/R　U=IR　R=U/I</text>
+</svg>
+
 ## 应用示例
 
 例：一个定值电阻两端电压为 6 V 时，通过的电流为 0.3 A。
