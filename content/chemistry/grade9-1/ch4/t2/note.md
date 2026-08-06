@@ -16,6 +16,17 @@
 
 净化程度由低到高：静置沉淀 < 吸附沉淀 < 过滤 < 蒸馏。蒸馏得到的蒸馏水可视为纯净物。
 
+## 图解：自来水厂净水流程
+
+```mermaid
+flowchart LR
+    A["取水口"] --> B["加絮凝剂(明矾)沉淀"]
+    B --> C["过滤池"]
+    C --> D["活性炭吸附池"]
+    D --> E["投药消毒(化学变化)"]
+    E --> F["配水泵→用户"]
+```
+
 ## 实验要点：过滤
 
 操作要点"一贴二低三靠"：
@@ -25,6 +36,24 @@
 - 三靠：烧杯口紧靠玻璃棒；玻璃棒下端斜靠三层滤纸处；漏斗下端紧靠烧杯内壁。
 - 玻璃棒的作用：引流。
 - 过滤后滤液仍浑浊的可能原因：滤纸破损、液面高于滤纸边缘、仪器不干净。处理办法：重新过滤。
+
+## 图解：过滤装置（一贴二低三靠）
+
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <path d="M180 40 L260 40 L220 110 Z" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <path d="M190 44 L250 44 L220 100 Z" fill="#e0f2fe" stroke="#0284c7"/>
+  <line x1="220" y1="110" x2="220" y2="160" stroke="#334155" stroke-width="4"/>
+  <path d="M170 160 H280 V240 H170 Z" fill="none" stroke="#334155" stroke-width="2"/>
+  <rect x="172" y="205" width="106" height="33" fill="#bae6fd"/>
+  <line x1="270" y1="20" x2="245 " y2="38" stroke="#64748b" stroke-width="1.2"/>
+  <rect x="230" y="0" width="8" height="46" transform="rotate(35 234 23)" fill="#94a3b8"/>
+  <text x="290" y="24" font-size="13" fill="#0f172a">玻璃棒引流（靠三层滤纸处）</text>
+  <line x1="252" y1="46" x2="330" y2="66" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="70" font-size="13" fill="#0f172a">滤纸边缘低于漏斗边缘</text>
+  <line x1="222" y1="150" x2="330" y2="130" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="134" font-size="13" fill="#0f172a">漏斗下端紧靠烧杯内壁</text>
+  <text x="225" y="270" text-anchor="middle" font-size="12" fill="#475569">一贴：滤纸紧贴漏斗内壁（润湿赶气泡）</text>
+</svg>
 
 ## 硬水与软水
 

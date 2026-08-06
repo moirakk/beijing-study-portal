@@ -36,6 +36,25 @@ $$
 - 碳酸钠与稀盐酸在敞口容器中反应：天平不平衡，因为生成的二氧化碳逸出。结论：有气体生成或参加的反应必须在密闭容器中验证。
 - 镁条在空气中燃烧：若在敞口环境称量，生成物质量可能大于镁条质量（结合了氧气），也可能偏小（白烟逸散）。
 
+## 图解：红磷燃烧验证质量守恒（密闭装置）
+
+<svg viewBox="0 0 560 250" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <path d="M180 90 L150 190 Q148 200 160 200 H280 Q292 200 290 190 L260 90 Z" fill="#f0f9ff" stroke="#334155" stroke-width="2"/>
+  <rect x="196" y="70" width="48" height="22" rx="4" fill="#e2e8f0" stroke="#64748b"/>
+  <line x1="220" y1="70" x2="220" y2="150" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="220" cy="160" r="9" fill="#ef4444"/>
+  <ellipse cx="220" cy="45" rx="26" ry="20" fill="#fbcfe8" stroke="#db2777"/>
+  <line x1="248" y1="45" x2="330" y2="35" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="39" font-size="13" fill="#0f172a">气球：缓冲压强（先胀后缩）</text>
+  <line x1="223" y1="120" x2="330" y2="105" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="109" font-size="13" fill="#0f172a">玻璃管：引燃红磷</text>
+  <line x1="229" y1="162" x2="330" y2="160" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="164" font-size="13" fill="#0f172a">红磷：燃烧产生大量白烟</text>
+  <rect x="120" y="205" width="320" height="12" rx="3" fill="#94a3b8"/>
+  <polygon points="270,217 290,240 250,240" fill="#64748b"/>
+  <text x="280" y="248" text-anchor="end" font-size="13" fill="#166534">天平反应前后保持平衡 → 质量守恒</text>
+</svg>
+
 ## 化学方程式及其意义（以C+O₂点燃CO₂为例）
 
 $$

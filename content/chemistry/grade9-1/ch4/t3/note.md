@@ -32,11 +32,45 @@ $$
 
 - 结论：水是由氢元素和氧元素组成的；化学变化中分子可分而原子不可分。
 
+## 图解：电解水实验装置
+
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <rect x="120" y="150" width="240" height="90" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+  <rect x="160" y="40" width="40" height="140" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <rect x="160" y="60" width="40" height="120" fill="#93c5fd"/>
+  <rect x="280" y="40" width="40" height="140" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <rect x="280" y="100" width="40" height="80" fill="#93c5fd"/>
+  <rect x="160" y="40" width="40" height="20" fill="#f0f9ff"/>
+  <rect x="280" y="40" width="40" height="60" fill="#f0f9ff"/>
+  <line x1="180" y1="240" x2="180" y2="258" stroke="#334155" stroke-width="2"/>
+  <line x1="300" y1="240" x2="300" y2="258" stroke="#334155" stroke-width="2"/>
+  <text x="180" y="274" text-anchor="middle" font-size="14" fill="#b91c1c">正极 O₂（体积1）</text>
+  <text x="300" y="274" text-anchor="middle" font-size="14" fill="#1e40af">负极 H₂（体积2）</text>
+  <line x1="202" y1="50" x2="400" y2="46" stroke="#64748b" stroke-width="1.2"/>
+  <text x="406" y="50" font-size="13" fill="#0f172a">气体少：带火星木条复燃</text>
+  <line x1="322" y1="70" x2="400" y2="90" stroke="#64748b" stroke-width="1.2"/>
+  <text x="406" y="94" font-size="13" fill="#0f172a">气体多：点燃有淡蓝色火焰</text>
+  <text x="240" y="216" text-anchor="middle" font-size="12" fill="#1e3a8a">水中加少量NaOH或稀硫酸增强导电性</text>
+  <text x="240" y="30" text-anchor="middle" font-size="13" fill="#b45309">口诀：正氧负氢、氢二氧一</text>
+</svg>
+
 ## 知识梳理
 
 电解水实验说明水由氢、氧两种元素组成——依据是化学反应前后元素种类不变，生成物中有氢元素和氧元素，则反应物水中必含氢、氧元素。
 
 实际实验中氧气与氢气体积比略小于1:2，原因是氧气比氢气在水中溶解得稍多，且氧气可能与电极发生反应。
+
+## 图解：物质分类体系
+
+```mermaid
+flowchart TD
+    A["物质"] --> B["混合物<br/>（空气、海水）"]
+    A --> C["纯净物"]
+    C --> D["单质<br/>（O₂、H₂、Fe）"]
+    C --> E["化合物"]
+    E --> F["氧化物<br/>（H₂O、CO₂）"]
+    E --> G["其他化合物<br/>（KMnO₄、KClO₃）"]
+```
 
 ## 物质的简单分类
 

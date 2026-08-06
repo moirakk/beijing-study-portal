@@ -14,6 +14,20 @@
 - 微观：表示1个水分子；表示1个水分子由2个氢原子和1个氧原子构成。
 - 符号周围数字含义：前面数字表示粒子个数（2H₂O为2个水分子）；右下角数字表示1个分子中的原子个数；右上角数字表示1个离子所带电荷数；元素符号正上方数字表示化合价。
 
+## 图解：化学式周围数字的含义（以 2H₂O 为例）
+
+<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <text x="200" y="120" font-size="64" fill="#0f172a" font-family="serif">2H</text>
+  <text x="278" y="140" font-size="40" fill="#dc2626" font-family="serif">2</text>
+  <text x="302" y="120" font-size="64" fill="#0f172a" font-family="serif">O</text>
+  <line x1="215" y1="65" x2="140" y2="40" stroke="#64748b" stroke-width="1.2"/>
+  <text x="134" y="34" text-anchor="end" font-size="14" fill="#b91c1c">前面的2：2个水分子（只有微观意义）</text>
+  <line x1="290" y1="145" x2="360" y2="180" stroke="#64748b" stroke-width="1.2"/>
+  <text x="366" y="188" font-size="14" fill="#b91c1c">右下角2：1个水分子中含2个氢原子</text>
+  <line x1="330" y1="80" x2="400" y2="50" stroke="#64748b" stroke-width="1.2"/>
+  <text x="406" y="46" font-size="14" fill="#1e40af">元素符号上方标化合价，右上角标离子电荷</text>
+</svg>
+
 ## 常见化合价口诀
 
 一价钾钠氯氢银，二价氧钙钡镁锌；三铝四硅五价磷，二三铁、二四碳；二四六硫都齐全，铜汞二价最常见。
@@ -34,6 +48,21 @@
 - 氧通常为-2价，氢通常为+1价；金属通常显正价。
 - 书写化学式"正前负后、约简交叉"：正价在前负价在后，化合价数值约成最简比后交叉写在右下角。
 - 例：氧化铝，Al为+3价、O为-2价，交叉得Al₂O₃。
+
+## 图解：交叉法写化学式（氧化铝）
+
+<svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <text x="180" y="60" font-size="22" fill="#b91c1c" text-anchor="middle">+3</text>
+  <text x="180" y="110" font-size="46" fill="#0f172a" text-anchor="middle" font-family="serif">Al</text>
+  <text x="320" y="60" font-size="22" fill="#1e40af" text-anchor="middle">-2</text>
+  <text x="320" y="110" font-size="46" fill="#0f172a" text-anchor="middle" font-family="serif">O</text>
+  <line x1="195" y1="52" x2="335" y2="130" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="305" y1="52" x2="200" y2="130" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="205" y="150" font-size="26" fill="#dc2626" font-family="serif">2</text>
+  <text x="340" y="150" font-size="26" fill="#dc2626" font-family="serif">3</text>
+  <text x="470" y="105" font-size="34" fill="#166534" text-anchor="middle" font-family="serif">Al₂O₃</text>
+  <text x="280" y="185" font-size="13" fill="#64748b" text-anchor="middle">正前负后，化合价数值约成最简比后交叉写到右下角，检验代数和为0</text>
+</svg>
 
 ## 根据化学式的计算（以CO₂为例）
 
