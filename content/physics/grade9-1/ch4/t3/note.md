@@ -26,6 +26,42 @@
 
 **超导现象**：某些物质在温度降到足够低时电阻突然变为零。超导体应用前景：远距离输电（无损耗）、超导磁悬浮等；但目前实现超导需要极低温，尚难普及。
 
+## 示意图
+
+**影响电阻大小的因素**（控制变量对比）：
+
+<svg viewBox="0 0 520 210" width="520" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <g>
+    <rect x="40" y="35" width="180" height="10" rx="5" fill="#f59e0b" stroke="#334155"/>
+    <rect x="40" y="65" width="90" height="10" rx="5" fill="#f59e0b" stroke="#334155"/>
+    <text x="240" y="45" font-size="12" fill="#334155">长 → R 大</text>
+    <text x="240" y="75" font-size="12" fill="#334155">短 → R 小</text>
+    <text x="130" y="100" text-anchor="middle" font-size="11" fill="#64748b">材料、粗细相同，比长度</text>
+  </g>
+  <g>
+    <rect x="40" y="125" width="150" height="6" rx="3" fill="#0ea5e9" stroke="#334155"/>
+    <rect x="40" y="150" width="150" height="16" rx="8" fill="#0ea5e9" stroke="#334155"/>
+    <text x="240" y="133" font-size="12" fill="#334155">细 → R 大</text>
+    <text x="240" y="162" font-size="12" fill="#334155">粗 → R 小</text>
+    <text x="130" y="192" text-anchor="middle" font-size="11" fill="#64748b">材料、长度相同，比横截面积</text>
+  </g>
+  <g>
+    <rect x="360" y="125" width="120" height="12" rx="6" fill="#f87171" stroke="#334155"/>
+    <text x="420" y="118" text-anchor="middle" font-size="11" fill="#dc2626">镍铬合金（R 大）</text>
+    <rect x="360" y="155" width="120" height="12" rx="6" fill="#fbbf24" stroke="#334155"/>
+    <text x="420" y="185" text-anchor="middle" font-size="11" fill="#b45309">铜（R 小）——比材料</text>
+  </g>
+</svg>
+
+```mermaid
+flowchart LR
+  R[电阻 R 的决定因素] --> M[材料]
+  R --> L[长度：越长 R 越大]
+  R --> S[横截面积：越粗 R 越小]
+  R --> T[温度：金属升温 R 增大]
+  R -.与电压电流无关.- X[U、I]
+```
+
 ## 实验要点
 
 探究影响电阻大小的因素（**控制变量法**）：

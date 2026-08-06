@@ -26,6 +26,48 @@
 
 **变阻器的应用**：调节灯的亮度（调光灯）、调节收音机音量、实验室控制电流和分压。**电阻箱**是能表示出阻值的变阻器，可以直接读出阻值，但不能连续改变电阻。
 
+## 示意图
+
+**滑动变阻器结构与"一上一下"接法**：
+
+<svg viewBox="0 0 480 220" width="480" xmlns="http://www.w3.org/2000/svg" style="max-width:100%">
+  <rect x="90" y="90" width="260" height="45" rx="22" fill="#e7e5e4" stroke="#334155" stroke-width="2"/>
+  <g stroke="#a8a29e" stroke-width="1">
+    <line x1="105" y1="92" x2="105" y2="133"/><line x1="120" y1="92" x2="120" y2="133"/>
+    <line x1="135" y1="92" x2="135" y2="133"/><line x1="150" y1="92" x2="150" y2="133"/>
+    <line x1="165" y1="92" x2="165" y2="133"/><line x1="180" y1="92" x2="180" y2="133"/>
+    <line x1="195" y1="92" x2="195" y2="133"/><line x1="210" y1="92" x2="210" y2="133"/>
+    <line x1="225" y1="92" x2="225" y2="133"/><line x1="240" y1="92" x2="240" y2="133"/>
+    <line x1="255" y1="92" x2="255" y2="133"/><line x1="270" y1="92" x2="270" y2="133"/>
+    <line x1="285" y1="92" x2="285" y2="133"/><line x1="300" y1="92" x2="300" y2="133"/>
+    <line x1="315" y1="92" x2="315" y2="133"/><line x1="330" y1="92" x2="330" y2="133"/>
+  </g>
+  <line x1="110" y1="55" x2="330" y2="55" stroke="#334155" stroke-width="4"/>
+  <rect x="200" y="45" width="18" height="50" fill="#78716c" stroke="#334155"/>
+  <text x="209" y="36" text-anchor="middle" font-size="11" fill="#334155">滑片 P</text>
+  <path d="M209 30 h-40" stroke="#16a34a" stroke-width="1.6" marker-end="url(#arp)"/>
+  <defs><marker id="arp" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#16a34a"/></marker></defs>
+  <circle cx="110" cy="55" r="5" fill="#dc2626"/><text x="95" y="48" font-size="11" fill="#dc2626">A(上)</text>
+  <circle cx="330" cy="55" r="5" fill="#94a3b8"/><text x="340" y="48" font-size="11" fill="#64748b">B(上)</text>
+  <circle cx="100" cy="112" r="5" fill="#dc2626"/><text x="60" y="116" font-size="11" fill="#dc2626">C(下)</text>
+  <circle cx="340" cy="112" r="5" fill="#94a3b8"/><text x="355" y="116" font-size="11" fill="#64748b">D(下)</text>
+  <line x1="100" y1="135" x2="140" y2="112" stroke="#f97316" stroke-width="0"/>
+  <path d="M100 117 L204 133" stroke="#f97316" stroke-width="3" fill="none" opacity="0.55"/>
+  <text x="150" y="160" font-size="11" fill="#ea580c">接 A、C：有效电阻为 C→P 段</text>
+  <text x="150" y="180" font-size="11" fill="#64748b">P 右移，有效电阻线变长，R 变大</text>
+  <text x="150" y="205" font-size="12" fill="#334155">口诀：一上一下，看下不看上</text>
+</svg>
+
+**接法判断**：
+
+```mermaid
+flowchart TD
+  A[看接线柱] --> B{接了哪两个?}
+  B -- 一上一下 --> C[正常变阻<br/>有效段=下接线柱到滑片]
+  B -- 两个下 --> D[定值电阻<br/>全部电阻线接入]
+  B -- 两个上 --> E[相当于导线<br/>电阻≈0]
+```
+
 ## 对比分析
 
 | 比较项 | 滑动变阻器 | 电阻箱 |
