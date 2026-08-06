@@ -6,7 +6,9 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import rehypeRaw from 'rehype-raw'
 import { transformWikilinks } from '../lib/obsidian'
+import Mermaid from './Mermaid'
 
 interface Props {
   markdown: string
@@ -23,8 +25,18 @@ function Markdown({ markdown, stripH1 }: Props) {
     <div className="markdown-body">
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[rehypeKatex]}
+        rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={{
+          code: ({ className, children, ...props }) => {
+            if (/language-mermaid/.test(className ?? '')) {
+              return <Mermaid chart={String(children).trim()} />
+            }
+            return (
+              <code className={className} {...props}>
+                {children}
+              </code>
+            )
+          },
           a: ({ href, children }) => (
             <a
               href={href}
