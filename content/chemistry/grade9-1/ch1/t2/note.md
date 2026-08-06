@@ -27,6 +27,23 @@ $$
 石蜡 + 氧气 \xrightarrow{点燃} 水 + 二氧化碳
 $$
 
+## 图解：蜡烛火焰分层
+
+<svg viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:sans-serif">
+  <rect x="150" y="150" width="60" height="90" rx="4" fill="#fef3c7" stroke="#d97706"/>
+  <line x1="180" y1="150" x2="180" y2="128" stroke="#334155" stroke-width="3"/>
+  <ellipse cx="180" cy="95" rx="34" ry="52" fill="#fb923c" opacity="0.85"/>
+  <ellipse cx="180" cy="105" rx="22" ry="36" fill="#fbbf24"/>
+  <ellipse cx="180" cy="118" rx="10" ry="18" fill="#a5f3fc"/>
+  <line x1="214" y1="60" x2="300" y2="52" stroke="#64748b" stroke-width="1.2"/>
+  <text x="306" y="56" font-size="14" fill="#0f172a">外焰：温度最高（加热用外焰）</text>
+  <line x1="202" y1="105" x2="300" y2="105" stroke="#64748b" stroke-width="1.2"/>
+  <text x="306" y="109" font-size="14" fill="#0f172a">内焰：明亮</text>
+  <line x1="190" y1="122" x2="300" y2="152" stroke="#64748b" stroke-width="1.2"/>
+  <text x="306" y="156" font-size="14" fill="#0f172a">焰心：温度最低（石蜡蒸气）</text>
+  <text x="180" y="256" text-anchor="middle" font-size="12" fill="#475569">火柴梗平放入火焰约1s，两端（外焰处）先碳化</text>
+</svg>
+
 ## 实验要点：对人体吸入的空气和呼出的气体的探究
 
 | 比较项目 | 操作 | 现象与结论 |

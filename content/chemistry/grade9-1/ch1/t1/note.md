@@ -17,6 +17,29 @@
 
 性质与变化的区别：性质是物质固有的属性，描述时常带"能""会""可以""易""难"等字眼；变化是正在发生或已经发生的过程。例如"酒精能燃烧"是化学性质，"酒精燃烧"是化学变化。
 
+## 图解：变化与性质的关系
+
+<svg viewBox="0 0 560 240" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <rect x="200" y="10" width="160" height="36" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="280" y="33" text-anchor="middle" font-size="15" fill="#1e3a8a">物质的变化</text>
+  <line x1="240" y1="46" x2="140" y2="80" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="320" y1="46" x2="420" y2="80" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="50" y="80" width="180" height="36" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="140" y="103" text-anchor="middle" font-size="14" fill="#14532d">物理变化：无新物质生成</text>
+  <rect x="330" y="80" width="180" height="36" rx="8" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="420" y="103" text-anchor="middle" font-size="14" fill="#7f1d1d">化学变化：有新物质生成</text>
+  <text x="140" y="140" text-anchor="middle" font-size="12" fill="#475569">例：冰融化、汽油挥发</text>
+  <text x="420" y="140" text-anchor="middle" font-size="12" fill="#475569">例：铁生锈、木炭燃烧</text>
+  <line x1="230" y1="98" x2="330" y2="98" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="280" y="90" text-anchor="middle" font-size="11" fill="#b45309">化学变化中一定伴随物理变化</text>
+  <rect x="50" y="165" width="180" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-dasharray="4 3"/>
+  <text x="140" y="188" text-anchor="middle" font-size="13" fill="#166534">物理性质（不需化学变化表现）</text>
+  <rect x="330" y="165" width="180" height="36" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-dasharray="4 3"/>
+  <text x="420" y="188" text-anchor="middle" font-size="13" fill="#991b1b">化学性质（化学变化中表现）</text>
+  <text x="140" y="222" text-anchor="middle" font-size="11" fill="#64748b">颜色、密度、熔沸点、溶解性</text>
+  <text x="420" y="222" text-anchor="middle" font-size="11" fill="#64748b">可燃性、氧化性、稳定性</text>
+</svg>
+
 ## 典型实例归类
 
 | 实例 | 类别 |

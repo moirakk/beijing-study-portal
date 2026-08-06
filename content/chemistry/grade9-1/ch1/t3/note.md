@@ -31,6 +31,28 @@
 - 检查装置气密性：先将导管一端浸入水中，再用手紧握容器外壁，导管口有气泡冒出则气密性良好。
 - 玻璃仪器洗净的标准：内壁附着的水既不聚成水滴，也不成股流下。
 
+## 图解：给试管中液体加热
+
+<svg viewBox="0 0 560 250" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <g transform="rotate(-45 260 120)">
+    <rect x="200" y="108" width="150" height="26" rx="13" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+    <rect x="210" y="111" width="60" height="20" rx="10" fill="#7dd3fc"/>
+  </g>
+  <line x1="330" y1="60" x2="410" y2="40" stroke="#64748b" stroke-width="1.2"/>
+  <text x="416" y="44" font-size="13" fill="#0f172a">试管夹夹在中上部</text>
+  <line x1="300" y1="95" x2="410" y2="90" stroke="#64748b" stroke-width="1.2"/>
+  <text x="416" y="94" font-size="13" fill="#0f172a">与桌面约成45°角</text>
+  <line x1="250" y1="140" x2="410" y2="140" stroke="#64748b" stroke-width="1.2"/>
+  <text x="416" y="144" font-size="13" fill="#0f172a">液体不超过容积1/3</text>
+  <ellipse cx="215" cy="196" rx="26" ry="14" fill="#fbbf24"/>
+  <ellipse cx="215" cy="192" rx="12" ry="20" fill="#fb923c" opacity="0.8"/>
+  <rect x="185" y="210" width="60" height="18" rx="4" fill="#94a3b8"/>
+  <rect x="165" y="228" width="100" height="8" rx="3" fill="#64748b"/>
+  <line x1="240" y1="196" x2="410" y2="190" stroke="#64748b" stroke-width="1.2"/>
+  <text x="416" y="194" font-size="13" fill="#0f172a">用外焰加热，先预热</text>
+  <text x="130" y="60" font-size="13" fill="#b91c1c">管口不对人 ←</text>
+</svg>
+
 ## 对比分析
 
 | 错误操作 | 后果 |

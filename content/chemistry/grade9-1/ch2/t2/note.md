@@ -31,6 +31,27 @@
 - 铁丝绕成螺旋状：增大受热面积；下端系火柴：引燃铁丝；待火柴快燃尽时再伸入瓶中：防止火柴消耗过多氧气。
 - 检验氧气：将带火星的木条伸入瓶中，木条复燃则是氧气。
 
+## 图解：铁丝在氧气中燃烧
+
+<svg viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;width:100%;font-family:sans-serif">
+  <path d="M140 40 Q120 40 120 70 V210 Q120 240 150 240 H250 Q280 240 280 210 V70 Q280 40 260 40 Z" fill="#f0f9ff" stroke="#334155" stroke-width="2"/>
+  <rect x="122" y="215" width="156" height="23" fill="#93c5fd" opacity="0.7"/>
+  <path d="M200 50 q-14 12 0 24 q14 12 0 24 q-14 12 0 24 q14 12 0 24" fill="none" stroke="#78716c" stroke-width="3"/>
+  <circle cx="200" cy="152" r="7" fill="#f97316"/>
+  <g stroke="#facc15" stroke-width="2">
+    <line x1="200" y1="152" x2="176" y2="128"/><line x1="200" y1="152" x2="228" y2="132"/>
+    <line x1="200" y1="152" x2="172" y2="164"/><line x1="200" y1="152" x2="230" y2="168"/>
+    <line x1="200" y1="152" x2="188" y2="182"/><line x1="200" y1="152" x2="216" y2="184"/>
+  </g>
+  <line x1="204" y1="74" x2="330" y2="60" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="64" font-size="13" fill="#0f172a">铁丝绕成螺旋状（增大受热面积）</text>
+  <line x1="207" y1="152" x2="330" y2="140" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="144" font-size="13" fill="#0f172a">剧烈燃烧、火星四射</text>
+  <line x1="278" y1="226" x2="330" y2="210" stroke="#64748b" stroke-width="1.2"/>
+  <text x="336" y="214" font-size="13" fill="#0f172a">瓶底放少量水（防炸裂）</text>
+  <text x="200" y="256" text-anchor="middle" font-size="12" fill="#475569">生成黑色固体 Fe₃O₄</text>
+</svg>
+
 ## 知识梳理
 
 氧气化学性质比较活泼，能支持燃烧，具有氧化性，是常用的氧化剂。物质在氧气中燃烧比在空气中剧烈，说明燃烧的剧烈程度与氧气的浓度有关。
