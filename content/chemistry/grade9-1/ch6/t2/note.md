@@ -24,6 +24,25 @@ $$
 - 用分液漏斗代替长颈漏斗的优点：可以控制加酸速率，从而控制反应速率。
 - 收集装置：只能用向上排空气法。依据：CO₂密度比空气大、能溶于水（且与水反应），不能用排水法。
 
+## 图解：实验室制取CO₂装置
+
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <path d="M120 100 Q100 100 100 130 V210 Q100 240 130 240 H210 Q240 240 240 210 V130 Q240 100 220 100 Z" fill="#f0f9ff" stroke="#334155" stroke-width="2"/>
+  <rect x="102" y="170" width="136" height="68" fill="#bae6fd" opacity="0.8"/>
+  <polygon points="150,238 160,222 170,238" fill="#94a3b8"/>
+  <polygon points="175,240 185,224 195,240" fill="#94a3b8"/>
+  <line x1="160" y1="40" x2="160" y2="215" stroke="#334155" stroke-width="3"/>
+  <path d="M148 40 H172 L166 28 H154 Z" fill="#f8fafc" stroke="#334155"/>
+  <line x1="163" y1="212" x2="60" y2="250" stroke="#64748b" stroke-width="1"/>
+  <text x="58" y="266" font-size="12" fill="#b91c1c">长颈漏斗下端插入液面以下（液封）</text>
+  <path d="M200 100 V70 H360 V120" fill="none" stroke="#334155" stroke-width="2.5"/>
+  <path d="M320 120 Q300 120 300 145 V215 Q300 240 325 240 H395 Q420 240 420 215 V145 Q420 120 400 120 Z" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <line x1="360" y1="70" x2="360" y2="220" stroke="#334155" stroke-width="2.5"/>
+  <text x="360" y="262" text-anchor="middle" font-size="13" fill="#334155">向上排空气法（导管伸到瓶底）</text>
+  <text x="170" y="150" font-size="12" fill="#475569">稀盐酸 + 大理石</text>
+  <text x="130" y="30" font-size="12" fill="#475569">发生装置：固液常温型</text>
+</svg>
+
 ## 实验步骤与检验
 
 1. 连接仪器，检查装置气密性。

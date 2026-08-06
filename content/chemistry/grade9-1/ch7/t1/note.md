@@ -24,6 +24,24 @@ $$
 4P + 5O_2 \xrightarrow{点燃} 2P_2O_5
 $$
 
+## 图解：燃烧条件的探究（白磷与红磷对比）
+
+<svg viewBox="0 0 560 270" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <rect x="80" y="150" width="340" height="90" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+  <text x="440" y="200" font-size="13" fill="#1e3a8a">80℃热水</text>
+  <rect x="120" y="118" width="260" height="10" rx="3" fill="#f59e0b"/>
+  <text x="440" y="128" font-size="13" fill="#92400e">薄铜片</text>
+  <circle cx="170" cy="106" r="11" fill="#fde68a" stroke="#d97706"/>
+  <path d="M170 88 q-7 8 0 14 q7 -6 0 -14" fill="#f97316"/>
+  <text x="170" y="70" text-anchor="middle" font-size="13" fill="#c2410c">白磷：燃烧 ✓</text>
+  <circle cx="330" cy="106" r="11" fill="#fca5a5" stroke="#dc2626"/>
+  <text x="330" y="70" text-anchor="middle" font-size="13" fill="#7f1d1d">红磷：不燃烧 ✗</text>
+  <text x="330" y="88" text-anchor="middle" font-size="11" fill="#64748b">（未达着火点240℃）</text>
+  <circle cx="250" cy="210" r="11" fill="#fde68a" stroke="#d97706"/>
+  <text x="250" y="238" text-anchor="middle" font-size="13" fill="#1e3a8a">水中白磷：不燃烧 ✗（不接触O₂）</text>
+  <text x="250" y="262" text-anchor="middle" font-size="12" fill="#b45309">通入O₂后水中白磷也燃烧 → 三条件缺一不可</text>
+</svg>
+
 ## 灭火的原理（破坏任一燃烧条件即可）
 
 | 灭火原理 | 实例 |
@@ -33,6 +51,18 @@ $$
 | 降温到着火点以下 | 用水浇灭木材火、吹灭蜡烛 |
 
 注意：是"降温到着火点以下"，不能说"降低着火点"。
+
+## 图解：燃烧三条件与灭火三原理
+
+```mermaid
+flowchart TD
+    F["燃烧（三条件同时满足）"] --> A["可燃物"]
+    F --> B["与氧气接触"]
+    F --> C["温度达到着火点"]
+    A -.->|"破坏：清除/隔离可燃物<br/>（开辟隔离带、关阀门）"| X["灭火"]
+    B -.->|"破坏：隔绝氧气<br/>（盖锅盖、灯帽盖灭）"| X
+    C -.->|"破坏：降温到着火点以下<br/>（浇水、吹灭蜡烛）"| X
+```
 
 ## 常用灭火器
 

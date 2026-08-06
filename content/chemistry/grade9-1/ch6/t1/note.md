@@ -15,6 +15,39 @@
 
 木炭、活性炭具有疏松多孔的结构，有吸附性，可吸附色素和异味（物理变化）；活性炭吸附能力更强，用于防毒面具、净水。
 
+## 图解：碳原子排列方式不同 → 性质不同
+
+<svg viewBox="0 0 620 240" xmlns="http://www.w3.org/2000/svg" style="max-width:620px;width:100%;font-family:sans-serif">
+  <g stroke="#64748b" stroke-width="1.5">
+    <line x1="100" y1="60" x2="60" y2="110"/><line x1="100" y1="60" x2="140" y2="110"/><line x1="100" y1="60" x2="100" y2="120"/>
+    <line x1="60" y1="110" x2="100" y2="170"/><line x1="140" y1="110" x2="100" y2="170"/><line x1="100" y1="120" x2="100" y2="170"/>
+    <line x1="60" y1="110" x2="140" y2="110"/>
+  </g>
+  <g fill="#475569">
+    <circle cx="100" cy="60" r="10"/><circle cx="60" cy="110" r="10"/><circle cx="140" cy="110" r="10"/><circle cx="100" cy="120" r="10"/><circle cx="100" cy="170" r="10"/>
+  </g>
+  <text x="100" y="210" text-anchor="middle" font-size="14" fill="#0f172a">金刚石：立体网状</text>
+  <text x="100" y="228" text-anchor="middle" font-size="12" fill="#64748b">最硬、不导电</text>
+  <g stroke="#64748b" stroke-width="1.5">
+    <path d="M260 80 L300 60 L340 80 L340 120 L300 140 L260 120 Z" fill="none"/>
+    <path d="M260 150 L300 130 L340 150 L340 190 L300 210 L260 190 Z" fill="none" opacity="0.55"/>
+  </g>
+  <g fill="#475569">
+    <circle cx="260" cy="80" r="8"/><circle cx="300" cy="60" r="8"/><circle cx="340" cy="80" r="8"/>
+    <circle cx="340" cy="120" r="8"/><circle cx="300" cy="140" r="8"/><circle cx="260" cy="120" r="8"/>
+  </g>
+  <text x="300" y="232" text-anchor="middle" font-size="14" fill="#0f172a">石墨：层状（层间易滑动）</text>
+  <circle cx="500" cy="110" r="58" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <g fill="#475569">
+    <circle cx="500" cy="52" r="7"/><circle cx="551" cy="82" r="7"/><circle cx="551" cy="138" r="7"/>
+    <circle cx="500" cy="168" r="7"/><circle cx="449" cy="138" r="7"/><circle cx="449" cy="82" r="7"/>
+    <circle cx="530" cy="65" r="7"/><circle cx="558" cy="110" r="7"/><circle cx="530" cy="155" r="7"/>
+    <circle cx="470" cy="155" r="7"/><circle cx="442" cy="110" r="7"/><circle cx="470" cy="65" r="7"/>
+  </g>
+  <text x="500" y="200" text-anchor="middle" font-size="14" fill="#0f172a">C60：足球状分子</text>
+  <text x="310" y="30" text-anchor="middle" font-size="13" fill="#b45309">同种元素（碳），排列方式不同 → 物理性质差异巨大</text>
+</svg>
+
 ## 碳的化学性质
 
 常温下碳的化学性质不活泼（档案墨迹能长久保存）；温度升高后活泼性增强。

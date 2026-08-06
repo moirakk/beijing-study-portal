@@ -25,6 +25,38 @@ $$
 
 检验甲烷燃烧产物：干冷烧杯罩火焰上方见水雾（含H元素），蘸石灰水的烧杯变浑浊（含C元素）。
 
+## 图解：化石燃料与新能源
+
+```mermaid
+flowchart TD
+    E["能源"] --> F["化石燃料（不可再生、混合物）"]
+    E --> N["新能源（正在开发利用）"]
+    F --> F1["煤：主含C，干馏（化学变化）"]
+    F --> F2["石油：主含C、H，分馏（物理变化）"]
+    F --> F3["天然气：主要成分CH₄，最清洁"]
+    N --> N1["太阳能 / 风能 / 地热能"]
+    N --> N2["核能 / 潮汐能 / 生物质能(乙醇)"]
+    N --> N3["氢能：产物只有水，最理想<br/>（制取成本高、储运难）"]
+```
+
+## 图解：甲烷燃烧产物的检验
+
+<svg viewBox="0 0 560 230" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;width:100%;font-family:sans-serif">
+  <rect x="110" y="150" width="50" height="60" rx="6" fill="#e2e8f0" stroke="#64748b"/>
+  <line x1="135" y1="150" x2="135" y2="120" stroke="#334155" stroke-width="4"/>
+  <ellipse cx="135" cy="100" rx="12" ry="22" fill="#93c5fd" opacity="0.9"/>
+  <text x="135" y="228" text-anchor="middle" font-size="13" fill="#334155">甲烷（蓝色火焰）</text>
+  <path d="M240 40 H330 V110 H240 Z" fill="none" stroke="#334155" stroke-width="2" transform="rotate(180 285 75)"/>
+  <circle cx="262" cy="72" r="3" fill="#7dd3fc"/><circle cx="285" cy="60" r="3" fill="#7dd3fc"/><circle cx="308" cy="74" r="3" fill="#7dd3fc"/>
+  <text x="285" y="26" text-anchor="middle" font-size="13" fill="#0f172a">干冷烧杯：内壁出现水雾 → 含H元素</text>
+  <path d="M420 60 H510 V130 H420 Z" fill="none" stroke="#334155" stroke-width="2" transform="rotate(180 465 95)"/>
+  <rect x="428" y="66" width="74" height="14" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="3 2"/>
+  <text x="465" y="46" text-anchor="middle" font-size="13" fill="#0f172a">蘸石灰水烧杯：变浑浊 → 含C元素</text>
+  <line x1="150" y1="95" x2="250" y2="80" stroke="#64748b" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="150" y1="100" x2="430" y2="100" stroke="#64748b" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="285" y="180" text-anchor="middle" font-size="12" fill="#475569">依据质量守恒定律：产物含C、H → 甲烷由碳、氢元素组成</text>
+</svg>
+
 ## 燃料燃烧对环境的影响
 
 - 煤燃烧排放SO₂、NO₂，形成酸雨（pH<5.6）。酸雨危害：腐蚀建筑和金属、酸化土壤和水体、损害植物。
