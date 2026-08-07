@@ -3823,8 +3823,348 @@
         {
           "id": "10b",
           "title": "高一下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一单元 中华文明之光",
+              "topics": [
+                {
+                  "id": "chinese-10b-1-1-1",
+                  "title": "1 子路、曾皙、冉有、公西华侍坐 / 齐桓晋文之事 / 庖丁解牛",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "chinese-10b-1-2-2",
+                  "title": "2 烛之武退秦师",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "chinese-10b-1-3-3",
+                  "title": "3 鸿门宴",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二单元 良知与悲悯",
+              "topics": [
+                {
+                  "id": "chinese-10b-2-4-1",
+                  "title": "4 窦娥冤（节选）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "chinese-10b-2-5-2",
+                  "title": "5 雷雨（节选）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "chinese-10b-2-6-3",
+                  "title": "6 哈姆莱特（节选）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三单元 探索与创新",
+              "topics": [
+                {
+                  "id": "chinese-10b-3-7-1",
+                  "title": "7 青蒿素：人类征服疾病的一小步 / 一名物理学家的教育历程",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "chinese-10b-3-8-2",
+                  "title": "8 中国建筑的特征",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "chinese-10b-3-9-3",
+                  "title": "9 说木叶",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第四单元 信息时代的语文生活",
+              "topics": [
+                {
+                  "id": "chinese-10b-4-item-1",
+                  "title": "信息时代的语文生活（认识·善用·辨识多媒介）",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch4/t1"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第五单元 抱负与使命",
+              "topics": [
+                {
+                  "id": "chinese-10b-5-10-1",
+                  "title": "10 在《人民报》创刊纪念会上的演说 / 在马克思墓前的讲话",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "chinese-10b-5-11-2",
+                  "title": "11 谏逐客书 / 与妻书",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch5/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch6-item",
+              "title": "第六单元 观察与批判",
+              "topics": [
+                {
+                  "id": "chinese-10b-6-12-1",
+                  "title": "12 祝福",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch6/t1"
+                },
+                {
+                  "id": "chinese-10b-6-13-2",
+                  "title": "13 林教头风雪山神庙 / 装在套子里的人",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch6/t2"
+                },
+                {
+                  "id": "chinese-10b-6-14-3",
+                  "title": "14 促织 / 变形记（节选）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch6/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch7-item",
+              "title": "第七单元 整本书阅读",
+              "topics": [
+                {
+                  "id": "chinese-10b-7-item-1",
+                  "title": "《红楼梦》整本书阅读",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch7/t1"
+                }
+              ]
+            },
+            {
+              "id": "ch8-item",
+              "title": "第八单元 倾听理性的声音",
+              "topics": [
+                {
+                  "id": "chinese-10b-8-15-1",
+                  "title": "15 谏太宗十思疏 / 答司马谏议书",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch8/t1"
+                },
+                {
+                  "id": "chinese-10b-8-16-2",
+                  "title": "16 阿房宫赋 / 六国论",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch8/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch9-item",
+              "title": "古诗词诵读",
+              "topics": [
+                {
+                  "id": "chinese-10b-9-item-1",
+                  "title": "登岳阳楼 / 桂枝香·金陵怀古 / 念奴娇·过洞庭 / 游园（皂罗袍）",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade10-2/ch9/t1"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -6372,7 +6712,323 @@
           "id": "10b",
           "title": "高一下",
           "textbook": "人教A版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第六章 平面向量及其应用",
+              "topics": [
+                {
+                  "id": "math-10b-1-6-1-1",
+                  "title": "6.1 平面向量的概念",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "math-10b-1-6-2-2",
+                  "title": "6.2 平面向量的运算",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "math-10b-1-6-3-3",
+                  "title": "6.3 平面向量基本定理及坐标表示",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch1/t3"
+                },
+                {
+                  "id": "math-10b-1-6-4-4",
+                  "title": "6.4 平面向量的应用",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第七章 复数",
+              "topics": [
+                {
+                  "id": "math-10b-2-7-1-1",
+                  "title": "7.1 复数的概念",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "math-10b-2-7-2-2",
+                  "title": "7.2 复数的四则运算",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "math-10b-2-7-3-3",
+                  "title": "7.3 复数的三角表示",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第八章 立体几何初步",
+              "topics": [
+                {
+                  "id": "math-10b-3-8-1-1",
+                  "title": "8.1 基本立体图形",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "math-10b-3-8-2-2",
+                  "title": "8.2 立体图形的直观图",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "math-10b-3-8-3-3",
+                  "title": "8.3 简单几何体的表面积与体积",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t3"
+                },
+                {
+                  "id": "math-10b-3-8-4-4",
+                  "title": "8.4 空间点、直线、平面之间的位置关系",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t4"
+                },
+                {
+                  "id": "math-10b-3-8-5-5",
+                  "title": "8.5 空间直线、平面的平行",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t5"
+                },
+                {
+                  "id": "math-10b-3-8-6-6",
+                  "title": "8.6 空间直线、平面的垂直",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch3/t6"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第九章 统计",
+              "topics": [
+                {
+                  "id": "math-10b-4-9-1-1",
+                  "title": "9.1 随机抽样",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "math-10b-4-9-2-2",
+                  "title": "9.2 用样本估计总体",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch4/t2"
+                },
+                {
+                  "id": "math-10b-4-9-3-3",
+                  "title": "9.3 统计案例：公司员工的肥胖情况调查分析",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch4/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第十章 概率",
+              "topics": [
+                {
+                  "id": "math-10b-5-10-1-1",
+                  "title": "10.1 随机事件与概率",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "math-10b-5-10-2-2",
+                  "title": "10.2 事件的相互独立性",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch5/t2"
+                },
+                {
+                  "id": "math-10b-5-10-3-3",
+                  "title": "10.3 频率与概率",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade10-2/ch5/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -9568,8 +10224,315 @@
         {
           "id": "10b",
           "title": "高一下",
-          "textbook": "人教版",
-          "chapters": []
+          "textbook": "外研版",
+          "chapters": [
+            {
+              "id": "ch1-unit-1-food-for-thought",
+              "title": "Unit 1 Food for thought",
+              "topics": [
+                {
+                  "id": "english-10b-1-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "english-10b-1-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "english-10b-1-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-unit-2-let-s-celebrate",
+              "title": "Unit 2 Let's celebrate",
+              "topics": [
+                {
+                  "id": "english-10b-2-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "english-10b-2-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "english-10b-2-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-unit-3-on-the-move",
+              "title": "Unit 3 On the move",
+              "topics": [
+                {
+                  "id": "english-10b-3-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "english-10b-3-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "english-10b-3-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-unit-4-stage-and-screen",
+              "title": "Unit 4 Stage and screen",
+              "topics": [
+                {
+                  "id": "english-10b-4-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "english-10b-4-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch4/t2"
+                },
+                {
+                  "id": "english-10b-4-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch4/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch5-unit-5-on-the-road",
+              "title": "Unit 5 On the road",
+              "topics": [
+                {
+                  "id": "english-10b-5-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "english-10b-5-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch5/t2"
+                },
+                {
+                  "id": "english-10b-5-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch5/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch6-unit-6-earth-first",
+              "title": "Unit 6 Earth first",
+              "topics": [
+                {
+                  "id": "english-10b-6-understanding-ideas-1",
+                  "title": "词汇与课文精读（Understanding ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch6/t1"
+                },
+                {
+                  "id": "english-10b-6-using-language-2",
+                  "title": "语法与语言运用（Using language）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch6/t2"
+                },
+                {
+                  "id": "english-10b-6-developing-ideas-3",
+                  "title": "读写与表达（Developing ideas）",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade10-2/ch6/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -11450,7 +12413,302 @@
           "id": "10b",
           "title": "高一下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第五章 抛体运动",
+              "topics": [
+                {
+                  "id": "physics-10b-1-1-1",
+                  "title": "1 曲线运动",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "physics-10b-1-2-2",
+                  "title": "2 运动的合成与分解",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "physics-10b-1-3-3",
+                  "title": "3 实验：探究平抛运动的特点",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch1/t3"
+                },
+                {
+                  "id": "physics-10b-1-4-4",
+                  "title": "4 抛体运动的规律",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第六章 圆周运动",
+              "topics": [
+                {
+                  "id": "physics-10b-2-1-1",
+                  "title": "1 圆周运动",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "physics-10b-2-2-2",
+                  "title": "2 向心力",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "physics-10b-2-3-3",
+                  "title": "3 向心加速度",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch2/t3"
+                },
+                {
+                  "id": "physics-10b-2-4-4",
+                  "title": "4 生活中的圆周运动",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第七章 万有引力与宇宙航行",
+              "topics": [
+                {
+                  "id": "physics-10b-3-1-1",
+                  "title": "1 行星的运动",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "physics-10b-3-2-2",
+                  "title": "2 万有引力定律",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "physics-10b-3-3-3",
+                  "title": "3 万有引力理论的成就",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch3/t3"
+                },
+                {
+                  "id": "physics-10b-3-4-4",
+                  "title": "4 宇宙航行",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch3/t4"
+                },
+                {
+                  "id": "physics-10b-3-5-5",
+                  "title": "5 相对论时空观与牛顿力学的局限性",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第八章 机械能守恒定律",
+              "topics": [
+                {
+                  "id": "physics-10b-4-1-1",
+                  "title": "1 功与功率",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "physics-10b-4-2-2",
+                  "title": "2 重力势能",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch4/t2"
+                },
+                {
+                  "id": "physics-10b-4-3-3",
+                  "title": "3 动能和动能定理",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch4/t3"
+                },
+                {
+                  "id": "physics-10b-4-4-4",
+                  "title": "4 机械能守恒定律",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch4/t4"
+                },
+                {
+                  "id": "physics-10b-4-5-5",
+                  "title": "5 实验：验证机械能守恒定律",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade10-2/ch4/t5"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -12309,7 +13567,302 @@
           "id": "10b",
           "title": "高一下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第五章 化工生产中的重要非金属元素",
+              "topics": [
+                {
+                  "id": "chemistry-10b-1-item-1",
+                  "title": "第一节 硫及其化合物",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "chemistry-10b-1-item-2",
+                  "title": "第二节 氮及其化合物",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "chemistry-10b-1-item-3",
+                  "title": "第三节 无机非金属材料",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch1/t3"
+                },
+                {
+                  "id": "chemistry-10b-1-4-4",
+                  "title": "实验活动4 用化学沉淀法去除粗盐中的杂质离子",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch1/t4"
+                },
+                {
+                  "id": "chemistry-10b-1-5-5",
+                  "title": "实验活动5 不同价态含硫物质的转化",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch1/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第六章 化学反应与能量",
+              "topics": [
+                {
+                  "id": "chemistry-10b-2-item-1",
+                  "title": "第一节 化学反应与能量变化",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "chemistry-10b-2-item-2",
+                  "title": "第二节 化学反应的速率与限度",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "chemistry-10b-2-6-3",
+                  "title": "实验活动6 化学能转化成电能",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch2/t3"
+                },
+                {
+                  "id": "chemistry-10b-2-7-4",
+                  "title": "实验活动7 化学反应速率的影响因素",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第七章 有机化合物",
+              "topics": [
+                {
+                  "id": "chemistry-10b-3-item-1",
+                  "title": "第一节 认识有机化合物",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "chemistry-10b-3-item-2",
+                  "title": "第二节 乙烯与有机高分子材料",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "chemistry-10b-3-item-3",
+                  "title": "第三节 乙醇与乙酸",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t3"
+                },
+                {
+                  "id": "chemistry-10b-3-item-4",
+                  "title": "第四节 基本营养物质",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t4"
+                },
+                {
+                  "id": "chemistry-10b-3-8-5",
+                  "title": "实验活动8 搭建球棍模型认识有机化合物分子结构的特点",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t5"
+                },
+                {
+                  "id": "chemistry-10b-3-9-6",
+                  "title": "实验活动9 乙醇、乙酸的主要性质",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch3/t6"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第八章 化学与可持续发展",
+              "topics": [
+                {
+                  "id": "chemistry-10b-4-item-1",
+                  "title": "第一节 自然资源的开发利用",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "chemistry-10b-4-item-2",
+                  "title": "第二节 化学品的合理使用",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch4/t2"
+                },
+                {
+                  "id": "chemistry-10b-4-item-3",
+                  "title": "第三节 环境保护与绿色化学",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade10-2/ch4/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -14019,7 +15572,314 @@
           "id": "10b",
           "title": "高一下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-1",
+              "title": "第1章 遗传因子的发现",
+              "topics": [
+                {
+                  "id": "biology-10b-1-1-1",
+                  "title": "第1节 孟德尔的豌豆杂交实验（一）",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "biology-10b-1-2-2",
+                  "title": "第2节 孟德尔的豌豆杂交实验（二）",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch1/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch2-2",
+              "title": "第2章 基因和染色体的关系",
+              "topics": [
+                {
+                  "id": "biology-10b-2-1-1",
+                  "title": "第1节 减数分裂和受精作用",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "biology-10b-2-2-2",
+                  "title": "第2节 基因在染色体上",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "biology-10b-2-3-3",
+                  "title": "第3节 伴性遗传",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-3",
+              "title": "第3章 基因的本质",
+              "topics": [
+                {
+                  "id": "biology-10b-3-1-dna-1",
+                  "title": "第1节 DNA是主要的遗传物质",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "biology-10b-3-2-dna-2",
+                  "title": "第2节 DNA的结构",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "biology-10b-3-3-dna-3",
+                  "title": "第3节 DNA的复制",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch3/t3"
+                },
+                {
+                  "id": "biology-10b-3-4-dna-4",
+                  "title": "第4节 基因通常是有遗传效应的DNA片段",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch3/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch4-4",
+              "title": "第4章 基因的表达",
+              "topics": [
+                {
+                  "id": "biology-10b-4-1-1",
+                  "title": "第1节 基因指导蛋白质的合成",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "biology-10b-4-2-2",
+                  "title": "第2节 基因表达与性状的关系",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch4/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch5-5",
+              "title": "第5章 基因突变及其他变异",
+              "topics": [
+                {
+                  "id": "biology-10b-5-1-1",
+                  "title": "第1节 基因突变和基因重组",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "biology-10b-5-2-2",
+                  "title": "第2节 染色体变异",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch5/t2"
+                },
+                {
+                  "id": "biology-10b-5-3-3",
+                  "title": "第3节 人类遗传病",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch5/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch6-6",
+              "title": "第6章 生物的进化",
+              "topics": [
+                {
+                  "id": "biology-10b-6-1-1",
+                  "title": "第1节 生物有共同祖先的证据",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch6/t1"
+                },
+                {
+                  "id": "biology-10b-6-2-2",
+                  "title": "第2节 自然选择与适应的形成",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch6/t2"
+                },
+                {
+                  "id": "biology-10b-6-3-3",
+                  "title": "第3节 种群基因组成的变化与物种的形成",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch6/t3"
+                },
+                {
+                  "id": "biology-10b-6-4-4",
+                  "title": "第4节 协同进化与生物多样性的形成",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "biology/grade10-2/ch6/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -16126,8 +17986,183 @@
         {
           "id": "10b",
           "title": "高一下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一课 我国的生产资料所有制",
+              "topics": [
+                {
+                  "id": "politics-10b-1-item-1",
+                  "title": "公有制为主体 多种所有制经济共同发展",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "politics-10b-1-item-2",
+                  "title": "坚持两个毫不动摇",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch1/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二课 我国的社会主义市场经济体制",
+              "topics": [
+                {
+                  "id": "politics-10b-2-item-1",
+                  "title": "使市场在资源配置中起决定性作用",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "politics-10b-2-item-2",
+                  "title": "更好发挥政府作用",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "politics-10b-2-item-3",
+                  "title": "综合探究一 加快完善社会主义市场经济体制",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三课 我国的经济发展",
+              "topics": [
+                {
+                  "id": "politics-10b-3-item-1",
+                  "title": "坚持新发展理念",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "politics-10b-3-item-2",
+                  "title": "建设现代化经济体系",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch3/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第四课 我国的个人收入分配与社会保障",
+              "topics": [
+                {
+                  "id": "politics-10b-4-item-1",
+                  "title": "我国的个人收入分配",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "politics-10b-4-item-2",
+                  "title": "我国的社会保障",
+                  "difficulty": 3,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch4/t2"
+                },
+                {
+                  "id": "politics-10b-4-item-3",
+                  "title": "综合探究二 践行社会责任 促进社会进步",
+                  "difficulty": 2,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade10-2/ch4/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -18750,8 +20785,225 @@
         {
           "id": "10b",
           "title": "高一下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第六单元 辛亥革命与中华民国的建立",
+              "topics": [
+                {
+                  "id": "history-10b-1-18-1",
+                  "title": "第18课 辛亥革命",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "history-10b-1-19-2",
+                  "title": "第19课 北洋军阀统治时期的政治、经济与文化",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch1/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第七单元 中国共产党成立与新民主主义革命兴起",
+              "topics": [
+                {
+                  "id": "history-10b-2-20-1",
+                  "title": "第20课 五四运动与中国共产党的诞生",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "history-10b-2-21-2",
+                  "title": "第21课 南京国民政府的统治和中国共产党开辟革命新道路",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch2/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第八单元 中华民族的抗日战争和人民解放战争",
+              "topics": [
+                {
+                  "id": "history-10b-3-22-1",
+                  "title": "第22课 从局部抗战到全面抗战",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "history-10b-3-23-2",
+                  "title": "第23课 全民族浴血奋战与抗日战争的胜利",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "history-10b-3-24-3",
+                  "title": "第24课 人民解放战争",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第九单元 中华人民共和国成立和社会主义革命与建设",
+              "topics": [
+                {
+                  "id": "history-10b-4-25-1",
+                  "title": "第25课 中华人民共和国成立和向社会主义的过渡",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "history-10b-4-26-2",
+                  "title": "第26课 社会主义建设在探索中曲折发展",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch4/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第十单元 改革开放与社会主义现代化建设新时期",
+              "topics": [
+                {
+                  "id": "history-10b-5-27-1",
+                  "title": "第27课 中国特色社会主义道路的开辟与发展",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "history-10b-5-28-2",
+                  "title": "第28课 改革开放以来的巨大成就",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch5/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch6-item",
+              "title": "第十一单元 中国特色社会主义新时代",
+              "topics": [
+                {
+                  "id": "history-10b-6-29-1",
+                  "title": "第29课 中国特色社会主义进入新时代",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade10-2/ch6/t1"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
@@ -20116,7 +22368,248 @@
           "id": "10b",
           "title": "高一下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一章 人口",
+              "topics": [
+                {
+                  "id": "geography-10b-1-item-1",
+                  "title": "第一节 人口分布",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch1/t1"
+                },
+                {
+                  "id": "geography-10b-1-item-2",
+                  "title": "第二节 人口迁移",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch1/t2"
+                },
+                {
+                  "id": "geography-10b-1-item-3",
+                  "title": "第三节 人口容量",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二章 乡村和城镇",
+              "topics": [
+                {
+                  "id": "geography-10b-2-item-1",
+                  "title": "第一节 乡村和城镇空间结构",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch2/t1"
+                },
+                {
+                  "id": "geography-10b-2-item-2",
+                  "title": "第二节 城镇化",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch2/t2"
+                },
+                {
+                  "id": "geography-10b-2-item-3",
+                  "title": "第三节 地域文化与城乡景观",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三章 产业区位因素",
+              "topics": [
+                {
+                  "id": "geography-10b-3-item-1",
+                  "title": "第一节 农业区位因素及其变化",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch3/t1"
+                },
+                {
+                  "id": "geography-10b-3-item-2",
+                  "title": "第二节 工业区位因素及其变化",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch3/t2"
+                },
+                {
+                  "id": "geography-10b-3-item-3",
+                  "title": "第三节 服务业区位因素及其变化",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第四章 交通运输布局与区域发展",
+              "topics": [
+                {
+                  "id": "geography-10b-4-item-1",
+                  "title": "第一节 区域发展对交通运输布局的影响",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch4/t1"
+                },
+                {
+                  "id": "geography-10b-4-item-2",
+                  "title": "第二节 交通运输布局对区域发展的影响",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch4/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第五章 环境与发展",
+              "topics": [
+                {
+                  "id": "geography-10b-5-item-1",
+                  "title": "第一节 人类面临的主要环境问题",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch5/t1"
+                },
+                {
+                  "id": "geography-10b-5-item-2",
+                  "title": "第二节 走向人地协调——可持续发展",
+                  "difficulty": 4,
+                  "importance": "高考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch5/t2"
+                },
+                {
+                  "id": "geography-10b-5-item-3",
+                  "title": "第三节 中国国家发展战略举例",
+                  "difficulty": 3,
+                  "importance": "高考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "geography/grade10-2/ch5/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "11a",
