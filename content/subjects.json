@@ -2804,8 +2804,570 @@
         {
           "id": "9b",
           "title": "初三下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一单元",
+              "topics": [
+                {
+                  "id": "chinese-9b-1-1",
+                  "title": "1 祖国啊，我亲爱的祖国",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "chinese-9b-1-2",
+                  "title": "2* 梅岭三章",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "chinese-9b-1-3",
+                  "title": "3* 短诗五首",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch1/t3"
+                },
+                {
+                  "id": "chinese-9b-1-4",
+                  "title": "4 海燕",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch1/t4"
+                },
+                {
+                  "id": "chinese-9b-1-item",
+                  "title": "写作：学习扩写",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch1/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二单元",
+              "topics": [
+                {
+                  "id": "chinese-9b-2-5",
+                  "title": "5 孔乙己",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "chinese-9b-2-6",
+                  "title": "6 变色龙",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "chinese-9b-2-7",
+                  "title": "7* 溜索",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch2/t3"
+                },
+                {
+                  "id": "chinese-9b-2-item",
+                  "title": "写作：审题立意",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch2/t4"
+                },
+                {
+                  "id": "chinese-9b-2-item",
+                  "title": "综合性学习：岁月如歌——我们的初中生活",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch2/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三单元",
+              "topics": [
+                {
+                  "id": "chinese-9b-3-9",
+                  "title": "9 鱼我所欲也",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "chinese-9b-3-10",
+                  "title": "10* 唐雎不辱使命",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t2"
+                },
+                {
+                  "id": "chinese-9b-3-11",
+                  "title": "11 送东阳马生序",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t3"
+                },
+                {
+                  "id": "chinese-9b-3-12",
+                  "title": "12 词四首",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t4"
+                },
+                {
+                  "id": "chinese-9b-3-item",
+                  "title": "写作：布局谋篇",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t5"
+                },
+                {
+                  "id": "chinese-9b-3-item",
+                  "title": "名著导读：《儒林外史》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t6"
+                },
+                {
+                  "id": "chinese-9b-3-item",
+                  "title": "课外古诗词诵读",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch3/t7"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第四单元",
+              "topics": [
+                {
+                  "id": "chinese-9b-4-13",
+                  "title": "13 短文两篇（谈读书 不求甚解）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "chinese-9b-4-14",
+                  "title": "14 山水画的意境",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t2"
+                },
+                {
+                  "id": "chinese-9b-4-15",
+                  "title": "15* 无言之美",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t3"
+                },
+                {
+                  "id": "chinese-9b-4-16",
+                  "title": "16* 驱遣我们的想象",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t4"
+                },
+                {
+                  "id": "chinese-9b-4-item",
+                  "title": "写作：修改润色",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t5"
+                },
+                {
+                  "id": "chinese-9b-4-item",
+                  "title": "口语交际：辩论",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch4/t6"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第五单元 活动·探究",
+              "topics": [
+                {
+                  "id": "chinese-9b-5-17",
+                  "title": "17 屈原（节选）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch5/t1"
+                },
+                {
+                  "id": "chinese-9b-5-18",
+                  "title": "18 天下第一楼（节选）",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch5/t2"
+                },
+                {
+                  "id": "chinese-9b-5-19",
+                  "title": "19 枣儿",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch5/t3"
+                },
+                {
+                  "id": "chinese-9b-5-item",
+                  "title": "任务二 准备与排练",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch5/t4"
+                },
+                {
+                  "id": "chinese-9b-5-item",
+                  "title": "任务三 演出与评议",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch5/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch6-item",
+              "title": "第六单元",
+              "topics": [
+                {
+                  "id": "chinese-9b-6-20",
+                  "title": "20 智取生辰纲",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t1"
+                },
+                {
+                  "id": "chinese-9b-6-21",
+                  "title": "21 范进中举",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t2"
+                },
+                {
+                  "id": "chinese-9b-6-22",
+                  "title": "22* 三顾茅庐",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t3"
+                },
+                {
+                  "id": "chinese-9b-6-23",
+                  "title": "23* 刘姥姥进大观园",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t4"
+                },
+                {
+                  "id": "chinese-9b-6-item",
+                  "title": "写作：有创意地表达",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需大量练习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t5"
+                },
+                {
+                  "id": "chinese-9b-6-item",
+                  "title": "名著导读：《水浒传》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t6"
+                },
+                {
+                  "id": "chinese-9b-6-item",
+                  "title": "课外古诗词诵读",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chinese/grade9-2/ch6/t7"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -4787,7 +5349,182 @@
           "id": "9b",
           "title": "初三下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第二十六章 反比例函数",
+              "topics": [
+                {
+                  "id": "math-9b-1-26-1",
+                  "title": "26.1 反比例函数",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "math-9b-1-26-2",
+                  "title": "26.2 实际问题与反比例函数",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch1/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二十七章 相似",
+              "topics": [
+                {
+                  "id": "math-9b-2-27-1",
+                  "title": "27.1 图形的相似",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "math-9b-2-27-2",
+                  "title": "27.2 相似三角形",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "math-9b-2-27-3",
+                  "title": "27.3 位似",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第二十八章 锐角三角函数",
+              "topics": [
+                {
+                  "id": "math-9b-3-28-1",
+                  "title": "28.1 锐角三角函数",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "math-9b-3-28-2",
+                  "title": "28.2 解直角三角形及其应用",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch3/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第二十九章 投影与视图",
+              "topics": [
+                {
+                  "id": "math-9b-4-29-1",
+                  "title": "29.1 投影",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "math-9b-4-29-2",
+                  "title": "29.2 三视图",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch4/t2"
+                },
+                {
+                  "id": "math-9b-4-29-3",
+                  "title": "29.3 课题学习：制作立体模型",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "math/grade9-2/ch4/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -7225,8 +7962,459 @@
         {
           "id": "9b",
           "title": "初三下",
-          "textbook": "人教版",
-          "chapters": []
+          "textbook": "外研版",
+          "chapters": [
+            {
+              "id": "ch1-module-1-travel",
+              "title": "Module 1 Travel",
+              "topics": [
+                {
+                  "id": "english-9b-1-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "english-9b-1-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "english-9b-1-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-module-2-education",
+              "title": "Module 2 Education",
+              "topics": [
+                {
+                  "id": "english-9b-2-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "english-9b-2-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "english-9b-2-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-module-3-life-now-and-then",
+              "title": "Module 3 Life now and then",
+              "topics": [
+                {
+                  "id": "english-9b-3-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "english-9b-3-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch3/t2"
+                },
+                {
+                  "id": "english-9b-3-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch3/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch4-module-4-rules-and-suggestions",
+              "title": "Module 4 Rules and suggestions",
+              "topics": [
+                {
+                  "id": "english-9b-4-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "english-9b-4-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch4/t2"
+                },
+                {
+                  "id": "english-9b-4-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch4/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch5-revision-module-a",
+              "title": "Revision Module A",
+              "topics": [
+                {
+                  "id": "english-9b-5-revision-module-a",
+                  "title": "Revision Module A",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#复习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch5/t1"
+                }
+              ]
+            },
+            {
+              "id": "ch6-module-5-look-after-yourself",
+              "title": "Module 5 Look after yourself",
+              "topics": [
+                {
+                  "id": "english-9b-6-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch6/t1"
+                },
+                {
+                  "id": "english-9b-6-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch6/t2"
+                },
+                {
+                  "id": "english-9b-6-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch6/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch7-module-6-eating-together",
+              "title": "Module 6 Eating together",
+              "topics": [
+                {
+                  "id": "english-9b-7-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch7/t1"
+                },
+                {
+                  "id": "english-9b-7-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch7/t2"
+                },
+                {
+                  "id": "english-9b-7-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch7/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch8-module-7-english-for-you-and-me",
+              "title": "Module 7 English for you and me",
+              "topics": [
+                {
+                  "id": "english-9b-8-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch8/t1"
+                },
+                {
+                  "id": "english-9b-8-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch8/t2"
+                },
+                {
+                  "id": "english-9b-8-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch8/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch9-module-8-my-future-life",
+              "title": "Module 8 My future life",
+              "topics": [
+                {
+                  "id": "english-9b-9-unit-1",
+                  "title": "Unit 1",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch9/t1"
+                },
+                {
+                  "id": "english-9b-9-unit-2",
+                  "title": "Unit 2",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch9/t2"
+                },
+                {
+                  "id": "english-9b-9-unit-3-language-in-use",
+                  "title": "Unit 3 Language in use",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#语法"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch9/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch10-revision-module-b",
+              "title": "Revision Module B",
+              "topics": [
+                {
+                  "id": "english-9b-10-revision-module-b",
+                  "title": "Revision Module B",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#复习"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "english/grade9-2/ch10/t1"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -8466,7 +9654,338 @@
           "id": "9b",
           "title": "初三下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第十八章 电功率",
+              "topics": [
+                {
+                  "id": "physics-9b-1-1",
+                  "title": "第1节 电能 电功",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "physics-9b-1-2",
+                  "title": "第2节 电功率",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "physics-9b-1-3",
+                  "title": "第3节 测量小灯泡的电功率",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch1/t3"
+                },
+                {
+                  "id": "physics-9b-1-4",
+                  "title": "第4节 焦耳定律",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第十九章 生活用电",
+              "topics": [
+                {
+                  "id": "physics-9b-2-1",
+                  "title": "第1节 家庭电路",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "physics-9b-2-2",
+                  "title": "第2节 家庭电路中电流过大的原因",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "physics-9b-2-3",
+                  "title": "第3节 安全用电",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第二十章 电与磁",
+              "topics": [
+                {
+                  "id": "physics-9b-3-1",
+                  "title": "第1节 磁现象 磁场",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "physics-9b-3-2",
+                  "title": "第2节 电生磁",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch3/t2"
+                },
+                {
+                  "id": "physics-9b-3-3",
+                  "title": "第3节 电磁铁 电磁继电器",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch3/t3"
+                },
+                {
+                  "id": "physics-9b-3-4",
+                  "title": "第4节 电动机",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch3/t4"
+                },
+                {
+                  "id": "physics-9b-3-5",
+                  "title": "第5节 磁生电",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第二十一章 信息的传递",
+              "topics": [
+                {
+                  "id": "physics-9b-4-1",
+                  "title": "第1节 现代顺风耳——电话",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "physics-9b-4-2",
+                  "title": "第2节 电磁波的海洋",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch4/t2"
+                },
+                {
+                  "id": "physics-9b-4-3",
+                  "title": "第3节 广播、电视和移动通信",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch4/t3"
+                },
+                {
+                  "id": "physics-9b-4-4",
+                  "title": "第4节 越来越宽的信息之路",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch4/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第二十二章 能源与可持续发展",
+              "topics": [
+                {
+                  "id": "physics-9b-5-1",
+                  "title": "第1节 能源",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch5/t1"
+                },
+                {
+                  "id": "physics-9b-5-2",
+                  "title": "第2节 核能",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch5/t2"
+                },
+                {
+                  "id": "physics-9b-5-3",
+                  "title": "第3节 太阳能",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch5/t3"
+                },
+                {
+                  "id": "physics-9b-5-4",
+                  "title": "第4节 能源与可持续发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "physics/grade9-2/ch5/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -8879,7 +10398,233 @@
           "id": "9b",
           "title": "初三下",
           "textbook": "人教版",
-          "chapters": []
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第八单元 金属和金属材料",
+              "topics": [
+                {
+                  "id": "chemistry-9b-1-1",
+                  "title": "课题1 金属材料",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "chemistry-9b-1-2",
+                  "title": "课题2 金属的化学性质",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "chemistry-9b-1-3",
+                  "title": "课题3 金属资源的利用和保护",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch1/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第九单元 溶液",
+              "topics": [
+                {
+                  "id": "chemistry-9b-2-1",
+                  "title": "课题1 溶液的形成",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "chemistry-9b-2-2",
+                  "title": "课题2 溶解度",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "chemistry-9b-2-3",
+                  "title": "课题3 溶液的浓度",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第十单元 酸和碱",
+              "topics": [
+                {
+                  "id": "chemistry-9b-3-1",
+                  "title": "课题1 常见的酸和碱",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "chemistry-9b-3-2",
+                  "title": "课题2 酸和碱的中和反应",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch3/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第十一单元 盐 化肥",
+              "topics": [
+                {
+                  "id": "chemistry-9b-4-1",
+                  "title": "课题1 生活中常见的盐",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "chemistry-9b-4-2",
+                  "title": "课题2 化学肥料",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch4/t2"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第十二单元 化学与生活",
+              "topics": [
+                {
+                  "id": "chemistry-9b-5-1",
+                  "title": "课题1 人类重要的营养物质",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch5/t1"
+                },
+                {
+                  "id": "chemistry-9b-5-2",
+                  "title": "课题2 化学元素与人体健康",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch5/t2"
+                },
+                {
+                  "id": "chemistry-9b-5-3",
+                  "title": "课题3 有机合成材料",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "chemistry/grade9-2/ch5/t3"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -11970,8 +13715,237 @@
         {
           "id": "9b",
           "title": "初三下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一单元 我们共同的世界",
+              "topics": [
+                {
+                  "id": "politics-9b-1-item",
+                  "title": "开放互动的世界",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "politics-9b-1-item",
+                  "title": "复杂多变的关系",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "politics-9b-1-item",
+                  "title": "推动和平与发展",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch1/t3"
+                },
+                {
+                  "id": "politics-9b-1-item",
+                  "title": "谋求互利共赢",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二单元 世界舞台上的中国",
+              "topics": [
+                {
+                  "id": "politics-9b-2-item",
+                  "title": "中国担当",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "politics-9b-2-item",
+                  "title": "与世界深度互动",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "politics-9b-2-item",
+                  "title": "中国的机遇与挑战",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch2/t3"
+                },
+                {
+                  "id": "politics-9b-2-item",
+                  "title": "携手促发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch2/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三单元 走向未来的少年",
+              "topics": [
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "走向世界大舞台",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "少年当自强",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t2"
+                },
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "学无止境",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t3"
+                },
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "多彩的职业",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t4"
+                },
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "回望成长",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t5"
+                },
+                {
+                  "id": "politics-9b-3-item",
+                  "title": "走向未来",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "politics/grade9-2/ch3/t6"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
@@ -13926,8 +15900,390 @@
         {
           "id": "9b",
           "title": "初三下",
-          "textbook": "部编版",
-          "chapters": []
+          "textbook": "统编版",
+          "chapters": [
+            {
+              "id": "ch1-item",
+              "title": "第一单元 殖民地人民的反抗与资本主义制度的扩展",
+              "topics": [
+                {
+                  "id": "history-9b-1-1",
+                  "title": "第1课 殖民地人民的反抗斗争",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch1/t1"
+                },
+                {
+                  "id": "history-9b-1-2",
+                  "title": "第2课 俄国的改革",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch1/t2"
+                },
+                {
+                  "id": "history-9b-1-3",
+                  "title": "第3课 美国内战",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch1/t3"
+                },
+                {
+                  "id": "history-9b-1-4",
+                  "title": "第4课 日本明治维新",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch1/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch2-item",
+              "title": "第二单元 第二次工业革命和近代科学文化",
+              "topics": [
+                {
+                  "id": "history-9b-2-5",
+                  "title": "第5课 第二次工业革命",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch2/t1"
+                },
+                {
+                  "id": "history-9b-2-6",
+                  "title": "第6课 工业化国家的社会变化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch2/t2"
+                },
+                {
+                  "id": "history-9b-2-7",
+                  "title": "第7课 近代科学与文化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch2/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch3-item",
+              "title": "第三单元 第一次世界大战和战后初期的世界",
+              "topics": [
+                {
+                  "id": "history-9b-3-8",
+                  "title": "第8课 第一次世界大战",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch3/t1"
+                },
+                {
+                  "id": "history-9b-3-9",
+                  "title": "第9课 列宁与十月革命",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch3/t2"
+                },
+                {
+                  "id": "history-9b-3-10",
+                  "title": "第10课 《凡尔赛条约》和《九国公约》",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch3/t3"
+                },
+                {
+                  "id": "history-9b-3-11",
+                  "title": "第11课 苏联的社会主义建设",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch3/t4"
+                },
+                {
+                  "id": "history-9b-3-12",
+                  "title": "第12课 亚非拉民族民主运动的高涨",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch3/t5"
+                }
+              ]
+            },
+            {
+              "id": "ch4-item",
+              "title": "第四单元 经济大危机和第二次世界大战",
+              "topics": [
+                {
+                  "id": "history-9b-4-13",
+                  "title": "第13课 罗斯福新政",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch4/t1"
+                },
+                {
+                  "id": "history-9b-4-14",
+                  "title": "第14课 法西斯国家的侵略扩张",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch4/t2"
+                },
+                {
+                  "id": "history-9b-4-15",
+                  "title": "第15课 第二次世界大战",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch4/t3"
+                }
+              ]
+            },
+            {
+              "id": "ch5-item",
+              "title": "第五单元 二战后的世界变化",
+              "topics": [
+                {
+                  "id": "history-9b-5-16",
+                  "title": "第16课 冷战",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch5/t1"
+                },
+                {
+                  "id": "history-9b-5-17",
+                  "title": "第17课 二战后资本主义的新变化",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch5/t2"
+                },
+                {
+                  "id": "history-9b-5-18",
+                  "title": "第18课 社会主义的发展与挫折",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch5/t3"
+                },
+                {
+                  "id": "history-9b-5-19",
+                  "title": "第19课 亚非拉国家的新发展",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch5/t4"
+                }
+              ]
+            },
+            {
+              "id": "ch6-item",
+              "title": "第六单元 走向和平发展的世界",
+              "topics": [
+                {
+                  "id": "history-9b-6-20",
+                  "title": "第20课 联合国与世界贸易组织",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch6/t1"
+                },
+                {
+                  "id": "history-9b-6-21",
+                  "title": "第21课 冷战后的世界格局",
+                  "difficulty": 3,
+                  "importance": "中考必考",
+                  "tags": [
+                    "#需背诵"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch6/t2"
+                },
+                {
+                  "id": "history-9b-6-22",
+                  "title": "第22课 不断发展的现代社会",
+                  "difficulty": 2,
+                  "importance": "中考高频",
+                  "tags": [
+                    "#基础"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch6/t3"
+                },
+                {
+                  "id": "history-9b-6-23",
+                  "title": "第23课 活动课：时事溯源",
+                  "difficulty": 1,
+                  "importance": "了解即可",
+                  "tags": [
+                    "#提高"
+                  ],
+                  "prerequisites": [],
+                  "related": [],
+                  "materials": [
+                    "note"
+                  ],
+                  "contentPath": "history/grade9-2/ch6/t4"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "10a",
