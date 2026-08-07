@@ -21,6 +21,12 @@
   --s: #c08a3e;
   --s-soft: #f2eadc;
   --s-deep: #6f5107;
+  /* 动效 tokens */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-lift-1: 0 1px 2px rgba(41, 37, 31, 0.04);
+  --shadow-lift-2:
+    0 2px 4px rgba(41, 37, 31, 0.05),
+    0 8px 24px rgba(41, 37, 31, 0.08);
 }
 
 .dark {
@@ -35,6 +41,11 @@
   --s: #d3a35a;
   --s-soft: #3a3226;
   --s-deep: #e2c391;
+  /* 暗色层次阴影 */
+  --shadow-lift-1: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-lift-2:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 /* 组件通过 style 注入 --sj / --sj-soft / --sj-deep（亮色原值），
@@ -385,5 +396,176 @@ mark {
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
+    animation: none !important;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * 动效系统：滚动渐入 / 页面转场 / 卡片悬停提升 / 环境光层 / 阅读进度
+ *   全部只用 transform + opacity，不触发重排
+ * ------------------------------------------------------------------------- */
+
+/* 滚动渐入：初始下移 + 透明，进入视口后归位（--reveal-delay 做 stagger） */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.6s var(--ease-out-soft),
+    transform 0.6s var(--ease-out-soft);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* 页面转场：路由切换时内容淡入 + 微上浮 */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.page-enter {
+  animation: page-enter 0.38s var(--ease-out-soft) both;
+}
+
+/* 卡片悬停提升：微位移 + 层次阴影（配合已有 border-color 过渡） */
+.card-lift {
+  box-shadow: var(--shadow-lift-1);
+  transition:
+    transform 0.25s var(--ease-out-soft),
+    box-shadow 0.25s var(--ease-out-soft),
+    border-color 0.25s var(--ease-out-soft);
+}
+@media (hover: hover) {
+  .card-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift-2);
+  }
+}
+
+/* 渐变色条从左向右展开（配合 .rule 使用） */
+@keyframes rule-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.rule-grow {
+  transform-origin: left center;
+  animation: rule-grow 0.7s var(--ease-out-soft) 0.1s both;
+}
+
+/* 折叠展开时内容淡入下滑（不做高度动画，避免重排） */
+@keyframes fold-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fold-in {
+  animation: fold-in 0.3s var(--ease-out-soft) both;
+}
+
+/* 环境光层：固定在视口底层的柔和光晕，缓慢漂移营造空间感 */
+.ambient-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.5;
+  will-change: transform;
+}
+.ambient-orb--a {
+  width: 46vw;
+  height: 46vw;
+  min-width: 380px;
+  min-height: 380px;
+  top: -18%;
+  right: -12%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--gold) 16%, transparent),
+    transparent 70%
+  );
+  animation: orb-drift-a 26s ease-in-out infinite alternate;
+}
+.ambient-orb--b {
+  width: 38vw;
+  height: 38vw;
+  min-width: 320px;
+  min-height: 320px;
+  bottom: -16%;
+  left: -10%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--s, var(--gold)) 12%, transparent),
+    transparent 70%
+  );
+  animation: orb-drift-b 32s ease-in-out infinite alternate;
+}
+@keyframes orb-drift-a {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(-5vw, 6vh) scale(1.08);
+  }
+}
+@keyframes orb-drift-b {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(4vw, -5vh) scale(1.06);
+  }
+}
+
+/* 阅读进度条：顶部 2px 学科色，scaleX 驱动 */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 60;
+  background: linear-gradient(90deg, var(--s, var(--gold)), var(--gold));
+  transform-origin: left center;
+  transform: scaleX(0);
+  pointer-events: none;
+}
+
+/* 移动端降级：关闭环境光漂移、缩短渐入位移 */
+@media (max-width: 560px) {
+  .ambient-orb {
+    animation: none;
+    opacity: 0.35;
+  }
+  .reveal {
+    transform: translateY(8px);
+    transition-duration: 0.45s;
   }
 }

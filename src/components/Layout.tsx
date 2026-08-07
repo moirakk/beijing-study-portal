@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import AmbientBackground from './AmbientBackground'
 
 const THEME_KEY = 'bsp-theme'
 
@@ -15,6 +16,7 @@ function loadTheme(): 'light' | 'dark' {
  */
 export default function Layout() {
   const navigate = useNavigate()
+  const location = useLocation()
   const searchRef = useRef<HTMLInputElement>(null)
   const [theme, setTheme] = useState<'light' | 'dark'>(loadTheme)
   const [query, setQuery] = useState('')
@@ -43,7 +45,8 @@ export default function Layout() {
   }
 
   return (
-    <div className="min-h-screen bg-paper text-ink">
+    <div className="min-h-screen text-ink">
+      <AmbientBackground />
       <header className="nav-blur">
         <div className="mx-auto flex h-12 max-w-[980px] items-center gap-1.5 px-4">
           <Link
@@ -93,7 +96,10 @@ export default function Layout() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-[980px] px-5 pb-24 pt-6">
+      <main
+        key={location.pathname}
+        className="page-enter mx-auto max-w-[980px] px-5 pb-24 pt-6"
+      >
         <Outlet />
       </main>
 

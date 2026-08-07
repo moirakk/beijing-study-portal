@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { useParams, useSearchParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
+import Reveal from '../components/Reveal'
 import { getSubject, getSubjects } from '../lib/contentLoader'
 import { CN_NUMERALS, SUBJECT_EN, subjectVars } from '../lib/constants'
 import type { SubjectId } from '../types'
@@ -42,14 +43,16 @@ export default function SubjectDetail() {
       <Breadcrumb items={[{ label: '首页', to: '/' }, { label: subject.name }]} />
 
       {/* subject-head：大号宋体数字 + 学科名 + 英文小字 + 渐变色条 */}
-      <div className="subject-head mt-6">
-        <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
-        <div>
-          <h1 className="name">{subject.name}</h1>
-          <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+      <Reveal>
+        <div className="subject-head mt-6">
+          <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
+          <div>
+            <h1 className="name">{subject.name}</h1>
+            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+          </div>
         </div>
-      </div>
-      <div className="rule" />
+        <div className="rule rule-grow" />
+      </Reveal>
 
       {gradesWithContent.length === 0 ? (
         <div className="card mt-8 text-ink-soft">
@@ -58,29 +61,31 @@ export default function SubjectDetail() {
       ) : (
         <>
           {/* 学期切换（胶囊） */}
-          <div className="mt-7 flex flex-wrap gap-2">
-            {subject.grades.map((grade) => {
-              const hasContent = grade.chapters.length > 0
-              const active = grade.id === currentGradeId
-              return (
-                <button
-                  key={grade.id}
-                  type="button"
-                  disabled={!hasContent}
-                  onClick={() => setActiveGradeId(grade.id)}
-                  className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-colors ${
-                    active
-                      ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
-                      : hasContent
-                        ? 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:text-[var(--s-deep)]'
-                        : 'cursor-not-allowed border-line bg-paper text-ink-faint'
-                  }`}
-                >
-                  {grade.title}
-                </button>
-              )
-            })}
-          </div>
+          <Reveal delay={120}>
+            <div className="mt-7 flex flex-wrap gap-2">
+              {subject.grades.map((grade) => {
+                const hasContent = grade.chapters.length > 0
+                const active = grade.id === currentGradeId
+                return (
+                  <button
+                    key={grade.id}
+                    type="button"
+                    disabled={!hasContent}
+                    onClick={() => setActiveGradeId(grade.id)}
+                    className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
+                      active
+                        ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
+                        : hasContent
+                          ? 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:text-[var(--s-deep)]'
+                          : 'cursor-not-allowed border-line bg-paper text-ink-faint'
+                    }`}
+                  >
+                    {grade.title}
+                  </button>
+                )
+              })}
+            </div>
+          </Reveal>
 
           {/* 章节卡片列表（与首页/学期页统一的可折叠 ChapterCard，含知识点元信息） */}
           {currentGrade && (
@@ -90,12 +95,14 @@ export default function SubjectDetail() {
                   {currentGrade.title} · {currentGrade.textbook}
                 </div>
               )}
-              {currentGrade.chapters.map((chapter) => (
-                <ChapterCard
+              {currentGrade.chapters.map((chapter, i) => (
+                <Reveal
                   key={`${currentGrade.id}-${chapter.id}`}
-                  chapter={chapter}
-                  showMeta
-                />
+                  delay={Math.min(i, 4) * 50}
+                  className="mt-3 first:mt-0"
+                >
+                  <ChapterCard chapter={chapter} showMeta />
+                </Reveal>
               ))}
             </div>
           )}

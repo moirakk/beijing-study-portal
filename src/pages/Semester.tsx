@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
+import Reveal from '../components/Reveal'
 import SemesterPillNav from '../components/SemesterPillNav'
 import { countRealInGrade, getSubjects } from '../lib/contentLoader'
 import {
@@ -78,20 +79,24 @@ export default function Semester() {
 
       {/* 学期大标题 + 金色渐变分隔线 */}
       <header className="mt-6">
-        <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
-          北京 · 初高中学习资料 · 按学期
-        </div>
-        <h1 className="mb-0 mt-[0.28em] font-serif text-[clamp(34px,7vw,54px)] font-bold leading-[1.15] tracking-[0.02em]">
-          {semesterFullLabel(gradeId)}
-        </h1>
-        <div
-          className="mt-4 h-1 rounded-sm"
-          style={{ background: 'linear-gradient(90deg, var(--gold), transparent)' }}
-        />
+        <Reveal>
+          <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
+            北京 · 初高中学习资料 · 按学期
+          </div>
+          <h1 className="mb-0 mt-[0.28em] font-serif text-[clamp(34px,7vw,54px)] font-bold leading-[1.15] tracking-[0.02em]">
+            {semesterFullLabel(gradeId)}
+          </h1>
+          <div
+            className="rule-grow mt-4 h-1 rounded-sm"
+            style={{ background: 'linear-gradient(90deg, var(--gold), transparent)' }}
+          />
+        </Reveal>
         {/* 学期切换胶囊 */}
-        <div className="mt-5">
-          <SemesterPillNav current={gradeId} />
-        </div>
+        <Reveal delay={140}>
+          <div className="mt-5">
+            <SemesterPillNav current={gradeId} />
+          </div>
+        </Reveal>
       </header>
 
       {/* 有内容的学科分段（可折叠） */}
@@ -101,12 +106,13 @@ export default function Semester() {
         </div>
       ) : (
         withContent.map((entry, i) => (
-          <SubjectSection
+          <Reveal
             key={entry.subject.id}
-            entry={entry}
-            index={i}
-            gradeId={gradeId}
-          />
+            delay={Math.min(i, 3) * 60}
+            className={i === 0 ? 'mt-10' : 'mt-[52px]'}
+          >
+            <SubjectSection entry={entry} index={i} gradeId={gradeId} />
+          </Reveal>
         ))
       )}
 
@@ -146,10 +152,7 @@ function SubjectSection({
   const [open, setOpen] = useState(true)
 
   return (
-    <section
-      className="mt-[52px] first-of-type:mt-10"
-      style={subjectVars(subject.id as SubjectId)}
-    >
+    <section style={subjectVars(subject.id as SubjectId)}>
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -182,7 +185,7 @@ function SubjectSection({
       </button>
 
       {open && (
-        <>
+        <div className="fold-in">
           <div className="mt-4">
             {chapters.map((chapter) => (
               <ChapterCard key={chapter.id} chapter={chapter} />
@@ -196,7 +199,7 @@ function SubjectSection({
               查看{subject.name}全部学期 →
             </Link>
           </div>
-        </>
+        </div>
       )}
     </section>
   )

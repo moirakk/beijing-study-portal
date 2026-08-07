@@ -3,6 +3,8 @@ import type { ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import Markdown from '../components/Markdown'
+import ReadingProgress from '../components/ReadingProgress'
+import Reveal from '../components/Reveal'
 import { findTopic, getAllTopics, isDraftTopic, loadTopicContent } from '../lib/contentLoader'
 import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
@@ -70,7 +72,7 @@ function CollapsibleSection({
           ▾
         </span>
       </button>
-      {open && <div className="px-4 pb-4 md:px-[26px] md:pb-5">{children}</div>}
+      {open && <div className="fold-in px-4 pb-4 md:px-[26px] md:pb-5">{children}</div>}
     </section>
   )
 }
@@ -123,7 +125,7 @@ function ProblemCard({ heading, body }: { heading: string; body: string }) {
             {open ? '收起解析' : '展开解析'}
           </button>
           {open && (
-            <div className="mt-3 border-l-2 border-[var(--s)] pl-4">
+            <div className="fold-in mt-3 border-l-2 border-[var(--s)] pl-4">
               <Markdown markdown={solution} />
             </div>
           )}
@@ -211,6 +213,7 @@ export default function TopicDetail() {
 
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
+      <ReadingProgress />
       <Breadcrumb
         items={[
           { label: '首页', to: '/' },
@@ -221,29 +224,33 @@ export default function TopicDetail() {
         ]}
       />
 
-      {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息（单区紧凑排布） */}
+      {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息（依次渐入） */}
       <header className="mt-6">
-        <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
-          {topic.title}
-        </h1>
-        <div className="rule mt-2.5" />
-        <div className="mt-3.5 flex flex-wrap items-center gap-x-3 gap-y-2 text-[13.5px]">
-          <span className="text-ink-soft">
-            {grade.title} · {chapter.title}
-          </span>
-          <span
-            className="text-[var(--s)]"
-            title={`难度 ${topic.difficulty}/5`}
-          >
-            {difficultyStars(topic.difficulty)}
-          </span>
-          <span className="flex flex-wrap items-center gap-1.5">
-            <span className="tag">{topic.importance}</span>
-            {topic.tags.map((t) => (
-              <span key={t} className="hl">{t.replace(/^#/, '')}</span>
-            ))}
-          </span>
-        </div>
+        <Reveal>
+          <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
+            {topic.title}
+          </h1>
+          <div className="rule rule-grow mt-2.5" />
+        </Reveal>
+        <Reveal delay={120}>
+          <div className="mt-3.5 flex flex-wrap items-center gap-x-3 gap-y-2 text-[13.5px]">
+            <span className="text-ink-soft">
+              {grade.title} · {chapter.title}
+            </span>
+            <span
+              className="text-[var(--s)]"
+              title={`难度 ${topic.difficulty}/5`}
+            >
+              {difficultyStars(topic.difficulty)}
+            </span>
+            <span className="flex flex-wrap items-center gap-1.5">
+              <span className="tag">{topic.importance}</span>
+              {topic.tags.map((t) => (
+                <span key={t} className="hl">{t.replace(/^#/, '')}</span>
+              ))}
+            </span>
+          </div>
+        </Reveal>
       </header>
 
       {/* draft 骨架页提示条 */}
@@ -273,8 +280,8 @@ export default function TopicDetail() {
         </nav>
       )}
 
-      {/* 内容区 */}
-      <div className="mt-5 space-y-5">
+      {/* 内容区（各分区随滚动渐入，留足呼吸感） */}
+      <div className="mt-5 space-y-6">
         {content === null && topic.materials.length > 0 && (
           <div className="card text-center text-sm text-ink-faint">资料加载中…</div>
         )}
@@ -286,71 +293,81 @@ export default function TopicDetail() {
         )}
 
         {content?.note && (
-          <CollapsibleSection
-            anchor="sec-note"
-            title="笔记"
-            badge={SECTION_BADGES.note}
-            open={isOpen('note')}
-            onToggle={() => toggleSection('note')}
-          >
-            <Markdown markdown={content.note} stripH1 />
-          </CollapsibleSection>
+          <Reveal>
+            <CollapsibleSection
+              anchor="sec-note"
+              title="笔记"
+              badge={SECTION_BADGES.note}
+              open={isOpen('note')}
+              onToggle={() => toggleSection('note')}
+            >
+              <Markdown markdown={content.note} stripH1 />
+            </CollapsibleSection>
+          </Reveal>
         )}
 
         {content?.formulas && (
-          <CollapsibleSection
-            anchor="sec-formulas"
-            title="公式"
-            badge={SECTION_BADGES.formulas}
-            open={isOpen('formulas')}
-            onToggle={() => toggleSection('formulas')}
-          >
-            <Markdown markdown={content.formulas} stripH1 />
-          </CollapsibleSection>
+          <Reveal>
+            <CollapsibleSection
+              anchor="sec-formulas"
+              title="公式"
+              badge={SECTION_BADGES.formulas}
+              open={isOpen('formulas')}
+              onToggle={() => toggleSection('formulas')}
+            >
+              <Markdown markdown={content.formulas} stripH1 />
+            </CollapsibleSection>
+          </Reveal>
         )}
 
         {content?.examples && (
-          <CollapsibleSection
-            anchor="sec-examples"
-            title="例题"
-            badge={SECTION_BADGES.examples}
-            open={isOpen('examples')}
-            onToggle={() => toggleSection('examples')}
-          >
-            <div className="space-y-4">
-              {splitProblems(content.examples).map((p, i) => (
-                <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
-              ))}
-            </div>
-          </CollapsibleSection>
+          <Reveal>
+            <CollapsibleSection
+              anchor="sec-examples"
+              title="例题"
+              badge={SECTION_BADGES.examples}
+              open={isOpen('examples')}
+              onToggle={() => toggleSection('examples')}
+            >
+              <div className="space-y-4">
+                {splitProblems(content.examples).map((p, i) => (
+                  <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
+                ))}
+              </div>
+            </CollapsibleSection>
+          </Reveal>
         )}
 
         {content?.exams && (
-          <CollapsibleSection
-            anchor="sec-exams"
-            title="真题"
-            badge={SECTION_BADGES.exams}
-            open={isOpen('exams')}
-            onToggle={() => toggleSection('exams')}
-          >
-            <div className="space-y-4">
-              {splitProblems(content.exams).map((p, i) => (
-                <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
-              ))}
-            </div>
-          </CollapsibleSection>
+          <Reveal>
+            <CollapsibleSection
+              anchor="sec-exams"
+              title="真题"
+              badge={SECTION_BADGES.exams}
+              open={isOpen('exams')}
+              onToggle={() => toggleSection('exams')}
+            >
+              <div className="space-y-4">
+                {splitProblems(content.exams).map((p, i) => (
+                  <ProblemCard key={`${id}-${i}`} heading={p.heading} body={p.body} />
+                ))}
+              </div>
+            </CollapsibleSection>
+          </Reveal>
         )}
 
         {content?.mindmap && (
-          <CollapsibleSection
-            anchor="sec-mindmap"
-            title="导图"
-            badge={SECTION_BADGES.mindmap}
-            open={isOpen('mindmap')}
-            onToggle={() => toggleSection('mindmap')}
-          >
-            <Markdown markdown={content.mindmap} stripH1 />
-          </CollapsibleSection>
+          <Reveal>
+            <CollapsibleSection
+              anchor="sec-mindmap"
+              title="导图"
+              badge={SECTION_BADGES.mindmap}
+              open={isOpen('mindmap')}
+              onToggle={() => toggleSection('mindmap')}
+            >
+              <Markdown markdown={content.mindmap} stripH1 />
+            </CollapsibleSection>
+          </Reveal>
         )}
       </div>
 
@@ -360,7 +377,7 @@ export default function TopicDetail() {
           {prevTopic ? (
             <Link
               to={`/topic/${prevTopic.id}`}
-              className="group rounded-xl border border-line bg-panel px-4 py-3 transition-colors hover:border-[var(--s)]"
+              className="group card-lift rounded-xl border border-line bg-panel px-4 py-3 hover:border-[var(--s)]"
             >
               <div className="text-[12px] font-bold text-ink-faint">← 上一个</div>
               <div className="mt-0.5 truncate text-[14px] font-semibold text-[var(--s-deep)] group-hover:text-[var(--s)]">
@@ -373,7 +390,7 @@ export default function TopicDetail() {
           {nextInChapter && (
             <Link
               to={`/topic/${nextInChapter.id}`}
-              className="group rounded-xl border border-line bg-panel px-4 py-3 text-right transition-colors hover:border-[var(--s)]"
+              className="group card-lift rounded-xl border border-line bg-panel px-4 py-3 text-right hover:border-[var(--s)]"
             >
               <div className="text-[12px] font-bold text-ink-faint">下一个 →</div>
               <div className="mt-0.5 truncate text-[14px] font-semibold text-[var(--s-deep)] group-hover:text-[var(--s)]">

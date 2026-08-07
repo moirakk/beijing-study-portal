@@ -4,8 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>北京初高中学习门户</title>
+    <style>
+      /* 入场 Splash：纸张底色全屏层，品牌字 + 金色细线呼吸；React 挂载后淡出 */
+      #splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        background: #fbfaf7;
+        transition: opacity 0.45s ease;
+      }
+      #splash.done {
+        opacity: 0;
+        pointer-events: none;
+      }
+      #splash .brand {
+        font-family: 'Songti SC', STSong, Georgia, 'Times New Roman', serif;
+        font-size: clamp(20px, 4vw, 28px);
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        color: #29251f;
+        opacity: 0;
+        animation: splash-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.05s forwards;
+      }
+      #splash .line {
+        width: 72px;
+        height: 2px;
+        border-radius: 1px;
+        background: linear-gradient(90deg, #c08a3e, transparent);
+        transform-origin: left center;
+        animation: splash-line 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+      }
+      @keyframes splash-rise {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @keyframes splash-line {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        #splash {
+          background: #1c1a16;
+        }
+        #splash .brand {
+          color: #eae4d8;
+        }
+        #splash .line {
+          background: linear-gradient(90deg, #d3a35a, transparent);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #splash {
+          transition: none;
+        }
+        #splash .brand,
+        #splash .line {
+          animation: none;
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+    <script>
+      // 已持久化暗色偏好时，Splash 底色跟随，避免闪白/闪黑
+      try {
+        var t = localStorage.getItem('bsp-theme')
+        if (t === 'dark') document.documentElement.classList.add('dark')
+        if (t) {
+          document.write(
+            '<style>#splash{background:' +
+              (t === 'dark' ? '#1c1a16' : '#fbfaf7') +
+              ' !important}#splash .brand{color:' +
+              (t === 'dark' ? '#eae4d8' : '#29251f') +
+              ' !important}</style>',
+          )
+        }
+      } catch (e) {}
+    </script>
   </head>
   <body>
+    <div id="splash" aria-hidden="true">
+      <div class="brand">北京初高中学习门户</div>
+      <div class="line"></div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

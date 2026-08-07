@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import ChapterCard from '../components/ChapterCard'
+import Reveal from '../components/Reveal'
 import SemesterPillNav from '../components/SemesterPillNav'
 import { countRealInGrade, getSubjects } from '../lib/contentLoader'
 import {
@@ -29,63 +30,73 @@ export default function Dashboard() {
 
   return (
     <div>
-      {/* 顶部 */}
+      {/* 顶部（hero：眉题 / 标题 / 副文案 依次渐入） */}
       <header className="border-b border-line pb-5 pt-4 md:pt-7">
-        <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
-          北京 · 初高中学习资料
-        </div>
-        <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
-          北京初高中图文讲义
-        </h1>
-        <p className="mt-0 max-w-[52ch] text-[14.5px] text-ink-soft">
-          把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
-        </p>
+        <Reveal>
+          <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
+            北京 · 初高中学习资料
+          </div>
+        </Reveal>
+        <Reveal delay={90}>
+          <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
+            北京初高中图文讲义
+          </h1>
+        </Reveal>
+        <Reveal delay={180}>
+          <p className="mt-0 max-w-[52ch] text-[14.5px] text-ink-soft">
+            把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
+          </p>
+        </Reveal>
       </header>
 
       {/* 学期快捷入口 */}
-      <div className="mt-4 border-b border-line pb-4">
-        <div className="mb-2.5 flex items-baseline gap-2">
-          <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
-            按学期
-          </span>
-          <span className="text-[12px] text-ink-faint">
-            选择学期，查看该学期全部科目目录
-          </span>
+      <Reveal delay={120}>
+        <div className="mt-4 border-b border-line pb-4">
+          <div className="mb-2.5 flex items-baseline gap-2">
+            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
+              按学期
+            </span>
+            <span className="text-[12px] text-ink-faint">
+              选择学期，查看该学期全部科目目录
+            </span>
+          </div>
+          <SemesterPillNav />
         </div>
-        <SemesterPillNav />
-      </div>
+      </Reveal>
 
       {/* 科目选择栏 */}
-      <div className="mt-4 border-b border-line pb-4">
-        <div className="mb-2.5 flex items-baseline gap-2">
-          <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
-            按科目
-          </span>
-          <span className="text-[12px] text-ink-faint">
-            选择科目，浏览各学期教材目录
-          </span>
+      <Reveal delay={200}>
+        <div className="mt-4 border-b border-line pb-4">
+          <div className="mb-2.5 flex items-baseline gap-2">
+            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
+              按科目
+            </span>
+            <span className="text-[12px] text-ink-faint">
+              选择科目，浏览各学期教材目录
+            </span>
+          </div>
+          <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
+            {subjects.map((subject) => {
+              const active = subject.id === activeSubjectId
+              return (
+                <button
+                  key={subject.id}
+                  type="button"
+                  onClick={() => setActiveSubjectId(subject.id)}
+                  style={subjectVars(subject.id as SubjectId)}
+                  className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
+                    active
+                      ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
+                      : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'
+                  }`}
+                >
+                  {subject.name}
+                </button>
+              )
+            })}
+          </div>
         </div>
-        <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
-          {subjects.map((subject) => {
-            const active = subject.id === activeSubjectId
-            return (
-              <button
-                key={subject.id}
-                type="button"
-                onClick={() => setActiveSubjectId(subject.id)}
-                style={subjectVars(subject.id as SubjectId)}
-                className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-colors ${
-                  active
-                    ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
-                    : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'
-                }`}
-              >
-                {subject.name}
-              </button>
-            )
-          })}
-        </div>
-      </div>
+      </Reveal>
 
       {/* 教材目录 */}
       {activeSubject ? (
@@ -124,24 +135,27 @@ function SubjectToc({
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
       {/* 学科大标题（subject-head 风格）+ 渐变色条 */}
-      <div className="subject-head mt-10">
-        <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
-        <div>
-          <h2 className="name">{subject.name}</h2>
-          <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+      <Reveal>
+        <div className="subject-head mt-10">
+          <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
+          <div>
+            <h2 className="name">{subject.name}</h2>
+            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+          </div>
         </div>
-      </div>
-      <div className="rule" />
+        <div className="rule rule-grow" />
+      </Reveal>
 
       {/* 学期列表 */}
       <div className="mt-4">
-        {subject.grades.map((grade) => (
-          <SemesterSection
-            key={grade.id}
-            grade={grade}
-            open={!!expanded[grade.id]}
-            onToggle={() => toggle(grade.id)}
-          />
+        {subject.grades.map((grade, i) => (
+          <Reveal key={grade.id} delay={Math.min(i, 4) * 60} className="mt-2 first:mt-3">
+            <SemesterSection
+              grade={grade}
+              open={!!expanded[grade.id]}
+              onToggle={() => toggle(grade.id)}
+            />
+          </Reveal>
         ))}
       </div>
     </div>
@@ -165,7 +179,7 @@ function SemesterSection({
   const chapterCount = grade.chapters.length
 
   return (
-    <section className="mt-2 first:mt-3">
+    <section>
       {/* 学期标题（整行可点击折叠） */}
       <button
         type="button"
@@ -207,7 +221,7 @@ function SemesterSection({
 
       {/* 章节列表（有章节即可浏览，draft 行由 ChapterCard 弱化显示） */}
       {open && hasChapters && (
-        <div className="ml-0 mb-5 mt-1.5 sm:ml-[42px]">
+        <div className="fold-in ml-0 mb-5 mt-1.5 sm:ml-[42px]">
           {grade.chapters.map((chapter) => (
             <ChapterCard key={chapter.id} chapter={chapter} />
           ))}

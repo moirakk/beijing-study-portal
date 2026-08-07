@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
+import Reveal from '../components/Reveal'
 import { findTopic, getSubjects } from '../lib/contentLoader'
 import type { TopicLocation } from '../lib/contentLoader'
 import { searchAll, encodeCJK } from '../lib/searchEngine'
@@ -237,36 +238,38 @@ export default function Search() {
               {remaining > 0 && `，先展示前 ${visibleResults.length} 条`}
             </p>
             <ul className="space-y-3.5">
-              {visibleResults.map(({ hit, loc }) => (
+              {visibleResults.map(({ hit, loc }, i) => (
                 <li key={hit.topicId} style={subjectVars(loc.subject.id as SubjectId)}>
-                  <Link
-                    to={`/topic/${hit.topicId}`}
-                    className="card block transition-colors hover:border-[var(--s)]"
-                  >
-                    <div className="flex flex-wrap items-center gap-2.5">
-                      <span
-                        className={`font-serif text-base font-bold text-[var(--s-deep)] ${
-                          hit.isDraft ? 'opacity-55' : ''
-                        }`}
-                      >
-                        <Highlight text={loc.topic.title} query={query.trim()} />
-                      </span>
-                      {hit.isDraft && (
-                        <span className="tag opacity-70">待补充</span>
+                  <Reveal delay={Math.min(i, 7) * 45}>
+                    <Link
+                      to={`/topic/${hit.topicId}`}
+                      className="card card-lift block hover:border-[var(--s)]"
+                    >
+                      <div className="flex flex-wrap items-center gap-2.5">
+                        <span
+                          className={`font-serif text-base font-bold text-[var(--s-deep)] ${
+                            hit.isDraft ? 'opacity-55' : ''
+                          }`}
+                        >
+                          <Highlight text={loc.topic.title} query={query.trim()} />
+                        </span>
+                        {hit.isDraft && (
+                          <span className="tag opacity-70">待补充</span>
+                        )}
+                        {hit.materialType && (
+                          <span className="tag">{MATERIAL_LABELS[hit.materialType]}</span>
+                        )}
+                      </div>
+                      <div className="mt-1 text-xs text-ink-faint">
+                        {loc.subject.name} › {loc.grade.title} › {loc.chapter.title}
+                      </div>
+                      {hit.snippet && (
+                        <p className="mb-0 mt-2 text-sm leading-relaxed text-ink-soft">
+                          <Highlight text={hit.snippet} query={query.trim()} />
+                        </p>
                       )}
-                      {hit.materialType && (
-                        <span className="tag">{MATERIAL_LABELS[hit.materialType]}</span>
-                      )}
-                    </div>
-                    <div className="mt-1 text-xs text-ink-faint">
-                      {loc.subject.name} › {loc.grade.title} › {loc.chapter.title}
-                    </div>
-                    {hit.snippet && (
-                      <p className="mb-0 mt-2 text-sm leading-relaxed text-ink-soft">
-                        <Highlight text={hit.snippet} query={query.trim()} />
-                      </p>
-                    )}
-                  </Link>
+                    </Link>
+                  </Reveal>
                 </li>
               ))}
             </ul>

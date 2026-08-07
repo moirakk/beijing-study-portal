@@ -30,7 +30,7 @@ export default function ChapterCard({
   const rest = prefix ? chapter.title.slice(prefix.length).trim() : chapter.title
 
   return (
-    <div className="card mt-3 overflow-hidden !p-0 first:mt-0">
+    <div className="card card-lift mt-3 overflow-hidden !p-0 first:mt-0 hover:border-[var(--s)]">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -61,7 +61,7 @@ export default function ChapterCard({
       </button>
 
       {open && (
-        <div className="px-4 pb-3.5 sm:px-[22px]">
+        <div className="fold-in px-4 pb-3.5 sm:px-[22px]">
           {count === 0 ? (
             <div className="pb-1 text-[13.5px] text-ink-faint">
               本章内容整理中，敬请期待。
@@ -99,7 +99,7 @@ export default function ChapterCard({
                           </span>
                         )}
                       </span>
-                      <span className="text-[13px] text-ink-faint transition-colors group-hover/t:text-[var(--s)]">
+                      <span className="text-[13px] text-ink-faint transition-[color,transform] duration-200 group-hover/t:translate-x-0.5 group-hover/t:text-[var(--s)]">
                         →
                       </span>
                     </Link>
