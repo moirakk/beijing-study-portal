@@ -6,6 +6,8 @@ import SubjectDetail from './pages/SubjectDetail'
 import TopicDetail from './pages/TopicDetail'
 import Semester from './pages/Semester'
 import Search from './pages/Search'
+import WrongBook from './pages/WrongBook'
+import Flashcards from './pages/Flashcards'
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="/topic/:id" element={<TopicDetail />} />
           <Route path="/semester/:id" element={<Semester />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/wrongbook" element={<WrongBook />} />
+          <Route path="/flashcards" element={<Flashcards />} />
         </Route>
       </Routes>
     </HashRouter>

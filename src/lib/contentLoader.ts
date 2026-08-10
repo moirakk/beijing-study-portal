@@ -13,6 +13,7 @@ import type {
   TopicContent,
 } from '../types'
 import { MATERIAL_FILES } from '../types'
+import type { QuizSet } from '../types/quiz'
 import subjectsJson from '../../content/subjects.json'
 import { draftPaths } from 'virtual:content-status'
 
@@ -147,4 +148,24 @@ export async function loadTopicContent(topic: Topic): Promise<TopicContent> {
     }
   }
   return content
+}
+
+// ---------------------------------------------------------------------------
+// 题目（quiz.json）懒加载
+// ---------------------------------------------------------------------------
+
+/**
+ * Vite 构建时收集 content/ 下全部 quiz.json；
+ * `import: 'default'` 直接取解析后的对象，懒加载（打开知识点页时才请求）。
+ */
+const quizModules = import.meta.glob('../../content/**/quiz.json', {
+  import: 'default',
+}) as Record<string, () => Promise<QuizSet>>
+
+/** 根据 contentPath（相对 content/ 的目录）加载该知识点的题目集 */
+export async function loadQuiz(contentPath: string): Promise<QuizSet | null> {
+  const key = `../../content/${contentPath}/quiz.json`
+  const loader = quizModules[key]
+  if (!loader) return null
+  return (await loader()) ?? null
 }

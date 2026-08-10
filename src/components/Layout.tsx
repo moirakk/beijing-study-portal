@@ -70,6 +70,18 @@ export default function Layout() {
             >
               搜索
             </NavLink>
+            <NavLink
+              to="/wrongbook"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >
+              错题本
+            </NavLink>
+            <NavLink
+              to="/flashcards"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >
+              记忆卡片
+            </NavLink>
           </nav>
 
           <div className="hidden w-52 sm:block md:w-60">

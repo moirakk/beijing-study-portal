@@ -5,7 +5,9 @@ import Breadcrumb from '../components/Breadcrumb'
 import Markdown from '../components/Markdown'
 import ReadingProgress from '../components/ReadingProgress'
 import Reveal from '../components/Reveal'
+import QuizSection from '../components/QuizSection'
 import { findTopic, getAllTopics, isDraftTopic, loadTopicContent } from '../lib/contentLoader'
+import { useQuizProgress } from '../lib/useQuizProgress'
 import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
 
@@ -142,6 +144,7 @@ export default function TopicDetail() {
   const [content, setContent] = useState<TopicContent | null>(null)
   // 各内容分区的展开状态（key → open）；换知识点时重置为全展开
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({})
+  const { bookmarks, toggleBookmark } = useQuizProgress()
 
   useEffect(() => {
     if (!loc) return
@@ -227,9 +230,22 @@ export default function TopicDetail() {
       {/* 标题区：宋体大标题 + 学科色 + 渐变色条 + 元信息（依次渐入） */}
       <header className="mt-6">
         <Reveal>
-          <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
-            {topic.title}
-          </h1>
+          <div className="flex items-start gap-3">
+            <h1 className="m-0 font-serif text-[clamp(26px,5vw,36px)] font-bold leading-tight text-[var(--s-deep)]">
+              {topic.title}
+            </h1>
+            <button
+              type="button"
+              onClick={() => toggleBookmark(topic.id)}
+              aria-pressed={bookmarks.includes(topic.id)}
+              title={bookmarks.includes(topic.id) ? '取消重点标记' : '标记为重点'}
+              className={`mt-1 shrink-0 text-[22px] leading-none transition-transform hover:scale-110 active:scale-95 ${
+                bookmarks.includes(topic.id) ? '' : 'opacity-40 grayscale'
+              }`}
+            >
+              ⭐
+            </button>
+          </div>
           <div className="rule rule-grow mt-2.5" />
         </Reveal>
         <Reveal delay={120}>
@@ -370,6 +386,17 @@ export default function TopicDetail() {
           </Reveal>
         )}
       </div>
+
+      {/* 题目系统：课前预习 + 课后检测（仅真内容页） */}
+      {!draft && topic.contentPath && (
+        <Reveal>
+          <QuizSection
+            contentPath={topic.contentPath}
+            topicId={topic.id}
+            subjectId={subject.id as SubjectId}
+          />
+        </Reveal>
+      )}
 
       {/* 章节内顺序导航：上一个 / 下一个 */}
       {(prevTopic || nextInChapter) && (

@@ -569,3 +569,79 @@ mark {
     transition-duration: 0.45s;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * 可爱化：糖果色点缀 + 答题/翻面/成就动效（宝可梦主题）
+ *   全部只用 transform + opacity，遵循 prefers-reduced-motion 降级
+ * ------------------------------------------------------------------------- */
+
+/* 糖果色辅助 token（仅徽章/进度/成就/空状态，不覆盖正文主色） */
+:root {
+  --candy-a: #ffb3c1;
+  --candy-b: #b8e0d2;
+  --candy-c: #ffd6a5;
+}
+.dark {
+  --candy-a: #7a3b4a;
+  --candy-b: #2f5c50;
+  --candy-c: #6b4a2a;
+}
+
+/* 答错抖动 */
+@keyframes quiz-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+.quiz-shake {
+  animation: quiz-shake 0.4s ease;
+}
+
+/* 成绩卡弹出 */
+@keyframes quiz-pop {
+  from { opacity: 0; transform: scale(0.92) translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.quiz-pop {
+  animation: quiz-pop 0.35s var(--ease-out-soft) both;
+}
+
+/* 满分彩带/星星粒子 */
+@keyframes quiz-confetti {
+  0% { opacity: 0; transform: translateY(0) scale(0.6); }
+  30% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-26px) scale(1.1); }
+}
+.quiz-confetti {
+  animation: quiz-confetti 1.2s ease-in-out infinite;
+}
+
+/* 记忆卡片 3D 翻面 */
+.flashcard {
+  perspective: 1200px;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 180px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s var(--ease-out-soft);
+}
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 180px;
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+}

@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import ChapterCard from '../components/ChapterCard'
 import Reveal from '../components/Reveal'
 import SemesterPillNav from '../components/SemesterPillNav'
+import Mascot from '../components/Mascot'
 import { countRealInGrade, getSubjects } from '../lib/contentLoader'
+import { useQuizProgress } from '../lib/useQuizProgress'
 import {
   CN_NUMERALS,
   SUBJECT_EN,
@@ -27,6 +30,10 @@ export default function Dashboard() {
   )
 
   const activeSubject = subjects.find((s) => s.id === activeSubjectId) ?? null
+  const { answers, wrong, bookmarks, flashcards, pokedex } = useQuizProgress()
+
+  const dueCards = flashcards.filter((f) => f.due <= Date.now()).length
+  const caughtCount = pokedex.reduce((n, p) => n + p.caught, 0)
 
   return (
     <div>
@@ -48,6 +55,37 @@ export default function Dashboard() {
           </p>
         </Reveal>
       </header>
+
+      {/* 我的学习概览（可爱化：皮卡丘向导 + 进度/错题/卡片/图鉴） */}
+      <Reveal delay={120}>
+        <div className="card card-lift mt-4 flex flex-wrap items-center gap-4">
+          <Mascot pokemon="pikachu" size={52} />
+          <div className="min-w-0 flex-1">
+            <div className="text-[12px] font-bold tracking-[0.18em] text-gold">我的学习</div>
+            <div className="mt-1 flex flex-wrap gap-x-5 gap-y-1 text-[13.5px] text-ink-soft">
+              <span>已答 <b className="text-[var(--s-deep)]">{answers.length}</b> 题</span>
+              <span>错题 <b className="text-red-500">{wrong.length}</b></span>
+              <span>重点 <b className="text-[var(--s-deep)]">{bookmarks.length}</b></span>
+              <span>待复习 <b className="text-[var(--s-deep)]">{dueCards}</b></span>
+              <span>捕获 <b className="text-[var(--s-deep)]">{caughtCount}</b></span>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <Link
+              to="/wrongbook"
+              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
+            >
+              错题本
+            </Link>
+            <Link
+              to="/flashcards"
+              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
+            >
+              记忆卡片
+            </Link>
+          </div>
+        </div>
+      </Reveal>
 
       {/* 学期快捷入口 */}
       <Reveal delay={120}>
