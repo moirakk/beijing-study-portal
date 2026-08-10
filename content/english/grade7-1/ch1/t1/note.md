@@ -1,3 +1,8 @@
+---
+title: Welcome to junior high!（欢迎来到初中）
+date: 2026-08-05
+---
+
 # Welcome to junior high!（欢迎来到初中）
 
 标签：#Starter #问候与自我介绍 #字母与语音

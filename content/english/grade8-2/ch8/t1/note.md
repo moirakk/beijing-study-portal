@@ -1,3 +1,8 @@
+---
+title: Unit 1 I can hardly believe we're in the city centre
+date: 2026-08-06
+---
+
 # Unit 1 I can hardly believe we're in the city centre
 
 标签：#Module8 #听说课 #城市游览 #hardly

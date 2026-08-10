@@ -72,4 +72,4 @@ A. had been given  B. were given  C. have been given  D. would be given
 
 ## 相关知识点
 
-[[Unit 1 · 词汇与课文精读]] ｜ [[Unit 1 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

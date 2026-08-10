@@ -1,3 +1,8 @@
+---
+title: Unit 1 Please write to me and send me some photos!
+date: 2026-08-06
+---
+
 # Unit 1 Please write to me and send me some photos!
 
 标签：#Module7 #听说课 #暑期夏令营 #祈使句

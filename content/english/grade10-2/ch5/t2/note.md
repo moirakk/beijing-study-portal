@@ -75,4 +75,4 @@ A. when  B. where  C. that  D. why
 
 ## 相关知识点
 
-[[Unit 5 · 词汇与课文精读]] ｜ [[Unit 5 · 读写与表达]] ｜ 对比 [[Unit 4 · 语法与语言运用]]（关系代词）｜ 衔接 [[Unit 6 · 语法与语言运用]]（介词+关系代词）
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]] ｜ 对比 [[语法与语言运用（Using language）]]（关系代词）｜ 衔接 [[语法与语言运用（Using language）]]（介词+关系代词）

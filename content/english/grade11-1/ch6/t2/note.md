@@ -1,5 +1,5 @@
 ---
-title: 语法与语言运用（Using language)
+title: 语法与语言运用（Using language）
 date: 2026-08-10
 ---
 
@@ -74,4 +74,4 @@ A. finding  B. only to find  C. found  D. to finding
 
 ## 相关知识点
 
-[[Unit 6 · 词汇与课文精读]] ｜ [[Unit 6 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

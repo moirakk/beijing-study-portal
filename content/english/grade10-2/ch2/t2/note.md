@@ -73,4 +73,4 @@ A. exciting; excited  B. excited; exciting  C. exciting; exciting  D. excited; e
 
 ## 相关知识点
 
-[[Unit 2 · 词汇与课文精读]] ｜ [[Unit 2 · 读写与表达]] ｜ 对比 [[Unit 3 · 语法与语言运用]]（-ed 形式作定语/状语）
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]] ｜ 对比 [[语法与语言运用（Using language）]]（-ed 形式作定语/状语）

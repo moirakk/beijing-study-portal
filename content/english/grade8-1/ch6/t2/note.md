@@ -1,3 +1,8 @@
+---
+title: Understanding ideas
+date: 2026-08-06
+---
+
 # Unit 6 Understanding ideas
 
 标签：#Unit6 #UnderstandingIdeas #阅读理解 #过去进行时

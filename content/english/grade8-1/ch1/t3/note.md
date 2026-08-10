@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 1 Developing ideas
 
 标签：#Unit1 #DevelopingIdeas #物主代词 #反身代词

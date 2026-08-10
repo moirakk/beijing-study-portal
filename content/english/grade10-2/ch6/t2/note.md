@@ -79,4 +79,4 @@ A. most of them  B. most of which  C. most of that  D. which most
 
 ## 相关知识点
 
-[[Unit 6 · 词汇与课文精读]] ｜ [[Unit 6 · 读写与表达]] ｜ 前置基础 [[Unit 4 · 语法与语言运用]]（关系代词）与 [[Unit 5 · 语法与语言运用]]（关系副词）
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]] ｜ 前置基础 [[语法与语言运用（Using language）]]（关系代词）与 [[语法与语言运用（Using language）]]（关系副词）

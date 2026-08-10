@@ -1,3 +1,8 @@
+---
+title: Unit 1 It smells delicious
+date: 2026-08-06
+---
+
 # Unit 1 It smells delicious
 
 标签：#Module1 #感官动词 #系表结构 #听说课

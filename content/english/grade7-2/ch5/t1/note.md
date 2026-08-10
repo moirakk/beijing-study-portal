@@ -1,3 +1,8 @@
+---
+title: Amazing nature（奇妙的大自然）
+date: 2026-08-05
+---
+
 # Amazing nature（奇妙的大自然）
 
 标签：#Unit5 #自然奇观 #形容词比较级

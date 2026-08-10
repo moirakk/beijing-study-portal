@@ -85,4 +85,4 @@ A. ceremony  B. occasion  C. contest  D. symbol
 
 ## 相关知识点
 
-[[Unit 2 · 语法与语言运用]] ｜ [[Unit 2 · 读写与表达]]
+[[语法与语言运用（Using language）]] ｜ [[读写与表达（Developing ideas）]]

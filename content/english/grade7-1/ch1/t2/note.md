@@ -1,3 +1,8 @@
+---
+title: Starter·重点梳理
+date: 2026-08-05
+---
+
 # Starter·重点梳理
 
 标签：#Starter #语法梳理 #be动词 #人称代词

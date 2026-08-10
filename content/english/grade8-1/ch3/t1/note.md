@@ -1,3 +1,8 @@
+---
+title: Starting out
+date: 2026-08-06
+---
+
 # Unit 3 Starting out
 
 标签：#Unit3 #StartingOut #计划与梦想 #beGoingTo

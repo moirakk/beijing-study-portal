@@ -1,3 +1,8 @@
+---
+title: Unit 2
+date: 2026-08-06
+---
+
 # Unit 2 If a snake bites you, take a photo
 
 标签：#Module6 #野外求生 #if条件句 #阅读课

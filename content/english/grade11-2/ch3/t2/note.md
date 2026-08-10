@@ -63,4 +63,4 @@ flowchart TD
 
 ## 相关知识点
 
-[[Unit 3 · 词汇与课文精读]] ｜ [[Unit 3 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

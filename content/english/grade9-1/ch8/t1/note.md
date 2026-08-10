@@ -1,3 +1,8 @@
+---
+title: Unit 1
+date: 2026-08-06
+---
+
 # Unit 1 We're still influenced by Confucius's ideas
 
 标签：#Module7 #伟大书籍 #被动语态 #听说课

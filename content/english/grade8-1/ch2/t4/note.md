@@ -1,3 +1,8 @@
+---
+title: Presenting ideas
+date: 2026-08-06
+---
+
 # Unit 2 Presenting ideas
 
 标签：#Unit2 #PresentingIdeas #建议信 #综合输出

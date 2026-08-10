@@ -1,5 +1,5 @@
 ---
-title: Unit 6 词汇与课文精读（Understanding ideas）
+title: 词汇与课文精读（Understanding ideas）
 date: 2026-08-07
 ---
 
@@ -85,4 +85,4 @@ flowchart TD
 
 ## 相关知识点
 
-[[Unit 6 语法与语言运用（Using language）]] ｜ [[Unit 5 词汇与课文精读（Understanding ideas）]]
+[[语法与语言运用（Using language）]] ｜ [[词汇与课文精读（Understanding ideas）]]

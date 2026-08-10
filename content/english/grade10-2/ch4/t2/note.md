@@ -74,4 +74,4 @@ A. which  B. that  C. who  D. whose
 
 ## 相关知识点
 
-[[Unit 4 · 词汇与课文精读]] ｜ [[Unit 4 · 读写与表达]] ｜ 衔接 [[Unit 5 · 语法与语言运用]]（关系副词）
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]] ｜ 衔接 [[语法与语言运用（Using language）]]（关系副词）

@@ -1,3 +1,8 @@
+---
+title: The art of having fun（娱乐的艺术）
+date: 2026-08-05
+---
+
 # The art of having fun（娱乐的艺术）
 
 标签：#Unit4 #娱乐休闲 #感叹句 #现在进行时复习

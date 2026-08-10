@@ -1,5 +1,5 @@
 ---
-title: Unit 3 词汇与课文精读（Understanding ideas）
+title: 词汇与课文精读（Understanding ideas）
 date: 2026-08-07
 ---
 
@@ -84,4 +84,4 @@ flowchart TD
 
 ## 相关知识点
 
-[[Unit 3 语法与语言运用（Using language）]] ｜ [[Unit 3 读写与表达（Developing ideas）]]
+[[语法与语言运用（Using language）]] ｜ [[读写与表达（Developing ideas）]]

@@ -1,5 +1,5 @@
 ---
-title: Unit 1 读写与表达（Developing ideas）
+title: 读写与表达（Developing ideas）
 date: 2026-08-07
 ---
 
@@ -69,4 +69,4 @@ flowchart TD
 
 ## 相关知识点
 
-[[Unit 1 词汇与课文精读（Understanding ideas）]] ｜ [[Unit 4 读写与表达（Developing ideas）]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

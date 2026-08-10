@@ -1,3 +1,8 @@
+---
+title: Presenting ideas
+date: 2026-08-06
+---
+
 # Unit 6 Presenting ideas
 
 标签：#Unit6 #PresentingIdeas #安全指南 #综合输出

@@ -1,3 +1,8 @@
+---
+title: Presenting ideas
+date: 2026-08-06
+---
+
 # Unit 5 Presenting ideas
 
 标签：#Unit5 #PresentingIdeas #规则倡议 #综合输出

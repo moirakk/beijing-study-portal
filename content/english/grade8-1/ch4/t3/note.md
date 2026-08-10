@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 4 Developing ideas
 
 标签：#Unit4 #DevelopingIdeas #副词比较级 #asAs

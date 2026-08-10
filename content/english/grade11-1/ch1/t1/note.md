@@ -85,4 +85,4 @@ A. burst out  B. burst into  C. broke out  D. broke down
 
 ## 相关知识点
 
-[[Unit 1 · 语法与语言运用]] ｜ [[Unit 1 · 读写与表达]]
+[[语法与语言运用（Using language）]] ｜ [[读写与表达（Developing ideas）]]

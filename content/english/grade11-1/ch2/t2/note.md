@@ -79,4 +79,4 @@ A. to fill  B. filling  C. filled  D. fill
 
 ## 相关知识点
 
-[[Unit 2 · 词汇与课文精读]] ｜ [[Unit 2 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

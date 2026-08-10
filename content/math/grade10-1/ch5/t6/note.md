@@ -1,5 +1,5 @@
 ---
-title: 5.6 函数 y=Asin(ωx+φ)
+title: 5.6 函数 y=Asin(wx+phi)
 date: 2026-08-07
 ---
 

@@ -76,4 +76,4 @@ A. that  B. whether  C. if  D. which
 
 ## 相关知识点
 
-[[Unit 4 · 词汇与课文精读]] ｜ [[Unit 4 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

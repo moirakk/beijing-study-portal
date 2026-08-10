@@ -75,4 +75,4 @@ A. visit  B. visiting  C. be visiting  D. have visited
 
 ## 相关知识点
 
-[[Unit 1 · 词汇与课文精读]] ｜ [[Unit 1 · 读写与表达]] ｜ 衔接 [[Unit 2 · 语法与语言运用]]（-ing 作定语/状语/表语）
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]] ｜ 衔接 [[语法与语言运用（Using language）]]（-ing 作定语/状语/表语）

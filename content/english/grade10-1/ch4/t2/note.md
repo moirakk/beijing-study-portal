@@ -1,5 +1,5 @@
 ---
-title: Unit 4 语法与语言运用（Using language）
+title: 语法与语言运用（Using language）
 date: 2026-08-07
 ---
 
@@ -76,4 +76,4 @@ A. are  B. is  C. were  D. be
 
 ## 相关知识点
 
-[[Unit 4 词汇与课文精读（Understanding ideas）]] ｜ [[Unit 3 语法与语言运用（Using language）]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[语法与语言运用（Using language）]]

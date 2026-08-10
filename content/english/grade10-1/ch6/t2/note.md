@@ -1,5 +1,5 @@
 ---
-title: Unit 6 语法与语言运用（Using language）
+title: 语法与语言运用（Using language）
 date: 2026-08-07
 ---
 
@@ -71,4 +71,4 @@ A. have been taken place  B. have taken place  C. were taken place  D. took plac
 
 ## 相关知识点
 
-[[Unit 6 词汇与课文精读（Understanding ideas）]] ｜ [[Unit 1 语法与语言运用（Using language）]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[语法与语言运用（Using language）]]

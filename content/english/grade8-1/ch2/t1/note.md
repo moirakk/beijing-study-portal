@@ -1,3 +1,8 @@
+---
+title: Starting out
+date: 2026-08-06
+---
+
 # Unit 2 Starting out
 
 标签：#Unit2 #StartingOut #与人相处 #频度副词

@@ -1,3 +1,8 @@
+---
+title: Fantastic friends（了不起的朋友）
+date: 2026-08-05
+---
+
 # Fantastic friends（了不起的朋友）
 
 标签：#Unit6 #朋友 #外貌性格描写

@@ -1,3 +1,8 @@
+---
+title: Unit 2 They have seen the Pyramids
+date: 2026-08-06
+---
+
 # Unit 2 They have seen the Pyramids
 
 标签：#Module2 #现在完成时 #阅读课 #世界文化

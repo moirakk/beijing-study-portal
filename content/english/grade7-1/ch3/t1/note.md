@@ -1,3 +1,8 @@
+---
+title: More than fun（不只是乐趣——兴趣爱好）
+date: 2026-08-05
+---
+
 # More than fun（不只是乐趣——兴趣爱好）
 
 标签：#Unit2 #兴趣爱好 #hobbies

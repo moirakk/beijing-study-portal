@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 2 Developing ideas
 
 标签：#Unit2 #DevelopingIdeas #建议表达 #动名词

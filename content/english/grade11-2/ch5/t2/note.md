@@ -62,4 +62,4 @@ flowchart TD
 
 ## 相关知识点
 
-[[Unit 5 · 词汇与课文精读]] ｜ [[Unit 5 · 读写与表达]]
+[[词汇与课文精读（Understanding ideas）]] ｜ [[读写与表达（Developing ideas）]]

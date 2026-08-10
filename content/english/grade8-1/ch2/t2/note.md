@@ -1,3 +1,8 @@
+---
+title: Understanding ideas
+date: 2026-08-06
+---
+
 # Unit 2 Understanding ideas
 
 标签：#Unit2 #UnderstandingIdeas #阅读理解 #一般现在时

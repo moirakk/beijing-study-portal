@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 6 Developing ideas
 
 标签：#Unit6 #DevelopingIdeas #whenWhile #安全常识

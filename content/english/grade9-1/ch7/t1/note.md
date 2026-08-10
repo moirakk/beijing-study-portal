@@ -1,3 +1,8 @@
+---
+title: Revision Module A
+date: 2026-08-06
+---
+
 # Revision Module A
 
 标签：#复习模块 #M1至M6 #语法总复习 #中考链接

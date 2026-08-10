@@ -1,3 +1,8 @@
+---
+title: Unit 2 Hobbies can make you grow as a person
+date: 2026-08-06
+---
+
 # Unit 2 Hobbies can make you grow as a person
 
 标签：#Module6 #阅读课 #爱好与成长 #议论文

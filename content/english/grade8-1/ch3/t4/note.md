@@ -1,3 +1,8 @@
+---
+title: Presenting ideas
+date: 2026-08-06
+---
+
 # Unit 3 Presenting ideas
 
 标签：#Unit3 #PresentingIdeas #我的梦想 #演讲输出

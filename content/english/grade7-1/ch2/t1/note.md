@@ -1,3 +1,8 @@
+---
+title: A new start（新的开始）
+date: 2026-08-05
+---
+
 # A new start（新的开始）
 
 标签：#Unit1 #学校生活 #自我介绍

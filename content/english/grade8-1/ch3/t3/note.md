@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 3 Developing ideas
 
 标签：#Unit3 #DevelopingIdeas #时间状语从句 #实现梦想

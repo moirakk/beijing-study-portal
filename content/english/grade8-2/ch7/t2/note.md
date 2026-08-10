@@ -1,3 +1,8 @@
+---
+title: Unit 2 Fill out our form and come to learn English in Los Angeles!
+date: 2026-08-06
+---
+
 # Unit 2 Fill out our form and come to learn English in Los Angeles!
 
 标签：#Module7 #阅读课 #广告文体 #夏令营

@@ -85,4 +85,4 @@ A. measure  B. threat  C. resource  D. awareness
 
 ## 相关知识点
 
-[[Unit 6 · 语法与语言运用]] ｜ [[Unit 6 · 读写与表达]]
+[[语法与语言运用（Using language）]] ｜ [[读写与表达（Developing ideas）]]

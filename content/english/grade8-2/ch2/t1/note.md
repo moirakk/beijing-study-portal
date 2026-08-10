@@ -1,3 +1,8 @@
+---
+title: Unit 1 I've also entered lots of speaking competitions
+date: 2026-08-06
+---
+
 # Unit 1 I've also entered lots of speaking competitions
 
 标签：#Module2 #现在完成时 #听说课 #经历

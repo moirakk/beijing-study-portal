@@ -1,3 +1,8 @@
+---
+title: Understanding ideas
+date: 2026-08-06
+---
+
 # Unit 1 Understanding ideas
 
 标签：#Unit1 #UnderstandingIdeas #阅读理解 #描述人物

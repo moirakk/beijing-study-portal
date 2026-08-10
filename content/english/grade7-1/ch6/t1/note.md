@@ -1,3 +1,8 @@
+---
+title: The power of plants（植物的力量）
+date: 2026-08-05
+---
+
 # The power of plants（植物的力量）
 
 标签：#Unit5 #植物 #自然与科学

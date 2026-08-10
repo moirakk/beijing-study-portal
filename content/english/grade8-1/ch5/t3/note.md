@@ -1,3 +1,8 @@
+---
+title: Developing ideas
+date: 2026-08-06
+---
+
 # Unit 5 Developing ideas
 
 标签：#Unit5 #DevelopingIdeas #条件状语从句 #主将从现
