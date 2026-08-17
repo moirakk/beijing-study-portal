@@ -1,7 +1,9 @@
 {
-  "name": "beijing-study-portal",
+  "name": "dby-study",
   "private": true,
   "version": "0.1.0",
+  "description": "dby赶紧学习！—— 在线学习笔记网站",
+  "homepage": "https://dbystudy.cn",
   "type": "module",
   "scripts": {
     "dev": "vite",
