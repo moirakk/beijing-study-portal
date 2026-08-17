@@ -58,15 +58,3 @@ Developing ideas 是 Unit 6 的拓展与运用板块。本环节通过安全指�
 **答案**：1. B  2. My mother was cooking when the telephone rang.  3. went; left; Don't run; Cover  4. When an earthquake happens, you should stay away from windows and hide under sturdy furniture.
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Presenting ideas]] ｜ [[Reflection]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

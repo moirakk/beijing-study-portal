@@ -66,15 +66,3 @@ Unit 2 的语法核心：**一般过去时的不规则动词**，并综合运用
 **答案**：1. fell 2. thought 3. did; eat 4. took 5. winned → won
 
 相关：[[Go for it!（勇敢尝试）]] ｜ [[Unit 2·综合练习]] ｜ [[Unit 1·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

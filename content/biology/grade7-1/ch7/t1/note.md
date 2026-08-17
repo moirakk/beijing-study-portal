@@ -74,15 +74,3 @@ date: 2026-08-05
 **答案**：1. 相似 2. 花；果实；种子 3. 生理功能 4. 无脊椎；脊椎 5. B 6. 错（共同特征越少）
 
 相关：[[第二节 从种到界]] ｜ [[生物分类的方法·重点梳理]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

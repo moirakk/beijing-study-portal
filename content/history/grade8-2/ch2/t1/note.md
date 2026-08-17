@@ -71,16 +71,3 @@ date: 2026-08-06
 4. 我国第一部社会主义类型的宪法是何时、由哪次会议制定的？
 5. 我国的根本政治制度是什么？
 6. 为什么“一五”计划要集中力量发展重工业？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

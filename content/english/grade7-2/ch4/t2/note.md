@@ -69,15 +69,3 @@ Unit 4 的语法核心：**感叹句（What.../How...）**、**-ed/-ing 形容�
 **答案**：1. What（中心词 weather 名词，不可数不加 a）2. How 3. boring 4. What a relaxing afternoon it is! 5. 去掉 an 后的 the... → How exciting the game is! 或 What an exciting game it is!
 
 相关：[[The art of having fun（娱乐的艺术）]] ｜ [[Unit 4·综合练习]] ｜ [[Unit 3·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

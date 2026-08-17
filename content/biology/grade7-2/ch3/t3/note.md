@@ -62,15 +62,3 @@ date: 2026-08-05
 5. 下列关于青春期说法错误的是（ ）A.身高突增是突出特征 B.第二性征开始出现 C.不需要加强营养 D.心理变化是正常的
 
 [[第一节 人的生殖]] | [[第二节 青春期]] | [[第一节 食物中的营养物质]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

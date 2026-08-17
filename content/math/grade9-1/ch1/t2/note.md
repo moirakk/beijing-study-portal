@@ -85,23 +85,3 @@ $$x=\frac{3\pm\sqrt{17}}{4}$$
 5. 若 $x_1$、$x_2$ 是 $x^2-4x+1=0$ 的两根，则 $x_1+x_2=$____，$x_1x_2=$____。
 
 本节以 [[21.1 一元二次方程]] 的概念为基础，是 [[21.3 实际问题与一元二次方程]] 的核心工具，并与 [[22.2 二次函数与一元二次方程]] 紧密相连。
-
-
-### 数学几何与函数分析
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" style="background-color: #f3e5f5; border: 1px solid #7b1fa2; border-radius: 8px;">
-  <line x1="20" y1="180" x2="280" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <line x1="50" y1="20" x2="50" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <path d="M50,180 Q150,20 280,180" fill="none" stroke="#9c27b0" stroke-width="3" />
-  <text x="260" y="195" fill="#7b1fa2" font-size="12">X轴</text>
-  <text x="10" y="30" fill="#7b1fa2" font-size="12">Y轴</text>
-  <text x="140" y="100" fill="#7b1fa2" font-size="14">抛物线图示</text>
-</svg>
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f3e5f5', 'primaryBorderColor': '#7b1fa2', 'lineColor': '#7b1fa2'}}}%%
-graph TD
-  A[已知条件分析] --> B[建立数学模型]
-  B --> C[求解方程/不等式]
-  C --> D[结果验证与讨论]
-```

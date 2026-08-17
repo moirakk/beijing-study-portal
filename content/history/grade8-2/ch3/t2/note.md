@@ -66,16 +66,3 @@ date: 2026-08-06
 4. 中共十四大提出的经济体制改革目标是什么？
 5. 家庭联产承包责任制与土地改革有何本质区别？
 6. 农村改革为什么能调动农民的生产积极性？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

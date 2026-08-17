@@ -88,15 +88,3 @@ date: 2026-08-05
 **答案**：1. B（some 后不可数或复数，rice 不可数配 is）2. B 3. B 4. C 5. A 6. Without plants, we have no food or oxygen. / We can't get food or oxygen without plants.
 
 相关：[[Unit 5·重点梳理]] ｜ [[Unit 5·综合练习]] ｜ [[Time to celebrate（欢庆时刻——节日）]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

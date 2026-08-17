@@ -85,15 +85,3 @@ date: 2026-08-05
 **答案**：1. swimming 2. B 3. B 4. A（主语 Painting 为动名词，作单数）5. My hobby is reading. It's more than fun, and it also helps me learn a lot. 6. Do you want to join the music club?
 
 相关：[[Unit 2·重点梳理]] ｜ [[Unit 2·综合练习]] ｜ [[A new start（新的开始）]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

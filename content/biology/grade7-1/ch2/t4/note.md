@@ -80,15 +80,3 @@ date: 2026-08-05
 **答案**：1. 有机物；无机物 2. 细胞膜 3. 叶绿体；线粒体 4. 细胞核；DNA 5. 物质；能量 6. 错（具有选择透过性）
 
 相关：[[第二节 植物细胞]] ｜ [[第三节 动物细胞]] ｜ [[第一节 细胞通过分裂产生新细胞]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

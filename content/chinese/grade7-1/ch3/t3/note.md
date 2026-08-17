@@ -73,15 +73,3 @@ date: 2026-08-05
 
 - 与[[10 往事依依（于漪）]]同写"恩师与成长"，可比较老师形象；
 - 海伦·凯勒的经历是议论文"逆境成才""師恩"话题的经典素材。
-
-
-### 语文阅读与写作结构
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
-graph TD
-  A[引论/破题] --> B[分论点一: 提出与论证]
-  A --> C[分论点二: 递进与深化]
-  B --> D[结论/升华]
-  C --> D
-```

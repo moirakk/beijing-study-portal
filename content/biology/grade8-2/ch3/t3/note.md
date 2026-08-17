@@ -78,15 +78,3 @@ date: 2026-08-06
 3. 生物进化有哪些总体趋势？
 4. 脊椎动物和植物的进化顺序分别怎样概括？
 5. 除化石外，还有哪些证据可支持进化观点？
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

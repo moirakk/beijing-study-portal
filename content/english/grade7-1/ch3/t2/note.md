@@ -72,15 +72,3 @@ Unit 2 的语法核心：**情态动词 can 的用法**、**like/enjoy + doing�
 **答案**：1. B 2. B 3. C 4. B 5. A 6. He can play chess, but he can't swim.
 
 相关：[[More than fun（不只是乐趣——兴趣爱好）]] ｜ [[Unit 2·综合练习]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

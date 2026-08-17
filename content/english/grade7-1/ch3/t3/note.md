@@ -86,15 +86,3 @@ date: 2026-08-05
 - 汉译英第 2 题："弹钢琴"必须带 the：play **the** piano。
 
 相关：[[More than fun（不只是乐趣——兴趣爱好）]] ｜ [[Unit 2·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

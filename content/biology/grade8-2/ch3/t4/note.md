@@ -80,15 +80,3 @@ date: 2026-08-06
 3. 抗药性细菌的形成体现了什么进化原理？
 4. “长颈鹿因为想吃高处叶子所以脖子变长”为什么错误？
 5. 自然选择与人工选择有什么不同？
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

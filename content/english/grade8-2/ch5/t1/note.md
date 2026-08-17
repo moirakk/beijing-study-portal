@@ -57,15 +57,3 @@ date: 2026-08-06
 **答案**：1. A  2. into; heroes  3. to have/eat  4. It's time to watch a cartoon! The Monkey King is smart and brave.
 
 相关：[[Unit 2 Tintin has been popular for over eighty years]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

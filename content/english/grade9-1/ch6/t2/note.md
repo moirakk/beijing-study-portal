@@ -58,15 +58,3 @@ date: 2026-08-06
 **答案**：1. A  2. A（或 D 亦可，标准答案 A）  3. protect; from  4. is moving  5. If you find a snake in the wild, don't pick up stones to throw at it. Walk away slowly.
 
 相关：[[Unit 1]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

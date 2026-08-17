@@ -66,15 +66,3 @@ Unit 6 的语法核心：**形容词最高级**（与 Unit 5 比较级衔接成�
 **答案**：1. the coldest 2. the oldest 3. the funniest 4. Are; going to visit 5. the longest
 
 相关：[[Hitting the road（踏上旅途）]] ｜ [[Unit 6·综合练习]] ｜ [[Unit 5·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

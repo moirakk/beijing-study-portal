@@ -54,15 +54,3 @@ Understanding ideas 是 Unit 1 的主阅读板块。课文通常以"新学期、
 **答案**：1. appearance  2. helpful; dancing  3. C  4. My new classmate is hard-working and polite. Everyone likes to get on well with her.
 
 相关：[[Starting out]] ｜ [[Developing ideas]] ｜ [[Presenting ideas]] ｜ [[Reflection]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

@@ -82,15 +82,3 @@ date: 2026-08-06
 3. 家蚕和蝗虫分别属于哪种发育类型？
 4. 蛹期在完全变态发育中有什么作用？
 5. 昆虫发育方式对其适应环境有什么意义？
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

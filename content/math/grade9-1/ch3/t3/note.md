@@ -66,23 +66,3 @@ $360^\circ\div 60^\circ=6$，即图案由 $6$ 个花瓣组成，需将基本花�
 5. 将一个三角形绕它的一个顶点旋转三次，每次 $90^\circ$，连同原图形共得到____个三角形。
 
 旋转变换的性质见 [[23.1 图形的旋转]]，中心对称与对称图形见 [[23.2 中心对称]]，正多边形的旋转对称性见 [[24.3 正多边形和圆]]。
-
-
-### 数学几何与函数分析
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" style="background-color: #f3e5f5; border: 1px solid #7b1fa2; border-radius: 8px;">
-  <line x1="20" y1="180" x2="280" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <line x1="50" y1="20" x2="50" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <path d="M50,180 Q150,20 280,180" fill="none" stroke="#9c27b0" stroke-width="3" />
-  <text x="260" y="195" fill="#7b1fa2" font-size="12">X轴</text>
-  <text x="10" y="30" fill="#7b1fa2" font-size="12">Y轴</text>
-  <text x="140" y="100" fill="#7b1fa2" font-size="14">抛物线图示</text>
-</svg>
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f3e5f5', 'primaryBorderColor': '#7b1fa2', 'lineColor': '#7b1fa2'}}}%%
-graph TD
-  A[已知条件分析] --> B[建立数学模型]
-  B --> C[求解方程/不等式]
-  C --> D[结果验证与讨论]
-```

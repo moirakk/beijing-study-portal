@@ -79,15 +79,3 @@ date: 2026-08-05
 4. 答题要点：①个人的生理周期；②对某件事情的预期；③周围的舆论氛围；④自然环境等。
 
 相关：[[学会管理情绪]] ｜ [[品味美好情感]] ｜ [[青春的邀约]]
-
-
-### 政治理论与逻辑框架
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffebee', 'primaryBorderColor': '#c62828', 'lineColor': '#c62828'}}}%%
-graph TD
-  A[核心价值观] --> B[制度体系保障]
-  A --> C[法律法规规范]
-  B --> D[社会实践落实]
-  C --> D
-```

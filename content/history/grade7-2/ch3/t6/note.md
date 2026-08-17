@@ -60,16 +60,3 @@ date: 2026-08-05
 3. 清朝实行闭关自守政策的原因是什么？
 4. "一口通商"指哪个口岸？由什么机构经营对外贸易？
 5. 如何评价闭关自守政策？它给我们什么启示？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

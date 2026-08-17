@@ -74,15 +74,3 @@ date: 2026-08-05
 **答案**：1. 生长；分裂 2. 细胞核 3. 复制；平均 4. 细胞膜；细胞壁 5. A 6. 错（末期分裂方式不同）
 
 相关：[[第二节 动物体的结构层次]] ｜ [[第三节 植物体的结构层次]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

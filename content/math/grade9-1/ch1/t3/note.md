@@ -80,23 +80,3 @@ $$\text{总利润}=\text{单件利润}\times\text{销售量}$$
 4. 长 $10$ m、宽 $8$ m 的矩形花圃四周镶宽度相同的边框，边框面积为 $40\ \text{m}^2$，设边框宽 $x$ m，可列方程____。
 
 本节的方程工具来自 [[21.1 一元二次方程]] 与 [[21.2 解一元二次方程]]，最值类应用问题将在 [[22.3 实际问题与二次函数]] 中进一步学习。
-
-
-### 数学几何与函数分析
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" style="background-color: #f3e5f5; border: 1px solid #7b1fa2; border-radius: 8px;">
-  <line x1="20" y1="180" x2="280" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <line x1="50" y1="20" x2="50" y2="180" stroke="#7b1fa2" stroke-width="2" />
-  <path d="M50,180 Q150,20 280,180" fill="none" stroke="#9c27b0" stroke-width="3" />
-  <text x="260" y="195" fill="#7b1fa2" font-size="12">X轴</text>
-  <text x="10" y="30" fill="#7b1fa2" font-size="12">Y轴</text>
-  <text x="140" y="100" fill="#7b1fa2" font-size="14">抛物线图示</text>
-</svg>
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f3e5f5', 'primaryBorderColor': '#7b1fa2', 'lineColor': '#7b1fa2'}}}%%
-graph TD
-  A[已知条件分析] --> B[建立数学模型]
-  B --> C[求解方程/不等式]
-  C --> D[结果验证与讨论]
-```

@@ -62,15 +62,3 @@ date: 2026-08-06
 **答案**：1. B  2. visiting; Do  3. How interesting  4. What a wonderful experience! Be sure to speak English as much as possible.
 
 相关：[[Unit 1 Please write to me and send me some photos!]] ｜ [[Unit 2 Fill out our form and come to learn English in Los Angeles!]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

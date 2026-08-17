@@ -58,15 +58,3 @@ date: 2026-08-06
 **答案**：1. B  2. won; been  3. hasn't visited  4. I have entered / taken part in many English competitions and (I have) won prizes twice.
 
 相关：[[Unit 2 They have seen the Pyramids]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

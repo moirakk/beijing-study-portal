@@ -56,16 +56,3 @@ date: 2026-08-05
 3. 分别写出辽、西夏、金的建立民族和建立者。
 4. 经济重心南移在什么时候最终完成？
 5. 为什么说这一时期"民族关系得到发展"？请举两例说明。
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

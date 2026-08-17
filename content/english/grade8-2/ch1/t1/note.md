@@ -60,15 +60,3 @@ date: 2026-08-06
 **答案**：1. A  2. sour; sounds  3. smells delicious  4. This sweater feels very soft. Would you like to try it on?
 
 相关：[[Unit 2 I feel nervous when I speak Chinese]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

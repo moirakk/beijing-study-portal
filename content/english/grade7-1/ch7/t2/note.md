@@ -68,15 +68,3 @@ Unit 6 的语法核心：**现在进行时（be + doing）**、**形容词描述
 **答案**：1. B 2. B 3. C（双写 m）4. C 5. A（usually 配一般现在时，today 此刻配进行时）6. Look! The children are running on the playground.
 
 相关：[[Fantastic friends（了不起的朋友）]] ｜ [[Unit 6·综合练习]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

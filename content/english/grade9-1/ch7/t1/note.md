@@ -63,15 +63,3 @@ Revision Module A 综合复习 **Module 1 – Module 6** 的全部语言点，�
 **答案**：1. C  2. B  3. A  4. Although/Though  5. 略（参照 M3 人物传记句式）
 
 相关：[[Unit 1]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

@@ -62,15 +62,3 @@ date: 2026-08-05
 4. 胚胎发育的场所是（ ）A.卵巢 B.输卵管 C.子宫 D.体外
 
 [[第二节 青春期]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

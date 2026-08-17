@@ -61,15 +61,3 @@ date: 2026-08-06
 **答案**：1. C  2. healthier; member  3. been in  4. Since I took up / started exercising, my health has made a big difference. (或 There has been a big change in my health since I started to exercise.)
 
 相关：[[Unit 1 I haven't done much exercise since I got my computer]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

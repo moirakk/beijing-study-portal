@@ -79,15 +79,3 @@ date: 2026-08-05
 - 词形填空第 1 题：the second/third + 最高级表示"第二/第三……的"。
 
 相关：[[Amazing nature（奇妙的大自然）]] ｜ [[Unit 5·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

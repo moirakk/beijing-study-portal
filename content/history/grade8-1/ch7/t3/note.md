@@ -54,16 +54,3 @@ date: 2026-08-06
 3. 为什么要传承红色基因？
 4. 青少年应如何传承红色文化？
 5. 举例说明一位革命先烈的事迹及其精神品质。
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

@@ -79,15 +79,3 @@ date: 2026-08-05
 - 词形填空第 5 题：run 双写 n 再加 ing，与 swim → swimming 同理。
 
 相关：[[The art of having fun（娱乐的艺术）]] ｜ [[Unit 4·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

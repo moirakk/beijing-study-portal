@@ -84,15 +84,3 @@ date: 2026-08-06
 3. 扦插时保持土壤湿润有什么意义？
 4. 组织培养在现代农业中有哪些优势？
 5. 请举出一种有性生殖和一种无性生殖的实例。
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

@@ -59,15 +59,3 @@ date: 2026-08-06
 **答案**：1. B  2. has mentioned; to say  3. if/whether; has found  4. Could I ask if/whether you have talked with her face to face?
 
 相关：[[Unit 2 I believe that the world is what you think it is]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

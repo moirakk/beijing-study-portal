@@ -82,15 +82,3 @@ date: 2026-08-06
 3. 卵壳、卵白和卵黄各有什么作用？
 4. 孵化鸟卵需要哪些基本条件？
 5. 比较鸟类和两栖动物在受精方式上的不同。
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

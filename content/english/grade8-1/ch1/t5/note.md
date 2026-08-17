@@ -55,15 +55,3 @@ Reflection 是 Unit 1 *This is me* 的总结与反思板块。本环节要求学
 **答案**：1. am; My; mine; Mine  2. What is she like? / What kind of girl is she?  3. （略）
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Developing ideas]] ｜ [[Presenting ideas]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

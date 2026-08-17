@@ -68,15 +68,3 @@ date: 2026-08-05
 **答案**：1. is（就近原则，milk 不可数）2. into 3. some 4. tastes 5. First, heat the oil; then add the eggs and stir.
 
 相关：[[Unit 3·重点梳理]] ｜ [[Unit 3·综合练习]] ｜ [[The secrets of happiness（幸福的秘诀）]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

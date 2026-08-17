@@ -64,15 +64,3 @@ date: 2026-08-05
 **答案**：1. 细菌；真菌；病毒 2. 菌落 3. 高温灭菌 4. 冷却 5. B 6. 错
 
 相关：[[第二节 细菌]] ｜ [[第三节 真菌]] ｜ [[第四节 病毒]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

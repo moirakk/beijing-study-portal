@@ -56,15 +56,3 @@ Presenting ideas 是 Unit 1 的综合输出板块。学生需要围绕"This is m
 **答案**：1. My name is Li Hua.  2. 正确（用 but 也可，若表转折）。 3. （略，合理即可）
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Developing ideas]] ｜ [[Reflection]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

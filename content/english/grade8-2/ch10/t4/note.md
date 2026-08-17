@@ -63,15 +63,3 @@ Revision module B 综合复习 Module 6-10 的核心内容，是期末考试前�
 **答案**：1. B  2. was doing; Collecting  3. his mother  4. 略（要求：四段提纲齐全，至少一个宾语从句、一处现在完成时）
 
 相关：[[Unit 3 Language in use]] ｜ [[Unit 1 Do you collect anything?]] ｜ [[Revision module A]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

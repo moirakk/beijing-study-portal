@@ -70,15 +70,3 @@ date: 2026-08-05
 
 - 与[[6 散步（莫怀戚）]]同属"亲情单元"，一写母子诀别之痛，一写三代同行之暖；
 - "反复出现的关键语句"（好好儿活）的作用是本课高频考点。
-
-
-### 语文阅读与写作结构
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
-graph TD
-  A[引论/破题] --> B[分论点一: 提出与论证]
-  A --> C[分论点二: 递进与深化]
-  B --> D[结论/升华]
-  C --> D
-```

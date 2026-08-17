@@ -74,15 +74,3 @@ date: 2026-08-05
 **答案**：1. 裸子；被子 2. 胚；胚芽；胚轴；胚根；子叶 3. 胚乳；子叶 4. 裸露；果皮 5. B 6. 对
 
 相关：[[第一节 藻类、苔藓和蕨类]] ｜ [[植物的类群·重点梳理]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

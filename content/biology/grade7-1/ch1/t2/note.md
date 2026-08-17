@@ -84,15 +84,3 @@ date: 2026-08-05
 **答案**：1. 细胞 2. 遗传；变异 3. 对外界刺激作出反应 4. B 5. 病毒 6. 错（并非所有生物都只能进行有氧呼吸）
 
 相关：[[第一节 观察周边环境中的生物]] ｜ [[认识生物·重点梳理]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

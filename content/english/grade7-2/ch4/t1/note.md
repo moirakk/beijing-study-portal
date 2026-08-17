@@ -71,15 +71,3 @@ date: 2026-08-05
 **答案**：1. are flying 2. How 3. What 4. bored 5. Put down the phone — how interesting it is to play board games with your family!
 
 相关：[[Unit 4·重点梳理]] ｜ [[Unit 4·综合练习]] ｜ [[Go for it!（勇敢尝试）]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

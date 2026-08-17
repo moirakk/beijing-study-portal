@@ -86,15 +86,3 @@ date: 2026-08-05
 - 汉译英"十二岁"用 be 动词，不用 have。
 
 相关：[[Welcome to junior high!（欢迎来到初中）]] ｜ [[Starter·重点梳理]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

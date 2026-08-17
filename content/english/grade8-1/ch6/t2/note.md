@@ -59,15 +59,3 @@ Understanding ideas 是 Unit 6 的主阅读板块。课文通常以"一次真实
 **答案**：1. happened; was sleeping; were having; went  2. B  3. I was walking in the park when a stranger stopped me.  4. The students were doing sports on the playground when the fire broke out.
 
 相关：[[Starting out]] ｜ [[Developing ideas]] ｜ [[Presenting ideas]] ｜ [[Reflection]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

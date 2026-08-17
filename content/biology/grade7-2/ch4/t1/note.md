@@ -55,15 +55,3 @@ date: 2026-08-05
 4. 缺乏维生素C会引起（ ）A.夜盲症 B.佝偻病 C.坏血病 D.脚气病
 
 [[第二节 消化和吸收]] | [[第三节 合理营养与食品安全]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

@@ -61,16 +61,3 @@ date: 2026-08-05
 3. 通判和转运使各有什么职能？
 4. 北宋实行重文轻武政策的目的是什么？
 5. 如何评价重文轻武政策？（积极和消极两方面）
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

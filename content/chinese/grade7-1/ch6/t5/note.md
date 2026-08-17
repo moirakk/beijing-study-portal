@@ -61,15 +61,3 @@ date: 2026-08-05
 
 - 与[[赫耳墨斯和雕像者]]同出《伊索寓言》；
 - 与[[20 狼（蒲松龄）]]可对比"斗争的智慧"：屠户胜狼与蚊子胜狮都是善用条件、抓住要害。
-
-
-### 语文阅读与写作结构
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
-graph TD
-  A[引论/破题] --> B[分论点一: 提出与论证]
-  A --> C[分论点二: 递进与深化]
-  B --> D[结论/升华]
-  C --> D
-```

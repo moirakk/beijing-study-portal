@@ -63,16 +63,3 @@ date: 2026-08-05
 3. 黄巢起义与唐朝灭亡分别有什么标志性事实？
 4. "五代"指哪五个政权？五代十国的实质是什么？
 5. 从唐朝的兴衰中，你能得到哪些启示？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

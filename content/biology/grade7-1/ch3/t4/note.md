@@ -67,15 +67,3 @@ date: 2026-08-05
 **答案**：1. 单细胞生物 2. 纤毛；表膜 3. 口沟；食物泡 4. 胞肛 5. 应激性 6. 错
 
 相关：[[第三节 植物体的结构层次]] ｜ [[综合实践项目：制作细胞模型]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

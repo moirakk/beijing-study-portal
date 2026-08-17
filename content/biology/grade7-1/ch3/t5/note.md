@@ -71,15 +71,3 @@ date: 2026-08-05
 **答案**：1. 模型（或物理模型） 2. 细胞壁 3. 细胞壁；叶绿体；大液泡 4. 深 5. 位置 6. 错
 
 相关：[[第二节 植物细胞]] ｜ [[第三节 动物细胞]] ｜ [[第四节 单细胞生物]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

@@ -67,16 +67,3 @@ date: 2026-08-05
 3. 明朝是哪一年灭亡的？是被谁推翻的？
 4. 写出后金建立和改国号为清的时间及人物。
 5. 清军是如何入关并建立全国统治的？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

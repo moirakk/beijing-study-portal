@@ -61,15 +61,3 @@ date: 2026-08-06
 **答案**：1. A  2. to send; at  3. Remember to  4. Please write to me and send me some photos of Los Angeles.
 
 相关：[[Unit 2 Fill out our form and come to learn English in Los Angeles!]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

@@ -66,16 +66,3 @@ date: 2026-08-06
 4. 两岸“三通”指什么？何时实现？
 5. 1949 年以来两岸领导人首次会面发生在何时？
 6. 台湾问题与港澳问题在性质上有何不同？
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

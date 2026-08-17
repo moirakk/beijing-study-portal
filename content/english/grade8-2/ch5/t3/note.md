@@ -61,15 +61,3 @@ date: 2026-08-06
 **答案**：1. A  2. feel; has drawn  3. since → for  4. 示例：My favourite cartoon character is the Monkey King. He has been popular for many years. I have watched his stories many times since I was a child. He is brave and smart, and he always makes me laugh.
 
 相关：[[Unit 1 It's time to watch a cartoon]] ｜ [[Unit 2 Tintin has been popular for over eighty years]] ｜ [[Revision module A]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

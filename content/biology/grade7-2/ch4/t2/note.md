@@ -64,15 +64,3 @@ date: 2026-08-05
 4. 小肠是消化吸收主要场所的原因不包括（ ）A.长约5-6米 B.有绒毛增大面积 C.能蠕动搅拌食物 D.有大量细菌分解食物
 
 [[第一节 食物中的营养物质]] | [[第三节 合理营养与食品安全]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

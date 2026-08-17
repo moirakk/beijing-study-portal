@@ -72,15 +72,3 @@ date: 2026-08-05
 4. 模型评价中最重要的标准是（ ）A.美观性 B.科学性 C.经济性 D.速度
 
 [[人体内废物的排出·重点梳理]] | [[第二节 发生在肺内的气体交换]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

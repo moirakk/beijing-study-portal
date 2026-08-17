@@ -58,15 +58,3 @@ date: 2026-08-06
 **答案**：1. C  2. C  3. which/that; was  4. was taken  5. Congratulations to all the students who took part in the competition. The prizes will be given out next Friday.
 
 相关：[[Unit 1]] ｜ [[Unit 3 Language in use]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

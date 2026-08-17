@@ -67,16 +67,3 @@ date: 2026-08-05
 3. 科举制正式确立的标志是什么？它有哪些进步意义？
 4. 隋朝迅速灭亡的根本原因是什么？
 5. 比较隋朝与秦朝的相似之处（至少三点）。
-
-
-### 历史时间轴
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
-timeline
-    title 重要历史发展阶段
-    阶段一 : 起源与早期文明
-    阶段二 : 帝国与封建时代
-    阶段三 : 近代革命与转型
-    阶段四 : 现代文明与发展
-```

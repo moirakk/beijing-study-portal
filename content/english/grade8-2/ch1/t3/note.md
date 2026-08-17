@@ -62,15 +62,3 @@ date: 2026-08-06
 **答案**：1. A  2. happily; warmer, warmer  3. softly → soft  4. 示例：The pizza looks beautiful. It smells wonderful. It tastes delicious.
 
 相关：[[Unit 1 It smells delicious]] ｜ [[Unit 2 I feel nervous when I speak Chinese]]
-
-
-### 英语语法树与词汇图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
-graph TD
-  A[Sentence Structure] --> B[Subject (Noun Phrase)]
-  A --> C[Predicate (Verb Phrase)]
-  B --> D[Modifiers]
-  C --> E[Object / Complement]
-```

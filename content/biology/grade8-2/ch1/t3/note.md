@@ -80,15 +80,3 @@ date: 2026-08-06
 3. 蝌蚪变成成蛙时发生了哪些主要变化？
 4. 两栖动物数量减少可能反映什么环境问题？
 5. 比较蝌蚪与成蛙的呼吸和运动方式。
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

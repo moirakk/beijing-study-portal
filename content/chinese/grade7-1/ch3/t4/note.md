@@ -76,15 +76,3 @@ date: 2026-08-05
 
 - "与朋友交而不信乎"呼应[[综合性学习：有朋自远方来]]的诚信交友；
 - 学习方法诸章可指导自己的语文学习，并用于[[综合性学习：少年正是读书时]]。
-
-
-### 语文阅读与写作结构
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
-graph TD
-  A[引论/破题] --> B[分论点一: 提出与论证]
-  A --> C[分论点二: 递进与深化]
-  B --> D[结论/升华]
-  C --> D
-```

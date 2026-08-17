@@ -65,15 +65,3 @@ date: 2026-08-05
 4. 下列哪项不是实验记录应包含的内容（ ）A.植株高度 B.叶片颜色 C.个人感想 D.拍照记录
 
 [[第一节 种子的萌发]] | [[第二节 植株的生长]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

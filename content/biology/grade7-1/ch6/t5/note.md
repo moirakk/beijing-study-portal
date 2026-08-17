@@ -73,15 +73,3 @@ date: 2026-08-05
 **答案**：1. 酵母菌；二氧化碳 2. 乳酸菌；乳酸 3. 杀菌（灭菌） 4. 杂菌 5. B 6. 错（主要是酵母菌和霉菌等真菌）
 
 相关：[[第二节 细菌]] ｜ [[第三节 真菌]] ｜ [[第一节 尝试对生物进行分类]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```

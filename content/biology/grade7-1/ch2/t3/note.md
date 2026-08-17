@@ -77,15 +77,3 @@ date: 2026-08-05
 **答案**：1. 细胞膜；细胞质；细胞核 2. 细胞壁；叶绿体；大液泡 3. 生理盐水 4. 线粒体 5. 叶绿体 6. 对
 
 相关：[[第二节 植物细胞]] ｜ [[第四节 细胞的生活]]
-
-
-### 生物过程与层级图
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
-graph TD
-  A[细胞] --> B[组织]
-  B --> C[器官]
-  C --> D[系统]
-  D --> E[生物个体]
-```
