@@ -32,6 +32,13 @@ export default function Dashboard() {
   const activeSubject = subjects.find((s) => s.id === activeSubjectId) ?? null
   const { answers, wrong, bookmarks, flashcards, pokedex } = useQuizProgress()
 
+  const [mascotState, setMascotState] = useState<'idle'|'switch'>('idle')
+  const handleSubjectChange = (id: string) => {
+    setActiveSubjectId(id)
+    setMascotState('switch')
+    setTimeout(() => setMascotState('idle'), 400)
+  }
+
   const dueCards = flashcards.filter((f) => f.due <= Date.now()).length
   const caughtCount = pokedex.reduce((n, p) => n + p.caught, 0)
 
@@ -59,7 +66,7 @@ export default function Dashboard() {
       {/* 我的学习概览（可爱化：皮卡丘向导 + 进度/错题/卡片/图鉴） */}
       <Reveal delay={120}>
         <div className="card card-lift mt-4 flex flex-wrap items-center gap-4">
-          <Mascot pokemon="pikachu" size={52} />
+          <Mascot subject={activeSubjectId || undefined} pokemon={!activeSubjectId ? 'pikachu' : undefined} size={52} state={mascotState} />
           <div className="min-w-0 flex-1">
             <div className="text-[12px] font-bold tracking-[0.18em] text-gold">我的学习</div>
             <div className="mt-1 flex flex-wrap gap-x-5 gap-y-1 text-[13.5px] text-ink-soft">
@@ -120,7 +127,7 @@ export default function Dashboard() {
                 <button
                   key={subject.id}
                   type="button"
-                  onClick={() => setActiveSubjectId(subject.id)}
+                  onClick={() => handleSubjectChange(subject.id)}
                   style={subjectVars(subject.id as SubjectId)}
                   className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
                     active

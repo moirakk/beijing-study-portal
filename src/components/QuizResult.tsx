@@ -24,7 +24,7 @@ export default function QuizResult({
   return (
     <div className="quiz-pop rounded-xl border border-line bg-panel p-5 text-center">
       <div className="flex items-center justify-center gap-3">
-        <Mascot subject={subjectId} size={56} evolved={perfect} />
+        <Mascot subject={subjectId} size={56} evolved={perfect} state={perfect ? "happy" : "idle"} />
         <div className="text-left">
           <div className="font-serif text-[18px] font-bold text-[var(--s-deep)]">
             {perfect ? '完美！宝可梦进化了！' : good ? '做得不错！' : '继续加油！'}

@@ -31,6 +31,7 @@ export default function QuizSection({
   const [correct, setCorrect] = useState(false)
   const [done, setDone] = useState(false)
   const [correctCount, setCorrectCount] = useState(0)
+  const [mascotState, setMascotState] = useState<'idle'|'happy'|'sad'|'switch'>('idle')
   const { recordAnswer, evolvePokemon } = useQuizProgress()
 
   useEffect(() => {
@@ -62,6 +63,8 @@ export default function QuizSection({
     setSubmittedAnswer(selected)
     setCorrect(isRight)
     if (isRight) setCorrectCount((c) => c + 1)
+    setMascotState(isRight ? 'happy' : 'sad')
+    setTimeout(() => setMascotState('idle'), 800)
     recordAnswer(
       {
         topicId,
@@ -116,7 +119,7 @@ export default function QuizSection({
   return (
     <section className="card mt-4">
       <div className="mb-3 flex items-center gap-2.5">
-        <Mascot subject={subjectId} size={30} />
+        <Mascot subject={subjectId} size={30} state={mascotState} />
         <h2 className="m-0 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
           {mode === 'preview' ? '课前预习' : '课后检测'}
         </h2>
@@ -127,6 +130,8 @@ export default function QuizSection({
             onClick={() => {
               setMode('preview')
               retry()
+              setMascotState('switch')
+              setTimeout(() => setMascotState('idle'), 400)
             }}
             className={`rounded-full px-3 py-1 text-[12.5px] font-semibold transition-colors ${
               mode === 'preview'
@@ -141,6 +146,8 @@ export default function QuizSection({
             onClick={() => {
               setMode('review')
               retry()
+              setMascotState('switch')
+              setTimeout(() => setMascotState('idle'), 400)
             }}
             className={`rounded-full px-3 py-1 text-[12.5px] font-semibold transition-colors ${
               mode === 'review'

@@ -3,6 +3,7 @@ import { useParams, useSearchParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
 import Reveal from '../components/Reveal'
+import Mascot from '../components/Mascot'
 import { getSubject, getSubjects } from '../lib/contentLoader'
 import { CN_NUMERALS, SUBJECT_EN, subjectVars } from '../lib/constants'
 import type { SubjectId } from '../types'
@@ -44,12 +45,15 @@ export default function SubjectDetail() {
 
       {/* subject-head：大号宋体数字 + 学科名 + 英文小字 + 渐变色条 */}
       <Reveal>
-        <div className="subject-head mt-6">
+        <div className="flex items-end justify-between mt-6 mb-1">
+          <div className="subject-head mt-0 mb-0">
           <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
           <div>
             <h1 className="name">{subject.name}</h1>
             <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
           </div>
+        </div>
+          <Mascot subject={subject.id} size={72} state="enter" className="mb-2 mr-2" />
         </div>
         <div className="rule rule-grow" />
       </Reveal>

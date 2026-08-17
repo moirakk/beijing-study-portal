@@ -5,6 +5,8 @@
 import { POKEMON_BY_KEY, POKEMON_BY_SUBJECT } from './mascots'
 
 interface MascotProps {
+  /** 动画状态：idle (默认漂浮) | enter (入场) | happy (答对) | sad (答错) | switch (切换) | none (无动画) */
+  state?: 'idle' | 'enter' | 'happy' | 'sad' | 'switch' | 'none'
   /** 学科 id 或宝可梦 key */
   subject?: string
   /** 宝可梦 key（优先于 subject） */
@@ -15,6 +17,7 @@ interface MascotProps {
 }
 
 export default function Mascot({
+  state = 'idle',
   subject,
   pokemon,
   size = 48,
@@ -25,5 +28,15 @@ export default function Mascot({
     (pokemon && POKEMON_BY_KEY[pokemon]) ||
     (subject && POKEMON_BY_SUBJECT[subject]) ||
     POKEMON_BY_KEY.pikachu
-  return <Comp size={size} evolved={evolved} className={className} />
+  const animClass =
+    state === 'idle' ? 'mascot-idle mascot-hover' :
+    state === 'enter' ? 'mascot-enter' :
+    state === 'switch' ? 'mascot-switch' :
+    state === 'happy' ? 'mascot-happy' :
+    state === 'sad' ? 'mascot-sad' : ''
+  const finalClass = [animClass, className].filter(Boolean).join(' ')
+  // 切换学科时加个 key 强制重置动画
+  const key = subject || pokemon || 'pikachu'
+
+  return <Comp key={key} size={size} evolved={evolved} className={finalClass} />
 }
