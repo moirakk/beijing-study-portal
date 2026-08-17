@@ -1,13 +1,14 @@
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import ScrollManager from './components/ScrollManager'
-import Dashboard from './pages/Dashboard'
-import SubjectDetail from './pages/SubjectDetail'
-import TopicDetail from './pages/TopicDetail'
-import Semester from './pages/Semester'
-import Search from './pages/Search'
-import WrongBook from './pages/WrongBook'
-import Flashcards from './pages/Flashcards'
+import { lazy } from 'react'
+const Dashboard = lazy(() => import('./pages/Dashboard'))
+const SubjectDetail = lazy(() => import('./pages/SubjectDetail'))
+const TopicDetail = lazy(() => import('./pages/TopicDetail'))
+const Semester = lazy(() => import('./pages/Semester'))
+const Search = lazy(() => import('./pages/Search'))
+const WrongBook = lazy(() => import('./pages/WrongBook'))
+const Flashcards = lazy(() => import('./pages/Flashcards'))
 
 export default function App() {
   return (

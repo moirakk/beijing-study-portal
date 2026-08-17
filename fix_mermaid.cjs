@@ -1,4 +1,5 @@
-/**
+const fs = require('fs');
+const code = `/**
  * Mermaid 图表渲染组件：动态加载 mermaid，将代码块渲染为 SVG。
  */
 import { useEffect, useRef, useState } from 'react'
@@ -46,7 +47,7 @@ export default function Mermaid({ chart }: { chart: string }) {
     if (!inView) return
     let cancelled = false
     loadMermaid()
-      .then((mermaid) => mermaid.render(`mmd-${++idCounter}`, chart))
+      .then((mermaid) => mermaid.render(\`mmd-\${++idCounter}\`, chart))
       .then(({ svg }) => {
         if (!cancelled && ref.current) {
           ref.current.innerHTML = svg
@@ -69,3 +70,5 @@ export default function Mermaid({ chart }: { chart: string }) {
   }
   return <div ref={ref} className="mermaid-diagram my-4 flex justify-center overflow-x-auto" />
 }
+`;
+fs.writeFileSync('src/components/Mermaid.tsx', code);

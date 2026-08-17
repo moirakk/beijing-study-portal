@@ -53,4 +53,15 @@ function contentStatusPlugin(): Plugin {
 export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? '/beijing-study-portal/' : '/',
   plugins: [react(), contentStatusPlugin()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor': ['react', 'react-dom', 'react-router-dom'],
+          'framer': ['framer-motion'],
+          'markdown': ['react-markdown', 'remark-gfm', 'remark-math', 'rehype-katex', 'rehype-raw'],
+        }
+      }
+    }
+  }
 })

@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { AnimatePresence, motion } from 'framer-motion'
+import { Suspense } from 'react'
+import PageSkeleton from './PageSkeleton'
 import AmbientBackground from './AmbientBackground'
 
 const THEME_KEY = 'bsp-theme'
@@ -53,10 +56,10 @@ export default function Layout() {
             to="/"
             className="mr-auto shrink-0 text-sm font-bold tracking-wide"
           >
-            <span className="text-gold">北京</span>初高中学习门户
+            <span className="text-gold">北京</span><span className="hidden sm:inline">初高中学习门户</span>
           </Link>
 
-          <nav className="flex items-center gap-1.5">
+          <nav className="flex items-center gap-1.5 overflow-x-auto no-scrollbar mask-edge">
             <NavLink
               to="/"
               end
@@ -108,12 +111,20 @@ export default function Layout() {
         </div>
       </header>
 
-      <main
-        key={location.pathname}
-        className="page-enter mx-auto max-w-[980px] px-5 pb-24 pt-6"
-      >
-        <Outlet />
-      </main>
+      <AnimatePresence mode="wait">
+        <motion.main
+          key={location.pathname}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: 0.25, ease: 'easeOut' }}
+          className="mx-auto w-full max-w-[980px] px-5 pb-24 pt-6"
+        >
+          <Suspense fallback={<PageSkeleton />}>
+            <Outlet />
+          </Suspense>
+        </motion.main>
+      </AnimatePresence>
 
       <footer className="border-t border-line py-6 text-center text-[12.5px] text-ink-soft">
         北京初高中学习门户 · 图文讲义

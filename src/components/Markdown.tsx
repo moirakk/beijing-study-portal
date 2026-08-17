@@ -44,6 +44,7 @@ function Markdown({ markdown, stripH1 }: Props) {
               </code>
             )
           },
+          img: ({ src, alt }) => <img src={src} alt={alt} loading="lazy" />,
           a: ({ href, children }) => (
             <a
               href={href}

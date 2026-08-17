@@ -88,7 +88,7 @@ export default function ChapterCard({
                           </span>
                         )}
                         {showMeta && !draft && (
-                          <span className="ml-2 inline-flex items-baseline gap-2 whitespace-nowrap align-baseline">
+                          <span className="ml-2 inline-flex flex-wrap items-baseline gap-1.5 align-baseline">
                             <span className="tag !text-[11px]">{topic.importance}</span>
                             <span
                               className="text-[11px] text-[var(--s)]"
