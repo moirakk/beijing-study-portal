@@ -51,7 +51,7 @@ function contentStatusPlugin(): Plugin {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/beijing-study-portal/',
+  base: '/',
   plugins: [react(), contentStatusPlugin()],
   build: {
     rollupOptions: {
