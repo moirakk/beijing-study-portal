@@ -66,6 +66,28 @@ date: 2026-08-05
 - **写作模板**：My favourite festival is ... It's in ... Before the festival, we ... On that day, my family get together and ... I love it because ...
 - 文化对比：春节 vs 圣诞节（团圆饭 vs 火鸡大餐；红包 vs 礼物）是阅读理解常见素材。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Time to celebrate欢庆时刻——节日"))
+    核心词汇表
+      celebrate
+      festival
+      celebration
+    重点短语与句型
+      十二个月份
+      序数词
+      fifth（五）、
+    语法讲解：月份、序数词与日期表达
+      traditional
+      special
+    听说读写要点
+      moon
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - 节日名前一般加 **the**（the Spring Festival），但 **Christmas、Thanksgiving** 前不加 the。

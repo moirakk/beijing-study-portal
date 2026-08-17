@@ -49,6 +49,27 @@ date: 2026-08-06
 3. be born **in** + 年份/地点；be born **on** + 具体日期。
 4. take part in 强调参加活动并发挥作用；join 指加入组织。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["并列连词"] --> B["and 和"]
+    A --> C["but 但是"]
+    A --> D["or 或者"]
+    A --> E["so 所以"]
+    B --> B1["She studied hard and passed the exam."]
+    C --> C1["I like coffee, but he prefers tea."]
+    D --> D1["You can walk or take the bus."]
+    E --> E1["It was raining, so we stayed inside."]
+    A --> F["注意：so 不能与 because 连用"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+    style E fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：Work hard, ______ you will pass the exam.（A. or  B. and  C. but  D. so）

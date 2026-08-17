@@ -56,6 +56,23 @@ Unit 6 的语法核心：**现在进行时（be + doing）**、**形容词描述
 - Look! / Listen! 开头的句子九成考现在进行时。
 - 否定句中并列用 **or** 不用 and：I can't sing or dance.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、小练习
 
 1. Listen! Lingling ______ in the music room.（A. sings B. is singing C. singing）

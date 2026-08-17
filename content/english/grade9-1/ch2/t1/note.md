@@ -49,6 +49,25 @@ date: 2026-08-06
 3. family 表"家人"时谓语用复数：My family **are** all at home.；表"家庭"整体时用单数。
 4. vacation（美）与 holiday（英）同义，注意语境搭配 take a vacation / on holiday。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["时间状语从句"] --> B["常用连词"]
+    A --> C["时态规则（主将从现）"]
+    B --> B1["when 当…时"]
+    B --> B2["while 在…期间（强调过程）"]
+    B --> B3["as soon as 一…就…"]
+    B --> B4["before / after / since / until"]
+    C --> C1["主句（将来时）+ 从句（现在时）"]
+    C --> C2["As soon as I arrive, I will call you."]
+    C --> C3["Since 引导的从句：用一般过去时"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：I'll give the book to him as soon as he ______ back.（A. comes  B. will come  C. came  D. is coming）

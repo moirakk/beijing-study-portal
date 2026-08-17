@@ -57,6 +57,28 @@ date: 2026-08-05
 - two cup of tea ❌ → two cups of tea ✔（量词变复数）。
 - Would you like some...? 用 some 不用 any（期待肯定回答）。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Food matters食物很重要"))
+    核心词汇表
+      food
+      recipe
+      ingredient
+    重点短语与句型
+      Unit 3
+      ，以及用祈使句
+      可数与不可数名词
+    语法要点
+      taste
+      dish
+    考点与易错点
+      meal
+      考点总结
+```
+
 ## 六、小练习
 
 1. There ______ (be) some milk and two eggs in the fridge.

@@ -51,6 +51,26 @@ date: 2026-08-06
 3. more than 后接数词表"超过"：more than 2,000 years ≠ 恰好两千年。
 4. agree **with** sb. / agree **to** do sth.，介词不要混用。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["感叹句结构"] --> B["What 引导"]
+    A --> C["How 引导"]
+    B --> B1["What + a/an + 形容词 + 可数名词单数 + (主谓)!"]
+    B --> B2["What a beautiful city it is!"]
+    B --> B3["What + 形容词 + 可数名词复数/不可数名词 + (主谓)!"]
+    B --> B4["What good news (it is)!"]
+    C --> C1["How + 形容词/副词 + (主谓)!"]
+    C --> C2["How fast she runs!"]
+    C --> C3["How + 形容词 + a/an + 单数名词 + (主谓)!"]
+    C --> C4["How beautiful a city it is!"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：______ exciting news it is! We'll have a school trip next week.（A. What  B. What an  C. How  D. How an）

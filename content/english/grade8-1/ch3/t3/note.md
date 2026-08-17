@@ -46,6 +46,28 @@ Developing ideas 是 Unit 3 的拓展与运用板块。本环节通过对话、�
 2. depend on 后接名词或动名词：Success **depends on** hard work. / It depends on **working** hard.
 3. stick to 中 to 是介词，后接 doing：Stick to **practising** every day.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般现在时"] --> B["结构"]
+    A --> C["第三人称单数变化"]
+    A --> D["三种句式"]
+    B --> B1["I/you/we/they + 动词原形"]
+    B --> B2["he/she/it + 动词+s/es"]
+    C --> C1["直接加 s：like→likes"]
+    C --> C2["s/sh/ch/x/o→es：go→goes"]
+    C --> C3["辅音+y→ies：study→studies"]
+    D --> D1["肯定：She likes music."]
+    D --> D2["否定：She doesn't like pop."]
+    D --> D3["疑问：Does she like jazz?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：I'm going to study medicine ______ I leave school.（A. when  B. while  C. during）

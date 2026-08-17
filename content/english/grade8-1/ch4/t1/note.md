@@ -44,6 +44,28 @@ Starting out 是 Unit 4 *Digital life* 的导入环节。教材通过图片、�
 2. 以 -y 结尾的形容词变比较级要变 y 为 i：❌ *more easy* → ✅ **easier**
 3. good / bad 的比较级是不规则变化：good → **better**；bad → **worse**
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4 Starting out"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      digital
+      device
+      smartphone
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 写出下列词的比较级：

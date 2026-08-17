@@ -52,6 +52,28 @@ date: 2026-08-05
 3. 我们俩都喜欢音乐，但是我们最喜欢的歌手不同。
 4. 他风趣又诚实，总能逗我笑。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["现在进行时"] --> B["结构：am/is/are + doing"]
+    A --> C["动词 -ing 拼写"]
+    A --> D["句式变换"]
+    B --> B1["I am reading now."]
+    B --> B2["She is watching TV."]
+    B --> B3["They are playing football."]
+    C --> C1["直接加 ing：read→reading"]
+    C --> C2["去 e：make→making"]
+    C --> C3["双写：run→running / sit→sitting"]
+    D --> D1["否定：am/is/are + not + doing"]
+    D --> D2["疑问：Am/Is/Are + 主语 + doing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、参考答案
 
 **二、单项选择**

@@ -51,6 +51,23 @@ Unit 5 的语法核心：**there be 句型**、**可数与不可数名词（巩�
 4. take in 吸收：Plants take in water through their roots.
 5. more and more 越来越多：More and more people plant trees.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 - there be **就近原则**是期末必考单选题。

@@ -54,6 +54,23 @@ Unit 1 的语法核心：**一般现在时（含第三人称单数以外的形�
 4. help sb with sth：My teacher helps me **with** my English.
 5. lots of = a lot of 许多
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 - **第三人称单数以外**，一般现在时动词用原形；don't 后必须接动词原形。

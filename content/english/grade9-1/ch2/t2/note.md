@@ -47,6 +47,28 @@ date: 2026-08-06
 3. "在几月"用 in November；"在具体某天"用 on Thanksgiving Day。
 4. depend on 的 on 不可丢：It **depends on** the weather.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 We have celebrated the "))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      ：它在每年
+      have celebrated
+      since
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Mr. Smith has worked in this school ______ he came to the city.（A. for  B. since  C. when  D. after）

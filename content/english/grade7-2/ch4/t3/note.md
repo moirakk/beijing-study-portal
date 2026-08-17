@@ -52,6 +52,26 @@ date: 2026-08-05
 3. 我对户外活动很感兴趣。
 4. 别把所有时间都花在屏幕上。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["感叹句结构"] --> B["What 引导"]
+    A --> C["How 引导"]
+    B --> B1["What + a/an + 形容词 + 可数名词单数 + (主谓)!"]
+    B --> B2["What a beautiful city it is!"]
+    B --> B3["What + 形容词 + 可数名词复数/不可数名词 + (主谓)!"]
+    B --> B4["What good news (it is)!"]
+    C --> C1["How + 形容词/副词 + (主谓)!"]
+    C --> C2["How fast she runs!"]
+    C --> C3["How + 形容词 + a/an + 单数名词 + (主谓)!"]
+    C --> C4["How beautiful a city it is!"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、参考答案
 
 **二、单项选择**

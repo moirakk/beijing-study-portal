@@ -61,6 +61,28 @@ date: 2026-08-05
 - than 后人称代词用主格（口语可用宾格）：than I (do) / than me。
 - 同类比较：The weather in Beijing is colder than **that** in Guangzhou（用 that 代替 the weather）。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Amazing nature奇妙的大自然"))
+    核心词汇表
+      nature
+      natural
+      amazing
+    重点短语与句型
+      Unit 5
+      形容词的比较级
+      构成规则
+    语法要点：形容词比较级
+      wonder
+      desert
+    考点与易错点
+      lake
+      考点总结
+```
+
 ## 六、小练习
 
 1. This lake is much ______ (deep) than that one.

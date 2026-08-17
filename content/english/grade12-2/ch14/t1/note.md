@@ -40,6 +40,27 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">4. 结尾升华主题，呼应开头</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["读后续写策略"] --> B["读原文（精读）"]
+    B --> C["分析情节与人物"]
+    C --> D["续写构思"]
+    D --> E["动笔撰写"]
+    C --> C1["梳理：时间/地点/人物/事件/情感"]
+    C --> C2["预测：情节走向/结局合理性"]
+    D --> D1["续写段落首句照应给定段落"]
+    D --> D2["保持人物性格一致"]
+    D --> D3["丰富细节：动作/心理/对话"]
+    E --> E1["每段 80-100 词，逻辑自然"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：原文讲 Tom 在比赛中失败后很沮丧，段落开头句 "The next morning, Tom decided to try again." 问：续写内容应如何展开？

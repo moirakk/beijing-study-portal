@@ -55,6 +55,23 @@ date: 2026-08-05
 - happy 是形容词，happiness 是名词：feel happy ✔，full of happiness ✔。
 - ago 只用于过去时：two days ago I played football.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、小练习
 
 1. Yesterday I ______ (be) very happy because my team won.

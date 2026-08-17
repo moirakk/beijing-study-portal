@@ -66,6 +66,28 @@ date: 2026-08-05
 - **口语操练**：What do you do in your free time? / Why do you like it?
 - **写作模板**：My hobby is ... I usually ... in my free time. It's more than fun, because it helps me ... I want to keep this hobby.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("More than fun不只是乐趣——兴趣爱好"))
+    核心词汇表
+      fun
+      hobby
+      interest
+    重点短语与句型
+      swimming
+      painting
+      singing
+    语法讲解：like doing 与 play 的用法
+      paint
+      dance
+    听说读写要点
+      sing
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - like doing 中动词 -ing 的**双写**（swimming, running）是词形变化高频考点。

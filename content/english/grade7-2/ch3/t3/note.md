@@ -52,6 +52,28 @@ date: 2026-08-05
 3. 这道菜闻起来很香，尝起来更好。
 4. 别往汤里加太多盐。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3·综合练习"))
+    单项选择
+      vocabulary
+      grammar
+      phrases
+    用所给词的适当形式填空
+      二、单项选择
+      三、词形填空
+      四、改写句子
+    按要求改写句子
+      sentences
+      reading
+    汉译英
+      writing
+      考点总结
+```
+
 ## 六、参考答案
 
 **二、单项选择**

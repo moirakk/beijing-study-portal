@@ -58,6 +58,23 @@ zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve,
 - an 用于**元音音素**开头的词前：an apple, an egg, an English teacher。
 - 看**发音**不看字母：a **u**niversity（/j/ 辅音音素）；an **h**our（h 不发音）。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 1. be 动词与主语一致是最高频考点（单选、用所给词适当形式填空）。

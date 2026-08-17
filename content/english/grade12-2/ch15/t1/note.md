@@ -46,6 +46,26 @@ date: 2026-08-10
   <text x="180" y="193" font-size="11" fill="#831843" text-anchor="middle">在运用中巩固词汇语法</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["完形填空解题策略（说明文）"] --> B["通读全文，把握主旨"]
+    B --> C["逐题精做"]
+    C --> D["复读验证"]
+    A --> E["说明文要素"]
+    E --> E1["观点/论据/数据/结论"]
+    E --> E2["情感线索：注意逻辑关系词"]
+    C --> C1["利用上下文语境排除干扰"]
+    C --> C2["固定搭配与词义辨析"]
+    D --> D1["代入原文，检验语义是否连贯"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：The ___ (succeed) of the project depends on our teamwork.

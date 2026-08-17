@@ -50,6 +50,28 @@ date: 2026-08-06
 3. remember **to close** the door（未做）≠ remember **closing** the door（已做）。
 4. although 从句同样遵循"主将从现"不适用——它不是时间/条件从句，从句时态按实际情况。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["情态动词"] --> B["can"]
+    A --> C["must / have to"]
+    A --> D["should"]
+    A --> E["may / might"]
+    B --> B1["能力：I can swim."]
+    B --> B2["许可：Can I go out?"]
+    C --> C1["must：主观义务（你自己认为必须）"]
+    C --> C2["have to：客观必要（外部原因必须）"]
+    C --> C3["否定：mustn't 禁止 ≠ don't have to 不必"]
+    D --> D1["建议/应该：You should study harder."]
+    E --> E1["may：许可（正式）；might：可能性（较小）"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：______ it rained heavily, ______ they still went to work on time.（A. Although; but  B. Although; /  C. But; although  D. /; but）

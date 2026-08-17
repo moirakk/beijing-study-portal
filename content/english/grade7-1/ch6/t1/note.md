@@ -69,6 +69,28 @@ date: 2026-08-05
 - **写作模板**：Plants are very important to us. They give us ... We can ... from plants. Without plants, we can't ... So we should plant more trees and protect them.
 - 阅读技巧：本单元说明文多用"总—分"结构，抓住每段首句即可把握大意。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("The power of plants植物的力量"))
+    核心词汇表
+      plant
+      power
+      grow
+    重点短语与句型
+      可数名词
+      不可数名词
+      量的表达
+    语法讲解：可数名词与不可数名词
+      rice
+      wheat
+    听说读写要点
+      corn
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - 可数/不可数辨析是本单元**核心考点**：food、rice、water、bread 不可数；vegetable、fruit（泛指时不可数，指种类可数）注意语境。

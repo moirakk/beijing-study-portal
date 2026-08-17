@@ -46,6 +46,25 @@ date: 2026-08-06
 3. maybe（副词，句首）与 may be（情态动词+be）：**Maybe** he is right. = He **may be** right.
 4. I don't think + 从句（否定前移）：I don't think they **will** disappear.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["将来时"] --> B["will + 动词原形"]
+    A --> C["be going to + 动词原形"]
+    B --> B1["临时决定：I'll help you."]
+    B --> B2["预测：It will rain tomorrow."]
+    B --> B3["否定：won't = will not"]
+    C --> C1["有计划：I'm going to visit Beijing."]
+    C --> C2["有迹象预测：Look at the clouds—it's going to rain."]
+    B --> D["疑问：Will you come? — Yes, I will."]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：Do you think paper books ______ by e-books in the future?（A. will replace  B. will be replaced  C. replace  D. are replacing）

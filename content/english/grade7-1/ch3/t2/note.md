@@ -53,6 +53,26 @@ Unit 2 的语法核心：**情态动词 can 的用法**、**like/enjoy + doing�
 4. once a week 每周一次；twice a month 每月两次
 5. not only... but also... 不但……而且……：Hobbies are **not only** fun **but also** useful.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["动名词 doing 用法"] --> B["like / love / enjoy / finish + doing"]
+    A --> C["动词 -ing 拼写规则"]
+    B --> B1["I like swimming. She enjoys painting."]
+    C --> C1["直接加 ing：read→reading"]
+    C --> C2["去 e 加 ing：dance→dancing"]
+    C --> C3["双写辅音加 ing：swim→swimming"]
+    A --> D["play 的搭配"]
+    D --> D1["play + the + 乐器：play the piano"]
+    D --> D2["play + 球类（不加 the）：play football"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 - can 后动词原形，是初一上学期单选**必考**。

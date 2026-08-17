@@ -46,6 +46,28 @@ Presenting ideas 是 Unit 5 的综合输出板块。学生需要围绕"Play by t
 2. be allowed to 表示"被允许"，被动含义：Students **are allowed to** use phones after class.
 3. 写规则时，祈使句和情态动词可混用，但要保持语气一致。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 5 Presenting ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      class rule
+      school rule
+      traffic rule
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Students ______ not run in the hallway.（A. must  B. are  C. should）

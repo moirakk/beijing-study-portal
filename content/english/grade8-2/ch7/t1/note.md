@@ -49,6 +49,28 @@ date: 2026-08-06
 2. ❌ write me（美式可用，但教材规范为）→ ✅ write **to** me
 3. ❌ arrive **to** the city → ✅ arrive **in** the city / **reach** the city
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 1 Please write to me and "))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      祈使句
+      Please write to
+      send
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：______ late for the English camp, or you'll miss the first class.（A. Don't be  B. Not be  C. Don't）

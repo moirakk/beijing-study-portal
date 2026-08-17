@@ -48,6 +48,28 @@ date: 2026-08-05
 3. 学骑自行车花了我一周时间。
 4. 相信你自己，勇敢尝试吧！
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2·综合练习"))
+    单项选择
+      vocabulary
+      grammar
+      phrases
+    写出下列动词的过去式
+      二、单项选择
+      三、动词过去式
+      四、改写句子
+    按要求改写句子
+      sentences
+      reading
+    汉译英
+      writing
+      考点总结
+```
+
 ## 六、参考答案
 
 **二、单项选择**

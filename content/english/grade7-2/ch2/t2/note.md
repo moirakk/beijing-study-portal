@@ -55,6 +55,29 @@ Unit 2 的语法核心：**一般过去时的不规则动词**，并综合运用
 - did 出现后动词必须原形，包括特殊疑问句：How did you felt ❌ → How did you feel ✔。
 - win 的宾语是比赛/奖品（win the game），"赢某人"用 beat sb。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般过去时"] --> B["规则动词（+ed）"]
+    A --> C["不规则动词（需背诵）"]
+    A --> D["三种句式"]
+    B --> B1["直接加 ed：play→played"]
+    B --> B2["去 e 加 ed：like→liked"]
+    B --> B3["双写加 ed：stop→stopped"]
+    B --> B4["辅音+y→ied：study→studied"]
+    C --> C1["go→went / have→had / see→saw"]
+    C --> C2["come→came / take→took / make→made"]
+    D --> D1["肯定：She visited the museum."]
+    D --> D2["否定：She didn't visit..."]
+    D --> D3["疑问：Did she visit...?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、小练习
 
 1. I ______ (fall) off my bike but I got up and rode on.

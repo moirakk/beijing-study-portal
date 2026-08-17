@@ -52,6 +52,25 @@ date: 2026-08-05
 3. 我最喜欢的学科是地理，因为它很有趣。
 4. 开学第一天，我结交了许多新朋友。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["名词复数变化规则"] --> B["规则变化"]
+    A --> C["不规则变化"]
+    B --> B1["一般加 -s：book→books"]
+    B --> B2["s/x/sh/ch 结尾加 -es：class→classes"]
+    B --> B3["辅音+y→ies：library→libraries"]
+    B --> B4["f/fe→ves：knife→knives"]
+    C --> C1["man→men / woman→women"]
+    C --> C2["child→children / foot→feet"]
+    C --> C3["单复数同形：sheep / fish"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、参考答案
 
 **二、单项选择**

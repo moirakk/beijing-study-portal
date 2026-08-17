@@ -45,6 +45,28 @@ Understanding ideas 是 Unit 2 的主阅读板块。课文通常以"友谊与相
 2. 否定句和疑问句中，动词用原形：❌ *She doesn't goes.* → ✅ She **doesn't go**.
 3. How often 与 How long 混淆：How often 问频率，How long 问时长。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般现在时"] --> B["结构"]
+    A --> C["第三人称单数变化"]
+    A --> D["三种句式"]
+    B --> B1["I/you/we/they + 动词原形"]
+    B --> B2["he/she/it + 动词+s/es"]
+    C --> C1["直接加 s：like→likes"]
+    C --> C2["s/sh/ch/x/o→es：go→goes"]
+    C --> C3["辅音+y→ies：study→studies"]
+    D --> D1["肯定：She likes music."]
+    D --> D2["否定：She doesn't like pop."]
+    D --> D3["疑问：Does she like jazz?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 用所给词适当形式填空：

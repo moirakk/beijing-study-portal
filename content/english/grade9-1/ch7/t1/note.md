@@ -52,6 +52,26 @@ Revision Module A 综合复习 **Module 1 – Module 6** 的全部语言点，�
 4. 时间/条件从句主将从现，从句不用 will。
 5. so + 形副 + that；such + 名词 + that；so many/much + 名词。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["感叹句结构"] --> B["What 引导"]
+    A --> C["How 引导"]
+    B --> B1["What + a/an + 形容词 + 可数名词单数 + (主谓)!"]
+    B --> B2["What a beautiful city it is!"]
+    B --> B3["What + 形容词 + 可数名词复数/不可数名词 + (主谓)!"]
+    B --> B4["What good news (it is)!"]
+    C --> C1["How + 形容词/副词 + (主谓)!"]
+    C --> C2["How fast she runs!"]
+    C --> C3["How + 形容词 + a/an + 单数名词 + (主谓)!"]
+    C --> C4["How beautiful a city it is!"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、综合练习
 
 1. 单项选择：______ exciting the game is! I have watched it ______ two hours.（A. How; since  B. What; for  C. How; for  D. What an; since）

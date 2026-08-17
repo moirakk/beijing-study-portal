@@ -47,6 +47,28 @@ Presenting ideas 是 Unit 4 的综合输出板块。学生需要围绕"Digital l
 2. however 与 but 不能同时用：However, I disagree. / I disagree, **but** I understand your point.
 3. 表达"我认为"不可受中文影响：❌ *I think ... is right.* 可改为 I think **that** ... is right.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4 Presenting ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      opinion
+      point of view
+      agree v. 同意
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：______ my opinion, we should limit screen time.（A. In  B. On  C. At）

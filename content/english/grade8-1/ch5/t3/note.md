@@ -46,6 +46,28 @@ if 意为"如果"，引导条件状语从句。当表示将来可能发生的事
 2. 主句中不可用一般现在时表将来：❌ *If you come, I am happy.*（若表将来应改为 I **will be** happy.）
 3. if 与 whether 不同，if 表"如果"引导条件句，whether 表"是否"。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般现在时"] --> B["结构"]
+    A --> C["第三人称单数变化"]
+    A --> D["三种句式"]
+    B --> B1["I/you/we/they + 动词原形"]
+    B --> B2["he/she/it + 动词+s/es"]
+    C --> C1["直接加 s：like→likes"]
+    C --> C2["s/sh/ch/x/o→es：go→goes"]
+    C --> C3["辅音+y→ies：study→studies"]
+    D --> D1["肯定：She likes music."]
+    D --> D2["否定：She doesn't like pop."]
+    D --> D3["疑问：Does she like jazz?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：If he ______ hard, he will get good grades.（A. studies  B. will study  C. studied）

@@ -44,6 +44,28 @@ Presenting ideas 是 Unit 3 的综合输出板块。学生需要围绕"Make it h
 2. reason 后接 that 从句或 for doing：The reason **is that** I love helping people. / The reason **for** my choice is clear.
 3. dream of 后接 doing：I dream of **becoming** a scientist.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Presenting ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      speech
+      poster
+      presentation
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：My dream is ______ a teacher in the future.（A. become  B. to become  C. becoming）

@@ -48,6 +48,26 @@ date: 2026-08-06
 3. bored（人感到无聊）与 boring（事物令人无聊）不可混用。
 4. leave me alone（别打扰我）≠ leave me lonely。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["so...that... 结果状语从句"] --> B["结构：so + 形/副 + that 从句"]
+    A --> C["such...that... 结构"]
+    B --> B1["He was so tired that he fell asleep."]
+    B --> B2["She ran so fast that nobody caught her."]
+    C --> C1["such + a/an + 形 + 名 + that"]
+    C --> C2["It was such a good film that we saw it twice."]
+    A --> D["互换规则"]
+    D --> D1["so + adj → such + a/an + n"]
+    D --> D2["so tired → such a tired person"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：The problem is ______ difficult ______ few students can work it out.（A. too; to  B. so; that  C. such; that  D. very; that）

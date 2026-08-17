@@ -49,6 +49,29 @@ date: 2026-08-06
 3. at the age of 14 = when he was 14 years old。
 4. set a record（创纪录）与 break a record（破纪录）搭配不可混。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般过去时"] --> B["规则动词（+ed）"]
+    A --> C["不规则动词（需背诵）"]
+    A --> D["三种句式"]
+    B --> B1["直接加 ed：play→played"]
+    B --> B2["去 e 加 ed：like→liked"]
+    B --> B3["双写加 ed：stop→stopped"]
+    B --> B4["辅音+y→ied：study→studied"]
+    C --> C1["go→went / have→had / see→saw"]
+    C --> C2["come→came / take→took / make→made"]
+    D --> D1["肯定：She visited the museum."]
+    D --> D2["否定：She didn't visit..."]
+    D --> D3["疑问：Did she visit...?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：Liu Xiang ______ the world record ______ the 110m hurdles in 2006.（A. broke; in  B. was broken; in  C. broke; of  D. beat; in）

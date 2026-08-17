@@ -47,6 +47,29 @@ Understanding ideas 是 Unit 6 的主阅读板块。课文通常以"一次真实
 2. 短暂性动词（happen, begin, start）通常不用进行时：❌ *The earthquake was happening.* → ✅ The earthquake **happened**.
 3. 注意不规则动词过去式：fall → fell；run → ran；go → went。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般过去时"] --> B["规则动词（+ed）"]
+    A --> C["不规则动词（需背诵）"]
+    A --> D["三种句式"]
+    B --> B1["直接加 ed：play→played"]
+    B --> B2["去 e 加 ed：like→liked"]
+    B --> B3["双写加 ed：stop→stopped"]
+    B --> B4["辅音+y→ied：study→studied"]
+    C --> C1["go→went / have→had / see→saw"]
+    C --> C2["come→came / take→took / make→made"]
+    D --> D1["肯定：She visited the museum."]
+    D --> D2["否定：She didn't visit..."]
+    D --> D3["疑问：Did she visit...?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 用所给词适当形式填空：

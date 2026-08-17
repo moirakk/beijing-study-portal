@@ -39,6 +39,26 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">综合概括，排除过宽过窄项</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["阅读理解：主旨大意"] --> B["解题步骤"]
+    A --> C["核心策略"]
+    B --> B1["① 读题干，明确问题类型"]
+    B --> B2["② 回文定位关键信息"]
+    B --> B3["③ 对比选项，排除干扰"]
+    B --> B4["④ 选最符合文意的答案"]
+    C --> C1["抓首段末段"]
+    C --> C2["各段首句串联"]
+    C --> C3["选项需能概括全文"]
+    C --> C4["排除过宽/过窄"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：文章首段提出 "Reading is important for students"，中间各段分别讲阅读提高词汇、开阔视野、培养思维，末段总结 "Therefore, we should read more." 问：What is the main idea of the passage?

@@ -42,6 +42,23 @@ Starting out 是 Unit 2 *Getting along* 的导入环节。教材通过图片、�
 2. hardly 本身已有否定含义，不可再与 not 连用：❌ *I don't hardly ever argue.* → ✅ I **hardly ever** argue.
 3. How often 问频率，回答用频度副词或 once/twice a week。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 连词成句：usually / I / my / with / homework / help / mother (.)

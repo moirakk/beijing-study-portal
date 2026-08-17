@@ -42,6 +42,23 @@ Reflection 是 Unit 2 *Getting along* 的总结与反思板块。本环节要求
 2. 第三人称单数：❌ *My friend don't agree.* → ✅ My friend **doesn't agree**.
 3. How about 后接 doing，Why not 后接原形，不可混淆。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 综合填空：用适当形式填空：

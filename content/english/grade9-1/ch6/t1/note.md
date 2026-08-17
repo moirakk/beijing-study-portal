@@ -49,6 +49,28 @@ date: 2026-08-06
 3. ❌ Why not **to buy** a new one? → ✅ Why not **buy** one?
 4. waste：It's a waste of time/money to do sth. 做某事浪费时间/金钱。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 1 If everyone starts to d"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      if 条件句
+      If everyone
+      will be saved
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：If we ______ water now, we ______ nothing to drink in the future.（A. waste; have  B. waste; will have  C. will waste; will have）

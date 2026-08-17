@@ -43,6 +43,28 @@ Understanding ideas 是 Unit 3 的主阅读板块。课文通常以"如何实现
 2. be going to 后接动词原形，不要受 going 影响误加 -ing：❌ *I'm going to playing.* → ✅ I'm going to **play**.
 3. dream 作动词时，dream of / about doing sth：He dreams of **becoming** a pilot.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Understanding ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      achieve
+      success
+      successful
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 用 be going to 或 will 填空：

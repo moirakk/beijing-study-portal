@@ -48,6 +48,28 @@ date: 2026-08-06
 2. ❌ Why not **to write**...? → ✅ Why not **write**...?（why not 后接动词原形）
 3. be proud of + 名词/代词：We are proud **of** our school.（介词不可漏）
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 I feel nervous when I s"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      Why not
+      nervous
+      proud
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：I feel ______ when I speak in front of the class.（A. nervously  B. nervous  C. nerve）

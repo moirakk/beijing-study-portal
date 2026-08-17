@@ -47,6 +47,28 @@ Reflection 是 Unit 5 *Play by the rules?* 的总结与反思板块。本环节�
 2. if 条件句中，主句将来时，从句一般现在时。
 3. 祈使句以动词原形开头，否定用 Don't + 动词原形。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["情态动词"] --> B["can"]
+    A --> C["must / have to"]
+    A --> D["should"]
+    A --> E["may / might"]
+    B --> B1["能力：I can swim."]
+    B --> B2["许可：Can I go out?"]
+    C --> C1["must：主观义务（你自己认为必须）"]
+    C --> C2["have to：客观必要（外部原因必须）"]
+    C --> C3["否定：mustn't 禁止 ≠ don't have to 不必"]
+    D --> D1["建议/应该：You should study harder."]
+    E --> E1["may：许可（正式）；might：可能性（较小）"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 综合填空：

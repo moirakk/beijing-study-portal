@@ -46,6 +46,23 @@ Unit 1 的语法核心：**一般过去时**——包括 be 动词的过去式�
 
 yesterday（昨天）、last night / week / month / year（昨晚/上周/上月/去年）、... ago（……以前）、just now（刚才）、in 2020（在过去某年）、this morning（若已过去）。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、易错点提醒
 
 - **did + 动词原形**：Did you went ❌ → Did you go ✔。

@@ -48,6 +48,28 @@ Reflection 是 Unit 4 *Digital life* 的总结与反思板块。本环节要求�
 2. 比较对象要一致：This phone is more expensive **than that one**.
 3. less 后接原级多音节形容词：less important，不可说 less more important。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4 Reflection"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      digital
+      device
+      Unit 4 核心语法网络
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 综合填空：

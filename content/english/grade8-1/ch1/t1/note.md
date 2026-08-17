@@ -41,6 +41,23 @@ Starting out 是 Unit 1 *This is me* 的导入环节。教材通过图片、短�
 2. yourself 是反身代词，常用于 Introduce yourself.（介绍一下你自己。）
 3. 描述外貌时，have / has 表示"拥有"，wear 表示"穿戴"：I **have** big eyes. / She **wears** glasses.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 用 am / is / are 填空：

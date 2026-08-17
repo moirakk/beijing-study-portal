@@ -46,6 +46,24 @@ date: 2026-08-06
 3. ❌ a building that **it** looks like sails → 去掉 it。
 4. 先行词 + 最高级时不用 which：the most beautiful city **that** I've visited。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["定语从句"] --> B["关系代词选择"]
+    A --> C["注意事项"]
+    B --> B1["that：修饰人或物，限制性从句通用"]
+    B --> B2["which：只修饰物，可替换 that"]
+    B --> B3["who/whom：修饰人，who 作主语，whom 作宾语"]
+    C --> C1["先行词是 all/the only/序数词→只用 that"]
+    C --> C2["非限制性定语从句→用 which/who，不用 that"]
+    C --> C3["关系代词在从句中作宾语时可省略"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：This is the most interesting book ______ I have ever read.（A. which  B. that  C. who  D. what）

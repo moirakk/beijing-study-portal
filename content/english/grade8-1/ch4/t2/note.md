@@ -46,6 +46,28 @@ Understanding ideas 是 Unit 4 的主阅读板块。课文通常围绕"数字生
 2. 比较对象要一致：❌ *The screen of this phone is bigger than that phone.* → ✅ The screen of this phone is bigger than **that of** that phone.
 3. less 后接多音节形容词原级：❌ *less easier* → ✅ **less easy**
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4 Understanding ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      advantage
+      disadvantage
+      benefit
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 用所给词适当形式填空：

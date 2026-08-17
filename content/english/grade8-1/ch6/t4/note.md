@@ -49,6 +49,28 @@ Presenting ideas 是 Unit 6 的综合输出板块。学生需要围绕"When disa
 2. in case of 后接名词：In case of **fire**, use the stairs.（❌ In case of fire happens）
 3. until 引导时间状语从句，主句将来时从句用一般现在时：Wait **until** the shaking **stops**.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 6 Presenting ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      safety guide
+      escape plan
+      poster
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：______ case of fire, don't use the lift.（A. In  B. On  C. At）

@@ -64,6 +64,28 @@ date: 2026-08-05
 - **写作模板**：My name is ... I'm a student at ... The school is ... There are ... My favourite subject is ..., because it's interesting. I like my new school!
 - 邮件格式：开头 Dear ...，结尾 Best wishes, + 署名。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("A new start新的开始"))
+    核心词汇表
+      start
+      junior
+      nervous
+    重点短语与句型
+      规则变化
+      不规则变化
+      常见错误对比
+    语法讲解：名词单复数
+      excited
+      subject
+    听说读写要点
+      geography
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - **subject 类单词**（Chinese, maths, English, geography, history, art, PE, IT）拼写常考听写。

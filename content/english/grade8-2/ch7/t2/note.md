@@ -46,6 +46,28 @@ date: 2026-08-06
 2. fill out = fill in，代词放中间：fill **it** out（❌ fill out it）
 3. improve 及物：improve your English（❌ improve in your English）
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 Fill out our form and c"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      夏令营广告
+      Fill out
+      come to learn
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Speak English every day, ______ you'll make great progress.（A. or  B. and  C. but）

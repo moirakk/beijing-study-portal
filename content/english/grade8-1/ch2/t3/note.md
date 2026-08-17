@@ -44,6 +44,26 @@ Developing ideas 是 Unit 2 的拓展与运用板块。本环节通过对话、�
 2. advice 不可数，不能说 an advice；suggestion 可数，可说 a suggestion。
 3. Let's 包含说话双方，Let us 不一定包含对方：Let's go.（我们一起走。）
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["动名词 doing 用法"] --> B["like / love / enjoy / finish + doing"]
+    A --> C["动词 -ing 拼写规则"]
+    B --> B1["I like swimming. She enjoys painting."]
+    C --> C1["直接加 ing：read→reading"]
+    C --> C2["去 e 加 ing：dance→dancing"]
+    C --> C3["双写辅音加 ing：swim→swimming"]
+    A --> D["play 的搭配"]
+    D --> D1["play + the + 乐器：play the piano"]
+    D --> D2["play + 球类（不加 the）：play football"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：______ going shopping this afternoon?（A. Why not  B. Let's  C. How about）

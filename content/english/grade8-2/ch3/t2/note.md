@@ -49,6 +49,28 @@ date: 2026-08-06
 2. billion 前有数字时不加 s：eight **billion** stars（❌ eight billions）
 3. discover（发现本已存在的）vs. invent（发明本不存在的）：Columbus **discovered** America; Edison **invented** the light bulb.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般现在时"] --> B["结构"]
+    A --> C["第三人称单数变化"]
+    A --> D["三种句式"]
+    B --> B1["I/you/we/they + 动词原形"]
+    B --> B2["he/she/it + 动词+s/es"]
+    C --> C1["直接加 s：like→likes"]
+    C --> C2["s/sh/ch/x/o→es：go→goes"]
+    C --> C3["辅音+y→ies：study→studies"]
+    D --> D1["肯定：She likes music."]
+    D --> D2["否定：She doesn't like pop."]
+    D --> D3["疑问：Does she like jazz?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：______ of the eight planets has life on it except the earth.（A. None  B. No one  C. Nothing）

@@ -50,6 +50,28 @@ date: 2026-08-06
 2. turn 表变化后接颜色形容词：Leaves **turn yellow** in autumn.
 3. get + 比较级表"越来越……"：It's **getting colder and colder**.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Language in use"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      looks tired
+      sounds great
+      smells fresh
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：The dumplings ______ delicious. I want more.（A. taste  B. are tasted  C. tasting）

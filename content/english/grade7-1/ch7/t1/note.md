@@ -69,6 +69,28 @@ date: 2026-08-05
 - **写作模板**：My best friend is ... She/He is ... and has ... She/He is very ...(性格). We both like ..., but ... I'm lucky to have such a fantastic friend.
 - 口语操练：Who is your best friend? / What does he look like? / What is he like? / Why do you like him?
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Fantastic friends了不起的朋友"))
+    核心词汇表
+      fantastic
+      friendly
+      funny
+    重点短语与句型
+      形容词的两个位置
+      tall boy,
+      is tall
+    语法讲解：形容词的用法与 look like / be like
+      kind
+      shy
+    听说读写要点
+      quiet
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - **look like 问外貌 / be like 问性格**的区分是单选高频题。

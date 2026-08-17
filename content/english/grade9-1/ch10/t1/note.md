@@ -47,6 +47,25 @@ date: 2026-08-06
 3. 主动表将来的预测：I think... / I believe... 后接从句否定前移：I **don't think** books will disappear.
 4. more than 比较时两边对象要一致：computers ... more than **books**。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["将来时"] --> B["will + 动词原形"]
+    A --> C["be going to + 动词原形"]
+    B --> B1["临时决定：I'll help you."]
+    B --> B2["预测：It will rain tomorrow."]
+    B --> B3["否定：won't = will not"]
+    C --> C1["有计划：I'm going to visit Beijing."]
+    C --> C2["有迹象预测：Look at the clouds—it's going to rain."]
+    B --> D["疑问：Will you come? — Yes, I will."]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：In the future, more robots ______ in factories.（A. will use  B. will be used  C. are used  D. were used）

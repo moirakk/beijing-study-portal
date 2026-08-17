@@ -37,6 +37,27 @@ date: 2026-08-10
   <text x="180" y="206" font-size="12" fill="#78350f" text-anchor="middle">听后：结合语境推断，果断作答</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["听力解题三步法"] --> B["听前预测"]
+    A --> C["听中抓点"]
+    A --> D["听后推断"]
+    B --> B1["快速浏览题干与选项"]
+    B --> B2["预测话题与问题类型"]
+    C --> C1["抓关键词：时间/数字/地点/人物"]
+    C --> C2["注意转折词：but / however / actually"]
+    C --> C3["留意同义替换，答案非原词"]
+    D --> D1["结合语境与常识判断"]
+    D --> D2["语气/反问→推断说话人态度"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：M: I'd like to book a room for two nights. W: Sorry, we only have a single room left. 问：Where does the conversation probably take place?

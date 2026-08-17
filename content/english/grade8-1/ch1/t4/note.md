@@ -47,6 +47,23 @@ Presenting ideas 是 Unit 1 的综合输出板块。学生需要围绕"This is m
 2. because 与 so 不能同时出现在一个句子中：❌ *Because I like it, so I study hard.* → ✅ I study hard **because** I like it.
 3. interest 是名词，interested 是形容词：be **interested in** sth.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 连词成句：name / my / Li Hua / is (.)

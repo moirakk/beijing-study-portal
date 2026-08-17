@@ -47,6 +47,28 @@ date: 2026-08-06
 2. ❌ if or not → ✅ **whether** or not
 3. quarrel with sb. about sth.：They quarrelled **with** each other **about** the game.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 1 Could I ask if you've m"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      Could I ask if
+      Why don't you
+      mention
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Could you tell me ______ she is coming to the party or not?（A. if  B. whether  C. that）

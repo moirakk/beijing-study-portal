@@ -45,6 +45,21 @@ Developing ideas 在 Unit 1 中侧重拓展阅读与语言运用。课文常通�
 2. his 的两种形式相同，但用法不同：This is **his** pen.（形容词性）/ This pen is **his**.（名词性）
 3. 比较用 from 不是 to：My bag is different **from** yours.（❌ with）
 
+
+## 结构图示
+
+```mermaid
+flowchart LR
+    A["人称代词"] --> B["主格"]
+    A --> C["形容词性物主代词"]
+    B --> B1["I / you / he / she / it / we / they"]
+    C --> C1["my / your / his / her / its / our / their"]
+    C1 --> D["后面必须接名词：my book ✓  my ✗"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 用适当形式填空：

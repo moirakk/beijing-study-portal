@@ -47,6 +47,28 @@ date: 2026-08-06
 3. "疑问词 + to do"结构可转换为宾语从句：what to do = what we should do。
 4. stay away from 与 keep away from 同义，介词 from 不可省。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 If a snake bites you, t"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      遇到蛇咬时的应对办法
+      给蛇拍张照片
+      if 条件句 + 祈使句
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：If a dog ______ you, you ______ go to the hospital at once.（A. bites; must  B. will bite; must  C. bites; will must）

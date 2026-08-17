@@ -48,6 +48,28 @@ Unit 4 的语法核心：**时间介词 in / on / at**、**一般现在时描述
 4. get ready for... 为……做准备：get ready **for** the festival
 5. on one's birthday 在某人生日那天
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般现在时"] --> B["结构"]
+    A --> C["第三人称单数变化"]
+    A --> D["三种句式"]
+    B --> B1["I/you/we/they + 动词原形"]
+    B --> B2["he/she/it + 动词+s/es"]
+    C --> C1["直接加 s：like→likes"]
+    C --> C2["s/sh/ch/x/o→es：go→goes"]
+    C --> C3["辅音+y→ies：study→studies"]
+    D --> D1["肯定：She likes music."]
+    D --> D2["否定：She doesn't like pop."]
+    D --> D3["疑问：Does she like jazz?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 - in/on/at 选择题是期中期末**必考题**，重点盯"某天的上午"（on Sunday morning）。

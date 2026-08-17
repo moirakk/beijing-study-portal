@@ -45,6 +45,28 @@ Starting out 是 Unit 6 *When disaster strikes* 的导入环节。教材通过�
 2. 注意 doing 的拼写：run → running；sit → sitting；sleep → sleeping。
 3. 表示"昨天某个具体时间"用 at + 时间点，常与过去进行时连用。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 6 Starting out"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      disaster
+      earthquake
+      flood
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 用所给词适当形式填空：

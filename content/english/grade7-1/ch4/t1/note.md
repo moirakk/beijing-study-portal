@@ -66,6 +66,28 @@ date: 2026-08-05
 - **写作模板**：This is a photo of my family. There are ... people in my family: ... My father is a ... He is ... My mother ... I love my family because ...
 - 听力常考：数字（几口人）、职业词、位置（on the left / next to）。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Family ties家庭纽带"))
+    核心词汇表
+      family
+      tie
+      grandparent
+    重点短语与句型
+      This is
+      These are
+      名词所有格 's
+    语法讲解：指示代词与名词所有格
+      parent
+      uncle
+    听说读写要点
+      aunt
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - **family** 指"家庭整体"时谓语用单数（My family **is** big），指"家庭成员"时用复数（My family **are** all at home）。初一阶段以第一种为主。

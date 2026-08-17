@@ -46,6 +46,28 @@ Unit 5 的语法核心：**形容词比较级**（构成、句型、修饰语）
 - The Yangtze River is **the longest** river in China.
 - Of all the wonders, this one is **the most amazing**.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 5·重点梳理"))
+    比较级的构成规则
+      vocabulary
+      grammar
+      phrases
+    比较级核心句型
+      形容词比较级
+      最高级
+      不规则变化必背
+    比较级的修饰语
+      sentences
+      reading
+    最高级入门（了解）
+      writing
+      考点总结
+```
+
 ## 六、易错点提醒
 
 - more taller ❌：-er 与 more 只能二选一。

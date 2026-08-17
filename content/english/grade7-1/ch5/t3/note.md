@@ -52,6 +52,28 @@ date: 2026-08-05
 3. 孩子们在那天收到礼物，他们非常开心。
 4. 该为节日做准备了。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4·综合练习"))
+    单项选择
+      vocabulary
+      grammar
+      phrases
+    用所给词的适当形式填空
+      二、单项选择
+      三、词形填空
+      四、改写句子
+    按要求改写句子
+      sentences
+      reading
+    汉译英
+      writing
+      考点总结
+```
+
 ## 六、参考答案
 
 **二、单项选择**

@@ -48,6 +48,28 @@ Unit 6 的语法核心：**形容词最高级**（与 Unit 5 比较级衔接成�
 - 标志词：next week/month, this summer, tomorrow。
 - 注意：go 可以说 be going to go，也常直接说 We are going to Beijing。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 6·重点梳理"))
+    最高级的构成规则
+      vocabulary
+      grammar
+      phrases
+    原级 · 比较级 · 最高级三档对照
+      形容词最高级
+      be going to 表计划
+      不规则
+    最高级高频句式
+      sentences
+      reading
+    be going to 表计划
+      writing
+      考点总结
+```
+
 ## 六、易错点提醒
 
 - 最高级忘 the：Spring is best season ❌ → the best season ✔。

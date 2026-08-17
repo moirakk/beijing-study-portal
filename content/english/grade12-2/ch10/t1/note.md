@@ -39,6 +39,25 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">4. 结合固定搭配确定形式</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["语法填空：非谓语动词"] --> B["解题步骤"]
+    A --> C["高频判断依据"]
+    B --> B1["① 判断与逻辑主语关系（主动/被动）"]
+    B --> B2["② 判断时间（同步/先后）"]
+    B --> B3["③ want/hope→to do，enjoy→doing"]
+    B --> B4["④ 分析句子缺什么成分"]
+    C --> C1["主动进行→doing"]
+    C --> C2["被动/完成→done"]
+    C --> C3["目的→to do"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：I want ___ (visit) the museum.

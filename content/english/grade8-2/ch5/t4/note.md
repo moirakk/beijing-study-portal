@@ -52,6 +52,27 @@ Revision module A 综合复习 Module 1-5 的全部核心内容，是期中考�
 3. ❌ He has died for two years. → ✅ He has been dead for two years.
 4. ❌ Why not to have a rest? → ✅ Why not have a rest?
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["现在完成时"] --> B["结构：have/has + 过去分词"]
+    A --> C["常用副词"]
+    A --> D["for / since 用法"]
+    B --> B1["I have finished my homework."]
+    B --> B2["She has visited Paris."]
+    C --> C1["just 刚刚（肯定句）：I have just arrived."]
+    C --> C2["already 已经（肯定句）：She has already left."]
+    C --> C3["yet 还/已经（否/疑）：Have you done it yet?"]
+    D --> D1["for + 时间段：for three years"]
+    D --> D2["since + 时间点：since 2020"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、综合练习
 
 1. 单项选择：— Have you ______ been to the Science Museum? — Yes, I went there last month.（A. never  B. ever  C. yet）

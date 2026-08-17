@@ -42,6 +42,28 @@ be going to 表示主观计划、打算或根据迹象推测即将发生的事�
 2. be 动词要与主语保持一致：❌ *They is going to win.* → ✅ **They are** going to win.
 3. be going to 表示主观计划，will 常表示临时决定或客观将来，两者不可随意替换。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Starting out"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      dream
+      goal
+      plan
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 用 be going to 的适当形式填空：

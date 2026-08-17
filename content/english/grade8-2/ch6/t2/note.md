@@ -48,6 +48,28 @@ date: 2026-08-06
 2. 动名词主语接单数谓语：Swimming **is** fun.（❌ are）
 3. ❌ make sb. **to do** → ✅ make sb. **do**（使役动词省 to）
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 Hobbies can make you gr"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      bring us
+      has written
+      since then
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：______ model planes ______ one of his hobbies.（A. Make; is  B. Making; is  C. Making; are）

@@ -56,6 +56,21 @@ Unit 3 的语法核心：**一般现在时第三人称单数（三单）**、**�
 4. every day 每天（everyday 是形容词"日常的"）
 5. one of + 复数名词：one of my cousins 我表兄弟中的一个
 
+
+## 结构图示
+
+```mermaid
+flowchart LR
+    A["人称代词"] --> B["主格"]
+    A --> C["形容词性物主代词"]
+    B --> B1["I / you / he / she / it / we / they"]
+    C --> C1["my / your / his / her / its / our / their"]
+    C1 --> D["后面必须接名词：my book ✓  my ✗"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+```
+
 ## 六、考点与易错点
 
 - 三单是**整个初一考试出现频率最高**的语法点：单选、词形填空、改错都会考。

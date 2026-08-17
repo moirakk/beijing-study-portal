@@ -51,6 +51,26 @@ date: 2026-08-06
 3. wounded 指刀枪战斗致伤；injured/hurt 泛指受伤。
 4. on his own = by himself，注意代词随主语变化。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["few / little 用法"] --> B["few 修饰可数名词复数"]
+    A --> C["little 修饰不可数名词"]
+    B --> B1["few：几乎没有（否定意味）：few friends"]
+    B --> B2["a few：有几个（肯定意味）：a few friends"]
+    C --> C1["little：几乎没有：little time"]
+    C --> C2["a little：有一些：a little water"]
+    A --> D["对比 many/much"]
+    D --> D1["many + 可数复数：many books"]
+    D --> D2["much + 不可数：much money"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：I'm very busy these days, so I have ______ time to watch TV.（A. few  B. a few  C. little  D. a little）

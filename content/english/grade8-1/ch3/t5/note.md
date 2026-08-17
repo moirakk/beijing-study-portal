@@ -44,6 +44,25 @@ Reflection 是 Unit 3 *Make it happen!* 的总结与反思板块。本环节要�
 2. 时间状语从句中用一般现在时表将来：When he **leaves** school, he is going to study medicine.
 3. dream of / about 后接 doing；hope 后接 to do 或 that 从句。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["时间状语从句"] --> B["常用连词"]
+    A --> C["时态规则（主将从现）"]
+    B --> B1["when 当…时"]
+    B --> B2["while 在…期间（强调过程）"]
+    B --> B3["as soon as 一…就…"]
+    B --> B4["before / after / since / until"]
+    C --> C1["主句（将来时）+ 从句（现在时）"]
+    C --> C2["As soon as I arrive, I will call you."]
+    C --> C3["Since 引导的从句：用一般过去时"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 综合填空：

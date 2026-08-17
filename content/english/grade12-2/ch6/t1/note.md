@@ -43,6 +43,26 @@ date: 2026-08-10
   <text x="280" y="193" font-size="11" fill="#0c4a6e" text-anchor="middle">排除绝对化选项</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["阅读理解：推理判断"] --> B["解题步骤"]
+    A --> C["核心策略"]
+    B --> B1["① 读题干，明确问题类型"]
+    B --> B2["② 回文定位关键信息"]
+    B --> B3["③ 对比选项，排除干扰"]
+    B --> B4["④ 选最符合文意的答案"]
+    C --> C1["基于文意推断"]
+    C --> C2["不凭主观臆测"]
+    C --> C3["注意转折与语气"]
+    C --> C4["选"最可能"选项"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：原文 "Although he was tired, he stayed up late to finish the report." 问：What can we infer about the man?

@@ -41,6 +41,25 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">4. 写出正确形式</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["语法填空：动词时态语态"] --> B["解题步骤"]
+    A --> C["高频判断依据"]
+    B --> B1["① 判断时态（when/for/since等时间词）"]
+    B --> B2["② 判断语态（主动/被动）"]
+    B --> B3["③ 判断主谓一致"]
+    B --> B4["④ 填入正确形式"]
+    C --> C1["since/for → 现在完成时"]
+    C --> C2["yesterday/last → 一般过去时"]
+    C --> C3["will/tomorrow → 将来时"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：He ___ (go) to Beijing yesterday.

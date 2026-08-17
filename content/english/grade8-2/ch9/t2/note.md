@@ -48,6 +48,28 @@ date: 2026-08-06
 2. nobody 作主语谓语用单数：Nobody **wants** to be lonely.
 3. that 从句时态：主句过去时，从句相应后退：He said (that) he **was** busy.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 I believe that the worl"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      that 引导的宾语从句
+      believe
+      smile
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：I ______ she will come to my birthday party.（A. don't think  B. think not  C. not think）

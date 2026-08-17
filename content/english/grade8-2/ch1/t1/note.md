@@ -48,6 +48,28 @@ date: 2026-08-06
 2. ❌ It sounds **like** wonderful. → ✅ It sounds wonderful.（后接形容词时不加 like）
 3. feel + 形容词表"感觉"：I **feel tired**.（不用被动 ❌ I am felt tired.）
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 1 It smells delicious"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      tastes a bit
+      look happy
+      smell
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：The flowers ______ beautiful and ______ sweet.（A. look; smell  B. are looked; smelled  C. look; smell well）

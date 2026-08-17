@@ -47,6 +47,23 @@ date: 2026-08-06
 3. be known **as** 身份（作为）；be known **for** 原因（因为）；be known **to** 对象（为……所知）。
 4. 不及物动词无被动：❌ The accident was happened. → ✅ The accident happened.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：Chinese ______ by more and more people around the world today.（A. speaks  B. is spoken  C. is speaking  D. spoke）

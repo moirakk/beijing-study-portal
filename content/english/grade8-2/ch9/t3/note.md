@@ -49,6 +49,28 @@ date: 2026-08-06
 2. ❌ Do you know where **is she**? → ✅ where **she is**
 3. 客观真理不后退：He said light **travels** faster than sound.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Language in use"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      宾语从句
+      引导词
+      friendship
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Lucy asked me ______ I could keep a secret.（A. that  B. if  C. what）

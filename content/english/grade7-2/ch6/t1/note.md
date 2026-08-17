@@ -59,6 +59,28 @@ date: 2026-08-05
 - one of the + 最高级后名词必须**复数**：one of the biggest city ❌ → cities ✔。
 - arrive **in** 大地点、arrive **at** 小地点；reach 直接加地点。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Hitting the road踏上旅途"))
+    核心词汇表
+      road
+      journey
+      trip
+    重点短语与句型
+      Unit 6
+      形容词最高级，并综合运用
+      形容词最高级
+    语法要点
+      hike
+      explore
+    考点与易错点
+      plan
+      考点总结
+```
+
 ## 六、小练习
 
 1. The Yangtze River is ______ (long) river in China.

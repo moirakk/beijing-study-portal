@@ -49,6 +49,28 @@ date: 2026-08-06
 2. ❌ Do you know when **will the programme start**? → ✅ when **the programme will start**
 3. agree **with** sb. / agree **to** do sth.，介词勿混。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 3 Language in use"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      宾语从句
+      national
+      local
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：Could you tell me ______ the news programme starts?（A. that  B. what time  C. if or not）

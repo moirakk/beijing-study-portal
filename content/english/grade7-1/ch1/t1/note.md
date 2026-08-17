@@ -55,6 +55,28 @@ date: 2026-08-05
 
 Listen to me. 听我说 ｜ Open your books. 打开书 ｜ Close the door. 关门 ｜ Stand up. 起立 ｜ Sit down. 坐下 ｜ Put up your hand. 举手 ｜ Read after me. 跟我读 ｜ Work in pairs. 两人一组活动
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Welcome to junior high!欢迎来到初中"))
+    核心词汇表
+      morning
+      afternoon
+      name
+    重点短语与句型
+      Starter 预备单元
+      26 个字母
+      M /em/ 与 N /en/
+    字母与语音要点
+      class
+      grade
+    课堂指令（听懂并会做）
+      teacher
+      考点总结
+```
+
 ## 六、考点与易错点
 
 - **Good morning** 用于中午 12 点前；下午用 **Good afternoon**；**Good night** 是"晚安（道别）"，不是见面问候。

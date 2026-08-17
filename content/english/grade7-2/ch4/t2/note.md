@@ -51,6 +51,26 @@ Unit 4 的语法核心：**感叹句（What.../How...）**、**-ed/-ing 形容�
 - 变化规则：make → making（去 e）；run → running（双写）；play → playing（直接加）。
 - 与一般现在时对比：I usually read books, but now I **am playing** chess.
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["感叹句结构"] --> B["What 引导"]
+    A --> C["How 引导"]
+    B --> B1["What + a/an + 形容词 + 可数名词单数 + (主谓)!"]
+    B --> B2["What a beautiful city it is!"]
+    B --> B3["What + 形容词 + 可数名词复数/不可数名词 + (主谓)!"]
+    B --> B4["What good news (it is)!"]
+    C --> C1["How + 形容词/副词 + (主谓)!"]
+    C --> C2["How fast she runs!"]
+    C --> C3["How + 形容词 + a/an + 单数名词 + (主谓)!"]
+    C --> C4["How beautiful a city it is!"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 六、易错点提醒
 
 - What a fine weather ❌ → What fine weather ✔（weather 不可数，不加 a）。

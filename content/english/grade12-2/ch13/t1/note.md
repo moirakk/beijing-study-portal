@@ -40,6 +40,28 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">格式：称呼、落款、语气得体</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["应用文写作框架"] --> B["格式规范"]
+    A --> C["内容要点"]
+    A --> D["语言表达"]
+    B --> B1["书信：Dear...→正文→Best wishes/Yours,+署名"]
+    B --> B2["通知/海报：标题居中，要素完整"]
+    B --> B3["日记：日期+星期+天气+正文"]
+    C --> C1["紧扣题目所有要点，不遗漏"]
+    C --> C2["逻辑清晰，分段合理"]
+    D --> D1["首句点明写信目的"]
+    D --> D2["过渡词：Firstly / In addition / Finally"]
+    D --> D3["结尾：期待/希望/感谢句式"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：假设你是李华，给外教写一封建议信，建议他如何提高中文水平。

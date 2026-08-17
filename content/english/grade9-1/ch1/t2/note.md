@@ -51,6 +51,29 @@ date: 2026-08-06
 3. ❌ on my way **to home** → ✅ on my way **home**（home 是副词，前面不加 to）。
 4. that's why + 结果；that's because + 原因，二者不可混用。
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["一般过去时"] --> B["规则动词（+ed）"]
+    A --> C["不规则动词（需背诵）"]
+    A --> D["三种句式"]
+    B --> B1["直接加 ed：play→played"]
+    B --> B2["去 e 加 ed：like→liked"]
+    B --> B3["双写加 ed：stop→stopped"]
+    B --> B4["辅音+y→ied：study→studied"]
+    C --> C1["go→went / have→had / see→saw"]
+    C --> C2["come→came / take→took / make→made"]
+    D --> D1["肯定：She visited the museum."]
+    D --> D2["否定：She didn't visit..."]
+    D --> D3["疑问：Did she visit...?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：The sun ______ in the east every morning, and yesterday it ______ at 5:30.（A. rises; rose  B. rise; rose  C. rises; rised）

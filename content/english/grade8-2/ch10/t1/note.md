@@ -47,6 +47,28 @@ date: 2026-08-06
 2. programme（英式）= program（美式），教材用英式拼写。
 3. interview 作动词直接接宾语：interview the guest（❌ interview to/with）
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 1 I hope that you can joi"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      I hope that
+      This is where
+      keep quiet
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：I hope ______ a famous reporter one day.（A. to be  B. that be  C. being）

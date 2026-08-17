@@ -49,6 +49,28 @@ date: 2026-08-06
 3. so much to see and do：不定式作后置定语修饰不定代词。
 4. at a time（每次）≠ at one time（曾经）。
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 2 If you ever go to Londo"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      免费开放（it's free）
+      make sure
+      free
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 单项选择：If Tom ______ free tomorrow, he ______ to the museum with us.（A. is; will go  B. will be; goes  C. is; goes  D. will be; will go）

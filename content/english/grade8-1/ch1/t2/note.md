@@ -42,6 +42,23 @@ Understanding ideas 是 Unit 1 的主阅读板块。课文通常以"新学期、
 2. look like 后接名词或代词：What does he **look like**?（问外貌）
 3. be good at 后接 doing：He is good at **playing** basketball.（❌ play）
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["be 动词用法"] --> B["I → am"]
+    A --> C["he / she / it / 单数名词 → is"]
+    A --> D["you / we / they / 复数名词 → are"]
+    B --> E["肯定：I am a student."]
+    C --> F["否定：She is not（isn't）my teacher."]
+    D --> G["疑问：Are you from Beijing?"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 同义句转换：What does your sister look like? = What is your sister's ______?

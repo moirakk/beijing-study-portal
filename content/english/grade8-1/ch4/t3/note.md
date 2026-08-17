@@ -49,6 +49,28 @@ as + 形容词/副词原级 + as 表示"和……一样"。
 2. 副词比较级修饰动词时，位置与副词原级相同：He plays games **more often** than I do.
 3. 比较级不可与 very 连用，可用 much / a lot：❌ *very more convenient* → ✅ **much more convenient**
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 4 Developing ideas"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      health
+      healthy
+      habit n. 习惯
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 写出下列副词的比较级：

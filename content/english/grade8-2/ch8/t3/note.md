@@ -50,6 +50,26 @@ date: 2026-08-06
 2. 主语单复数：I/he/she **was** doing；we/you/they **were** doing
 3. ❌ While the phone rang... → ✅ **When** the phone rang...（短暂动作用 when）
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["so...that... 结果状语从句"] --> B["结构：so + 形/副 + that 从句"]
+    A --> C["such...that... 结构"]
+    B --> B1["He was so tired that he fell asleep."]
+    B --> B2["She ran so fast that nobody caught her."]
+    C --> C1["such + a/an + 形 + 名 + that"]
+    C --> C2["It was such a good film that we saw it twice."]
+    A --> D["互换规则"]
+    D --> D1["so + adj → such + a/an + n"]
+    D --> D2["so tired → such a tired person"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+    style D fill:#fed7aa,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：They ______ a picnic when it suddenly started to rain.（A. had  B. were having  C. have）

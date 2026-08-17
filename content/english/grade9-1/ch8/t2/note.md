@@ -46,6 +46,25 @@ date: 2026-08-06
 3. be set in + 时间/地点背景，是书评影评高频表达。
 4. 并列被动动词共用 be：It is still read **and** loved.（第二个 is 省略）
 
+
+## 结构图示
+
+```mermaid
+flowchart LR
+    A["被动语态"] --> B["结构：be + 过去分词"]
+    B --> C["一般现在时：is/are + pp"]
+    B --> D["一般过去时：was/were + pp"]
+    B --> E["一般将来时：will be + pp"]
+    C --> C1["Books are sold here."]
+    D --> D1["The wall was built in 2000."]
+    E --> E1["The work will be done tomorrow."]
+    A --> F["主动→被动转换步骤"]
+    F --> F1["①宾语→新主语 ②be动词匹配时态 ③原动词变过去分词"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style F fill:#fdba74,stroke:#fb923c
+```
+
 ## 五、练习题
 
 1. 单项选择：The Adventures of Tom Sawyer ______ by Mark Twain in 1876.（A. wrote  B. was written  C. is written  D. was wrote）

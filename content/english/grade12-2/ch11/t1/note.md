@@ -45,6 +45,25 @@ date: 2026-08-10
   <text x="180" y="193" font-size="11" fill="#831843" text-anchor="middle">缺主语/宾语→关系代词；缺状语→关系副词</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["语法填空：从句与连词"] --> B["解题步骤"]
+    A --> C["高频判断依据"]
+    B --> B1["① 判断从句类型（名词/定语/状语）"]
+    B --> B2["② 选正确连接词"]
+    B --> B3["③ 注意从句时态"]
+    B --> B4["④ 检查句子完整性"]
+    C --> C1["that引名词从句"]
+    C --> C2["which/who引定语从句"]
+    C --> C3["when/if/although引状语从句"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：I don't know ___ he will come. A. that B. whether C. which D. what

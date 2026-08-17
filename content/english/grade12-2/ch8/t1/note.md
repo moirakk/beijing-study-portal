@@ -39,6 +39,27 @@ date: 2026-08-10
   <text x="180" y="231" font-size="12" fill="#831843" text-anchor="middle">代入验证，确保连贯</text>
 </svg>
 
+
+## 结构图示
+
+```mermaid
+flowchart TD
+    A["七选五解题策略"] --> B["整体理解文章结构"]
+    B --> C["分析空格位置"]
+    C --> D["利用逻辑与衔接词"]
+    D --> E["代入验证"]
+    A --> F["空格位置规律"]
+    F --> F1["段首空格→引出该段主题"]
+    F --> F2["段中空格→补充细节/举例"]
+    F --> F3["段末空格→总结/过渡"]
+    D --> D1["besides / furthermore / however / therefore"]
+    D --> D2["代词前指：it/they/this 指代上文名词"]
+    style A fill:#f97316,color:#fff,stroke:#ea580c
+    style B fill:#fed7aa,stroke:#fb923c
+    style C fill:#fed7aa,stroke:#fb923c
+    style D fill:#fdba74,stroke:#fb923c
+```
+
 ## 典型例题
 
 **例 1**：设空在段首，后文讲 "First, exercise helps you stay healthy. Second, it improves your mood." 问：应选哪句？

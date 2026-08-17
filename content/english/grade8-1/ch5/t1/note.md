@@ -48,6 +48,28 @@ Starting out 是 Unit 5 *Play by the rules?* 的导入环节。教材通过图�
 2. Let's 后接动词原形：Let's **be** on time.
 3. "No + doing" 表示禁止：No **talking**. / No **eating**.
 
+
+## 结构图示
+
+```mermaid
+mindmap
+  root(("Unit 5 Starting out"))
+    重点词汇
+      vocabulary
+      grammar
+      phrases
+    语法要点
+      rule n. 规则
+      law n. 法律
+      traffic
+    易错点
+      sentences
+      reading
+    练习题
+      writing
+      考点总结
+```
+
 ## 五、练习题
 
 1. 将下列句子改为祈使句：
