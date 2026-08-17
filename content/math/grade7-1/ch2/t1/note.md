@@ -73,6 +73,32 @@ $$a - b = a + (-b)$$
 
 > 💡 **理解要点**：减法法则把减法统一转化为加法，从此加减混合运算可以写成「省略括号的和的形式」，如 $-3 + 5 - 8 = (-3) + 5 + (-8)$。
 
+## 减法转加法示意
+
+<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-sub" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#9c27b0"/>
+    </marker>
+  </defs>
+  <!-- 减法 -->
+  <rect x="20" y="20" width="140" height="40" fill="#7b1fa2" rx="6"/>
+  <text x="90" y="45" text-anchor="middle" font-size="14" fill="white" font-weight="bold">3 − (−4)</text>
+  <!-- 箭头 -->
+  <path d="M165,40 L235,40" stroke="#9c27b0" stroke-width="2.5" marker-end="url(#arr-sub)"/>
+  <text x="200" y="32" text-anchor="middle" font-size="11" fill="#9c27b0">减去 = 加相反数</text>
+  <!-- 加法 -->
+  <rect x="240" y="20" width="140" height="40" fill="#9c27b0" rx="6"/>
+  <text x="310" y="45" text-anchor="middle" font-size="14" fill="white" font-weight="bold">3 + (+4)</text>
+  <!-- 箭头 -->
+  <path d="M385,40 L435,40" stroke="#ce93d8" stroke-width="2.5" marker-end="url(#arr-sub)"/>
+  <!-- 结果 -->
+  <rect x="440" y="20" width="50" height="40" fill="#ce93d8" rx="6"/>
+  <text x="465" y="45" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">= 7</text>
+  <!-- 说明 -->
+  <text x="250" y="85" text-anchor="middle" font-size="12" fill="#7b1fa2">a − b = a + (−b)：减号变加号，b 变相反数</text>
+</svg>
+
 ## 四、加减混合运算步骤
 
 1. 把减法都化为加法（写成省略加号的和的形式）；

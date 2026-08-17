@@ -21,6 +21,39 @@ $$s^2 = \frac{1}{n}\left[(x_1 - \bar{x})^2 + (x_2 - \bar{x})^2 + \cdots + (x_n -
 
 计算四步：**求平均 → 作差 → 平方求和 → 除以 $n$**。
 
+<svg width="420" height="180" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 180">
+  <!-- 标题 -->
+  <text x="210" y="18" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">方差对比：甲（稳定）vs 乙（波动大）</text>
+  <!-- 甲的数据（集中在8附近） -->
+  <text x="105" y="40" font-size="12" fill="#7b1fa2" font-weight="bold" text-anchor="middle">甲（s²=0.4，稳定）</text>
+  <line x1="20" y1="80" x2="190" y2="80" stroke="#424242" stroke-width="1.5"/>
+  <line x1="105" y1="60" x2="105" y2="100" stroke="#9c27b0" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="105" y="115" font-size="11" fill="#9c27b0" text-anchor="middle">x̄=8</text>
+  <!-- 甲的数据点（紧密） -->
+  <circle cx="90" cy="80" r="5" fill="#7b1fa2"/>
+  <circle cx="100" cy="80" r="5" fill="#7b1fa2"/>
+  <circle cx="105" cy="80" r="5" fill="#7b1fa2"/>
+  <circle cx="110" cy="80" r="5" fill="#7b1fa2"/>
+  <circle cx="120" cy="80" r="5" fill="#7b1fa2"/>
+  <text x="105" y="145" font-size="11" fill="#424242" text-anchor="middle">数据集中，波动小</text>
+
+  <!-- 乙的数据（分散） -->
+  <text x="315" y="40" font-size="12" fill="#9c27b0" font-weight="bold" text-anchor="middle">乙（s²=1.2，波动大）</text>
+  <line x1="230" y1="80" x2="400" y2="80" stroke="#424242" stroke-width="1.5"/>
+  <line x1="315" y1="60" x2="315" y2="100" stroke="#9c27b0" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="315" y="115" font-size="11" fill="#9c27b0" text-anchor="middle">x̄=8</text>
+  <!-- 乙的数据点（分散） -->
+  <circle cx="250" cy="80" r="5" fill="#9c27b0"/>
+  <circle cx="275" cy="80" r="5" fill="#9c27b0"/>
+  <circle cx="315" cy="80" r="5" fill="#9c27b0"/>
+  <circle cx="355" cy="80" r="5" fill="#9c27b0"/>
+  <circle cx="380" cy="80" r="5" fill="#9c27b0"/>
+  <text x="315" y="145" font-size="11" fill="#424242" text-anchor="middle">数据分散，波动大</text>
+
+  <!-- 结论 -->
+  <text x="210" y="168" font-size="12" fill="#7b1fa2" font-weight="bold" text-anchor="middle">s²甲 &lt; s²乙 → 甲更稳定，选甲参赛</text>
+</svg>
+
 ## 三、典型例题
 
 **例1** 求数据 $1, 2, 3, 4, 5$ 的方差。

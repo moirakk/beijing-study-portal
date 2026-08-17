@@ -25,6 +25,32 @@ $$
 
 **答案：(1) $(12a+5b)$ 元；(2) $240$ 元**
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="100" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">列代数式 + 代入求值 综合流程</text>
+  <!-- 步骤1 -->
+  <rect x="40" y="42" width="130" height="55" fill="#7b1fa2" rx="6"/>
+  <text x="105" y="62" text-anchor="middle" font-size="12" fill="white">读题</text>
+  <text x="105" y="78" text-anchor="middle" font-size="11" fill="white">找数量关系</text>
+  <text x="105" y="94" text-anchor="middle" font-size="11" fill="white">a支钢笔，b本本</text>
+  <!-- 箭头 -->
+  <text x="185" y="72" text-anchor="middle" font-size="18" fill="#9c27b0">→</text>
+  <!-- 步骤2 -->
+  <rect x="200" y="42" width="130" height="55" fill="#9c27b0" rx="6"/>
+  <text x="265" y="62" text-anchor="middle" font-size="12" fill="white">列代数式</text>
+  <text x="265" y="78" text-anchor="middle" font-size="11" fill="white">12a + 5b</text>
+  <text x="265" y="94" text-anchor="middle" font-size="11" fill="white">（元）</text>
+  <!-- 箭头 -->
+  <text x="345" y="72" text-anchor="middle" font-size="18" fill="#9c27b0">→</text>
+  <!-- 步骤3 -->
+  <rect x="360" y="42" width="110" height="55" fill="#ce93d8" rx="6"/>
+  <text x="415" y="62" text-anchor="middle" font-size="12" fill="#212121">代入求值</text>
+  <text x="415" y="78" text-anchor="middle" font-size="11" fill="#212121">a=10, b=24</text>
+  <text x="415" y="94" text-anchor="middle" font-size="11" fill="#7b1fa2" font-weight="bold">= 240元</text>
+</svg>
+
 ---
 
 ## 例题 2（综合 · 整体代入）

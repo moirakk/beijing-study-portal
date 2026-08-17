@@ -16,6 +16,37 @@ date: 2026-08-06
 | 两直线交点 | 联立解析式解方程组 |
 | 分段函数 | 按自变量范围分段列式 |
 
+<svg width="420" height="220" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 220">
+  <!-- 坐标轴 -->
+  <line x1="20" y1="180" x2="400" y2="180" stroke="#424242" stroke-width="2"/>
+  <polygon points="400,180 392,176 392,184" fill="#424242"/>
+  <text x="404" y="184" font-size="13" fill="#424242" font-style="italic">x</text>
+  <line x1="60" y1="210" x2="60" y2="20" stroke="#424242" stroke-width="2"/>
+  <polygon points="60,20 56,28 64,28" fill="#424242"/>
+  <text x="64" y="18" font-size="13" fill="#424242" font-style="italic">y</text>
+  <text x="64" y="194" font-size="12" fill="#424242">O</text>
+
+  <!-- 直线 y=-2x+4，x截距(2,0)→(120,180)，y截距(0,4)→(60,100) -->
+  <line x1="60" y1="100" x2="220" y2="180" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="225" y="178" font-size="12" fill="#7b1fa2" font-weight="bold">y=-2x+4</text>
+  <!-- 截距点 -->
+  <circle cx="60" cy="100" r="4" fill="#9c27b0"/>
+  <text x="64" y="98" font-size="12" fill="#9c27b0">(0,4)</text>
+  <circle cx="220" cy="180" r="4" fill="#9c27b0"/>
+  <text x="222" y="196" font-size="12" fill="#9c27b0">(2,0)</text>
+  <!-- 三角形面积区域 -->
+  <polygon points="60,180 60,100 220,180" fill="#e1bee7" opacity="0.6"/>
+  <text x="110" y="165" font-size="13" fill="#7b1fa2" font-weight="bold">S=½×2×4=4</text>
+
+  <!-- 第二条直线 y=x-1，交点示意 -->
+  <line x1="60" y1="160" x2="380" y2="20" stroke="#9c27b0" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="382" y="18" font-size="12" fill="#9c27b0" font-weight="bold">y=x-1</text>
+  <!-- 交点 -->
+  <circle cx="167" cy="113" r="5" fill="#7b1fa2"/>
+  <text x="172" y="110" font-size="12" fill="#7b1fa2" font-weight="bold">交点</text>
+  <text x="210" y="210" font-size="12" fill="#424242" text-anchor="middle">联立两直线方程解方程组，求交点坐标</text>
+</svg>
+
 ## 二、直线与坐标轴围成的三角形
 
 直线 $y = kx + b$ 与 $x$ 轴交于 $\left(-\dfrac{b}{k}, 0\right)$，与 $y$ 轴交于 $(0, b)$，与两轴围成直角三角形：
