@@ -69,7 +69,7 @@ export default function Layout() {
             <span><span className="text-gold">dby</span><span className="hidden sm:inline">赶紧学习</span></span>
           </Link>
 
-          <nav className="flex items-center gap-1.5 overflow-x-auto no-scrollbar mask-edge">
+          <nav className="hidden sm:flex items-center gap-1.5 overflow-x-auto no-scrollbar mask-edge">
             <NavLink
               to="/"
               end
@@ -109,13 +109,13 @@ export default function Layout() {
             />
           </div>
 
-          {/* 移动端搜索图标（sm 以下显示，点击进搜索页） */}
+          {/* 移动端搜索图标（与底部 tab 栏重复，因此隐藏） */}
           <button
             type="button"
             onClick={() => navigate('/search')}
             aria-label="搜索"
             title="搜索"
-            className="flex sm:hidden h-8 w-8 shrink-0 items-center justify-center rounded-full border border-transparent text-sm transition-colors hover:border-line hover:bg-panel"
+            className="hidden h-8 w-8 shrink-0 items-center justify-center rounded-full border border-transparent text-sm transition-colors hover:border-line hover:bg-panel"
           >
             🔍
           </button>
