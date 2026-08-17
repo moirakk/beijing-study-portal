@@ -39,6 +39,28 @@ date: 2026-08-05
 - **制订计划**：把目标落实到每天的时间安排中，如作息表、学习计划。
 - **坚持行动**：从当下做起，日积月累；遇到变化及时调整计划，不轻言放弃。
 
+```mermaid
+graph TD
+    A["规划初中生活"] --> B["确立目标"]
+    A --> C["分解目标"]
+    A --> D["制订计划"]
+    A --> E["坚持行动"]
+    B --> B1["切合实际"]
+    B --> B2["符合兴趣与能力"]
+    C --> C1["长远目标"]
+    C --> C2["阶段性小目标"]
+    D --> D1["作息表"]
+    D --> D2["学习计划"]
+    E --> E1["日积月累"]
+    E --> E2["及时调整"]
+
+    style A fill:#c0392b,color:#fff,stroke:#922b21
+    style B fill:#e74c3c,color:#fff,stroke:#c0392b
+    style C fill:#e74c3c,color:#fff,stroke:#c0392b
+    style D fill:#e74c3c,color:#fff,stroke:#c0392b
+    style E fill:#e74c3c,color:#fff,stroke:#c0392b
+```
+
 ## 四、重要概念
 
 | 术语 | 定义 |

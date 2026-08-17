@@ -39,6 +39,29 @@ date: 2026-08-05
 - **积极适应**：主动认识新同学、熟悉新老师、了解新校园，尽快融入新集体。
 - **迎接挑战**：面对更多课程、更快节奏，不畏难、不退缩，及时调整方法。
 
+```mermaid
+graph TD
+    A["中学时代"] --> B["新阶段"]
+    A --> C["新机会"]
+    A --> D["新挑战"]
+    B --> B1["少年→青年的生命进阶"]
+    B --> B2["为一生奠定重要基础"]
+    C --> C1["新目标 新课程"]
+    C --> C2["新同学 新社团"]
+    D --> D1["更多课程 更快节奏"]
+    D --> D2["积极适应 迎难而上"]
+    A --> E["正确态度"]
+    E --> E1["珍视当下"]
+    E --> E2["把握机遇"]
+    E --> E3["积极适应"]
+
+    style A fill:#c0392b,color:#fff,stroke:#922b21
+    style B fill:#e74c3c,color:#fff,stroke:#c0392b
+    style C fill:#e74c3c,color:#fff,stroke:#c0392b
+    style D fill:#e74c3c,color:#fff,stroke:#c0392b
+    style E fill:#e74c3c,color:#fff,stroke:#c0392b
+```
+
 ## 四、重要概念
 
 | 术语 | 定义 |
