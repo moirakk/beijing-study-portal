@@ -23,6 +23,43 @@ date: 2026-08-05
 - **范围**：先后到达亚洲和非洲的 30 多个国家和地区，最远到达**非洲东海岸和红海沿岸**；
 - **规模**：首航 200 多艘船、2.7 万多人，规模浩大；
 - **交往方式**：满载丝绸、瓷器、茶叶等物品，先后访问各国，赠送物品、开展贸易，友好交往。
+
+**郑和下西洋航线示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" style="max-width:100%;height:auto">
+  <rect width="800" height="360" fill="#FFF8F0" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E2723">郑和下西洋航线示意图（1405—1433年）</text>
+  <!-- 出发地 -->
+  <circle cx="620" cy="130" r="14" fill="#4E342E"/>
+  <text x="640" y="125" font-size="13" fill="#3E2723" font-weight="bold">刘家港</text>
+  <text x="640" y="142" font-size="11" fill="#795548">出发地·今江苏</text>
+  <!-- 航线（从东向西） -->
+  <path d="M 620 130 Q 550 160 480 180 Q 400 200 330 210 Q 260 220 200 240 Q 150 255 110 270" stroke="#795548" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+  <!-- 东南亚 -->
+  <circle cx="480" cy="180" r="10" fill="#795548"/>
+  <text x="490" y="175" font-size="12" fill="#3E2723">东南亚</text>
+  <!-- 印度 -->
+  <circle cx="330" cy="210" r="10" fill="#795548"/>
+  <text x="340" y="205" font-size="12" fill="#3E2723">印度</text>
+  <!-- 阿拉伯半岛 -->
+  <circle cx="200" cy="240" r="10" fill="#795548"/>
+  <text x="210" y="235" font-size="12" fill="#3E2723">阿拉伯半岛</text>
+  <!-- 红海沿岸 -->
+  <circle cx="130" cy="260" r="10" fill="#4E342E"/>
+  <text x="60" y="255" font-size="12" fill="#3E2723" font-weight="bold">红海沿岸</text>
+  <!-- 非洲东海岸 -->
+  <circle cx="110" cy="280" r="12" fill="#4E342E"/>
+  <text x="30" y="295" font-size="13" fill="#3E2723" font-weight="bold">非洲东海岸</text>
+  <text x="30" y="310" font-size="11" fill="#795548">最远到达地</text>
+  <!-- 规模说明 -->
+  <rect x="500" y="240" width="260" height="90" rx="8" fill="#EFEBE9" stroke="#795548" stroke-width="1.5"/>
+  <text x="630" y="262" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">郑和下西洋规模</text>
+  <text x="630" y="282" text-anchor="middle" font-size="12" fill="#795548">时间：1405—1433年</text>
+  <text x="630" y="300" text-anchor="middle" font-size="12" fill="#795548">次数：七次</text>
+  <text x="630" y="318" text-anchor="middle" font-size="12" fill="#795548">首航：200余艘船·2.7万余人</text>
+  <!-- 意义 -->
+  <text x="400" y="345" text-anchor="middle" font-size="12" fill="#4E342E">世界航海史上的空前壮举，比欧洲远航早半个多世纪</text>
+</svg>
 ### 4. 意义
 - 是**世界航海史上的空前壮举**（时间早于欧洲远航半个多世纪、规模大、次数多）；
 - 增进了中国与亚非国家和地区的相互了解和友好往来；

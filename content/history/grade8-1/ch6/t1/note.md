@@ -7,6 +7,49 @@ date: 2026-08-06
 
 ## 时间线
 
+**从九一八事变到西安事变时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" style="max-width:100%;height:auto">
+  <rect width="820" height="240" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">从九一八事变到西安事变（1931—1936年）</text>
+  <line x1="50" y1="95" x2="780" y2="95" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,90 792,95 780,100" fill="#795548"/>
+  <circle cx="100" cy="95" r="7" fill="#795548"/>
+  <circle cx="240" cy="95" r="7" fill="#795548"/>
+  <circle cx="380" cy="95" r="7" fill="#795548"/>
+  <circle cx="510" cy="95" r="7" fill="#795548"/>
+  <circle cx="640" cy="95" r="8" fill="#4E342E"/>
+  <circle cx="760" cy="95" r="8" fill="#4E342E"/>
+  <text x="100" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1931.9.18</text>
+  <text x="240" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1932年</text>
+  <text x="380" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1935年</text>
+  <text x="510" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1935.12.9</text>
+  <text x="640" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1936.12.12</text>
+  <text x="760" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1936.12.25</text>
+  <text x="100" y="117" text-anchor="middle" font-size="11" fill="#3E2723">九一八事变</text>
+  <text x="100" y="131" text-anchor="middle" font-size="11" fill="#3E2723">日本侵华开始</text>
+  <text x="100" y="145" text-anchor="middle" font-size="11" fill="#3E2723">东北三省沦陷</text>
+  <text x="240" y="117" text-anchor="middle" font-size="11" fill="#3E2723">日本扶植溥仪</text>
+  <text x="240" y="131" text-anchor="middle" font-size="11" fill="#3E2723">建立伪满洲国</text>
+  <text x="380" y="117" text-anchor="middle" font-size="11" fill="#3E2723">华北事变</text>
+  <text x="380" y="131" text-anchor="middle" font-size="11" fill="#3E2723">民族危机加深</text>
+  <text x="380" y="145" text-anchor="middle" font-size="11" fill="#3E2723">中共提出统一战线</text>
+  <text x="510" y="117" text-anchor="middle" font-size="11" fill="#3E2723">一二·九运动</text>
+  <text x="510" y="131" text-anchor="middle" font-size="11" fill="#3E2723">北平学生</text>
+  <text x="510" y="145" text-anchor="middle" font-size="11" fill="#3E2723">抗日救国示威</text>
+  <text x="640" y="117" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">西安事变</text>
+  <text x="640" y="131" text-anchor="middle" font-size="11" fill="#4E342E">张学良·杨虎城</text>
+  <text x="640" y="145" text-anchor="middle" font-size="11" fill="#4E342E">扣押蒋介石</text>
+  <text x="760" y="117" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">西安事变</text>
+  <text x="760" y="131" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">和平解决</text>
+  <text x="760" y="145" text-anchor="middle" font-size="11" fill="#4E342E">十年内战</text>
+  <text x="760" y="159" text-anchor="middle" font-size="11" fill="#4E342E">基本停止</text>
+  <rect x="120" y="190" width="580" height="34" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="206" text-anchor="middle" font-size="11" fill="#3E2723">九一八事变：中国人民抗日战争起点，揭开世界反法西斯战争序幕</text>
+  <text x="410" y="222" text-anchor="middle" font-size="11" fill="#4E342E">西安事变和平解决：抗日民族统一战线初步形成</text>
+</svg>
+
+
 - 1931 年 9 月 18 日：九一八事变爆发，日本侵华开始
 - 1931 年 9 月 19 日：日军占领沈阳，不久侵占东北三省
 - 1932 年：日本扶植溥仪建立伪满洲国

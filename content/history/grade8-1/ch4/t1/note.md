@@ -7,6 +7,44 @@ date: 2026-08-06
 
 ## 时间线
 
+**五四运动发展时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" style="max-width:100%;height:auto">
+  <rect width="820" height="240" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">五四运动时间轴（1919年）</text>
+  <line x1="50" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 792,90 780,95" fill="#795548"/>
+  <circle cx="110" cy="90" r="7" fill="#795548"/>
+  <circle cx="280" cy="90" r="7" fill="#795548"/>
+  <circle cx="450" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="620" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="750" cy="90" r="7" fill="#795548"/>
+  <text x="110" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1919.5.4</text>
+  <text x="280" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1919.5</text>
+  <text x="450" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1919.6.3后</text>
+  <text x="620" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1919.6</text>
+  <text x="750" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1919.6.28</text>
+  <text x="110" y="112" text-anchor="middle" font-size="11" fill="#3E2723">北京学生</text>
+  <text x="110" y="126" text-anchor="middle" font-size="11" fill="#3E2723">天安门示威</text>
+  <text x="110" y="140" text-anchor="middle" font-size="11" fill="#3E2723">运动爆发</text>
+  <text x="280" y="112" text-anchor="middle" font-size="11" fill="#3E2723">北洋政府</text>
+  <text x="280" y="126" text-anchor="middle" font-size="11" fill="#3E2723">逮捕学生</text>
+  <text x="280" y="140" text-anchor="middle" font-size="11" fill="#3E2723">全国响应</text>
+  <text x="450" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">中心转上海</text>
+  <text x="450" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">工人罢工</text>
+  <text x="450" y="140" text-anchor="middle" font-size="11" fill="#4E342E">工人成主力</text>
+  <text x="620" y="112" text-anchor="middle" font-size="11" fill="#3E2723">政府释放学生</text>
+  <text x="620" y="126" text-anchor="middle" font-size="11" fill="#3E2723">罢免曹汝霖等</text>
+  <text x="620" y="140" text-anchor="middle" font-size="11" fill="#3E2723">初步胜利</text>
+  <text x="750" y="112" text-anchor="middle" font-size="11" fill="#3E2723">中国代表</text>
+  <text x="750" y="126" text-anchor="middle" font-size="11" fill="#3E2723">拒签巴黎</text>
+  <text x="750" y="140" text-anchor="middle" font-size="11" fill="#3E2723">和约</text>
+  <rect x="100" y="185" width="620" height="38" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="201" text-anchor="middle" font-size="11" fill="#3E2723">导火线：巴黎和会中国外交失败（山东权益转让日本）</text>
+  <text x="410" y="217" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">意义：中国新民主主义革命的开端，促进马克思主义传播</text>
+</svg>
+
+
 - 1915 年：新文化运动兴起，为五四运动奠定思想基础
 - 1917 年：俄国十月革命爆发，马克思主义传入中国
 - 1919 年 5 月 4 日：五四运动在北京爆发

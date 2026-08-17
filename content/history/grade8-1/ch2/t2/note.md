@@ -7,6 +7,43 @@ date: 2026-08-06
 
 ## 时间线
 
+**甲午中日战争时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 230" style="max-width:100%;height:auto">
+  <rect width="820" height="230" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">甲午中日战争时间轴（1894—1895年）</text>
+  <line x1="50" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 792,90 780,95" fill="#795548"/>
+  <circle cx="100" cy="90" r="7" fill="#795548"/>
+  <circle cx="240" cy="90" r="7" fill="#795548"/>
+  <circle cx="380" cy="90" r="7" fill="#795548"/>
+  <circle cx="510" cy="90" r="7" fill="#795548"/>
+  <circle cx="640" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="750" cy="90" r="7" fill="#4E342E"/>
+  <text x="100" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1894.7</text>
+  <text x="240" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1894.9</text>
+  <text x="380" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1894.10</text>
+  <text x="510" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1895初</text>
+  <text x="640" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1895.4</text>
+  <text x="750" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1895</text>
+  <text x="100" y="112" text-anchor="middle" font-size="11" fill="#3E2723">战争爆发</text>
+  <text x="100" y="126" text-anchor="middle" font-size="11" fill="#3E2723">丰岛海战</text>
+  <text x="240" y="112" text-anchor="middle" font-size="11" fill="#3E2723">黄海海战</text>
+  <text x="240" y="126" text-anchor="middle" font-size="11" fill="#3E2723">邓世昌殉国</text>
+  <text x="380" y="112" text-anchor="middle" font-size="11" fill="#3E2723">日占辽东</text>
+  <text x="380" y="126" text-anchor="middle" font-size="11" fill="#3E2723">旅顺大屠杀</text>
+  <text x="510" y="112" text-anchor="middle" font-size="11" fill="#3E2723">威海卫战役</text>
+  <text x="510" y="126" text-anchor="middle" font-size="11" fill="#3E2723">北洋舰队覆没</text>
+  <text x="640" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">签订</text>
+  <text x="640" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">《马关条约》</text>
+  <text x="750" y="112" text-anchor="middle" font-size="11" fill="#3E2723">俄德法</text>
+  <text x="750" y="126" text-anchor="middle" font-size="11" fill="#3E2723">三国干涉还辽</text>
+  <rect x="160" y="175" width="500" height="38" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="191" text-anchor="middle" font-size="11" fill="#3E2723">《马关条约》：割辽东半岛·台湾·澎湖列岛，赔款2亿两白银</text>
+  <text x="410" y="207" text-anchor="middle" font-size="11" fill="#3E2723">允许日本在华设厂 → 中国半殖民地化程度大大加深</text>
+</svg>
+
+
 - 1894 年 7 月：日本在丰岛海面袭击清军运兵船，甲午中日战争爆发
 - 1894 年 9 月：黄海海战，邓世昌率致远舰英勇殉国
 - 1894 年 10 月：日军占领辽东半岛，制造旅顺大屠杀

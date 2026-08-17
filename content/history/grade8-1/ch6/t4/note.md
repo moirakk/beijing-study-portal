@@ -7,6 +7,48 @@ date: 2026-08-06
 
 ## 时间线
 
+**抗日战争胜利时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 230" style="max-width:100%;height:auto">
+  <rect width="820" height="230" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">抗日战争胜利时间轴（1945年）</text>
+  <line x1="50" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 792,90 780,95" fill="#795548"/>
+  <circle cx="100" cy="90" r="7" fill="#795548"/>
+  <circle cx="240" cy="90" r="7" fill="#795548"/>
+  <circle cx="370" cy="90" r="7" fill="#795548"/>
+  <circle cx="490" cy="90" r="7" fill="#795548"/>
+  <circle cx="610" cy="90" r="8" fill="#4E342E"/>
+  <circle cx="720" cy="90" r="8" fill="#4E342E"/>
+  <text x="100" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.4-6</text>
+  <text x="240" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.8.6/9</text>
+  <text x="370" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.8.8</text>
+  <text x="490" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.8.9</text>
+  <text x="610" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.8.15</text>
+  <text x="720" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1945.9.2</text>
+  <text x="100" y="112" text-anchor="middle" font-size="11" fill="#3E2723">中共七大</text>
+  <text x="100" y="126" text-anchor="middle" font-size="11" fill="#3E2723">延安召开</text>
+  <text x="100" y="140" text-anchor="middle" font-size="11" fill="#3E2723">确立毛泽东思想</text>
+  <text x="240" y="112" text-anchor="middle" font-size="11" fill="#3E2723">美国向日本</text>
+  <text x="240" y="126" text-anchor="middle" font-size="11" fill="#3E2723">广岛·长崎</text>
+  <text x="240" y="140" text-anchor="middle" font-size="11" fill="#3E2723">投掷原子弹</text>
+  <text x="370" y="112" text-anchor="middle" font-size="11" fill="#3E2723">苏联对日</text>
+  <text x="370" y="126" text-anchor="middle" font-size="11" fill="#3E2723">宣战</text>
+  <text x="370" y="140" text-anchor="middle" font-size="11" fill="#3E2723">出兵东北</text>
+  <text x="490" y="112" text-anchor="middle" font-size="11" fill="#3E2723">毛泽东发表</text>
+  <text x="490" y="126" text-anchor="middle" font-size="11" fill="#3E2723">《对日寇的</text>
+  <text x="490" y="140" text-anchor="middle" font-size="11" fill="#3E2723">最后一战》</text>
+  <text x="610" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">日本宣布</text>
+  <text x="610" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">无条件投降</text>
+  <text x="720" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">日本签署</text>
+  <text x="720" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">投降书</text>
+  <text x="720" y="140" text-anchor="middle" font-size="11" fill="#4E342E">抗战胜利</text>
+  <rect x="120" y="178" width="580" height="36" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="194" text-anchor="middle" font-size="11" fill="#3E2723">中国抗日战争：近代以来反抗外敌入侵第一次取得完全胜利的民族解放战争</text>
+  <text x="410" y="210" text-anchor="middle" font-size="11" fill="#4E342E">中国战场是世界反法西斯战争的东方主战场 | 台湾1945.10.25回归祖国</text>
+</svg>
+
+
 - 1945 年 4-6 月：中共七大在延安召开
 - 1945 年 8 月 6 日和 9 日：美国向日本广岛、长崎投掷原子弹
 - 1945 年 8 月 8 日：苏联对日宣战，出兵中国东北

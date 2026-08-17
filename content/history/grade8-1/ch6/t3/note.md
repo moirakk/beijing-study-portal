@@ -7,6 +7,53 @@ date: 2026-08-06
 
 ## 时间线
 
+**正面战场与敌后战场对比图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" style="max-width:100%;height:auto">
+  <rect width="800" height="320" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">正面战场与敌后战场对比</text>
+  <!-- 表头 -->
+  <rect x="20" y="42" width="760" height="32" rx="4" fill="#795548"/>
+  <text x="160" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="white">比较项目</text>
+  <text x="420" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="white">正面战场</text>
+  <text x="650" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="white">敌后战场</text>
+  <!-- 行1 -->
+  <rect x="20" y="74" width="760" height="40" fill="#D7CCC8"/>
+  <text x="160" y="99" text-anchor="middle" font-size="12" fill="#3E2723">领导力量</text>
+  <text x="420" y="99" text-anchor="middle" font-size="12" fill="#3E2723">国民党军队</text>
+  <text x="650" y="99" text-anchor="middle" font-size="12" fill="#3E2723">中国共产党（八路军·新四军）</text>
+  <!-- 行2 -->
+  <rect x="20" y="114" width="760" height="40" fill="#EFEBE9"/>
+  <text x="160" y="139" text-anchor="middle" font-size="12" fill="#3E2723">作战方式</text>
+  <text x="420" y="139" text-anchor="middle" font-size="12" fill="#3E2723">阵地战·大规模会战</text>
+  <text x="650" y="139" text-anchor="middle" font-size="12" fill="#3E2723">游击战·运动战</text>
+  <!-- 行3 -->
+  <rect x="20" y="154" width="760" height="40" fill="#D7CCC8"/>
+  <text x="160" y="179" text-anchor="middle" font-size="12" fill="#3E2723">主要战役</text>
+  <text x="420" y="169" text-anchor="middle" font-size="11" fill="#3E2723">淞沪会战·台儿庄战役</text>
+  <text x="420" y="185" text-anchor="middle" font-size="11" fill="#3E2723">武汉会战·第三次长沙会战</text>
+  <text x="650" y="169" text-anchor="middle" font-size="11" fill="#3E2723">平型关大捷（1937.9）</text>
+  <text x="650" y="185" text-anchor="middle" font-size="11" fill="#3E2723">百团大战（1940年下半年）</text>
+  <!-- 行4 -->
+  <rect x="20" y="194" width="760" height="40" fill="#EFEBE9"/>
+  <text x="160" y="219" text-anchor="middle" font-size="12" fill="#3E2723">代表人物</text>
+  <text x="420" y="219" text-anchor="middle" font-size="12" fill="#3E2723">李宗仁（台儿庄）</text>
+  <text x="650" y="219" text-anchor="middle" font-size="12" fill="#3E2723">林彪（平型关）·彭德怀（百团）</text>
+  <!-- 行5 -->
+  <rect x="20" y="234" width="760" height="40" fill="#D7CCC8"/>
+  <text x="160" y="259" text-anchor="middle" font-size="12" fill="#3E2723">最大意义</text>
+  <text x="420" y="254" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">台儿庄战役：抗战以来</text>
+  <text x="420" y="270" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">正面战场最大胜利</text>
+  <text x="650" y="254" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">平型关大捷：全民族抗战</text>
+  <text x="650" y="270" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">以来第一次大捷</text>
+  <!-- 分隔线 -->
+  <line x1="280" y1="42" x2="280" y2="274" stroke="#795548" stroke-width="1"/>
+  <line x1="540" y1="42" x2="540" y2="274" stroke="#795548" stroke-width="1"/>
+  <rect x="20" y="282" width="760" height="26" rx="4" fill="#4E342E"/>
+  <text x="400" y="300" text-anchor="middle" font-size="12" fill="white">两个战场相互配合，共同构成中国抗日战争整体，缺一不可</text>
+</svg>
+
+
 - 1937 年 8-11 月：淞沪会战
 - 1937 年 9 月：平型关大捷
 - 1938 年 3-4 月：台儿庄战役

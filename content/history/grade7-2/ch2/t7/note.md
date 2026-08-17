@@ -23,6 +23,48 @@ date: 2026-08-05
 - **进出口商品**：出口丝绸、瓷器、茶叶等；进口香料、象牙、珠宝等。
 - **管理机构**：朝廷在主要港口设立**市舶司**，管理海外贸易；外贸所得在财政收入中占有重要地位。
 
+**宋元对外交流示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#FFF8F0" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E2723">宋元时期对外交流示意图</text>
+  <!-- 中国（宋元） -->
+  <ellipse cx="300" cy="180" rx="80" ry="50" fill="#795548"/>
+  <text x="300" y="175" text-anchor="middle" font-size="15" fill="white" font-weight="bold">宋元</text>
+  <text x="300" y="195" text-anchor="middle" font-size="12" fill="#D7CCC8">广州·泉州</text>
+  <!-- 日本/朝鲜（右上） -->
+  <rect x="530" y="50" width="130" height="55" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="595" y="75" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">日本·朝鲜</text>
+  <text x="595" y="95" text-anchor="middle" font-size="11" fill="#795548">东亚贸易往来</text>
+  <!-- 东南亚（右中） -->
+  <rect x="560" y="155" width="130" height="55" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="625" y="180" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">东南亚</text>
+  <text x="625" y="200" text-anchor="middle" font-size="11" fill="#795548">香料·象牙</text>
+  <!-- 阿拉伯/波斯（右下） -->
+  <rect x="530" y="255" width="130" height="55" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="595" y="280" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">阿拉伯·波斯</text>
+  <text x="595" y="300" text-anchor="middle" font-size="11" fill="#795548">中介传播三大发明</text>
+  <!-- 非洲东海岸（左下） -->
+  <rect x="100" y="255" width="130" height="55" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="165" y="280" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">非洲东海岸</text>
+  <text x="165" y="300" text-anchor="middle" font-size="11" fill="#795548">贸易最远端</text>
+  <!-- 马可波罗（左上） -->
+  <rect x="80" y="50" width="130" height="55" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="145" y="75" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">意大利</text>
+  <text x="145" y="95" text-anchor="middle" font-size="11" fill="#795548">马可·波罗来华</text>
+  <!-- 箭头 -->
+  <line x1="380" y1="160" x2="530" y2="90" stroke="#795548" stroke-width="1.5"/>
+  <line x1="380" y1="175" x2="560" y2="182" stroke="#795548" stroke-width="1.5"/>
+  <line x1="380" y1="195" x2="530" y2="270" stroke="#795548" stroke-width="1.5"/>
+  <line x1="220" y1="195" x2="230" y2="270" stroke="#795548" stroke-width="1.5"/>
+  <line x1="220" y1="160" x2="210" y2="90" stroke="#795548" stroke-width="1.5"/>
+  <!-- 出口商品 -->
+  <text x="400" y="130" font-size="11" fill="#4E342E">出口：丝绸·瓷器·茶叶</text>
+  <!-- 市舶司 -->
+  <rect x="270" y="240" width="120" height="30" rx="5" fill="#EFEBE9" stroke="#795548" stroke-width="1"/>
+  <text x="330" y="260" text-anchor="middle" font-size="11" fill="#3E2723">市舶司管理海外贸易</text>
+</svg>
+
 ## 二、陆路交通与交流（元朝）
 - 元朝建立了四通八达的**驿站**系统，陆路向西通往中亚、西亚及东欧；
 - 陆上丝绸之路在元朝依然发挥重要作用，东西方使节、商人、传教士往来频繁。

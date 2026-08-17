@@ -7,6 +7,43 @@ date: 2026-08-06
 
 ## 时间线
 
+**辛亥革命时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" style="max-width:100%;height:auto">
+  <rect width="820" height="220" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">辛亥革命时间轴（1911—1912年）</text>
+  <line x1="50" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 792,90 780,95" fill="#795548"/>
+  <circle cx="110" cy="90" r="7" fill="#795548"/>
+  <circle cx="250" cy="90" r="7" fill="#795548"/>
+  <circle cx="390" cy="90" r="7" fill="#795548"/>
+  <circle cx="530" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="660" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="760" cy="90" r="7" fill="#795548"/>
+  <text x="110" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1911.10.10</text>
+  <text x="250" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1911.10.11</text>
+  <text x="390" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1911年底</text>
+  <text x="530" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1912.1.1</text>
+  <text x="660" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1912.2.12</text>
+  <text x="760" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1912.3</text>
+  <text x="110" y="112" text-anchor="middle" font-size="11" fill="#3E2723">武昌起义</text>
+  <text x="110" y="126" text-anchor="middle" font-size="11" fill="#3E2723">爆发</text>
+  <text x="250" y="112" text-anchor="middle" font-size="11" fill="#3E2723">武昌全城</text>
+  <text x="250" y="126" text-anchor="middle" font-size="11" fill="#3E2723">光复</text>
+  <text x="390" y="112" text-anchor="middle" font-size="11" fill="#3E2723">半数以上省份</text>
+  <text x="390" y="126" text-anchor="middle" font-size="11" fill="#3E2723">宣布独立</text>
+  <text x="530" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">中华民国</text>
+  <text x="530" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">临时政府成立</text>
+  <text x="530" y="140" text-anchor="middle" font-size="11" fill="#4E342E">孙中山任总统</text>
+  <text x="660" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">清帝退位</text>
+  <text x="660" y="126" text-anchor="middle" font-size="11" fill="#4E342E">清朝统治结束</text>
+  <text x="760" y="112" text-anchor="middle" font-size="11" fill="#3E2723">颁布</text>
+  <text x="760" y="126" text-anchor="middle" font-size="11" fill="#3E2723">《临时约法》</text>
+  <rect x="180" y="175" width="460" height="28" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="194" text-anchor="middle" font-size="12" fill="#3E2723">辛亥革命推翻君主专制制度，但未改变半殖民地半封建社会性质</text>
+</svg>
+
+
 - 1911 年 10 月 10 日：武昌起义爆发，辛亥革命开始
 - 1911 年 10 月 11 日：武昌全城光复，成立湖北军政府
 - 1911 年底：全国一半以上省份宣布独立

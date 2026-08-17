@@ -23,6 +23,41 @@ date: 2026-08-05
 - 元昊仿效唐宋制度，订立官制、军制和法律，鼓励垦荒，发展农牧经济，还创制了西夏文字。
 - 共同点：两个政权都**学习中原文化**（制度、生产、文字），体现民族交融。
 
+**辽、西夏与北宋并立形势图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" style="max-width:100%;height:auto">
+  <rect width="700" height="380" fill="#FFF8F0" rx="10"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E2723">辽、西夏与北宋并立示意图</text>
+  <!-- 辽（北方） -->
+  <rect x="220" y="50" width="260" height="80" rx="8" fill="#D7CCC8" stroke="#4E342E" stroke-width="2"/>
+  <text x="350" y="82" text-anchor="middle" font-size="16" fill="#3E2723" font-weight="bold">辽（契丹族）</text>
+  <text x="350" y="102" text-anchor="middle" font-size="12" fill="#795548">916年·耶律阿保机·都城上京</text>
+  <text x="350" y="120" text-anchor="middle" font-size="11" fill="#795548">占幽云十六州</text>
+  <!-- 西夏（西北） -->
+  <rect x="50" y="180" width="200" height="80" rx="8" fill="#D7CCC8" stroke="#4E342E" stroke-width="2"/>
+  <text x="150" y="212" text-anchor="middle" font-size="16" fill="#3E2723" font-weight="bold">西夏（党项族）</text>
+  <text x="150" y="232" text-anchor="middle" font-size="12" fill="#795548">1038年·元昊·都城兴庆府</text>
+  <text x="150" y="250" text-anchor="middle" font-size="11" fill="#795548">西北地区</text>
+  <!-- 北宋（中原） -->
+  <rect x="350" y="200" width="260" height="80" rx="8" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <text x="480" y="232" text-anchor="middle" font-size="16" fill="white" font-weight="bold">北宋（汉族）</text>
+  <text x="480" y="252" text-anchor="middle" font-size="12" fill="#D7CCC8">960年·赵匡胤·都城开封</text>
+  <text x="480" y="270" text-anchor="middle" font-size="11" fill="#D7CCC8">中原及南方地区</text>
+  <!-- 辽宋关系 -->
+  <line x1="350" y1="130" x2="480" y2="200" stroke="#4E342E" stroke-width="2"/>
+  <text x="390" y="175" font-size="11" fill="#4E342E">澶渊之盟1005年</text>
+  <text x="390" y="188" font-size="11" fill="#4E342E">宋给辽岁币</text>
+  <!-- 宋夏关系 -->
+  <line x1="250" y1="220" x2="350" y2="240" stroke="#4E342E" stroke-width="2"/>
+  <text x="255" y="310" font-size="11" fill="#4E342E">宋夏和约</text>
+  <text x="255" y="323" font-size="11" fill="#4E342E">元昊称臣·宋给岁币</text>
+  <!-- 辽西夏关系 -->
+  <line x1="250" y1="180" x2="280" y2="130" stroke="#A1887F" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- 榷场标注 -->
+  <rect x="200" y="330" width="300" height="35" rx="6" fill="#EFEBE9" stroke="#795548" stroke-width="1"/>
+  <text x="350" y="352" text-anchor="middle" font-size="12" fill="#3E2723">边境设榷场进行互市贸易，和为主流</text>
+</svg>
+
 ## 二、辽与北宋的和战
 - **幽云十六州问题**：辽太宗时占有幽云十六州，从此辽与中原王朝的冲突加剧。
 - **澶州之战（1004 年）**：辽军大举攻宋，直逼开封；宰相**寇准**力劝**宋真宗**亲征，宋军士气大振，打退辽军。

@@ -7,6 +7,46 @@ date: 2026-08-06
 
 ## 时间线
 
+**鸦片战争事件时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" style="max-width:100%;height:auto">
+  <rect width="800" height="220" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">鸦片战争时间轴（1839—1842年）</text>
+  <!-- 主轴线 -->
+  <line x1="60" y1="90" x2="750" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="750,85 762,90 750,95" fill="#795548"/>
+  <!-- 节点 -->
+  <circle cx="100" cy="90" r="7" fill="#795548"/>
+  <circle cx="220" cy="90" r="7" fill="#795548"/>
+  <circle cx="340" cy="90" r="7" fill="#795548"/>
+  <circle cx="450" cy="90" r="7" fill="#795548"/>
+  <circle cx="570" cy="90" r="7" fill="#795548"/>
+  <circle cx="690" cy="90" r="7" fill="#4E342E"/>
+  <!-- 年份标注（上方） -->
+  <text x="100" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1839.3</text>
+  <text x="220" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1839.6.3</text>
+  <text x="340" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1840.6</text>
+  <text x="450" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1841.1</text>
+  <text x="570" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1842.6</text>
+  <text x="690" y="75" text-anchor="middle" font-size="11" fill="#4E342E">1842.8</text>
+  <!-- 事件标注（下方） -->
+  <text x="100" y="112" text-anchor="middle" font-size="11" fill="#3E2723">林则徐</text>
+  <text x="100" y="126" text-anchor="middle" font-size="11" fill="#3E2723">到广州禁烟</text>
+  <text x="220" y="112" text-anchor="middle" font-size="11" fill="#3E2723">虎门销烟</text>
+  <text x="340" y="112" text-anchor="middle" font-size="11" fill="#3E2723">英舰封锁</text>
+  <text x="340" y="126" text-anchor="middle" font-size="11" fill="#3E2723">珠江口</text>
+  <text x="340" y="140" text-anchor="middle" font-size="11" fill="#3E2723">战争爆发</text>
+  <text x="450" y="112" text-anchor="middle" font-size="11" fill="#3E2723">英军强占</text>
+  <text x="450" y="126" text-anchor="middle" font-size="11" fill="#3E2723">香港岛</text>
+  <text x="570" y="112" text-anchor="middle" font-size="11" fill="#3E2723">吴淞战役</text>
+  <text x="570" y="126" text-anchor="middle" font-size="11" fill="#3E2723">陈化成殉国</text>
+  <text x="690" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">签订</text>
+  <text x="690" y="126" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">《南京条约》</text>
+  <!-- 底部说明 -->
+  <rect x="200" y="175" width="400" height="30" rx="6" fill="#D7CCC8"/>
+  <text x="400" y="195" text-anchor="middle" font-size="12" fill="#3E2723">《南京条约》→ 中国近代史开端，开始沦为半殖民地半封建社会</text>
+</svg>
+
 - 1839 年 3 月：林则徐到达广州，严厉禁烟
 - 1839 年 6 月 3 日：林则徐在虎门海滩当众销毁收缴的鸦片
 - 1840 年 6 月：英国舰队封锁珠江口，鸦片战争正式爆发

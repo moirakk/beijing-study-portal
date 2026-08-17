@@ -16,6 +16,54 @@ date: 2026-08-05
 - **规模**：先后十几批，最多一次达 500 多人。
 - **影响**：把唐朝先进的**制度、天文历法、文字、典籍、书法艺术、建筑技术**等传回日本，对日本社会的发展产生了深远的影响（如日本的大化改新即仿效唐制）。
 
+**隋唐中外文化交流示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" style="max-width:100%;height:auto">
+  <rect width="800" height="320" fill="#FFF8F0" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#3E2723">隋唐时期中外文化交流示意图</text>
+  <!-- 唐朝中心 -->
+  <ellipse cx="400" cy="170" rx="70" ry="40" fill="#795548"/>
+  <text x="400" y="165" text-anchor="middle" font-size="15" fill="white" font-weight="bold">唐朝</text>
+  <text x="400" y="183" text-anchor="middle" font-size="12" fill="#D7CCC8">长安</text>
+  <!-- 日本（右上） -->
+  <rect x="590" y="60" width="120" height="60" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="650" y="85" text-anchor="middle" font-size="14" fill="#3E2723" font-weight="bold">日本</text>
+  <text x="650" y="105" text-anchor="middle" font-size="11" fill="#795548">遣唐使（十几批）</text>
+  <!-- 遣唐使箭头（日本→唐） -->
+  <line x1="590" y1="100" x2="470" y2="155" stroke="#4E342E" stroke-width="2"/>
+  <polygon points="470,155 480,143 483,158" fill="#4E342E"/>
+  <text x="530" y="118" font-size="11" fill="#4E342E">学习文化</text>
+  <!-- 鉴真箭头（唐→日本） -->
+  <line x1="470" y1="145" x2="590" y2="90" stroke="#795548" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="590,90 578,96 582,82" fill="#795548"/>
+  <text x="510" y="135" font-size="11" fill="#795548">鉴真东渡</text>
+  <!-- 天竺（右下） -->
+  <rect x="590" y="220" width="120" height="60" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="650" y="245" text-anchor="middle" font-size="14" fill="#3E2723" font-weight="bold">天竺</text>
+  <text x="650" y="265" text-anchor="middle" font-size="11" fill="#795548">今印度一带</text>
+  <!-- 玄奘箭头（唐→天竺） -->
+  <line x1="470" y1="185" x2="590" y2="240" stroke="#795548" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="590,240 578,232 582,246" fill="#795548"/>
+  <text x="510" y="230" font-size="11" fill="#795548">玄奘西行取经</text>
+  <!-- 新罗/朝鲜（左上） -->
+  <rect x="90" y="60" width="120" height="60" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="150" y="85" text-anchor="middle" font-size="14" fill="#3E2723" font-weight="bold">新罗</text>
+  <text x="150" y="105" text-anchor="middle" font-size="11" fill="#795548">朝鲜半岛</text>
+  <line x1="210" y1="100" x2="330" y2="155" stroke="#A1887F" stroke-width="1.5"/>
+  <polygon points="330,155 320,143 323,158" fill="#A1887F"/>
+  <!-- 大食/波斯（左下） -->
+  <rect x="90" y="220" width="120" height="60" rx="8" fill="#D7CCC8" stroke="#795548" stroke-width="2"/>
+  <text x="150" y="245" text-anchor="middle" font-size="14" fill="#3E2723" font-weight="bold">大食/波斯</text>
+  <text x="150" y="265" text-anchor="middle" font-size="11" fill="#795548">阿拉伯地区</text>
+  <line x1="210" y1="240" x2="330" y2="185" stroke="#A1887F" stroke-width="1.5"/>
+  <polygon points="330,185 320,197 323,182" fill="#A1887F"/>
+  <!-- 图例 -->
+  <line x1="50" y1="295" x2="90" y2="295" stroke="#4E342E" stroke-width="2"/>
+  <text x="95" y="299" font-size="11" fill="#3E2723">外国→唐（学习）</text>
+  <line x1="200" y1="295" x2="240" y2="295" stroke="#795548" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="245" y="299" font-size="11" fill="#3E2723">唐→外国（传播）</text>
+</svg>
+
 ## 二、鉴真东渡（唐朝 → 日本）
 - **人物**：扬州大明寺高僧鉴真，接受日本僧人邀请东渡传法。
 - **经过**：前后**六次东渡**，历尽艰辛（第五次时双目失明），754 年终于抵达日本。

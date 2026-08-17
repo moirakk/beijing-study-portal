@@ -30,6 +30,57 @@ date: 2026-08-05
 - **意义**：加强了南北地区政治、经济和文化交流。
 - **辩证评价**：功在千秋（促进南北交流），但当时过度役使民力，加重人民负担，加速隋亡。
 
+**大运河示意图（自北向南）：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" style="max-width:100%;height:auto">
+  <rect width="700" height="420" fill="#FFF8F0" rx="10"/>
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#3E2723">隋朝大运河示意图</text>
+  <!-- 运河主线 -->
+  <line x1="350" y1="60" x2="350" y2="380" stroke="#795548" stroke-width="6" stroke-dasharray="8,3"/>
+  <!-- 涿郡（北端） -->
+  <circle cx="350" cy="70" r="12" fill="#4E342E"/>
+  <text x="370" y="75" font-size="14" fill="#3E2723" font-weight="bold">涿郡（北端）</text>
+  <text x="370" y="92" font-size="12" fill="#795548">今北京附近</text>
+  <!-- 永济渠 -->
+  <rect x="200" y="100" width="100" height="28" rx="6" fill="#D7CCC8" stroke="#795548" stroke-width="1.5"/>
+  <text x="250" y="119" text-anchor="middle" font-size="13" fill="#3E2723">永济渠</text>
+  <line x1="300" y1="114" x2="350" y2="114" stroke="#795548" stroke-width="1.5"/>
+  <!-- 洛阳（中心） -->
+  <circle cx="350" cy="180" r="16" fill="#795548"/>
+  <text x="375" y="185" font-size="15" fill="#3E2723" font-weight="bold">洛阳（中心）</text>
+  <!-- 通济渠 -->
+  <rect x="200" y="155" width="100" height="28" rx="6" fill="#D7CCC8" stroke="#795548" stroke-width="1.5"/>
+  <text x="250" y="174" text-anchor="middle" font-size="13" fill="#3E2723">通济渠</text>
+  <line x1="300" y1="169" x2="350" y2="169" stroke="#795548" stroke-width="1.5"/>
+  <!-- 邗沟 -->
+  <rect x="200" y="230" width="100" height="28" rx="6" fill="#D7CCC8" stroke="#795548" stroke-width="1.5"/>
+  <text x="250" y="249" text-anchor="middle" font-size="13" fill="#3E2723">邗沟</text>
+  <line x1="300" y1="244" x2="350" y2="244" stroke="#795548" stroke-width="1.5"/>
+  <!-- 江南河 -->
+  <rect x="200" y="300" width="100" height="28" rx="6" fill="#D7CCC8" stroke="#795548" stroke-width="1.5"/>
+  <text x="250" y="319" text-anchor="middle" font-size="13" fill="#3E2723">江南河</text>
+  <line x1="300" y1="314" x2="350" y2="314" stroke="#795548" stroke-width="1.5"/>
+  <!-- 余杭（南端） -->
+  <circle cx="350" cy="375" r="12" fill="#4E342E"/>
+  <text x="370" y="380" font-size="14" fill="#3E2723" font-weight="bold">余杭（南端）</text>
+  <text x="370" y="397" font-size="12" fill="#795548">今杭州附近</text>
+  <!-- 五大水系标注 -->
+  <text x="30" y="110" font-size="12" fill="#795548">海河</text>
+  <text x="30" y="170" font-size="12" fill="#795548">黄河</text>
+  <text x="30" y="230" font-size="12" fill="#795548">淮河</text>
+  <text x="30" y="290" font-size="12" fill="#795548">长江</text>
+  <text x="30" y="350" font-size="12" fill="#795548">钱塘江</text>
+  <line x1="65" y1="107" x2="200" y2="114" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="65" y1="167" x2="200" y2="169" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="65" y1="227" x2="200" y2="244" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="65" y1="287" x2="200" y2="314" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="65" y1="347" x2="350" y2="375" stroke="#A1887F" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- 总长标注 -->
+  <text x="490" y="220" font-size="13" fill="#4E342E">全长约</text>
+  <text x="490" y="240" font-size="13" fill="#4E342E">2700余千米</text>
+  <text x="490" y="260" font-size="12" fill="#795548">古代世界最长运河</text>
+</svg>
+
 ## 三、开创科举取士制度
 - **背景**：魏晋南北朝时期选官看重门第，不利于选拔人才。
 - **过程**：隋文帝初步建立通过考试选拔人才的制度；**隋炀帝设置进士科，标志着科举制正式确立**。

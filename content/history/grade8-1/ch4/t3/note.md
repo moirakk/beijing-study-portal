@@ -7,6 +7,46 @@ date: 2026-08-06
 
 ## 时间线
 
+**国共合作与北伐战争时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 230" style="max-width:100%;height:auto">
+  <rect width="820" height="230" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">国共合作与北伐战争时间轴（1923—1927年）</text>
+  <line x1="50" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 792,90 780,95" fill="#795548"/>
+  <circle cx="100" cy="90" r="7" fill="#795548"/>
+  <circle cx="230" cy="90" r="7" fill="#795548"/>
+  <circle cx="360" cy="90" r="7" fill="#795548"/>
+  <circle cx="490" cy="90" r="7" fill="#795548"/>
+  <circle cx="620" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="750" cy="90" r="7" fill="#4E342E"/>
+  <text x="100" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1923.6</text>
+  <text x="230" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1924.1</text>
+  <text x="360" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1924.5</text>
+  <text x="490" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1926.7</text>
+  <text x="620" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1927.4.12</text>
+  <text x="750" y="74" text-anchor="middle" font-size="11" fill="#4E342E">1927.7.15</text>
+  <text x="100" y="112" text-anchor="middle" font-size="11" fill="#3E2723">中共三大</text>
+  <text x="100" y="126" text-anchor="middle" font-size="11" fill="#3E2723">决定与国民党合作</text>
+  <text x="230" y="112" text-anchor="middle" font-size="11" fill="#3E2723">国民党一大</text>
+  <text x="230" y="126" text-anchor="middle" font-size="11" fill="#3E2723">国共第一次</text>
+  <text x="230" y="140" text-anchor="middle" font-size="11" fill="#3E2723">合作正式形成</text>
+  <text x="360" y="112" text-anchor="middle" font-size="11" fill="#3E2723">黄埔军校</text>
+  <text x="360" y="126" text-anchor="middle" font-size="11" fill="#3E2723">创办</text>
+  <text x="490" y="112" text-anchor="middle" font-size="11" fill="#3E2723">北伐战争</text>
+  <text x="490" y="126" text-anchor="middle" font-size="11" fill="#3E2723">正式出师</text>
+  <text x="490" y="140" text-anchor="middle" font-size="11" fill="#3E2723">打倒军阀</text>
+  <text x="620" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">四一二政变</text>
+  <text x="620" y="126" text-anchor="middle" font-size="11" fill="#4E342E">蒋介石叛变</text>
+  <text x="750" y="112" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">七一五政变</text>
+  <text x="750" y="126" text-anchor="middle" font-size="11" fill="#4E342E">汪精卫叛变</text>
+  <text x="750" y="140" text-anchor="middle" font-size="11" fill="#4E342E">国民革命失败</text>
+  <rect x="150" y="180" width="520" height="34" rx="6" fill="#D7CCC8"/>
+  <text x="410" y="196" text-anchor="middle" font-size="11" fill="#3E2723">北伐对象：吴佩孚·孙传芳·张作霖（北洋三大军阀）</text>
+  <text x="410" y="212" text-anchor="middle" font-size="11" fill="#4E342E">国民革命失败教训：中共认识到掌握武装和领导权的重要性</text>
+</svg>
+
+
 - 1919 年：五四运动爆发，新民主主义革命开端
 - 1921 年：中国共产党成立
 - 1924 年：国民党一大召开，国共第一次合作正式形成

@@ -7,6 +7,50 @@ date: 2026-08-06
 
 ## 时间线
 
+**人民解放战争胜利时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" style="max-width:100%;height:auto">
+  <rect width="820" height="260" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">人民解放战争胜利时间轴（1947—1949年）</text>
+  <line x1="50" y1="95" x2="780" y2="95" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,90 792,95 780,100" fill="#795548"/>
+  <circle cx="100" cy="95" r="7" fill="#795548"/>
+  <circle cx="250" cy="95" r="7" fill="#795548"/>
+  <circle cx="400" cy="95" r="7" fill="#795548"/>
+  <circle cx="540" cy="95" r="7" fill="#795548"/>
+  <circle cx="660" cy="95" r="8" fill="#4E342E"/>
+  <circle cx="760" cy="95" r="8" fill="#4E342E"/>
+  <text x="100" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1947年夏</text>
+  <text x="250" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1948.9-1949.1</text>
+  <text x="400" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1948.9-11</text>
+  <text x="540" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1948.11-1949.1</text>
+  <text x="660" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1949.4</text>
+  <text x="760" y="78" text-anchor="middle" font-size="11" fill="#4E342E">1949.4.23</text>
+  <text x="100" y="117" text-anchor="middle" font-size="11" fill="#3E2723">刘邓大军</text>
+  <text x="100" y="131" text-anchor="middle" font-size="11" fill="#3E2723">挺进大别山</text>
+  <text x="100" y="145" text-anchor="middle" font-size="11" fill="#3E2723">战略进攻序幕</text>
+  <text x="250" y="117" text-anchor="middle" font-size="11" fill="#3E2723">三大战役</text>
+  <text x="250" y="131" text-anchor="middle" font-size="11" fill="#3E2723">辽沈·淮海·平津</text>
+  <text x="250" y="145" text-anchor="middle" font-size="11" fill="#3E2723">歼敌150余万</text>
+  <text x="400" y="117" text-anchor="middle" font-size="11" fill="#3E2723">辽沈战役</text>
+  <text x="400" y="131" text-anchor="middle" font-size="11" fill="#3E2723">解放东北全境</text>
+  <text x="540" y="117" text-anchor="middle" font-size="11" fill="#3E2723">淮海战役</text>
+  <text x="540" y="131" text-anchor="middle" font-size="11" fill="#3E2723">解放长江中下游</text>
+  <text x="540" y="145" text-anchor="middle" font-size="11" fill="#3E2723">以北地区</text>
+  <text x="660" y="117" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">渡江战役</text>
+  <text x="660" y="131" text-anchor="middle" font-size="11" fill="#4E342E">突破长江防线</text>
+  <text x="760" y="117" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">占领南京</text>
+  <text x="760" y="131" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">国民党政权</text>
+  <text x="760" y="145" text-anchor="middle" font-size="11" fill="#4E342E" font-weight="bold">覆灭</text>
+  <!-- 平津战役补充 -->
+  <rect x="300" y="165" width="220" height="28" rx="4" fill="#D7CCC8"/>
+  <text x="410" y="184" text-anchor="middle" font-size="11" fill="#3E2723">平津战役：华北全境基本解放（1948.11-1949.1）</text>
+  <rect x="120" y="205" width="580" height="38" rx="6" fill="#4E342E"/>
+  <text x="410" y="221" text-anchor="middle" font-size="12" fill="white">1949年10月1日：中华人民共和国成立</text>
+  <text x="410" y="237" text-anchor="middle" font-size="11" fill="#D7CCC8">人民解放战争胜利 → 结束半殖民地半封建社会历史 → 中国历史进入新纪元</text>
+</svg>
+
+
 - 1947 年夏：刘邓大军挺进大别山，揭开战略进攻序幕
 - 1948 年 9 月-1949 年 1 月：辽沈、淮海、平津三大战役
 - 1949 年 4 月：渡江战役开始
