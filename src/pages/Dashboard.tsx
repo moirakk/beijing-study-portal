@@ -1,18 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import ChapterCard from '../components/ChapterCard'
 import Reveal from '../components/Reveal'
 import SemesterPillNav from '../components/SemesterPillNav'
 import Mascot from '../components/Mascot'
-import { countRealInGrade, getSubjects } from '../lib/contentLoader'
+import { countRealInGrade, getSubjects, isDraftTopic } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
-import {
-  CN_NUMERALS,
-  SUBJECT_EN,
-  semesterFullLabel,
-  subjectVars,
-} from '../lib/constants'
-import type { Grade, Subject, SubjectId } from '../types'
+import { useReadingProgress } from '../lib/useReadingProgress'
+import { SUBJECT_EN, subjectVars } from '../lib/constants'
+import type { Subject, SubjectId } from '../types'
 
 export default function Dashboard() {
   const subjects = useMemo(
@@ -20,36 +15,22 @@ export default function Dashboard() {
     [],
   )
 
-  // 默认选中第一个有真内容的科目
-  const defaultSubjectId =
-    subjects.find((s) => s.grades.some((g) => countRealInGrade(g) > 0))?.id ??
-    subjects[0]?.id ??
-    null
-  const [activeSubjectId, setActiveSubjectId] = useState<string | null>(
-    defaultSubjectId,
-  )
-
-  const activeSubject = subjects.find((s) => s.id === activeSubjectId) ?? null
   const { answers, wrong, bookmarks, flashcards, pokedex } = useQuizProgress()
-
-  const [mascotState, setMascotState] = useState<'idle'|'switch'|'retract-release'>('idle')
-  const handleSubjectChange = (id: string) => {
-    setActiveSubjectId(id)
-    setMascotState('retract-release')
-    setTimeout(() => setMascotState('idle'), 600)
-  }
+  const { lastRead, readTopics } = useReadingProgress()
+  const readSet = useMemo(() => new Set(readTopics), [readTopics])
 
   const dueCards = flashcards.filter((f) => f.due <= Date.now()).length
   const caughtCount = pokedex.reduce((n, p) => n + p.caught, 0)
 
   return (
     <div>
-      {/* 顶部（hero：眉题 / 标题 / 副文案 依次渐入） */}
+      {/* 顶部 hero */}
       <header className="border-b border-line pb-5 pt-4 md:pt-7 relative">
         <div className="absolute right-4 top-4 hidden sm:flex items-start gap-3 z-10">
           <div className="rounded-2xl rounded-tr-none bg-[var(--s-soft,var(--paper))] border border-line px-4 py-2 text-[13.5px] shadow-sm relative mt-4">
-            <span className="font-bold text-[var(--s-deep,var(--gold))]">Pika pika!</span> 欢迎来到学习基地！
-            <div className="absolute -right-[6px] top-3 w-3 h-3 bg-[var(--s-soft,var(--paper))] border-r border-t border-line rotate-45"></div>
+            <span className="font-bold text-[var(--s-deep,var(--gold))]">Pika pika!</span>{' '}
+            欢迎来到学习基地！
+            <div className="absolute -right-[6px] top-3 w-3 h-3 bg-[var(--s-soft,var(--paper))] border-r border-t border-line rotate-45" />
           </div>
           <Mascot pokemon="pikachu" size={120} state="run-in" />
         </div>
@@ -67,41 +48,78 @@ export default function Dashboard() {
           <p className="mt-0 max-w-[52ch] text-[15.5px] text-ink-soft leading-relaxed">
             把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
           </p>
-          <p className="mt-2 text-[13.5px] text-ink-faint">
-            👇 选一个科目开始学，或者点学期快速入门
-          </p>
         </Reveal>
-        {/* 移动端皮卡丘亲切问候 */}
         <div className="flex sm:hidden items-center gap-2 mt-3">
           <Mascot pokemon="pikachu" size={36} state="idle" />
-          <span className="text-[13px] font-semibold text-[var(--s-deep,var(--gold))]">Pika pika！加油哦！</span>
+          <span className="text-[13px] font-semibold text-[var(--s-deep,var(--gold))]">
+            Pika pika！加油哦！
+          </span>
         </div>
       </header>
 
-      {/* 我的学习概览（可爱化：皮卡丘向导 + 进度/错题/卡片/图鉴） */}
+      {/* 继续学习（有阅读历史时显示） */}
+      {lastRead && (
+        <Reveal delay={60}>
+          <Link
+            to={`/topic/${lastRead.topicId}`}
+            className="mt-4 flex items-center gap-3 rounded-2xl border border-gold bg-[#fdf7ec] dark:bg-[#2a2418] px-5 py-4 transition-all hover:shadow-md hover:border-[#d4a843] group"
+          >
+            <div className="shrink-0 text-2xl">📖</div>
+            <div className="min-w-0 flex-1">
+              <div className="text-[11px] font-bold tracking-[0.18em] text-gold mb-0.5">
+                继续学习
+              </div>
+              <div className="text-[15px] font-extrabold text-ink truncate">
+                {lastRead.title}
+              </div>
+              <div className="text-[12px] text-ink-faint mt-0.5">
+                {lastRead.subjectName} · {lastRead.gradeTitle}
+              </div>
+            </div>
+            <div className="shrink-0 text-gold text-lg transition-transform group-hover:translate-x-1">
+              →
+            </div>
+          </Link>
+        </Reveal>
+      )}
+
+      {/* 学习概览 */}
       <Reveal delay={120}>
         <div className="card card-lift mt-4 flex flex-wrap items-center gap-4">
-          <Mascot subject={activeSubjectId || undefined} pokemon={!activeSubjectId ? 'pikachu' : undefined} size={52} state={mascotState} />
+          <Mascot pokemon="pikachu" size={52} state="idle" />
           <div className="min-w-0 flex-1">
             <div className="text-[12px] font-bold tracking-[0.18em] text-gold">我的学习</div>
             <div className="mt-1 flex flex-wrap gap-x-5 gap-y-1 text-[13.5px] text-ink-soft">
-              <span>已答 <b className="text-[var(--s-deep)]">{answers.length}</b> 题</span>
-              <span>错题 <b className="text-red-500">{wrong.length}</b></span>
-              <span>重点 <b className="text-[var(--s-deep)]">{bookmarks.length}</b></span>
-              <span>待复习 <b className="text-[var(--s-deep)]">{dueCards}</b></span>
-              <span>捕获 <b className="text-[var(--s-deep)]">{caughtCount}</b></span>
+              <span>
+                已读 <b className="text-[var(--s-deep,var(--gold))]">{readTopics.length}</b> 篇
+              </span>
+              <span>
+                已答 <b className="text-[var(--s-deep,var(--gold))]">{answers.length}</b> 题
+              </span>
+              <span>
+                错题 <b className="text-red-500">{wrong.length}</b>
+              </span>
+              <span>
+                重点 <b className="text-[var(--s-deep,var(--gold))]">{bookmarks.length}</b>
+              </span>
+              <span>
+                待复习 <b className="text-[var(--s-deep,var(--gold))]">{dueCards}</b>
+              </span>
+              <span>
+                捕获 <b className="text-[var(--s-deep,var(--gold))]">{caughtCount}</b>
+              </span>
             </div>
           </div>
           <div className="flex gap-2">
             <Link
               to="/wrongbook"
-              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
+              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-gold hover:text-ink"
             >
               错题本
             </Link>
             <Link
               to="/flashcards"
-              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
+              className="rounded-full border border-line bg-paper px-4 py-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:border-gold hover:text-ink"
             >
               记忆卡片
             </Link>
@@ -109,13 +127,11 @@ export default function Dashboard() {
         </div>
       </Reveal>
 
-      {/* 学期快捷入口 */}
+      {/* 按学期 */}
       <Reveal delay={120}>
         <div className="mt-4 border-b border-line pb-4">
           <div className="mb-2.5 flex items-baseline gap-2">
-            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
-              按学期
-            </span>
+            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按学期</span>
             <span className="text-[12px] text-ink-faint">
               选择学期，查看该学期全部科目目录
             </span>
@@ -124,183 +140,94 @@ export default function Dashboard() {
         </div>
       </Reveal>
 
-      {/* 科目选择栏 */}
+      {/* 学科卡片 */}
       <Reveal delay={200}>
-        <div className="mt-4 border-b border-line pb-4">
-          <div className="mb-2.5 flex items-baseline gap-2">
-            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
-              按科目
-            </span>
-            <span className="text-[12px] text-ink-faint">
-              选择科目，浏览各学期教材目录
-            </span>
+        <div className="mt-5">
+          <div className="mb-3 flex items-baseline gap-2">
+            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按科目</span>
+            <span className="text-[12px] text-ink-faint">点击学科进入学习路径</span>
           </div>
-          <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 md:flex-wrap md:overflow-visible">
-            {subjects.map((subject) => {
-              const active = subject.id === activeSubjectId
-              return (
-                <button
-                  key={subject.id}
-                  type="button"
-                  onClick={() => handleSubjectChange(subject.id)}
-                  style={subjectVars(subject.id as SubjectId)}
-                  className={`shrink-0 flex items-center gap-1.5 rounded-full border px-4 py-2 text-[14px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
-                    active
-                      ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
-                      : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'
-                  }`}
-                >
-                  <Mascot subject={subject.id} size={18} state="none" />
-                  {subject.name}
-                </button>
-              )
-            })}
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+            {subjects.map((subject) => (
+              <SubjectCard key={subject.id} subject={subject} readSet={readSet} />
+            ))}
           </div>
         </div>
       </Reveal>
 
-      {/* 教材目录 */}
-      {activeSubject ? (
-        <SubjectToc
-          key={activeSubject.id}
-          subject={activeSubject}
-          subjectIndex={subjects.findIndex((s) => s.id === activeSubject.id)}
-        />
-      ) : (
-        <div className="mt-10 text-center text-[14px] text-ink-soft">暂无学科数据，请先添加内容。</div>
-      )}
-
-      {/* 底部鼓励区 */}
+      {/* 底部鼓励 */}
       <div className="mt-12 mb-4 flex flex-col items-center gap-3 opacity-80">
         <Mascot pokemon="eevee" size={48} state="idle" />
         <p className="text-[13px] font-bold tracking-widest text-ink-faint">
-          “就决定是你了！今天也要加油哦！”
+          "就决定是你了！今天也要加油哦！"
         </p>
       </div>
     </div>
   )
 }
 
-/** 选中科目的教材目录树：学期（可折叠）→ 章节（可折叠）→ 知识点 */
-function SubjectToc({
+/* -------------------------------------------------------------------------- */
+/* 学科卡片：大图标 + 名称 + 进度条                                              */
+/* -------------------------------------------------------------------------- */
+
+function SubjectCard({
   subject,
-  subjectIndex,
+  readSet,
 }: {
   subject: Subject
-  subjectIndex: number
+  readSet: Set<string>
 }) {
-  // 默认只展开有真内容的学期，空学期/全 draft 学期收起
-  const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
-    const init: Record<string, boolean> = {}
+  const allRealTopicIds = useMemo(() => {
+    const ids: string[] = []
     for (const grade of subject.grades) {
-      init[grade.id] = countRealInGrade(grade) > 0
+      for (const chapter of grade.chapters) {
+        for (const topic of chapter.topics) {
+          if (!isDraftTopic(topic)) ids.push(topic.id)
+        }
+      }
     }
-    return init
-  })
+    return ids
+  }, [subject])
 
-  const toggle = (gradeId: string) =>
-    setExpanded((prev) => ({ ...prev, [gradeId]: !prev[gradeId] }))
+  const total = allRealTopicIds.length
+  const read = allRealTopicIds.filter((id) => readSet.has(id)).length
+  const pct = total > 0 ? Math.round((read / total) * 100) : 0
+  const gradeCount = subject.grades.filter((g) => countRealInGrade(g) > 0).length
 
   return (
-    <div style={subjectVars(subject.id as SubjectId)}>
-      {/* 学科大标题（subject-head 风格）+ 渐变色条 */}
-      <Reveal>
-        <div className="subject-head mt-10">
-          <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
-          <div>
-            <h2 className="name">{subject.name}</h2>
-            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+    <Link
+      to={`/subject/${subject.id}`}
+      style={subjectVars(subject.id as SubjectId)}
+      className="card card-lift flex flex-col items-center gap-2 py-5 px-3 text-center hover:border-[var(--s)] transition-all"
+    >
+      <Mascot subject={subject.id} size={56} state="none" className="mascot-hover" />
+      <div className="mt-1">
+        <div className="font-extrabold text-[15px] text-[var(--s-deep)]">{subject.name}</div>
+        <div className="text-[11px] text-ink-faint tracking-wider mt-0.5">
+          {SUBJECT_EN[subject.id as SubjectId]}
+        </div>
+      </div>
+      {total > 0 && (
+        <div className="w-full mt-1">
+          <div className="flex justify-between text-[10px] mb-1 text-ink-faint">
+            <span>{gradeCount} 个学期</span>
+            <span className="font-semibold text-[var(--s)]">{pct}%</span>
+          </div>
+          <div className="h-1.5 rounded-full bg-[var(--s-soft)] overflow-hidden">
+            <div
+              className="h-full rounded-full"
+              style={{
+                width: `${pct}%`,
+                background: 'linear-gradient(90deg, var(--s), var(--s-deep))',
+                transition: 'width 0.6s ease',
+              }}
+            />
+          </div>
+          <div className="text-[10px] text-ink-faint mt-1">
+            {read}/{total} 篇已读
           </div>
         </div>
-        <div className="rule rule-grow" />
-      </Reveal>
-
-      {/* 学期列表 */}
-      <div className="mt-4">
-        {subject.grades.map((grade, i) => (
-          <Reveal key={grade.id} delay={Math.min(i, 4) * 60} className="mt-2 first:mt-3">
-            <SemesterSection
-              grade={grade}
-              open={!!expanded[grade.id]}
-              onToggle={() => toggle(grade.id)}
-            />
-          </Reveal>
-        ))}
-      </div>
-    </div>
-  )
-}
-
-/** 一个学期：可折叠标题（unit-title 风格）+ 章节卡片 */
-function SemesterSection({
-  grade,
-  open,
-  onToggle,
-}: {
-  grade: Grade
-  open: boolean
-  onToggle: () => void
-}) {
-  const gradeNum = grade.id.replace(/[ab]$/, '')
-  const hasChapters = grade.chapters.length > 0
-  const realCount = countRealInGrade(grade)
-  const hasReal = realCount > 0
-  const chapterCount = grade.chapters.length
-
-  return (
-    <section>
-      {/* 学期标题（整行可点击折叠） */}
-      <button
-        type="button"
-        onClick={onToggle}
-        aria-expanded={open}
-        className="group -mx-2 flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-[var(--s-soft)]"
-      >
-        <span className={`unit-badge ${hasReal ? '' : 'opacity-40 saturate-0'}`}>
-          {gradeNum}
-        </span>
-        <span
-          className={`font-sans text-[16.5px] font-extrabold tracking-normal ${
-            hasReal ? 'text-ink' : 'text-ink-faint'
-          }`}
-        >
-          {semesterFullLabel(grade.id)}
-        </span>
-        {hasReal ? (
-          <span className="text-[12px] tabular-nums text-ink-faint">
-            {chapterCount} 章 · {realCount} 篇
-            {grade.textbook && (
-              <span className="hidden sm:inline"> · {grade.textbook}</span>
-            )}
-          </span>
-        ) : (
-          <span className="text-[12px] text-ink-faint">
-            {hasChapters ? '待补充' : '暂无内容'}
-          </span>
-        )}
-        <span
-          className={`ml-auto text-[11px] leading-none text-ink-faint transition-transform duration-200 group-hover:text-[var(--s)] ${
-            open ? '' : '-rotate-90'
-          }`}
-          aria-hidden
-        >
-          ▾
-        </span>
-      </button>
-
-      {/* 章节列表（有章节即可浏览，draft 行由 ChapterCard 弱化显示） */}
-      {open && hasChapters && (
-        <div className="fold-in ml-0 mb-5 mt-1.5 sm:ml-[42px]">
-          {grade.chapters.map((chapter) => (
-            <ChapterCard key={chapter.id} chapter={chapter} />
-          ))}
-        </div>
       )}
-      {open && !hasChapters && (
-        <div className="mb-5 ml-0 mt-1.5 rounded-xl border border-dashed border-line px-4 py-3 text-[13.5px] text-ink-faint sm:ml-[42px]">
-          本学期内容整理中，敬请期待。
-        </div>
-      )}
-    </section>
+    </Link>
   )
 }

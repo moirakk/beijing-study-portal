@@ -6,6 +6,14 @@ import PageSkeleton from './PageSkeleton'
 import AmbientBackground from './AmbientBackground'
 import Mascot from './Mascot'
 
+/** 移动端底部 Tab 栏配置 */
+const BOTTOM_TABS = [
+  { to: '/', label: '首页', icon: '🏠', end: true },
+  { to: '/search', label: '搜索', icon: '🔍', end: false },
+  { to: '/flashcards', label: '卡片', icon: '📖', end: false },
+  { to: '/wrongbook', label: '错题', icon: '⚡', end: false },
+] as const
+
 const THEME_KEY = 'bsp-theme'
 
 function loadTheme(): 'light' | 'dark' {
@@ -131,7 +139,7 @@ export default function Layout() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.25, ease: 'easeOut' }}
-          className="mx-auto w-full max-w-[980px] px-5 pb-24 pt-6"
+          className="mx-auto w-full max-w-[980px] px-5 pb-28 sm:pb-24 pt-6"
         >
           <Suspense fallback={<PageSkeleton />}>
             <Outlet />
@@ -139,9 +147,32 @@ export default function Layout() {
         </motion.main>
       </AnimatePresence>
 
-      <footer className="border-t border-line py-6 text-center text-[12.5px] text-ink-soft">
+      <footer className="border-t border-line py-6 text-center text-[12.5px] text-ink-soft hidden sm:block">
         dby赶紧学习！· 图文讲义
       </footer>
+
+      {/* 移动端底部 Tab 栏（sm 以下显示） */}
+      <nav className="sm:hidden fixed bottom-0 left-0 right-0 z-50 border-t border-line bg-panel/95 backdrop-blur-sm">
+        <div className="flex">
+          {BOTTOM_TABS.map((tab) => (
+            <NavLink
+              key={tab.to}
+              to={tab.to}
+              end={tab.end}
+              className={({ isActive }) =>
+                `flex flex-1 flex-col items-center justify-center gap-0.5 py-2 text-center transition-colors ${
+                  isActive
+                    ? 'text-gold'
+                    : 'text-ink-faint hover:text-ink-soft'
+                }`
+              }
+            >
+              <span className="text-xl leading-none">{tab.icon}</span>
+              <span className="text-[10px] font-semibold">{tab.label}</span>
+            </NavLink>
+          ))}
+        </div>
+      </nav>
     </div>
   )
 }

@@ -10,6 +10,7 @@ import Mascot from '../components/Mascot'
 import KnowledgeLinks from '../components/KnowledgeLinks'
 import { findTopic, getAllTopics, isDraftTopic, loadTopicContent, getKnowledgeLinks } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
+import { useReadingProgress } from '../lib/useReadingProgress'
 import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
 
@@ -147,6 +148,7 @@ export default function TopicDetail() {
   // 各内容分区的展开状态（key → open）；换知识点时重置为全展开
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({})
   const { bookmarks, toggleBookmark } = useQuizProgress()
+  const { markRead } = useReadingProgress()
 
   useEffect(() => {
     if (!loc) return
@@ -154,7 +156,16 @@ export default function TopicDetail() {
     setOpenSections({})
     let cancelled = false
     loadTopicContent(loc.topic).then((c) => {
-      if (!cancelled) setContent(c)
+      if (!cancelled) {
+        setContent(c)
+        // 加载后标记已读
+        markRead(loc.topic.id, {
+          title: loc.topic.title,
+          subjectId: loc.subject.id,
+          subjectName: loc.subject.name,
+          gradeTitle: loc.grade.title,
+        })
+      }
     })
     return () => {
       cancelled = true
