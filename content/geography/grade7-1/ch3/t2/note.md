@@ -98,3 +98,22 @@ date: 2026-08-05
 **答案**：1. 魏格纳 2. 海洋 3. 太平洋 4. B 5. 亚欧；印度洋 6. B 7. 环太平洋
 
 相关：[[第一节 海洋和陆地的分布]] ｜ [[主题探究："海底漫游"旅游路线设计]]
+
+
+### 五种基本地形特征对比
+
+| 地形类型 | 海拔特点 | 地表起伏特征 |
+| :--- | :--- | :--- |
+| 平原 | 一般在200米以下 | 宽广平坦 |
+| 高原 | 一般在500米以上 | 面积较大，外围较陡，内部起伏和缓 |
+| 山地 | 500米以上 | 具有耸立的山峰，陡峭的山坡 |
+| 丘陵 | 500米以下 | 地势起伏较大 |
+| 盆地 | 无一定标准 | 四周高，中间低 |
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" style="background-color: #f8fbfa; border: 1px solid #d0e8e1; border-radius: 8px;">
+  <path d="M0,180 L100,180 L200,80 L250,150 L350,50 L450,180 L600,180" fill="none" stroke="#2c9a82" stroke-width="3" />
+  <text x="50" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
+  <text x="200" y="70" fill="#1b5e50" font-size="14" text-anchor="middle">山地</text>
+  <text x="350" y="40" fill="#1b5e50" font-size="14" text-anchor="middle">高峰</text>
+  <text x="525" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
+</svg>
