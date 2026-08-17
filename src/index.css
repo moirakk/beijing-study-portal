@@ -756,6 +756,75 @@ mark {
 }
 
 /* ---------------------------------------------------------------------------
+ * Mermaid 结构图解美化：暖色学术风格
+ *   · 外层卡片：暖白底、金色圆角、层次阴影
+ *   · 节点圆角 + drop-shadow
+ *   · 覆盖 .markdown-body svg 的通用边框规则
+ * -------------------------------------------------------------------------- */
+
+/* 外层容器：卡片化 */
+.mermaid-diagram {
+  padding: 20px 12px;
+  background: var(--panel);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lift-2);
+  min-height: 60px;
+}
+
+/* 覆盖 .markdown-body svg 通用样式，避免双重边框 */
+.markdown-body .mermaid-diagram svg,
+.mermaid-diagram svg {
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 节点矩形：圆角（CSS 可覆盖 SVG presentation attribute） */
+.mermaid-diagram .node rect {
+  rx: 8px;
+  ry: 8px;
+}
+
+/* 节点形状：drop-shadow 增加层次感 */
+.mermaid-diagram .node rect,
+.mermaid-diagram .node circle,
+.mermaid-diagram .node ellipse,
+.mermaid-diagram .node polygon {
+  filter: drop-shadow(0 1px 3px rgba(41, 37, 31, 0.13));
+}
+
+/* 暗色模式下阴影加深 */
+.dark .mermaid-diagram .node rect,
+.dark .mermaid-diagram .node circle,
+.dark .mermaid-diagram .node ellipse,
+.dark .mermaid-diagram .node polygon {
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.35));
+}
+
+/* 连线：稍粗 + 平滑 */
+.mermaid-diagram .edgePath .path {
+  stroke-width: 1.6px;
+}
+
+/* Mindmap 节点也加圆角 */
+.mermaid-diagram .mindmap-node rect,
+.mermaid-diagram .mindmap-node ellipse {
+  rx: 10px;
+  ry: 10px;
+}
+
+/* 移动端减小内边距 */
+@media (max-width: 560px) {
+  .mermaid-diagram {
+    padding: 14px 6px;
+  }
+}
+
+/* ---------------------------------------------------------------------------
  * 宝可梦主题 UI 增强：光泽卡片 / 对话气泡 / 精灵球 / 学科按钮
  * ------------------------------------------------------------------------- */
 
