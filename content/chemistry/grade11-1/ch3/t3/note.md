@@ -5,6 +5,28 @@ date: 2026-08-07
 
 # 第三节 盐类的水解
 
+## 盐类水解分类图
+
+```mermaid
+flowchart TD
+    A["盐溶液"] --> B{"构成盐的酸和碱强弱"}
+    B --> C["强酸强碱盐\nNaCl、KNO₃"]
+    B --> D["强碱弱酸盐\nCH₃COONa、Na₂CO₃"]
+    B --> E["强酸弱碱盐\nNH₄Cl、FeCl₃"]
+    B --> F["弱酸弱碱盐\nCH₃COONH₄"]
+    C --> G["不水解\n溶液中性"]
+    D --> H["弱酸根水解\nOH⁻增多 → 碱性"]
+    E --> I["弱碱阳离子水解\nH⁺增多 → 酸性"]
+    F --> J["都水解\n谁弱谁水解多决定酸碱性"]
+    style A fill:#d4edda,stroke:#28a745,color:#155724
+    style D fill:#c3e6cb,stroke:#28a745,color:#155724
+    style H fill:#c3e6cb,stroke:#28a745,color:#155724
+    style E fill:#f8d7da,stroke:#dc3545,color:#721c24
+    style I fill:#f8d7da,stroke:#dc3545,color:#721c24
+    style C fill:#d1ecf1,stroke:#17a2b8,color:#0c5460
+    style G fill:#d1ecf1,stroke:#17a2b8,color:#0c5460
+```
+
 ## 概念定义
 
 **盐类的水解**：盐电离出的弱酸根阴离子或弱碱阳离子与水电离出的 H⁺ 或 OH⁻ 结合生成**弱电解质**，破坏水的电离平衡，使溶液显酸性或碱性的反应。

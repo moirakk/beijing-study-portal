@@ -5,6 +5,44 @@ date: 2026-08-07
 
 # 第三节 化学反应的方向
 
+## ΔG判据四象限示意
+
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:420px;display:block;margin:12px auto;font-family:sans-serif">
+  <!-- 坐标轴 -->
+  <line x1="210" y1="20" x2="210" y2="280" stroke="#555" stroke-width="2"/>
+  <line x1="20" y1="150" x2="400" y2="150" stroke="#555" stroke-width="2"/>
+  <!-- 轴标签 -->
+  <text x="210" y="14" text-anchor="middle" font-size="12" fill="#333">ΔH</text>
+  <text x="405" y="154" font-size="12" fill="#333">ΔS</text>
+  <text x="115" y="14" font-size="11" fill="#333" text-anchor="middle">ΔH&lt;0</text>
+  <text x="310" y="14" font-size="11" fill="#333" text-anchor="middle">ΔH&gt;0</text>
+  <!-- 象限背景 -->
+  <rect x="20" y="20" width="190" height="130" rx="6" fill="#c8e6c9" opacity="0.7"/>
+  <rect x="210" y="20" width="190" height="130" rx="6" fill="#ffe0b2" opacity="0.7"/>
+  <rect x="20" y="150" width="190" height="130" rx="6" fill="#ffcdd2" opacity="0.7"/>
+  <rect x="210" y="150" width="190" height="130" rx="6" fill="#c8e6c9" opacity="0.7"/>
+  <!-- 象限文字 -->
+  <text x="115" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">任何温度自发</text>
+  <text x="115" y="95" text-anchor="middle" font-size="11" fill="#388e3c">ΔH&lt;0, ΔS&gt;0</text>
+  <text x="115" y="112" text-anchor="middle" font-size="11" fill="#388e3c">ΔG恒&lt;0</text>
+  <text x="305" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#e65100">高温才自发</text>
+  <text x="305" y="95" text-anchor="middle" font-size="11" fill="#ef6c00">ΔH&gt;0, ΔS&gt;0</text>
+  <text x="305" y="112" text-anchor="middle" font-size="11" fill="#ef6c00">高温 ΔG&lt;0</text>
+  <text x="115" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">低温才自发</text>
+  <text x="115" y="220" text-anchor="middle" font-size="11" fill="#d32f2f">ΔH&lt;0, ΔS&lt;0</text>
+  <text x="115" y="237" text-anchor="middle" font-size="11" fill="#d32f2f">低温 ΔG&lt;0</text>
+  <text x="305" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">任何温度不自发</text>
+  <text x="305" y="220" text-anchor="middle" font-size="11" fill="#388e3c">ΔH&gt;0, ΔS&lt;0</text>
+  <text x="305" y="237" text-anchor="middle" font-size="11" fill="#388e3c">ΔG恒&gt;0</text>
+  <!-- 轴方向箭头 -->
+  <polygon points="210,20 205,32 215,32" fill="#555"/>
+  <polygon points="400,150 388,145 388,155" fill="#555"/>
+  <text x="55" y="163" font-size="11" fill="#777">ΔS&lt;0</text>
+  <text x="330" y="163" font-size="11" fill="#777">ΔS&gt;0</text>
+</svg>
+
+**核心公式**：$\Delta G = \Delta H - T\Delta S$，恒温恒压下 ΔG<0 自发进行。
+
 ## 概念定义
 
 **自发过程**：在一定条件下，不需要外界持续做功就能自动进行的过程。

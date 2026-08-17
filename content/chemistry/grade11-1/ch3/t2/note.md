@@ -5,6 +5,38 @@ date: 2026-08-07
 
 # 第二节 水的电离和溶液的pH
 
+## 水的电离与pH关系图
+
+```mermaid
+flowchart TD
+    A["💧 水的电离\nH₂O ⇌ H⁺ + OH⁻\nKw = c(H⁺)·c(OH⁻)"] --> B["25℃ Kw = 10⁻¹⁴"]
+    B --> C["c(H⁺) > c(OH⁻)\n酸性 pH < 7"]
+    B --> D["c(H⁺) = c(OH⁻)\n中性 pH = 7"]
+    B --> E["c(H⁺) < c(OH⁻)\n碱性 pH > 7"]
+    style A fill:#d4edda,stroke:#28a745,color:#155724
+    style B fill:#c3e6cb,stroke:#28a745,color:#155724
+    style C fill:#f8d7da,stroke:#dc3545,color:#721c24
+    style D fill:#d1ecf1,stroke:#17a2b8,color:#0c5460
+    style E fill:#d4edda,stroke:#28a745,color:#155724
+```
+
+<svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:600px;display:block;margin:12px auto">
+  <defs>
+    <linearGradient id="phGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="50%" style="stop-color:#2ecc71"/>
+      <stop offset="100%" style="stop-color:#3498db"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="560" height="28" rx="14" fill="url(#phGrad)" opacity="0.85"/>
+  <text x="20" y="65" font-size="11" fill="#c0392b" font-family="sans-serif">pH=0</text>
+  <text x="270" y="65" font-size="11" fill="#27ae60" font-family="sans-serif" text-anchor="middle">pH=7 中性</text>
+  <text x="575" y="65" font-size="11" fill="#2980b9" font-family="sans-serif" text-anchor="end">pH=14</text>
+  <text x="130" y="65" font-size="10" fill="#999" font-family="sans-serif">← 酸性增强</text>
+  <text x="400" y="65" font-size="10" fill="#999" font-family="sans-serif">碱性增强 →</text>
+  <line x1="300" y1="16" x2="300" y2="52" stroke="#fff" stroke-width="2" stroke-dasharray="3,2"/>
+</svg>
+
 ## 概念定义
 
 **水的电离**：水是极弱的电解质，$H_2O\rightleftharpoons H^++OH^-$（电离吸热）。

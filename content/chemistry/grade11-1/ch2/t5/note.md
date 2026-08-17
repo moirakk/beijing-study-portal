@@ -5,6 +5,26 @@ date: 2026-08-07
 
 # 实验活动1 探究影响化学平衡移动的因素
 
+## 三组经典平衡实验示意
+
+```mermaid
+flowchart TD
+    subgraph EXP1["实验①：铬酸根平衡（浓度影响）"]
+        A1["K₂CrO₄溶液（黄色）"] -->|"加H₂SO₄"| B1["Cr₂O₇²⁻（橙色）\n平衡正移"]
+        A1 -->|"加NaOH"| C1["CrO₄²⁻（黄色加深）\n平衡逆移"]
+    end
+    subgraph EXP2["实验②：铁离子硫氰根（浓度影响）"]
+        A2["Fe³⁺+SCN⁻⇌Fe(SCN)₃\n（浅红色）"] -->|"加FeCl₃或KSCN"| B2["红色加深\n平衡正移"]
+    end
+    subgraph EXP3["实验③：NO₂平衡球（温度影响）"]
+        A3["2NO₂⇌N₂O₄\n正反应放热"] -->|"浸热水"| B3["红棕色加深\n平衡逆移（吸热方向）"]
+        A3 -->|"浸冰水"| C3["颜色变浅\n平衡正移（放热方向）"]
+    end
+    style EXP1 fill:#e8f5e9,stroke:#4caf50
+    style EXP2 fill:#e8f5e9,stroke:#4caf50
+    style EXP3 fill:#e8f5e9,stroke:#4caf50
+```
+
 ## 实验目的
 
 1. 通过实验探究浓度、温度对化学平衡的影响。

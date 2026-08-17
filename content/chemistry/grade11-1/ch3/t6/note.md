@@ -5,6 +5,28 @@ date: 2026-08-07
 
 # 实验活动3 盐类水解的应用
 
+## 实验流程图
+
+```mermaid
+flowchart LR
+    A["盐类水解应用实验"] --> B["测pH\nNaCl/NH₄Cl\nCH₃COONa/Na₂CO₃"]
+    A --> C["温度影响\nNa₂CO₃+酚酞\n加热观察颜色"]
+    A --> D["浓度/酸碱影响\nFeCl₃溶液\n加水/加HCl"]
+    A --> E["双水解实验\nAl₂(SO₄)₃+NaHCO₃\n观察气泡和沉淀"]
+    A --> F["净水模拟\n明矾净浑浊水\n观察澄清效果"]
+    B --> G["强酸强碱盐不水解\n弱酸强碱盐显碱性\n强酸弱碱盐显酸性"]
+    C --> H["升温促进水解\n碱性增强"]
+    D --> I["加酸抑制Fe³⁺水解\n防止浑浊"]
+    E --> J["双水解相互促进\nAl(OH)₃↓+CO₂↑"]
+    F --> K["Al(OH)₃胶体\n吸附杂质沉降"]
+    style A fill:#d4edda,stroke:#28a745,color:#155724
+    style G fill:#c3e6cb,stroke:#28a745,color:#155724
+    style H fill:#c3e6cb,stroke:#28a745,color:#155724
+    style I fill:#c3e6cb,stroke:#28a745,color:#155724
+    style J fill:#c3e6cb,stroke:#28a745,color:#155724
+    style K fill:#c3e6cb,stroke:#28a745,color:#155724
+```
+
 ## 实验目的
 
 1. 通过实验加深对盐类水解原理及其影响因素的理解。
