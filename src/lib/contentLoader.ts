@@ -14,7 +14,9 @@ import type {
 } from '../types'
 import { MATERIAL_FILES } from '../types'
 import type { QuizSet } from '../types/quiz'
+import type { KnowledgeLinkItem } from '../components/KnowledgeLinks'
 import subjectsJson from '../../content/subjects.json'
+import knowledgeLinksJson from '../../content/knowledge-links.json'
 import { draftPaths } from 'virtual:content-status'
 
 // ---------------------------------------------------------------------------
@@ -168,4 +170,15 @@ export async function loadQuiz(contentPath: string): Promise<QuizSet | null> {
   const loader = quizModules[key]
   if (!loader) return null
   return (await loader()) ?? null
+}
+
+// ---------------------------------------------------------------------------
+// 知识点关联
+// ---------------------------------------------------------------------------
+
+const knowledgeLinks = knowledgeLinksJson as Record<string, KnowledgeLinkItem[]>
+
+/** 根据 topicId 获取该知识点的关联跳转列表（最多 6 条） */
+export function getKnowledgeLinks(topicId: string): KnowledgeLinkItem[] {
+  return knowledgeLinks[topicId] ?? []
 }

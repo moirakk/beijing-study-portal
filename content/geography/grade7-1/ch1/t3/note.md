@@ -40,6 +40,58 @@ date: 2026-08-05
 - 低中高纬度划分：0°–30° 低纬度，30°–60° 中纬度，60°–90° 高纬度。
 - 南北半球分界：**赤道**。
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0fdfa" rx="12"/>
+  <!-- Earth ellipse body -->
+  <ellipse cx="400" cy="300" rx="220" ry="260" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5"/>
+  <!-- Axis line (tilted 23.5°) -->
+  <line x1="400" y1="20" x2="400" y2="580" stroke="#134e4a" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="410" y="18" fill="#134e4a" font-size="11">北极 (N)</text>
+  <text x="410" y="595" fill="#134e4a" font-size="11">南极 (S)</text>
+  <!-- Equator (0°) -->
+  <ellipse cx="400" cy="300" rx="220" ry="40" fill="none" stroke="#0d9488" stroke-width="3"/>
+  <text x="635" y="295" fill="#0d9488" font-size="14" font-weight="bold">赤道 0°</text>
+  <!-- Tropic of Cancer (23.5°N) -->
+  <ellipse cx="400" cy="232" rx="200" ry="36" fill="none" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="615" y="227" fill="#14b8a6" font-size="12" font-weight="bold">北回归线 23.5°N</text>
+  <!-- Tropic of Capricorn (23.5°S) -->
+  <ellipse cx="400" cy="368" rx="200" ry="36" fill="none" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="615" y="363" fill="#14b8a6" font-size="12" font-weight="bold">南回归线 23.5°S</text>
+  <!-- Arctic Circle (66.5°N) -->
+  <ellipse cx="400" cy="120" rx="110" ry="20" fill="none" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="525" y="117" fill="#0f766e" font-size="12" font-weight="bold">北极圈 66.5°N</text>
+  <!-- Antarctic Circle (66.5°S) -->
+  <ellipse cx="400" cy="480" rx="110" ry="20" fill="none" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="525" y="477" fill="#0f766e" font-size="12" font-weight="bold">南极圈 66.5°S</text>
+  <!-- Zone labels -->
+  <rect x="30" y="85" width="100" height="55" fill="#134e4a" rx="6" opacity="0.9"/>
+  <text x="80" y="110" text-anchor="middle" fill="#ccfbf1" font-size="11">北寒带</text>
+  <text x="80" y="128" text-anchor="middle" fill="#5eead4" font-size="9">极昼极夜</text>
+  <rect x="30" y="165" width="100" height="55" fill="#0f766e" rx="6" opacity="0.9"/>
+  <text x="80" y="190" text-anchor="middle" fill="#ccfbf1" font-size="11">北温带</text>
+  <text x="80" y="208" text-anchor="middle" fill="#5eead4" font-size="9">四季分明</text>
+  <rect x="30" y="275" width="100" height="55" fill="#0d9488" rx="6" opacity="0.9"/>
+  <text x="80" y="300" text-anchor="middle" fill="#ccfbf1" font-size="11">热带</text>
+  <text x="80" y="318" text-anchor="middle" fill="#5eead4" font-size="9">有太阳直射</text>
+  <rect x="30" y="385" width="100" height="55" fill="#0f766e" rx="6" opacity="0.9"/>
+  <text x="80" y="410" text-anchor="middle" fill="#ccfbf1" font-size="11">南温带</text>
+  <text x="80" y="428" text-anchor="middle" fill="#5eead4" font-size="9">四季分明</text>
+  <rect x="30" y="470" width="100" height="55" fill="#134e4a" rx="6" opacity="0.9"/>
+  <text x="80" y="495" text-anchor="middle" fill="#ccfbf1" font-size="11">南寒带</text>
+  <text x="80" y="513" text-anchor="middle" fill="#5eead4" font-size="9">极昼极夜</text>
+  <!-- Connecting lines from labels to zones -->
+  <line x1="130" y1="112" x2="290" y2="100" stroke="#134e4a" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="130" y1="192" x2="290" y2="180" stroke="#0f766e" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="130" y1="302" x2="290" y2="300" stroke="#0d9488" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="130" y1="412" x2="290" y2="420" stroke="#0f766e" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="130" y1="497" x2="290" y2="500" stroke="#134e4a" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Title -->
+  <text x="400" y="580" text-anchor="middle" fill="#134e4a" font-size="13">地球仪上的重要纬线与五带划分</text>
+</svg>
+</div>
+
 ### 3. 经线与经度
 
 - 经线特点：都是**半圆**；长度**都相等**；指示**南北方向**。
@@ -89,14 +141,3 @@ date: 2026-08-05
 **答案**：1. 麦哲伦 2. 6371；4 万 3. C 4. B 5. 南；东；低（30° 恰为低中纬分界，教材按 0°–30° 为低纬度处理） 6.（0°，20°E）
 
 相关：[[第四节 地球在运动]] ｜ [[第一节 认识地图]]
-
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

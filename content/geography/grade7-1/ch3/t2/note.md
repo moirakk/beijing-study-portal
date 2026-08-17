@@ -39,6 +39,19 @@ date: 2026-08-05
 - 证据：两岸古老地层相似、动物（如海牛、鸵鸟类）相似。
 - 内容：两亿年前大陆是一整块"泛大陆"，后分裂、缓慢漂移，形成今天的海陆格局。
 
+```mermaid
+graph LR
+  A[大西洋两岸轮廓吻合] --> B[古老地层对比相似]
+  B --> C[古生物化石分布一致]
+  C --> D[大陆漂移说]
+  D --> E[板块构造学说]
+  style A fill:#ccfbf1,stroke:#0d9488,color:#134e4a
+  style B fill:#ccfbf1,stroke:#0d9488,color:#134e4a
+  style C fill:#ccfbf1,stroke:#0d9488,color:#134e4a
+  style D fill:#14b8a6,stroke:#0d9488,color:white
+  style E fill:#0d9488,stroke:#134e4a,color:white
+```
+
 ### 3. 板块构造学说
 
 - 全球岩石圈分为**六大板块**：**亚欧板块、非洲板块、美洲板块、南极洲板块、印度洋板块、太平洋板块**（太平洋板块几乎全部是海洋）。
@@ -46,6 +59,88 @@ date: 2026-08-05
 - 板块运动的两种方式：
   - **碰撞挤压**→形成山脉、海洋缩小。例：喜马拉雅山是亚欧板块与印度洋板块碰撞形成，还在长高；地中海不断缩小。
   - **张裂拉伸**→形成裂谷、海洋扩张。例：东非大裂谷；红海不断扩大。
+
+<div class="svg-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="sans-serif">
+  <!-- Background -->
+  <rect width="900" height="550" fill="#f0fdfa" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#134e4a">六大板块示意图</text>
+
+  <!-- Plate outlines and fills -->
+
+  <!-- 亚欧板块 (Eurasian Plate) - top center-right -->
+  <path d="M350,60 L580,55 L700,80 L720,140 L700,200 L620,230 L500,240 L400,230 L340,200 L320,140 L330,90 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5" opacity="0.8"/>
+  <text x="520" y="145" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">亚欧板块</text>
+
+  <!-- 太平洋板块 (Pacific Plate) - right -->
+  <path d="M720,100 L860,120 L880,200 L870,320 L850,420 L800,460 L740,440 L710,360 L700,280 L710,200 Z" fill="#5eead4" stroke="#0d9488" stroke-width="2.5" opacity="0.6"/>
+  <text x="790" y="270" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">太平洋</text>
+  <text x="790" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">板块</text>
+  <text x="790" y="310" text-anchor="middle" font-size="11" fill="#0f766e">（几乎全是海洋）</text>
+
+  <!-- 印度洋板块 (Indo-Australian Plate) - center-right bottom -->
+  <path d="M500,260 L650,250 L710,290 L720,360 L700,430 L640,470 L550,480 L480,450 L460,380 L470,310 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5" opacity="0.8"/>
+  <text x="590" y="370" text-anchor="middle" font-size="15" font-weight="bold" fill="#134e4a">印度洋板块</text>
+
+  <!-- 非洲板块 (African Plate) - center -->
+  <path d="M300,220 L420,230 L470,270 L480,340 L470,420 L430,480 L360,500 L290,480 L260,420 L250,340 L260,270 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5" opacity="0.8"/>
+  <text x="365" y="370" text-anchor="middle" font-size="15" font-weight="bold" fill="#134e4a">非洲板块</text>
+
+  <!-- 美洲板块 (American Plate) - left -->
+  <path d="M30,60 L180,55 L280,80 L320,140 L310,220 L280,320 L260,420 L230,490 L160,520 L80,500 L40,420 L25,320 L20,200 L25,120 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5" opacity="0.8"/>
+  <text x="160" y="280" text-anchor="middle" font-size="15" font-weight="bold" fill="#134e4a">美洲板块</text>
+
+  <!-- 南极洲板块 (Antarctic Plate) - bottom -->
+  <path d="M100,500 L250,510 L400,515 L550,515 L700,510 L820,500 L850,530 L780,545 L600,550 L400,550 L200,545 L80,530 Z" fill="#e8f8f5" stroke="#0d9488" stroke-width="2.5" opacity="0.8"/>
+  <text x="450" y="535" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">南极洲板块</text>
+
+  <!-- Movement arrows -->
+  <!-- 亚欧 vs 印度洋 碰撞 -->
+  <polygon points="560,235 555,225 565,225" fill="#134e4a"/>
+  <line x1="560" y1="225" x2="560" y2="210" stroke="#134e4a" stroke-width="2"/>
+  <polygon points="560,255 555,265 565,265" fill="#134e4a"/>
+  <line x1="560" y1="265" x2="560" y2="280" stroke="#134e4a" stroke-width="2"/>
+
+  <!-- 非洲 vs 美洲 张裂 -->
+  <polygon points="285,300 295,295 295,305" fill="#134e4a"/>
+  <line x1="295" y1="300" x2="310" y2="300" stroke="#134e4a" stroke-width="2"/>
+  <polygon points="255,300 245,295 245,305" fill="#134e4a"/>
+  <line x1="245" y1="300" x2="230" y2="300" stroke="#134e4a" stroke-width="2"/>
+
+  <!-- 太平洋 vs 亚欧 碰撞 -->
+  <polygon points="715,170 725,165 725,175" fill="#134e4a"/>
+  <line x1="725" y1="170" x2="740" y2="170" stroke="#134e4a" stroke-width="2"/>
+  <polygon points="705,170 695,165 695,175" fill="#134e4a"/>
+  <line x1="695" y1="170" x2="680" y2="170" stroke="#134e4a" stroke-width="2"/>
+
+  <!-- Annotations -->
+  <!-- 碰撞挤压 annotation -->
+  <rect x="530" y="238" width="60" height="18" rx="3" fill="#0d9488"/>
+  <text x="560" y="251" text-anchor="middle" font-size="10" fill="white">碰撞挤压</text>
+
+  <!-- 张裂 annotation -->
+  <rect x="240" y="278" width="60" height="18" rx="3" fill="#14b8a6"/>
+  <text x="270" y="291" text-anchor="middle" font-size="10" fill="white">张裂拉伸</text>
+
+  <!-- 碰撞 annotation (Pacific) -->
+  <rect x="680" y="152" width="60" height="18" rx="3" fill="#0d9488"/>
+  <text x="710" y="165" text-anchor="middle" font-size="10" fill="white">碰撞挤压</text>
+
+  <!-- Key examples -->
+  <rect x="20" y="40" width="250" height="100" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="35" y="60" font-size="12" font-weight="bold" fill="#134e4a">板块运动结果：</text>
+  <text x="35" y="80" font-size="11" fill="#0d9488">→← 碰撞：造山脉、缩海洋</text>
+  <text x="35" y="97" font-size="10" fill="#0f766e">  例：喜马拉雅山、地中海缩小</text>
+  <text x="35" y="117" font-size="11" fill="#14b8a6">←→ 张裂：成裂谷、扩海洋</text>
+  <text x="35" y="134" font-size="10" fill="#0f766e">  例：东非大裂谷、红海扩大</text>
+
+  <!-- Fire/earthquake belt note -->
+  <rect x="680" y="470" width="200" height="55" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="780" y="490" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">两大火山地震带</text>
+  <text x="780" y="507" text-anchor="middle" font-size="10" fill="#0f766e">① 环太平洋带（最主要）</text>
+  <text x="780" y="522" text-anchor="middle" font-size="10" fill="#0f766e">② 地中海—喜马拉雅带</text>
+</svg>
+</div>
 
 ### 4. 世界两大火山地震带
 
@@ -98,22 +193,3 @@ date: 2026-08-05
 **答案**：1. 魏格纳 2. 海洋 3. 太平洋 4. B 5. 亚欧；印度洋 6. B 7. 环太平洋
 
 相关：[[第一节 海洋和陆地的分布]] ｜ [[主题探究："海底漫游"旅游路线设计]]
-
-
-### 五种基本地形特征对比
-
-| 地形类型 | 海拔特点 | 地表起伏特征 |
-| :--- | :--- | :--- |
-| 平原 | 一般在200米以下 | 宽广平坦 |
-| 高原 | 一般在500米以上 | 面积较大，外围较陡，内部起伏和缓 |
-| 山地 | 500米以上 | 具有耸立的山峰，陡峭的山坡 |
-| 丘陵 | 500米以下 | 地势起伏较大 |
-| 盆地 | 无一定标准 | 四周高，中间低 |
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" style="background-color: #f8fbfa; border: 1px solid #d0e8e1; border-radius: 8px;">
-  <path d="M0,180 L100,180 L200,80 L250,150 L350,50 L450,180 L600,180" fill="none" stroke="#2c9a82" stroke-width="3" />
-  <text x="50" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
-  <text x="200" y="70" fill="#1b5e50" font-size="14" text-anchor="middle">山地</text>
-  <text x="350" y="40" fill="#1b5e50" font-size="14" text-anchor="middle">高峰</text>
-  <text x="525" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
-</svg>

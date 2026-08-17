@@ -36,6 +36,129 @@ date: 2026-08-05
 2. 同纬度**夏季陆地气温高于海洋，冬季海洋高于陆地**（海陆因素）。
 3. 山地气温随海拔升高而降低，**每升高 100 米约下降 0.6℃**（地形因素）。
 
+<div class="svg-chart">
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:720px;font-family:sans-serif;">
+  <rect width="720" height="420" rx="12" fill="#f0fdfa" stroke="#2c9a82" stroke-width="2"/>
+  <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f766e">北京气温与降水月变化图（温带季风气候）</text>
+
+  <!-- 坐标轴区域 -->
+  <!-- 左轴：气温 -->
+  <line x1="80" y1="50" x2="80" y2="350" stroke="#0f766e" stroke-width="2"/>
+  <!-- 右轴：降水 -->
+  <line x1="640" y1="50" x2="640" y2="350" stroke="#0369a1" stroke-width="2"/>
+  <!-- 底轴 -->
+  <line x1="80" y1="350" x2="640" y2="350" stroke="#334155" stroke-width="2"/>
+
+  <!-- 左轴标签：气温 -->
+  <text x="20" y="200" text-anchor="middle" font-size="13" fill="#0f766e" transform="rotate(-90,20,200)">气温（℃）</text>
+  <!-- 右轴标签：降水 -->
+  <text x="700" y="200" text-anchor="middle" font-size="13" fill="#0369a1" transform="rotate(90,700,200)">降水量（mm）</text>
+
+  <!-- 气温刻度（左轴）：-10 0 10 20 30 -->
+  <!-- 范围：-10到30℃，共40度，高度300px，每度7.5px -->
+  <!-- y=350对应-10℃，y=50对应30℃ -->
+  <text x="72" y="354" text-anchor="end" font-size="11" fill="#0f766e">-10</text>
+  <line x1="76" y1="350" x2="80" y2="350" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="72" y="279" text-anchor="end" font-size="11" fill="#0f766e">0</text>
+  <line x1="76" y1="275" x2="80" y2="275" stroke="#0f766e" stroke-width="1.5"/>
+  <line x1="80" y1="275" x2="640" y2="275" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="72" y="204" text-anchor="end" font-size="11" fill="#0f766e">10</text>
+  <line x1="76" y1="200" x2="80" y2="200" stroke="#0f766e" stroke-width="1.5"/>
+  <line x1="80" y1="200" x2="640" y2="200" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="72" y="129" text-anchor="end" font-size="11" fill="#0f766e">20</text>
+  <line x1="76" y1="125" x2="80" y2="125" stroke="#0f766e" stroke-width="1.5"/>
+  <line x1="80" y1="125" x2="640" y2="125" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="72" y="54" text-anchor="end" font-size="11" fill="#0f766e">30</text>
+  <line x1="76" y1="50" x2="80" y2="50" stroke="#0f766e" stroke-width="1.5"/>
+
+  <!-- 降水刻度（右轴）：0 50 100 150 200 -->
+  <!-- 范围：0-200mm，高度300px，每mm 1.5px -->
+  <!-- y=350对应0mm，y=50对应200mm -->
+  <text x="648" y="354" font-size="11" fill="#0369a1">0</text>
+  <text x="648" y="279" font-size="11" fill="#0369a1">50</text>
+  <text x="648" y="204" font-size="11" fill="#0369a1">100</text>
+  <text x="648" y="129" font-size="11" fill="#0369a1">150</text>
+  <text x="648" y="54" font-size="11" fill="#0369a1">200</text>
+
+  <!-- 月份标签 -->
+  <!-- 12个月，x从80到640，间距46.67px -->
+  <!-- 月份中心x: 80+23=103, 103+46.67*n -->
+  <text x="103" y="370" text-anchor="middle" font-size="11" fill="#334155">1月</text>
+  <text x="150" y="370" text-anchor="middle" font-size="11" fill="#334155">2月</text>
+  <text x="197" y="370" text-anchor="middle" font-size="11" fill="#334155">3月</text>
+  <text x="243" y="370" text-anchor="middle" font-size="11" fill="#334155">4月</text>
+  <text x="290" y="370" text-anchor="middle" font-size="11" fill="#334155">5月</text>
+  <text x="337" y="370" text-anchor="middle" font-size="11" fill="#334155">6月</text>
+  <text x="383" y="370" text-anchor="middle" font-size="11" fill="#334155">7月</text>
+  <text x="430" y="370" text-anchor="middle" font-size="11" fill="#334155">8月</text>
+  <text x="477" y="370" text-anchor="middle" font-size="11" fill="#334155">9月</text>
+  <text x="523" y="370" text-anchor="middle" font-size="11" fill="#334155">10月</text>
+  <text x="570" y="370" text-anchor="middle" font-size="11" fill="#334155">11月</text>
+  <text x="617" y="370" text-anchor="middle" font-size="11" fill="#334155">12月</text>
+
+  <!-- 降水柱状图（蓝色）-->
+  <!-- 北京月降水(mm): 3,5,9,25,35,78,170,140,55,22,8,3 -->
+  <!-- y = 350 - mm*1.5 -->
+  <!-- 柱宽30，中心在月份x -->
+  <rect x="88" y="345.5" width="30" height="4.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="135" y="342.5" width="30" height="7.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="182" y="336.5" width="30" height="13.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="228" y="312.5" width="30" height="37.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="275" y="297.5" width="30" height="52.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="322" y="233" width="30" height="117" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="368" y="95" width="30" height="255" fill="#3b82f6" stroke="#0369a1" stroke-width="1"/>
+  <rect x="415" y="140" width="30" height="210" fill="#3b82f6" stroke="#0369a1" stroke-width="1"/>
+  <rect x="462" y="267.5" width="30" height="82.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="508" y="317" width="30" height="33" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="555" y="338" width="30" height="12" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <rect x="602" y="345.5" width="30" height="4.5" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+
+  <!-- 气温曲线（绿色）-->
+  <!-- 北京月均温(℃): -3,0,6,14,20,25,26,25,19,12,4,-1 -->
+  <!-- y = 350 - (T+10)*7.5 = 350 - T*7.5 - 75 = 275 - T*7.5 -->
+  <!-- 1月-3℃: y=275+22.5=297.5 -->
+  <!-- 2月0℃: y=275 -->
+  <!-- 3月6℃: y=275-45=230 -->
+  <!-- 4月14℃: y=275-105=170 -->
+  <!-- 5月20℃: y=275-150=125 -->
+  <!-- 6月25℃: y=275-187.5=87.5 -->
+  <!-- 7月26℃: y=275-195=80 -->
+  <!-- 8月25℃: y=87.5 -->
+  <!-- 9月19℃: y=275-142.5=132.5 -->
+  <!-- 10月12℃: y=275-90=185 -->
+  <!-- 11月4℃: y=275-30=245 -->
+  <!-- 12月-1℃: y=275+7.5=282.5 -->
+  <polyline points="103,297.5 150,275 197,230 243,170 290,125 337,87.5 383,80 430,87.5 477,132.5 523,185 570,245 617,282.5"
+    fill="none" stroke="#0f766e" stroke-width="3" stroke-linejoin="round"/>
+  <!-- 数据点 -->
+  <circle cx="103" cy="297.5" r="4" fill="#0f766e"/>
+  <circle cx="150" cy="275" r="4" fill="#0f766e"/>
+  <circle cx="197" cy="230" r="4" fill="#0f766e"/>
+  <circle cx="243" cy="170" r="4" fill="#0f766e"/>
+  <circle cx="290" cy="125" r="4" fill="#0f766e"/>
+  <circle cx="337" cy="87.5" r="4" fill="#0f766e"/>
+  <circle cx="383" cy="80" r="5" fill="#ef4444"/>
+  <circle cx="430" cy="87.5" r="4" fill="#0f766e"/>
+  <circle cx="477" cy="132.5" r="4" fill="#0f766e"/>
+  <circle cx="523" cy="185" r="4" fill="#0f766e"/>
+  <circle cx="570" cy="245" r="4" fill="#0f766e"/>
+  <circle cx="617" cy="282.5" r="4" fill="#0f766e"/>
+
+  <!-- 标注最高最低温 -->
+  <text x="383" y="72" text-anchor="middle" font-size="11" fill="#ef4444">26℃</text>
+  <text x="103" y="292" text-anchor="middle" font-size="11" fill="#1d4ed8">-3℃</text>
+
+  <!-- 图例 -->
+  <rect x="200" y="390" width="16" height="12" fill="#7dd3fc" stroke="#0369a1" stroke-width="1"/>
+  <text x="220" y="401" font-size="12" fill="#0369a1">月降水量（mm）</text>
+  <line x1="380" y1="396" x2="400" y2="396" stroke="#0f766e" stroke-width="3"/>
+  <circle cx="390" cy="396" r="4" fill="#0f766e"/>
+  <text x="408" y="401" font-size="12" fill="#0f766e">月均温（℃）</text>
+
+  <text x="360" y="415" text-anchor="middle" font-size="11" fill="#64748b">※ 北京：夏季高温多雨（7月最热约26℃），冬季寒冷干燥（1月最冷约-3℃）</text>
+</svg>
+</div>
+
 ### 3. 降水的形成与类型
 
 - 形成基本条件：空气中含足够**水汽**、气温下降使水汽**凝结**、凝结物增大到能降落。
@@ -50,6 +173,57 @@ date: 2026-08-05
 | 回归线附近 | 大陆**东岸多**雨，**西岸和内部少**雨 |
 | 中纬度地区 | **沿海多**雨，**内陆少**雨 |
 | 山地 | **迎风坡多**雨，背风坡少雨 |
+
+<div class="svg-chart">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:700px;font-family:sans-serif;">
+  <rect width="700" height="420" rx="12" fill="#f0fdfa" stroke="#2c9a82" stroke-width="2"/>
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f766e">世界降水分布规律示意图</text>
+
+  <!-- 纬度带背景 -->
+  <!-- 北极 90°N -->
+  <rect x="60" y="45" width="580" height="40" rx="4" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1"/>
+  <text x="350" y="70" text-anchor="middle" font-size="13" fill="#0369a1">北极地区（90°N附近）— 少雨（寒冷，蒸发弱）</text>
+
+  <!-- 60°N -->
+  <rect x="60" y="92" width="580" height="40" rx="4" fill="#d1fae5" stroke="#2c9a82" stroke-width="1"/>
+  <text x="350" y="117" text-anchor="middle" font-size="13" fill="#065f46">60°N附近 — 较多雨（气流上升）</text>
+
+  <!-- 30°N 回归线 -->
+  <rect x="60" y="139" width="580" height="50" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="350" y="158" text-anchor="middle" font-size="13" fill="#92400e">30°N回归线附近 — 大陆西岸少雨（沙漠）</text>
+  <text x="350" y="178" text-anchor="middle" font-size="12" fill="#92400e">大陆东岸多雨（季风）｜内陆干燥少雨</text>
+
+  <!-- 赤道 0° -->
+  <rect x="60" y="196" width="580" height="40" rx="4" fill="#14b8a6" stroke="#0f766e" stroke-width="2"/>
+  <text x="350" y="221" text-anchor="middle" font-size="14" font-weight="bold" fill="white">赤道地区（0°）— 全年多雨（气流强烈上升）</text>
+
+  <!-- 30°S 回归线 -->
+  <rect x="60" y="243" width="580" height="50" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="350" y="262" text-anchor="middle" font-size="13" fill="#92400e">30°S回归线附近 — 大陆西岸少雨（沙漠）</text>
+  <text x="350" y="282" text-anchor="middle" font-size="12" fill="#92400e">大陆东岸多雨（季风）｜内陆干燥少雨</text>
+
+  <!-- 60°S -->
+  <rect x="60" y="300" width="580" height="40" rx="4" fill="#d1fae5" stroke="#2c9a82" stroke-width="1"/>
+  <text x="350" y="325" text-anchor="middle" font-size="13" fill="#065f46">60°S附近 — 较多雨（气流上升）</text>
+
+  <!-- 南极 90°S -->
+  <rect x="60" y="347" width="580" height="40" rx="4" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1"/>
+  <text x="350" y="372" text-anchor="middle" font-size="13" fill="#0369a1">南极地区（90°S附近）— 少雨（终年严寒）</text>
+
+  <!-- 纬度标注 -->
+  <text x="30" y="70" text-anchor="middle" font-size="11" fill="#64748b">90°N</text>
+  <text x="30" y="117" text-anchor="middle" font-size="11" fill="#64748b">60°N</text>
+  <text x="30" y="165" text-anchor="middle" font-size="11" fill="#64748b">30°N</text>
+  <text x="30" y="221" text-anchor="middle" font-size="11" fill="#0f766e">0°</text>
+  <text x="30" y="265" text-anchor="middle" font-size="11" fill="#64748b">30°S</text>
+  <text x="30" y="325" text-anchor="middle" font-size="11" fill="#64748b">60°S</text>
+  <text x="30" y="372" text-anchor="middle" font-size="11" fill="#64748b">90°S</text>
+
+  <!-- 山地迎背风坡说明 -->
+  <rect x="80" y="395" width="540" height="18" rx="4" fill="#ccfbf1" stroke="#2c9a82" stroke-width="1"/>
+  <text x="350" y="408" text-anchor="middle" font-size="12" fill="#0f766e">山地规律：迎风坡多雨 ↑ ｜ 背风坡少雨 ↓　　中纬度：沿海多雨 ｜ 内陆少雨</text>
+</svg>
+</div>
 
 ## 四、读图与技能：气温曲线和降水柱状图判读
 
@@ -94,14 +268,3 @@ date: 2026-08-05
 **答案**：1. 午后 2 时（14 时） 2. 1；2 3. 10（22−0.6×20） 4. B 5. 多；少 6. 南 7. A
 
 相关：[[第一节 感知天气]] ｜ [[第三节 世界主要气候类型]]
-
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

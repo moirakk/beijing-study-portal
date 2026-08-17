@@ -80,16 +80,100 @@ date: 2026-08-06
 
 相关：[[第二节 自然环境与地方文化景观]] ｜ [[第一节 北方地区]] ｜ [[第四节 西北地区]]
 
+<div class="svg-chart">
 
-### 气候类型分布与特征
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;font-family:sans-serif;">
+  <title>中国四大地理区域示意图</title>
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f0fdf4" rx="12"/>
+  <!-- 标题 -->
+  <text x="400" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#134e4a">中国四大地理区域示意图</text>
 
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
+  <!-- ===== 简化中国轮廓各区域色块 ===== -->
+  <!-- 青藏地区（西南高原，蓝灰色） -->
+  <polygon points="130,200 230,160 310,170 340,220 360,300 320,380 260,420 180,400 130,340" fill="#bae6fd" stroke="#0369a1" stroke-width="1.5" opacity="0.85"/>
+  <!-- 西北地区（西北，沙漠黄） -->
+  <polygon points="130,200 230,160 310,170 340,220 310,160 280,100 200,80 130,100 90,150" fill="#fde68a" stroke="#b45309" stroke-width="1.5" opacity="0.85"/>
+  <!-- 北方地区（北部，浅青绿） -->
+  <polygon points="310,170 340,220 420,200 520,180 600,160 640,120 580,80 480,70 380,80 280,100 310,160" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5" opacity="0.85"/>
+  <!-- 南方地区（东南，深青绿） -->
+  <polygon points="340,220 360,300 320,380 340,440 400,480 480,500 560,480 620,420 660,340 640,260 580,220 520,180 420,200" fill="#5eead4" stroke="#0d9488" stroke-width="2" opacity="0.85"/>
+
+  <!-- ===== 分界线 ===== -->
+  <!-- 秦岭-淮河（北方/南方分界，红色虚线） -->
+  <line x1="340" y1="220" x2="580" y2="220" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <!-- 400mm等降水量线（北方/西北分界，橙色虚线） -->
+  <line x1="310" y1="170" x2="340" y2="220" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- 昆仑山-祁连山-横断山（青藏/其他分界，紫色虚线） -->
+  <polyline points="130,200 230,160 310,170" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <polyline points="310,170 340,220 360,300 320,380" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- ===== 区域标注 ===== -->
+  <text x="200" y="290" text-anchor="middle" font-size="16" font-weight="bold" fill="#0369a1">青藏地区</text>
+  <text x="200" y="312" text-anchor="middle" font-size="12" fill="#0369a1">（高寒）</text>
+
+  <text x="195" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">西北地区</text>
+  <text x="195" y="160" text-anchor="middle" font-size="12" fill="#92400e">（干旱）</text>
+
+  <text x="460" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">北方地区</text>
+  <text x="460" y="160" text-anchor="middle" font-size="12" fill="#134e4a">（半湿润）</text>
+
+  <text x="510" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#065f46">南方地区</text>
+  <text x="510" y="392" text-anchor="middle" font-size="12" fill="#065f46">（湿润）</text>
+
+  <!-- ===== 分界线标注 ===== -->
+  <!-- 秦岭-淮河标注 -->
+  <rect x="355" y="196" width="130" height="20" rx="4" fill="white" opacity="0.85"/>
+  <text x="420" y="210" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="bold">秦岭—淮河一线</text>
+
+  <!-- 400mm等降水量线标注 -->
+  <rect x="240" y="178" width="110" height="18" rx="4" fill="white" opacity="0.85"/>
+  <text x="295" y="191" text-anchor="middle" font-size="11" fill="#ea580c">400mm等降水量线</text>
+
+  <!-- 昆仑山-祁连山-横断山标注 -->
+  <rect x="60" y="195" width="130" height="18" rx="4" fill="white" opacity="0.85"/>
+  <text x="125" y="208" text-anchor="middle" font-size="11" fill="#7c3aed">昆仑山—祁连山—横断山</text>
+
+  <!-- ===== 图例 ===== -->
+  <rect x="590" y="60" width="185" height="200" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5" opacity="0.95"/>
+  <text x="682" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">图 例</text>
+
+  <rect x="606" y="96" width="22" height="14" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+  <text x="636" y="108" font-size="12" fill="#134e4a">北方地区</text>
+
+  <rect x="606" y="118" width="22" height="14" fill="#5eead4" stroke="#0d9488" stroke-width="1"/>
+  <text x="636" y="130" font-size="12" fill="#134e4a">南方地区</text>
+
+  <rect x="606" y="140" width="22" height="14" fill="#fde68a" stroke="#b45309" stroke-width="1"/>
+  <text x="636" y="152" font-size="12" fill="#134e4a">西北地区</text>
+
+  <rect x="606" y="162" width="22" height="14" fill="#bae6fd" stroke="#0369a1" stroke-width="1"/>
+  <text x="636" y="174" font-size="12" fill="#134e4a">青藏地区</text>
+
+  <line x1="606" y1="190" x2="628" y2="190" stroke="#dc2626" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="636" y="194" font-size="11" fill="#dc2626">秦岭—淮河</text>
+
+  <line x1="606" y1="208" x2="628" y2="208" stroke="#ea580c" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="636" y="212" font-size="11" fill="#ea580c">400mm降水线</text>
+
+  <line x1="606" y1="226" x2="628" y2="226" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="636" y="230" font-size="11" fill="#7c3aed">高原边缘山脉</text>
+
+  <!-- ===== 北方向标 ===== -->
+  <g transform="translate(680,480)">
+    <circle cx="0" cy="0" r="22" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,0 0,-6 6,0" fill="#0d9488"/>
+    <polygon points="0,18 -6,0 0,6 6,0" fill="#cccccc"/>
+    <text x="0" y="-22" text-anchor="middle" font-size="13" font-weight="bold" fill="#0d9488">N</text>
+  </g>
+
+  <!-- ===== 主要分界线说明框 ===== -->
+  <rect x="30" y="460" width="530" height="110" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5" opacity="0.95"/>
+  <text x="295" y="482" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">三条重要分界线</text>
+  <text x="50" y="502" font-size="12" fill="#dc2626">● 秦岭—淮河：北方/南方分界，约1月0℃等温线，约800mm年等降水量线</text>
+  <text x="50" y="522" font-size="12" fill="#ea580c">● 400mm年等降水量线：北方/西北分界，主导因素为降水（季风影响）</text>
+  <text x="50" y="542" font-size="12" fill="#7c3aed">● 昆仑山—祁连山—横断山：青藏/其他三区分界，主导因素为地形地势</text>
+  <text x="50" y="562" font-size="12" fill="#134e4a">● 注：同一省区可跨多个区域（如甘肃跨北方、西北、青藏三区）</text>
+</svg>
+
+</div>

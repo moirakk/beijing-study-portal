@@ -30,6 +30,61 @@ date: 2026-08-06
 | 南北美洲 | 美洲板块 |
 | 南极洲 | 南极洲板块 |
 
+<div class="svg-chart">
+
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:640px;font-family:sans-serif;">
+  <rect width="640" height="360" fill="#f0fdfa" rx="12"/>
+  <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">大洲大洋与六大板块对应关系</text>
+
+  <!-- 板块1：亚欧板块 -->
+  <rect x="30" y="48" width="180" height="70" fill="#0d9488" rx="8"/>
+  <text x="120" y="76" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">亚欧板块</text>
+  <text x="120" y="96" text-anchor="middle" font-size="11" fill="#ccfbf1">亚洲 + 欧洲</text>
+  <text x="120" y="110" text-anchor="middle" font-size="10" fill="#ccfbf1">（几乎全为陆地）</text>
+
+  <!-- 板块2：非洲板块 -->
+  <rect x="230" y="48" width="180" height="70" fill="#14b8a6" rx="8"/>
+  <text x="320" y="76" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">非洲板块</text>
+  <text x="320" y="96" text-anchor="middle" font-size="11" fill="#f0fdfa">非洲大陆</text>
+  <text x="320" y="110" text-anchor="middle" font-size="10" fill="#f0fdfa">（含部分大西洋）</text>
+
+  <!-- 板块3：印度洋板块 -->
+  <rect x="430" y="48" width="180" height="70" fill="#2c9a82" rx="8"/>
+  <text x="520" y="76" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">印度洋板块</text>
+  <text x="520" y="96" text-anchor="middle" font-size="11" fill="#ccfbf1">印度洋 + 澳大利亚</text>
+  <text x="520" y="110" text-anchor="middle" font-size="10" fill="#ccfbf1">（含印度半岛）</text>
+
+  <!-- 板块4：太平洋板块 -->
+  <rect x="30" y="148" width="180" height="70" fill="#5eead4" rx="8"/>
+  <text x="120" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">太平洋板块</text>
+  <text x="120" y="196" text-anchor="middle" font-size="11" fill="#134e4a">太平洋大部分</text>
+  <text x="120" y="210" text-anchor="middle" font-size="10" fill="#0d9488">（几乎全为海洋）</text>
+
+  <!-- 板块5：美洲板块 -->
+  <rect x="230" y="148" width="180" height="70" fill="#99f6e4" rx="8"/>
+  <text x="320" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">美洲板块</text>
+  <text x="320" y="196" text-anchor="middle" font-size="11" fill="#134e4a">南美洲 + 北美洲</text>
+  <text x="320" y="210" text-anchor="middle" font-size="10" fill="#0d9488">（含部分大西洋）</text>
+
+  <!-- 板块6：南极洲板块 -->
+  <rect x="430" y="148" width="180" height="70" fill="#ccfbf1" rx="8" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="520" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">南极洲板块</text>
+  <text x="520" y="196" text-anchor="middle" font-size="11" fill="#134e4a">南极大陆</text>
+  <text x="520" y="210" text-anchor="middle" font-size="10" fill="#0d9488">（含周边海洋）</text>
+
+  <!-- 核心规律框 -->
+  <rect x="30" y="240" width="580" height="50" fill="#134e4a" rx="8"/>
+  <text x="320" y="261" text-anchor="middle" font-size="13" fill="#5eead4" font-weight="bold">板块交界地带 = 地壳活跃带 = 火山地震带</text>
+  <text x="320" y="281" text-anchor="middle" font-size="12" fill="#ccfbf1">张裂→裂谷/海洋（红海、东非大裂谷）｜碰撞→山脉/岛弧（喜马拉雅山）</text>
+
+  <!-- 综合口诀 -->
+  <rect x="30" y="305" width="580" height="40" fill="#ccfbf1" rx="8"/>
+  <text x="320" y="322" text-anchor="middle" font-size="12" fill="#134e4a" font-weight="bold">七大洲：亚非北南美，南极欧大洋 ｜ 四大洋：太大印北</text>
+  <text x="320" y="338" text-anchor="middle" font-size="11" fill="#0d9488">六大板块：亚欧、非洲、印度洋、太平洋、美洲、南极洲</text>
+</svg>
+
+</div>
+
 ## 三、常考综合题角度
 
 | 设问方向 | 答题要点 |
@@ -67,14 +122,3 @@ date: 2026-08-06
 2. 日本多火山地震的原因是什么？
 3. 苏伊士运河沟通了哪两个大洋？
 4. 亚欧分界线自北向南依次有哪些地理事物？
-
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

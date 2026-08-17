@@ -81,15 +81,84 @@ date: 2026-08-06
 相关：[[第二节 自然环境与地方文化景观]] ｜ [[第一节 北方地区]] ｜ [[第二节 南方地区]]
 
 
-### 气候类型分布与特征
+<div class="svg-chart">
 
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;font-family:sans-serif;">
+  <title>四大区域民居与自然环境对比图</title>
+  <rect width="800" height="480" fill="#f0fdf4" rx="12"/>
+  <text x="400" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#134e4a">四大区域民居与自然环境对比图</text>
+
+  <!-- 江南水乡 -->
+  <rect x="30" y="55" width="170" height="300" rx="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="115" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">江南水乡</text>
+  <text x="115" y="98" text-anchor="middle" font-size="11" fill="#0d9488">（南方地区）</text>
+  <!-- 简化民居：坡屋顶 -->
+  <polygon points="65,160 115,120 165,160" fill="#5eead4" stroke="#0d9488" stroke-width="1.5"/>
+  <rect x="75" y="160" width="80" height="50" fill="#e0fdf4" stroke="#0d9488" stroke-width="1.5"/>
+  <rect x="95" y="175" width="20" height="35" fill="#0d9488" opacity="0.5"/>
+  <text x="115" y="232" text-anchor="middle" font-size="11" fill="#134e4a">粉墙黛瓦</text>
+  <text x="115" y="250" text-anchor="middle" font-size="11" fill="#134e4a">屋顶坡度大</text>
+  <line x1="50" y1="265" x2="180" y2="265" stroke="#0d9488" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="115" y="283" text-anchor="middle" font-size="11" fill="#065f46">气候：亚热带季风</text>
+  <text x="115" y="300" text-anchor="middle" font-size="11" fill="#065f46">降水：800mm以上</text>
+  <text x="115" y="317" text-anchor="middle" font-size="11" fill="#065f46">功能：排水散热</text>
+  <text x="115" y="334" text-anchor="middle" font-size="11" fill="#065f46">水运：摇橹行船</text>
+
+  <!-- 黄土高原窑洞 -->
+  <rect x="215" y="55" width="170" height="300" rx="10" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+  <text x="300" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">黄土高原</text>
+  <text x="300" y="98" text-anchor="middle" font-size="11" fill="#b45309">（北方地区）</text>
+  <!-- 简化窑洞 -->
+  <rect x="240" y="145" width="120" height="70" rx="0" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <ellipse cx="300" cy="145" rx="60" ry="30" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <ellipse cx="300" cy="145" rx="20" ry="10" fill="#b45309" opacity="0.4"/>
+  <text x="300" y="232" text-anchor="middle" font-size="11" fill="#134e4a">窑 洞</text>
+  <text x="300" y="250" text-anchor="middle" font-size="11" fill="#134e4a">依崖而建</text>
+  <line x1="230" y1="265" x2="370" y2="265" stroke="#b45309" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="300" y="283" text-anchor="middle" font-size="11" fill="#92400e">气候：温带季风</text>
+  <text x="300" y="300" text-anchor="middle" font-size="11" fill="#92400e">降水：400-800mm</text>
+  <text x="300" y="317" text-anchor="middle" font-size="11" fill="#92400e">功能：冬暖夏凉</text>
+  <text x="300" y="334" text-anchor="middle" font-size="11" fill="#92400e">黄土直立性好</text>
+
+  <!-- 内蒙古蒙古包 -->
+  <rect x="400" y="55" width="170" height="300" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+  <text x="485" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">内蒙古草原</text>
+  <text x="485" y="98" text-anchor="middle" font-size="11" fill="#059669">（北方/西北地区）</text>
+  <!-- 简化蒙古包 -->
+  <ellipse cx="485" cy="175" rx="55" ry="35" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <rect x="430" y="175" width="110" height="40" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <ellipse cx="485" cy="155" rx="15" ry="8" fill="#059669" opacity="0.5"/>
+  <text x="485" y="232" text-anchor="middle" font-size="11" fill="#134e4a">蒙古包</text>
+  <text x="485" y="250" text-anchor="middle" font-size="11" fill="#134e4a">圆形毡房</text>
+  <line x1="415" y1="265" x2="555" y2="265" stroke="#059669" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="485" y="283" text-anchor="middle" font-size="11" fill="#065f46">气候：温带大陆性</text>
+  <text x="485" y="300" text-anchor="middle" font-size="11" fill="#065f46">降水：200-400mm</text>
+  <text x="485" y="317" text-anchor="middle" font-size="11" fill="#065f46">功能：便于拆装</text>
+  <text x="485" y="334" text-anchor="middle" font-size="11" fill="#065f46">适应游牧生活</text>
+
+  <!-- 青藏高原碉房 -->
+  <rect x="585" y="55" width="185" height="300" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="677" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#0369a1">青藏高原</text>
+  <text x="677" y="98" text-anchor="middle" font-size="11" fill="#0369a1">（青藏地区）</text>
+  <!-- 简化碉房 -->
+  <rect x="627" y="130" width="100" height="80" fill="#bae6fd" stroke="#0369a1" stroke-width="2"/>
+  <rect x="627" y="110" width="100" height="25" fill="#7dd3fc" stroke="#0369a1" stroke-width="1.5"/>
+  <rect x="650" y="155" width="20" height="30" fill="#0369a1" opacity="0.4"/>
+  <rect x="685" y="155" width="20" height="30" fill="#0369a1" opacity="0.4"/>
+  <text x="677" y="232" text-anchor="middle" font-size="11" fill="#134e4a">平顶碉房</text>
+  <text x="677" y="250" text-anchor="middle" font-size="11" fill="#134e4a">石墙厚实</text>
+  <line x1="600" y1="265" x2="755" y2="265" stroke="#0369a1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="677" y="283" text-anchor="middle" font-size="11" fill="#0369a1">气候：高寒气候</text>
+  <text x="677" y="300" text-anchor="middle" font-size="11" fill="#0369a1">降水：较少</text>
+  <text x="677" y="317" text-anchor="middle" font-size="11" fill="#0369a1">功能：保温防寒</text>
+  <text x="677" y="334" text-anchor="middle" font-size="11" fill="#0369a1">石材丰富平顶</text>
+
+  <!-- 底部总结 -->
+  <rect x="30" y="370" width="740" height="88" rx="8" fill="#0d9488" opacity="0.9"/>
+  <text x="400" y="393" text-anchor="middle" font-size="13" font-weight="bold" fill="white">情景剧地理逻辑：因为（自然环境）→所以（生活方式）</text>
+  <text x="400" y="415" text-anchor="middle" font-size="12" fill="#ccfbf1">江南：湿热多雨→坡屋顶排水 | 黄土高原：干燥→窑洞冬暖夏凉</text>
+  <text x="400" y="437" text-anchor="middle" font-size="12" fill="#ccfbf1">草原：游牧迁徙→蒙古包可拆装 | 青藏：高寒→碉房厚墙保温</text>
+  <text x="400" y="455" text-anchor="middle" font-size="11" fill="#a7f3d0">评价核心：地理知识准确性 · 区域特色鲜明度 · 因果逻辑清晰</text>
+</svg>
+
+</div>

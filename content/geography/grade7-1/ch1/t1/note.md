@@ -31,6 +31,81 @@ date: 2026-08-05
 - 地球是距太阳**第三近**的行星，离太阳较近、体积较小、有固体表面。
 - 月球是地球唯一的**天然卫星**，与地球组成地月系。
 
+```mermaid
+graph TB
+  U["宇宙（总星系）"] --> YH["银河系"]
+  U --> QT1["其他星系（河外星系）"]
+  YH --> TY["太阳系"]
+  YH --> QT2["其他恒星系统"]
+  TY --> DY["地月系"]
+  TY --> QT3["其他行星系统"]
+  DY --> DQ["地球"]
+  DY --> YL["月球"]
+
+  style U fill:#134e4a,stroke:#0d9488,color:#ccfbf1
+  style YH fill:#0f766e,stroke:#0d9488,color:#ccfbf1
+  style TY fill:#0d9488,stroke:#14b8a6,color:#ccfbf1
+  style DY fill:#14b8a6,stroke:#5eead4,color:#134e4a
+  style DQ fill:#5eead4,stroke:#0d9488,color:#134e4a
+  style YL fill:#ccfbf1,stroke:#0d9488,color:#134e4a
+  style QT1 fill:#ccfbf1,stroke:#0f766e,color:#134e4a
+  style QT2 fill:#ccfbf1,stroke:#0f766e,color:#134e4a
+  style QT3 fill:#ccfbf1,stroke:#0f766e,color:#134e4a
+```
+
+<div class="svg-chart">
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#0c1222" rx="12"/>
+  <!-- Sun -->
+  <circle cx="80" cy="250" r="45" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="255" text-anchor="middle" fill="#78350f" font-size="14" font-weight="bold">太阳</text>
+  <!-- Orbits -->
+  <ellipse cx="80" cy="250" rx="100" ry="60" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="155" ry="95" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="220" ry="130" fill="none" stroke="#5eead4" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <ellipse cx="80" cy="250" rx="295" ry="165" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="400" ry="195" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="510" ry="210" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="620" ry="220" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <ellipse cx="80" cy="250" rx="740" ry="230" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <!-- Asteroid belt hint -->
+  <ellipse cx="80" cy="250" rx="345" ry="180" fill="none" stroke="#64748b" stroke-width="6" stroke-dasharray="2,8" opacity="0.4"/>
+  <!-- Mercury -->
+  <circle cx="175" cy="220" r="7" fill="#94a3b8"/>
+  <text x="175" y="205" text-anchor="middle" fill="#cbd5e1" font-size="11">水星</text>
+  <!-- Venus -->
+  <circle cx="225" cy="175" r="10" fill="#fcd34d"/>
+  <text x="225" y="158" text-anchor="middle" fill="#cbd5e1" font-size="11">金星</text>
+  <!-- Earth (highlighted) -->
+  <circle cx="295" cy="150" r="12" fill="#14b8a6" stroke="#5eead4" stroke-width="2.5"/>
+  <text x="295" y="130" text-anchor="middle" fill="#5eead4" font-size="13" font-weight="bold">地球 ★</text>
+  <text x="295" y="115" text-anchor="middle" fill="#5eead4" font-size="10">（第3位）</text>
+  <!-- Mars -->
+  <circle cx="365" cy="130" r="9" fill="#ef4444"/>
+  <text x="365" y="113" text-anchor="middle" fill="#cbd5e1" font-size="11">火星</text>
+  <!-- Jupiter -->
+  <circle cx="470" cy="100" r="22" fill="#d97706" stroke="#b45309" stroke-width="1.5"/>
+  <text x="470" y="70" text-anchor="middle" fill="#cbd5e1" font-size="11">木星</text>
+  <!-- Saturn -->
+  <circle cx="580" cy="85" r="18" fill="#a78bfa"/>
+  <ellipse cx="580" cy="85" rx="30" ry="7" fill="none" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="580" y="55" text-anchor="middle" fill="#cbd5e1" font-size="11">土星</text>
+  <!-- Uranus -->
+  <circle cx="690" cy="75" r="14" fill="#67e8f9"/>
+  <text x="690" y="55" text-anchor="middle" fill="#cbd5e1" font-size="11">天王星</text>
+  <!-- Neptune -->
+  <circle cx="805" cy="70" r="13" fill="#3b82f6"/>
+  <text x="805" y="52" text-anchor="middle" fill="#cbd5e1" font-size="11">海王星</text>
+  <!-- Asteroid belt label -->
+  <text x="420" y="460" text-anchor="middle" fill="#64748b" font-size="10">← 小行星带（火星与木星之间）→</text>
+  <!-- Legend -->
+  <rect x="620" y="420" width="260" height="60" fill="#1e293b" rx="8" opacity="0.8"/>
+  <text x="640" y="445" fill="#5eead4" font-size="12" font-weight="bold">太阳系八大行星顺序：</text>
+  <text x="640" y="468" fill="#ccfbf1" font-size="11">水 → 金 → 地 → 火 → 木 → 土 → 天 → 海</text>
+</svg>
+</div>
+
 ### 2. 地球——一颗适合生命存在的行星
 
 | 条件 | 具体表现 |
@@ -81,14 +156,3 @@ date: 2026-08-05
 **答案**：1. 太阳 2. 水星；三 3. C 4. B 5. 火星；木星 6. 错（太阳是恒星）
 
 相关：[[第二节 太空探索]] ｜ [[第四节 地球在运动]]
-
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

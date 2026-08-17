@@ -80,15 +80,122 @@ date: 2026-08-05
 相关：[[第一节 亚洲]] ｜ [[第二节 西亚]] ｜ [[主题探究：设计旅行方案]]
 
 
-### 气候类型分布与特征
+### 古丝绸之路路线示意图
 
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
+<div class="svg-chart">
+<svg viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:860px;font-family:'Microsoft YaHei',sans-serif;">
+  <defs>
+    <marker id="arrSilk" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d97706"/>
+    </marker>
+    <marker id="arrSea" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="860" height="420" fill="#fefce8" rx="12"/>
+  <text x="430" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#134e4a">古丝绸之路路线示意图</text>
+
+  <!-- 简化亚欧大陆底色 -->
+  <rect x="30" y="50" width="800" height="300" rx="8" fill="#e6f7f5" stroke="#0d9488" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- 地形区色块 -->
+  <!-- 关中平原 -->
+  <rect x="50" y="140" width="80" height="60" rx="6" fill="#86efac" stroke="#22c55e" stroke-width="1.5" opacity="0.85"/>
+  <text x="90" y="165" text-anchor="middle" font-size="11" fill="#14532d" font-weight="bold">关中</text>
+  <text x="90" y="180" text-anchor="middle" font-size="10" fill="#14532d">平原</text>
+
+  <!-- 河西走廊 -->
+  <rect x="155" y="150" width="90" height="40" rx="6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5" opacity="0.85"/>
+  <text x="200" y="168" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">河西走廊</text>
+  <text x="200" y="182" text-anchor="middle" font-size="9" fill="#92400e">绿洲农业</text>
+
+  <!-- 塔里木盆地 -->
+  <ellipse cx="310" cy="175" rx="70" ry="40" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5" opacity="0.8"/>
+  <text x="310" y="170" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">塔里木盆地</text>
+  <text x="310" y="185" text-anchor="middle" font-size="9" fill="#92400e">沙漠与绿洲</text>
+
+  <!-- 帕米尔高原 -->
+  <polygon points="390,130 430,130 420,200 380,200" fill="#6b7280" stroke="#374151" stroke-width="1.5" opacity="0.85"/>
+  <text x="405" y="162" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">帕米尔</text>
+  <text x="405" y="175" text-anchor="middle" font-size="9" fill="#e5e7eb">高原</text>
+
+  <!-- 中亚 -->
+  <rect x="440" y="140" width="100" height="60" rx="6" fill="#d1fae5" stroke="#6ee7b7" stroke-width="1.5" opacity="0.85"/>
+  <text x="490" y="165" text-anchor="middle" font-size="11" fill="#065f46" font-weight="bold">中亚</text>
+  <text x="490" y="180" text-anchor="middle" font-size="9" fill="#065f46">草原·荒漠</text>
+
+  <!-- 西亚 -->
+  <rect x="560" y="140" width="90" height="60" rx="6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5" opacity="0.85"/>
+  <text x="605" y="165" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">西亚</text>
+  <text x="605" y="180" text-anchor="middle" font-size="9" fill="#92400e">高原·荒漠</text>
+
+  <!-- 欧洲（罗马） -->
+  <rect x="670" y="130" width="100" height="60" rx="6" fill="#c4b5fd" stroke="#8b5cf6" stroke-width="1.5" opacity="0.85"/>
+  <text x="720" y="155" text-anchor="middle" font-size="11" fill="#4c1d95" font-weight="bold">欧洲</text>
+  <text x="720" y="170" text-anchor="middle" font-size="10" fill="#4c1d95">（罗马）</text>
+  <text x="720" y="183" text-anchor="middle" font-size="9" fill="#4c1d95">地中海气候</text>
+
+  <!-- 陆上丝绸之路主线 -->
+  <path d="M 130,170 L 155,170 L 245,170 L 380,175 L 440,170 L 560,170 L 670,160"
+        fill="none" stroke="#d97706" stroke-width="4" stroke-dasharray="none" marker-end="url(#arrSilk)"/>
+
+  <!-- 城市节点 -->
+  <!-- 长安 -->
+  <circle cx="130" cy="170" r="12" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+  <text x="130" y="200" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">长安</text>
+  <text x="130" y="213" text-anchor="middle" font-size="9" fill="#92400e">（今西安）</text>
+
+  <!-- 敦煌 -->
+  <circle cx="248" cy="170" r="8" fill="#f59e0b" stroke="#92400e" stroke-width="1.5"/>
+  <text x="248" y="195" text-anchor="middle" font-size="10" fill="#92400e">敦煌</text>
+
+  <!-- 撒马尔罕 -->
+  <circle cx="490" cy="170" r="8" fill="#f59e0b" stroke="#92400e" stroke-width="1.5"/>
+  <text x="490" y="195" text-anchor="middle" font-size="10" fill="#92400e">撒马尔罕</text>
+
+  <!-- 巴格达 -->
+  <circle cx="605" cy="170" r="8" fill="#f59e0b" stroke="#92400e" stroke-width="1.5"/>
+  <text x="605" y="195" text-anchor="middle" font-size="10" fill="#92400e">巴格达</text>
+
+  <!-- 罗马 -->
+  <circle cx="720" cy="160" r="12" fill="#8b5cf6" stroke="#4c1d95" stroke-width="2"/>
+  <text x="720" y="115" text-anchor="middle" font-size="11" fill="#4c1d95" font-weight="bold">罗马</text>
+
+  <!-- 路线标注 -->
+  <text x="430" y="145" text-anchor="middle" font-size="12" fill="#d97706" font-weight="bold">陆上丝绸之路</text>
+
+  <!-- 气候变化带 -->
+  <rect x="30" y="250" width="800" height="110" rx="8" fill="#ffffff" stroke="#0d9488" stroke-width="1.5" opacity="0.9"/>
+  <text x="430" y="272" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">沿线气候变化规律（自东向西）</text>
+
+  <!-- 气候渐变条 -->
+  <defs>
+    <linearGradient id="climateGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#86efac"/>
+      <stop offset="25%" style="stop-color:#fde68a"/>
+      <stop offset="60%" style="stop-color:#fbbf24"/>
+      <stop offset="85%" style="stop-color:#fde68a"/>
+      <stop offset="100%" style="stop-color:#c4b5fd"/>
+    </linearGradient>
+  </defs>
+  <rect x="50" y="280" width="740" height="30" rx="6" fill="url(#climateGrad)" stroke="#0d9488" stroke-width="1"/>
+
+  <!-- 气候标注 -->
+  <text x="90" y="300" text-anchor="middle" font-size="10" fill="#14532d" font-weight="bold">温带季风</text>
+  <text x="200" y="300" text-anchor="middle" font-size="10" fill="#92400e" font-weight="bold">温带大陆性</text>
+  <text x="310" y="300" text-anchor="middle" font-size="10" fill="#92400e" font-weight="bold">极干旱</text>
+  <text x="490" y="300" text-anchor="middle" font-size="10" fill="#065f46" font-weight="bold">温带大陆性</text>
+  <text x="605" y="300" text-anchor="middle" font-size="10" fill="#92400e" font-weight="bold">热带沙漠</text>
+  <text x="720" y="300" text-anchor="middle" font-size="10" fill="#4c1d95" font-weight="bold">地中海</text>
+
+  <!-- 商品流通 -->
+  <text x="430" y="330" text-anchor="middle" font-size="11" fill="#134e4a">中国输出：丝绸、瓷器、茶叶　→　输入：香料、宝石、良马</text>
+  <text x="430" y="348" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">聚落沿绿洲·河流·山麓分布（水源决定聚落位置）</text>
+
+  <!-- 一带一路标注 -->
+  <rect x="30" y="370" width="800" height="38" rx="8" fill="#134e4a" opacity="0.9"/>
+  <text x="430" y="393" text-anchor="middle" font-size="13" fill="#5eead4" font-weight="bold">"一带一路"：丝绸之路经济带 + 21世纪海上丝绸之路（古丝路精神的当代延续）</text>
+</svg>
+</div>

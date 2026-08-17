@@ -83,15 +83,97 @@ date: 2026-08-05
 相关：[[第二节 西亚]] ｜ [[第四节 极地地区]] ｜ [[主题探究：设计旅行方案]]
 
 
-### 气候类型分布与特征
+### 欧洲西部温带海洋性气候成因与乳畜业示意图
 
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
+<div class="svg-chart">
+<svg viewBox="0 0 820 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:820px;font-family:'Microsoft YaHei',sans-serif;">
+  <defs>
+    <marker id="arrW" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0d9488"/>
+    </marker>
+    <marker id="arrWarm" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="820" height="480" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#134e4a">欧洲西部气候特征与乳畜业分布示意图</text>
+
+  <!-- 大西洋（左侧） -->
+  <rect x="0" y="50" width="160" height="380" rx="0" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1.5" opacity="0.8"/>
+  <text x="80" y="240" text-anchor="middle" font-size="14" fill="#1e40af" font-weight="bold" transform="rotate(-90,80,240)">大西洋</text>
+
+  <!-- 北大西洋暖流 -->
+  <path d="M 30,380 Q 80,300 100,200 Q 110,150 130,100" fill="none" stroke="#f97316" stroke-width="4" marker-end="url(#arrWarm)"/>
+  <text x="50" y="280" font-size="10" fill="#f97316" font-weight="bold" transform="rotate(-70,50,280)">北大西洋暖流</text>
+  <text x="50" y="295" font-size="9" fill="#f97316" transform="rotate(-70,50,295)">（增温增湿）</text>
+
+  <!-- 欧洲西部大陆 -->
+  <polygon points="160,50 700,50 720,200 700,380 600,430 400,440 200,420 160,380 160,50"
+           fill="#e6f7f5" stroke="#0d9488" stroke-width="2"/>
+
+  <!-- 斯堪的纳维亚山脉（北部） -->
+  <polygon points="500,50 700,50 680,120 480,120" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5" opacity="0.8"/>
+  <text x="590" y="90" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">斯堪的纳维亚山脉</text>
+
+  <!-- 阿尔卑斯山脉（南部，东西走向） -->
+  <polygon points="300,360 700,360 700,400 300,400" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5" opacity="0.8"/>
+  <text x="500" y="385" text-anchor="middle" font-size="12" fill="#374151" font-weight="bold">阿尔卑斯山脉（东西走向，不阻挡西风）</text>
+
+  <!-- 中部西欧平原 -->
+  <rect x="200" y="130" width="450" height="220" rx="8" fill="#86efac" stroke="#22c55e" stroke-width="1.5" opacity="0.7"/>
+  <text x="425" y="200" text-anchor="middle" font-size="14" fill="#14532d" font-weight="bold">西欧平原·波德平原</text>
+  <text x="425" y="220" text-anchor="middle" font-size="12" fill="#14532d">（中部低平，利于西风深入内陆）</text>
+
+  <!-- 温带海洋性气候标注 -->
+  <rect x="200" y="240" width="450" height="90" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2" opacity="0.85"/>
+  <text x="425" y="265" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">温带海洋性气候</text>
+  <text x="425" y="285" text-anchor="middle" font-size="12" fill="#134e4a">全年温和湿润 · 降水季节分配均匀</text>
+  <text x="425" y="305" text-anchor="middle" font-size="11" fill="#134e4a">多雨多雾 · 日照不足 → 不利粮食成熟</text>
+  <text x="425" y="320" text-anchor="middle" font-size="11" fill="#134e4a">→ 利于多汁牧草生长 → 乳畜业发达</text>
+
+  <!-- 西风带箭头 -->
+  <line x1="160" y1="160" x2="250" y2="160" stroke="#0d9488" stroke-width="3" marker-end="url(#arrW)"/>
+  <line x1="160" y1="200" x2="250" y2="200" stroke="#0d9488" stroke-width="3" marker-end="url(#arrW)"/>
+  <line x1="160" y1="240" x2="250" y2="240" stroke="#0d9488" stroke-width="3" marker-end="url(#arrW)"/>
+  <text x="175" y="155" font-size="10" fill="#0d9488" font-weight="bold">西风带</text>
+
+  <!-- 地中海气候（南部） -->
+  <rect x="300" y="400" width="200" height="35" rx="6" fill="#c4b5fd" stroke="#8b5cf6" stroke-width="1.5" opacity="0.9"/>
+  <text x="400" y="422" text-anchor="middle" font-size="11" fill="#4c1d95" font-weight="bold">地中海气候（南部沿海）夏热干燥·冬温多雨</text>
+
+  <!-- 莱茵河 -->
+  <path d="M 500,50 Q 480,150 450,250 Q 430,320 400,360" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="510" y="180" font-size="10" fill="#1d4ed8" font-weight="bold">莱茵河</text>
+
+  <!-- 乳畜业国家标注 -->
+  <circle cx="310" cy="170" r="8" fill="#f59e0b" stroke="#d97706" stroke-width="1.5"/>
+  <text x="325" y="168" font-size="10" fill="#92400e" font-weight="bold">荷兰</text>
+  <text x="325" y="180" font-size="9" fill="#92400e">乳畜业</text>
+
+  <circle cx="360" cy="150" r="8" fill="#f59e0b" stroke="#d97706" stroke-width="1.5"/>
+  <text x="375" y="148" font-size="10" fill="#92400e" font-weight="bold">丹麦</text>
+
+  <circle cx="500" cy="200" r="8" fill="#f59e0b" stroke="#d97706" stroke-width="1.5"/>
+  <text x="515" y="198" font-size="10" fill="#92400e" font-weight="bold">瑞士</text>
+
+  <!-- 纬度标注 -->
+  <line x1="160" y1="130" x2="700" y2="130" stroke="#6b7280" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="710" y="134" font-size="9" fill="#6b7280">60°N</text>
+  <line x1="160" y1="360" x2="700" y2="360" stroke="#6b7280" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="710" y="364" font-size="9" fill="#6b7280">35°N</text>
+
+  <!-- 方向标 -->
+  <g transform="translate(770,70)">
+    <circle cx="0" cy="0" r="20" fill="#134e4a" opacity="0.85"/>
+    <polygon points="0,-16 -4,-4 4,-4" fill="#ffffff"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">N</text>
+    <line x1="0" y1="4" x2="0" y2="16" stroke="#ccfbf1" stroke-width="1.5"/>
+  </g>
+
+  <!-- 欧盟标注 -->
+  <rect x="160" y="440" width="560" height="30" rx="6" fill="#134e4a" opacity="0.9"/>
+  <text x="440" y="460" text-anchor="middle" font-size="12" fill="#5eead4" font-weight="bold">欧盟（EU）：发达国家最集中 · 统一货币欧元 · 旅游业发达</text>
+</svg>
+</div>

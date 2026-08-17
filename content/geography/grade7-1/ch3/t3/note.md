@@ -33,6 +33,112 @@ date: 2026-08-05
 | 大洋中脊 | 大洋中部 | 海底"山脉"，有新岩浆涌出，是新海底的"出生地" |
 | 海沟 | 大洋边缘（如西太平洋） | 海洋最深处，马里亚纳海沟深逾万米 |
 
+<div class="svg-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 520" font-family="sans-serif">
+  <!-- Background - sky and sea -->
+  <rect width="950" height="520" fill="#f0fdfa" rx="12"/>
+  <!-- Sea surface -->
+  <rect x="0" y="80" width="950" height="440" fill="#e0f7fa" rx="0"/>
+
+  <text x="475" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#134e4a">海底地形剖面示意图</text>
+  <text x="475" y="55" text-anchor="middle" font-size="13" fill="#0f766e">从海岸到大洋深处的地形变化</text>
+
+  <!-- Sea level line -->
+  <line x1="0" y1="80" x2="950" y2="80" stroke="#14b8a6" stroke-width="2"/>
+  <text x="15" y="75" font-size="11" fill="#0d9488" font-weight="bold">海平面 0m</text>
+
+  <!-- Land mass (left) -->
+  <path d="M0,80 L0,50 L30,35 L60,45 L80,30 L100,50 L120,60 L140,70 L160,80" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+
+  <!-- Ocean floor profile -->
+  <path d="M0,80 L160,80 L200,100 L280,120 L340,130 L380,140
+           L400,180 L420,240 L430,300
+           L450,350 L500,370 L560,375 L620,370 L660,375
+           L700,340 L720,300 L730,320 L740,370 L750,375
+           L780,375 L820,350 L840,300 L850,280 L860,320 L880,370 L920,380 L950,380"
+    fill="#134e4a" stroke="#0d9488" stroke-width="2.5" opacity="0.15"/>
+
+  <!-- Detailed seafloor with color zones -->
+  <!-- 大陆架 zone -->
+  <path d="M160,80 L200,100 L280,120 L340,130 L380,140 L380,520 L160,520 Z" fill="#5eead4" opacity="0.3"/>
+
+  <!-- 大陆坡 zone -->
+  <path d="M380,140 L400,180 L420,240 L430,300 L430,520 L380,520 Z" fill="#14b8a6" opacity="0.25"/>
+
+  <!-- 洋盆 zone -->
+  <path d="M430,300 L450,350 L500,370 L560,375 L620,370 L660,375 L660,520 L430,520 Z" fill="#0d9488" opacity="0.15"/>
+
+  <!-- 大洋中脊 zone -->
+  <path d="M660,375 L700,340 L720,300 L730,320 L740,370 L740,520 L660,520 Z" fill="#14b8a6" opacity="0.2"/>
+
+  <!-- 海沟 zone -->
+  <path d="M840,300 L850,280 L860,320 L880,370 L920,380 L950,380 L950,520 L840,520 Z" fill="#134e4a" opacity="0.2"/>
+
+  <!-- Seafloor solid line (main profile) -->
+  <path d="M160,80 L200,100 L280,120 L340,130 L380,140
+           L400,180 L420,240 L430,300
+           L450,350 L500,370 L560,375 L620,370 L660,375
+           L700,340 L720,300 L730,320 L740,370
+           L780,375 L820,360 L840,300 L850,280 L860,320 L880,370 L920,385 L950,390"
+    fill="none" stroke="#0d9488" stroke-width="3"/>
+
+  <!-- Depth markers (right side) -->
+  <line x1="920" y1="80" x2="920" y2="390" stroke="#0f766e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="935" y="100" font-size="10" fill="#0f766e">0m</text>
+  <text x="935" y="140" font-size="10" fill="#0f766e">-200m</text>
+  <text x="935" y="250" font-size="10" fill="#0f766e">-2000m</text>
+  <text x="935" y="370" font-size="10" fill="#0f766e">-6000m</text>
+  <text x="935" y="400" font-size="10" fill="#0f766e">-11000m</text>
+
+  <!-- Depth reference lines -->
+  <line x1="160" y1="130" x2="920" y2="130" stroke="#5eead4" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.6"/>
+  <line x1="380" y1="240" x2="920" y2="240" stroke="#14b8a6" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Labels for each zone -->
+  <!-- 大陆架 -->
+  <rect x="210" y="88" width="100" height="28" rx="5" fill="#0d9488"/>
+  <text x="260" y="107" text-anchor="middle" font-size="14" font-weight="bold" fill="white">大陆架</text>
+  <text x="260" y="135" text-anchor="middle" font-size="11" fill="#134e4a">水深 &lt; 200m</text>
+  <text x="260" y="150" text-anchor="middle" font-size="10" fill="#0f766e">坡度缓·阳光充足</text>
+  <text x="260" y="165" text-anchor="middle" font-size="10" fill="#0f766e">渔业丰富·油气资源</text>
+
+  <!-- 大陆坡 -->
+  <rect x="385" y="195" width="80" height="28" rx="5" fill="#0d9488"/>
+  <text x="425" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="white">大陆坡</text>
+  <text x="425" y="240" text-anchor="middle" font-size="10" fill="#134e4a">坡度陡增</text>
+  <text x="425" y="255" text-anchor="middle" font-size="10" fill="#0f766e">水深急剧加大</text>
+
+  <!-- 洋盆 -->
+  <rect x="510" y="330" width="80" height="28" rx="5" fill="#0d9488"/>
+  <text x="550" y="349" text-anchor="middle" font-size="14" font-weight="bold" fill="white">洋盆</text>
+  <text x="550" y="400" text-anchor="middle" font-size="11" fill="#134e4a">大洋底部主体</text>
+  <text x="550" y="415" text-anchor="middle" font-size="10" fill="#0f766e">宽广·较平坦</text>
+
+  <!-- 大洋中脊 -->
+  <rect x="670" y="265" width="90" height="28" rx="5" fill="#14b8a6"/>
+  <text x="715" y="284" text-anchor="middle" font-size="13" font-weight="bold" fill="white">大洋中脊</text>
+  <text x="715" y="250" text-anchor="middle" font-size="10" fill="#134e4a">海底山脉（隆起）</text>
+  <text x="715" y="235" text-anchor="middle" font-size="10" fill="#0f766e">板块张裂·新海底诞生</text>
+
+  <!-- 海沟 -->
+  <rect x="845" y="330" width="70" height="28" rx="5" fill="#134e4a"/>
+  <text x="880" y="349" text-anchor="middle" font-size="13" font-weight="bold" fill="white">海沟</text>
+  <text x="880" y="310" text-anchor="middle" font-size="10" fill="#134e4a">海洋最深处</text>
+  <text x="880" y="295" text-anchor="middle" font-size="10" fill="#0f766e">板块碰撞俯冲</text>
+  <text x="880" y="410" text-anchor="middle" font-size="10" fill="#0f766e">马里亚纳海沟</text>
+  <text x="880" y="425" text-anchor="middle" font-size="10" fill="#0f766e">深达 11034m</text>
+
+  <!-- Travel route arrow -->
+  <path d="M180,85 C250,95 350,115 400,155 C430,185 440,260 450,320 C460,350 520,365 600,365 C650,365 690,340 715,305 C730,320 760,365 830,350 C860,340 870,310 875,290"
+    fill="none" stroke="#0d9488" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <polygon points="875,285 870,295 880,295" fill="#0d9488"/>
+  <text x="475" y="470" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">← 漫游路线：由浅入深，由岸及洋 →</text>
+
+  <!-- Land label -->
+  <text x="60" y="65" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">陆地</text>
+</svg>
+</div>
+
 ### 2. 设计路线（示例思路）
 
 - 路线：海岸出发 → **大陆架**（观鱼群与油气平台）→ 顺**大陆坡**下潜 → 穿越**洋盆** → 登"海底山脉"**大洋中脊** → 终点探秘**海沟**。
@@ -83,22 +189,3 @@ date: 2026-08-05
 **答案**：1. 大陆架 2. B 3. B 4. 大陆坡 5. 马里亚纳 6. 对
 
 相关：[[第一节 海洋和陆地的分布]] ｜ [[第二节 海洋和陆地的变迁]]
-
-
-### 五种基本地形特征对比
-
-| 地形类型 | 海拔特点 | 地表起伏特征 |
-| :--- | :--- | :--- |
-| 平原 | 一般在200米以下 | 宽广平坦 |
-| 高原 | 一般在500米以上 | 面积较大，外围较陡，内部起伏和缓 |
-| 山地 | 500米以上 | 具有耸立的山峰，陡峭的山坡 |
-| 丘陵 | 500米以下 | 地势起伏较大 |
-| 盆地 | 无一定标准 | 四周高，中间低 |
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" style="background-color: #f8fbfa; border: 1px solid #d0e8e1; border-radius: 8px;">
-  <path d="M0,180 L100,180 L200,80 L250,150 L350,50 L450,180 L600,180" fill="none" stroke="#2c9a82" stroke-width="3" />
-  <text x="50" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
-  <text x="200" y="70" fill="#1b5e50" font-size="14" text-anchor="middle">山地</text>
-  <text x="350" y="40" fill="#1b5e50" font-size="14" text-anchor="middle">高峰</text>
-  <text x="525" y="195" fill="#1b5e50" font-size="14" text-anchor="middle">平原</text>
-</svg>

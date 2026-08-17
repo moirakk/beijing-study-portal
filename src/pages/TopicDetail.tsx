@@ -7,7 +7,8 @@ import ReadingProgress from '../components/ReadingProgress'
 import Reveal from '../components/Reveal'
 import QuizSection from '../components/QuizSection'
 import Mascot from '../components/Mascot'
-import { findTopic, getAllTopics, isDraftTopic, loadTopicContent } from '../lib/contentLoader'
+import KnowledgeLinks from '../components/KnowledgeLinks'
+import { findTopic, getAllTopics, isDraftTopic, loadTopicContent, getKnowledgeLinks } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
 import { difficultyStars, subjectVars } from '../lib/constants'
 import type { SubjectId, TopicContent } from '../types'
@@ -167,6 +168,12 @@ export default function TopicDetail() {
     return getAllTopics()
       .filter((t) => t.topic.prerequisites.includes(loc.topic.id))
       .slice(0, 6)
+  }, [loc])
+
+  /** 知识点关联跳转 */
+  const knowledgeLinks = useMemo(() => {
+    if (!loc) return []
+    return getKnowledgeLinks(loc.topic.id)
   }, [loc])
 
   if (!loc || !id) {
@@ -427,6 +434,13 @@ export default function TopicDetail() {
             </Link>
           )}
         </nav>
+      )}
+
+      {/* 知识点关联跳转（同科纵向 + 跨学科横向） */}
+      {knowledgeLinks.length > 0 && (
+        <Reveal>
+          <KnowledgeLinks links={knowledgeLinks} currentSubjectId={subject.id} />
+        </Reveal>
       )}
 
       {/* 底部：前置知识 & 下一步学什么（胶囊链接，紧凑排布） */}

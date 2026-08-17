@@ -34,6 +34,37 @@ date: 2026-08-05
 | 有适合呼吸的大气 | 提供氧气，阻挡有害辐射 |
 | 稳定安全的宇宙环境 | 恒星光照稳定、少受撞击 |
 
+```mermaid
+graph TD
+  A["恒星（类似太阳）"] --> B["行星位于宜居带"]
+  B --> C["日地距离适中"]
+  C --> D["温度适宜<br/>（约 -20℃~50℃）"]
+  D --> E["液态水存在"]
+  
+  F["体积质量适中"] --> G["引力足够"]
+  G --> H["保住大气层"]
+  H --> I["适合呼吸的大气<br/>（O₂、N₂）"]
+  
+  E --> J{{"宜居条件满足"}}
+  I --> J
+  K["宇宙环境安全稳定<br/>（恒星光照稳定、<br/>无频繁撞击）"] --> J
+  
+  J --> L["可能存在生命 → 地球2.0"]
+
+  style A fill:#134e4a,stroke:#0d9488,color:#ccfbf1
+  style B fill:#0f766e,stroke:#14b8a6,color:#ccfbf1
+  style C fill:#0d9488,stroke:#14b8a6,color:#ccfbf1
+  style D fill:#14b8a6,stroke:#5eead4,color:#134e4a
+  style E fill:#5eead4,stroke:#0d9488,color:#134e4a
+  style F fill:#0f766e,stroke:#14b8a6,color:#ccfbf1
+  style G fill:#0d9488,stroke:#14b8a6,color:#ccfbf1
+  style H fill:#14b8a6,stroke:#5eead4,color:#134e4a
+  style I fill:#5eead4,stroke:#0d9488,color:#134e4a
+  style J fill:#fbbf24,stroke:#f59e0b,color:#78350f
+  style K fill:#0d9488,stroke:#14b8a6,color:#ccfbf1
+  style L fill:#134e4a,stroke:#5eead4,color:#5eead4
+```
+
 ### 2. 收集资料：人类怎样寻找"地球 2.0"
 
 - 用**天文望远镜**（地面和太空望远镜）观测遥远恒星周围的行星。
@@ -86,14 +117,3 @@ date: 2026-08-05
 **答案**：1. 宜居带 2. B 3. 天文望远镜 4. A 5. 地球是人类唯一的家园，要珍惜和保护地球
 
 相关：[[第一节 宇宙中的地球]] ｜ [[第二节 太空探索]]
-
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

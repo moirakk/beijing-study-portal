@@ -79,13 +79,125 @@ date: 2026-08-06
 3. 亚洲与非洲的分界线是什么？
 4. 赤道穿过哪两个大陆？
 
+<div class="svg-chart">
 
-### 地理示意图：地球运动
+<svg viewBox="0 0 620 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:620px;font-family:sans-serif;">
+  <rect width="620" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="310" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">七大洲面积对比（万km²）</text>
 
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```
+  <!-- Y轴 -->
+  <line x1="70" y1="50" x2="70" y2="340" stroke="#0d9488" stroke-width="2"/>
+  <!-- X轴 -->
+  <line x1="70" y1="340" x2="600" y2="340" stroke="#0d9488" stroke-width="2"/>
+
+  <!-- Y轴刻度线与标注 -->
+  <line x1="65" y1="340" x2="70" y2="340" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="344" text-anchor="end" font-size="11" fill="#134e4a">0</text>
+  <line x1="65" y1="282" x2="70" y2="282" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="286" text-anchor="end" font-size="11" fill="#134e4a">1000</text>
+  <line x1="65" y1="224" x2="70" y2="224" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="228" text-anchor="end" font-size="11" fill="#134e4a">2000</text>
+  <line x1="65" y1="166" x2="70" y2="166" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="170" text-anchor="end" font-size="11" fill="#134e4a">3000</text>
+  <line x1="65" y1="108" x2="70" y2="108" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="112" text-anchor="end" font-size="11" fill="#134e4a">4000</text>
+  <line x1="65" y1="50" x2="70" y2="50" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="60" y="54" text-anchor="end" font-size="11" fill="#134e4a">5000</text>
+
+  <!-- 网格线 -->
+  <line x1="70" y1="282" x2="600" y2="282" stroke="#ccfbf1" stroke-width="1"/>
+  <line x1="70" y1="224" x2="600" y2="224" stroke="#ccfbf1" stroke-width="1"/>
+  <line x1="70" y1="166" x2="600" y2="166" stroke="#ccfbf1" stroke-width="1"/>
+  <line x1="70" y1="108" x2="600" y2="108" stroke="#ccfbf1" stroke-width="1"/>
+  <line x1="70" y1="50" x2="600" y2="50" stroke="#ccfbf1" stroke-width="1"/>
+
+  <!-- 亚洲 4400万km² → 高度=4400/5000*290=255.2 → y=340-255=85 -->
+  <rect x="85" y="85" width="55" height="255" fill="#0d9488" rx="4"/>
+  <text x="112" y="80" text-anchor="middle" font-size="11" fill="#134e4a">4400</text>
+  <text x="112" y="358" text-anchor="middle" font-size="12" fill="#134e4a">亚洲</text>
+
+  <!-- 非洲 3000万km² → 高度=174 → y=166 -->
+  <rect x="160" y="166" width="55" height="174" fill="#14b8a6" rx="4"/>
+  <text x="187" y="161" text-anchor="middle" font-size="11" fill="#134e4a">3000</text>
+  <text x="187" y="358" text-anchor="middle" font-size="12" fill="#134e4a">非洲</text>
+
+  <!-- 北美洲 2400万km² → 高度=139.2 → y=201 -->
+  <rect x="235" y="201" width="55" height="139" fill="#2c9a82" rx="4"/>
+  <text x="262" y="196" text-anchor="middle" font-size="11" fill="#134e4a">2400</text>
+  <text x="262" y="358" text-anchor="middle" font-size="12" fill="#134e4a">北美洲</text>
+
+  <!-- 南美洲 1800万km² → 高度=104.4 → y=236 -->
+  <rect x="310" y="236" width="55" height="104" fill="#5eead4" rx="4"/>
+  <text x="337" y="231" text-anchor="middle" font-size="11" fill="#134e4a">1800</text>
+  <text x="337" y="358" text-anchor="middle" font-size="12" fill="#134e4a">南美洲</text>
+
+  <!-- 南极洲 1400万km² → 高度=81.2 → y=259 -->
+  <rect x="385" y="259" width="55" height="81" fill="#99f6e4" rx="4"/>
+  <text x="412" y="254" text-anchor="middle" font-size="11" fill="#134e4a">1400</text>
+  <text x="412" y="358" text-anchor="middle" font-size="12" fill="#134e4a">南极洲</text>
+
+  <!-- 欧洲 1000万km² → 高度=58 → y=282 -->
+  <rect x="460" y="282" width="55" height="58" fill="#ccfbf1" rx="4" stroke="#0d9488" stroke-width="1"/>
+  <text x="487" y="277" text-anchor="middle" font-size="11" fill="#134e4a">1000</text>
+  <text x="487" y="358" text-anchor="middle" font-size="12" fill="#134e4a">欧洲</text>
+
+  <!-- 大洋洲 900万km² → 高度=52.2 → y=288 -->
+  <rect x="535" y="288" width="55" height="52" fill="#e0fdf4" rx="4" stroke="#0d9488" stroke-width="1"/>
+  <text x="562" y="283" text-anchor="middle" font-size="11" fill="#134e4a">900</text>
+  <text x="562" y="358" text-anchor="middle" font-size="12" fill="#134e4a">大洋洲</text>
+
+  <!-- 口诀 -->
+  <rect x="70" y="368" width="480" height="24" fill="#ccfbf1" rx="6"/>
+  <text x="310" y="384" text-anchor="middle" font-size="13" fill="#134e4a" font-weight="bold">口诀：亚非北南美，南极欧大洋（面积从大到小）</text>
+</svg>
+
+</div>
+
+<div class="svg-chart">
+
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:620px;font-family:sans-serif;">
+  <rect width="620" height="260" fill="#f0fdfa" rx="12"/>
+  <text x="310" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">四大洋面积与特点对比</text>
+
+  <!-- 太平洋 -->
+  <rect x="30" y="45" width="130" height="90" fill="#0d9488" rx="8"/>
+  <text x="95" y="75" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">太平洋</text>
+  <text x="95" y="95" text-anchor="middle" font-size="11" fill="#ccfbf1">最大最深</text>
+  <text x="95" y="112" text-anchor="middle" font-size="11" fill="#ccfbf1">约1.8亿km²</text>
+
+  <!-- 大西洋 -->
+  <rect x="175" y="45" width="130" height="90" fill="#14b8a6" rx="8"/>
+  <text x="240" y="75" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">大西洋</text>
+  <text x="240" y="95" text-anchor="middle" font-size="11" fill="#f0fdfa">呈"S"形</text>
+  <text x="240" y="112" text-anchor="middle" font-size="11" fill="#f0fdfa">约0.93亿km²</text>
+
+  <!-- 印度洋 -->
+  <rect x="320" y="45" width="130" height="90" fill="#2c9a82" rx="8"/>
+  <text x="385" y="75" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">印度洋</text>
+  <text x="385" y="95" text-anchor="middle" font-size="11" fill="#ccfbf1">第三大洋</text>
+  <text x="385" y="112" text-anchor="middle" font-size="11" fill="#ccfbf1">约0.75亿km²</text>
+
+  <!-- 北冰洋 -->
+  <rect x="465" y="45" width="130" height="90" fill="#5eead4" rx="8"/>
+  <text x="530" y="75" text-anchor="middle" font-size="15" font-weight="bold" fill="#134e4a">北冰洋</text>
+  <text x="530" y="95" text-anchor="middle" font-size="11" fill="#134e4a">最小最浅</text>
+  <text x="530" y="112" text-anchor="middle" font-size="11" fill="#134e4a">约0.14亿km²</text>
+
+  <!-- 箭头标注面积从大到小 -->
+  <line x1="95" y1="148" x2="530" y2="148" stroke="#0d9488" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#0d9488"/>
+    </marker>
+  </defs>
+  <text x="310" y="165" text-anchor="middle" font-size="12" fill="#0d9488">面积从大到小：太平洋 → 大西洋 → 印度洋 → 北冰洋</text>
+
+  <!-- 口诀 -->
+  <rect x="70" y="180" width="480" height="24" fill="#ccfbf1" rx="6"/>
+  <text x="310" y="196" text-anchor="middle" font-size="13" fill="#134e4a" font-weight="bold">口诀：太大印北（面积从大到小）</text>
+
+  <!-- 重要分界线提示 -->
+  <text x="310" y="230" text-anchor="middle" font-size="12" fill="#0d9488">重要洲界：苏伊士运河（亚非）| 巴拿马运河（南北美）| 白令海峡（亚北美）</text>
+</svg>
+
+</div>

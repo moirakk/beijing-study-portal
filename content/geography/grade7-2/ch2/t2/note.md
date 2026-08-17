@@ -83,15 +83,124 @@ date: 2026-08-05
 相关：[[第一节 东南亚]] ｜ [[主题探究：重走古丝绸之路]] ｜ [[第三节 欧洲西部]]
 
 
-### 气候类型分布与特征
+### 西亚"三洲五海之地"与石油分布示意图
 
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
+<div class="svg-chart">
+<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:820px;font-family:'Microsoft YaHei',sans-serif;">
+  <defs>
+    <marker id="arrOil" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="820" height="500" fill="#fefce8" rx="12"/>
+  <text x="410" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#134e4a">西亚"三洲五海之地"与石油分布示意图</text>
+
+  <!-- 三大洲标注区域 -->
+  <!-- 亚洲（右上） -->
+  <rect x="480" y="45" width="120" height="50" rx="8" fill="#d1fae5" stroke="#0d9488" stroke-width="2" opacity="0.9"/>
+  <text x="540" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">亚洲</text>
+  <text x="540" y="85" text-anchor="middle" font-size="10" fill="#065f46">（东部）</text>
+
+  <!-- 欧洲（左上） -->
+  <rect x="80" y="45" width="120" height="50" rx="8" fill="#c4b5fd" stroke="#8b5cf6" stroke-width="2" opacity="0.9"/>
+  <text x="140" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">欧洲</text>
+  <text x="140" y="85" text-anchor="middle" font-size="10" fill="#4c1d95">（西北部）</text>
+
+  <!-- 非洲（左下） -->
+  <rect x="80" y="400" width="120" height="50" rx="8" fill="#fde68a" stroke="#f59e0b" stroke-width="2" opacity="0.9"/>
+  <text x="140" y="423" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">非洲</text>
+  <text x="140" y="440" text-anchor="middle" font-size="10" fill="#92400e">（西南部）</text>
+
+  <!-- 西亚主体区域 -->
+  <polygon points="220,100 600,100 650,200 620,320 540,400 380,430 220,400 160,300 180,200"
+           fill="#fde68a" stroke="#f59e0b" stroke-width="2.5" opacity="0.7"/>
+  <text x="400" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#92400e">西亚地区</text>
+  <text x="400" y="220" text-anchor="middle" font-size="12" fill="#92400e">热带沙漠气候为主</text>
+  <text x="400" y="238" text-anchor="middle" font-size="11" fill="#92400e">高原为主（伊朗高原·阿拉伯高原）</text>
+
+  <!-- 五海标注 -->
+  <!-- 里海（东北） -->
+  <ellipse cx="620" cy="130" rx="55" ry="30" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.9"/>
+  <text x="620" y="126" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">里海</text>
+  <text x="620" y="141" text-anchor="middle" font-size="9" fill="#1e40af">（世界最大湖泊）</text>
+
+  <!-- 黑海（西北） -->
+  <ellipse cx="200" cy="130" rx="55" ry="28" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.9"/>
+  <text x="200" y="135" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">黑海</text>
+
+  <!-- 地中海（西） -->
+  <ellipse cx="130" cy="230" rx="60" ry="35" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.9"/>
+  <text x="130" y="235" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">地中海</text>
+
+  <!-- 红海（西南） -->
+  <ellipse cx="200" cy="380" rx="50" ry="28" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.9"/>
+  <text x="200" y="385" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">红海</text>
+
+  <!-- 阿拉伯海（南） -->
+  <ellipse cx="500" cy="450" rx="80" ry="30" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.9"/>
+  <text x="500" y="455" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">阿拉伯海</text>
+
+  <!-- 波斯湾（核心！） -->
+  <ellipse cx="560" cy="310" rx="70" ry="35" fill="#f97316" stroke="#ea580c" stroke-width="3" opacity="0.9"/>
+  <text x="560" y="305" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="bold">波斯湾</text>
+  <text x="560" y="322" text-anchor="middle" font-size="10" fill="#ffffff">世界石油宝库</text>
+
+  <!-- 霍尔木兹海峡 -->
+  <rect x="590" y="345" width="110" height="35" rx="6" fill="#dc2626" stroke="#991b1b" stroke-width="2" opacity="0.9"/>
+  <text x="645" y="360" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">霍尔木兹海峡</text>
+  <text x="645" y="373" text-anchor="middle" font-size="9" fill="#fca5a5">"世界油阀"</text>
+
+  <!-- 产油国标注 -->
+  <circle cx="500" cy="290" r="10" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+  <text x="470" y="278" font-size="10" fill="#991b1b" font-weight="bold">沙特阿拉伯</text>
+
+  <circle cx="570" cy="250" r="8" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="582" y="248" font-size="10" fill="#991b1b">伊朗</text>
+
+  <circle cx="490" cy="250" r="8" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="460" y="248" font-size="10" fill="#991b1b">伊拉克</text>
+
+  <circle cx="545" cy="300" r="7" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="520" y="318" font-size="9" fill="#991b1b">科威特</text>
+
+  <circle cx="580" cy="310" r="7" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="590" y="308" font-size="9" fill="#991b1b">阿联酋</text>
+
+  <!-- 石油输出路线 -->
+  <path d="M 560,345 Q 560,400 500,450" fill="none" stroke="#d97706" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrOil)"/>
+  <text x="510" y="410" font-size="9" fill="#d97706">→印度洋→欧美</text>
+
+  <!-- 苏伊士运河 -->
+  <line x1="200" y1="355" x2="200" y2="405" stroke="#0d9488" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="155" y="382" font-size="9" fill="#0d9488" font-weight="bold">苏伊士</text>
+  <text x="155" y="394" font-size="9" fill="#0d9488">运河</text>
+  <text x="155" y="406" font-size="8" fill="#0d9488">（亚非界）</text>
+
+  <!-- 土耳其海峡 -->
+  <line x1="200" y1="105" x2="200" y2="155" stroke="#0d9488" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="210" y="130" font-size="9" fill="#0d9488">土耳其海峡</text>
+  <text x="210" y="142" font-size="8" fill="#0d9488">（亚欧界）</text>
+
+  <!-- 方向标 -->
+  <g transform="translate(770,60)">
+    <circle cx="0" cy="0" r="20" fill="#134e4a" opacity="0.85"/>
+    <polygon points="0,-16 -4,-4 4,-4" fill="#ffffff"/>
+    <text x="0" y="-4" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">N</text>
+    <line x1="0" y1="4" x2="0" y2="16" stroke="#ccfbf1" stroke-width="1.5"/>
+  </g>
+
+  <!-- 图例 -->
+  <rect x="30" y="280" width="140" height="110" rx="8" fill="#ffffff" stroke="#0d9488" stroke-width="1.5" opacity="0.95"/>
+  <text x="100" y="298" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">图例</text>
+  <ellipse cx="48" cy="312" rx="12" ry="7" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="66" y="316" font-size="10" fill="#134e4a">五海（含里海）</text>
+  <ellipse cx="48" cy="330" rx="12" ry="7" fill="#f97316" stroke="#ea580c" stroke-width="1"/>
+  <text x="66" y="334" font-size="10" fill="#134e4a">波斯湾（石油）</text>
+  <circle cx="48" cy="348" r="6" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+  <text x="66" y="352" font-size="10" fill="#134e4a">主要产油国</text>
+  <line x1="38" y1="366" x2="58" y2="366" stroke="#d97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="66" y="370" font-size="10" fill="#134e4a">石油输出路线</text>
+</svg>
+</div>
