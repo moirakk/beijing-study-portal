@@ -756,15 +756,16 @@ mark {
 }
 
 /* ---------------------------------------------------------------------------
- * Mermaid 结构图解美化：暖色学术风格
- *   · 外层卡片：暖白底、金色圆角、层次阴影
- *   · 节点圆角 + drop-shadow
- *   · 覆盖 .markdown-body svg 的通用边框规则
+ * Mermaid 结构图解美化 v2：学科主题色 · 节点层次 · hover 交互
+ *   · 外层卡片：暖白底、圆角、层次阴影
+ *   · 三级节点（root/branch/leaf）：大小 + 粗细 + 深浅递变
+ *   · hover：微放大 + 加深阴影（CSS transform + filter）
+ *   · 覆盖 .markdown-body svg 通用边框规则
  * -------------------------------------------------------------------------- */
 
 /* 外层容器：卡片化 */
 .mermaid-diagram {
-  padding: 20px 12px;
+  padding: 22px 14px;
   background: var(--panel);
   border-radius: 14px;
   border: 1px solid var(--line);
@@ -781,46 +782,150 @@ mark {
   box-shadow: none !important;
   max-width: 100%;
   height: auto;
+  overflow: visible;
 }
 
-/* 节点矩形：圆角（CSS 可覆盖 SVG presentation attribute） */
+/* ---------------------------------------------------------------------------
+ * 节点基础圆角（CSS 覆盖 SVG presentation attribute）
+ * -------------------------------------------------------------------------- */
 .mermaid-diagram .node rect {
-  rx: 8px;
-  ry: 8px;
+  rx: 9px;
+  ry: 9px;
 }
-
-/* 节点形状：drop-shadow 增加层次感 */
-.mermaid-diagram .node rect,
-.mermaid-diagram .node circle,
-.mermaid-diagram .node ellipse,
-.mermaid-diagram .node polygon {
-  filter: drop-shadow(0 1px 3px rgba(41, 37, 31, 0.13));
-}
-
-/* 暗色模式下阴影加深 */
-.dark .mermaid-diagram .node rect,
-.dark .mermaid-diagram .node circle,
-.dark .mermaid-diagram .node ellipse,
-.dark .mermaid-diagram .node polygon {
-  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.35));
-}
-
-/* 连线：稍粗 + 平滑 */
-.mermaid-diagram .edgePath .path {
-  stroke-width: 1.6px;
-}
-
-/* Mindmap 节点也加圆角 */
 .mermaid-diagram .mindmap-node rect,
 .mermaid-diagram .mindmap-node ellipse {
-  rx: 10px;
-  ry: 10px;
+  rx: 12px;
+  ry: 12px;
 }
 
-/* 移动端减小内边距 */
+/* ---------------------------------------------------------------------------
+ * 节点层次分级：root（根/中心）/ branch（一级分支）/ leaf（叶子）
+ *   class 由 Mermaid.tsx 的 classifyNodes() 函数注入
+ * -------------------------------------------------------------------------- */
+
+/* 根节点：最深主题色 + 粗边框 + 大字 + 强阴影 */
+.mermaid-diagram g.mmd-node-root rect,
+.mermaid-diagram g.mmd-node-root polygon,
+.mermaid-diagram g.mmd-node-root circle,
+.mermaid-diagram g.mmd-node-root ellipse {
+  stroke-width: 2.8px !important;
+  filter: brightness(0.86) drop-shadow(0 3px 8px rgba(0, 0, 0, 0.18)) !important;
+}
+.mermaid-diagram g.mmd-node-root .nodeLabel {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em;
+}
+
+/* 一级分支：正常填充 + 中粗边框 + 中等字重 */
+.mermaid-diagram g.mmd-node-branch rect,
+.mermaid-diagram g.mmd-node-branch polygon,
+.mermaid-diagram g.mmd-node-branch circle,
+.mermaid-diagram g.mmd-node-branch ellipse {
+  stroke-width: 2px !important;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.12)) !important;
+}
+.mermaid-diagram g.mmd-node-branch .nodeLabel {
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+}
+
+/* 叶子节点：最浅 + 细边框 + 小字 */
+.mermaid-diagram g.mmd-node-leaf rect,
+.mermaid-diagram g.mmd-node-leaf polygon,
+.mermaid-diagram g.mmd-node-leaf circle,
+.mermaid-diagram g.mmd-node-leaf ellipse {
+  stroke-width: 1.4px !important;
+  filter: brightness(1.04) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08)) !important;
+}
+.mermaid-diagram g.mmd-node-leaf .nodeLabel {
+  font-size: 12.5px !important;
+  opacity: 0.92;
+}
+
+/* 暗色模式：阴影用不透明度更高的黑色 */
+.dark .mermaid-diagram g.mmd-node-root rect,
+.dark .mermaid-diagram g.mmd-node-root polygon {
+  filter: brightness(1.12) drop-shadow(0 3px 10px rgba(0, 0, 0, 0.45)) !important;
+}
+.dark .mermaid-diagram g.mmd-node-branch rect,
+.dark .mermaid-diagram g.mmd-node-branch polygon {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35)) !important;
+}
+.dark .mermaid-diagram g.mmd-node-leaf rect,
+.dark .mermaid-diagram g.mmd-node-leaf polygon {
+  filter: brightness(0.92) drop-shadow(0 1px 4px rgba(0, 0, 0, 0.28)) !important;
+}
+
+/* ---------------------------------------------------------------------------
+ * 节点 hover 交互：微放大 + 阴影加深（仅鼠标设备）
+ *   transform-box: fill-box + transform-origin: center = 以节点包围盒为中心缩放
+ * -------------------------------------------------------------------------- */
+.mermaid-diagram g.node {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.22s ease;
+  cursor: default;
+}
+
+@media (hover: hover) {
+  .mermaid-diagram g.mmd-node-root:hover {
+    transform: scale(1.07);
+  }
+  .mermaid-diagram g.mmd-node-root:hover rect,
+  .mermaid-diagram g.mmd-node-root:hover polygon {
+    filter: brightness(0.80) drop-shadow(0 5px 14px rgba(0, 0, 0, 0.26)) !important;
+  }
+
+  .mermaid-diagram g.mmd-node-branch:hover {
+    transform: scale(1.06);
+  }
+  .mermaid-diagram g.mmd-node-branch:hover rect,
+  .mermaid-diagram g.mmd-node-branch:hover polygon {
+    filter: brightness(0.94) drop-shadow(0 4px 10px rgba(0, 0, 0, 0.18)) !important;
+  }
+
+  .mermaid-diagram g.mmd-node-leaf:hover {
+    transform: scale(1.05);
+  }
+  .mermaid-diagram g.mmd-node-leaf:hover rect,
+  .mermaid-diagram g.mmd-node-leaf:hover polygon {
+    filter: brightness(1.0) drop-shadow(0 3px 7px rgba(0, 0, 0, 0.13)) !important;
+  }
+
+  /* 暗色模式 hover */
+  .dark .mermaid-diagram g.mmd-node-root:hover rect,
+  .dark .mermaid-diagram g.mmd-node-root:hover polygon {
+    filter: brightness(1.25) drop-shadow(0 5px 16px rgba(0, 0, 0, 0.55)) !important;
+  }
+  .dark .mermaid-diagram g.mmd-node-branch:hover rect,
+  .dark .mermaid-diagram g.mmd-node-branch:hover polygon {
+    filter: brightness(1.1) drop-shadow(0 4px 12px rgba(0, 0, 0, 0.45)) !important;
+  }
+  .dark .mermaid-diagram g.mmd-node-leaf:hover rect,
+  .dark .mermaid-diagram g.mmd-node-leaf:hover polygon {
+    filter: brightness(0.96) drop-shadow(0 3px 8px rgba(0, 0, 0, 0.38)) !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * 连线样式：主线粗 → 分支中 → 叶子细（统一稍粗）
+ * -------------------------------------------------------------------------- */
+.mermaid-diagram .edgePath .path {
+  stroke-width: 1.8px;
+}
+
+/* ---------------------------------------------------------------------------
+ * 移动端：减小内边距，节点过渡关闭
+ * -------------------------------------------------------------------------- */
 @media (max-width: 560px) {
   .mermaid-diagram {
     padding: 14px 6px;
+  }
+  .mermaid-diagram g.node {
+    transition: none;
   }
 }
 
