@@ -40,6 +40,27 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="230" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">机械效率 η = W有用 / W总 &lt; 1</text>
+  <!-- 总功（外框） -->
+  <rect x="40" y="45" width="400" height="130" fill="#c8dff0" rx="8" stroke="#1a6faf" stroke-width="2"/>
+  <text x="240" y="65" text-anchor="middle" fill="#1a6faf" font-size="12">W总（总功）</text>
+  <!-- 有用功（内框） -->
+  <rect x="60" y="80" width="240" height="80" fill="#4a9fd4" opacity="0.5" rx="5" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="180" y="125" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">W有用</text>
+  <text x="180" y="143" text-anchor="middle" fill="#1a6faf" font-size="10">= G物 × h（克服重力做功）</text>
+  <!-- 额外功（右侧部分） -->
+  <rect x="310" y="80" width="110" height="80" fill="#e63946" opacity="0.4" rx="5" stroke="#e63946" stroke-width="1.5"/>
+  <text x="365" y="118" text-anchor="middle" fill="#e63946" font-size="11" font-weight="bold">W额外</text>
+  <text x="365" y="133" text-anchor="middle" fill="#e63946" font-size="10">克服摩擦</text>
+  <text x="365" y="145" text-anchor="middle" fill="#e63946" font-size="10">克服自重</text>
+  <!-- 公式 -->
+  <rect x="40" y="185" width="400" height="40" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="201" text-anchor="middle" fill="#1a6faf" font-size="11">W总 = W有用 + W额外；η = W有用/W总 = 有用功/总功</text>
+  <text x="240" y="219" text-anchor="middle" fill="#333" font-size="10">机械效率永远小于1；减少摩擦、减轻机械自重可提高效率</text>
+</svg>
+
 测滑轮组的机械效率：
 
 - 器材：滑轮组、钩码、弹簧测力计、刻度尺。

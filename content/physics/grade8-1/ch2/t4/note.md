@@ -34,6 +34,20 @@ $$
 - 用分贝仪测噪声等级变化。
 - 在声源、传播路径、人耳处分别采取措施。
 
+```mermaid
+flowchart TD
+    A["噪声控制"] --> B["① 声源处减弱"]
+    A --> C["② 传播过程中减弱"]
+    A --> D["③ 人耳处减弱"]
+    B --> B1["禁止鸣笛\n改进机械\n安装消声器"]
+    C --> C1["隔音板/墙\n植树造林"]
+    D --> D1["戴防噪声耳塞"]
+    style A fill:#1a6faf,color:#fff
+    style B fill:#4a9fd4,color:#fff
+    style C fill:#4a9fd4,color:#fff
+    style D fill:#4a9fd4,color:#fff
+```
+
 ## 对比分析
 
 | 控制环节 | 措施 | 例子 |

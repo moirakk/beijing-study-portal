@@ -37,6 +37,37 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="230" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">压强：p = F/S（受力面积越小，压强越大）</text>
+  <defs>
+    <marker id="parr" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 左图：大面积 -->
+  <text x="100" y="48" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">面积大→压强小</text>
+  <rect x="40" y="75" width="120" height="60" fill="#4a9fd4" opacity="0.6" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <text x="100" y="110" text-anchor="middle" fill="white" font-size="11">F=100N</text>
+  <!-- 压力箭头 -->
+  <line x1="100" y1="135" x2="100" y2="165" stroke="#e63946" stroke-width="3" marker-end="url(#parr)"/>
+  <!-- 受力面（沙地） -->
+  <rect x="40" y="165" width="120" height="15" fill="#888" rx="1"/>
+  <text x="100" y="177" text-anchor="middle" fill="white" font-size="9">S=0.02m²</text>
+  <text x="100" y="200" text-anchor="middle" fill="#e63946" font-size="12">p=5000Pa</text>
+  <!-- 右图：小面积 -->
+  <text x="360" y="48" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">面积小→压强大</text>
+  <rect x="320" y="75" width="80" height="60" fill="#4a9fd4" opacity="0.6" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <text x="360" y="110" text-anchor="middle" fill="white" font-size="11">F=100N</text>
+  <line x1="360" y1="135" x2="360" y2="165" stroke="#e63946" stroke-width="3" marker-end="url(#parr)"/>
+  <rect x="340" y="165" width="40" height="15" fill="#888" rx="1"/>
+  <text x="360" y="177" text-anchor="middle" fill="white" font-size="8">S=0.004m²</text>
+  <text x="360" y="200" text-anchor="middle" fill="#e63946" font-size="12">p=25000Pa</text>
+  <!-- 公式总结 -->
+  <rect x="60" y="210" width="360" height="16" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="240" y="222" text-anchor="middle" fill="#1a6faf" font-size="11">p=F/S（Pa），F↑或S↓→p↑；增大压强：减小S；减小压强：增大S</text>
+</svg>
+
 探究压力的作用效果与哪些因素有关：
 
 - 用小桌、海绵、砝码实验，通过海绵凹陷程度显示压力作用效果（转换法）。

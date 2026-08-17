@@ -23,6 +23,46 @@ date: 2026-08-06
 
 ## 制作要点
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">活塞式抽水机工作原理（大气压应用）</text>
+  <!-- 储水罐/井 -->
+  <rect x="170" y="170" width="140" height="55" fill="#4a9fd4" opacity="0.4" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <text x="240" y="200" text-anchor="middle" fill="#1a6faf" font-size="11">水源（井/水箱）</text>
+  <!-- 进水管 -->
+  <rect x="225" y="110" width="30" height="62" fill="#c8dff0" stroke="#1a6faf" stroke-width="1.5"/>
+  <!-- 进水阀（止回阀，向上开） -->
+  <polygon points="225,130 255,130 240,118" fill="#888" stroke="#555" stroke-width="1"/>
+  <text x="270" y="125" fill="#555" font-size="10">进水阀</text>
+  <!-- 泵筒 -->
+  <rect x="195" y="50" width="90" height="65" fill="#c8dff0" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <!-- 活塞 -->
+  <rect x="198" y="90" width="84" height="14" fill="#888" stroke="#555" stroke-width="1.5" rx="2"/>
+  <text x="240" y="101" text-anchor="middle" fill="white" font-size="9">活塞</text>
+  <!-- 活塞杆 -->
+  <line x1="240" y1="50" x2="240" y2="30" stroke="#888" stroke-width="4"/>
+  <!-- 出水阀 -->
+  <polygon points="225,65 255,65 240,52" fill="#888" stroke="#555" stroke-width="1"/>
+  <text x="270" y="62" fill="#555" font-size="10">出水阀</text>
+  <!-- 出水管 -->
+  <rect x="285" y="45" width="25" height="70" fill="#c8dff0" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="330" y="85" fill="#1a6faf" font-size="10">出水管</text>
+  <!-- 上行箭头 -->
+  <defs>
+    <marker id="pmarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <line x1="240" y1="30" x2="240" y2="18" stroke="#4a9fd4" stroke-width="2" marker-end="url(#pmarr)"/>
+  <text x="250" y="18" fill="#4a9fd4" font-size="10">↑活塞上移</text>
+  <!-- 大气压标注 -->
+  <line x1="140" y1="165" x2="178" y2="165" stroke="#e63946" stroke-width="2" marker-end="url(#pmarr)"/>
+  <text x="60" y="168" fill="#e63946" font-size="10">大气压→</text>
+  <!-- 原理说明 -->
+  <rect x="30" y="210" width="420" height="24" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="240" y="222" text-anchor="middle" fill="#1a6faf" font-size="11">活塞上移→泵筒气压降低→大气压压水进入→活塞下移→水升至出口</text>
+</svg>
+
 材料：大号注射器（或透明塑料筒）、单向阀（可用橡皮膜、玻璃珠自制）、软管、密封胶。
 
 - 筒身选透明材料便于观察水流。

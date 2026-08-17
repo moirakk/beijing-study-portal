@@ -30,6 +30,36 @@ $$
 
 其中 $T$ 单位为 K，$t$ 单位为 $^\circ\text{C}$。
 
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="250" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">温度计正确使用方法</text>
+  <!-- 温度计主体 -->
+  <rect x="210" y="40" width="20" height="160" rx="10" fill="white" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 玻璃泡 -->
+  <ellipse cx="220" cy="205" rx="12" ry="16" fill="#e63946" opacity="0.8" stroke="#1a6faf" stroke-width="1.5"/>
+  <!-- 液柱 -->
+  <rect x="213" y="100" width="14" height="105" fill="#e63946" opacity="0.7"/>
+  <!-- 刻度线 -->
+  <line x1="205" y1="60" x2="215" y2="60" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="200" y="64" text-anchor="end" fill="#1a6faf" font-size="10">100</text>
+  <line x1="205" y1="100" x2="215" y2="100" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="200" y="104" text-anchor="end" fill="#1a6faf" font-size="10">37</text>
+  <line x1="205" y1="140" x2="215" y2="140" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="200" y="144" text-anchor="end" fill="#1a6faf" font-size="10">0</text>
+  <!-- 视线箭头（正确，水平正对） -->
+  <line x1="280" y1="100" x2="235" y2="100" stroke="#2d6a2d" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <circle cx="288" cy="100" r="7" fill="#2d6a2d" opacity="0.7"/>
+  <text x="360" y="95" fill="#2d6a2d" font-size="11">✓ 视线与液柱上表面相平</text>
+  <!-- 错误视线（偏高） -->
+  <line x1="280" y1="88" x2="235" y2="100" stroke="#e63946" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="360" y="85" fill="#e63946" font-size="10">✗ 视线偏高→读数偏低</text>
+  <!-- 浸入示意 -->
+  <rect x="140" y="145" width="160" height="55" fill="#4a9fd4" opacity="0.3" rx="5" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="220" y="175" text-anchor="middle" fill="#1a6faf" font-size="10">被测液体</text>
+  <!-- 注意事项 -->
+  <text x="240" y="230" text-anchor="middle" fill="#333" font-size="11">玻璃泡全浸入液体；不碰容器壁/底；待示数稳定后读数</text>
+</svg>
+
 ## 实验要点
 
 - 温度计玻璃泡要全部浸入被测液体中，不能碰容器底或壁。

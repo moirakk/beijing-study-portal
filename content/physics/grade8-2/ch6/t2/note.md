@@ -24,6 +24,46 @@ date: 2026-08-06
 
 ## 制作要点
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">简易杆秤结构原理（杠杆应用）</text>
+  <defs>
+    <marker id="cparr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 秤杆 -->
+  <rect x="80" y="100" width="340" height="10" fill="#8B6914" rx="2"/>
+  <!-- 支点绳（提绳） -->
+  <line x1="130" y1="100" x2="130" y2="65" stroke="#888" stroke-width="2"/>
+  <circle cx="130" cy="62" r="6" fill="none" stroke="#888" stroke-width="2"/>
+  <text x="130" y="55" text-anchor="middle" fill="#555" font-size="10">提纽（支点）</text>
+  <!-- 秤盘（左侧，被称物）-->
+  <path d="M80,110 Q100,130 120,110" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <line x1="80" y1="110" x2="80" y2="120" stroke="#888" stroke-width="1.5"/>
+  <line x1="120" y1="110" x2="120" y2="120" stroke="#888" stroke-width="1.5"/>
+  <line x1="80" y1="120" x2="120" y2="120" stroke="#888" stroke-width="1.5"/>
+  <rect x="83" y="103" width="35" height="10" fill="#888" rx="2"/>
+  <text x="100" y="111" text-anchor="middle" fill="white" font-size="8">重物G物</text>
+  <text x="100" y="148" text-anchor="middle" fill="#4a9fd4" font-size="10">阻力：G物</text>
+  <!-- 秤砣（右侧） -->
+  <line x1="350" y1="105" x2="350" y2="140" stroke="#888" stroke-width="2"/>
+  <ellipse cx="350" cy="152" rx="18" ry="12" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <text x="350" y="156" text-anchor="middle" fill="white" font-size="9">秤砣</text>
+  <text x="350" y="175" text-anchor="middle" fill="#e63946" font-size="10">动力：G砣</text>
+  <!-- 刻度 -->
+  <line x1="200" y1="97" x2="200" y2="103" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="200" y="92" text-anchor="middle" fill="#1a6faf" font-size="9">0</text>
+  <line x1="240" y1="97" x2="240" y2="103" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="240" y="92" text-anchor="middle" fill="#1a6faf" font-size="9">0.5</text>
+  <line x1="280" y1="97" x2="280" y2="103" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="280" y="92" text-anchor="middle" fill="#1a6faf" font-size="9">1.0kg</text>
+  <!-- 平衡方程 -->
+  <rect x="60" y="185" width="360" height="28" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="200" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">平衡时：G物 × L₁ = G砣 × L₂</text>
+  <text x="240" y="210" text-anchor="middle" fill="#333" font-size="10">秤砣越重→刻度越密；零刻度在支点右侧</text>
+</svg>
+
 材料：细直木棒（筷子）、棉线、小螺母或钩码作秤砣、小盘或挂钩、已知质量的标定物。
 
 - 在木棒一端固定秤钩（或秤盘），在适当位置系提纽（支点靠近秤钩一侧可增大量程）。

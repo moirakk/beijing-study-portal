@@ -43,6 +43,32 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">功：W = Fs（力与位移方向相同）</text>
+  <defs>
+    <marker id="wkarr" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="wkarr2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 物体 -->
+  <rect x="100" y="110" width="80" height="60" fill="#c8dff0" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <text x="140" y="145" text-anchor="middle" fill="#1a6faf" font-size="12">物体</text>
+  <!-- 位移箭头 -->
+  <line x1="180" y1="140" x2="360" y2="140" stroke="#888" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#wkarr)"/>
+  <text x="270" y="160" text-anchor="middle" fill="#555" font-size="11">位移 s</text>
+  <!-- 力的箭头（水平向右）-->
+  <line x1="60" y1="140" x2="100" y2="140" stroke="#4a9fd4" stroke-width="3.5" marker-end="url(#wkarr)"/>
+  <text x="78" y="130" fill="#4a9fd4" font-size="12">F</text>
+  <!-- 三种情况 -->
+  <rect x="30" y="180" width="420" height="35" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="196" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">做功必须同时满足：有力作用 + 沿力方向有位移</text>
+  <text x="240" y="210" text-anchor="middle" fill="#333" font-size="10">W=Fs（J）；推而不动（W=0）；垂直方向无位移（W=0）；提箱走路（W=0）</text>
+</svg>
+
 - 判断是否做功：先找力，再看物体是否沿力的方向移动距离。
 - 计算时 $F$ 与 $s$ 必须对应同一物体、同一过程，且 $s$ 是沿力方向的距离。
 

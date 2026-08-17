@@ -39,6 +39,44 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="270" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">托里拆利实验：测大气压</text>
+  <!-- 水银槽 -->
+  <rect x="100" y="195" width="200" height="40" fill="#888" rx="3" stroke="#555" stroke-width="2"/>
+  <text x="200" y="220" text-anchor="middle" fill="white" font-size="11">水银槽</text>
+  <!-- 水银（槽内） -->
+  <rect x="110" y="185" width="180" height="12" fill="#aaa" rx="2"/>
+  <!-- 玻璃管 -->
+  <rect x="185" y="55" width="30" height="140" fill="white" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 管内水银柱 -->
+  <rect x="188" y="100" width="24" height="95" fill="#888"/>
+  <!-- 真空（管顶） -->
+  <rect x="188" y="57" width="24" height="43" fill="#e8f4f8"/>
+  <text x="250" y="82" fill="#1a6faf" font-size="11">真空</text>
+  <line x1="215" y1="78" x2="240" y2="78" stroke="#1a6faf" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- 760mm标注 -->
+  <defs>
+    <marker id="tarr" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <line x1="340" y1="97" x2="340" y2="197" stroke="#e63946" stroke-width="2"/>
+  <line x1="340" y1="97" x2="334" y2="97" stroke="#e63946" stroke-width="2"/>
+  <line x1="340" y1="197" x2="334" y2="197" stroke="#e63946" stroke-width="2"/>
+  <text x="360" y="152" fill="#e63946" font-size="12" font-weight="bold">760 mm</text>
+  <text x="360" y="167" fill="#e63946" font-size="11">（1标准大气压）</text>
+  <!-- 大气压箭头 -->
+  <line x1="100" y1="175" x2="185" y2="175" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#tarr)"/>
+  <text x="60" y="172" text-anchor="end" fill="#4a9fd4" font-size="11">大气压</text>
+  <text x="60" y="184" text-anchor="end" fill="#4a9fd4" font-size="11">p₀→</text>
+  <!-- 水银面标注 -->
+  <text x="110" y="192" fill="#555" font-size="9">水银面</text>
+  <!-- 公式 -->
+  <rect x="30" y="240" width="420" height="24" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="255" text-anchor="middle" fill="#1a6faf" font-size="11">p₀ = ρ水银 × g × h = 1.01×10⁵ Pa；大气压随高度升高而降低</text>
+</svg>
+
 - 托里拆利实验：管内水银上方是真空；大气压支持 760 mm 水银柱。
 - 换更粗的玻璃管、将管倾斜：水银柱竖直高度不变。
 - 覆杯实验中硬纸片不掉：大气压向上托住纸片。

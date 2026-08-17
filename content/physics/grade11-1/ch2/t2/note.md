@@ -5,6 +5,52 @@ date: 2026-08-07
 
 # 2 简谐运动的描述
 
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="260" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">简谐运动：位移–时间图象</text>
+  <defs>
+    <marker id="sax" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <!-- 坐标轴 -->
+  <line x1="40" y1="145" x2="450" y2="145" stroke="#333" stroke-width="1.5" marker-end="url(#sax)"/>
+  <line x1="40" y1="240" x2="40" y2="50" stroke="#333" stroke-width="1.5" marker-end="url(#sax)"/>
+  <text x="455" y="149" fill="#333" font-size="11">t/s</text>
+  <text x="28" y="48" fill="#333" font-size="11">x/m</text>
+  <!-- 正弦曲线 -->
+  <path d="M40,145 Q80,55 120,145 Q160,235 200,145 Q240,55 280,145 Q320,235 360,145 Q400,55 440,145" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <!-- 振幅标注 -->
+  <line x1="35" y1="55" x2="45" y2="55" stroke="#e63946" stroke-width="1.5"/>
+  <text x="22" y="59" fill="#e63946" font-size="11">A</text>
+  <line x1="35" y1="235" x2="45" y2="235" stroke="#e63946" stroke-width="1.5"/>
+  <text x="18" y="239" fill="#e63946" font-size="11">-A</text>
+  <!-- 一个周期T -->
+  <line x1="40" y1="250" x2="200" y2="250" stroke="#2d6a2d" stroke-width="1.5"/>
+  <line x1="40" y1="246" x2="40" y2="254" stroke="#2d6a2d" stroke-width="1.5"/>
+  <line x1="200" y1="246" x2="200" y2="254" stroke="#2d6a2d" stroke-width="1.5"/>
+  <text x="120" y="264" text-anchor="middle" fill="#2d6a2d" font-size="11">T（周期）</text>
+  <!-- 关键点标注 -->
+  <text x="40" y="138" text-anchor="middle" fill="#333" font-size="10">0</text>
+  <text x="120" y="138" fill="#1a6faf" font-size="10">T/2</text>
+  <text x="200" y="138" fill="#1a6faf" font-size="10">T</text>
+  <text x="280" y="138" fill="#1a6faf" font-size="10">3T/2</text>
+  <text x="360" y="138" fill="#1a6faf" font-size="10">2T</text>
+  <!-- 公式和说明 -->
+  <rect x="30" y="42" width="420" height="18" fill="white" rx="3" stroke="#4a9fd4" stroke-width="0.5" opacity="0.8"/>
+  <!-- 物理量说明框 -->
+  <rect x="280" y="52" width="185" height="80" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5" opacity="0.95"/>
+  <text x="372" y="70" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">简谐运动要素</text>
+  <text x="290" y="88" fill="#333" font-size="10">振幅A：最大位移</text>
+  <text x="290" y="104" fill="#333" font-size="10">周期T：重复一次用时</text>
+  <text x="290" y="120" fill="#333" font-size="10">频率f=1/T（Hz）</text>
+  <text x="290" y="136" fill="#333" font-size="10">角频率ω=2πf</text>
+  <!-- 回复力说明 -->
+  <rect x="30" y="180" width="240" height="30" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="150" y="194" text-anchor="middle" fill="#1a6faf" font-size="11">F回复 = -kx（指向平衡位置）</text>
+  <text x="150" y="207" text-anchor="middle" fill="#333" font-size="10">位移最大→速度=0；平衡位置→速度最大</text>
+</svg>
+
 ## 概念定义
 
 **振幅 $A$**：振动物体离开平衡位置的**最大距离**，标量，描述振动的强弱（范围）。

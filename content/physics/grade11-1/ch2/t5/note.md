@@ -5,6 +5,47 @@ date: 2026-08-07
 
 # 5 实验：用单摆测量重力加速度
 
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="260" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">用单摆测重力加速度实验</text>
+  <defs>
+    <marker id="spaarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <!-- 悬点（固定） -->
+  <rect x="215" y="35" width="50" height="10" fill="#888" rx="2"/>
+  <circle cx="240" cy="45" r="5" fill="#555"/>
+  <!-- 摆绳 -->
+  <line x1="240" y1="45" x2="185" y2="190" stroke="#555" stroke-width="2"/>
+  <!-- 摆球（左侧摆动） -->
+  <circle cx="185" cy="195" r="18" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="185" y="200" text-anchor="middle" fill="white" font-size="10">摆球</text>
+  <!-- 竖直摆绳（参考） -->
+  <line x1="240" y1="45" x2="240" y2="215" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- 平衡位置摆球 -->
+  <circle cx="240" cy="215" r="18" fill="#888" opacity="0.4" stroke="#1a6faf" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- 摆长L标注 -->
+  <line x1="250" y1="45" x2="250" y2="215" stroke="#e63946" stroke-width="1.5"/>
+  <line x1="246" y1="45" x2="254" y2="45" stroke="#e63946" stroke-width="1.5"/>
+  <line x1="246" y1="215" x2="254" y2="215" stroke="#e63946" stroke-width="1.5"/>
+  <text x="268" y="135" fill="#e63946" font-size="12">L（摆长）</text>
+  <text x="268" y="150" fill="#e63946" font-size="10">悬点到球心</text>
+  <!-- 摆角θ -->
+  <path d="M240,60 A40,40 0 0,0 224,95" fill="none" stroke="#2d6a2d" stroke-width="1.5"/>
+  <text x="212" y="80" fill="#2d6a2d" font-size="11">θ&lt;5°</text>
+  <!-- 游标卡尺测球径 -->
+  <rect x="35" y="60" width="120" height="80" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="95" y="80" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">测量步骤</text>
+  <text x="45" y="98" fill="#333" font-size="10">① 游标卡尺测球径d</text>
+  <text x="45" y="113" fill="#333" font-size="10">② 刻度尺测线长l</text>
+  <text x="45" y="128" fill="#333" font-size="10">③ L = l + d/2</text>
+  <!-- 公式和g计算 -->
+  <rect x="30" y="220" width="420" height="36" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="236" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">T = 2π√(L/g) → g = 4π²L/T²</text>
+  <text x="240" y="250" text-anchor="middle" fill="#333" font-size="10">测30~50次全振动计时，T = 总时间/次数；减小偶然误差</text>
+</svg>
+
 ## 实验原理
 
 由单摆周期公式 $T=2\pi\sqrt{\dfrac{L}{g}}$ 变形得：

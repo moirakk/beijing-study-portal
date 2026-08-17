@@ -28,6 +28,40 @@ $$
 Q_{\text{熔化}}>0,\quad Q_{\text{凝固}}<0
 $$
 
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="260" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">晶体与非晶体熔化的温度–时间图象</text>
+  <defs>
+    <marker id="axarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <!-- 左图：晶体 -->
+  <text x="120" y="45" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">晶体（如冰）</text>
+  <line x1="40" y1="220" x2="220" y2="220" stroke="#333" stroke-width="1.5" marker-end="url(#axarr)"/>
+  <line x1="40" y1="220" x2="40" y2="50" stroke="#333" stroke-width="1.5" marker-end="url(#axarr)"/>
+  <text x="225" y="224" fill="#333" font-size="10">t/min</text>
+  <text x="28" y="48" fill="#333" font-size="10">T/℃</text>
+  <!-- 晶体熔化曲线：升温→水平段（熔点）→再升温 -->
+  <polyline points="40,210 80,170 80,170 130,170 130,170 180,130 210,100" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <!-- 水平段标注 -->
+  <line x1="80" y1="167" x2="130" y2="167" stroke="#e63946" stroke-width="2" stroke-dasharray="none"/>
+  <text x="37" y="174" fill="#e63946" font-size="10" text-anchor="end">熔</text>
+  <text x="37" y="183" fill="#e63946" font-size="10" text-anchor="end">点</text>
+  <line x1="39" y1="170" x2="80" y2="170" stroke="#e63946" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="162" text-anchor="middle" fill="#e63946" font-size="10">固液共存</text>
+  <text x="105" y="173" text-anchor="middle" fill="#e63946" font-size="10">温度不变</text>
+  <text x="120" y="245" text-anchor="middle" fill="#333" font-size="10">有固定熔点，熔化过程温度不变</text>
+  <!-- 右图：非晶体 -->
+  <text x="360" y="45" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">非晶体（如石蜡）</text>
+  <line x1="260" y1="220" x2="450" y2="220" stroke="#333" stroke-width="1.5" marker-end="url(#axarr)"/>
+  <line x1="260" y1="220" x2="260" y2="50" stroke="#333" stroke-width="1.5" marker-end="url(#axarr)"/>
+  <text x="455" y="224" fill="#333" font-size="10">t/min</text>
+  <!-- 非晶体曲线：持续升温，无水平段 -->
+  <polyline points="260,210 290,195 320,175 355,150 385,120 415,90 440,70" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <text x="360" y="245" text-anchor="middle" fill="#333" font-size="10">无固定熔点，温度持续升高</text>
+</svg>
+
 ## 实验要点
 
 - 用酒精灯外焰加热，水浴法使物体受热均匀。

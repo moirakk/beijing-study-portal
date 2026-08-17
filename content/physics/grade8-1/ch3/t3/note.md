@@ -40,6 +40,34 @@ $$
 - 水沸腾时温度保持不变，但需持续吸热。
 - 加盖可减少热量散失，缩短加热时间。
 
+<svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="230" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">水沸腾实验：汽化温度–时间图象</text>
+  <defs>
+    <marker id="ax3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <!-- 坐标轴 -->
+  <line x1="60" y1="185" x2="380" y2="185" stroke="#333" stroke-width="1.5" marker-end="url(#ax3)"/>
+  <line x1="60" y1="185" x2="60" y2="45" stroke="#333" stroke-width="1.5" marker-end="url(#ax3)"/>
+  <text x="385" y="189" fill="#333" font-size="11">t/min</text>
+  <text x="48" y="43" fill="#333" font-size="11">T/℃</text>
+  <!-- 100℃ 虚线 -->
+  <line x1="60" y1="95" x2="370" y2="95" stroke="#e63946" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="50" y="99" text-anchor="end" fill="#e63946" font-size="11">100</text>
+  <!-- 加热曲线: 升温→到100℃→水平段（沸腾） -->
+  <polyline points="60,175 100,165 140,150 180,130 210,110 240,100 250,96 260,95 290,95 330,95 360,95" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <!-- 阶段标注 -->
+  <text x="155" y="145" fill="#1a6faf" font-size="10">沸腾前升温</text>
+  <text x="300" y="85" fill="#e63946" font-size="10">沸腾：温度不变</text>
+  <text x="300" y="97" fill="#e63946" font-size="10">（持续吸热）</text>
+  <!-- 蒸发 vs 沸腾说明 -->
+  <rect x="60" y="198" width="320" height="25" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="220" y="210" text-anchor="middle" fill="#1a6faf" font-size="10">蒸发：任何温度、只在液面；沸腾：达沸点、表面和内部同时</text>
+  <text x="220" y="220" text-anchor="middle" fill="#333" font-size="10">两者均为汽化（吸热）；液化放热，可降温压缩体积实现</text>
+</svg>
+
 ## 对比分析
 
 | 汽化方式 | 发生位置 | 温度条件 | 剧烈程度 |

@@ -37,6 +37,41 @@ $$
 u<f \Rightarrow \text{正立放大虚像}
 $$
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">凸透镜三种应用（物距与成像关系）</text>
+  <!-- 数轴：物距区间 -->
+  <line x1="40" y1="75" x2="440" y2="75" stroke="#333" stroke-width="2"/>
+  <!-- 焦点F和2F标注 -->
+  <line x1="140" y1="68" x2="140" y2="82" stroke="#e63946" stroke-width="2"/>
+  <text x="140" y="62" text-anchor="middle" fill="#e63946" font-size="11">f</text>
+  <line x1="240" y1="68" x2="240" y2="82" stroke="#e63946" stroke-width="2"/>
+  <text x="240" y="62" text-anchor="middle" fill="#e63946" font-size="11">2f</text>
+  <line x1="440" y1="68" x2="440" y2="82" stroke="#333" stroke-width="1.5"/>
+  <text x="40" y="62" text-anchor="middle" fill="#333" font-size="11">0</text>
+  <!-- 区间1: u<f -->
+  <rect x="40" y="90" width="100" height="55" fill="#4a9fd4" opacity="0.25" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="90" y="108" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">放大镜</text>
+  <text x="90" y="122" text-anchor="middle" fill="#1a6faf" font-size="10">u &lt; f</text>
+  <text x="90" y="137" text-anchor="middle" fill="#1a6faf" font-size="10">正立放大虚像</text>
+  <!-- 区间2: f<u<2f -->
+  <rect x="145" y="90" width="95" height="55" fill="#1a6faf" opacity="0.2" rx="4" stroke="#1a6faf" stroke-width="1"/>
+  <text x="192" y="108" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">投影仪</text>
+  <text x="192" y="122" text-anchor="middle" fill="#1a6faf" font-size="10">f &lt; u &lt; 2f</text>
+  <text x="192" y="137" text-anchor="middle" fill="#1a6faf" font-size="10">倒立放大实像</text>
+  <!-- 区间3: u>2f -->
+  <rect x="245" y="90" width="195" height="55" fill="#e8f4f8" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="342" y="108" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">照相机</text>
+  <text x="342" y="122" text-anchor="middle" fill="#1a6faf" font-size="10">u &gt; 2f</text>
+  <text x="342" y="137" text-anchor="middle" fill="#1a6faf" font-size="10">倒立缩小实像</text>
+  <!-- u=f标注 -->
+  <text x="140" y="160" text-anchor="middle" fill="#e63946" font-size="10">u=f 不成像（探照灯）</text>
+  <!-- 实像/虚像区分 -->
+  <rect x="40" y="170" width="400" height="40" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="240" y="186" text-anchor="middle" fill="#333" font-size="11">一倍焦距分虚实，二倍焦距分大小；实像倒立，虚像正立</text>
+  <text x="240" y="202" text-anchor="middle" fill="#1a6faf" font-size="10">成实像：物近像远像变大；成虚像：物近像近像变小</text>
+</svg>
+
 ## 实验要点
 
 - 用凸透镜观察远处物体，成倒立缩小实像。

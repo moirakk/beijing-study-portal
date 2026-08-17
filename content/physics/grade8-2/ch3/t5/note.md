@@ -29,6 +29,44 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">流体压强与流速（伯努利原理）</text>
+  <defs>
+    <marker id="flarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="flarr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 机翼截面 -->
+  <path d="M80,130 Q160,95 300,120 Q360,130 400,130 Q360,145 300,140 Q160,145 80,130 Z" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <text x="240" y="130" text-anchor="middle" fill="#1a6faf" font-size="11">机翼截面</text>
+  <!-- 上方（弯曲路径，流速快） -->
+  <path d="M30,100 Q80,95 150,88 Q220,82 300,90 Q350,95 430,100" fill="none" stroke="#4a9fd4" stroke-width="2" stroke-dasharray="none"/>
+  <path d="M30,95 Q80,90 150,83 Q220,77 300,85 Q350,90 430,95" fill="none" stroke="#4a9fd4" stroke-width="1.5" opacity="0.7"/>
+  <path d="M30,90 Q80,85 150,78 Q220,72 300,80 Q350,85 430,90" fill="none" stroke="#4a9fd4" stroke-width="1" opacity="0.5"/>
+  <text x="240" y="70" text-anchor="middle" fill="#4a9fd4" font-size="11">上方：流速快→压强小（p低）</text>
+  <!-- 箭头（上方） -->
+  <line x1="30" y1="95" x2="80" y2="90" stroke="#4a9fd4" stroke-width="2" marker-end="url(#flarr)"/>
+  <line x1="200" y1="82" x2="260" y2="79" stroke="#4a9fd4" stroke-width="2" marker-end="url(#flarr)"/>
+  <line x1="350" y1="90" x2="410" y2="94" stroke="#4a9fd4" stroke-width="2" marker-end="url(#flarr)"/>
+  <!-- 下方（近直路径，流速慢） -->
+  <path d="M30,145 Q100,148 200,145 Q300,143 430,145" fill="none" stroke="#4a9fd4" stroke-width="2"/>
+  <path d="M30,155 Q100,158 200,155 Q300,153 430,155" fill="none" stroke="#4a9fd4" stroke-width="1.5" opacity="0.7"/>
+  <text x="240" y="175" text-anchor="middle" fill="#4a9fd4" font-size="11">下方：流速慢→压强大（p高）</text>
+  <line x1="30" y1="149" x2="80" y2="149" stroke="#4a9fd4" stroke-width="2" marker-end="url(#flarr)"/>
+  <line x1="200" y1="148" x2="260" y2="148" stroke="#4a9fd4" stroke-width="2" marker-end="url(#flarr)"/>
+  <!-- 升力箭头 -->
+  <line x1="240" y1="138" x2="240" y2="110" stroke="#e63946" stroke-width="3" marker-end="url(#flarr2)"/>
+  <text x="255" y="126" fill="#e63946" font-size="12">升力↑</text>
+  <!-- 原理总结 -->
+  <rect x="30" y="193" width="420" height="40" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="210" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">伯努利原理：流速大→压强小，流速小→压强大</text>
+  <text x="240" y="227" text-anchor="middle" fill="#333" font-size="10">应用：机翼升力、喷雾器、汽车扰流板</text>
+</svg>
+
 - 向两张自然下垂的纸中间吹气：纸向中间靠拢，说明中间流速大压强小。
 - 硬币跳栏杆：在硬币上方吹气，上方压强减小，硬币被下方大气压托起。
 - 漏斗吹乒乓球：向下吹气球不掉落，球上方流速大压强小。

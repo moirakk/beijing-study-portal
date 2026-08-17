@@ -5,6 +5,41 @@ date: 2026-08-07
 
 # 2 动量定理
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">动量定理：Ft = Δp = mv' - mv</text>
+  <defs>
+    <marker id="dparr" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="dparr2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 棒球被击打过程 -->
+  <circle cx="100" cy="115" r="22" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="100" y="120" text-anchor="middle" fill="white" font-size="10">球</text>
+  <!-- 初速度（向左） -->
+  <line x1="78" y1="105" x2="42" y2="105" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#dparr)"/>
+  <text x="55" y="96" fill="#4a9fd4" font-size="11">v（初）</text>
+  <!-- 冲力（向右） -->
+  <line x1="122" y1="115" x2="190" y2="115" stroke="#e63946" stroke-width="3.5" marker-end="url(#dparr2)"/>
+  <text x="155" y="108" fill="#e63946" font-size="12" font-weight="bold">F（击打力）</text>
+  <!-- 末速度（向右） -->
+  <circle cx="320" cy="115" r="22" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="320" y="120" text-anchor="middle" fill="white" font-size="10">球</text>
+  <line x1="342" y1="105" x2="395" y2="105" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#dparr)"/>
+  <text x="370" y="96" fill="#4a9fd4" font-size="11">v'（末）</text>
+  <!-- 时间标注 -->
+  <line x1="100" y1="150" x2="320" y2="150" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="210" y="168" text-anchor="middle" fill="#555" font-size="11">接触时间 t</text>
+  <!-- 公式推导 -->
+  <rect x="40" y="180" width="400" height="55" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="198" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">冲量 I = Ft（N·s）= Δp = mv' - mv</text>
+  <text x="240" y="215" text-anchor="middle" fill="#333" font-size="11">应用：汽车安全气囊（延长作用时间→减小冲力）</text>
+  <text x="240" y="230" text-anchor="middle" fill="#333" font-size="10">跳高沙坑（增大t）；铁砧锻铁（减小t→增大F）</text>
+</svg>
+
 ## 概念定义
 
 **冲量**：力与力的作用时间的乘积，$I=Ft$，单位 $\text{N}\cdot\text{s}$，矢量，方向与恒力 $F$ 方向相同。它描述力对**时间**的积累效应。

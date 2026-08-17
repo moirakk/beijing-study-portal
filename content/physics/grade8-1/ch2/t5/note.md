@@ -28,6 +28,17 @@ $$
 \text{隔音效果} \propto \text{材料厚度、密度、密封性}
 $$
 
+```mermaid
+flowchart LR
+    A["明确问题\n如何减弱外界噪声"] --> B["选材\n泡沫/棉花/木板"]
+    B --> C["搭建模型\n留声源入口和观察口"]
+    C --> D["控制变量\n固定声源响度和距离"]
+    D --> E["比较效果\n测量/感受响度变化"]
+    E --> F["分析优化\n选最佳方案"]
+    style A fill:#1a6faf,color:#fff
+    style F fill:#1a6faf,color:#fff
+```
+
 ## 实验要点
 
 1. 设计房间结构，留出声源入口和观察口。

@@ -34,6 +34,48 @@ $$
 - 以地面为参照物，乘客是运动的。
 - 说明：运动和静止取决于参照物。
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">运动与静止的相对性</text>
+  <!-- 铁路轨道 -->
+  <line x1="20" y1="175" x2="460" y2="175" stroke="#888" stroke-width="3"/>
+  <line x1="20" y1="185" x2="460" y2="185" stroke="#888" stroke-width="3"/>
+  <!-- 枕木 -->
+  <line x1="50" y1="173" x2="50" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="100" y1="173" x2="100" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="150" y1="173" x2="150" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="200" y1="173" x2="200" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="250" y1="173" x2="250" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="300" y1="173" x2="300" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="350" y1="173" x2="350" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="400" y1="173" x2="400" y2="187" stroke="#666" stroke-width="2"/>
+  <line x1="450" y1="173" x2="450" y2="187" stroke="#666" stroke-width="2"/>
+  <!-- 火车车厢 -->
+  <rect x="150" y="130" width="200" height="45" fill="#4a9fd4" rx="5" stroke="#1a6faf" stroke-width="2"/>
+  <text x="250" y="158" text-anchor="middle" fill="white" font-size="12">火车车厢 →</text>
+  <!-- 乘客 -->
+  <circle cx="240" cy="125" r="10" fill="#1a6faf"/>
+  <line x1="240" y1="135" x2="240" y2="155" stroke="#1a6faf" stroke-width="3"/>
+  <text x="240" y="120" text-anchor="middle" fill="#1a6faf" font-size="10">乘客</text>
+  <!-- 路边树 -->
+  <line x1="80" y1="130" x2="80" y2="175" stroke="#2d6a2d" stroke-width="3"/>
+  <ellipse cx="80" cy="120" rx="18" ry="14" fill="#3a9a3a"/>
+  <text x="80" y="205" text-anchor="middle" fill="#333" font-size="10">路边树</text>
+  <line x1="420" y1="130" x2="420" y2="175" stroke="#2d6a2d" stroke-width="3"/>
+  <ellipse cx="420" cy="120" rx="18" ry="14" fill="#3a9a3a"/>
+  <text x="420" y="205" text-anchor="middle" fill="#333" font-size="10">路边树</text>
+  <!-- 速度箭头 -->
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <line x1="340" y1="148" x2="380" y2="148" stroke="#e63946" stroke-width="2.5" marker-end="url(#arr2)"/>
+  <text x="360" y="142" text-anchor="middle" fill="#e63946" font-size="11">v</text>
+  <!-- 说明文字 -->
+  <text x="240" y="225" text-anchor="middle" fill="#1a6faf" font-size="11">以地面为参照物：乘客运动；以车厢为参照物：乘客静止</text>
+</svg>
+
 ## 对比分析
 
 | 研究对象 | 参照物：地面 | 参照物：车厢 |

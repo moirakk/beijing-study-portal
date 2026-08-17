@@ -40,6 +40,48 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="260" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">杠杆五要素：F₁L₁ = F₂L₂</text>
+  <defs>
+    <marker id="lvarr" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e63946"/>
+    </marker>
+    <marker id="lvarr2" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2d6a2d"/>
+    </marker>
+  </defs>
+  <!-- 杠杆（水平棒） -->
+  <rect x="60" y="120" width="360" height="14" fill="#1a6faf" rx="3"/>
+  <!-- 支点（三角形）-->
+  <polygon points="220,134 260,134 240,160" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <text x="240" y="177" text-anchor="middle" fill="#555" font-size="11">支点O</text>
+  <!-- 动力F1（向下，左侧） -->
+  <line x1="120" y1="80" x2="120" y2="120" stroke="#e63946" stroke-width="3" marker-end="url(#lvarr)"/>
+  <text x="100" y="100" fill="#e63946" font-size="12">F₁</text>
+  <!-- 阻力F2（向上，右侧） -->
+  <line x1="360" y1="155" x2="360" y2="120" stroke="#2d6a2d" stroke-width="3" marker-end="url(#lvarr2)"/>
+  <text x="370" y="148" fill="#2d6a2d" font-size="12">F₂</text>
+  <!-- 动力臂L1（支点到F1作用线的垂直距离）-->
+  <line x1="120" y1="140" x2="240" y2="140" stroke="#e63946" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="180" y="155" text-anchor="middle" fill="#e63946" font-size="11">L₁（动力臂）</text>
+  <!-- 阻力臂L2 -->
+  <line x1="240" y1="140" x2="360" y2="140" stroke="#2d6a2d" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="300" y="155" text-anchor="middle" fill="#2d6a2d" font-size="11">L₂（阻力臂）</text>
+  <!-- 作用点标注 -->
+  <circle cx="120" cy="120" r="5" fill="#e63946"/>
+  <circle cx="360" cy="120" r="5" fill="#2d6a2d"/>
+  <!-- 三类杠杆 -->
+  <rect x="30" y="195" width="420" height="58" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="213" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">三类杠杆</text>
+  <text x="90" y="230" text-anchor="middle" fill="#e63946" font-size="10">省力杠杆：L₁&gt;L₂</text>
+  <text x="90" y="244" text-anchor="middle" fill="#e63946" font-size="10">费距离（如撬棒）</text>
+  <text x="240" y="230" text-anchor="middle" fill="#555" font-size="10">等臂杠杆：L₁=L₂</text>
+  <text x="240" y="244" text-anchor="middle" fill="#555" font-size="10">（如天平）</text>
+  <text x="390" y="230" text-anchor="middle" fill="#2d6a2d" font-size="10">费力杠杆：L₁&lt;L₂</text>
+  <text x="390" y="244" text-anchor="middle" fill="#2d6a2d" font-size="10">省距离（如镊子）</text>
+</svg>
+
 探究杠杆的平衡条件：
 
 - 实验前调节两端平衡螺母，使杠杆在水平位置平衡（消除杠杆自重影响，且便于直接读力臂）。

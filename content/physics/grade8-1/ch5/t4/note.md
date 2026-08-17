@@ -30,6 +30,55 @@ $$
 
 其中 $D$ 为度数，$f$ 为焦距（单位 cm）。
 
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="250" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">近视眼与远视眼的成因及矫正</text>
+  <defs>
+    <marker id="earr" markerWidth="7" markerHeight="7" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <!-- 左：近视眼 -->
+  <text x="100" y="44" text-anchor="middle" fill="#e63946" font-size="12" font-weight="bold">近视眼</text>
+  <!-- 眼球（椭圆形，前后径过长）-->
+  <ellipse cx="120" cy="120" rx="55" ry="45" fill="white" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 晶状体（凸透镜）-->
+  <path d="M78,107 Q88,120 78,133" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <path d="M95,107 Q85,120 95,133" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <!-- 视网膜 -->
+  <path d="M168,80 Q180,120 168,160" fill="none" stroke="#888" stroke-width="2"/>
+  <!-- 像成在视网膜前 -->
+  <circle cx="148" cy="120" r="4" fill="#e63946"/>
+  <text x="148" y="112" text-anchor="middle" fill="#e63946" font-size="9">成像点</text>
+  <text x="170" y="120" fill="#888" font-size="9">视网膜</text>
+  <!-- 光线 -->
+  <line x1="30" y1="105" x2="80" y2="112" stroke="#4a9fd4" stroke-width="1.5" marker-end="url(#earr)"/>
+  <line x1="30" y1="135" x2="80" y2="128" stroke="#4a9fd4" stroke-width="1.5" marker-end="url(#earr)"/>
+  <!-- 矫正 -->
+  <text x="100" y="185" text-anchor="middle" fill="#e63946" font-size="11">成像在视网膜前</text>
+  <text x="100" y="200" text-anchor="middle" fill="#1a6faf" font-size="11">→ 戴凹透镜矫正</text>
+  <rect x="35" y="105" width="10" height="30" fill="none" stroke="#555" stroke-width="1.5" rx="2"/>
+  <path d="M40,107 Q36,120 40,133" fill="none" stroke="#555" stroke-width="1.5"/>
+  <path d="M45,107 Q49,120 45,133" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="42" y="148" text-anchor="middle" fill="#555" font-size="8">凹透镜</text>
+  <!-- 右：远视眼 -->
+  <text x="360" y="44" text-anchor="middle" fill="#2d6a2d" font-size="12" font-weight="bold">远视眼</text>
+  <ellipse cx="360" cy="120" rx="48" ry="45" fill="white" stroke="#1a6faf" stroke-width="2"/>
+  <path d="M322,107 Q332,120 322,133" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <path d="M337,107 Q327,120 337,133" fill="none" stroke="#4a9fd4" stroke-width="2.5"/>
+  <!-- 视网膜 -->
+  <path d="M400,80 Q412,120 400,160" fill="none" stroke="#888" stroke-width="2"/>
+  <!-- 像成在视网膜后 -->
+  <circle cx="415" cy="120" r="4" fill="#2d6a2d"/>
+  <text x="440" y="120" fill="#2d6a2d" font-size="9">成像点（后）</text>
+  <!-- 光线 -->
+  <line x1="270" y1="105" x2="320" y2="112" stroke="#4a9fd4" stroke-width="1.5" marker-end="url(#earr)"/>
+  <line x1="270" y1="135" x2="320" y2="128" stroke="#4a9fd4" stroke-width="1.5" marker-end="url(#earr)"/>
+  <text x="360" y="185" text-anchor="middle" fill="#2d6a2d" font-size="11">成像在视网膜后</text>
+  <text x="360" y="200" text-anchor="middle" fill="#1a6faf" font-size="11">→ 戴凸透镜矫正</text>
+  <text x="240" y="230" text-anchor="middle" fill="#1a6faf" font-size="11">眼镜度数 D = 100/f（f单位cm）</text>
+</svg>
+
 ## 实验要点
 
 - 用凸透镜模拟晶状体，光屏模拟视网膜。

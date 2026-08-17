@@ -29,6 +29,37 @@ $$
 \bar{v}_{\text{上半段}}=\frac{s_1}{t_1},\quad \bar{v}_{\text{下半段}}=\frac{s_2}{t_2}
 $$
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">斜面小车测平均速度实验</text>
+  <!-- 斜面 -->
+  <polygon points="60,185 380,185 380,90" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 斜面表面线 -->
+  <line x1="60" y1="185" x2="380" y2="90" stroke="#1a6faf" stroke-width="2.5"/>
+  <!-- 地面 -->
+  <line x1="40" y1="185" x2="440" y2="185" stroke="#888" stroke-width="2"/>
+  <!-- 小车（在斜面上）-->
+  <rect x="130" y="140" width="36" height="20" rx="3" fill="#4a9fd4" stroke="#1a6faf" stroke-width="1.5" transform="rotate(-15,148,150)"/>
+  <text x="148" y="154" text-anchor="middle" fill="white" font-size="9" transform="rotate(-15,148,154)">小车</text>
+  <!-- 金属片（底部挡板） -->
+  <rect x="374" y="180" width="8" height="20" fill="#e63946" rx="2"/>
+  <text x="400" y="190" fill="#e63946" font-size="10">金属片</text>
+  <!-- 路程标注 -->
+  <line x1="60" y1="195" x2="380" y2="195" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="220" y="210" text-anchor="middle" fill="#333" font-size="11">全程 s（时间 t，速度 v̄=s/t）</text>
+  <!-- 上半段 -->
+  <line x1="60" y1="200" x2="220" y2="200" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="140" y="218" text-anchor="middle" fill="#4a9fd4" font-size="10">上半段 s₁（较慢）</text>
+  <!-- 下半段 -->
+  <line x1="220" y1="200" x2="380" y2="200" stroke="#e63946" stroke-width="1.5"/>
+  <text x="300" y="218" text-anchor="middle" fill="#e63946" font-size="10">下半段 s₂（较快）</text>
+  <!-- 刻度尺和停表 -->
+  <text x="80" y="125" fill="#1a6faf" font-size="10">📏 刻度尺（测路程）</text>
+  <text x="80" y="140" fill="#1a6faf" font-size="10">⏱ 停表（测时间）</text>
+  <!-- 工具原理 -->
+  <text x="240" y="232" text-anchor="middle" fill="#1a6faf" font-size="11">v̄ = s/t，下半段速度 &gt; 上半段速度（加速运动）</text>
+</svg>
+
 ## 实验要点
 
 1. 斜面坡度要小，减小时间测量误差。

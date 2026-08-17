@@ -23,6 +23,45 @@ date: 2026-08-06
 
 ## 实验要点
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">测量滑动摩擦力实验（匀速拉动）</text>
+  <defs>
+    <marker id="mfarr" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="mfarr2" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e63946"/>
+    </marker>
+    <marker id="mfarr3" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#888"/>
+    </marker>
+  </defs>
+  <!-- 桌面 -->
+  <rect x="40" y="155" width="400" height="15" fill="#888" rx="2"/>
+  <!-- 木块 -->
+  <rect x="160" y="110" width="120" height="45" fill="#c8dff0" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <text x="220" y="138" text-anchor="middle" fill="#1a6faf" font-size="12">木块</text>
+  <!-- 砝码（增大正压力） -->
+  <rect x="195" y="87" width="50" height="23" fill="#888" rx="2" stroke="#555" stroke-width="1.5"/>
+  <text x="220" y="102" text-anchor="middle" fill="white" font-size="10">砝码</text>
+  <!-- 弹簧测力计 -->
+  <rect x="280" y="122" width="75" height="22" fill="#4a9fd4" rx="3" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="317" y="136" text-anchor="middle" fill="white" font-size="10">弹簧测力计</text>
+  <!-- 拉力F（向右） -->
+  <line x1="355" y1="133" x2="420" y2="133" stroke="#4a9fd4" stroke-width="3" marker-end="url(#mfarr)"/>
+  <text x="390" y="125" fill="#4a9fd4" font-size="11">F（拉力）</text>
+  <!-- 摩擦力f（向左） -->
+  <line x1="160" y1="142" x2="95" y2="142" stroke="#e63946" stroke-width="3" marker-end="url(#mfarr2)"/>
+  <text x="120" y="162" fill="#e63946" font-size="11">f（摩擦力）</text>
+  <!-- 速度箭头 -->
+  <line x1="220" y1="173" x2="280" y2="173" stroke="#888" stroke-width="2" marker-end="url(#mfarr3)"/>
+  <text x="250" y="188" text-anchor="middle" fill="#555" font-size="10">匀速→F=f</text>
+  <!-- 公式和结论 -->
+  <rect x="40" y="195" width="400" height="20" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="240" y="209" text-anchor="middle" fill="#1a6faf" font-size="11">匀速拉动时：F = f，弹力计示数即摩擦力大小</text>
+</svg>
+
 探究滑动摩擦力大小的影响因素：
 
 - 用弹簧测力计沿水平方向匀速直线拉动木块，由二力平衡知 $f=F_{\text{拉}}$。

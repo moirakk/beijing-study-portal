@@ -38,6 +38,70 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="270" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">定滑轮、动滑轮、滑轮组</text>
+  <defs>
+    <marker id="slarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <!-- 左：定滑轮 -->
+  <text x="75" y="44" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">定滑轮</text>
+  <!-- 天花板 -->
+  <rect x="30" y="50" width="90" height="8" fill="#888"/>
+  <!-- 轴 -->
+  <line x1="75" y1="58" x2="75" y2="70" stroke="#555" stroke-width="2"/>
+  <!-- 轮 -->
+  <circle cx="75" cy="85" r="18" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 绳 -->
+  <line x1="63" y1="85" x2="63" y2="140" stroke="#888" stroke-width="2"/>
+  <line x1="87" y1="85" x2="87" y2="140" stroke="#888" stroke-width="2"/>
+  <!-- 重物 -->
+  <rect x="55" y="140" width="35" height="25" fill="#888" rx="2" stroke="#555" stroke-width="1.5"/>
+  <text x="72" y="156" text-anchor="middle" fill="white" font-size="9">G</text>
+  <!-- 拉力 -->
+  <line x1="87" y1="140" x2="87" y2="170" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#slarr)"/>
+  <text x="102" y="165" fill="#4a9fd4" font-size="10">F=G</text>
+  <text x="75" y="200" text-anchor="middle" fill="#555" font-size="10">改变力方向</text>
+  <text x="75" y="213" text-anchor="middle" fill="#555" font-size="10">不省力</text>
+  <!-- 中：动滑轮 -->
+  <text x="240" y="44" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">动滑轮</text>
+  <rect x="195" y="50" width="90" height="8" fill="#888"/>
+  <!-- 固定绳 -->
+  <line x1="215" y1="58" x2="215" y2="100" stroke="#888" stroke-width="2"/>
+  <!-- 轮（随重物移动） -->
+  <circle cx="240" cy="110" r="18" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 绳（拉力从轮轴右侧上行）-->
+  <line x1="258" y1="110" x2="258" y2="55" stroke="#888" stroke-width="2"/>
+  <rect x="224" y="128" width="35" height="25" fill="#888" rx="2" stroke="#555" stroke-width="1.5"/>
+  <text x="241" y="144" text-anchor="middle" fill="white" font-size="9">G</text>
+  <line x1="258" y1="55" x2="258" y2="40" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#slarr)"/>
+  <text x="272" y="50" fill="#4a9fd4" font-size="10">F=G/2</text>
+  <text x="240" y="200" text-anchor="middle" fill="#555" font-size="10">省力一半</text>
+  <text x="240" y="213" text-anchor="middle" fill="#555" font-size="10">费距离（绳移2s）</text>
+  <!-- 右：滑轮组 -->
+  <text x="400" y="44" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">滑轮组（n=3）</text>
+  <rect x="355" y="50" width="90" height="8" fill="#888"/>
+  <!-- 定滑轮 -->
+  <circle cx="400" cy="75" r="14" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <line x1="400" y1="58" x2="400" y2="61" stroke="#555" stroke-width="2"/>
+  <!-- 动滑轮 -->
+  <circle cx="400" cy="130" r="14" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 三段绳 -->
+  <line x1="386" y1="75" x2="386" y2="130" stroke="#888" stroke-width="1.5"/>
+  <line x1="400" y1="89" x2="400" y2="116" stroke="#888" stroke-width="1.5"/>
+  <line x1="414" y1="75" x2="414" y2="130" stroke="#888" stroke-width="1.5"/>
+  <line x1="414" y1="58" x2="414" y2="40" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#slarr)"/>
+  <text x="430" y="50" fill="#4a9fd4" font-size="10">F=G/3</text>
+  <rect x="386" y="144" width="35" height="22" fill="#888" rx="2" stroke="#555" stroke-width="1.5"/>
+  <text x="403" y="158" text-anchor="middle" fill="white" font-size="9">G</text>
+  <text x="400" y="200" text-anchor="middle" fill="#555" font-size="10">n段绳：F=G/n</text>
+  <text x="400" y="213" text-anchor="middle" fill="#555" font-size="10">绳移动 n 倍距离</text>
+  <!-- 公式 -->
+  <text x="240" y="245" text-anchor="middle" fill="#1a6faf" font-size="11">滑轮组：F = G/(n)，s绳 = n × h（不计摩擦和滑轮重）</text>
+</svg>
+
 - 用弹簧测力计分别通过定滑轮、动滑轮匀速提升钩码，比较拉力与物重。
 - 定滑轮：拉力约等于物重，改变方向不省力。
 - 动滑轮：拉力约为物重一半，但测力计移动距离是钩码的 2 倍。

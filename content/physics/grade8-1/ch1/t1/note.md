@@ -34,6 +34,49 @@ $$
 v=\frac{s}{t}
 $$
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">刻度尺读数示意图</text>
+  <!-- 刻度尺主体 -->
+  <rect x="40" y="60" width="400" height="30" fill="#fff" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 刻度线 0~10mm -->
+  <line x1="60" y1="60" x2="60" y2="90" stroke="#1a6faf" stroke-width="2"/>
+  <text x="60" y="105" text-anchor="middle" fill="#1a6faf" font-size="12">0</text>
+  <line x1="100" y1="60" x2="100" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="140" y1="60" x2="140" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="160" y1="60" x2="160" y2="72" stroke="#1a6faf" stroke-width="1"/>
+  <line x1="180" y1="60" x2="180" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="200" y1="60" x2="200" y2="85" stroke="#1a6faf" stroke-width="2"/>
+  <text x="200" y="105" text-anchor="middle" fill="#1a6faf" font-size="12">1cm</text>
+  <line x1="220" y1="60" x2="220" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="240" y1="60" x2="240" y2="72" stroke="#1a6faf" stroke-width="1"/>
+  <line x1="260" y1="60" x2="260" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="280" y1="60" x2="280" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="300" y1="60" x2="300" y2="85" stroke="#1a6faf" stroke-width="2"/>
+  <text x="300" y="105" text-anchor="middle" fill="#1a6faf" font-size="12">2cm</text>
+  <line x1="340" y1="60" x2="340" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="380" y1="60" x2="380" y2="78" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="400" y1="60" x2="400" y2="85" stroke="#1a6faf" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" fill="#1a6faf" font-size="12">3cm</text>
+  <!-- 被测物体 -->
+  <rect x="60" y="115" width="260" height="20" fill="#4a9fd4" rx="3" opacity="0.8"/>
+  <text x="190" y="129" text-anchor="middle" fill="white" font-size="11">被测物体</text>
+  <!-- 视线箭头（正确） -->
+  <circle cx="300" cy="53" r="6" fill="#1a6faf" opacity="0.7"/>
+  <text x="316" y="48" fill="#1a6faf" font-size="11">👁 视线⊥刻度面</text>
+  <line x1="300" y1="59" x2="300" y2="65" stroke="#1a6faf" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1a6faf"/>
+    </marker>
+  </defs>
+  <!-- 读数标注 -->
+  <line x1="60" y1="150" x2="320" y2="150" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="345" y="154" fill="#e63946" font-size="12">读数 3.45 cm</text>
+  <text x="240" y="185" text-anchor="middle" fill="#333" font-size="11">分度值1mm，末位估读→小数点后第2位</text>
+  <text x="240" y="205" text-anchor="middle" fill="#1a6faf" font-size="11">多次测量取平均值，减小偶然误差</text>
+</svg>
+
 ## 实验要点
 
 - 放置：刻度尺放正，零刻度对准一端。

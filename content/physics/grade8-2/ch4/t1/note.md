@@ -37,6 +37,48 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="250" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">浮力的产生原因：上下压力差</text>
+  <defs>
+    <marker id="fbarr1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="fbarr2" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 液体容器 -->
+  <rect x="100" y="45" width="280" height="185" fill="#4a9fd4" opacity="0.25" stroke="#1a6faf" stroke-width="2" rx="3"/>
+  <!-- 水面 -->
+  <line x1="100" y1="45" x2="380" y2="45" stroke="#4a9fd4" stroke-width="2"/>
+  <!-- 浸入物体（正方形） -->
+  <rect x="185" y="95" width="110" height="85" fill="#c8dff0" stroke="#1a6faf" stroke-width="2.5" rx="3"/>
+  <text x="240" y="142" text-anchor="middle" fill="#1a6faf" font-size="12">物体</text>
+  <!-- 上方水深h1，下方水深h2 -->
+  <text x="90" y="100" text-anchor="end" fill="#333" font-size="10">h₁</text>
+  <text x="90" y="180" text-anchor="end" fill="#333" font-size="10">h₂</text>
+  <!-- 各方向压强箭头 -->
+  <!-- 上表面（向下）：F上=ρgh₁S -->
+  <line x1="240" y1="80" x2="240" y2="95" stroke="#4a9fd4" stroke-width="3" marker-end="url(#fbarr1)"/>
+  <text x="255" y="90" fill="#4a9fd4" font-size="10">F上↓=ρgh₁S</text>
+  <!-- 下表面（向上）：F下=ρgh₂S（更大）-->
+  <line x1="240" y1="195" x2="240" y2="180" stroke="#e63946" stroke-width="4" marker-end="url(#fbarr2)"/>
+  <text x="255" y="200" fill="#e63946" font-size="10">F下↑=ρgh₂S</text>
+  <!-- 侧面（相互抵消）-->
+  <line x1="100" y1="135" x2="120" y2="135" stroke="#888" stroke-width="2" marker-end="url(#fbarr1)"/>
+  <line x1="380" y1="135" x2="360" y2="135" stroke="#888" stroke-width="2" marker-end="url(#fbarr2)"/>
+  <text x="75" y="148" fill="#888" font-size="9">侧面压</text>
+  <text x="75" y="158" fill="#888" font-size="9">力相消</text>
+  <!-- 浮力 -->
+  <line x1="240" y1="180" x2="240" y2="148" stroke="#e63946" stroke-width="5" marker-end="url(#fbarr2)"/>
+  <text x="138" y="165" fill="#e63946" font-size="12" font-weight="bold">F浮=F下-F上</text>
+  <text x="138" y="180" fill="#e63946" font-size="11">=ρ液g(h₂-h₁)S</text>
+  <!-- 公式 -->
+  <rect x="40" y="235" width="400" height="13" fill="white" rx="3"/>
+  <text x="240" y="245" text-anchor="middle" fill="#1a6faf" font-size="11">F浮 = G排 = ρ液gV排（阿基米德原理）</text>
+</svg>
+
 探究浮力大小与哪些因素有关（控制变量法）：
 
 - 弹簧测力计吊物体逐渐浸入水中：示数变小，说明受到浮力且浮力随 $V_{\text{排}}$ 增大而增大。

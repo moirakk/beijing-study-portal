@@ -37,6 +37,26 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="200" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">功率 P = W/t = Fv（做功快慢）</text>
+  <!-- 功率三角形 -->
+  <polygon points="160,45 260,155 60,155" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <line x1="160" y1="100" x2="160" y2="155" stroke="#1a6faf" stroke-width="2"/>
+  <text x="160" y="88" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">W</text>
+  <text x="105" y="140" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">P</text>
+  <text x="215" y="140" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">t</text>
+  <text x="160" y="175" text-anchor="middle" fill="#1a6faf" font-size="12">P=W/t &nbsp; W=Pt &nbsp; t=W/P</text>
+  <!-- 右侧：对比说明 -->
+  <rect x="285" y="40" width="175" height="140" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="372" y="58" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">功率对比</text>
+  <text x="295" y="78" fill="#333" font-size="10">人爬楼梯：~70W</text>
+  <text x="295" y="96" fill="#333" font-size="10">自行车：~100W</text>
+  <text x="295" y="114" fill="#333" font-size="10">小汽车：~50kW</text>
+  <text x="295" y="132" fill="#333" font-size="10">火车机车：~1MW</text>
+  <text x="372" y="165" text-anchor="middle" fill="#1a6faf" font-size="10">P=Fv（速度恒定时）</text>
+</svg>
+
 测上楼功率：
 
 - 需测量：体重 $G$（或质量）、楼层竖直高度 $h$、上楼时间 $t$。

@@ -36,6 +36,40 @@ $$
 - 真空罩中电铃声音逐渐变小，说明真空不能传声。
 - 把耳朵贴在桌面上，能更清楚地听到轻敲桌面的声音，说明固体传声效果好。
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">声音的产生与传播示意</text>
+  <!-- 声源（音叉） -->
+  <rect x="50" y="70" width="12" height="80" fill="#1a6faf" rx="2"/>
+  <rect x="68" y="70" width="12" height="80" fill="#1a6faf" rx="2"/>
+  <rect x="54" y="142" width="22" height="8" fill="#1a6faf" rx="1"/>
+  <text x="65" y="165" text-anchor="middle" fill="#1a6faf" font-size="11">音叉</text>
+  <text x="65" y="178" text-anchor="middle" fill="#1a6faf" font-size="10">（振动）</text>
+  <!-- 疏密波 -->
+  <ellipse cx="130" cy="110" rx="18" ry="35" fill="none" stroke="#4a9fd4" stroke-width="2" opacity="0.9"/>
+  <ellipse cx="165" cy="110" rx="14" ry="28" fill="none" stroke="#4a9fd4" stroke-width="1.5" opacity="0.7"/>
+  <ellipse cx="193" cy="110" rx="11" ry="22" fill="none" stroke="#4a9fd4" stroke-width="1.5" opacity="0.6"/>
+  <ellipse cx="218" cy="110" rx="9" ry="17" fill="none" stroke="#4a9fd4" stroke-width="1.2" opacity="0.5"/>
+  <ellipse cx="240" cy="110" rx="7" ry="13" fill="none" stroke="#4a9fd4" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="258" cy="110" rx="5" ry="10" fill="none" stroke="#4a9fd4" stroke-width="1" opacity="0.3"/>
+  <!-- 箭头传播方向 -->
+  <defs>
+    <marker id="sarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <line x1="270" y1="110" x2="310" y2="110" stroke="#4a9fd4" stroke-width="2" marker-end="url(#sarr)"/>
+  <text x="340" y="95" fill="#4a9fd4" font-size="11">声波传播方向</text>
+  <!-- 耳朵（接收者） -->
+  <ellipse cx="390" cy="110" rx="30" ry="40" fill="#c8dff0" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="390" y="113" text-anchor="middle" fill="#1a6faf" font-size="12">👂</text>
+  <text x="390" y="165" text-anchor="middle" fill="#1a6faf" font-size="10">接收声音</text>
+  <!-- 介质标注 -->
+  <text x="185" y="195" text-anchor="middle" fill="#333" font-size="11">介质（空气）传声；固体传声最快，真空不传声</text>
+  <!-- 声速标注 -->
+  <text x="185" y="210" text-anchor="middle" fill="#1a6faf" font-size="10">15°C空气中 v = 340 m/s</text>
+</svg>
+
 ## 对比分析
 
 | 介质 | 传声效果 | 典型例子 |

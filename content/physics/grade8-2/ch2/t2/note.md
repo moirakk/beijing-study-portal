@@ -25,6 +25,38 @@ date: 2026-08-06
 
 ## 实验要点
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">二力平衡的四个条件</text>
+  <defs>
+    <marker id="bfarr" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e63946"/>
+    </marker>
+    <marker id="bfarr2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2d6a2d"/>
+    </marker>
+  </defs>
+  <!-- 物体 -->
+  <rect x="185" y="85" width="110" height="70" fill="#c8dff0" stroke="#1a6faf" stroke-width="2" rx="4"/>
+  <text x="240" y="125" text-anchor="middle" fill="#1a6faf" font-size="13">物体（静止）</text>
+  <!-- 两个力（相等、反向、共线、同体） -->
+  <!-- F1 向右 -->
+  <line x1="295" y1="120" x2="375" y2="120" stroke="#e63946" stroke-width="3" marker-end="url(#bfarr)"/>
+  <text x="340" y="112" fill="#e63946" font-size="12">F₁</text>
+  <!-- F2 向左 -->
+  <line x1="185" y1="120" x2="105" y2="120" stroke="#2d6a2d" stroke-width="3" marker-end="url(#bfarr2)"/>
+  <text x="150" y="112" fill="#2d6a2d" font-size="12">F₂</text>
+  <!-- 条件标注框 -->
+  <rect x="30" y="165" width="420" height="48" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="182" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">二力平衡四个条件（缺一不可）</text>
+  <text x="240" y="200" text-anchor="middle" fill="#333" font-size="11">① 大小相等  ② 方向相反  ③ 作用在同一直线上  ④ 作用在同一物体上</text>
+  <!-- 作用点标注 -->
+  <circle cx="240" cy="120" r="5" fill="#1a6faf"/>
+  <text x="248" y="135" fill="#1a6faf" font-size="10">同一物体</text>
+  <!-- F1=F2标注 -->
+  <text x="240" y="75" text-anchor="middle" fill="#333" font-size="11">|F₁| = |F₂|，方向相反，共线，同体→合力 = 0</text>
+</svg>
+
 探究二力平衡条件（小卡片实验）：
 
 - 轻质小卡片两端通过滑轮挂钩码，两边拉力方向相反。

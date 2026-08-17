@@ -33,6 +33,49 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="250" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">单摆：机械能守恒（Ep ⇌ Ek）</text>
+  <defs>
+    <marker id="mearr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/>
+    </marker>
+    <marker id="mearr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4a9fd4"/>
+    </marker>
+  </defs>
+  <!-- 悬点 -->
+  <circle cx="240" cy="45" r="6" fill="#888"/>
+  <!-- 三个位置摆绳 -->
+  <!-- 左侧最高点 -->
+  <line x1="240" y1="45" x2="120" y2="170" stroke="#888" stroke-width="2"/>
+  <circle cx="120" cy="175" r="16" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="120" y="180" text-anchor="middle" fill="white" font-size="9">A</text>
+  <!-- 摆线（中间最低点） -->
+  <line x1="240" y1="45" x2="240" y2="170" stroke="#888" stroke-width="2"/>
+  <circle cx="240" cy="175" r="18" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2.5"/>
+  <text x="240" y="180" text-anchor="middle" fill="white" font-size="10">O</text>
+  <!-- 右侧最高点 -->
+  <line x1="240" y1="45" x2="360" y2="170" stroke="#888" stroke-width="2"/>
+  <circle cx="360" cy="175" r="16" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="360" y="180" text-anchor="middle" fill="white" font-size="9">B</text>
+  <!-- 能量标注 -->
+  <text x="95" y="150" text-anchor="middle" fill="#1a6faf" font-size="10">Ep最大</text>
+  <text x="95" y="162" text-anchor="middle" fill="#1a6faf" font-size="10">Ek=0</text>
+  <text x="240" y="205" text-anchor="middle" fill="#e63946" font-size="11">Ep=0，Ek最大</text>
+  <text x="390" y="150" text-anchor="middle" fill="#1a6faf" font-size="10">Ep最大</text>
+  <text x="390" y="162" text-anchor="middle" fill="#1a6faf" font-size="10">Ek=0</text>
+  <!-- 转化箭头 -->
+  <path d="M140,168 Q190,145 225,168" fill="none" stroke="#e63946" stroke-width="2" marker-end="url(#mearr)"/>
+  <text x="183" y="142" fill="#e63946" font-size="10">Ep→Ek</text>
+  <path d="M255,168 Q290,145 345,168" fill="none" stroke="#4a9fd4" stroke-width="2" marker-end="url(#mearr2)"/>
+  <text x="300" y="142" fill="#4a9fd4" font-size="10">Ek→Ep</text>
+  <!-- 守恒说明 -->
+  <rect x="60" y="215" width="360" height="30" fill="white" rx="5" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="230" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">不计空气阻力：Ek + Ep = 机械能 = 常数</text>
+  <text x="240" y="244" text-anchor="middle" fill="#333" font-size="10">有摩擦→机械能减少（转化为内能）</text>
+</svg>
+
 - 滚摆实验：观察上下运动中高度与转速的变化，分析动能与重力势能的转化。
 - 单摆实验：最高点速度为零（动能最小、势能最大），最低点速度最大（动能最大、势能最小）。
 - 每次摆动高度略降，说明有机械能转化为内能。

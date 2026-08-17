@@ -34,6 +34,31 @@ $$
 m=\rho V,\quad V=\frac{m}{\rho}
 $$
 
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="220" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">密度公式记忆图 &amp; 常见物质密度</text>
+  <!-- 密度三角形 -->
+  <polygon points="130,45 220,160 40,160" fill="#c8dff0" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 中间竖线（分割符） -->
+  <line x1="130" y1="103" x2="130" y2="160" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 字母 -->
+  <text x="130" y="88" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">m</text>
+  <text x="80" y="145" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">ρ</text>
+  <text x="178" y="145" text-anchor="middle" fill="#1a6faf" font-size="20" font-weight="bold">V</text>
+  <!-- 三个公式 -->
+  <text x="130" y="190" text-anchor="middle" fill="#1a6faf" font-size="12">ρ=m/V   m=ρV   V=m/ρ</text>
+  <!-- 右侧：常见密度对比 -->
+  <rect x="270" y="40" width="185" height="155" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="362" y="58" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">常见物质密度</text>
+  <text x="280" y="78" fill="#555" font-size="11">铁：7.9×10³ kg/m³</text>
+  <text x="280" y="97" fill="#555" font-size="11">铝：2.7×10³ kg/m³</text>
+  <text x="280" y="116" fill="#555" font-size="11">水：1.0×10³ kg/m³</text>
+  <text x="280" y="135" fill="#555" font-size="11">冰：0.9×10³ kg/m³</text>
+  <text x="280" y="154" fill="#555" font-size="11">酒精：0.8×10³ kg/m³</text>
+  <text x="280" y="173" fill="#555" font-size="11">空气：1.29 kg/m³</text>
+  <text x="240" y="210" text-anchor="middle" fill="#1a6faf" font-size="10">密度是物质特性：与质量、体积无关，同种物质同态下密度相同</text>
+</svg>
+
 ## 实验要点
 
 - 测量密度需测质量和体积。

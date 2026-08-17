@@ -33,6 +33,45 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="250" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">液体压强：p=ρgh（向各方向）</text>
+  <!-- 容器 -->
+  <rect x="100" y="50" width="220" height="170" fill="#4a9fd4" opacity="0.3" stroke="#1a6faf" stroke-width="2"/>
+  <!-- 水面 -->
+  <line x1="100" y1="50" x2="320" y2="50" stroke="#4a9fd4" stroke-width="2"/>
+  <text x="340" y="55" fill="#4a9fd4" font-size="11">液面（h=0）</text>
+  <!-- 压强箭头（不同深度）-->
+  <defs>
+    <marker id="lprarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- h1=浅处 -->
+  <text x="90" y="105" text-anchor="end" fill="#333" font-size="10">h₁</text>
+  <line x1="92" y1="105" x2="100" y2="105" stroke="#e63946" stroke-width="1.5" marker-end="url(#lprarr)"/>
+  <line x1="320" y1="105" x2="312" y2="105" stroke="#e63946" stroke-width="1.5" marker-end="url(#lprarr)"/>
+  <line x1="210" y1="50" x2="210" y2="97" stroke="#e63946" stroke-width="1.5" marker-end="url(#lprarr)"/>
+  <!-- h2=中等 -->
+  <text x="90" y="155" text-anchor="end" fill="#333" font-size="10">h₂</text>
+  <line x1="92" y1="155" x2="100" y2="155" stroke="#e63946" stroke-width="2.5" marker-end="url(#lprarr)"/>
+  <line x1="320" y1="155" x2="308" y2="155" stroke="#e63946" stroke-width="2.5" marker-end="url(#lprarr)"/>
+  <line x1="210" y1="50" x2="210" y2="140" stroke="#e63946" stroke-width="2.5" marker-end="url(#lprarr)"/>
+  <!-- h3=深处 -->
+  <text x="90" y="205" text-anchor="end" fill="#333" font-size="10">h₃</text>
+  <line x1="92" y1="205" x2="100" y2="205" stroke="#e63946" stroke-width="4" marker-end="url(#lprarr)"/>
+  <line x1="320" y1="205" x2="304" y2="205" stroke="#e63946" stroke-width="4" marker-end="url(#lprarr)"/>
+  <line x1="210" y1="50" x2="210" y2="186" stroke="#e63946" stroke-width="4" marker-end="url(#lprarr)"/>
+  <!-- 深度标注 -->
+  <line x1="350" y1="50" x2="350" y2="205" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="370" y="55" fill="#888" font-size="10">↑</text>
+  <text x="370" y="130" fill="#888" font-size="11">h₃&gt;h₂&gt;h₁</text>
+  <text x="370" y="210" fill="#888" font-size="10">↓</text>
+  <!-- 公式 -->
+  <rect x="40" y="226" width="400" height="20" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1"/>
+  <text x="240" y="239" text-anchor="middle" fill="#1a6faf" font-size="11">p = ρgh；与容器形状无关，与液体密度ρ和深度h成正比</text>
+</svg>
+
 用压强计探究液体内部压强：
 
 - 压强计通过 U 形管两侧液面高度差显示压强大小（转换法）。

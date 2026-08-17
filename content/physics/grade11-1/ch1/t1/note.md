@@ -5,6 +5,48 @@ date: 2026-08-07
 
 # 1 动量
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">动量 p = mv（矢量）</text>
+  <defs>
+    <marker id="parr1" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a9fd4"/>
+    </marker>
+    <marker id="parr2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e63946"/>
+    </marker>
+  </defs>
+  <!-- 小球碰撞前后示意 -->
+  <text x="140" y="50" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">碰撞前</text>
+  <!-- 球1（向右） -->
+  <circle cx="90" cy="100" r="22" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="90" y="105" text-anchor="middle" fill="white" font-size="11">m₁</text>
+  <line x1="112" y1="100" x2="155" y2="100" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#parr1)"/>
+  <text x="133" y="90" fill="#4a9fd4" font-size="11">v₁→</text>
+  <!-- 球2（静止） -->
+  <circle cx="195" cy="100" r="22" fill="#888" stroke="#1a6faf" stroke-width="2" opacity="0.7"/>
+  <text x="195" y="105" text-anchor="middle" fill="white" font-size="11">m₂</text>
+  <text x="195" y="130" text-anchor="middle" fill="#555" font-size="10">静止（v=0）</text>
+  <!-- 碰撞后 -->
+  <text x="370" y="50" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">碰撞后</text>
+  <!-- 球1（变慢） -->
+  <circle cx="315" cy="100" r="22" fill="#4a9fd4" stroke="#1a6faf" stroke-width="2"/>
+  <text x="315" y="105" text-anchor="middle" fill="white" font-size="11">m₁</text>
+  <line x1="337" y1="100" x2="358" y2="100" stroke="#4a9fd4" stroke-width="2.5" marker-end="url(#parr1)"/>
+  <text x="348" y="90" fill="#4a9fd4" font-size="10">v₁'</text>
+  <!-- 球2（获得速度） -->
+  <circle cx="415" cy="100" r="22" fill="#888" stroke="#1a6faf" stroke-width="2"/>
+  <text x="415" y="105" text-anchor="middle" fill="white" font-size="11">m₂</text>
+  <line x1="415" y1="122" x2="450" y2="122" stroke="#e63946" stroke-width="2.5" marker-end="url(#parr2)"/>
+  <text x="440" y="112" fill="#e63946" font-size="10">v₂'→</text>
+  <!-- 动量守恒公式 -->
+  <rect x="40" y="145" width="400" height="85" fill="white" rx="6" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="163" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">动量守恒定律</text>
+  <text x="240" y="183" text-anchor="middle" fill="#333" font-size="12">m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'</text>
+  <text x="240" y="200" text-anchor="middle" fill="#333" font-size="11">系统所受合外力为零 → 总动量不变</text>
+  <text x="240" y="218" text-anchor="middle" fill="#1a6faf" font-size="11">p = mv（kg·m/s），方向与速度方向相同</text>
+</svg>
+
 ## 概念定义
 
 **动量**：物体的质量与速度的乘积，$p=mv$，单位 $\text{kg}\cdot\text{m/s}$。

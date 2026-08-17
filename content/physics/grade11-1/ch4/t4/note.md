@@ -5,6 +5,78 @@ date: 2026-08-07
 
 # 4 实验：用双缝干涉测量光的波长
 
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="260" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">双缝干涉测波长实验装置</text>
+  <defs>
+    <marker id="laarr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f4a500"/>
+    </marker>
+  </defs>
+  <!-- 光源 -->
+  <ellipse cx="40" cy="130" rx="25" ry="20" fill="#f4a500" opacity="0.7" stroke="#e08000" stroke-width="2"/>
+  <text x="40" y="160" text-anchor="middle" fill="#e08000" font-size="10">白炽灯</text>
+  <!-- 光路箭头 -->
+  <line x1="65" y1="130" x2="90" y2="130" stroke="#f4a500" stroke-width="2" marker-end="url(#laarr)"/>
+  <!-- 滤光片 -->
+  <rect x="90" y="108" width="12" height="44" fill="#4a9fd4" opacity="0.7" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="96" y="100" text-anchor="middle" fill="#4a9fd4" font-size="9">滤光片</text>
+  <text x="96" y="164" text-anchor="middle" fill="#4a9fd4" font-size="9">（单色光）</text>
+  <!-- 单缝 -->
+  <rect x="160" y="107" width="10" height="20" fill="#888" stroke="#555" stroke-width="1"/>
+  <rect x="160" y="137" width="10" height="20" fill="#888" stroke="#555" stroke-width="1"/>
+  <text x="165" y="100" text-anchor="middle" fill="#555" font-size="9">单缝</text>
+  <!-- 光线从单缝到双缝 -->
+  <line x1="102" y1="130" x2="158" y2="130" stroke="#f4a500" stroke-width="1.5" marker-end="url(#laarr)"/>
+  <!-- 双缝 -->
+  <rect x="235" y="105" width="10" height="20" fill="#888" stroke="#555" stroke-width="1"/>
+  <rect x="235" y="133" width="10" height="20" fill="#888" stroke="#555" stroke-width="1"/>
+  <text x="240" y="98" text-anchor="middle" fill="#1a6faf" font-size="9">双缝</text>
+  <text x="240" y="162" text-anchor="middle" fill="#1a6faf" font-size="9">（间距d）</text>
+  <!-- 光从单缝到双缝 -->
+  <line x1="170" y1="127" x2="233" y2="118" stroke="#f4a500" stroke-width="1.2" marker-end="url(#laarr)"/>
+  <line x1="170" y1="133" x2="233" y2="133" stroke="#f4a500" stroke-width="1.2" marker-end="url(#laarr)"/>
+  <line x1="170" y1="133" x2="233" y2="148" stroke="#f4a500" stroke-width="1.2" marker-end="url(#laarr)"/>
+  <!-- 遮光筒 -->
+  <rect x="245" y="100" width="120" height="60" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="305" y="125" text-anchor="middle" fill="#555" font-size="9">遮光筒</text>
+  <!-- 干涉条纹（屏幕） -->
+  <rect x="365" y="90" width="12" height="80" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <!-- 亮纹 -->
+  <line x1="365" y1="100" x2="377" y2="100" stroke="#f4f050" stroke-width="3"/>
+  <line x1="365" y1="113" x2="377" y2="113" stroke="#f4f050" stroke-width="3"/>
+  <line x1="365" y1="126" x2="377" y2="126" stroke="#f4f050" stroke-width="3"/>
+  <line x1="365" y1="139" x2="377" y2="139" stroke="#f4f050" stroke-width="3"/>
+  <line x1="365" y1="152" x2="377" y2="152" stroke="#f4f050" stroke-width="3"/>
+  <line x1="365" y1="165" x2="377" y2="165" stroke="#f4f050" stroke-width="3"/>
+  <text x="371" y="82" text-anchor="middle" fill="#555" font-size="9">屏（测量头）</text>
+  <!-- 光线（从双缝到屏） -->
+  <line x1="245" y1="118" x2="365" y2="100" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <line x1="245" y1="118" x2="365" y2="113" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <line x1="245" y1="118" x2="365" y2="126" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <line x1="245" y1="148" x2="365" y2="139" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <line x1="245" y1="148" x2="365" y2="152" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <line x1="245" y1="148" x2="365" y2="165" stroke="#f4a500" stroke-width="1" opacity="0.6" marker-end="url(#laarr)"/>
+  <!-- L标注 -->
+  <line x1="240" y1="185" x2="365" y2="185" stroke="#e63946" stroke-width="1.5"/>
+  <line x1="240" y1="181" x2="240" y2="189" stroke="#e63946" stroke-width="1.5"/>
+  <line x1="365" y1="181" x2="365" y2="189" stroke="#e63946" stroke-width="1.5"/>
+  <text x="302" y="200" text-anchor="middle" fill="#e63946" font-size="11">L（双缝到屏距离）</text>
+  <!-- Δy标注 -->
+  <line x1="385" y1="113" x2="385" y2="126" stroke="#2d6a2d" stroke-width="2"/>
+  <text x="400" y="122" fill="#2d6a2d" font-size="11">Δy</text>
+  <!-- 装置顺序 -->
+  <text x="40" y="220" fill="#1a6faf" font-size="10">光源→</text>
+  <text x="90" y="220" fill="#1a6faf" font-size="10">滤光片→</text>
+  <text x="150" y="220" fill="#1a6faf" font-size="10">单缝→</text>
+  <text x="200" y="220" fill="#1a6faf" font-size="10">双缝→</text>
+  <text x="250" y="220" fill="#1a6faf" font-size="10">遮光筒→</text>
+  <text x="320" y="220" fill="#1a6faf" font-size="10">测量头（屏）</text>
+  <!-- 公式 -->
+  <rect x="30" y="232" width="420" height="24" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="248" text-anchor="middle" fill="#1a6faf" font-size="12" font-weight="bold">λ = dΔy/L；Δy = (aₙ - a₁)/(n-1)</text>
+</svg>
+
 ## 实验原理
 
 双缝干涉相邻亮（暗）纹间距：

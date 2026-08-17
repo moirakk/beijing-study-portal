@@ -37,6 +37,38 @@ $$
 
 ## 实验要点
 
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" style="max-width:480px;width:100%;display:block;margin:1em auto">
+  <rect width="480" height="240" fill="#e8f4f8" rx="8"/>
+  <text x="240" y="22" text-anchor="middle" fill="#1a6faf" font-size="14" font-weight="bold">阿基米德原理：F浮 = G排液 = ρ液gV排</text>
+  <!-- 左图：弹簧测力计+物体 -->
+  <text x="90" y="44" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">① 空气中称重</text>
+  <!-- 弹簧测力计 -->
+  <rect x="65" y="50" width="50" height="75" fill="#c8dff0" rx="5" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="90" y1="50" x2="90" y2="40" stroke="#888" stroke-width="2"/>
+  <text x="100" y="90" fill="#333" font-size="10">F₁=G物</text>
+  <line x1="90" y1="125" x2="90" y2="140" stroke="#888" stroke-width="1.5"/>
+  <ellipse cx="90" cy="152" rx="14" ry="14" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <text x="90" y="156" text-anchor="middle" fill="white" font-size="8">物体</text>
+  <!-- 中图：浸入水中 -->
+  <text x="250" y="44" text-anchor="middle" fill="#1a6faf" font-size="11" font-weight="bold">② 浸入液体后</text>
+  <rect x="225" y="50" width="50" height="75" fill="#c8dff0" rx="5" stroke="#1a6faf" stroke-width="1.5"/>
+  <line x1="250" y1="50" x2="250" y2="40" stroke="#888" stroke-width="2"/>
+  <text x="260" y="90" fill="#333" font-size="10">F₂=G物-F浮</text>
+  <line x1="250" y1="125" x2="250" y2="140" stroke="#888" stroke-width="1.5"/>
+  <!-- 溢水杯 -->
+  <rect x="210" y="140" width="80" height="65" fill="#4a9fd4" opacity="0.3" stroke="#1a6faf" stroke-width="1.5"/>
+  <ellipse cx="250" cy="160" rx="14" ry="14" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <!-- 溢出水 -->
+  <path d="M290,155 Q310,158 315,165" fill="none" stroke="#4a9fd4" stroke-width="2"/>
+  <!-- 收集杯 -->
+  <rect x="315" y="162" width="45" height="40" fill="#4a9fd4" opacity="0.4" stroke="#1a6faf" stroke-width="1.5"/>
+  <text x="337" y="186" text-anchor="middle" fill="#1a6faf" font-size="9">排开液体</text>
+  <text x="337" y="196" text-anchor="middle" fill="#1a6faf" font-size="9">G排液</text>
+  <!-- 公式推导 -->
+  <rect x="30" y="215" width="420" height="22" fill="white" rx="4" stroke="#4a9fd4" stroke-width="1.5"/>
+  <text x="240" y="229" text-anchor="middle" fill="#1a6faf" font-size="11">F浮 = F₁ - F₂ = G排液；G排液 = ρ液·g·V排</text>
+</svg>
+
 验证阿基米德原理（溢水杯实验）四步测量：
 
 1. 测空小桶重 $G_1$；
