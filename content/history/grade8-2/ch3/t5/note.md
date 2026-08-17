@@ -7,6 +7,40 @@ date: 2026-08-06
 
 ## 时间线
 
+**中国梦与"两个一百年"奋斗目标示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E2723">中国梦：内涵、路径与奋斗目标</text>
+  <!-- 中国梦内涵 -->
+  <rect x="280" y="45" width="240" height="55" rx="8" fill="#4E342E"/>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">中国梦的内涵</text>
+  <text x="400" y="88" text-anchor="middle" font-size="12" fill="#FFF5E1">国家富强·民族振兴·人民幸福</text>
+  <!-- 三条路径 -->
+  <rect x="30" y="130" width="200" height="55" rx="8" fill="#795548"/>
+  <text x="130" y="153" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">中国道路</text>
+  <text x="130" y="173" text-anchor="middle" font-size="11" fill="#FFF5E1">中国特色社会主义道路</text>
+  <rect x="300" y="130" width="200" height="55" rx="8" fill="#795548"/>
+  <text x="400" y="153" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">中国精神</text>
+  <text x="400" y="173" text-anchor="middle" font-size="11" fill="#FFF5E1">以爱国主义为核心</text>
+  <rect x="570" y="130" width="200" height="55" rx="8" fill="#795548"/>
+  <text x="670" y="153" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">中国力量</text>
+  <text x="670" y="173" text-anchor="middle" font-size="11" fill="#FFF5E1">各族人民大团结的力量</text>
+  <!-- 连线 -->
+  <line x1="400" y1="100" x2="130" y2="130" stroke="#795548" stroke-width="2"/>
+  <line x1="400" y1="100" x2="400" y2="130" stroke="#795548" stroke-width="2"/>
+  <line x1="400" y1="100" x2="670" y2="130" stroke="#795548" stroke-width="2"/>
+  <!-- 两个一百年 -->
+  <rect x="30" y="220" width="350" height="80" rx="8" fill="#6D4C41"/>
+  <text x="205" y="245" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">第一个百年目标（2021年）</text>
+  <text x="205" y="265" text-anchor="middle" font-size="12" fill="#FFF5E1">建党100年：全面建成小康社会</text>
+  <text x="205" y="285" text-anchor="middle" font-size="11" fill="#D7CCC8">2020年已实现，脱贫攻坚全面胜利</text>
+  <rect x="420" y="220" width="350" height="80" rx="8" fill="#4E342E"/>
+  <text x="595" y="245" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">第二个百年目标（2049年）</text>
+  <text x="595" y="265" text-anchor="middle" font-size="12" fill="#FFF5E1">建国100年：建成富强民主文明</text>
+  <text x="595" y="285" text-anchor="middle" font-size="11" fill="#D7CCC8">和谐美丽的社会主义现代化强国</text>
+</svg>
+
 - 2012 年 11 月：中共十八大召开；随后习近平在参观《复兴之路》展览时首次阐述“中国梦”
 - 2012 年 11 月：中共十八大提出“两个一百年”奋斗目标
 - 2013 年：提出“一带一路”倡议

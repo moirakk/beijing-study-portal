@@ -7,6 +7,36 @@ date: 2026-08-06
 
 ## 时间线
 
+**对外开放格局形成示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" style="max-width:100%;height:auto">
+  <rect width="800" height="360" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E2723">对外开放格局的形成（由点到面，逐步扩大）</text>
+  <!-- 第一层：经济特区 -->
+  <rect x="250" y="48" width="300" height="60" rx="8" fill="#4E342E"/>
+  <text x="400" y="72" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">① 经济特区（1980年）</text>
+  <text x="400" y="92" text-anchor="middle" font-size="12" fill="#FFF5E1">深圳、珠海、汕头、厦门（1988年加海南岛）</text>
+  <!-- 箭头 -->
+  <line x1="400" y1="108" x2="400" y2="128" stroke="#795548" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#795548"/></marker></defs>
+  <!-- 第二层：沿海开放城市 -->
+  <rect x="150" y="128" width="500" height="60" rx="8" fill="#6D4C41"/>
+  <text x="400" y="152" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">② 沿海开放城市（1984年）</text>
+  <text x="400" y="172" text-anchor="middle" font-size="12" fill="#FFF5E1">大连、天津、青岛、上海、广州等14个沿海城市</text>
+  <!-- 箭头 -->
+  <line x1="400" y1="188" x2="400" y2="208" stroke="#795548" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- 第三层：沿海经济开放区 -->
+  <rect x="80" y="208" width="640" height="60" rx="8" fill="#795548"/>
+  <text x="400" y="232" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">③ 沿海经济开放区（1985年起）</text>
+  <text x="400" y="252" text-anchor="middle" font-size="12" fill="#FFF5E1">长江三角洲、珠江三角洲、闽南三角地区；1990年上海浦东开发区</text>
+  <!-- 箭头 -->
+  <line x1="400" y1="268" x2="400" y2="288" stroke="#795548" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- 第四层：内地 -->
+  <rect x="20" y="288" width="760" height="50" rx="8" fill="#D7CCC8"/>
+  <text x="400" y="308" text-anchor="middle" font-size="14" fill="#3E2723" font-weight="bold">④ 内地（1992年起）</text>
+  <text x="400" y="328" text-anchor="middle" font-size="12" fill="#4E342E">沿江城市、陆地边境城市、内地省会城市；2001年加入WTO</text>
+</svg>
+
 - 1980 年：中央决定在深圳、珠海、汕头、厦门设立经济特区
 - 1984 年：开放大连、天津、青岛、上海、广州等 14 个沿海城市
 - 1985 年起：开辟长江三角洲、珠江三角洲、闽南三角地区等沿海经济开放区

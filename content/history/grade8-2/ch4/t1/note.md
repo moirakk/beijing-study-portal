@@ -7,6 +7,48 @@ date: 2026-08-06
 
 ## 时间线
 
+**民族区域自治制度与五大自治区示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" style="max-width:100%;height:auto">
+  <rect width="800" height="320" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E2723">民族区域自治制度与五大自治区</text>
+  <!-- 制度说明 -->
+  <rect x="20" y="45" width="760" height="50" rx="8" fill="#4E342E"/>
+  <text x="400" y="65" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">民族区域自治制度（基本政治制度）</text>
+  <text x="400" y="85" text-anchor="middle" font-size="12" fill="#FFF5E1">在国家统一领导下，在少数民族聚居地方实行区域自治，由当地民族管理本民族内部事务</text>
+  <!-- 五大自治区 -->
+  <rect x="20" y="115" width="140" height="80" rx="8" fill="#795548"/>
+  <text x="90" y="145" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">内蒙古</text>
+  <text x="90" y="163" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">自治区</text>
+  <text x="90" y="183" text-anchor="middle" font-size="11" fill="#D7CCC8">1947年成立</text>
+  <text x="90" y="197" text-anchor="middle" font-size="10" fill="#D7CCC8">第一个省级自治区</text>
+  <rect x="175" y="115" width="140" height="80" rx="8" fill="#6D4C41"/>
+  <text x="245" y="145" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">新疆维吾尔</text>
+  <text x="245" y="163" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">自治区</text>
+  <text x="245" y="183" text-anchor="middle" font-size="11" fill="#D7CCC8">1955年成立</text>
+  <rect x="330" y="115" width="140" height="80" rx="8" fill="#795548"/>
+  <text x="400" y="145" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">广西壮族</text>
+  <text x="400" y="163" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">自治区</text>
+  <text x="400" y="183" text-anchor="middle" font-size="11" fill="#D7CCC8">1958年成立</text>
+  <rect x="485" y="115" width="140" height="80" rx="8" fill="#6D4C41"/>
+  <text x="555" y="145" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">宁夏回族</text>
+  <text x="555" y="163" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">自治区</text>
+  <text x="555" y="183" text-anchor="middle" font-size="11" fill="#D7CCC8">1958年成立</text>
+  <rect x="640" y="115" width="140" height="80" rx="8" fill="#4E342E"/>
+  <text x="710" y="145" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">西藏</text>
+  <text x="710" y="163" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">自治区</text>
+  <text x="710" y="183" text-anchor="middle" font-size="11" fill="#D7CCC8">1965年成立</text>
+  <!-- 促进发展措施 -->
+  <rect x="20" y="215" width="360" height="80" rx="8" fill="#D7CCC8"/>
+  <text x="200" y="238" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">西部大开发战略（20世纪末）</text>
+  <text x="200" y="258" text-anchor="middle" font-size="12" fill="#4E342E">为民族地区加快发展创造巨大机遇</text>
+  <text x="200" y="278" text-anchor="middle" font-size="12" fill="#4E342E">青藏铁路2006年全线通车</text>
+  <rect x="420" y="215" width="360" height="80" rx="8" fill="#D7CCC8"/>
+  <text x="600" y="238" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">新型民族关系</text>
+  <text x="600" y="258" text-anchor="middle" font-size="12" fill="#4E342E">民族平等·民族团结</text>
+  <text x="600" y="278" text-anchor="middle" font-size="12" fill="#4E342E">各民族共同繁荣</text>
+</svg>
+
 - 1947 年：内蒙古自治区成立，是我国建立的第一个省级少数民族自治区
 - 1949 年：《共同纲领》将民族区域自治制度确定为一项基本政治制度
 - 1954 年：民族区域自治制度被载入宪法

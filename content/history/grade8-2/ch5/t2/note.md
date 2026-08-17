@@ -7,6 +7,43 @@ date: 2026-08-06
 
 ## 时间线
 
+**和平共处五项原则与万隆会议示意图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E2723">新中国独立自主的和平外交</text>
+  <!-- 和平共处五项原则 -->
+  <rect x="20" y="45" width="370" height="200" rx="8" fill="#4E342E"/>
+  <text x="205" y="70" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">和平共处五项原则</text>
+  <text x="205" y="90" text-anchor="middle" font-size="11" fill="#D7CCC8">1953年底周恩来接见印度代表团时首次提出</text>
+  <rect x="35" y="100" width="340" height="30" rx="4" fill="#795548"/>
+  <text x="205" y="120" text-anchor="middle" font-size="12" fill="#FFF5E1">① 互相尊重主权和领土完整</text>
+  <rect x="35" y="138" width="340" height="30" rx="4" fill="#6D4C41"/>
+  <text x="205" y="158" text-anchor="middle" font-size="12" fill="#FFF5E1">② 互不侵犯</text>
+  <rect x="35" y="176" width="340" height="30" rx="4" fill="#795548"/>
+  <text x="205" y="196" text-anchor="middle" font-size="12" fill="#FFF5E1">③ 互不干涉内政</text>
+  <rect x="35" y="214" width="160" height="22" rx="4" fill="#6D4C41"/>
+  <text x="115" y="230" text-anchor="middle" font-size="12" fill="#FFF5E1">④ 平等互利</text>
+  <rect x="210" y="214" width="165" height="22" rx="4" fill="#6D4C41"/>
+  <text x="292" y="230" text-anchor="middle" font-size="12" fill="#FFF5E1">⑤ 和平共处</text>
+  <!-- 万隆会议 -->
+  <rect x="410" y="45" width="370" height="200" rx="8" fill="#6D4C41"/>
+  <text x="595" y="70" text-anchor="middle" font-size="14" fill="#FFF5E1" font-weight="bold">万隆会议（1955年）</text>
+  <text x="595" y="90" text-anchor="middle" font-size="11" fill="#D7CCC8">第一次没有殖民主义国家参加的亚非会议</text>
+  <rect x="425" y="105" width="340" height="50" rx="4" fill="#795548"/>
+  <text x="595" y="125" text-anchor="middle" font-size="12" fill="#FFF5E1">会议背景：亚非独立国家首脑聚集印尼万隆</text>
+  <text x="595" y="145" text-anchor="middle" font-size="12" fill="#FFF5E1">讨论保卫和平、争取民族独立等共同问题</text>
+  <rect x="425" y="163" width="340" height="50" rx="4" fill="#4E342E"/>
+  <text x="595" y="183" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">周恩来提出"求同存异"方针</text>
+  <text x="595" y="203" text-anchor="middle" font-size="11" fill="#D7CCC8">促进会议圆满成功，加强中国与亚非国家团结</text>
+  <rect x="425" y="221" width="340" height="22" rx="4" fill="#795548"/>
+  <text x="595" y="237" text-anchor="middle" font-size="11" fill="#FFF5E1">"同"：相同遭遇和任务；"异"：社会制度差异</text>
+  <!-- 意义 -->
+  <rect x="20" y="265" width="760" height="55" rx="8" fill="#D7CCC8"/>
+  <text x="400" y="285" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">历史意义</text>
+  <text x="400" y="305" text-anchor="middle" font-size="12" fill="#4E342E">和平共处五项原则成为处理国与国之间关系的基本准则，标志新中国外交政策成熟</text>
+</svg>
+
 - 1949 年：新中国奉行独立自主的和平外交政策，第一年就同苏联等十几个国家建立外交关系
 - 1953 年底：周恩来接见印度代表团时首次提出和平共处五项原则
 - 1954 年：周恩来访问印度、缅甸，三国总理共同倡导和平共处五项原则

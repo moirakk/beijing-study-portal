@@ -7,12 +7,79 @@ date: 2026-08-06
 
 ## 时间线
 
+**三大改造进程时间轴：**
+
+```mermaid
+timeline
+    title 三大改造历程（1953—1956）
+    1953年 : 国家开始对农业、手工业和资本主义工商业进行社会主义改造
+    1954年 : 国家对资本主义工商业逐步推行公私合营
+    1955年 : 全国掀起农业合作化高潮
+           : 绝大多数农户参加农业生产合作社
+    1956年初 : 资本主义工商业出现全行业公私合营高潮
+             : 国家对资本家实行赎买政策（发给定息）
+    1956年底 : 三大改造基本完成
+             : 生产资料私有制转变为社会主义公有制
+             : 社会主义基本制度在我国建立起来
+```
+
 - 1953 年：国家开始对农业、手工业和资本主义工商业进行社会主义改造
 - 1955 年：全国掀起农业合作化高潮
 - 1956 年初：资本主义工商业的社会主义改造出现全行业公私合营高潮
 - 1956 年底：三大改造基本完成，社会主义基本制度在我国建立起来
 
 ## 历史事件
+
+**三大改造对象与方式对比图：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" style="max-width:100%;height:auto">
+  <rect width="800" height="280" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E2723">三大改造：对象、方式与结果</text>
+  <!-- 表头 -->
+  <rect x="20" y="42" width="180" height="36" rx="4" fill="#4E342E"/>
+  <rect x="210" y="42" width="180" height="36" rx="4" fill="#4E342E"/>
+  <rect x="400" y="42" width="180" height="36" rx="4" fill="#4E342E"/>
+  <rect x="590" y="42" width="190" height="36" rx="4" fill="#4E342E"/>
+  <text x="110" y="65" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">改造对象</text>
+  <text x="300" y="65" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">改造方式</text>
+  <text x="490" y="65" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">政策创举</text>
+  <text x="685" y="65" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">完成标志</text>
+  <!-- 农业行 -->
+  <rect x="20" y="88" width="180" height="50" rx="4" fill="#795548"/>
+  <rect x="210" y="88" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="400" y="88" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="590" y="88" width="190" height="50" rx="4" fill="#D7CCC8"/>
+  <text x="110" y="118" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">农业</text>
+  <text x="300" y="108" text-anchor="middle" font-size="12" fill="#3E2723">建立农业生产合作社</text>
+  <text x="300" y="126" text-anchor="middle" font-size="12" fill="#3E2723">走集体化道路</text>
+  <text x="490" y="118" text-anchor="middle" font-size="12" fill="#3E2723">—</text>
+  <text x="685" y="108" text-anchor="middle" font-size="12" fill="#3E2723">1956年绝大多数农户</text>
+  <text x="685" y="126" text-anchor="middle" font-size="12" fill="#3E2723">参加合作社</text>
+  <!-- 手工业行 -->
+  <rect x="20" y="148" width="180" height="50" rx="4" fill="#6D4C41"/>
+  <rect x="210" y="148" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="400" y="148" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="590" y="148" width="190" height="50" rx="4" fill="#D7CCC8"/>
+  <text x="110" y="178" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">手工业</text>
+  <text x="300" y="168" text-anchor="middle" font-size="12" fill="#3E2723">建立手工业生产合作社</text>
+  <text x="300" y="186" text-anchor="middle" font-size="12" fill="#3E2723">走集体化道路</text>
+  <text x="490" y="178" text-anchor="middle" font-size="12" fill="#3E2723">—</text>
+  <text x="685" y="168" text-anchor="middle" font-size="12" fill="#3E2723">1956年90%以上</text>
+  <text x="685" y="186" text-anchor="middle" font-size="12" fill="#3E2723">参加合作社</text>
+  <!-- 工商业行 -->
+  <rect x="20" y="208" width="180" height="50" rx="4" fill="#795548"/>
+  <rect x="210" y="208" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="400" y="208" width="180" height="50" rx="4" fill="#D7CCC8"/>
+  <rect x="590" y="208" width="190" height="50" rx="4" fill="#D7CCC8"/>
+  <text x="110" y="228" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">资本主义</text>
+  <text x="110" y="246" text-anchor="middle" font-size="13" fill="#FFF5E1" font-weight="bold">工商业</text>
+  <text x="300" y="228" text-anchor="middle" font-size="12" fill="#3E2723">公私合营</text>
+  <text x="300" y="246" text-anchor="middle" font-size="12" fill="#3E2723">（全行业公私合营）</text>
+  <text x="490" y="228" text-anchor="middle" font-size="12" fill="#3E2723">赎买政策</text>
+  <text x="490" y="246" text-anchor="middle" font-size="12" fill="#3E2723">（和平过渡创举）</text>
+  <text x="685" y="228" text-anchor="middle" font-size="12" fill="#3E2723">1956年初全行业</text>
+  <text x="685" y="246" text-anchor="middle" font-size="12" fill="#3E2723">公私合营高潮</text>
+</svg>
 
 ### 农业的社会主义改造
 
