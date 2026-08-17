@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Suspense } from 'react'
 import PageSkeleton from './PageSkeleton'
 import AmbientBackground from './AmbientBackground'
+import Mascot from './Mascot'
 
 const THEME_KEY = 'bsp-theme'
 
@@ -54,9 +55,10 @@ export default function Layout() {
         <div className="mx-auto flex h-12 max-w-[980px] items-center gap-1.5 px-4">
           <Link
             to="/"
-            className="mr-auto shrink-0 text-sm font-bold tracking-wide"
+            className="mr-auto shrink-0 flex items-center gap-2 text-sm font-bold tracking-wide"
           >
-            <span className="text-gold">北京</span><span className="hidden sm:inline">初高中学习门户</span>
+            <Mascot pokemon="pikachu" size={26} state="none" className="drop-shadow-sm -mt-1" />
+            <span><span className="text-gold">北京</span><span className="hidden sm:inline">初高中学习门户</span></span>
           </Link>
 
           <nav className="flex items-center gap-1.5 overflow-x-auto no-scrollbar mask-edge">

@@ -47,13 +47,19 @@ export default function SubjectDetail() {
       <Reveal>
         <div className="flex items-end justify-between mt-6 mb-1">
           <div className="subject-head mt-0 mb-0">
-          <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
-          <div>
-            <h1 className="name">{subject.name}</h1>
-            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+            <span className="num">{CN_NUMERALS[subjectIndex] ?? '1'}</span>
+            <div>
+              <h1 className="name">{subject.name}</h1>
+              <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
+            </div>
           </div>
-        </div>
-          <Mascot subject={subject.id} size={72} state="enter" className="mb-2 mr-2" />
+          <div className="flex items-start gap-3">
+            <div className="hidden sm:block rounded-xl rounded-tr-none bg-[var(--s-soft)] border border-line px-3 py-2 text-[13px] font-bold text-[var(--s-deep)] shadow-sm relative mt-2">
+              准备好探索 {subject.name} 的奥秘了吗？
+              <div className="absolute -right-[5px] top-3 w-2 h-2 bg-[var(--s-soft)] border-r border-t border-line rotate-45"></div>
+            </div>
+            <Mascot subject={subject.id} size={90} state="enter" className="mb-2" />
+          </div>
         </div>
         <div className="rule rule-grow" />
       </Reveal>

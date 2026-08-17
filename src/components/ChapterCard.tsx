@@ -37,7 +37,10 @@ export default function ChapterCard({
         aria-expanded={open}
         className="flex w-full items-center gap-2.5 px-4 py-3 text-left transition-colors hover:bg-[var(--s-soft)] sm:px-[22px]"
       >
-        <span className="tag shrink-0">{prefix ?? '章节'}</span>
+        <span className="tag shrink-0 flex items-center gap-1.5">
+          <svg viewBox="0 0 64 64" width="12" height="12" fill="currentColor" opacity="0.75"><path d="M32 4C16.5 4 4 16.5 4 32C4 47.5 16.5 60 32 60C47.5 60 60 47.5 60 32C60 16.5 47.5 4 32 4ZM32 10C44.1 10 54 19.9 54 32H38C38 28.7 35.3 26 32 26C28.7 26 26 28.7 26 32H10C10 19.9 19.9 10 32 10ZM32 54C19.9 54 10 44.1 10 32H26C26 35.3 28.7 38 32 38C35.3 38 38 35.3 38 32H54C54 44.1 44.1 54 32 54ZM32 34C30.9 34 30 33.1 30 32C30 30.9 30.9 30 32 30C33.1 30 34 30.9 34 32C34 33.1 33.1 34 32 34Z" /></svg>
+          {prefix ?? '章节'}
+        </span>
         <span className="min-w-0 flex-1 truncate font-sans text-[15.5px] font-extrabold tracking-normal text-ink">
           {rest}
         </span>

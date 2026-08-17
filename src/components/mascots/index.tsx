@@ -30,10 +30,14 @@ export function Pikachu({ size = 48, evolved = false, className }: MascotProps) 
       <circle cx="22" cy="42" r="4" fill="#e88" opacity="0.85" />
       <circle cx="42" cy="42" r="4" fill="#e88" opacity="0.85" />
       {/* 眼睛 */}
-      <circle cx="26" cy="34" r="3.2" fill="var(--s-deep)" />
-      <circle cx="38" cy="34" r="3.2" fill="var(--s-deep)" />
-      <circle cx="27" cy="33" r="1" fill="#fff" />
-      <circle cx="39" cy="33" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="34" r="3.2" fill="var(--s-deep)" />
+        <circle cx="27" cy="33" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="34" r="3.2" fill="var(--s-deep)" />
+        <circle cx="39" cy="33" r="1" fill="#fff" />
+      </g>
       {/* 嘴 */}
       <path d="M28 40 Q32 45 36 40" stroke="var(--s-deep)" strokeWidth="1.6" fill="none" />
       {/* 闪电尾 */}
@@ -61,10 +65,14 @@ export function Charmander({ size = 48, evolved = false, className }: MascotProp
       {/* 肚皮 */}
       <ellipse cx="32" cy="46" rx="10" ry="9" fill="var(--s-soft)" />
       {/* 眼睛 */}
-      <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="27" cy="35" r="1" fill="#fff" />
-      <circle cx="39" cy="35" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="27" cy="35" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="39" cy="35" r="1" fill="#fff" />
+      </g>
       {/* 嘴 */}
       <path d="M28 42 Q32 46 36 42" stroke="var(--s-deep)" strokeWidth="1.6" fill="none" />
       {evolved && (
@@ -88,10 +96,14 @@ export function Squirtle({ size = 48, evolved = false, className }: MascotProps)
       {/* 头 */}
       <circle cx="32" cy="26" r="12" fill="var(--s)" />
       {/* 眼睛 */}
-      <circle cx="27" cy="24" r="3" fill="var(--s-deep)" />
-      <circle cx="37" cy="24" r="3" fill="var(--s-deep)" />
-      <circle cx="28" cy="23" r="1" fill="#fff" />
-      <circle cx="38" cy="23" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="27" cy="24" r="3" fill="var(--s-deep)" />
+        <circle cx="28" cy="23" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="37" cy="24" r="3" fill="var(--s-deep)" />
+        <circle cx="38" cy="23" r="1" fill="#fff" />
+      </g>
       {/* 嘴 */}
       <path d="M28 30 Q32 33 36 30" stroke="var(--s-deep)" strokeWidth="1.6" fill="none" />
       {evolved && (
@@ -115,10 +127,14 @@ export function Bulbasaur({ size = 48, evolved = false, className }: MascotProps
       {/* 身体 */}
       <ellipse cx="32" cy="44" rx="18" ry="15" fill="var(--s)" />
       {/* 眼睛 */}
-      <circle cx="26" cy="40" r="3" fill="var(--s-deep)" />
-      <circle cx="38" cy="40" r="3" fill="var(--s-deep)" />
-      <circle cx="27" cy="39" r="1" fill="#fff" />
-      <circle cx="39" cy="39" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="40" r="3" fill="var(--s-deep)" />
+        <circle cx="27" cy="39" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="40" r="3" fill="var(--s-deep)" />
+        <circle cx="39" cy="39" r="1" fill="#fff" />
+      </g>
       {/* 嘴 */}
       <path d="M28 46 Q32 49 36 46" stroke="var(--s-deep)" strokeWidth="1.6" fill="none" />
       {evolved && (
@@ -144,10 +160,14 @@ export function Eevee({ size = 48, evolved = false, className }: MascotProps) {
       {/* 蓬松尾巴 */}
       <path d="M50 44 Q60 40 58 30 Q54 40 50 44 Z" fill="var(--s)" />
       {/* 眼睛 */}
-      <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="27" cy="35" r="1" fill="#fff" />
-      <circle cx="39" cy="35" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="27" cy="35" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="39" cy="35" r="1" fill="#fff" />
+      </g>
       {/* 嘴 */}
       <path d="M28 42 Q32 46 36 42" stroke="var(--s-deep)" strokeWidth="1.6" fill="none" />
       {evolved && (
@@ -174,10 +194,14 @@ export function Vaporeon({ size = 48, evolved = false, className }: MascotProps)
       <path d="M50 44 Q60 40 58 30 Q54 40 50 44 Z" fill="var(--s)" />
       <path d="M50 44 L60 48 L52 50 Z" fill="var(--s-deep)" opacity="0.5" />
       {/* 眼睛 */}
-      <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="27" cy="35" r="1" fill="#fff" />
-      <circle cx="39" cy="35" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="27" cy="35" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="39" cy="35" r="1" fill="#fff" />
+      </g>
       {evolved && (
         <g>
           <circle cx="32" cy="20" r="10" fill="none" stroke="var(--gold)" strokeWidth="1.5" opacity="0.7" />
@@ -203,10 +227,14 @@ export function Espeon({ size = 48, evolved = false, className }: MascotProps) {
       {/* 额头宝石 */}
       <circle cx="32" cy="28" r="3" fill="var(--gold)" />
       {/* 眼睛 */}
-      <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
-      <circle cx="27" cy="35" r="1" fill="#fff" />
-      <circle cx="39" cy="35" r="1" fill="#fff" />
+      <g className="mascot-eye">
+        <circle cx="26" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="27" cy="35" r="1" fill="#fff" />
+      </g>
+      <g className="mascot-eye">
+        <circle cx="38" cy="36" r="3" fill="var(--s-deep)" />
+        <circle cx="39" cy="35" r="1" fill="#fff" />
+      </g>
       {evolved && (
         <g>
           <circle cx="32" cy="20" r="10" fill="none" stroke="var(--gold)" strokeWidth="1.5" opacity="0.7" />
@@ -234,8 +262,8 @@ export function Umbreon({ size = 48, evolved = false, className }: MascotProps) 
       <circle cx="24" cy="40" r="2" fill="var(--gold)" />
       <circle cx="40" cy="40" r="2" fill="var(--gold)" />
       {/* 眼睛 */}
-      <circle cx="26" cy="36" r="3" fill="var(--gold)" />
-      <circle cx="38" cy="36" r="3" fill="var(--gold)" />
+      <g className="mascot-eye"><circle cx="26" cy="36" r="3" fill="var(--gold)" /></g>
+      <g className="mascot-eye"><circle cx="38" cy="36" r="3" fill="var(--gold)" /></g>
       {evolved && (
         <g>
           <circle cx="32" cy="20" r="10" fill="none" stroke="var(--gold)" strokeWidth="1.5" opacity="0.7" />

@@ -5,8 +5,8 @@
 import { POKEMON_BY_KEY, POKEMON_BY_SUBJECT } from './mascots'
 
 interface MascotProps {
-  /** 动画状态：idle (默认漂浮) | enter (入场) | happy (答对) | sad (答错) | switch (切换) | none (无动画) */
-  state?: 'idle' | 'enter' | 'happy' | 'sad' | 'switch' | 'none'
+  /** 动画状态：idle (默认漂浮) | enter (入场) | happy (答对) | sad (答错) | switch (切换) | run-in (跑入) | retract-release (精灵球收放) | none (无动画) */
+  state?: 'idle' | 'enter' | 'happy' | 'sad' | 'switch' | 'run-in' | 'retract-release' | 'none'
   /** 学科 id 或宝可梦 key */
   subject?: string
   /** 宝可梦 key（优先于 subject） */
@@ -32,6 +32,8 @@ export default function Mascot({
     state === 'idle' ? 'mascot-idle mascot-hover' :
     state === 'enter' ? 'mascot-enter' :
     state === 'switch' ? 'mascot-switch' :
+    state === 'run-in' ? 'mascot-run-in' :
+    state === 'retract-release' ? 'mascot-retract-release' :
     state === 'happy' ? 'mascot-happy' :
     state === 'sad' ? 'mascot-sad' : ''
   const finalClass = [animClass, className].filter(Boolean).join(' ')

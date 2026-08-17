@@ -32,11 +32,11 @@ export default function Dashboard() {
   const activeSubject = subjects.find((s) => s.id === activeSubjectId) ?? null
   const { answers, wrong, bookmarks, flashcards, pokedex } = useQuizProgress()
 
-  const [mascotState, setMascotState] = useState<'idle'|'switch'>('idle')
+  const [mascotState, setMascotState] = useState<'idle'|'switch'|'retract-release'>('idle')
   const handleSubjectChange = (id: string) => {
     setActiveSubjectId(id)
-    setMascotState('switch')
-    setTimeout(() => setMascotState('idle'), 400)
+    setMascotState('retract-release')
+    setTimeout(() => setMascotState('idle'), 600)
   }
 
   const dueCards = flashcards.filter((f) => f.due <= Date.now()).length
@@ -45,7 +45,14 @@ export default function Dashboard() {
   return (
     <div>
       {/* 顶部（hero：眉题 / 标题 / 副文案 依次渐入） */}
-      <header className="border-b border-line pb-5 pt-4 md:pt-7">
+      <header className="border-b border-line pb-5 pt-4 md:pt-7 relative">
+        <div className="absolute right-4 top-4 hidden sm:flex items-start gap-3 z-10">
+          <div className="rounded-2xl rounded-tr-none bg-[var(--s-soft,var(--paper))] border border-line px-4 py-2 text-[13.5px] shadow-sm relative mt-4">
+            <span className="font-bold text-[var(--s-deep,var(--gold))]">Pika pika!</span> 欢迎来到学习基地！
+            <div className="absolute -right-[6px] top-3 w-3 h-3 bg-[var(--s-soft,var(--paper))] border-r border-t border-line rotate-45"></div>
+          </div>
+          <Mascot pokemon="pikachu" size={120} state="run-in" />
+        </div>
         <Reveal>
           <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
             北京 · 初高中学习资料
@@ -129,12 +136,13 @@ export default function Dashboard() {
                   type="button"
                   onClick={() => handleSubjectChange(subject.id)}
                   style={subjectVars(subject.id as SubjectId)}
-                  className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
+                  className={`shrink-0 flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
                     active
                       ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
                       : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'
                   }`}
                 >
+                  <Mascot subject={subject.id} size={18} state="none" />
                   {subject.name}
                 </button>
               )
@@ -153,6 +161,14 @@ export default function Dashboard() {
       ) : (
         <div className="mt-10 text-center text-[14px] text-ink-soft">暂无学科数据，请先添加内容。</div>
       )}
+
+      {/* 底部鼓励区 */}
+      <div className="mt-12 mb-4 flex flex-col items-center gap-3 opacity-80">
+        <Mascot pokemon="eevee" size={48} state="idle" />
+        <p className="text-[13px] font-bold tracking-widest text-ink-faint">
+          “就决定是你了！今天也要加油哦！”
+        </p>
+      </div>
     </div>
   )
 }

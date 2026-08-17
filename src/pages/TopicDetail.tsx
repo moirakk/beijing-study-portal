@@ -6,6 +6,7 @@ import Markdown from '../components/Markdown'
 import ReadingProgress from '../components/ReadingProgress'
 import Reveal from '../components/Reveal'
 import QuizSection from '../components/QuizSection'
+import Mascot from '../components/Mascot'
 import { findTopic, getAllTopics, isDraftTopic, loadTopicContent } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
 import { difficultyStars, subjectVars } from '../lib/constants'
@@ -447,6 +448,26 @@ export default function TopicDetail() {
           </div>
         </section>
       )}
+
+      {/* 底部学习完成鼓励区 */}
+      {!draft && (
+        <Reveal delay={200}>
+          <div className="mt-12 mb-8 flex flex-col items-center justify-center gap-3 rounded-2xl bg-[var(--s-soft)] border border-line py-8 shadow-sm">
+            <Mascot subject={subject.id} size={64} state="happy" />
+            <div className="text-[16px] font-bold text-[var(--s-deep)] tracking-wider mt-2">
+              太棒了！这一节也顺利拿下了！
+            </div>
+            <div className="flex gap-1 text-[var(--s)]">
+              ✨ ⭐ ✨
+            </div>
+          </div>
+        </Reveal>
+      )}
+
+      {/* 悬浮小向导 */}
+      <div className="fixed bottom-6 right-6 z-40 drop-shadow-md pointer-events-none">
+        <Mascot subject={subject.id} size={44} state="idle" />
+      </div>
     </div>
   )
 }
