@@ -40,6 +40,73 @@ date: 2026-08-05
 
 - **人种只有体质特征差异，没有优劣之分**。
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 440" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="440" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">世界人口分布与三大人种示意图</text>
+  <!-- World map simplified background -->
+  <rect x="30" y="45" width="760" height="240" rx="8" fill="#dbeafe" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="410" y="62" text-anchor="middle" font-size="11" fill="#1d4ed8">（世界简化示意图）</text>
+  <!-- 亚欧大陆 -->
+  <path d="M300,80 L480,75 L540,85 L580,110 L570,150 L540,165 L490,170 L440,165 L400,155 L360,155 L320,145 L295,125 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="435" y="125" text-anchor="middle" font-size="11" fill="#134e4a">亚欧大陆</text>
+  <!-- Dense population markers: East Asia, South Asia, West Europe -->
+  <circle cx="490" cy="120" r="22" fill="#dc2626" opacity="0.6"/>
+  <text x="490" y="107" text-anchor="middle" font-size="9" font-weight="bold" fill="#134e4a">亚洲东部</text>
+  <text x="490" y="118" text-anchor="middle" font-size="8" fill="#134e4a">黄种人</text>
+  <text x="490" y="129" text-anchor="middle" font-size="8" fill="#134e4a">稠密区①</text>
+  <circle cx="420" cy="145" r="16" fill="#dc2626" opacity="0.5"/>
+  <text x="420" y="140" text-anchor="middle" font-size="9" fill="#134e4a">南亚</text>
+  <text x="420" y="152" text-anchor="middle" font-size="8" fill="#134e4a">稠密区②</text>
+  <circle cx="320" cy="100" r="14" fill="#dc2626" opacity="0.5"/>
+  <text x="320" y="95" text-anchor="middle" font-size="9" fill="#134e4a">欧洲西部</text>
+  <text x="320" y="107" text-anchor="middle" font-size="8" fill="#134e4a">稠密区③</text>
+  <!-- Africa -->
+  <ellipse cx="370" cy="185" rx="55" ry="55" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="370" y="188" text-anchor="middle" font-size="11" fill="#134e4a">非洲</text>
+  <!-- North America -->
+  <path d="M120,75 L200,70 L230,90 L220,145 L195,155 L165,145 L135,120 Z" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="180" y="115" text-anchor="middle" font-size="10" fill="#134e4a">北美洲</text>
+  <circle cx="200" cy="105" r="12" fill="#dc2626" opacity="0.45"/>
+  <text x="200" y="96" text-anchor="middle" font-size="8" fill="#134e4a">北美东部</text>
+  <text x="200" y="107" text-anchor="middle" font-size="7" fill="#134e4a">稠密区④</text>
+  <!-- South America -->
+  <ellipse cx="190" cy="190" rx="40" ry="50" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="190" y="193" text-anchor="middle" font-size="10" fill="#134e4a">南美洲</text>
+  <!-- Australia -->
+  <ellipse cx="640" cy="185" rx="50" ry="35" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="640" y="188" text-anchor="middle" font-size="10" fill="#134e4a">大洋洲</text>
+  <!-- Sparse labels -->
+  <text x="75" y="145" text-anchor="middle" font-size="9" fill="#1d4ed8">极地稀疏</text>
+  <text x="740" y="160" text-anchor="middle" font-size="9" fill="#1d4ed8">太平洋</text>
+  <!-- Legend: Population density -->
+  <circle cx="48" cy="268" r="10" fill="#dc2626" opacity="0.6"/>
+  <text x="63" y="272" text-anchor="start" font-size="11" fill="#134e4a">人口稠密区（中低纬·近海平原）</text>
+  <circle cx="48" cy="288" r="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1"/>
+  <text x="63" y="292" text-anchor="start" font-size="11" fill="#134e4a">人口稀疏区（沙漠·雨林·极地·高原）</text>
+  <!-- Three races section -->
+  <text x="410" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">三大人种分布</text>
+  <!-- Yellow race -->
+  <rect x="45" y="338" width="220" height="80" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="155" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">黄色人种</text>
+  <text x="155" y="378" text-anchor="middle" font-size="11" fill="#0f766e">皮肤淡黄·头发黑直</text>
+  <text x="155" y="394" text-anchor="middle" font-size="11" fill="#0f766e">主要：亚洲东部</text>
+  <text x="155" y="408" text-anchor="middle" font-size="10" fill="#0f766e">（美洲印第安人也属黄种）</text>
+  <!-- White race -->
+  <rect x="300" y="338" width="220" height="80" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="410" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">白色人种</text>
+  <text x="410" y="378" text-anchor="middle" font-size="11" fill="#0f766e">肤色浅·鼻梁高</text>
+  <text x="410" y="394" text-anchor="middle" font-size="11" fill="#0f766e">欧洲·北美·西亚北非</text>
+  <text x="410" y="408" text-anchor="middle" font-size="10" fill="#0f766e">大洋洲</text>
+  <!-- Black race -->
+  <rect x="555" y="338" width="220" height="80" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="665" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">黑色人种</text>
+  <text x="665" y="378" text-anchor="middle" font-size="11" fill="#0f766e">肤色黝黑·头发卷曲</text>
+  <text x="665" y="394" text-anchor="middle" font-size="11" fill="#0f766e">主要：非洲中南部</text>
+  <text x="665" y="410" text-anchor="middle" font-size="10" fill="#dc2626">※ 人种无优劣之分</text>
+</svg>
+</div>
+
 ### 3. 语言与宗教
 
 - 联合国六种工作语言：**汉语、英语、法语、俄语、西班牙语、阿拉伯语**。使用人数最多的是**汉语**，流传最广的是**英语**。
@@ -100,16 +167,3 @@ date: 2026-08-05
 
 相关：[[第二节 发展与合作]] ｜ [[第四节 气候与人类活动]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

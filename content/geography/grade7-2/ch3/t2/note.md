@@ -68,6 +68,77 @@ date: 2026-08-05
 5. 资源丰富，重工业发达，轻工业薄弱。
 6. 西伯利亚大铁路沿南部修建；摩尔曼斯克是北冰洋不冻港。
 
+<div class="svg-chart">
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="900" height="380" fill="#f0fdfa" rx="12"/>
+  <text x="450" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">俄罗斯地形从西到东——记忆口诀</text>
+  <!-- Memory banner -->
+  <rect x="30" y="42" width="840" height="34" rx="8" fill="#134e4a"/>
+  <text x="450" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#5eead4">🧠 口诀：东欧平·乌拉山·西西平·中西高·东西山</text>
+  <!-- 5 zones left to right -->
+  <!-- Zone 1: 东欧平原 -->
+  <rect x="30" y="88" width="148" height="190" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="104" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">东欧平原</text>
+  <rect x="46" y="120" width="116" height="28" rx="4" fill="#0d9488"/>
+  <text x="104" y="139" text-anchor="middle" font-size="11" fill="white">西部，地势低平</text>
+  <text x="104" y="165" text-anchor="middle" font-size="10" fill="#0f766e">首都莫斯科</text>
+  <text x="104" y="180" text-anchor="middle" font-size="10" fill="#0f766e">圣彼得堡</text>
+  <text x="104" y="195" text-anchor="middle" font-size="10" fill="#0f766e">俄罗斯发达</text>
+  <text x="104" y="210" text-anchor="middle" font-size="10" fill="#0f766e">工农业区</text>
+  <text x="104" y="240" text-anchor="middle" font-size="22">🏙️</text>
+  <!-- Arrow -->
+  <polygon points="178,183 193,176 193,190" fill="#0d9488"/>
+  <!-- Zone 2: 乌拉尔山 -->
+  <rect x="193" y="88" width="90" height="190" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="238" y="112" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">乌拉尔山</text>
+  <text x="238" y="130" text-anchor="middle" font-size="10" fill="#134e4a">⬆ 亚欧</text>
+  <text x="238" y="145" text-anchor="middle" font-size="10" fill="#134e4a">分界线</text>
+  <text x="238" y="200" text-anchor="middle" font-size="26">⛰️</text>
+  <text x="238" y="240" text-anchor="middle" font-size="9" fill="#0f766e">低矮山脉</text>
+  <!-- Arrow -->
+  <polygon points="283,183 298,176 298,190" fill="#0d9488"/>
+  <!-- Zone 3: 西西伯利亚平原 -->
+  <rect x="298" y="88" width="158" height="190" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="377" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">西西伯利亚平原</text>
+  <rect x="314" y="115" width="126" height="28" rx="4" fill="#0d9488"/>
+  <text x="377" y="134" text-anchor="middle" font-size="11" fill="white">世界最大平原之一</text>
+  <text x="377" y="165" text-anchor="middle" font-size="10" fill="#0f766e">低洼·多沼泽</text>
+  <text x="377" y="180" text-anchor="middle" font-size="10" fill="#0f766e">鄂毕河流过</text>
+  <text x="377" y="230" text-anchor="middle" font-size="22">🌾</text>
+  <!-- Arrow -->
+  <polygon points="456,183 471,176 471,190" fill="#0d9488"/>
+  <!-- Zone 4: 中西伯利亚高原 -->
+  <rect x="471" y="88" width="168" height="190" rx="8" fill="#a5f3fc" stroke="#0d9488" stroke-width="2"/>
+  <text x="555" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">中西伯利亚高原</text>
+  <rect x="487" y="115" width="136" height="28" rx="4" fill="#0d9488"/>
+  <text x="555" y="134" text-anchor="middle" font-size="11" fill="white">海拔500-700m</text>
+  <text x="555" y="165" text-anchor="middle" font-size="10" fill="#0f766e">叶尼塞河以东</text>
+  <text x="555" y="180" text-anchor="middle" font-size="10" fill="#0f766e">矿产丰富</text>
+  <text x="555" y="230" text-anchor="middle" font-size="22">🏔️</text>
+  <!-- Arrow -->
+  <polygon points="639,183 654,176 654,190" fill="#0d9488"/>
+  <!-- Zone 5: 东西伯利亚山地 -->
+  <rect x="654" y="88" width="216" height="190" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="762" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">东西伯利亚山地</text>
+  <rect x="670" y="115" width="184" height="28" rx="4" fill="#134e4a"/>
+  <text x="762" y="134" text-anchor="middle" font-size="11" fill="#5eead4">山地交错，地形复杂</text>
+  <text x="762" y="165" text-anchor="middle" font-size="10" fill="#134e4a">勒拿河流域</text>
+  <text x="762" y="180" text-anchor="middle" font-size="10" fill="#134e4a">贝加尔湖（最深湖）</text>
+  <text x="762" y="230" text-anchor="middle" font-size="22">🏔️</text>
+  <!-- Bottom: Trans-Siberian Railway -->
+  <rect x="30" y="292" width="840" height="70" rx="8" fill="#0d9488" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="450" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="white">西伯利亚大铁路（亚欧大陆桥）</text>
+  <text x="450" y="336" text-anchor="middle" font-size="11" fill="#ccfbf1">莫斯科 ──────────────────────────────── 符拉迪沃斯托克（海参崴）</text>
+  <text x="200" y="353" text-anchor="middle" font-size="10" fill="#5eead4">西部经济区</text>
+  <text x="700" y="353" text-anchor="middle" font-size="10" fill="#5eead4">东部港口</text>
+  <polygon points="140,347 155,342 155,352" fill="#5eead4"/>
+  <polygon points="760,347 775,342 775,352" fill="#5eead4"/>
+  <!-- West-East label -->
+  <text x="72" y="185" text-anchor="middle" font-size="10" fill="#0d9488" font-weight="bold">西</text>
+  <text x="858" y="185" text-anchor="middle" font-size="10" fill="#0d9488" font-weight="bold">东</text>
+</svg>
+</div>
+
 ## 八、自测小题
 
 1. 世界上面积最大的国家是______。
@@ -81,16 +152,3 @@ date: 2026-08-05
 
 相关：[[第一节 日本]] ｜ [[第三节 欧洲西部]] ｜ [[主题探究：走近一个国家]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

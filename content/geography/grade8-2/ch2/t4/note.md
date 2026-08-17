@@ -48,6 +48,72 @@ date: 2026-08-06
 - 能源：石油、天然气丰富，**西气东输**从塔里木盆地输往东部。
 - 生态问题：过度放牧、过度开垦导致**土地荒漠化**，需退耕还林还草。
 
+<div class="svg-chart">
+<svg viewBox="0 0 840 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="840" height="380" fill="#fffbeb" rx="14"/>
+  <text x="420" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#92400e">🏜️ 西北地区 · 干旱是灵魂，牢记这张图！</text>
+  <!-- Top strip: landscape gradient -->
+  <rect x="20" y="42" width="800" height="56" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="70" y="60" text-anchor="middle" font-size="11" fill="#065f46" font-weight="bold">草原</text>
+  <text x="70" y="76" text-anchor="middle" font-size="10" fill="#065f46">🌿🌿🌿</text>
+  <line x1="135" y1="45" x2="135" y2="95" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="140" y="42" width="160" height="56" rx="0" fill="#fef9c3" stroke="none"/>
+  <text x="220" y="60" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">荒漠草原</text>
+  <text x="220" y="76" text-anchor="middle" font-size="10" fill="#92400e">🌾🌾·</text>
+  <line x1="305" y1="45" x2="305" y2="95" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="310" y="42" width="510" height="56" rx="0" fill="#fde68a" stroke="none"/>
+  <text x="560" y="60" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">荒漠（最广）</text>
+  <text x="560" y="76" text-anchor="middle" font-size="10" fill="#92400e">🏜️🏜️🏜️🏜️🏜️</text>
+  <rect x="20" y="98" width="800" height="18" rx="0" fill="none"/>
+  <text x="420" y="108" text-anchor="middle" font-size="11" fill="#7c3aed">← 从东向西：离海越来越远，降水越来越少，景观越来越干旱 →</text>
+  <!-- Three columns: cards -->
+  <!-- Col 1: 地形"三山夹两盆" -->
+  <rect x="20" y="125" width="255" height="218" rx="10" fill="white" stroke="#0d9488" stroke-width="2"/>
+  <rect x="20" y="125" width="255" height="36" rx="10" fill="#0d9488"/>
+  <text x="147" y="148" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🏔️ 新疆地形口诀</text>
+  <text x="147" y="182" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">三山夹两盆</text>
+  <text x="147" y="208" text-anchor="middle" font-size="11" fill="#374151">阿尔泰山（北）</text>
+  <text x="147" y="228" text-anchor="middle" font-size="11" fill="#374151">↕ 准噶尔盆地</text>
+  <text x="147" y="248" text-anchor="middle" font-size="11" fill="#374151">天山（中）</text>
+  <text x="147" y="268" text-anchor="middle" font-size="11" fill="#374151">↕ 塔里木盆地</text>
+  <text x="147" y="288" text-anchor="middle" font-size="11" fill="#374151">昆仑山（南）</text>
+  <text x="147" y="312" text-anchor="middle" font-size="11" fill="#059669">塔里木河 = 最大内流河</text>
+  <!-- Col 2: 农牧业 -->
+  <rect x="292" y="125" width="255" height="218" rx="10" fill="white" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="292" y="125" width="255" height="36" rx="10" fill="#f59e0b"/>
+  <text x="419" y="148" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🐑 农牧业分布</text>
+  <rect x="305" y="170" width="230" height="40" rx="6" fill="#d1fae5"/>
+  <text x="420" y="187" text-anchor="middle" font-size="11" fill="#065f46" font-weight="bold">草原牧场（内蒙古高原）</text>
+  <text x="420" y="202" text-anchor="middle" font-size="10" fill="#065f46">→ 三河马·三河牛</text>
+  <rect x="305" y="218" width="230" height="40" rx="6" fill="#fef3c7"/>
+  <text x="420" y="235" text-anchor="middle" font-size="11" fill="#92400e" font-weight="bold">灌溉农业（河套·宁夏平原）</text>
+  <text x="420" y="250" text-anchor="middle" font-size="10" fill="#92400e">→ "塞外江南" 小麦·水稻</text>
+  <rect x="305" y="265" width="230" height="65" rx="6" fill="#fce7f3"/>
+  <text x="420" y="282" text-anchor="middle" font-size="11" fill="#9d174d" font-weight="bold">绿洲农业（新疆盆地边缘）</text>
+  <text x="420" y="298" text-anchor="middle" font-size="11" fill="#9d174d">棉花·葡萄·哈密瓜</text>
+  <text x="420" y="315" text-anchor="middle" font-size="10" fill="#dc2626">甜！→ 日照足·温差大→糖分多</text>
+  <!-- Col 3: 坎儿井 + 西气东输 -->
+  <rect x="564" y="125" width="256" height="218" rx="10" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="564" y="125" width="256" height="36" rx="10" fill="#8b5cf6"/>
+  <text x="692" y="148" text-anchor="middle" font-size="13" fill="white" font-weight="bold">💧 坎儿井 + 西气东输</text>
+  <!-- Karez diagram -->
+  <text x="692" y="177" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">坎儿井（地下暗渠）</text>
+  <path d="M580,185 Q620,195 660,185 Q700,175 740,185 Q760,192 800,190" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="6,3"/>
+  <path d="M580,195 L800,195" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <text x="692" y="213" text-anchor="middle" font-size="10" fill="#1d4ed8">高山冰雪融水 → 地下引水</text>
+  <text x="692" y="228" text-anchor="middle" font-size="10" fill="#1d4ed8">防蒸发·防沙埋</text>
+  <line x1="575" y1="240" x2="808" y2="240" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="692" y="262" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">西气东输</text>
+  <rect x="580" y="270" width="235" height="32" rx="6" fill="#ede9fe"/>
+  <text x="692" y="283" text-anchor="middle" font-size="11" fill="#5b21b6">塔里木盆地（天然气）</text>
+  <text x="692" y="298" text-anchor="middle" font-size="10" fill="#7c3aed">→ 管道 → 东部城市</text>
+  <text x="692" y="320" text-anchor="middle" font-size="10" fill="#dc2626">⚠️ 生态问题：荒漠化</text>
+  <!-- Bottom banner -->
+  <rect x="20" y="350" width="800" height="24" rx="6" fill="#134e4a"/>
+  <text x="420" y="366" text-anchor="middle" font-size="12" fill="#ccfbf1">干旱口诀：深居内陆 → 水汽少 → 草原→荒漠草原→荒漠（东→西）</text>
+</svg>
+</div>
+
 ## 四、读图与技能：西北地区图判读
 
 1. 描出"三山夹两盆"轮廓，记住天山居中。

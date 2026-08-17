@@ -65,6 +65,34 @@ graph TD
   style L fill:#134e4a,stroke:#5eead4,color:#5eead4
 ```
 
+<div class="svg-chart">
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="780" height="340" fill="#f0fdfa" rx="12"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">宜居带与行星宜居条件示意图</text>
+  <circle cx="80" cy="175" r="48" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="171" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350f">恒星</text>
+  <text x="80" y="187" text-anchor="middle" font-size="10" fill="#78350f">类太阳</text>
+  <ellipse cx="400" cy="175" rx="310" ry="130" fill="none" stroke="#5eead4" stroke-width="2" stroke-dasharray="6,3" opacity="0.7"/>
+  <path d="M250,55 Q380,45 500,75 Q560,110 570,175 Q560,240 500,275 Q380,305 250,295 Q190,255 195,175 Q190,95 250,55 Z" fill="#5eead4" opacity="0.25"/>
+  <text x="400" y="165" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f766e">宜居带</text>
+  <text x="400" y="183" text-anchor="middle" font-size="11" fill="#0f766e">温度适宜，可能存在液态水</text>
+  <circle cx="350" cy="130" r="15" fill="#14b8a6" stroke="#0d9488" stroke-width="2"/>
+  <text x="350" y="115" text-anchor="middle" font-size="10" font-weight="bold" fill="#0d9488">地球</text>
+  <text x="350" y="100" text-anchor="middle" font-size="9" fill="#0f766e">第3颗行星★</text>
+  <rect x="160" y="248" width="130" height="50" rx="6" fill="#fca5a5" opacity="0.7" stroke="#dc2626" stroke-width="1"/>
+  <text x="225" y="270" text-anchor="middle" font-size="11" fill="#dc2626">内侧过热区</text>
+  <text x="225" y="286" text-anchor="middle" font-size="10" fill="#dc2626">距恒星过近→过热</text>
+  <rect x="530" y="248" width="130" height="50" rx="6" fill="#bfdbfe" opacity="0.7" stroke="#1d4ed8" stroke-width="1"/>
+  <text x="595" y="270" text-anchor="middle" font-size="11" fill="#1d4ed8">外侧过冷区</text>
+  <text x="595" y="286" text-anchor="middle" font-size="10" fill="#1d4ed8">距恒星过远→过冷</text>
+  <rect x="50" y="260" width="95" height="65" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2"/>
+  <text x="97" y="279" text-anchor="middle" font-size="10" font-weight="bold" fill="#134e4a">宜居5条件</text>
+  <text x="97" y="294" text-anchor="middle" font-size="9" fill="#0f766e">①距离适中</text>
+  <text x="97" y="308" text-anchor="middle" font-size="9" fill="#0f766e">②体积质量适中</text>
+  <text x="97" y="322" text-anchor="middle" font-size="9" fill="#0f766e">③液态水 ④大气 ⑤安全</text>
+</svg>
+</div>
+
 ### 2. 收集资料：人类怎样寻找"地球 2.0"
 
 - 用**天文望远镜**（地面和太空望远镜）观测遥远恒星周围的行星。

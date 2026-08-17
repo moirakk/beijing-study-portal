@@ -55,6 +55,69 @@ date: 2026-08-06
 - 气候对人类的影响建立在[[第二节 主要的气候类型]]之上。
 - 气候与民居关系可联系[[第三节 聚落]]的选址与形态。
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="380" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">气候影响生产生活——趣味记忆卡片</text>
+  <!-- Card 1: Agriculture -->
+  <rect x="20" y="45" width="185" height="205" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <rect x="20" y="45" width="185" height="40" rx="10" fill="#22c55e"/>
+  <text x="112" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="white">🌾 农业</text>
+  <text x="112" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#14532d">气温→熟制</text>
+  <text x="112" y="125" text-anchor="middle" font-size="10" fill="#166534">热带：一年三熟</text>
+  <text x="112" y="140" text-anchor="middle" font-size="10" fill="#166534">温带：一年两熟</text>
+  <text x="112" y="155" text-anchor="middle" font-size="10" fill="#166534">寒带：一年一熟</text>
+  <text x="112" y="178" text-anchor="middle" font-size="11" font-weight="bold" fill="#14532d">降水→农业类型</text>
+  <text x="112" y="195" text-anchor="middle" font-size="10" fill="#166534">湿润区→种植业</text>
+  <text x="112" y="210" text-anchor="middle" font-size="10" fill="#166534">干旱区→畜牧业</text>
+  <text x="112" y="232" text-anchor="middle" font-size="9" fill="#14532d" font-weight="bold">水稻喜热 小麦耐寒</text>
+  <!-- Card 2: Housing -->
+  <rect x="220" y="45" width="185" height="205" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="220" y="45" width="185" height="40" rx="10" fill="#f59e0b"/>
+  <text x="312" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="white">🏠 民居</text>
+  <text x="312" y="105" text-anchor="middle" font-size="10" fill="#78350f">东南亚湿热→高脚屋·通风防潮</text>
+  <text x="312" y="125" text-anchor="middle" font-size="10" fill="#78350f">西亚北非干热→墙厚窗小·隔热</text>
+  <text x="312" y="145" text-anchor="middle" font-size="10" fill="#78350f">北极→冰屋·就地取材保暖</text>
+  <text x="312" y="165" text-anchor="middle" font-size="10" fill="#78350f">南方多雨→坡屋顶大·利排水</text>
+  <text x="312" y="185" text-anchor="middle" font-size="10" fill="#78350f">北方少雨→坡屋顶小·可晒粮</text>
+  <text x="312" y="225" text-anchor="middle" font-size="9" fill="#92400e" font-weight="bold">因地制宜，就地取材</text>
+  <!-- Card 3: Food & Clothing -->
+  <rect x="420" y="45" width="185" height="205" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <rect x="420" y="45" width="185" height="40" rx="10" fill="#7c3aed"/>
+  <text x="512" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="white">🍜 饮食·服饰</text>
+  <text x="512" y="105" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">饮食</text>
+  <text x="512" y="122" text-anchor="middle" font-size="10" fill="#5b21b6">南方水稻→吃米饭</text>
+  <text x="512" y="137" text-anchor="middle" font-size="10" fill="#5b21b6">北方旱地→吃面食</text>
+  <text x="512" y="152" text-anchor="middle" font-size="10" fill="#5b21b6">湿润区→多水产·蔬菜</text>
+  <text x="512" y="172" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">服饰</text>
+  <text x="512" y="189" text-anchor="middle" font-size="10" fill="#5b21b6">热带轻薄→散热快</text>
+  <text x="512" y="204" text-anchor="middle" font-size="10" fill="#5b21b6">寒带厚重→保暖防风</text>
+  <text x="512" y="225" text-anchor="middle" font-size="9" fill="#4c1d95" font-weight="bold">南米北面·南轻北厚</text>
+  <!-- Card 4: Disaster -->
+  <rect x="620" y="45" width="180" height="205" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+  <rect x="620" y="45" width="180" height="40" rx="10" fill="#dc2626"/>
+  <text x="710" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="white">⚠️ 气象灾害</text>
+  <text x="710" y="103" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">寒潮</text>
+  <text x="710" y="119" text-anchor="middle" font-size="10" fill="#991b1b">剧烈降温→霜冻农作物</text>
+  <text x="710" y="139" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">台风</text>
+  <text x="710" y="155" text-anchor="middle" font-size="10" fill="#991b1b">东南沿海→狂风暴雨</text>
+  <text x="710" y="175" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">洪涝·干旱</text>
+  <text x="710" y="191" text-anchor="middle" font-size="10" fill="#991b1b">季风区夏季多发</text>
+  <text x="710" y="225" text-anchor="middle" font-size="9" fill="#7f1d1d" font-weight="bold">监测预警是关键</text>
+  <!-- Summary bar -->
+  <rect x="20" y="268" width="780" height="95" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="410" y="292" text-anchor="middle" font-size="13" font-weight="bold" fill="#5eead4">气候影响人类活动的逻辑链</text>
+  <text x="150" y="318" text-anchor="middle" font-size="11" fill="#ccfbf1">气温+降水</text>
+  <polygon points="230,318 250,312 250,324" fill="#5eead4"/>
+  <text x="320" y="318" text-anchor="middle" font-size="11" fill="#ccfbf1">决定农业类型</text>
+  <polygon points="400,318 420,312 420,324" fill="#5eead4"/>
+  <text x="510" y="318" text-anchor="middle" font-size="11" fill="#ccfbf1">影响民居服饰</text>
+  <polygon points="595,318 615,312 615,324" fill="#5eead4"/>
+  <text x="700" y="318" text-anchor="middle" font-size="11" fill="#ccfbf1">带来气象灾害</text>
+  <text x="410" y="350" text-anchor="middle" font-size="11" fill="#ccfbf1">→ 人类要顺应气候·也要改造气候（温室大棚、引水灌溉）</text>
+</svg>
+</div>
+
 ## 七、自测题
 
 1. 我国南方民居屋顶坡度大的原因是什么？

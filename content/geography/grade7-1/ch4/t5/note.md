@@ -69,6 +69,52 @@ date: 2026-08-05
 5. 安放要背风、有遮蔽、够高、防天敌。
 6. 设计后要观察记录、不断改进——探究的完整闭环。
 
+<div class="svg-chart">
+<svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="760" height="360" fill="#f0fdfa" rx="12"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">巢箱设计与北京气候特点的关系</text>
+  <!-- Central birdbox -->
+  <rect x="310" y="120" width="140" height="100" rx="6" fill="#a3e4d7" stroke="#0d9488" stroke-width="2.5"/>
+  <rect x="340" y="108" width="80" height="20" rx="4" fill="#134e4a"/>
+  <circle cx="380" cy="165" r="18" fill="#0d9488" stroke="#5eead4" stroke-width="2"/>
+  <text x="380" y="170" text-anchor="middle" font-size="11" fill="white">入口</text>
+  <text x="380" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">巢箱</text>
+  <!-- North wind -->
+  <polygon points="380,55 370,90 380,80 390,90" fill="#1d4ed8" opacity="0.8"/>
+  <text x="380" y="48" text-anchor="middle" font-size="11" fill="#1d4ed8" font-weight="bold">冬春偏北风</text>
+  <text x="380" y="38" text-anchor="middle" font-size="10" fill="#1d4ed8">（风沙·寒冷）</text>
+  <!-- Southeast direction (opening) -->
+  <polygon points="500,210 460,180 465,200 445,200" fill="#0d9488" opacity="0.8"/>
+  <text x="530" y="200" text-anchor="start" font-size="11" fill="#0d9488" font-weight="bold">开口朝东南</text>
+  <text x="530" y="215" text-anchor="start" font-size="10" fill="#0f766e">避北风·迎阳光</text>
+  <text x="530" y="229" text-anchor="start" font-size="10" fill="#0f766e">冬季采暖·避午晒</text>
+  <!-- Rain (top, sloped roof) -->
+  <text x="230" y="105" text-anchor="middle" font-size="11" fill="#1d4ed8" font-weight="bold">夏季多雨</text>
+  <path d="M225,112 L250,112" stroke="#1d4ed8" stroke-width="1.5" marker-end="url(#arra)"/>
+  <text x="230" y="125" text-anchor="middle" font-size="10" fill="#1d4ed8">→坡面屋顶排水</text>
+  <!-- Material -->
+  <rect x="45" y="150" width="135" height="65" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="112" y="172" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">材料选择</text>
+  <text x="112" y="190" text-anchor="middle" font-size="10" fill="#0f766e">天然木板✓</text>
+  <text x="112" y="204" text-anchor="middle" font-size="10" fill="#0f766e">保温·透气·不反光</text>
+  <text x="112" y="216" text-anchor="middle" font-size="10" fill="#dc2626">金属×（夏烫冬冷）</text>
+  <!-- Height/safety -->
+  <rect x="45" y="240" width="135" height="55" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="112" y="261" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">安放位置</text>
+  <text x="112" y="278" text-anchor="middle" font-size="10" fill="#0f766e">高度足够·防天敌</text>
+  <text x="112" y="291" text-anchor="middle" font-size="10" fill="#0f766e">遮蔽处·避嘈杂</text>
+  <!-- Design principle box -->
+  <rect x="200" y="290" width="370" height="50" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="385" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#ccfbf1">设计原则：因地制宜，利用当地气候特点</text>
+  <text x="385" y="330" text-anchor="middle" font-size="11" fill="#5eead4">气温→保温 | 降水→排水 | 风向→避风 | 光照→采光</text>
+  <defs>
+    <marker id="arra" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+</svg>
+</div>
+
 ## 七、自测小题
 
 1. 北京冬季的盛行风向是______风，所以巢箱开口应避开该方向，宜朝______。
@@ -81,16 +127,3 @@ date: 2026-08-05
 
 相关：[[第一节 感知天气]] ｜ [[第四节 气候与人类活动]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

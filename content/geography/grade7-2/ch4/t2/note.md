@@ -66,6 +66,44 @@ date: 2026-08-05
 4. 环境问题无国界，应对靠国际合作。
 5. 人类命运共同体：地球是全人类唯一的家园。
 
+<div class="svg-chart">
+<svg viewBox="0 0 780 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="780" height="300" fill="#f0fdfa" rx="12"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">共建地球家园——人地关系核心框架</text>
+  <!-- Earth at center -->
+  <circle cx="390" cy="155" r="52" fill="#14b8a6" stroke="#0d9488" stroke-width="3"/>
+  <text x="390" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="white">地球</text>
+  <text x="390" y="167" text-anchor="middle" font-size="11" fill="#ccfbf1">共同家园</text>
+  <!-- 4 directions around earth -->
+  <!-- Top: Resources -->
+  <rect x="290" y="35" width="200" height="48" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="390" y="57" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">🌍 自然资源</text>
+  <text x="390" y="75" text-anchor="middle" font-size="10" fill="#0f766e">水·土·矿·生物·能源 → 合理利用</text>
+  <line x1="390" y1="83" x2="390" y2="103" stroke="#0d9488" stroke-width="2" marker-end="url(#earr)"/>
+  <!-- Left: Population -->
+  <rect x="30" y="130" width="175" height="50" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="117" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">👥 人口增长</text>
+  <text x="117" y="170" text-anchor="middle" font-size="10" fill="#0f766e">合理控制·提高素质</text>
+  <line x1="205" y1="155" x2="338" y2="155" stroke="#0d9488" stroke-width="2" marker-end="url(#earr)"/>
+  <!-- Right: Climate -->
+  <rect x="572" y="130" width="180" height="50" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="662" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">🌡 气候变化</text>
+  <text x="662" y="170" text-anchor="middle" font-size="10" fill="#0f766e">减排合作·清洁能源</text>
+  <line x1="442" y1="155" x2="572" y2="155" stroke="#0d9488" stroke-width="2" marker-end="url(#earr)"/>
+  <!-- Bottom: Sustainable Development -->
+  <rect x="265" y="222" width="250" height="55" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="2"/>
+  <text x="390" y="244" text-anchor="middle" font-size="13" font-weight="bold" fill="#5eead4">🌱 可持续发展</text>
+  <text x="390" y="263" text-anchor="middle" font-size="10" fill="#ccfbf1">经济·社会·生态三圈协调</text>
+  <text x="390" y="278" text-anchor="middle" font-size="10" fill="#ccfbf1">不牺牲后代利益·当代满足需求</text>
+  <line x1="390" y1="207" x2="390" y2="222" stroke="#0d9488" stroke-width="2" marker-end="url(#earr)"/>
+  <defs>
+    <marker id="earr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#0d9488"/>
+    </marker>
+  </defs>
+</svg>
+</div>
+
 ## 七、自测小题
 
 1. 自然资源按能否再生分为______资源和______资源。

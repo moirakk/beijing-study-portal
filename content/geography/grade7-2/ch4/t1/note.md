@@ -66,6 +66,55 @@ date: 2026-08-05
 4. 中国目标：力争2030年前碳达峰、2060年前碳中和。
 5. 全球问题需要全球合作，遵循"共同但有区别的责任"。
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="340" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">全球气候变化——原因·影响·措施</text>
+  <!-- Cause section -->
+  <rect x="25" y="45" width="220" height="200" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="135" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">原因</text>
+  <text x="135" y="92" text-anchor="middle" font-size="22">🏭</text>
+  <text x="135" y="120" text-anchor="middle" font-size="11" fill="#78350f">① 化石燃料大量燃烧</text>
+  <text x="135" y="137" text-anchor="middle" font-size="10" fill="#78350f">（CO₂等温室气体↑）</text>
+  <text x="135" y="158" text-anchor="middle" font-size="11" fill="#78350f">② 森林大量砍伐</text>
+  <text x="135" y="175" text-anchor="middle" font-size="10" fill="#78350f">（吸收CO₂能力↓）</text>
+  <text x="135" y="196" text-anchor="middle" font-size="11" fill="#78350f">③ 工业农业排放</text>
+  <text x="135" y="213" text-anchor="middle" font-size="10" fill="#78350f">甲烷·氧化亚氮等</text>
+  <!-- Arrow -->
+  <polygon points="245,145 265,138 265,152" fill="#dc2626"/>
+  <!-- Impact section -->
+  <rect x="265" y="45" width="240" height="200" rx="8" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+  <text x="385" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">影响（全球变暖后果）</text>
+  <text x="385" y="95" text-anchor="middle" font-size="22">🌡️</text>
+  <text x="385" y="120" text-anchor="middle" font-size="11" fill="#7f1d1d">海平面上升</text>
+  <text x="385" y="136" text-anchor="middle" font-size="10" fill="#7f1d1d">→ 海岛·沿海城市被淹</text>
+  <text x="385" y="157" text-anchor="middle" font-size="11" fill="#7f1d1d">极端天气增多</text>
+  <text x="385" y="173" text-anchor="middle" font-size="10" fill="#7f1d1d">→ 干旱·洪涝·飓风↑</text>
+  <text x="385" y="194" text-anchor="middle" font-size="11" fill="#7f1d1d">生态系统破坏</text>
+  <text x="385" y="210" text-anchor="middle" font-size="10" fill="#7f1d1d">→ 物种灭绝加速</text>
+  <!-- Arrow -->
+  <polygon points="505,145 525,138 525,152" fill="#0d9488"/>
+  <!-- Measures section -->
+  <rect x="525" y="45" width="250" height="200" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="650" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">应对措施</text>
+  <text x="650" y="95" text-anchor="middle" font-size="22">🌱</text>
+  <text x="650" y="120" text-anchor="middle" font-size="11" fill="#0f766e">减排：清洁能源（风光水核）</text>
+  <text x="650" y="138" text-anchor="middle" font-size="10" fill="#0f766e">减少化石燃料使用</text>
+  <text x="650" y="158" text-anchor="middle" font-size="11" fill="#0f766e">增汇：植树造林</text>
+  <text x="650" y="175" text-anchor="middle" font-size="10" fill="#0f766e">保护热带雨林</text>
+  <text x="650" y="195" text-anchor="middle" font-size="11" fill="#0f766e">合作：《巴黎协定》</text>
+  <text x="650" y="212" text-anchor="middle" font-size="10" fill="#0f766e">各国共同承担责任</text>
+  <!-- Bottom: UN conference info -->
+  <rect x="25" y="262" width="750" height="60" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="400" y="285" text-anchor="middle" font-size="13" font-weight="bold" fill="#5eead4">联合国气候变化大会（COP）关键要点</text>
+  <text x="220" y="308" text-anchor="middle" font-size="11" fill="#ccfbf1">共同但有区别责任</text>
+  <text x="400" y="308" text-anchor="middle" font-size="11" fill="#ccfbf1">发达国家率先减排+资金援助</text>
+  <text x="600" y="308" text-anchor="middle" font-size="11" fill="#ccfbf1">中国：碳中和目标2060年</text>
+  <line x1="305" y1="270" x2="305" y2="318" stroke="#5eead4" stroke-width="1" opacity="0.5"/>
+  <line x1="495" y1="270" x2="495" y2="318" stroke="#5eead4" stroke-width="1" opacity="0.5"/>
+</svg>
+</div>
+
 ## 七、自测小题
 
 1. 造成全球气候变暖的主要温室气体是______。

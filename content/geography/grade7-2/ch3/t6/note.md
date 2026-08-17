@@ -67,6 +67,56 @@ date: 2026-08-05
 3. 要素之间相互联系，位置和气候常是分析起点。
 4. 资料要注明来源，结论要有地图和数据支撑。
 
+<div class="svg-chart">
+<svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="760" height="280" fill="#f0fdfa" rx="12"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">认识一个国家的分析框架</text>
+  <!-- Step 1 -->
+  <rect x="25" y="50" width="130" height="100" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="2"/>
+  <text x="90" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#5eead4">1️⃣ 位置</text>
+  <text x="90" y="100" text-anchor="middle" font-size="10" fill="#ccfbf1">纬度·海陆</text>
+  <text x="90" y="115" text-anchor="middle" font-size="10" fill="#ccfbf1">半球位置</text>
+  <text x="90" y="130" text-anchor="middle" font-size="10" fill="#ccfbf1">邻国·邻海</text>
+  <polygon points="155,100 175,93 175,107" fill="#0d9488"/>
+  <!-- Step 2 -->
+  <rect x="175" y="50" width="130" height="100" rx="8" fill="#0f766e" stroke="#5eead4" stroke-width="2"/>
+  <text x="240" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#ccfbf1">2️⃣ 地形</text>
+  <text x="240" y="100" text-anchor="middle" font-size="10" fill="#ccfbf1">山脉·平原</text>
+  <text x="240" y="115" text-anchor="middle" font-size="10" fill="#ccfbf1">高原·盆地</text>
+  <text x="240" y="130" text-anchor="middle" font-size="10" fill="#ccfbf1">主要河流</text>
+  <polygon points="305,100 325,93 325,107" fill="#0d9488"/>
+  <!-- Step 3 -->
+  <rect x="325" y="50" width="130" height="100" rx="8" fill="#0d9488" stroke="#5eead4" stroke-width="2"/>
+  <text x="390" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="white">3️⃣ 气候</text>
+  <text x="390" y="100" text-anchor="middle" font-size="10" fill="#ccfbf1">气候类型</text>
+  <text x="390" y="115" text-anchor="middle" font-size="10" fill="#ccfbf1">气温·降水</text>
+  <text x="390" y="130" text-anchor="middle" font-size="10" fill="#ccfbf1">季节特点</text>
+  <polygon points="455,100 475,93 475,107" fill="#0d9488"/>
+  <!-- Step 4 -->
+  <rect x="475" y="50" width="130" height="100" rx="8" fill="#14b8a6" stroke="#0d9488" stroke-width="2"/>
+  <text x="540" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">4️⃣ 经济</text>
+  <text x="540" y="100" text-anchor="middle" font-size="10" fill="#134e4a">资源·工业</text>
+  <text x="540" y="115" text-anchor="middle" font-size="10" fill="#134e4a">农业·贸易</text>
+  <text x="540" y="130" text-anchor="middle" font-size="10" fill="#134e4a">优势产业</text>
+  <polygon points="605,100 625,93 625,107" fill="#0d9488"/>
+  <!-- Step 5 -->
+  <rect x="625" y="50" width="115" height="100" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2"/>
+  <text x="682" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">5️⃣ 文化</text>
+  <text x="682" y="100" text-anchor="middle" font-size="10" fill="#134e4a">语言宗教</text>
+  <text x="682" y="115" text-anchor="middle" font-size="10" fill="#134e4a">风俗特色</text>
+  <text x="682" y="130" text-anchor="middle" font-size="10" fill="#134e4a">人口民族</text>
+  <!-- Bottom analysis box -->
+  <rect x="25" y="168" width="710" height="95" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="380" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">地理要素相互联系的逻辑链</text>
+  <text x="200" y="215" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">位置·地形</text>
+  <polygon points="280,215 295,209 295,221" fill="#0d9488"/>
+  <text x="380" y="215" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">决定气候</text>
+  <polygon points="450,215 465,209 465,221" fill="#0d9488"/>
+  <text x="560" y="215" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">影响农业·工业布局</text>
+  <text x="380" y="248" text-anchor="middle" font-size="11" fill="#0f766e">→ 从自然条件→人类活动·文化特征，这是地理思维的核心！</text>
+</svg>
+</div>
+
 ## 八、自测小题
 
 1. 描述一个国家的位置应包括半球位置、______位置和海陆位置。
@@ -79,16 +129,3 @@ date: 2026-08-05
 
 相关：[[第一节 日本]] ｜ [[第五节 巴西]] ｜ [[主题探究：设计旅行方案]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

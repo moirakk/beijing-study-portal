@@ -42,6 +42,58 @@ date: 2026-08-06
 - 主食以**大米**为主；传统民居屋顶坡度大、墙体高，利于排水散热。
 - 水运发达，"南船北马"。
 
+<div class="svg-chart">
+<svg viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="860" height="420" fill="#f0fdfa" rx="12"/>
+  <text x="430" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">南方地区 · 与北方地区对比记忆</text>
+  <!-- Title row -->
+  <rect x="20" y="45" width="820" height="36" rx="8" fill="#0d9488"/>
+  <text x="215" y="68" text-anchor="middle" font-size="13" fill="white" font-weight="bold">北方地区（对比参照）</text>
+  <text x="430" y="68" text-anchor="middle" font-size="12" fill="#5eead4">比较项目</text>
+  <text x="650" y="68" text-anchor="middle" font-size="13" fill="white" font-weight="bold">南方地区（本节重点）</text>
+  <line x1="420" y1="45" x2="420" y2="385" stroke="#5eead4" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Row 1: Boundary -->
+  <rect x="20" y="85" width="820" height="46" rx="0" fill="#ccfbf1"/>
+  <text x="215" y="113" text-anchor="middle" font-size="11" fill="#134e4a">秦岭—淮河以北</text>
+  <text x="430" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">界线</text>
+  <text x="430" y="124" text-anchor="middle" font-size="10" fill="#0d9488">秦岭—淮河</text>
+  <text x="650" y="113" text-anchor="middle" font-size="11" fill="#134e4a">秦岭—淮河以南，青藏高原以东</text>
+  <!-- Row 2: Climate -->
+  <rect x="20" y="135" width="820" height="46" rx="0" fill="white"/>
+  <text x="215" y="163" text-anchor="middle" font-size="11" fill="#134e4a">温带季风气候，冬寒干</text>
+  <text x="430" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">气候</text>
+  <text x="430" y="172" text-anchor="middle" font-size="10" fill="#0d9488">降水800mm</text>
+  <text x="650" y="163" text-anchor="middle" font-size="11" fill="#134e4a">亚热带/热带季风，夏热多雨冬温</text>
+  <!-- Row 3: Farmland -->
+  <rect x="20" y="185" width="820" height="46" rx="0" fill="#ccfbf1"/>
+  <text x="215" y="213" text-anchor="middle" font-size="11" fill="#134e4a">旱地·黑土·黄土</text>
+  <text x="430" y="208" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">土地/耕地</text>
+  <text x="430" y="222" text-anchor="middle" font-size="10" fill="#0d9488">旱地/水田</text>
+  <text x="650" y="213" text-anchor="middle" font-size="11" fill="#134e4a">水田·红壤·紫色盆地土</text>
+  <!-- Row 4: Crops -->
+  <rect x="20" y="235" width="820" height="46" rx="0" fill="white"/>
+  <text x="215" y="263" text-anchor="middle" font-size="11" fill="#134e4a">小麦·大豆·高粱·甜菜</text>
+  <text x="430" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">农作物</text>
+  <text x="430" y="272" text-anchor="middle" font-size="10" fill="#0d9488">小麦/水稻</text>
+  <text x="650" y="263" text-anchor="middle" font-size="11" fill="#134e4a">水稻·油菜·甘蔗·茶叶·柑橘</text>
+  <!-- Row 5: Terrain -->
+  <rect x="20" y="285" width="820" height="46" rx="0" fill="#ccfbf1"/>
+  <text x="215" y="313" text-anchor="middle" font-size="11" fill="#134e4a">东北平原·华北平原</text>
+  <text x="430" y="308" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">主要地形</text>
+  <text x="430" y="322" text-anchor="middle" font-size="10" fill="#0d9488">平原/高原</text>
+  <text x="650" y="313" text-anchor="middle" font-size="11" fill="#134e4a">长三角·四川盆地·云贵高原·东南丘陵</text>
+  <!-- Row 6: Transport -->
+  <rect x="20" y="335" width="820" height="46" rx="0" fill="white"/>
+  <text x="215" y="363" text-anchor="middle" font-size="11" fill="#134e4a">北马（旱路为主）</text>
+  <text x="430" y="358" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">交通方式</text>
+  <text x="430" y="372" text-anchor="middle" font-size="10" fill="#0d9488">马/船</text>
+  <text x="650" y="363" text-anchor="middle" font-size="11" fill="#134e4a">南船（水运发达，河湖密布）</text>
+  <!-- Key label: 秦淮线 -->
+  <rect x="330" y="385" width="200" height="25" rx="8" fill="#dc2626" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="430" y="402" text-anchor="middle" font-size="12" font-weight="bold" fill="white">★ 秦岭—淮河线 = 中国最重要地理分界线</text>
+</svg>
+</div>
+
 ## 四、读图与技能：南北方对照读图
 
 1. 沿秦岭—淮河比较两侧的1月均温（0℃上下）与年降水量（800毫米上下）。

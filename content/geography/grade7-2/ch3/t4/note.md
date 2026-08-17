@@ -73,6 +73,70 @@ date: 2026-08-05
 5. 高新技术产业发达，代表地是硅谷。
 6. 移民国家，人种构成复杂。
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">美国地理核心——三大地形 + 农业带分布</text>
+  <!-- Three terrain zones -->
+  <!-- West: Rocky Mountains -->
+  <rect x="25" y="48" width="175" height="200" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2"/>
+  <text x="112" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">西部</text>
+  <text x="112" y="90" text-anchor="middle" font-size="12" fill="#0f766e">落基山地</text>
+  <text x="112" y="125" text-anchor="middle" font-size="30">⛰️</text>
+  <text x="112" y="158" text-anchor="middle" font-size="10" fill="#0f766e">地势高峻</text>
+  <text x="112" y="174" text-anchor="middle" font-size="10" fill="#0f766e">科迪勒拉山系</text>
+  <text x="112" y="190" text-anchor="middle" font-size="10" fill="#0f766e">高山·峡谷</text>
+  <text x="112" y="222" text-anchor="middle" font-size="10" fill="#0d9488">科罗拉多大峡谷</text>
+  <!-- Arrow between zones -->
+  <polygon points="200,148 215,141 215,155" fill="#0d9488"/>
+  <!-- Center: Plains -->
+  <rect x="215" y="48" width="380" height="200" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="405" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">中部</text>
+  <text x="405" y="90" text-anchor="middle" font-size="12" fill="#0f766e">中央大平原</text>
+  <text x="405" y="125" text-anchor="middle" font-size="28">🌽</text>
+  <text x="405" y="158" text-anchor="middle" font-size="10" fill="#0f766e">密西西比河贯穿南北</text>
+  <text x="405" y="175" text-anchor="middle" font-size="10" fill="#0f766e">地势低平·土地肥沃</text>
+  <text x="405" y="192" text-anchor="middle" font-size="10" fill="#0f766e">农业核心区</text>
+  <text x="405" y="222" text-anchor="middle" font-size="10" fill="#0d9488">五大湖区（最大淡水湖群）</text>
+  <!-- Arrow -->
+  <polygon points="595,148 610,141 610,155" fill="#0d9488"/>
+  <!-- East: Appalachian -->
+  <rect x="610" y="48" width="180" height="200" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2"/>
+  <text x="700" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">东部</text>
+  <text x="700" y="90" text-anchor="middle" font-size="12" fill="#0f766e">阿巴拉契亚山</text>
+  <text x="700" y="125" text-anchor="middle" font-size="28">🏔️</text>
+  <text x="700" y="158" text-anchor="middle" font-size="10" fill="#0f766e">低缓高原</text>
+  <text x="700" y="174" text-anchor="middle" font-size="10" fill="#0f766e">大西洋沿岸</text>
+  <text x="700" y="190" text-anchor="middle" font-size="10" fill="#0f766e">工业发达</text>
+  <text x="700" y="222" text-anchor="middle" font-size="10" fill="#0d9488">纽约·华盛顿</text>
+  <!-- Agriculture bands section -->
+  <rect x="25" y="265" width="770" height="115" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="410" y="286" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">美国农业带 · 分区记忆</text>
+  <!-- 5 bands -->
+  <rect x="40" y="296" width="120" height="68" rx="6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="100" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">小麦带</text>
+  <text x="100" y="334" text-anchor="middle" font-size="10" fill="#78350f">北部平原</text>
+  <text x="100" y="350" text-anchor="middle" font-size="10" fill="#78350f">春小麦/冬小麦</text>
+  <text x="100" y="355" text-anchor="middle" font-size="18">🌾</text>
+  <rect x="178" y="296" width="120" height="68" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="238" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#14532d">玉米带</text>
+  <text x="238" y="334" text-anchor="middle" font-size="10" fill="#14532d">中部平原</text>
+  <text x="238" y="350" text-anchor="middle" font-size="10" fill="#14532d">全球最大玉米区</text>
+  <rect x="316" y="296" width="120" height="68" rx="6" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="376" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">棉花带</text>
+  <text x="376" y="334" text-anchor="middle" font-size="10" fill="#7f1d1d">南部</text>
+  <text x="376" y="350" text-anchor="middle" font-size="10" fill="#7f1d1d">热量充足</text>
+  <rect x="454" y="296" width="140" height="68" rx="6" fill="#ddd6fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="524" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">乳畜带</text>
+  <text x="524" y="334" text-anchor="middle" font-size="10" fill="#4c1d95">东北·五大湖</text>
+  <text x="524" y="350" text-anchor="middle" font-size="10" fill="#4c1d95">冷湿→牧草好</text>
+  <rect x="612" y="296" width="168" height="68" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="696" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">混合农业带</text>
+  <text x="696" y="334" text-anchor="middle" font-size="10" fill="#0f766e">各地穿插分布</text>
+  <text x="696" y="350" text-anchor="middle" font-size="10" fill="#0f766e">多种作物+畜牧</text>
+</svg>
+</div>
+
 ## 八、自测小题
 
 1. 美国本土东临______洋，西临______洋。
@@ -86,16 +150,3 @@ date: 2026-08-05
 
 相关：[[第一节 日本]] ｜ [[第五节 巴西]] ｜ [[主题探究：走近一个国家]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

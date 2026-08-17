@@ -19,6 +19,76 @@ date: 2026-08-06
 | 区域推介 | 提炼区域特色，向他人介绍某地自然与人文之美 |
 | 推介方案 | 包含区域定位、特色亮点、路线设计的完整介绍材料 |
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="340" fill="#f0f9ff" rx="14"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">🎵 歌声里的地理 · 四大区域特征速记</text>
+  <!-- North Card -->
+  <rect x="18" y="45" width="190" height="240" rx="12" fill="white" stroke="#3b82f6" stroke-width="2.5"/>
+  <rect x="18" y="45" width="190" height="44" rx="12" fill="#3b82f6"/>
+  <text x="113" y="65" text-anchor="middle" font-size="13" fill="white" font-weight="bold">北方地区 🌾</text>
+  <text x="113" y="82" text-anchor="middle" font-size="10" fill="#bfdbfe">《松花江上》《黄土高坡》</text>
+  <text x="113" y="116" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="bold">关键词</text>
+  <text x="113" y="135" text-anchor="middle" font-size="11" fill="#374151">大豆·高粱·小麦</text>
+  <text x="113" y="152" text-anchor="middle" font-size="11" fill="#374151">旱地·窑洞·炕</text>
+  <text x="113" y="169" text-anchor="middle" font-size="11" fill="#374151">温带季风气候</text>
+  <rect x="28" y="185" width="170" height="30" rx="6" fill="#dbeafe"/>
+  <text x="113" y="205" text-anchor="middle" font-size="11" fill="#1e40af">秦岭淮河以北</text>
+  <rect x="28" y="222" width="170" height="55" rx="6" fill="#eff6ff"/>
+  <text x="113" y="240" text-anchor="middle" font-size="11" fill="#dc2626" font-weight="bold">口诀</text>
+  <text x="113" y="257" text-anchor="middle" font-size="11" fill="#374151">旱地种麦吃面食</text>
+  <text x="113" y="272" text-anchor="middle" font-size="11" fill="#374151">北马骑行过冬冰</text>
+  <!-- South Card -->
+  <rect x="220" y="45" width="190" height="240" rx="12" fill="white" stroke="#22c55e" stroke-width="2.5"/>
+  <rect x="220" y="45" width="190" height="44" rx="12" fill="#22c55e"/>
+  <text x="315" y="65" text-anchor="middle" font-size="13" fill="white" font-weight="bold">南方地区 🌾</text>
+  <text x="315" y="82" text-anchor="middle" font-size="10" fill="#bbf7d0">《太湖美》《茉莉花》</text>
+  <text x="315" y="116" text-anchor="middle" font-size="12" fill="#15803d" font-weight="bold">关键词</text>
+  <text x="315" y="135" text-anchor="middle" font-size="11" fill="#374151">水稻·水田·船</text>
+  <text x="315" y="152" text-anchor="middle" font-size="11" fill="#374151">吊脚楼·亚热带</text>
+  <text x="315" y="169" text-anchor="middle" font-size="11" fill="#374151">河湖密布·鱼米乡</text>
+  <rect x="228" y="185" width="173" height="30" rx="6" fill="#dcfce7"/>
+  <text x="315" y="205" text-anchor="middle" font-size="11" fill="#15803d">秦岭淮河以南</text>
+  <rect x="228" y="222" width="173" height="55" rx="6" fill="#f0fdf4"/>
+  <text x="315" y="240" text-anchor="middle" font-size="11" fill="#dc2626" font-weight="bold">口诀</text>
+  <text x="315" y="257" text-anchor="middle" font-size="11" fill="#374151">水田种稻吃大米</text>
+  <text x="315" y="272" text-anchor="middle" font-size="11" fill="#374151">南船水运不结冰</text>
+  <!-- Tibet Card -->
+  <rect x="422" y="45" width="190" height="240" rx="12" fill="white" stroke="#a855f7" stroke-width="2.5"/>
+  <rect x="422" y="45" width="190" height="44" rx="12" fill="#a855f7"/>
+  <text x="517" y="65" text-anchor="middle" font-size="13" fill="white" font-weight="bold">青藏地区 🏔️</text>
+  <text x="517" y="82" text-anchor="middle" font-size="10" fill="#e9d5ff">《青藏高原》《天路》</text>
+  <text x="517" y="116" text-anchor="middle" font-size="12" fill="#7e22ce" font-weight="bold">关键词</text>
+  <text x="517" y="135" text-anchor="middle" font-size="11" fill="#374151">牦牛·青稞·藏袍</text>
+  <text x="517" y="152" text-anchor="middle" font-size="11" fill="#374151">高寒·日照强</text>
+  <text x="517" y="169" text-anchor="middle" font-size="11" fill="#374151">青藏铁路·三江源</text>
+  <rect x="430" y="185" width="174" height="30" rx="6" fill="#f3e8ff"/>
+  <text x="517" y="205" text-anchor="middle" font-size="11" fill="#7e22ce">平均海拔4000m以上</text>
+  <rect x="430" y="222" width="174" height="55" rx="6" fill="#faf5ff"/>
+  <text x="517" y="240" text-anchor="middle" font-size="11" fill="#dc2626" font-weight="bold">口诀</text>
+  <text x="517" y="257" text-anchor="middle" font-size="11" fill="#374151">世界屋脊高寒地</text>
+  <text x="517" y="272" text-anchor="middle" font-size="11" fill="#374151">高原之舟是牦牛</text>
+  <!-- Northwest Card -->
+  <rect x="624" y="45" width="178" height="240" rx="12" fill="white" stroke="#f97316" stroke-width="2.5"/>
+  <rect x="624" y="45" width="178" height="44" rx="12" fill="#f97316"/>
+  <text x="713" y="65" text-anchor="middle" font-size="13" fill="white" font-weight="bold">西北地区 🏜️</text>
+  <text x="713" y="82" text-anchor="middle" font-size="10" fill="#fed7aa">《草原之夜》《掀起你的盖头来》</text>
+  <text x="713" y="116" text-anchor="middle" font-size="12" fill="#c2410c" font-weight="bold">关键词</text>
+  <text x="713" y="135" text-anchor="middle" font-size="11" fill="#374151">荒漠·骆驼·坎儿井</text>
+  <text x="713" y="152" text-anchor="middle" font-size="11" fill="#374151">干旱·草原·绿洲</text>
+  <text x="713" y="169" text-anchor="middle" font-size="11" fill="#374151">葡萄·哈密瓜·棉花</text>
+  <rect x="632" y="185" width="162" height="30" rx="6" fill="#ffedd5"/>
+  <text x="713" y="205" text-anchor="middle" font-size="11" fill="#c2410c">深居内陆，降水极少</text>
+  <rect x="632" y="222" width="162" height="55" rx="6" fill="#fff7ed"/>
+  <text x="713" y="240" text-anchor="middle" font-size="11" fill="#dc2626" font-weight="bold">口诀</text>
+  <text x="713" y="257" text-anchor="middle" font-size="11" fill="#374151">三山夹两盆真干</text>
+  <text x="713" y="272" text-anchor="middle" font-size="11" fill="#374151">坎儿井水甜蜜蜜</text>
+  <!-- Bottom: Connection -->
+  <rect x="18" y="294" width="784" height="36" rx="8" fill="#134e4a"/>
+  <text x="410" y="317" text-anchor="middle" font-size="12" fill="#ccfbf1">歌声 = 地理密码：听到关键词 → 快速联想区域特征 → 考试稳！</text>
+</svg>
+</div>
+
 ## 三、探究流程
 
 ### 1. 收集歌曲，提取地理信息

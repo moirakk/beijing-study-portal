@@ -72,6 +72,68 @@ date: 2026-08-05
 4. 国货出海体现经济全球化与国际合作。
 5. 调查要真实，数据要有来源。
 
+<div class="svg-chart">
+<svg viewBox="0 0 780 330" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="780" height="330" fill="#f0fdfa" rx="12"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">国货品牌"地理身份证"分析框架</text>
+  <!-- Chain: 5 steps -->
+  <!-- Step 1: Origin -->
+  <rect x="25" y="60" width="120" height="80" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="2"/>
+  <text x="85" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#5eead4">产地</text>
+  <text x="85" y="108" text-anchor="middle" font-size="10" fill="#ccfbf1">位置·气候</text>
+  <text x="85" y="122" text-anchor="middle" font-size="10" fill="#ccfbf1">资源·地形</text>
+  <!-- Arrow -->
+  <polygon points="150,100 165,93 165,107" fill="#0d9488"/>
+  <!-- Step 2: Raw material -->
+  <rect x="170" y="60" width="120" height="80" rx="8" fill="#0f766e" stroke="#5eead4" stroke-width="2"/>
+  <text x="230" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#ccfbf1">原料</text>
+  <text x="230" y="108" text-anchor="middle" font-size="10" fill="#ccfbf1">本地资源</text>
+  <text x="230" y="122" text-anchor="middle" font-size="10" fill="#ccfbf1">或进口来源</text>
+  <!-- Arrow -->
+  <polygon points="295,100 310,93 310,107" fill="#0d9488"/>
+  <!-- Step 3: Production -->
+  <rect x="315" y="60" width="120" height="80" rx="8" fill="#0d9488" stroke="#5eead4" stroke-width="2"/>
+  <text x="375" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">生产</text>
+  <text x="375" y="108" text-anchor="middle" font-size="10" fill="#ccfbf1">传统工艺</text>
+  <text x="375" y="122" text-anchor="middle" font-size="10" fill="#ccfbf1">或高新技术</text>
+  <!-- Arrow -->
+  <polygon points="440,100 455,93 455,107" fill="#0d9488"/>
+  <!-- Step 4: Transport -->
+  <rect x="460" y="60" width="120" height="80" rx="8" fill="#14b8a6" stroke="#0d9488" stroke-width="2"/>
+  <text x="520" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">运输</text>
+  <text x="520" y="108" text-anchor="middle" font-size="10" fill="#134e4a">铁路·公路</text>
+  <text x="520" y="122" text-anchor="middle" font-size="10" fill="#134e4a">航运·航空</text>
+  <!-- Arrow -->
+  <polygon points="585,100 600,93 600,107" fill="#0d9488"/>
+  <!-- Step 5: Sales -->
+  <rect x="605" y="60" width="145" height="80" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="2"/>
+  <text x="677" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">销售市场</text>
+  <text x="677" y="108" text-anchor="middle" font-size="10" fill="#134e4a">国内+海外</text>
+  <text x="677" y="122" text-anchor="middle" font-size="10" fill="#134e4a">一带一路助力出海</text>
+  <!-- Examples section -->
+  <rect x="25" y="165" width="730" height="130" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="390" y="186" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">典型国货品牌举例</text>
+  <!-- Old brand -->
+  <rect x="40" y="195" width="205" height="85" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+  <text x="142" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">老字号：同仁堂</text>
+  <text x="142" y="232" text-anchor="middle" font-size="10" fill="#0f766e">产地：北京</text>
+  <text x="142" y="247" text-anchor="middle" font-size="10" fill="#0f766e">优势：数百年传统中医技艺</text>
+  <text x="142" y="262" text-anchor="middle" font-size="10" fill="#0f766e">代言词：精益求精、匠心传承</text>
+  <!-- Tech brand -->
+  <rect x="285" y="195" width="205" height="85" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+  <text x="387" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">新国货：华为</text>
+  <text x="387" y="232" text-anchor="middle" font-size="10" fill="#0f766e">产地：深圳（珠三角）</text>
+  <text x="387" y="247" text-anchor="middle" font-size="10" fill="#0f766e">优势：高科技研发、全球供应链</text>
+  <text x="387" y="262" text-anchor="middle" font-size="10" fill="#0f766e">代言词：自强创新、走向世界</text>
+  <!-- Agricultural brand -->
+  <rect x="530" y="195" width="210" height="85" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+  <text x="635" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">特产：新疆棉花</text>
+  <text x="635" y="232" text-anchor="middle" font-size="10" fill="#0f766e">产地：新疆（日照长、干旱）</text>
+  <text x="635" y="247" text-anchor="middle" font-size="10" fill="#0f766e">优势：光热充足、昼夜温差大</text>
+  <text x="635" y="262" text-anchor="middle" font-size="10" fill="#0f766e">代言词：阳光孕育、品质保证</text>
+</svg>
+</div>
+
 ## 七、自测小题
 
 1. 调查品牌产业链的基本环节：原料—______—运输—______。
@@ -85,16 +147,3 @@ date: 2026-08-05
 
 相关：[[第一节 居民与文化]] ｜ [[第二节 发展与合作]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

@@ -19,6 +19,58 @@ date: 2026-08-06
 | 文创产品 | 以文化元素为核心创意设计的产品，如书签、徽章、帆布袋 |
 | 地域符号 | 最能代表家乡的标志性元素，如中轴线、四合院、京剧脸谱 |
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="320" fill="#fef9f0" rx="14"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">🏙️ 我的家乡 · 北京地理名片</text>
+  <!-- Top: Position card -->
+  <rect x="18" y="44" width="240" height="236" rx="12" fill="white" stroke="#dc2626" stroke-width="2"/>
+  <rect x="18" y="44" width="240" height="40" rx="12" fill="#dc2626"/>
+  <text x="138" y="69" text-anchor="middle" font-size="13" fill="white" font-weight="bold">📍 位置与地形</text>
+  <text x="138" y="108" text-anchor="middle" font-size="11" fill="#374151">华北平原北缘</text>
+  <text x="138" y="126" text-anchor="middle" font-size="11" fill="#374151">燕山以南 · 太行山以东</text>
+  <rect x="30" y="140" width="218" height="32" rx="6" fill="#fee2e2"/>
+  <text x="138" y="161" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc2626">地形：西北高，东南低</text>
+  <text x="138" y="196" text-anchor="middle" font-size="22">🏔️➜🏙️</text>
+  <text x="138" y="222" text-anchor="middle" font-size="11" fill="#374151">山地环抱小平原</text>
+  <text x="138" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#7c3aed">"北京湾"</text>
+  <text x="138" y="260" text-anchor="middle" font-size="10" fill="#6b7280">永定河冲积平原</text>
+  <!-- Middle: Climate + Culture -->
+  <rect x="274" y="44" width="270" height="236" rx="12" fill="white" stroke="#0d9488" stroke-width="2"/>
+  <rect x="274" y="44" width="270" height="40" rx="12" fill="#0d9488"/>
+  <text x="409" y="69" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🌤️ 气候四季歌</text>
+  <rect x="285" y="92" width="248" height="42" rx="8" fill="#fef3c7"/>
+  <text x="409" y="111" text-anchor="middle" font-size="11" fill="#92400e">🌸 春：春旱多风沙（沙尘暴多）</text>
+  <text x="409" y="127" text-anchor="middle" font-size="10" fill="#92400e">气温回升快·降水少</text>
+  <rect x="285" y="140" width="248" height="42" rx="8" fill="#fee2e2"/>
+  <text x="409" y="158" text-anchor="middle" font-size="11" fill="#dc2626">☀️ 夏：高温多雨（75%降水集中夏季）</text>
+  <text x="409" y="174" text-anchor="middle" font-size="10" fill="#dc2626">受东南季风影响·暴雨</text>
+  <rect x="285" y="188" width="248" height="42" rx="8" fill="#d1fae5"/>
+  <text x="409" y="206" text-anchor="middle" font-size="11" fill="#065f46">🍂 秋：秋高气爽（最佳旅游季）</text>
+  <text x="409" y="222" text-anchor="middle" font-size="10" fill="#065f46">蓝天白云·温度适宜</text>
+  <rect x="285" y="236" width="248" height="36" rx="8" fill="#dbeafe"/>
+  <text x="409" y="254" text-anchor="middle" font-size="11" fill="#1e40af">❄️ 冬：寒冷干燥（西北季风）</text>
+  <text x="409" y="268" text-anchor="middle" font-size="10" fill="#1e40af">冰雪·雾凇</text>
+  <!-- Right: Culture symbols -->
+  <rect x="560" y="44" width="242" height="236" rx="12" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="560" y="44" width="242" height="40" rx="12" fill="#8b5cf6"/>
+  <text x="681" y="69" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🏮 北京文化符号</text>
+  <text x="681" y="100" text-anchor="middle" font-size="22">🏯 🎭 🥢</text>
+  <text x="681" y="122" text-anchor="middle" font-size="11" fill="#374151">故宫·天坛·颐和园</text>
+  <text x="681" y="140" text-anchor="middle" font-size="11" fill="#374151">中轴线·四合院·胡同</text>
+  <text x="681" y="158" text-anchor="middle" font-size="11" fill="#374151">京剧·相声·北京烤鸭</text>
+  <line x1="575" y1="170" x2="787" y2="170" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="681" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#7c3aed">现代地标</text>
+  <text x="681" y="212" text-anchor="middle" font-size="11" fill="#374151">中关村科技园</text>
+  <text x="681" y="230" text-anchor="middle" font-size="11" fill="#374151">首都国际机场·大兴机场</text>
+  <text x="681" y="248" text-anchor="middle" font-size="11" fill="#374151">北京大学·清华大学</text>
+  <text x="681" y="268" text-anchor="middle" font-size="10" fill="#dc2626">政治中心·文化中心·科创中心</text>
+  <!-- Bottom banner -->
+  <rect x="18" y="289" width="784" height="24" rx="6" fill="#134e4a"/>
+  <text x="410" y="306" text-anchor="middle" font-size="11" fill="#ccfbf1">温带季风气候 | 年降水量600mm左右 | 世界文化遗产7处 | 国家首都</text>
+</svg>
+</div>
+
 ## 三、探究流程
 
 ### 1. 认识家乡：梳理北京的地理底账

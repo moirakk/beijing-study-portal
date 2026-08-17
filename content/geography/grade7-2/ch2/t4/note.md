@@ -39,6 +39,60 @@ date: 2026-08-05
 - **干燥**：年降水量极少，被称为"白色荒漠"。
 - **烈风**：风速大、风日多，被称为"风库"。
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">南极与北极对比示意图</text>
+  <!-- Left: Arctic -->
+  <rect x="20" y="45" width="370" height="290" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="205" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">北极地区</text>
+  <!-- Ocean center -->
+  <circle cx="205" cy="180" r="90" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="205" cy="180" r="40" fill="#60a5fa" opacity="0.6"/>
+  <text x="205" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">北冰洋</text>
+  <text x="205" y="192" text-anchor="middle" font-size="10" fill="#1e3a8a">（海洋为中心）</text>
+  <!-- Surrounding continents label -->
+  <text x="130" y="120" text-anchor="middle" font-size="10" fill="#1e40af">亚洲</text>
+  <text x="280" y="115" text-anchor="middle" font-size="10" fill="#1e40af">欧洲</text>
+  <text x="115" y="230" text-anchor="middle" font-size="10" fill="#1e40af">北美洲</text>
+  <!-- North pole marker -->
+  <text x="205" y="155" text-anchor="middle" font-size="10" fill="#1e3a8a">★北极点</text>
+  <!-- Arctic bear -->
+  <ellipse cx="310" cy="190" rx="22" ry="16" fill="white" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="310" y="195" text-anchor="middle" font-size="9" fill="#1e40af">北极熊</text>
+  <!-- Auto rotation direction -->
+  <path d="M170,285 Q205,275 240,285" fill="none" stroke="#1e40af" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrnblue)"/>
+  <text x="205" y="305" text-anchor="middle" font-size="10" fill="#1e40af">俯视：逆时针（北逆）</text>
+  <text x="205" y="322" text-anchor="middle" font-size="10" fill="#1e40af">四周皆南方</text>
+  <!-- Right: Antarctic -->
+  <rect x="430" y="45" width="370" height="290" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="615" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c4a6e">南极地区</text>
+  <!-- Continent center -->
+  <ellipse cx="615" cy="180" rx="95" ry="80" fill="#7dd3fc" opacity="0.5"/>
+  <ellipse cx="615" cy="175" rx="75" ry="62" fill="#bae6fd" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="615" y="168" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c4a6e">南极大陆</text>
+  <text x="615" y="183" text-anchor="middle" font-size="10" fill="#0c4a6e">（陆地为中心）</text>
+  <text x="615" y="198" text-anchor="middle" font-size="10" fill="#0c4a6e">★南极点</text>
+  <!-- South rotation -->
+  <path d="M645,285 Q615,275 585,285" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrnblue)"/>
+  <text x="615" y="305" text-anchor="middle" font-size="10" fill="#0c4a6e">俯视：顺时针（南顺）</text>
+  <text x="615" y="322" text-anchor="middle" font-size="10" fill="#0c4a6e">四周皆北方</text>
+  <!-- Penguin -->
+  <ellipse cx="520" cy="185" rx="16" ry="20" fill="#1e293b" stroke="#0284c7" stroke-width="1.5"/>
+  <ellipse cx="520" cy="173" rx="10" ry="10" fill="#f8fafc"/>
+  <text x="520" y="213" text-anchor="middle" font-size="9" fill="#0c4a6e">企鹅</text>
+  <!-- Bottom comparison bar -->
+  <rect x="20" y="348" width="780" height="42" rx="6" fill="#134e4a"/>
+  <text x="410" y="363" text-anchor="middle" font-size="11" font-weight="bold" fill="#5eead4">南极三大之最：酷寒（最冷）｜ 干燥（白色荒漠）｜ 烈风（风库）</text>
+  <text x="410" y="380" text-anchor="middle" font-size="11" fill="#ccfbf1">中国南极站：长城站·中山站·昆仑站·泰山站·秦岭站 ｜ 北极站：黄河站</text>
+  <defs>
+    <marker id="arrnblue" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#1e40af"/>
+    </marker>
+  </defs>
+</svg>
+</div>
+
 ### 2. 资源与科考价值
 
 - 南极：淡水资源（冰川占全球淡水大部分）、矿产（煤、铁）、海洋生物（磷虾）；是天然科学实验室。
@@ -83,13 +137,3 @@ date: 2026-08-05
 
 相关：[[第三节 欧洲西部]] ｜ [[主题探究：设计旅行方案]] ｜ [[主题探究：模拟联合国气候变化大会]]
 
-
-### 地理示意图：地球运动
-
-```mermaid
-graph LR
-  A[地球自转] -->|周期：一天| B(昼夜交替)
-  A -->|方向：自西向东| C(时差)
-  D[地球公转] -->|周期：一年| E(四季变化)
-  D -->|黄赤交角| F(五带划分)
-```

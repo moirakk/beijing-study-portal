@@ -20,6 +20,62 @@ date: 2026-08-06
 | 可持续发展 | 既满足当代人需要，又不损害后代人满足需要能力的发展 |
 | 碳达峰、碳中和 | 二氧化碳排放先达到峰值后逐步实现净零排放的目标（"双碳"） |
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="340" fill="#f0fdf4" rx="14"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">🌿 践行绿色发展 · 从"先污染后治理"到"两山理论"</text>
+  <!-- Banner: Two mountains theory -->
+  <rect x="18" y="44" width="784" height="42" rx="10" fill="#059669" stroke="#065f46" stroke-width="1.5"/>
+  <text x="410" y="64" text-anchor="middle" font-size="15" fill="white" font-weight="bold">核心理念：绿水青山就是金山银山</text>
+  <text x="410" y="80" text-anchor="middle" font-size="12" fill="#a7f3d0">人与自然和谐共生 · 保护环境 = 保护生产力</text>
+  <!-- Three problem cards -->
+  <rect x="18" y="100" width="240" height="155" rx="12" fill="white" stroke="#ef4444" stroke-width="2"/>
+  <rect x="18" y="100" width="240" height="38" rx="12" fill="#ef4444"/>
+  <text x="138" y="124" text-anchor="middle" font-size="13" fill="white" font-weight="bold">⚠️ 我国资源环境问题</text>
+  <text x="138" y="158" text-anchor="middle" font-size="11" fill="#374151">总量大 但 人均少</text>
+  <text x="138" y="176" text-anchor="middle" font-size="11" fill="#374151">大气污染·水污染</text>
+  <text x="138" y="194" text-anchor="middle" font-size="11" fill="#374151">水土流失·荒漠化</text>
+  <rect x="28" y="210" width="220" height="38" rx="6" fill="#fee2e2"/>
+  <text x="138" y="234" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc2626">旧路：先污染后治理</text>
+  <!-- Solutions cards (2 x side by side) -->
+  <rect x="276" y="100" width="250" height="155" rx="12" fill="white" stroke="#0d9488" stroke-width="2"/>
+  <rect x="276" y="100" width="250" height="38" rx="12" fill="#0d9488"/>
+  <text x="401" y="124" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🔋 绿色能源实践</text>
+  <text x="401" y="157" text-anchor="middle" font-size="20">☀️ 💨 💧</text>
+  <text x="401" y="178" text-anchor="middle" font-size="11" fill="#374151">太阳能·风能·水能</text>
+  <text x="401" y="196" text-anchor="middle" font-size="11" fill="#374151">新能源汽车·节能建筑</text>
+  <rect x="285" y="212" width="234" height="36" rx="6" fill="#ccfbf1"/>
+  <text x="401" y="236" text-anchor="middle" font-size="11" fill="#065f46">双碳目标：碳达峰+碳中和</text>
+  <rect x="544" y="100" width="258" height="155" rx="12" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="544" y="100" width="258" height="38" rx="12" fill="#8b5cf6"/>
+  <text x="673" y="124" text-anchor="middle" font-size="13" fill="white" font-weight="bold">🌳 生态保护行动</text>
+  <text x="673" y="157" text-anchor="middle" font-size="20">🌲 🐼 🌊</text>
+  <text x="673" y="178" text-anchor="middle" font-size="11" fill="#374151">自然保护区·国家公园</text>
+  <text x="673" y="196" text-anchor="middle" font-size="11" fill="#374151">退耕还林·防沙治沙</text>
+  <rect x="553" y="212" width="240" height="36" rx="6" fill="#ede9fe"/>
+  <text x="673" y="236" text-anchor="middle" font-size="11" fill="#7c3aed">生态红线·蓝天保卫战</text>
+  <!-- Arrow flow -->
+  <path d="M258,178 L276,178" fill="none" stroke="#059669" stroke-width="2.5" marker-end="url(#arrowG)"/>
+  <path d="M526,178 L544,178" fill="none" stroke="#059669" stroke-width="2.5" marker-end="url(#arrowG)"/>
+  <defs>
+    <marker id="arrowG" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#059669"/>
+    </marker>
+  </defs>
+  <!-- Bottom: key concepts row -->
+  <rect x="18" y="265" width="784" height="62" rx="10" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="410" y="285" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">关键概念速记</text>
+  <rect x="28" y="290" width="170" height="30" rx="6" fill="#d1fae5"/>
+  <text x="113" y="310" text-anchor="middle" font-size="11" fill="#065f46">绿色发展 = 节约+保护</text>
+  <rect x="215" y="290" width="170" height="30" rx="6" fill="#fce7f3"/>
+  <text x="300" y="310" text-anchor="middle" font-size="11" fill="#9d174d">生态文明 = 和谐共生</text>
+  <rect x="403" y="290" width="170" height="30" rx="6" fill="#fef3c7"/>
+  <text x="488" y="310" text-anchor="middle" font-size="11" fill="#92400e">可持续发展 = 顾后代</text>
+  <rect x="590" y="290" width="204" height="30" rx="6" fill="#ede9fe"/>
+  <text x="692" y="310" text-anchor="middle" font-size="11" fill="#5b21b6">双碳 = 达峰+中和</text>
+</svg>
+</div>
+
 ## 三、知识梳理
 
 ### 1. 为什么要绿色发展

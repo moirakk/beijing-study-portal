@@ -20,6 +20,75 @@ date: 2026-08-06
 | 因地制宜 | 依据区域自然条件差异安排生产与发展方向 |
 | 美丽中国 | 生态环境优美、人与自然和谐的国家建设目标 |
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="360" fill="#f0fdfa" rx="14"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">🌏 人地和谐共生 · 四大区域因地制宜总结</text>
+  <!-- Evolution strip -->
+  <rect x="18" y="44" width="784" height="50" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="130" y="63" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">依赖自然</text>
+  <text x="130" y="80" text-anchor="middle" font-size="10" fill="#6b7280">采集·渔猎</text>
+  <text x="260" y="69" text-anchor="middle" font-size="14" fill="#0d9488">→</text>
+  <text x="390" y="63" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">改造自然</text>
+  <text x="390" y="80" text-anchor="middle" font-size="10" fill="#dc2626">农业/工业·出现环境问题⚠️</text>
+  <text x="530" y="69" text-anchor="middle" font-size="14" fill="#0d9488">→</text>
+  <text x="680" y="63" text-anchor="middle" font-size="11" fill="#059669" font-weight="bold">人地和谐共生✅</text>
+  <text x="680" y="80" text-anchor="middle" font-size="10" fill="#059669">生态文明·可持续发展</text>
+  <!-- Four region cards -->
+  <rect x="18" y="104" width="190" height="220" rx="12" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="18" y="104" width="190" height="40" rx="12" fill="#3b82f6"/>
+  <text x="113" y="129" text-anchor="middle" font-size="13" fill="white" font-weight="bold">北方地区</text>
+  <text x="113" y="160" text-anchor="middle" font-size="22">🌾❄️</text>
+  <text x="113" y="182" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">因地制宜</text>
+  <text x="113" y="200" text-anchor="middle" font-size="11" fill="#374151">旱地农业·冬小麦</text>
+  <text x="113" y="218" text-anchor="middle" font-size="11" fill="#374151">重工业基地</text>
+  <text x="113" y="236" text-anchor="middle" font-size="11" fill="#374151">老工业区转型升级</text>
+  <rect x="28" y="256" width="172" height="58" rx="6" fill="#dbeafe"/>
+  <text x="113" y="276" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">挑战</text>
+  <text x="113" y="294" text-anchor="middle" font-size="11" fill="#374151">缺水·沙尘暴</text>
+  <text x="113" y="310" text-anchor="middle" font-size="11" fill="#374151">南水北调工程</text>
+  <rect x="220" y="104" width="190" height="220" rx="12" fill="white" stroke="#22c55e" stroke-width="2"/>
+  <rect x="220" y="104" width="190" height="40" rx="12" fill="#22c55e"/>
+  <text x="315" y="129" text-anchor="middle" font-size="13" fill="white" font-weight="bold">南方地区</text>
+  <text x="315" y="160" text-anchor="middle" font-size="22">🌧️🌾</text>
+  <text x="315" y="182" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">因地制宜</text>
+  <text x="315" y="200" text-anchor="middle" font-size="11" fill="#374151">水田农业·水稻</text>
+  <text x="315" y="218" text-anchor="middle" font-size="11" fill="#374151">水运发达</text>
+  <text x="315" y="236" text-anchor="middle" font-size="11" fill="#374151">外向型经济·制造业</text>
+  <rect x="230" y="256" width="172" height="58" rx="6" fill="#dcfce7"/>
+  <text x="315" y="276" text-anchor="middle" font-size="11" fill="#15803d" font-weight="bold">挑战</text>
+  <text x="315" y="294" text-anchor="middle" font-size="11" fill="#374151">洪涝·红壤改良</text>
+  <text x="315" y="310" text-anchor="middle" font-size="11" fill="#374151">长江大保护</text>
+  <rect x="422" y="104" width="190" height="220" rx="12" fill="white" stroke="#a855f7" stroke-width="2"/>
+  <rect x="422" y="104" width="190" height="40" rx="12" fill="#a855f7"/>
+  <text x="517" y="129" text-anchor="middle" font-size="13" fill="white" font-weight="bold">青藏地区</text>
+  <text x="517" y="160" text-anchor="middle" font-size="22">🏔️🐄</text>
+  <text x="517" y="182" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">因地制宜</text>
+  <text x="517" y="200" text-anchor="middle" font-size="11" fill="#374151">高寒牧业·河谷农业</text>
+  <text x="517" y="218" text-anchor="middle" font-size="11" fill="#374151">太阳能·地热能</text>
+  <text x="517" y="236" text-anchor="middle" font-size="11" fill="#374151">青藏铁路·生态旅游</text>
+  <rect x="430" y="256" width="174" height="58" rx="6" fill="#f3e8ff"/>
+  <text x="517" y="276" text-anchor="middle" font-size="11" fill="#7e22ce" font-weight="bold">挑战</text>
+  <text x="517" y="294" text-anchor="middle" font-size="11" fill="#374151">高寒缺氧·生态脆弱</text>
+  <text x="517" y="310" text-anchor="middle" font-size="11" fill="#374151">三江源保护区</text>
+  <rect x="624" y="104" width="178" height="220" rx="12" fill="white" stroke="#f97316" stroke-width="2"/>
+  <rect x="624" y="104" width="178" height="40" rx="12" fill="#f97316"/>
+  <text x="713" y="129" text-anchor="middle" font-size="13" fill="white" font-weight="bold">西北地区</text>
+  <text x="713" y="160" text-anchor="middle" font-size="22">🏜️🐏</text>
+  <text x="713" y="182" text-anchor="middle" font-size="11" fill="#374151" font-weight="bold">因地制宜</text>
+  <text x="713" y="200" text-anchor="middle" font-size="11" fill="#374151">绿洲农业·草原牧业</text>
+  <text x="713" y="218" text-anchor="middle" font-size="11" fill="#374151">西气东输·沙漠旅游</text>
+  <text x="713" y="236" text-anchor="middle" font-size="11" fill="#374151">坎儿井·棉花基地</text>
+  <rect x="632" y="256" width="162" height="58" rx="6" fill="#ffedd5"/>
+  <text x="713" y="276" text-anchor="middle" font-size="11" fill="#c2410c" font-weight="bold">挑战</text>
+  <text x="713" y="294" text-anchor="middle" font-size="11" fill="#374151">荒漠化·水资源短缺</text>
+  <text x="713" y="310" text-anchor="middle" font-size="11" fill="#374151">退耕还林还草</text>
+  <!-- Bottom banner -->
+  <rect x="18" y="334" width="784" height="22" rx="6" fill="#134e4a"/>
+  <text x="410" y="350" text-anchor="middle" font-size="11" fill="#ccfbf1">因地制宜 = 根据自然条件差异选择发展方向 → 美丽中国的基础</text>
+</svg>
+</div>
+
 ## 三、知识梳理
 
 ### 1. 人地关系的演变

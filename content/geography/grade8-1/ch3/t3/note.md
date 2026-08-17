@@ -59,6 +59,79 @@ date: 2026-08-06
 - 聚落建筑特点深受[[第二节 主要的气候类型]]影响。
 - 传统聚落保护是[[第二节 国际经济合作]]中文化交流的重要内容。
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="360" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">聚落的形成条件与城乡差异</text>
+  <!-- Formation conditions -->
+  <text x="200" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">聚落形成的六大有利条件</text>
+  <!-- 6 condition cards in 2 rows -->
+  <rect x="20" y="65" width="115" height="65" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="2"/>
+  <text x="77" y="90" text-anchor="middle" font-size="22">🏔️</text>
+  <text x="77" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#5eead4">地形平坦</text>
+  <rect x="148" y="65" width="115" height="65" rx="8" fill="#0d9488" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="205" y="90" text-anchor="middle" font-size="22">💧</text>
+  <text x="205" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="white">水源充足</text>
+  <rect x="276" y="65" width="115" height="65" rx="8" fill="#0f766e" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="333" y="90" text-anchor="middle" font-size="22">🌱</text>
+  <text x="333" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="white">土壤肥沃</text>
+  <rect x="20" y="143" width="115" height="65" rx="8" fill="#14b8a6" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="77" y="168" text-anchor="middle" font-size="22">🌤️</text>
+  <text x="77" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">气候适宜</text>
+  <rect x="148" y="143" width="115" height="65" rx="8" fill="#5eead4" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="205" y="168" text-anchor="middle" font-size="22">🛤️</text>
+  <text x="205" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">交通便利</text>
+  <rect x="276" y="143" width="115" height="65" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="333" y="168" text-anchor="middle" font-size="22">⛏️</text>
+  <text x="333" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">资源丰富</text>
+  <!-- Big arrow to settlement -->
+  <polygon points="395,148 420,140 420,156" fill="#0d9488"/>
+  <text x="410" y="138" text-anchor="middle" font-size="11" fill="#0d9488">→</text>
+  <!-- Settlement -->
+  <rect x="425" y="100" width="100" height="65" rx="8" fill="#dc2626" stroke="#fca5a5" stroke-width="2"/>
+  <text x="475" y="128" text-anchor="middle" font-size="12" font-weight="bold" fill="white">聚落</text>
+  <text x="475" y="148" text-anchor="middle" font-size="10" fill="#fca5a5">城市/乡村</text>
+  <!-- City vs Village comparison -->
+  <text x="650" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#134e4a">城市 vs 乡村</text>
+  <rect x="540" y="65" width="115" height="200" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="597" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#0c4a6e">🏙️ 城市</text>
+  <text x="597" y="112" text-anchor="middle" font-size="10" fill="#0c4a6e">规模大</text>
+  <text x="597" y="128" text-anchor="middle" font-size="10" fill="#0c4a6e">建筑高密集</text>
+  <text x="597" y="144" text-anchor="middle" font-size="10" fill="#0c4a6e">工业服务业</text>
+  <text x="597" y="160" text-anchor="middle" font-size="10" fill="#0c4a6e">交通道路多</text>
+  <text x="597" y="176" text-anchor="middle" font-size="10" fill="#0c4a6e">人口密度大</text>
+  <text x="597" y="192" text-anchor="middle" font-size="10" fill="#0c4a6e">绿地少</text>
+  <text x="597" y="248" text-anchor="middle" font-size="10" fill="#0c4a6e" font-weight="bold">←演变</text>
+  <rect x="668" y="65" width="115" height="200" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="725" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">🌾 乡村</text>
+  <text x="725" y="112" text-anchor="middle" font-size="10" fill="#14532d">规模小</text>
+  <text x="725" y="128" text-anchor="middle" font-size="10" fill="#14532d">建筑低分散</text>
+  <text x="725" y="144" text-anchor="middle" font-size="10" fill="#14532d">农林牧渔业</text>
+  <text x="725" y="160" text-anchor="middle" font-size="10" fill="#14532d">道路少简单</text>
+  <text x="725" y="176" text-anchor="middle" font-size="10" fill="#14532d">人口密度小</text>
+  <text x="725" y="192" text-anchor="middle" font-size="10" fill="#14532d">绿地多</text>
+  <!-- Special house styles -->
+  <rect x="20" y="230" width="500" height="115" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="270" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">气候→民居形态记忆</text>
+  <text x="100" y="275" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">湿热地区</text>
+  <text x="100" y="292" text-anchor="middle" font-size="10" fill="#0f766e">高脚屋（东南亚）</text>
+  <text x="100" y="308" text-anchor="middle" font-size="9" fill="#0f766e">通风防潮防野兽</text>
+  <text x="270" y="275" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">干旱地区</text>
+  <text x="270" y="292" text-anchor="middle" font-size="10" fill="#0f766e">平顶厚墙小窗（西亚）</text>
+  <text x="270" y="308" text-anchor="middle" font-size="9" fill="#0f766e">隔热防风沙</text>
+  <text x="430" y="275" text-anchor="middle" font-size="11" fill="#0d9488" font-weight="bold">严寒地区</text>
+  <text x="430" y="292" text-anchor="middle" font-size="10" fill="#0f766e">冰屋（北极）</text>
+  <text x="430" y="308" text-anchor="middle" font-size="9" fill="#0f766e">雪/冰保温隔风</text>
+  <line x1="188" y1="260" x2="188" y2="335" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+  <line x1="358" y1="260" x2="358" y2="335" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+  <!-- Cultural heritage note -->
+  <rect x="540" y="280" width="245" height="60" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="662" y="303" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400e">⚠️ 聚落文化保护</text>
+  <text x="662" y="322" text-anchor="middle" font-size="10" fill="#78350f">传统聚落→人类文化遗产</text>
+  <text x="662" y="337" text-anchor="middle" font-size="10" fill="#78350f">应妥善保护·不随意拆除</text>
+</svg>
+</div>
+
 ## 七、自测题
 
 1. 聚落主要分为哪两种类型？

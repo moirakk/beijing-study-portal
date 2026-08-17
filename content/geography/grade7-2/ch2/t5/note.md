@@ -70,6 +70,58 @@ date: 2026-08-05
 4. 备行装依据气候与文化习俗。
 5. 出境游需护照、签证，注意时差与安全提醒。
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="340" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">旅行方案设计——依据气候选时间</text>
+  <!-- Headers -->
+  <rect x="25" y="42" width="750" height="32" rx="6" fill="#0d9488"/>
+  <text x="120" y="63" text-anchor="middle" font-size="12" font-weight="bold" fill="white">目的地</text>
+  <text x="270" y="63" text-anchor="middle" font-size="12" font-weight="bold" fill="white">气候类型</text>
+  <text x="430" y="63" text-anchor="middle" font-size="12" font-weight="bold" fill="white">建议出行时间</text>
+  <text x="630" y="63" text-anchor="middle" font-size="12" font-weight="bold" fill="white">理由</text>
+  <!-- Row 1 -->
+  <rect x="25" y="78" width="750" height="48" rx="0" fill="#ccfbf1"/>
+  <text x="120" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">东南亚</text>
+  <text x="120" y="117" text-anchor="middle" font-size="10" fill="#0f766e">（热带）</text>
+  <text x="270" y="105" text-anchor="middle" font-size="11" fill="#134e4a">热带季风·雨林气候</text>
+  <text x="430" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">11月—次年4月</text>
+  <text x="430" y="117" text-anchor="middle" font-size="10" fill="#0f766e">（旱季）</text>
+  <text x="630" y="105" text-anchor="middle" font-size="11" fill="#134e4a">避开雨季，降水少·晴天多</text>
+  <!-- Row 2 -->
+  <rect x="25" y="130" width="750" height="48" rx="0" fill="#f0fdfa"/>
+  <text x="120" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">西亚</text>
+  <text x="120" y="168" text-anchor="middle" font-size="10" fill="#0f766e">（热带沙漠）</text>
+  <text x="270" y="156" text-anchor="middle" font-size="11" fill="#134e4a">热带沙漠气候</text>
+  <text x="430" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">冬半年（11月—3月）</text>
+  <text x="430" y="168" text-anchor="middle" font-size="10" fill="#0f766e">（气温凉爽）</text>
+  <text x="630" y="156" text-anchor="middle" font-size="11" fill="#134e4a">夏季酷热难耐，冬季气温凉爽</text>
+  <!-- Row 3 -->
+  <rect x="25" y="182" width="750" height="48" rx="0" fill="#ccfbf1"/>
+  <text x="120" y="204" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">欧洲西部</text>
+  <text x="120" y="220" text-anchor="middle" font-size="10" fill="#0f766e">（温带海洋）</text>
+  <text x="270" y="208" text-anchor="middle" font-size="11" fill="#134e4a">温带海洋性气候</text>
+  <text x="430" y="204" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">5月—9月</text>
+  <text x="430" y="220" text-anchor="middle" font-size="10" fill="#0f766e">（夏季温暖少雨）</text>
+  <text x="630" y="204" text-anchor="middle" font-size="11" fill="#134e4a">温暖舒适，地中海夏季阳光充足</text>
+  <!-- Row 4 -->
+  <rect x="25" y="234" width="750" height="48" rx="0" fill="#f0fdfa"/>
+  <text x="120" y="256" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">南极地区</text>
+  <text x="120" y="272" text-anchor="middle" font-size="10" fill="#0f766e">（冰原）</text>
+  <text x="270" y="260" text-anchor="middle" font-size="11" fill="#134e4a">冰原气候</text>
+  <text x="430" y="256" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">11月—次年3月</text>
+  <text x="430" y="272" text-anchor="middle" font-size="10" fill="#0f766e">（南半球暖季）</text>
+  <text x="630" y="256" text-anchor="middle" font-size="11" fill="#134e4a">南半球夏季·气温相对高·有极昼</text>
+  <!-- Bottom note -->
+  <rect x="25" y="290" width="750" height="36" rx="6" fill="#134e4a"/>
+  <text x="400" y="313" text-anchor="middle" font-size="12" fill="#ccfbf1">方案六要素：目的地 | 时间 | 路线交通 | 行装 | 预算 | 安全预案</text>
+  <!-- Column separators -->
+  <line x1="190" y1="42" x2="190" y2="286" stroke="#0d9488" stroke-width="1"/>
+  <line x1="350" y1="42" x2="350" y2="286" stroke="#0d9488" stroke-width="1"/>
+  <line x1="510" y1="42" x2="510" y2="286" stroke="#0d9488" stroke-width="1"/>
+</svg>
+</div>
+
 ## 八、自测小题
 
 1. 去东南亚旅行宜选择______季（旱/雨）。
@@ -82,16 +134,3 @@ date: 2026-08-05
 
 相关：[[第一节 东南亚]] ｜ [[第四节 极地地区]] ｜ [[主题探究：重走古丝绸之路]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

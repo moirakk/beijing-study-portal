@@ -55,6 +55,51 @@ graph LR
   style E fill:#5eead4,stroke:#0d9488,color:#134e4a
 ```
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="280" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#134e4a">中国航天代表性成就时间轴</text>
+  <!-- Timeline bar -->
+  <line x1="60" y1="120" x2="740" y2="120" stroke="#0d9488" stroke-width="3"/>
+  <polygon points="740,115 755,120 740,125" fill="#0d9488"/>
+  <!-- Node 1: 东方红一号 1970 -->
+  <circle cx="110" cy="120" r="14" fill="#134e4a" stroke="#5eead4" stroke-width="2.5"/>
+  <text x="110" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">1970年</text>
+  <text x="110" y="108" text-anchor="middle" font-size="10" fill="#0f766e">东方红一号</text>
+  <text x="110" y="150" text-anchor="middle" font-size="10" fill="#134e4a">第一颗</text>
+  <text x="110" y="163" text-anchor="middle" font-size="10" fill="#134e4a">人造卫星</text>
+  <!-- Node 2: 神舟五号 2003 -->
+  <circle cx="260" cy="120" r="14" fill="#0f766e" stroke="#5eead4" stroke-width="2.5"/>
+  <text x="260" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">2003年</text>
+  <text x="260" y="108" text-anchor="middle" font-size="10" fill="#0f766e">神舟五号</text>
+  <text x="260" y="150" text-anchor="middle" font-size="10" fill="#134e4a">首次载人</text>
+  <text x="260" y="163" text-anchor="middle" font-size="10" fill="#134e4a">杨利伟</text>
+  <!-- Node 3: 嫦娥四号 2019 -->
+  <circle cx="430" cy="120" r="14" fill="#0d9488" stroke="#5eead4" stroke-width="2.5"/>
+  <text x="430" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">2019年</text>
+  <text x="430" y="108" text-anchor="middle" font-size="10" fill="#0f766e">嫦娥四号</text>
+  <text x="430" y="150" text-anchor="middle" font-size="10" fill="#134e4a">首次月背</text>
+  <text x="430" y="163" text-anchor="middle" font-size="10" fill="#134e4a">软着陆</text>
+  <!-- Node 4: 天问一号 2021 -->
+  <circle cx="580" cy="120" r="14" fill="#14b8a6" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="580" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">2021年</text>
+  <text x="580" y="108" text-anchor="middle" font-size="10" fill="#0f766e">天问一号</text>
+  <text x="580" y="150" text-anchor="middle" font-size="10" fill="#134e4a">火星探测</text>
+  <text x="580" y="163" text-anchor="middle" font-size="10" fill="#134e4a">祝融号</text>
+  <!-- Node 5: 天宫空间站 2022 -->
+  <circle cx="710" cy="120" r="14" fill="#5eead4" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="710" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">2022年</text>
+  <text x="710" y="108" text-anchor="middle" font-size="10" fill="#0f766e">天宫空间站</text>
+  <text x="710" y="150" text-anchor="middle" font-size="10" fill="#134e4a">建成运营</text>
+  <text x="710" y="163" text-anchor="middle" font-size="10" fill="#134e4a">长期驻人</text>
+  <!-- 卫星服务图例 -->
+  <rect x="60" y="195" width="680" height="60" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="400" y="218" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">卫星服务生活 → 天气预报 | 导航定位 | 通信转播 | 灾害监测</text>
+  <text x="400" y="242" text-anchor="middle" font-size="11" fill="#0f766e">口诀：探月嫦娥  探火天问/祝融  空间站天宫  导航北斗</text>
+</svg>
+</div>
+
+
 ### 3. 太空探索的意义
 
 - 帮助人类更好地认识地球和宇宙（如从太空看到地球是蓝色的"水的行星"）。

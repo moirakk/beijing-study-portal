@@ -69,6 +69,63 @@ date: 2026-08-05
 5. 两大绰号：骑在羊背上（羊毛）、坐在矿车上（矿产出口）。
 6. 人口城市集中在东南沿海；首都堪培拉，最大城市悉尼。
 
+<div class="svg-chart">
+<svg viewBox="0 0 820 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="820" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="410" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">澳大利亚气候分区记忆图</text>
+  <!-- Australia outline (simplified) -->
+  <path d="M180,60 L500,55 L570,100 L620,180 L590,260 L540,300 L470,320 L380,330 L300,320 L240,290 L195,240 L165,180 L150,120 Z" fill="#fef3c7" stroke="#0d9488" stroke-width="2.5"/>
+  <!-- Climate zones -->
+  <!-- North: Tropical Monsoon/Savanna -->
+  <path d="M270,60 L400,56 L500,60 L500,55 L570,100 L560,150 L490,140 L410,130 L330,130 L265,140 L220,130 Z" fill="#5eead4" opacity="0.6"/>
+  <text x="400" y="96" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">热带草原·热带季风</text>
+  <text x="400" y="112" text-anchor="middle" font-size="10" fill="#0f766e">（北部）夏季多雨</text>
+  <!-- Center: Desert -->
+  <ellipse cx="375" cy="200" rx="140" ry="90" fill="#fcd34d" opacity="0.55"/>
+  <text x="375" y="195" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">热带沙漠</text>
+  <text x="375" y="212" text-anchor="middle" font-size="11" fill="#92400e">（中西部）全年少雨</text>
+  <!-- Southeast: humid subtropical -->
+  <path d="M490,220 L550,250 L530,290 L460,315 L400,325 L380,280 L440,255 Z" fill="#93c5fd" opacity="0.55"/>
+  <text x="470" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e3a8a">亚热带</text>
+  <text x="470" y="293" text-anchor="middle" font-size="9" fill="#1e3a8a">季风气候</text>
+  <!-- Southwest: Mediterranean -->
+  <path d="M165,195 L210,245 L240,285 L200,300 L175,260 L160,225 Z" fill="#a7f3d0" opacity="0.65"/>
+  <text x="178" y="255" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">地中海</text>
+  <text x="178" y="268" text-anchor="middle" font-size="9" fill="#065f46">气候</text>
+  <!-- Southeast coast: Temperate oceanic -->
+  <path d="M400,325 L310,320 L250,295 L250,310 L340,335 L410,338 Z" fill="#c4b5fd" opacity="0.6"/>
+  <text x="320" y="325" text-anchor="middle" font-size="10" font-weight="bold" fill="#4c1d95">温带海洋性</text>
+  <!-- N arrow -->
+  <polygon points="80,62 74,82 80,75 86,82" fill="#134e4a"/>
+  <text x="80" y="55" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">N</text>
+  <!-- Legend -->
+  <rect x="590" y="55" width="215" height="300" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="697" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">图例 · 记忆口诀</text>
+  <rect x="602" y="88" width="18" height="14" rx="3" fill="#5eead4" opacity="0.7"/>
+  <text x="627" y="100" text-anchor="start" font-size="11" fill="#134e4a">北部热带</text>
+  <rect x="602" y="110" width="18" height="14" rx="3" fill="#fcd34d" opacity="0.7"/>
+  <text x="627" y="122" text-anchor="start" font-size="11" fill="#134e4a">中西部沙漠</text>
+  <rect x="602" y="132" width="18" height="14" rx="3" fill="#93c5fd" opacity="0.7"/>
+  <text x="627" y="144" text-anchor="start" font-size="11" fill="#134e4a">东南亚热带季风</text>
+  <rect x="602" y="154" width="18" height="14" rx="3" fill="#a7f3d0" opacity="0.7"/>
+  <text x="627" y="166" text-anchor="start" font-size="11" fill="#134e4a">西南地中海</text>
+  <rect x="602" y="176" width="18" height="14" rx="3" fill="#c4b5fd" opacity="0.7"/>
+  <text x="627" y="188" text-anchor="start" font-size="11" fill="#134e4a">南部温带海洋</text>
+  <!-- Memory slogans -->
+  <rect x="600" y="205" width="196" height="136" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+  <text x="698" y="225" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">记忆关键词</text>
+  <text x="698" y="244" text-anchor="middle" font-size="12" fill="#dc2626">🐑 骑在羊背上</text>
+  <text x="698" y="260" text-anchor="middle" font-size="10" fill="#0f766e">→牧羊业发达</text>
+  <text x="698" y="278" text-anchor="middle" font-size="12" fill="#dc2626">⛏️ 坐在矿车上</text>
+  <text x="698" y="294" text-anchor="middle" font-size="10" fill="#0f766e">→采矿业发达</text>
+  <text x="698" y="312" text-anchor="middle" font-size="10" fill="#0f766e">首都：堪培拉</text>
+  <text x="698" y="328" text-anchor="middle" font-size="10" fill="#0f766e">最大城市：悉尼</text>
+  <!-- Tropic of Capricorn line -->
+  <line x1="160" y1="195" x2="590" y2="195" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+  <text x="165" y="190" text-anchor="start" font-size="9" fill="#dc2626">南回归线（23.5°S）</text>
+</svg>
+</div>
+
 ## 八、自测小题
 
 1. 世界上唯一独占一块大陆的国家是______。
@@ -82,16 +139,3 @@ date: 2026-08-05
 
 相关：[[第二节 俄罗斯]] ｜ [[第五节 巴西]] ｜ [[主题探究：走近一个国家]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```

@@ -83,6 +83,64 @@ date: 2026-08-05
 6. 联合国维护和平，WTO 管贸易，中国 2001 年入世。
 7. 经济全球化使各国经济相互依存，合作共赢。
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">发达国家与发展中国家对比</text>
+  <!-- Header row -->
+  <rect x="30" y="45" width="340" height="38" rx="6" fill="#0d9488" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="200" y="69" text-anchor="middle" font-size="14" font-weight="bold" fill="white">发展中国家（多数）</text>
+  <rect x="430" y="45" width="340" height="38" rx="6" fill="#134e4a" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="600" y="69" text-anchor="middle" font-size="14" font-weight="bold" fill="white">发达国家（少数）</text>
+  <!-- Divider -->
+  <line x1="400" y1="45" x2="400" y2="355" stroke="#5eead4" stroke-width="2" stroke-dasharray="6,3"/>
+  <!-- VS badge -->
+  <circle cx="400" cy="200" r="18" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="400" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="white">VS</text>
+  <!-- Row 1: Location -->
+  <rect x="30" y="93" width="340" height="40" rx="4" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+  <text x="200" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">分布地区</text>
+  <text x="200" y="125" text-anchor="middle" font-size="11" fill="#0f766e">亚洲·非洲·拉丁美洲（南方）</text>
+  <rect x="430" y="93" width="340" height="40" rx="4" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+  <text x="600" y="108" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">分布地区</text>
+  <text x="600" y="125" text-anchor="middle" font-size="11" fill="#0f766e">欧洲·北美·大洋洲（北方）</text>
+  <!-- Row 2: Economy -->
+  <rect x="30" y="143" width="340" height="50" rx="4" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
+  <text x="200" y="160" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">经济特征</text>
+  <text x="200" y="175" text-anchor="middle" font-size="11" fill="#0f766e">以农业为主，工业化程度低</text>
+  <text x="200" y="188" text-anchor="middle" font-size="11" fill="#0f766e">人均收入较低</text>
+  <rect x="430" y="143" width="340" height="50" rx="4" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
+  <text x="600" y="160" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">经济特征</text>
+  <text x="600" y="175" text-anchor="middle" font-size="11" fill="#0f766e">工业化程度高，第三产业发达</text>
+  <text x="600" y="188" text-anchor="middle" font-size="11" fill="#0f766e">人均GDP高</text>
+  <!-- Row 3: Examples -->
+  <rect x="30" y="203" width="340" height="40" rx="4" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+  <text x="200" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">典型国家</text>
+  <text x="200" y="235" text-anchor="middle" font-size="11" fill="#0f766e">中国·印度·巴西·埃及·墨西哥</text>
+  <rect x="430" y="203" width="340" height="40" rx="4" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+  <text x="600" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">典型国家</text>
+  <text x="600" y="235" text-anchor="middle" font-size="11" fill="#0f766e">美国·日本·英国·法国·澳大利亚</text>
+  <!-- Row 4: cooperation -->
+  <rect x="30" y="253" width="340" height="40" rx="4" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
+  <text x="200" y="270" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">合作方式</text>
+  <text x="200" y="285" text-anchor="middle" font-size="11" fill="#0d9488">南南合作（发展中国家互助）</text>
+  <rect x="430" y="253" width="340" height="40" rx="4" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
+  <text x="600" y="270" text-anchor="middle" font-size="11" font-weight="bold" fill="#134e4a">合作方式</text>
+  <text x="600" y="285" text-anchor="middle" font-size="11" fill="#0d9488">南北对话（援助技术·资金合作）</text>
+  <!-- Bottom: International orgs -->
+  <rect x="100" y="305" width="600" height="75" rx="8" fill="#134e4a" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="400" y="325" text-anchor="middle" font-size="13" font-weight="bold" fill="#ccfbf1">重要国际组织</text>
+  <text x="230" y="345" text-anchor="middle" font-size="12" fill="#5eead4">联合国</text>
+  <text x="230" y="360" text-anchor="middle" font-size="10" fill="#ccfbf1">维护国际和平与安全</text>
+  <text x="400" y="345" text-anchor="middle" font-size="12" fill="#5eead4">世界贸易组织(WTO)</text>
+  <text x="400" y="360" text-anchor="middle" font-size="10" fill="#ccfbf1">促进国际贸易（中国2001年入世）</text>
+  <text x="590" y="345" text-anchor="middle" font-size="12" fill="#5eead4">世界银行</text>
+  <text x="590" y="360" text-anchor="middle" font-size="10" fill="#ccfbf1">援助发展中国家</text>
+  <line x1="308" y1="315" x2="308" y2="375" stroke="#5eead4" stroke-width="1" opacity="0.5"/>
+  <line x1="495" y1="315" x2="495" y2="375" stroke="#5eead4" stroke-width="1" opacity="0.5"/>
+</svg>
+</div>
+
 ## 七、自测小题
 
 1. 世界上面积最大的国家是______，中国面积居世界第______位。
@@ -97,14 +155,3 @@ date: 2026-08-05
 
 相关：[[第一节 居民与文化]] ｜ [[主题探究：我为国货品牌作代言]]
 
-
-### 人口分布影响因素
-
-```mermaid
-graph TD
-  A[人口分布稠密区] --> B[中低纬度沿海平原]
-  B --> C[地形平坦]
-  B --> D[气候温和湿润]
-  B --> E[交通便利]
-  B --> F[经济发达]
-```

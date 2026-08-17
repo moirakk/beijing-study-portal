@@ -49,6 +49,67 @@ date: 2026-08-05
 | 分布原因 | 便于进口原料、出口产品，港口条件好，城市人口集中 |
 | 主要工业区 | 京滨、名古屋、阪神、濑户内、北九州 |
 
+<div class="svg-chart">
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f0fdfa" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#134e4a">日本地理特征综合示意图</text>
+  <!-- Left: Japan islands map -->
+  <rect x="20" y="45" width="360" height="300" rx="8" fill="#dbeafe" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="200" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">日本四大岛（自北向南）</text>
+  <!-- Hokkaido -->
+  <ellipse cx="200" cy="95" rx="60" ry="28" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="200" y="99" text-anchor="middle" font-size="12" font-weight="bold" fill="#0d9488">北海道</text>
+  <!-- Honshu (largest) -->
+  <ellipse cx="200" cy="160" rx="80" ry="35" fill="#5eead4" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="200" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">本州（最大）</text>
+  <text x="200" y="173" text-anchor="middle" font-size="10" fill="#134e4a">东京·关东平原·富士山</text>
+  <!-- Shikoku -->
+  <ellipse cx="160" cy="225" rx="38" ry="18" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="160" y="229" text-anchor="middle" font-size="11" font-weight="bold" fill="#0d9488">四国</text>
+  <!-- Kyushu -->
+  <ellipse cx="220" cy="260" rx="42" ry="22" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="220" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#0d9488">九州</text>
+  <!-- Fuji Mountain marker -->
+  <polygon points="200,135 193,155 207,155" fill="#dc2626"/>
+  <text x="240" y="143" text-anchor="start" font-size="10" fill="#dc2626">▲富士山</text>
+  <text x="240" y="155" text-anchor="start" font-size="9" fill="#dc2626">（活火山·象征）</text>
+  <!-- Pacific Ocean label -->
+  <text x="320" y="200" text-anchor="middle" font-size="11" fill="#1d4ed8">太平洋</text>
+  <!-- Japan Sea label -->
+  <text x="80" y="180" text-anchor="middle" font-size="11" fill="#1d4ed8">日本海</text>
+  <!-- N arrow -->
+  <polygon points="50,85 44,105 50,98 56,105" fill="#134e4a"/>
+  <text x="50" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">N</text>
+  <!-- Right: Key facts -->
+  <rect x="400" y="45" width="380" height="300" rx="8" fill="white" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="590" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#134e4a">日本地理核心知识</text>
+  <!-- 板块 -->
+  <rect x="415" y="78" width="350" height="48" rx="6" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="590" y="96" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc2626">多火山地震</text>
+  <text x="590" y="112" text-anchor="middle" font-size="10" fill="#7f1d1d">亚欧板块与太平洋板块交界处</text>
+  <text x="590" y="124" text-anchor="middle" font-size="10" fill="#7f1d1d">→环太平洋火山地震带</text>
+  <!-- 地形 -->
+  <rect x="415" y="135" width="350" height="48" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2"/>
+  <text x="590" y="153" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">地形地貌</text>
+  <text x="590" y="169" text-anchor="middle" font-size="10" fill="#0f766e">山地丘陵为主（约3/4）</text>
+  <text x="590" y="181" text-anchor="middle" font-size="10" fill="#0f766e">关东平原最大·河流短急</text>
+  <!-- 经济 -->
+  <rect x="415" y="192" width="350" height="60" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2"/>
+  <text x="590" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">加工贸易经济</text>
+  <text x="590" y="228" text-anchor="middle" font-size="10" fill="#0f766e">进口原料·加工制造·出口制成品</text>
+  <text x="590" y="242" text-anchor="middle" font-size="10" fill="#0f766e">工业区：太平洋及濑户内海沿岸</text>
+  <text x="590" y="255" text-anchor="middle" font-size="10" fill="#0f766e">京滨·名古屋·阪神·濑户内·北九州</text>
+  <!-- 文化 -->
+  <rect x="415" y="261" width="350" height="48" rx="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2"/>
+  <text x="590" y="279" text-anchor="middle" font-size="12" font-weight="bold" fill="#134e4a">文化特点</text>
+  <text x="590" y="295" text-anchor="middle" font-size="10" fill="#0f766e">东西方文化融合</text>
+  <text x="590" y="309" text-anchor="middle" font-size="10" fill="#0f766e">和服←→西装 | 和食←→西餐</text>
+  <!-- Bottom bar -->
+  <rect x="20" y="358" width="760" height="32" rx="6" fill="#134e4a"/>
+  <text x="400" y="379" text-anchor="middle" font-size="12" fill="#ccfbf1">口诀：岛国多震因板块·山多平少河流急·加工贸易沿海布·东西融合文化奇</text>
+</svg>
+</div>
+
 ## 六、地图要素判读
 
 1. 在地图上按自北向南顺序认四大岛：北海道→本州→四国→九州。
@@ -82,16 +143,3 @@ date: 2026-08-05
 
 相关：[[第二节 俄罗斯]] ｜ [[第四节 美国]] ｜ [[主题探究：走近一个国家]]
 
-
-### 气候类型分布与特征
-
-```mermaid
-graph TD
-  A[气候特征] --> B[气温]
-  A --> C[降水]
-  B --> D[热带: 终年高温]
-  B --> E[温带: 四季分明]
-  B --> F[寒带: 终年严寒]
-  C --> G[全年多雨/少雨型]
-  C --> H[夏季/冬季多雨型]
-```
