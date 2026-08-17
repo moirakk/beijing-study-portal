@@ -77,10 +77,10 @@ export default function ChapterCard({
                   <li key={topic.id} className="!p-0">
                     <Link
                       to={`/topic/${topic.id}`}
-                      className="group/t -mx-2 flex w-full items-baseline gap-3 rounded-md px-2 py-[7px] transition-colors hover:bg-[var(--s-soft)]"
+                      className="group/t -mx-2 flex w-full items-baseline gap-3 rounded-md px-2 py-[9px] transition-colors hover:bg-[var(--s-soft)]"
                     >
                       <span
-                        className={`min-w-0 flex-1 text-[14.5px] font-semibold ${
+                        className={`min-w-0 flex-1 text-[15.5px] font-semibold ${
                           draft ? 'text-[var(--s-deep)] opacity-45' : 'text-[var(--s-deep)]'
                         }`}
                       >

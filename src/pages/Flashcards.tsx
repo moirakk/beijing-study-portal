@@ -71,15 +71,18 @@ export default function Flashcards() {
           >
             <div className={`flashcard-inner ${flipped ? 'is-flipped' : ''}`}>
               <div className="flashcard-face flashcard-front card">
-                <div className="text-[12px] font-bold tracking-[0.18em] text-gold">正面</div>
-                <div className="mt-2 font-serif text-[17px] font-bold text-[var(--s-deep)]">
+                <div className="text-[12px] font-bold tracking-[0.18em] text-gold">正面 · 点击翻面查看答案</div>
+                <div className="mt-3 font-serif text-[18px] font-bold leading-relaxed text-[var(--s-deep)]">
                   {current.front}
                 </div>
-                <div className="mt-4 text-[12.5px] text-ink-faint">点击翻面查看</div>
+                <div className="mt-5 flex items-center justify-center gap-2 rounded-lg bg-[var(--s-soft)] px-4 py-2 text-[13.5px] font-semibold text-[var(--s-deep)]">
+                  <span>👆</span>
+                  <span>点击卡片翻面</span>
+                </div>
               </div>
               <div className="flashcard-face flashcard-back card">
-                <div className="text-[12px] font-bold tracking-[0.18em] text-gold">背面</div>
-                <div className="mt-2 text-[15px] leading-relaxed text-ink-soft">
+                <div className="text-[12px] font-bold tracking-[0.18em] text-gold">背面 · 核对答案</div>
+                <div className="mt-3 text-[16px] leading-relaxed text-ink">
                   {current.back}
                 </div>
               </div>
@@ -91,14 +94,14 @@ export default function Flashcards() {
               <button
                 type="button"
                 onClick={() => grade(0)}
-                className="rounded-full border border-line bg-panel px-5 py-2 text-[13.5px] font-semibold text-ink-soft transition-colors hover:border-red-400 hover:text-red-500"
+                className="rounded-full border border-line bg-panel px-6 py-2.5 text-[14.5px] font-semibold text-ink-soft transition-colors hover:border-red-400 hover:text-red-500"
               >
-                再练练
+                再练练 😅
               </button>
               <button
                 type="button"
                 onClick={() => grade(1)}
-                className="rounded-full bg-[var(--s)] px-5 py-2 text-[13.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
+                className="rounded-full bg-[var(--s)] px-6 py-2.5 text-[14.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
               >
                 记住了 ✓
               </button>

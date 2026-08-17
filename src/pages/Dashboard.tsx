@@ -64,10 +64,18 @@ export default function Dashboard() {
           </h1>
         </Reveal>
         <Reveal delay={180}>
-          <p className="mt-0 max-w-[52ch] text-[14.5px] text-ink-soft">
+          <p className="mt-0 max-w-[52ch] text-[15.5px] text-ink-soft leading-relaxed">
             把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
           </p>
+          <p className="mt-2 text-[13.5px] text-ink-faint">
+            👇 选一个科目开始学，或者点学期快速入门
+          </p>
         </Reveal>
+        {/* 移动端皮卡丘亲切问候 */}
+        <div className="flex sm:hidden items-center gap-2 mt-3">
+          <Mascot pokemon="pikachu" size={36} state="idle" />
+          <span className="text-[13px] font-semibold text-[var(--s-deep,var(--gold))]">Pika pika！加油哦！</span>
+        </div>
       </header>
 
       {/* 我的学习概览（可爱化：皮卡丘向导 + 进度/错题/卡片/图鉴） */}
@@ -136,7 +144,7 @@ export default function Dashboard() {
                   type="button"
                   onClick={() => handleSubjectChange(subject.id)}
                   style={subjectVars(subject.id as SubjectId)}
-                  className={`shrink-0 flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
+                  className={`shrink-0 flex items-center gap-1.5 rounded-full border px-4 py-2 text-[14px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
                     active
                       ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
                       : 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:bg-[var(--s-soft)] hover:text-[var(--s-deep)]'

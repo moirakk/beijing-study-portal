@@ -54,12 +54,12 @@ export default function QuizPlayer({
     <div className="rounded-xl border border-line bg-paper/60 p-4 md:p-5">
       <div className="mb-3 flex items-baseline gap-2">
         <span className="tag shrink-0">{index}</span>
-        <span className="font-serif text-[15px] font-bold text-[var(--s-deep)]">
+        <span className="font-serif text-[16px] font-bold text-[var(--s-deep)]">
           {question.question}
         </span>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2.5">
         {options.map((opt, i) => {
           const optVal = isJudge ? i === 0 : i
           const right = submitted && isCorrect(optVal)
@@ -70,7 +70,7 @@ export default function QuizPlayer({
               type="button"
               disabled={submitted}
               onClick={() => setSelected(optVal)}
-              className={`flex w-full items-center gap-2.5 rounded-lg border px-3.5 py-2.5 text-left text-[14px] transition-all ${
+              className={`flex w-full items-center gap-2.5 rounded-lg border px-3.5 py-3 text-left text-[15px] transition-all ${
                 submitted
                   ? right
                     ? 'border-green-500 bg-green-50 text-green-800 dark:bg-green-900/30 dark:text-green-200'
@@ -98,24 +98,24 @@ export default function QuizPlayer({
           type="button"
           onClick={handleSubmit}
           disabled={selected === null}
-          className="mt-3 rounded-full bg-[var(--s)] px-5 py-1.5 text-[13.5px] font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40 dark:text-panel"
+          className="mt-4 rounded-full bg-[var(--s)] px-6 py-2.5 text-[14.5px] font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40 dark:text-panel"
         >
-          提交
+          提交答案
         </button>
       )}
 
       {submitted && (
         <div
-          className={`fold-in mt-3 rounded-lg border-l-2 px-3.5 py-2.5 text-[13.5px] ${
+          className={`fold-in mt-3 rounded-lg border-l-2 px-3.5 py-3 text-[14.5px] ${
             correct
               ? 'border-green-500 bg-green-50 text-green-800 dark:bg-green-900/30 dark:text-green-200'
               : 'border-red-400 bg-red-50 text-red-700 dark:bg-red-900/30 dark:text-red-200'
           }`}
         >
-          <div className="font-bold">
+          <div className="font-bold text-[15px]">
             {correct ? '答对啦！' : '答错了，看看解析'}
           </div>
-          <div className="mt-1 leading-relaxed">{question.explain}</div>
+          <div className="mt-1.5 leading-relaxed">{question.explain}</div>
         </div>
       )}
     </div>

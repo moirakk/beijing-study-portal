@@ -133,7 +133,7 @@ export default function QuizSection({
               setMascotState('switch')
               setTimeout(() => setMascotState('idle'), 400)
             }}
-            className={`rounded-full px-3 py-1 text-[12.5px] font-semibold transition-colors ${
+            className={`rounded-full px-3.5 py-1.5 text-[13px] font-semibold transition-colors ${
               mode === 'preview'
                 ? 'bg-[var(--s)] text-white dark:text-panel'
                 : 'border border-line bg-paper text-ink-soft hover:border-[var(--s)]'
@@ -149,7 +149,7 @@ export default function QuizSection({
               setMascotState('switch')
               setTimeout(() => setMascotState('idle'), 400)
             }}
-            className={`rounded-full px-3 py-1 text-[12.5px] font-semibold transition-colors ${
+            className={`rounded-full px-3.5 py-1.5 text-[13px] font-semibold transition-colors ${
               mode === 'review'
                 ? 'bg-[var(--s)] text-white dark:text-panel'
                 : 'border border-line bg-paper text-ink-soft hover:border-[var(--s)]'
@@ -194,9 +194,9 @@ export default function QuizSection({
             <button
               type="button"
               onClick={next}
-              className="mt-3 rounded-full bg-[var(--s)] px-5 py-1.5 text-[13.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
+              className="mt-4 rounded-full bg-[var(--s)] px-6 py-2.5 text-[14.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
             >
-              {current + 1 < questions.length ? '下一题 →' : '查看结果'}
+              {current + 1 < questions.length ? '下一题 →' : '查看结果 →'}
             </button>
           )}
         </>

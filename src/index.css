@@ -113,7 +113,10 @@
 
   /* 导航链接（胶囊） */
   .nav-link {
-    @apply whitespace-nowrap rounded-full border border-transparent px-3 py-1 text-[13px] font-semibold text-ink-soft transition-colors;
+    @apply whitespace-nowrap rounded-full border border-transparent px-3 py-1.5 text-[13.5px] font-semibold text-ink-soft transition-colors;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
   }
   .nav-link:hover {
     color: var(--ink);
@@ -213,9 +216,9 @@
   .kv > div {
     display: flex;
     gap: 12px;
-    padding: 7px 0;
+    padding: 8px 0;
     border-top: 1px dashed var(--line);
-    font-size: 14.5px;
+    font-size: 15px;
     align-items: baseline;
   }
   .kv > li:first-child,
@@ -225,7 +228,7 @@
   .kv .k {
     flex: 0 0 92px;
     font-weight: 700;
-    font-size: 13.5px;
+    font-size: 14px;
     color: var(--s-deep);
   }
   .kv .v {
@@ -235,7 +238,7 @@
   @media (max-width: 560px) {
     .kv .k {
       flex-basis: 74px;
-      font-size: 12.5px;
+      font-size: 13px;
     }
   }
 }
@@ -255,8 +258,8 @@ mark {
  * ------------------------------------------------------------------------- */
 @layer components {
   .markdown-body {
-    font-size: 14.5px;
-    line-height: 1.85;
+    font-size: 16px;
+    line-height: 1.9;
   }
   .markdown-body h1 {
     @apply mb-3 mt-6 text-xl font-bold first:mt-0;
@@ -272,7 +275,7 @@ mark {
     color: var(--s-deep);
   }
   .markdown-body p {
-    @apply my-2.5;
+    @apply my-3;
   }
   .markdown-body strong {
     color: var(--s);
@@ -280,7 +283,7 @@ mark {
   }
   .markdown-body ul,
   .markdown-body ol {
-    @apply my-2.5 space-y-1 pl-6;
+    @apply my-3 space-y-1.5 pl-6;
   }
   .markdown-body ul {
     @apply list-disc;
@@ -294,10 +297,10 @@ mark {
 
   /* 引用块 → 要点提示框风格（学科浅底、圆角） */
   .markdown-body blockquote {
-    margin: 14px 0;
-    padding: 11px 15px;
+    margin: 16px 0;
+    padding: 12px 16px;
     border-radius: 10px;
-    font-size: 13.5px;
+    font-size: 15px;
     background: var(--s-soft);
     border: none;
   }
@@ -313,7 +316,7 @@ mark {
     width: 100%;
     border-collapse: collapse;
     margin: 14px 0 4px;
-    font-size: 13.5px;
+    font-size: 14.5px;
   }
   /* 窄屏：宽表格允许横向滚动，不撑破卡片 */
   @media (max-width: 560px) {

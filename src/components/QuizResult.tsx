@@ -29,7 +29,7 @@ export default function QuizResult({
           <div className="font-serif text-[18px] font-bold text-[var(--s-deep)]">
             {perfect ? '完美！宝可梦进化了！' : good ? '做得不错！' : '继续加油！'}
           </div>
-          <div className="mt-0.5 text-[13.5px] text-ink-soft">
+          <div className="mt-1 text-[14.5px] text-ink-soft">
             答对 {correct} / {total} 题（{pct}%）
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function QuizResult({
       <button
         type="button"
         onClick={onRetry}
-        className="mt-4 rounded-full border border-line bg-paper px-5 py-1.5 text-[13.5px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
+        className="mt-4 rounded-full border border-line bg-paper px-6 py-2.5 text-[14.5px] font-semibold text-ink-soft transition-colors hover:border-[var(--s)] hover:text-[var(--s-deep)]"
       >
         再练一次
       </button>

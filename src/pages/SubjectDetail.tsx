@@ -82,7 +82,7 @@ export default function SubjectDetail() {
                     type="button"
                     disabled={!hasContent}
                     onClick={() => setActiveGradeId(grade.id)}
-                    className={`rounded-full border px-3.5 py-1 text-[13px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
+                    className={`rounded-full border px-4 py-1.5 text-[14px] font-semibold transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
                       active
                         ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
                         : hasContent

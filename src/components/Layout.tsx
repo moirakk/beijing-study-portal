@@ -101,6 +101,17 @@ export default function Layout() {
             />
           </div>
 
+          {/* 移动端搜索图标（sm 以下显示，点击进搜索页） */}
+          <button
+            type="button"
+            onClick={() => navigate('/search')}
+            aria-label="搜索"
+            title="搜索"
+            className="flex sm:hidden h-8 w-8 shrink-0 items-center justify-center rounded-full border border-transparent text-sm transition-colors hover:border-line hover:bg-panel"
+          >
+            🔍
+          </button>
+
           <button
             type="button"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}

@@ -88,15 +88,15 @@ export default function WrongBook() {
                   <div className="flex items-start gap-2.5">
                     <span className="tag shrink-0">{w.type === 'judge' ? '判断' : '单选'}</span>
                     <div className="min-w-0 flex-1">
-                      <div className="font-serif text-[15px] font-bold text-[var(--s-deep)]">
+                      <div className="font-serif text-[16px] font-bold text-[var(--s-deep)]">
                         {w.question}
                       </div>
                       {w.options && (
-                        <div className="mt-2 space-y-1 text-[13.5px]">
+                        <div className="mt-2 space-y-1.5 text-[14.5px]">
                           {w.options.map((o, oi) => (
                             <div
                               key={oi}
-                              className={`rounded px-2 py-1 ${
+                              className={`rounded-lg px-3 py-1.5 ${
                                 oi === (w.answer as number)
                                   ? 'bg-green-50 text-green-800 dark:bg-green-900/30 dark:text-green-200'
                                   : oi === (w.selected as number)
@@ -118,7 +118,7 @@ export default function WrongBook() {
                           <span className="text-green-600">正确答案：{w.answer ? '正确' : '错误'}</span>
                         </div>
                       )}
-                      <div className="mt-2 rounded-lg border-l-2 border-[var(--s)] bg-[var(--s-soft)] px-3 py-2 text-[13px] text-[var(--s-deep)]">
+                      <div className="mt-2.5 rounded-lg border-l-2 border-[var(--s)] bg-[var(--s-soft)] px-3 py-2.5 text-[14px] text-[var(--s-deep)]">
                         {w.explain}
                       </div>
                       <div className="mt-2 flex items-center gap-3 text-[12.5px] text-ink-faint">

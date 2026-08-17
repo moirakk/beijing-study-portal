@@ -28,7 +28,7 @@ export default function SemesterPillNav({ current }: { current?: GradeId }) {
                 key={g}
                 to={`/semester/${g}`}
                 aria-current={g === current ? 'page' : undefined}
-                className={`shrink-0 rounded-full border px-3.5 py-1 text-[12.5px] font-semibold transition-colors ${
+                className={`shrink-0 rounded-full border px-4 py-1.5 text-[13.5px] font-semibold transition-colors ${
                   g === current
                     ? 'border-transparent bg-gold text-white dark:text-panel'
                     : 'border-line bg-panel text-ink-soft hover:border-gold hover:bg-[var(--s-soft,#f2eadc)] hover:text-ink'
