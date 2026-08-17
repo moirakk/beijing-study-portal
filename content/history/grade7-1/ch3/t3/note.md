@@ -92,3 +92,16 @@ date: 2026-08-05
 **答案**：1. B 2. 209；大泽乡 3. 王侯将相宁有种乎 4. 巨鹿 5. B 6. C 7. 对
 
 相关：[[第9课 秦统一中国]] ｜ [[第11课 西汉建立和"文景之治"]]
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

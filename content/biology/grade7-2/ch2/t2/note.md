@@ -61,3 +61,15 @@ $$二氧化碳 + 水 \xrightarrow{光能（叶绿体）} 有机物(淀粉) + 氧
 4. 下列关于光合作用和呼吸作用的叙述正确的是（ ）A.都在叶绿体中进行 B.都需要光 C.光合作用储能呼吸作用释能 D.都产生氧气
 
 [[第一节 水的利用与散失]] | [[第三节 呼吸作用]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

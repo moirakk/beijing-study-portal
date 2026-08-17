@@ -68,3 +68,16 @@ date: 2026-08-06
 4. “四个全面”战略布局包括哪些内容？
 5. 新发展理念是什么？
 6. 中国特色社会主义进入新时代是在哪次大会上提出的？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

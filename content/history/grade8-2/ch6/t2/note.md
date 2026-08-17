@@ -65,3 +65,16 @@ date: 2026-08-06
 4. 社会生活发生巨大变迁的根本原因是什么？
 5. 通信事业的发展给人们的生活带来了哪些影响？
 6. 从“吃饱”到“吃好”的变化说明了什么？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

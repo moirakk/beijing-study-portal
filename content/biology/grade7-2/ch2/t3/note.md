@@ -62,3 +62,15 @@ $$有机物(淀粉等) + 氧气 \rightarrow 二氧化碳 + 水 + 能量$$
 4. 下列哪项不能用呼吸作用的原理解释（ ）A.松土促根生长 B.低温保存水果 C.叶片遮光变黄 D.花盆底部留孔
 
 [[第二节 光合作用]] | [[第四节 植物在自然界中的作用]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

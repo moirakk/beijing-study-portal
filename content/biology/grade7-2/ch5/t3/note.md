@@ -70,3 +70,15 @@ date: 2026-08-05
 5. 组织细胞处气体交换后血液中（ ）A.O₂增多 B.CO₂增多 C.O₂和CO₂都增多 D.成分不变
 
 [[第一节 呼吸道对空气的处理]] | [[第二节 发生在肺内的气体交换]] | [[第一节 流动的组织——血液]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

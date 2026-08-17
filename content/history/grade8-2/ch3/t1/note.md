@@ -68,3 +68,16 @@ date: 2026-08-06
 3. 十一届三中全会作出了哪些重要决策？
 4. 为什么说十一届三中全会是伟大的历史转折？
 5. 拨乱反正胜利完成的标志是什么？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

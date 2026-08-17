@@ -78,3 +78,15 @@ date: 2026-08-05
 5. 某人尿液中检出蛋白质，可能的病变部位是（ ）A.肾小管 B.肾小球 C.膀胱 D.输尿管
 
 [[人体内废物的排出·综合练习]] | [[第一节 流动的组织——血液]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

@@ -79,3 +79,15 @@ date: 2026-08-06
 3. 隐性性状个体的基因组成有什么特点？
 4. 近亲结婚为什么会增加遗传病风险？
 5. 若双眼皮为显性，单眼皮为隐性，双眼皮个体可能有哪些基因型？
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

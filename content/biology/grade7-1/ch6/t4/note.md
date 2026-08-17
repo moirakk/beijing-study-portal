@@ -70,3 +70,15 @@ date: 2026-08-05
 **答案**：1. 细胞；蛋白质 2. 寄生 3. 噬菌体 4. 动物 5. C 6. 错（可研制疫苗、基因工程等）
 
 相关：[[第二节 细菌]] ｜ [[第三节 真菌]] ｜ [[综合实践项目：利用细菌或真菌制作发酵食品]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

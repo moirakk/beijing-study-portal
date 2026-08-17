@@ -80,3 +80,15 @@ date: 2026-08-06
 3. 卵细胞和精子在性染色体组成上有什么不同？
 4. 生男生女的理论概率各是多少？
 5. 若受精卵性染色体为XY，将发育成什么性别？
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

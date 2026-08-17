@@ -66,3 +66,16 @@ date: 2026-08-06
 4. 港澳回归有什么历史意义？
 5. 特别行政区与经济特区有什么区别？
 6. “一国两制”对解决台湾问题有什么借鉴意义？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

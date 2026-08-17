@@ -68,3 +68,15 @@ date: 2026-08-05
 4. 呼出的气体与吸入的气体相比（ ）A.O₂增多CO₂减少 B.O₂减少CO₂增多 C.成分不变 D.全是CO₂
 
 [[第一节 呼吸道对空气的处理]] | [[人体的呼吸·重点梳理]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

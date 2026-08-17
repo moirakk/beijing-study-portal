@@ -65,3 +65,16 @@ date: 2026-08-06
 4. 实行民族区域自治制度有什么意义？
 5. 国家为促进少数民族地区发展采取了哪些措施？
 6. 青藏铁路通车有什么意义？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

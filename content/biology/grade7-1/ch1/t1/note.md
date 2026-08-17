@@ -75,3 +75,15 @@ date: 2026-08-05
 **答案**：1. 观察法 2. 放大镜；显微镜（或望远镜、照相机等） 3. 及时；如实 4. C 5. 空间；各种因素 6. 错
 
 相关：[[第二节 生物的特征]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

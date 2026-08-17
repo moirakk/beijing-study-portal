@@ -60,3 +60,16 @@ date: 2026-08-05
 3. 玄奘西行发生在哪位皇帝时期？他的主要贡献有哪些？
 4. 《大唐西域记》有什么史料价值？
 5. 唐朝对外交往活跃的原因有哪些？给我们什么启示？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

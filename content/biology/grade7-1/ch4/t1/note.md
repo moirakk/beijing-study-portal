@@ -69,3 +69,15 @@ date: 2026-08-05
 **答案**：1. 根；茎；叶 2. 假根 3. 苔藓 4. 输导 5. C 6. 错（用孢子繁殖）
 
 相关：[[第二节 种子植物]] ｜ [[植物的类群·重点梳理]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

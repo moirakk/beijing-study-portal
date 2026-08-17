@@ -73,3 +73,16 @@ date: 2026-08-06
 3. 中华人民共和国成立的国内意义和国际意义分别是什么？
 4. 西藏和平解放的时间和意义是什么？
 5. 为什么说中国人民从此站起来了？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

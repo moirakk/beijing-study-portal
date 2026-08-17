@@ -76,3 +76,15 @@ date: 2026-08-05
 **答案**：1. 组织；器官 2. 根；茎；叶；花；果实；种子 3. 输导组织（导管）；筛管 4. 分生组织 5. C 6. 对
 
 相关：[[第二节 动物体的结构层次]] ｜ [[第四节 单细胞生物]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

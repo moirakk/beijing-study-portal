@@ -74,3 +74,15 @@ date: 2026-08-05
 **答案**：1. 酵母菌；霉菌；蘑菇 2. 叶绿体；异养 3. 孢子 4. 青霉 5. B 6. 错（蘑菇是真菌，不能光合作用）
 
 相关：[[第二节 细菌]] ｜ [[第四节 病毒]] ｜ [[综合实践项目：利用细菌或真菌制作发酵食品]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

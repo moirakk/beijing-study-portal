@@ -80,3 +80,15 @@ date: 2026-08-06
 3. 受精卵中的染色体数目与体细胞相比有什么特点？
 4. 如果生殖细胞染色体不减半，会出现什么结果？
 5. 请用“体细胞—生殖细胞—受精卵”概括基因传递过程。
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

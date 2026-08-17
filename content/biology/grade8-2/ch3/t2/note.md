@@ -78,3 +78,15 @@ date: 2026-08-06
 3. 米勒实验模拟了哪些原始地球条件？
 4. 米勒实验说明了什么，又不能说明什么？
 5. 原始地球大气与现代大气的主要区别是什么？
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

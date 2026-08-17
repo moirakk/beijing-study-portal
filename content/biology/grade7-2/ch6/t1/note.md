@@ -66,3 +66,15 @@ date: 2026-08-05
 4. 血浆的主要成分是（ ）A.蛋白质 B.葡萄糖 C.水 D.血红蛋白
 
 [[第二节 血流的管道——血管]] | [[第三节 输送血液的泵——心脏]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

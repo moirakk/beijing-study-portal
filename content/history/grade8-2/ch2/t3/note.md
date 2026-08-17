@@ -67,3 +67,16 @@ date: 2026-08-06
 4. “文化大革命”的起止时间和结束标志是什么？
 5. 列举全面建设社会主义时期涌现的三位模范人物。
 6. 社会主义建设的艰辛探索给我们什么启示？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

@@ -70,3 +70,15 @@ date: 2026-08-05
 4. 绿色食品标志表示该食品（ ）A.颜色是绿色 B.只含蔬菜 C.安全优质营养 D.没有任何添加剂
 
 [[第一节 食物中的营养物质]] | [[第二节 消化和吸收]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

@@ -67,3 +67,15 @@ date: 2026-08-05
 **答案**：1. 细胞分化 2. 上皮组织；肌肉组织；神经组织；结缔组织 3. 器官 4. 组织；器官；系统 5. B 6. 错（由多种组织构成）
 
 相关：[[第一节 细胞通过分裂产生新细胞]] ｜ [[第三节 植物体的结构层次]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

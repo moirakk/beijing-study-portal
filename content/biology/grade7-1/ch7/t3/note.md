@@ -80,3 +80,15 @@ date: 2026-08-05
 **答案**：1. 相似；生理功能 2. 界；种 3. 近；多 4. 林奈；属名；种加词 5. C 6. 错（同种生物能交配并产生可育后代）
 
 相关：[[第一节 尝试对生物进行分类]] ｜ [[第二节 从种到界]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

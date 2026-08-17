@@ -82,3 +82,15 @@ C.尿素减少，氧气增多 D.尿素增多，氧气增多
 1.B 2.C 3.C 4.B 5.C 6.B 7.C 8.A
 
 [[人体内废物的排出·重点梳理]] | [[第三节 输送血液的泵——心脏]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

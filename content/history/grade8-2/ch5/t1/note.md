@@ -68,3 +68,16 @@ date: 2026-08-06
 4. 火箭军的前身是什么部队？何时组建、何时更名？
 5. 2016 年我国军队改革后形成了怎样的新格局？
 6. 为什么说人民军队是保卫祖国的钢铁长城？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

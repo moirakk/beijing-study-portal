@@ -64,3 +64,18 @@ $$
 ## 相关知识点
 
 [[质量]] [[密度]] [[密度的应用]]
+
+### 物理电路示意图
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" style="background-color: #f0f8ff; border: 1px solid #4a90e2; border-radius: 8px;">
+  <!-- 电线 -->
+  <path d="M50,100 L50,50 L250,50 L250,100 L170,100 M130,100 L50,100" fill="none" stroke="#4a90e2" stroke-width="2" />
+  <!-- 电池 -->
+  <line x1="130" y1="80" x2="130" y2="120" stroke="#4a90e2" stroke-width="3" />
+  <line x1="170" y1="90" x2="170" y2="110" stroke="#4a90e2" stroke-width="6" />
+  <!-- 电阻/负载 -->
+  <circle cx="150" cy="50" r="15" fill="#fff" stroke="#4a90e2" stroke-width="2" />
+  <line x1="140" y1="40" x2="160" y2="60" stroke="#4a90e2" stroke-width="2" />
+  <line x1="140" y1="60" x2="160" y2="40" stroke="#4a90e2" stroke-width="2" />
+  <text x="135" y="140" fill="#4a90e2" font-size="14">简单电路模型</text>
+</svg>

@@ -78,3 +78,15 @@ DNA是主要遗传物质，基因是DNA上控制生物性状的片段。
 3. 为什么说基因控制生物的性状？
 4. 环境会不会影响性状表现？请举例说明。
 5. “高鼻梁”和“卷舌”都能直接称为相对性状吗？为什么？
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

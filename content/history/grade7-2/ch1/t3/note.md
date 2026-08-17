@@ -64,3 +64,16 @@ date: 2026-08-05
 3. 魏征、房玄龄、杜如晦分别以什么著称？
 4. 武则天对科举制的贡献是什么？如何评价她的统治？
 5. 简述三省六部制中三省的分工及该制度的作用。
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

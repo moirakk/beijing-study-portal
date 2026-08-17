@@ -58,3 +58,16 @@ date: 2026-08-05
 3. 明清手工业生产组织出现了什么新形式？有何特点？
 4. 晋商和徽商分别以经营什么闻名？
 5. 清朝前期人口增长的原因是什么？带来了哪些问题？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

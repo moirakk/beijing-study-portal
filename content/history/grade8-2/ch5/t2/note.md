@@ -66,3 +66,16 @@ date: 2026-08-06
 4. 万隆会议的特点是什么？
 5. 周恩来在万隆会议上提出了什么方针？起到了什么作用？
 6. “求同存异”中的“同”和“异”分别指什么？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

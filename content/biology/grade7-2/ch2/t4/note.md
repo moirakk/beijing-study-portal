@@ -64,3 +64,15 @@ date: 2026-08-05
 4. 森林能涵养水源主要是因为（ ）A.根系固土蓄水 B.叶片光合作用 C.茎运输水分 D.花吸引昆虫
 
 [[第三节 呼吸作用]] | [[第二节 光合作用]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

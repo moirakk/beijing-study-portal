@@ -63,3 +63,15 @@ date: 2026-08-05
 **答案**：1. 肺；皮肤 2. 角质鳞片；甲；肺 3. 陆地；卵壳 4. B 5. B 6. 对
 
 相关：[[一 鱼]] ｜ [[三 鸟和哺乳动物]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

@@ -55,3 +55,16 @@ date: 2026-08-06
 3. 国民党重点进攻哪些解放区？
 4. 中共中央为什么要主动撤离延安？
 5. 重庆谈判的历史意义是什么？
+
+
+### 历史时间轴
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#d7ccc8', 'primaryBorderColor': '#5d4037', 'lineColor': '#8d6e63'}}}%%
+timeline
+    title 重要历史发展阶段
+    阶段一 : 起源与早期文明
+    阶段二 : 帝国与封建时代
+    阶段三 : 近代革命与转型
+    阶段四 : 现代文明与发展
+```

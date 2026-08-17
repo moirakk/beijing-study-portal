@@ -72,3 +72,15 @@ date: 2026-08-05
 **答案**：1. 水；鳃；鳍 2. 鳞片 3. 尾部；躯干部；鳍 4. 鳃 5. B（鲸鱼是哺乳动物） 6. 对
 
 相关：[[第一节 无脊椎动物]] ｜ [[二 两栖动物和爬行动物]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```

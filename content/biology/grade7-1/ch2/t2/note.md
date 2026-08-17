@@ -80,3 +80,15 @@ date: 2026-08-05
 **答案**：1. 细胞壁 2. 细胞膜 3. 叶绿体；线粒体 4. 擦→滴→撕→展→盖→染→吸 5. 碘液 6. 错（如洋葱表皮细胞、根部细胞无叶绿体）
 
 相关：[[第一节 学习使用显微镜]] ｜ [[第三节 动物细胞]] ｜ [[第四节 细胞的生活]]
+
+
+### 生物过程与层级图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#2e7d32', 'fontFamily': 'arial'}}}%%
+graph TD
+  A[细胞] --> B[组织]
+  B --> C[器官]
+  C --> D[系统]
+  D --> E[生物个体]
+```
