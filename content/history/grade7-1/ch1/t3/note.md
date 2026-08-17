@@ -58,6 +58,52 @@ date: 2026-08-05
 | 半地穴式房屋 | 一半挖入地下的房屋，保暖防寒，流行于北方 |
 | 聚落 | 人类定居后形成的村落 |
 
+**知识结构图：河姆渡人与半坡人对比**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" style="max-width:100%;height:auto">
+  <rect width="800" height="300" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">原始农耕聚落对比：河姆渡人 vs 半坡人</text>
+  <!-- 表头 -->
+  <rect x="20" y="45" width="180" height="36" rx="4" fill="#4E342E"/>
+  <text x="110" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">对比项</text>
+  <rect x="208" y="45" width="270" height="36" rx="4" fill="#795548"/>
+  <text x="343" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">河姆渡人（约7000年前）</text>
+  <rect x="486" y="45" width="294" height="36" rx="4" fill="#A1887F"/>
+  <text x="633" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">半坡人（约6000年前）</text>
+  <!-- 行1：地点 -->
+  <rect x="20" y="88" width="180" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="110" y="111" text-anchor="middle" font-size="12" fill="#3E2723">地点·流域</text>
+  <rect x="208" y="88" width="270" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="343" y="111" text-anchor="middle" font-size="12" fill="#3E2723">浙江余姚·长江流域</text>
+  <rect x="486" y="88" width="294" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="633" y="111" text-anchor="middle" font-size="12" fill="#3E2723">陕西西安·黄河流域</text>
+  <!-- 行2：农作物 -->
+  <rect x="20" y="130" width="180" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="110" y="153" text-anchor="middle" font-size="12" fill="#3E2723">主要农作物</text>
+  <rect x="208" y="130" width="270" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="343" y="153" text-anchor="middle" font-size="12" fill="#795548" font-weight="bold">水稻（骨耜耕作）</text>
+  <rect x="486" y="130" width="294" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="633" y="153" text-anchor="middle" font-size="12" fill="#795548" font-weight="bold">粟（磨制石器）</text>
+  <!-- 行3：房屋 -->
+  <rect x="20" y="172" width="180" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="110" y="195" text-anchor="middle" font-size="12" fill="#3E2723">房屋样式</text>
+  <rect x="208" y="172" width="270" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="343" y="195" text-anchor="middle" font-size="12" fill="#4E342E" font-weight="bold">干栏式建筑（防潮通风）</text>
+  <rect x="486" y="172" width="294" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="633" y="195" text-anchor="middle" font-size="12" fill="#4E342E" font-weight="bold">半地穴式圆形房屋（保暖）</text>
+  <!-- 行4：典型器物 -->
+  <rect x="20" y="214" width="180" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="110" y="237" text-anchor="middle" font-size="12" fill="#3E2723">典型器物</text>
+  <rect x="208" y="214" width="270" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="343" y="237" text-anchor="middle" font-size="12" fill="#3E2723">骨耜、象牙雕刻、骨哨</text>
+  <rect x="486" y="214" width="294" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="633" y="237" text-anchor="middle" font-size="12" fill="#3E2723">人面鱼纹彩陶盆</text>
+  <!-- 底部说明 -->
+  <rect x="20" y="258" width="760" height="30" rx="4" fill="#BCAAA4"/>
+  <text x="400" y="270" text-anchor="middle" font-size="11" fill="#3E2723">★ 房屋差异根本原因：自然环境（气候）不同</text>
+  <text x="400" y="283" text-anchor="middle" font-size="11" fill="#3E2723">南方湿热→干栏式防潮；北方干冷→半地穴式保暖</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 河姆渡人 | 半坡人 |

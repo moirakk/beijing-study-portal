@@ -28,6 +28,62 @@ date: 2026-08-05
 | 439年 | 北魏统一北方 |
 | 494年 | 北魏孝文帝迁都洛阳，推行汉化改革 |
 
+**时间轴：三国两晋南北朝政权更替**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" style="max-width:100%;height:auto">
+  <rect width="820" height="240" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">三国两晋南北朝政权更替时间轴（220—589年）</text>
+  <!-- 主轴 -->
+  <line x1="40" y1="80" x2="780" y2="80" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,75 795,80 780,85" fill="#795548"/>
+  <!-- 刻度点 -->
+  <circle cx="80" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="180" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="280" cy="80" r="7" fill="#795548"/>
+  <circle cx="380" cy="80" r="7" fill="#795548"/>
+  <circle cx="460" cy="80" r="7" fill="#795548"/>
+  <circle cx="560" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="660" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="740" cy="80" r="7" fill="#A1887F"/>
+  <!-- 上方标注 -->
+  <line x1="80" y1="73" x2="80" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="80" y="36" text-anchor="middle" font-size="10" fill="#3E2723">200年</text>
+  <text x="80" y="48" text-anchor="middle" font-size="9" fill="#4E342E">官渡之战</text>
+  <line x1="280" y1="73" x2="280" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="280" y="36" text-anchor="middle" font-size="10" fill="#3E2723">266年</text>
+  <text x="280" y="48" text-anchor="middle" font-size="9" fill="#4E342E">司马炎建西晋</text>
+  <line x1="460" y1="73" x2="460" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="460" y="36" text-anchor="middle" font-size="10" fill="#3E2723">383年</text>
+  <text x="460" y="48" text-anchor="middle" font-size="9" fill="#4E342E">淝水之战</text>
+  <line x1="660" y1="73" x2="660" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="660" y="36" text-anchor="middle" font-size="10" fill="#3E2723">494年</text>
+  <text x="660" y="48" text-anchor="middle" font-size="9" fill="#4E342E">孝文帝迁都洛阳</text>
+  <!-- 下方标注 -->
+  <line x1="180" y1="87" x2="180" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="180" y="140" text-anchor="middle" font-size="10" fill="#3E2723">208年</text>
+  <text x="180" y="152" text-anchor="middle" font-size="9" fill="#4E342E">赤壁之战</text>
+  <line x1="380" y1="87" x2="380" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="380" y="140" text-anchor="middle" font-size="10" fill="#3E2723">316年</text>
+  <text x="380" y="152" text-anchor="middle" font-size="9" fill="#4E342E">西晋灭亡</text>
+  <line x1="560" y1="87" x2="560" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="560" y="140" text-anchor="middle" font-size="10" fill="#3E2723">420年</text>
+  <text x="560" y="152" text-anchor="middle" font-size="9" fill="#4E342E">南朝开始（宋）</text>
+  <line x1="740" y1="87" x2="740" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="740" y="140" text-anchor="middle" font-size="10" fill="#3E2723">439年</text>
+  <text x="740" y="152" text-anchor="middle" font-size="9" fill="#4E342E">北魏统一北方</text>
+  <!-- 朝代色块 -->
+  <rect x="42" y="168" width="228" height="18" rx="3" fill="#4E342E"/>
+  <text x="156" y="181" text-anchor="middle" font-size="9" fill="#EFEBE9">三国（220—280）：魏·蜀汉·吴</text>
+  <rect x="278" y="168" width="132" height="18" rx="3" fill="#795548"/>
+  <text x="344" y="181" text-anchor="middle" font-size="9" fill="#EFEBE9">西晋（266—316）</text>
+  <rect x="42" y="192" width="368" height="18" rx="3" fill="#A1887F"/>
+  <text x="226" y="205" text-anchor="middle" font-size="9" fill="#EFEBE9">东晋（317—420）·十六国</text>
+  <rect x="418" y="192" width="352" height="18" rx="3" fill="#BCAAA4"/>
+  <text x="594" y="205" text-anchor="middle" font-size="9" fill="#3E2723">南朝（420—589）宋齐梁陈 | 北朝（439—581）北魏→东西魏→北齐北周</text>
+  <!-- 主线说明 -->
+  <text x="410" y="228" text-anchor="middle" font-size="11" fill="#795548" font-weight="bold">主线：政权分立 与 民族交融</text>
+</svg>
+
 ## 三、单元知识框架
 
 ### 1. 政权更替线索

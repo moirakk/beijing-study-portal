@@ -26,6 +26,58 @@ date: 2026-08-05
 | 公元25年 | 刘秀建立东汉，定都洛阳 |
 | 184年 | 黄巾起义 |
 
+**时间轴：秦汉时期大事年表**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" style="max-width:100%;height:auto">
+  <rect width="820" height="200" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">秦汉时期大事时间轴</text>
+  <!-- 主轴 -->
+  <line x1="40" y1="80" x2="780" y2="80" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,75 795,80 780,85" fill="#795548"/>
+  <!-- 刻度点 -->
+  <circle cx="80" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="180" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="280" cy="80" r="7" fill="#795548"/>
+  <circle cx="380" cy="80" r="7" fill="#795548"/>
+  <circle cx="470" cy="80" r="7" fill="#795548"/>
+  <circle cx="560" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="650" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="740" cy="80" r="7" fill="#A1887F"/>
+  <!-- 上方标注 -->
+  <line x1="80" y1="73" x2="80" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="80" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前221年</text>
+  <text x="80" y="48" text-anchor="middle" font-size="9" fill="#4E342E">秦统一中国</text>
+  <line x1="280" y1="73" x2="280" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="280" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前202年</text>
+  <text x="280" y="48" text-anchor="middle" font-size="9" fill="#4E342E">刘邦建西汉</text>
+  <line x1="470" y1="73" x2="470" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="470" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前138·前119年</text>
+  <text x="470" y="48" text-anchor="middle" font-size="9" fill="#4E342E">张骞出使西域</text>
+  <line x1="650" y1="73" x2="650" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="650" y="36" text-anchor="middle" font-size="10" fill="#3E2723">公元25年</text>
+  <text x="650" y="48" text-anchor="middle" font-size="9" fill="#4E342E">刘秀建东汉</text>
+  <!-- 下方标注 -->
+  <line x1="180" y1="87" x2="180" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="180" y="140" text-anchor="middle" font-size="10" fill="#3E2723">前209年</text>
+  <text x="180" y="152" text-anchor="middle" font-size="9" fill="#4E342E">大泽乡起义</text>
+  <line x1="380" y1="87" x2="380" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="380" y="140" text-anchor="middle" font-size="10" fill="#3E2723">前60年</text>
+  <text x="380" y="152" text-anchor="middle" font-size="9" fill="#4E342E">设西域都护</text>
+  <line x1="560" y1="87" x2="560" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="560" y="140" text-anchor="middle" font-size="10" fill="#3E2723">公元9年</text>
+  <text x="560" y="152" text-anchor="middle" font-size="9" fill="#4E342E">王莽夺权·西汉亡</text>
+  <line x1="740" y1="87" x2="740" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="740" y="140" text-anchor="middle" font-size="10" fill="#3E2723">184年</text>
+  <text x="740" y="152" text-anchor="middle" font-size="9" fill="#4E342E">黄巾起义</text>
+  <!-- 朝代色块 -->
+  <rect x="42" y="165" width="228" height="20" rx="3" fill="#4E342E"/>
+  <text x="156" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">秦朝（前221—前207）</text>
+  <rect x="278" y="165" width="272" height="20" rx="3" fill="#795548"/>
+  <text x="414" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">西汉（前202—公元9年）</text>
+  <rect x="558" y="165" width="212" height="20" rx="3" fill="#A1887F"/>
+  <text x="664" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">东汉（25—220年）</text>
+</svg>
+
 ## 三、单元知识框架
 
 ### 1. 七课内容的逻辑线索

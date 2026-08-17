@@ -65,6 +65,46 @@ date: 2026-08-05
 | 汉化措施 | 孝文帝推行的说汉语、穿汉服、改汉姓、通婚姻等措施 |
 | 民族交融 | 各民族在生产、制度、文化、心理上相互影响融合 |
 
+**知识结构图：北魏孝文帝改革**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" style="max-width:100%;height:auto">
+  <rect width="800" height="300" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">北魏孝文帝改革（494年）</text>
+  <!-- 背景 -->
+  <rect x="20" y="42" width="760" height="36" rx="6" fill="#4E342E"/>
+  <text x="400" y="56" text-anchor="middle" font-size="12" fill="#EFEBE9">背景：439年北魏统一北方，鲜卑族与汉族长期杂居，社会矛盾突出</text>
+  <text x="400" y="72" text-anchor="middle" font-size="11" fill="#D7CCC8">目的：学习汉族先进文化，加强对中原地区的统治</text>
+  <!-- 迁都 -->
+  <rect x="20" y="90" width="760" height="36" rx="6" fill="#795548"/>
+  <text x="400" y="106" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">494年：迁都洛阳（从平城迁至洛阳）</text>
+  <text x="400" y="120" text-anchor="middle" font-size="11" fill="#D7CCC8">洛阳是汉族政治文化中心，便于推行汉化政策</text>
+  <!-- 汉化措施 -->
+  <text x="400" y="148" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">汉化措施（四项）</text>
+  <rect x="20" y="158" width="175" height="80" rx="6" fill="#A1887F"/>
+  <text x="107" y="178" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">语言</text>
+  <text x="107" y="198" text-anchor="middle" font-size="11" fill="#D7CCC8">以汉语为正式</text>
+  <text x="107" y="216" text-anchor="middle" font-size="11" fill="#D7CCC8">官方语言</text>
+  <text x="107" y="230" text-anchor="middle" font-size="10" fill="#BCAAA4">禁用鲜卑语</text>
+  <rect x="210" y="158" width="175" height="80" rx="6" fill="#A1887F"/>
+  <text x="297" y="178" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">服饰</text>
+  <text x="297" y="198" text-anchor="middle" font-size="11" fill="#D7CCC8">改穿汉服</text>
+  <text x="297" y="216" text-anchor="middle" font-size="11" fill="#D7CCC8">禁穿鲜卑服</text>
+  <rect x="400" y="158" width="175" height="80" rx="6" fill="#A1887F"/>
+  <text x="487" y="178" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">姓氏</text>
+  <text x="487" y="198" text-anchor="middle" font-size="11" fill="#D7CCC8">改鲜卑姓为汉姓</text>
+  <text x="487" y="216" text-anchor="middle" font-size="11" fill="#D7CCC8">拓跋→元</text>
+  <text x="487" y="230" text-anchor="middle" font-size="10" fill="#BCAAA4">独孤→刘</text>
+  <rect x="590" y="158" width="190" height="80" rx="6" fill="#A1887F"/>
+  <text x="685" y="178" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">婚姻·礼法</text>
+  <text x="685" y="198" text-anchor="middle" font-size="11" fill="#D7CCC8">鼓励鲜卑贵族</text>
+  <text x="685" y="216" text-anchor="middle" font-size="11" fill="#D7CCC8">与汉族贵族联姻</text>
+  <text x="685" y="230" text-anchor="middle" font-size="10" fill="#BCAAA4">采用汉族礼法</text>
+  <!-- 影响 -->
+  <rect x="20" y="252" width="760" height="36" rx="6" fill="#D7CCC8"/>
+  <text x="400" y="268" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">影响：促进了民族交融，增强了北魏实力</text>
+  <text x="400" y="282" text-anchor="middle" font-size="11" fill="#4E342E">→鲜卑族逐渐融入汉族，中华民族的凝聚力增强</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 商鞅变法 | 孝文帝改革 |

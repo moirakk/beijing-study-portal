@@ -60,6 +60,49 @@ date: 2026-08-05
 | 分封制 | 周王分封宗亲功臣建立诸侯国以拱卫王室的制度 |
 | 国人暴动 | 公元前841年镐京平民起义驱逐周厉王的事件 |
 
+**知识结构图：夏商西周王朝更替与分封制等级**
+
+```mermaid
+flowchart LR
+    A["约前2070年\n禹建夏朝\n都城：阳城"] -->|"启继位\n世袭制代替禅让制"| B["约前1600年\n汤灭夏建商\n都城：亳→殷"]
+    B -->|"盘庚迁殷\n纣王暴政"| C["前1046年\n牧野之战\n武王灭商建西周\n都城：镐京"]
+    C -->|"前841年国人暴动\n前771年犬戎攻破镐京"| D["前770年\n平王东迁洛邑\n东周开始"]
+    style A fill:#4E342E,color:#EFEBE9
+    style B fill:#795548,color:#EFEBE9
+    style C fill:#A1887F,color:#EFEBE9
+    style D fill:#BCAAA4,color:#3E2723
+```
+
+**知识结构图：西周分封制等级体系**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" style="max-width:100%;height:auto">
+  <rect width="600" height="280" fill="#EFEBE9" rx="10"/>
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">西周分封制等级体系</text>
+  <!-- 层级梯形 -->
+  <!-- 天子层 -->
+  <polygon points="220,45 380,45 360,90 240,90" fill="#4E342E"/>
+  <text x="300" y="73" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">周天子</text>
+  <!-- 诸侯层 -->
+  <polygon points="180,98 420,98 390,148 210,148" fill="#795548"/>
+  <text x="300" y="128" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">诸侯（宗亲·功臣）</text>
+  <!-- 卿大夫层 -->
+  <polygon points="140,156 460,156 420,206 180,206" fill="#A1887F"/>
+  <text x="300" y="186" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">卿大夫</text>
+  <!-- 士层 -->
+  <polygon points="100,214 500,214 460,260 140,260" fill="#D7CCC8"/>
+  <text x="300" y="242" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">士</text>
+  <!-- 右侧说明 -->
+  <text x="510" y="73" text-anchor="middle" font-size="10" fill="#3E2723">最高统治者</text>
+  <text x="510" y="128" text-anchor="middle" font-size="10" fill="#3E2723">进献贡物·服从调兵</text>
+  <text x="510" y="186" text-anchor="middle" font-size="10" fill="#3E2723">诸侯分封</text>
+  <text x="510" y="242" text-anchor="middle" font-size="10" fill="#3E2723">最低贵族</text>
+  <!-- 连线 -->
+  <line x1="460" y1="73" x2="490" y2="73" stroke="#795548" stroke-width="1"/>
+  <line x1="460" y1="128" x2="490" y2="128" stroke="#795548" stroke-width="1"/>
+  <line x1="460" y1="186" x2="490" y2="186" stroke="#795548" stroke-width="1"/>
+  <line x1="460" y1="242" x2="490" y2="242" stroke="#795548" stroke-width="1"/>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 禅让制 | 世袭制 |

@@ -60,6 +60,47 @@ date: 2026-08-05
 | 县制 | 由国君直接派官吏治理地方的制度，加强中央对地方的控制 |
 | 军功爵制 | 按军功大小授予爵位和土地的制度 |
 
+**知识结构图：商鞅变法内容与影响**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">商鞅变法（公元前356年·秦孝公支持）</text>
+  <!-- 背景框 -->
+  <rect x="20" y="40" width="760" height="50" rx="6" fill="#4E342E"/>
+  <text x="400" y="60" text-anchor="middle" font-size="12" fill="#EFEBE9">背景：铁制农具和牛耕推广→生产力发展→新兴地主阶级兴起→各国变法图强</text>
+  <text x="400" y="78" text-anchor="middle" font-size="12" fill="#D7CCC8">支持者：秦孝公　　主持者：商鞅　　时间：公元前356年</text>
+  <!-- 三大方面 -->
+  <!-- 政治 -->
+  <rect x="20" y="105" width="240" height="140" rx="6" fill="#795548"/>
+  <text x="140" y="128" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">政治</text>
+  <text x="140" y="150" text-anchor="middle" font-size="11" fill="#D7CCC8">确立县制</text>
+  <text x="140" y="168" text-anchor="middle" font-size="11" fill="#D7CCC8">国君直接派官吏治理</text>
+  <text x="140" y="186" text-anchor="middle" font-size="11" fill="#D7CCC8">废除贵族世袭特权</text>
+  <text x="140" y="204" text-anchor="middle" font-size="11" fill="#D7CCC8">严明法度</text>
+  <text x="140" y="222" text-anchor="middle" font-size="10" fill="#BCAAA4">→加强中央集权</text>
+  <!-- 经济 -->
+  <rect x="280" y="105" width="240" height="140" rx="6" fill="#795548"/>
+  <text x="400" y="128" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">经济</text>
+  <text x="400" y="150" text-anchor="middle" font-size="11" fill="#D7CCC8">废除旧土地制度</text>
+  <text x="400" y="168" text-anchor="middle" font-size="11" fill="#D7CCC8">鼓励耕织</text>
+  <text x="400" y="186" text-anchor="middle" font-size="11" fill="#D7CCC8">生产粮食布帛多者</text>
+  <text x="400" y="204" text-anchor="middle" font-size="11" fill="#D7CCC8">可免除徭役</text>
+  <text x="400" y="222" text-anchor="middle" font-size="10" fill="#BCAAA4">统一度量衡</text>
+  <!-- 军事 -->
+  <rect x="540" y="105" width="240" height="140" rx="6" fill="#795548"/>
+  <text x="660" y="128" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">军事</text>
+  <text x="660" y="150" text-anchor="middle" font-size="11" fill="#D7CCC8">奖励军功</text>
+  <text x="660" y="168" text-anchor="middle" font-size="11" fill="#D7CCC8">有军功者授予爵位</text>
+  <text x="660" y="186" text-anchor="middle" font-size="11" fill="#D7CCC8">并赏赐土地</text>
+  <text x="660" y="204" text-anchor="middle" font-size="11" fill="#D7CCC8">军功爵制</text>
+  <text x="660" y="222" text-anchor="middle" font-size="10" fill="#BCAAA4">→提升军队战斗力</text>
+  <!-- 结果 -->
+  <rect x="20" y="260" width="760" height="60" rx="6" fill="#A1887F"/>
+  <text x="400" y="283" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">作用：秦国政治·经济·军事实力大增</text>
+  <text x="400" y="303" text-anchor="middle" font-size="12" fill="#D7CCC8">→成为战国后期最强盛的诸侯国→为秦统一中国奠定基础</text>
+  <text x="400" y="318" text-anchor="middle" font-size="11" fill="#BCAAA4">启示：顺应历史潮流的改革终会推行下去（"商鞅虽死，秦法未败"）</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 春秋争霸 | 战国兼并 |

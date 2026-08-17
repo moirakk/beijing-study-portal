@@ -57,6 +57,54 @@ date: 2026-08-05
 | 无为而治 | 道家政治主张，统治者不过多干预 |
 | 私学 | 民间办学，与官学相对，孔子首创规模化私学 |
 
+**知识结构图：诸子百家主要学派**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" style="max-width:100%;height:auto">
+  <rect width="800" height="380" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">百家争鸣：主要学派与核心主张</text>
+  <!-- 中心 -->
+  <ellipse cx="400" cy="190" rx="60" ry="35" fill="#4E342E"/>
+  <text x="400" y="186" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">百家争鸣</text>
+  <text x="400" y="202" text-anchor="middle" font-size="10" fill="#D7CCC8">战国时期</text>
+  <!-- 儒家 -->
+  <rect x="20" y="40" width="170" height="110" rx="6" fill="#795548"/>
+  <text x="105" y="62" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">儒家</text>
+  <text x="105" y="80" text-anchor="middle" font-size="11" fill="#D7CCC8">孔子：仁·为政以德</text>
+  <text x="105" y="96" text-anchor="middle" font-size="11" fill="#D7CCC8">孟子：仁政·民贵君轻</text>
+  <text x="105" y="112" text-anchor="middle" font-size="11" fill="#D7CCC8">荀子：礼治</text>
+  <text x="105" y="130" text-anchor="middle" font-size="10" fill="#BCAAA4">→后成封建正统思想</text>
+  <line x1="190" y1="95" x2="340" y2="175" stroke="#795548" stroke-width="1.5"/>
+  <!-- 道家 -->
+  <rect x="20" y="230" width="170" height="110" rx="6" fill="#795548"/>
+  <text x="105" y="252" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">道家</text>
+  <text x="105" y="270" text-anchor="middle" font-size="11" fill="#D7CCC8">老子：道·无为而治</text>
+  <text x="105" y="286" text-anchor="middle" font-size="11" fill="#D7CCC8">朴素辩证法思想</text>
+  <text x="105" y="302" text-anchor="middle" font-size="11" fill="#D7CCC8">庄子：顺应自然</text>
+  <text x="105" y="318" text-anchor="middle" font-size="10" fill="#BCAAA4">著《道德经》</text>
+  <line x1="190" y1="285" x2="340" y2="205" stroke="#795548" stroke-width="1.5"/>
+  <!-- 墨家 -->
+  <rect x="610" y="40" width="170" height="110" rx="6" fill="#A1887F"/>
+  <text x="695" y="62" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">墨家</text>
+  <text x="695" y="80" text-anchor="middle" font-size="11" fill="#D7CCC8">墨子：兼爱·非攻</text>
+  <text x="695" y="96" text-anchor="middle" font-size="11" fill="#D7CCC8">选贤能治国</text>
+  <text x="695" y="112" text-anchor="middle" font-size="11" fill="#D7CCC8">提倡节俭</text>
+  <text x="695" y="130" text-anchor="middle" font-size="10" fill="#BCAAA4">代表平民利益</text>
+  <line x1="610" y1="95" x2="460" y2="175" stroke="#A1887F" stroke-width="1.5"/>
+  <!-- 法家 -->
+  <rect x="610" y="230" width="170" height="110" rx="6" fill="#A1887F"/>
+  <text x="695" y="252" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">法家</text>
+  <text x="695" y="270" text-anchor="middle" font-size="11" fill="#D7CCC8">韩非：以法治国</text>
+  <text x="695" y="286" text-anchor="middle" font-size="11" fill="#D7CCC8">树立君主权威</text>
+  <text x="695" y="302" text-anchor="middle" font-size="11" fill="#D7CCC8">建立中央集权</text>
+  <text x="695" y="318" text-anchor="middle" font-size="10" fill="#BCAAA4">→最受当时统治者欢迎</text>
+  <line x1="610" y1="285" x2="460" y2="205" stroke="#A1887F" stroke-width="1.5"/>
+  <!-- 兵家 -->
+  <rect x="310" y="330" width="180" height="40" rx="6" fill="#D7CCC8"/>
+  <text x="400" y="348" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">兵家：孙武《孙子兵法》</text>
+  <text x="400" y="364" text-anchor="middle" font-size="11" fill="#795548">"知彼知己，百战不殆"</text>
+  <line x1="400" y1="225" x2="400" y2="330" stroke="#D7CCC8" stroke-width="1.5"/>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 儒家 | 道家 | 墨家 | 法家 |

@@ -57,6 +57,45 @@ date: 2026-08-05
 | 楷书 | 由锺繇独创书体，字形方正规范 |
 | 石窟艺术 | 依山开凿、雕刻佛像的佛教艺术形式 |
 
+**知识结构图：魏晋南北朝科技文化成就**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">魏晋南北朝科技与文化成就</text>
+  <!-- 科技 -->
+  <rect x="20" y="45" width="370" height="130" rx="6" fill="#4E342E"/>
+  <text x="205" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">科技成就</text>
+  <text x="205" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">祖冲之：圆周率精确到小数点后7位</text>
+  <text x="205" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">（3.1415926—3.1415927）领先世界近千年</text>
+  <text x="205" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">贾思勰：《齐民要术》</text>
+  <text x="205" y="142" text-anchor="middle" font-size="11" fill="#D7CCC8">我国现存最早的一部完整农书</text>
+  <text x="205" y="160" text-anchor="middle" font-size="10" fill="#BCAAA4">总结北方农牧业生产经验</text>
+  <!-- 书法绘画 -->
+  <rect x="410" y="45" width="370" height="130" rx="6" fill="#795548"/>
+  <text x="595" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">书法·绘画</text>
+  <text x="595" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">王羲之：《兰亭集序》"书圣"·行书</text>
+  <text x="595" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">顾恺之：《女史箴图》《洛神赋图》</text>
+  <text x="595" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">"以形写神"绘画理论</text>
+  <text x="595" y="142" text-anchor="middle" font-size="11" fill="#D7CCC8">书法成为独立艺术</text>
+  <text x="595" y="160" text-anchor="middle" font-size="10" fill="#BCAAA4">楷书·行书·草书各体完备</text>
+  <!-- 石窟艺术 -->
+  <rect x="20" y="190" width="370" height="90" rx="6" fill="#A1887F"/>
+  <text x="205" y="213" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">石窟艺术</text>
+  <text x="205" y="233" text-anchor="middle" font-size="11" fill="#D7CCC8">云冈石窟（山西大同·北魏迁都前）</text>
+  <text x="205" y="251" text-anchor="middle" font-size="11" fill="#D7CCC8">龙门石窟（河南洛阳·北魏迁都后）</text>
+  <text x="205" y="269" text-anchor="middle" font-size="10" fill="#BCAAA4">佛教艺术与中国传统文化融合</text>
+  <!-- 地理文学 -->
+  <rect x="410" y="190" width="370" height="90" rx="6" fill="#A1887F"/>
+  <text x="595" y="213" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">地理·文学</text>
+  <text x="595" y="233" text-anchor="middle" font-size="11" fill="#D7CCC8">郦道元：《水经注》综合性地理著作</text>
+  <text x="595" y="251" text-anchor="middle" font-size="11" fill="#D7CCC8">陶渊明：田园诗·《桃花源记》</text>
+  <text x="595" y="269" text-anchor="middle" font-size="10" fill="#BCAAA4">文学艺术繁荣</text>
+  <!-- 底部 -->
+  <rect x="20" y="294" width="760" height="32" rx="6" fill="#D7CCC8"/>
+  <text x="400" y="310" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">四大代表人物：祖冲之（数学）·贾思勰（农学）·王羲之（书法）·顾恺之（绘画）</text>
+  <text x="400" y="324" text-anchor="middle" font-size="11" fill="#4E342E">特点：科技文化成就突出，佛教文化兴盛，民族文化交融</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 云冈石窟 | 龙门石窟 |

@@ -60,6 +60,51 @@ date: 2026-08-05
 | 四诊法 | 扁鹊总结的望、闻、问、切诊断方法 |
 | 二十四节气 | 战国时形成的指导农事的历法体系 |
 
+**知识结构图：夏商周科技文化成就**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" style="max-width:100%;height:auto">
+  <rect width="800" height="320" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">夏商周时期科技与文化成就</text>
+  <!-- 甲骨文 -->
+  <rect x="20" y="45" width="230" height="120" rx="6" fill="#4E342E"/>
+  <text x="135" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">甲骨文</text>
+  <text x="135" y="86" text-anchor="middle" font-size="11" fill="#D7CCC8">商朝刻在龟甲兽骨上</text>
+  <text x="135" y="102" text-anchor="middle" font-size="11" fill="#D7CCC8">用于占卜记事</text>
+  <text x="135" y="118" text-anchor="middle" font-size="11" fill="#D7CCC8">1899年王懿荣发现</text>
+  <text x="135" y="134" text-anchor="middle" font-size="10" fill="#BCAAA4">→已知最早的成熟文字</text>
+  <text x="135" y="150" text-anchor="middle" font-size="10" fill="#BCAAA4">→有文字可考历史从商朝始</text>
+  <!-- 青铜器 -->
+  <rect x="285" y="45" width="230" height="120" rx="6" fill="#795548"/>
+  <text x="400" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">青铜器</text>
+  <text x="400" y="86" text-anchor="middle" font-size="11" fill="#D7CCC8">铜锡铅合金·泥范铸造法</text>
+  <text x="400" y="102" text-anchor="middle" font-size="11" fill="#D7CCC8">司母戊鼎（最重）</text>
+  <text x="400" y="118" text-anchor="middle" font-size="11" fill="#D7CCC8">四羊方尊（精美）</text>
+  <text x="400" y="134" text-anchor="middle" font-size="11" fill="#D7CCC8">三星堆（古蜀文明）</text>
+  <text x="400" y="150" text-anchor="middle" font-size="10" fill="#BCAAA4">→权力与地位的象征</text>
+  <!-- 天文历法医学 -->
+  <rect x="550" y="45" width="230" height="120" rx="6" fill="#A1887F"/>
+  <text x="665" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">天文·历法·医学</text>
+  <text x="665" y="86" text-anchor="middle" font-size="11" fill="#D7CCC8">甲骨文记日食月食</text>
+  <text x="665" y="102" text-anchor="middle" font-size="11" fill="#D7CCC8">战国：二十四节气</text>
+  <text x="665" y="118" text-anchor="middle" font-size="11" fill="#D7CCC8">扁鹊：望闻问切四诊法</text>
+  <text x="665" y="134" text-anchor="middle" font-size="11" fill="#D7CCC8">《黄帝内经》</text>
+  <text x="665" y="150" text-anchor="middle" font-size="10" fill="#BCAAA4">→中医理论奠基</text>
+  <!-- 文学 -->
+  <rect x="20" y="185" width="370" height="115" rx="6" fill="#795548"/>
+  <text x="205" y="208" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">文学：《诗经》与"楚辞"</text>
+  <text x="205" y="228" text-anchor="middle" font-size="11" fill="#D7CCC8">《诗经》：西周至春秋·300多篇·风雅颂·现实主义</text>
+  <text x="205" y="246" text-anchor="middle" font-size="11" fill="#D7CCC8">→我国现存第一部诗歌总集</text>
+  <text x="205" y="264" text-anchor="middle" font-size="11" fill="#D7CCC8">"楚辞"：战国·屈原·《离骚》·浪漫主义</text>
+  <text x="205" y="282" text-anchor="middle" font-size="10" fill="#BCAAA4">→两者是古典诗歌的两大源头</text>
+  <!-- 易错提示 -->
+  <rect x="410" y="185" width="370" height="115" rx="6" fill="#D7CCC8"/>
+  <text x="595" y="208" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">易错提示</text>
+  <text x="595" y="228" text-anchor="middle" font-size="11" fill="#4E342E">司母戊鼎是"最重"非"最大"</text>
+  <text x="595" y="246" text-anchor="middle" font-size="11" fill="#4E342E">甲骨文是"已知最早的成熟文字"</text>
+  <text x="595" y="264" text-anchor="middle" font-size="11" fill="#4E342E">非"最早的文字符号"</text>
+  <text x="595" y="282" text-anchor="middle" font-size="11" fill="#4E342E">有文字可考历史从商朝开始</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 《诗经》 | "楚辞" |

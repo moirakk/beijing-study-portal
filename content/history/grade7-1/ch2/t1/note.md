@@ -25,6 +25,60 @@ date: 2026-08-05
 | 公元前356年 | 商鞅在秦国主持变法 |
 | 公元前256年 | 李冰主持修建都江堰（战国后期） |
 
+**时间轴：夏商周时期大事年表**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" style="max-width:100%;height:auto">
+  <rect width="820" height="200" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">夏商周时期大事时间轴（公元前2070—前221年）</text>
+  <!-- 主轴 -->
+  <line x1="40" y1="80" x2="780" y2="80" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,75 795,80 780,85" fill="#795548"/>
+  <!-- 刻度点 -->
+  <circle cx="80" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="200" cy="80" r="7" fill="#4E342E"/>
+  <circle cx="330" cy="80" r="7" fill="#795548"/>
+  <circle cx="430" cy="80" r="7" fill="#795548"/>
+  <circle cx="510" cy="80" r="7" fill="#795548"/>
+  <circle cx="590" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="680" cy="80" r="7" fill="#A1887F"/>
+  <circle cx="750" cy="80" r="7" fill="#A1887F"/>
+  <!-- 上方标注 -->
+  <line x1="80" y1="73" x2="80" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="80" y="36" text-anchor="middle" font-size="10" fill="#3E2723">约前2070年</text>
+  <text x="80" y="48" text-anchor="middle" font-size="9" fill="#4E342E">禹建夏朝</text>
+  <line x1="330" y1="73" x2="330" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="330" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前1046年</text>
+  <text x="330" y="48" text-anchor="middle" font-size="9" fill="#4E342E">牧野之战·西周建立</text>
+  <line x1="510" y1="73" x2="510" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="510" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前770年</text>
+  <text x="510" y="48" text-anchor="middle" font-size="9" fill="#4E342E">平王东迁·东周始</text>
+  <line x1="680" y1="73" x2="680" y2="42" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="680" y="36" text-anchor="middle" font-size="10" fill="#3E2723">前356年</text>
+  <text x="680" y="48" text-anchor="middle" font-size="9" fill="#4E342E">商鞅变法</text>
+  <!-- 下方标注 -->
+  <line x1="200" y1="87" x2="200" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="200" y="140" text-anchor="middle" font-size="10" fill="#3E2723">约前1600年</text>
+  <text x="200" y="152" text-anchor="middle" font-size="9" fill="#4E342E">汤灭夏·商建立</text>
+  <line x1="430" y1="87" x2="430" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="430" y="140" text-anchor="middle" font-size="10" fill="#3E2723">前841年</text>
+  <text x="430" y="152" text-anchor="middle" font-size="9" fill="#4E342E">国人暴动</text>
+  <line x1="590" y1="87" x2="590" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="590" y="140" text-anchor="middle" font-size="10" fill="#3E2723">前475年</text>
+  <text x="590" y="152" text-anchor="middle" font-size="9" fill="#4E342E">战国时期开始</text>
+  <line x1="750" y1="87" x2="750" y2="128" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="750" y="140" text-anchor="middle" font-size="10" fill="#3E2723">前256年</text>
+  <text x="750" y="152" text-anchor="middle" font-size="9" fill="#4E342E">都江堰建成</text>
+  <!-- 朝代色块 -->
+  <rect x="42" y="165" width="148" height="20" rx="3" fill="#4E342E"/>
+  <text x="116" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">夏（前2070—前1600）</text>
+  <rect x="198" y="165" width="124" height="20" rx="3" fill="#795548"/>
+  <text x="260" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">商（前1600—前1046）</text>
+  <rect x="330" y="165" width="172" height="20" rx="3" fill="#A1887F"/>
+  <text x="416" y="179" text-anchor="middle" font-size="10" fill="#EFEBE9">西周（前1046—前771）</text>
+  <rect x="510" y="165" width="260" height="20" rx="3" fill="#BCAAA4"/>
+  <text x="640" y="179" text-anchor="middle" font-size="10" fill="#3E2723">东周：春秋（前770—前476）·战国（前475—前221）</text>
+</svg>
+
 ## 三、单元知识框架
 
 ### 1. 五课内容的逻辑线索

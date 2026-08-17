@@ -61,6 +61,53 @@ date: 2026-08-05
 | 郡县制 | 地方设郡、县两级，长官由朝廷直接任免的制度 |
 | 小篆 | 秦统一后颁行全国的标准文字 |
 
+**知识结构图：秦朝中央集权制度**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" style="max-width:100%;height:auto">
+  <rect width="800" height="360" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">秦朝中央集权制度与巩固统一措施</text>
+  <!-- 皇帝 -->
+  <rect x="300" y="45" width="200" height="50" rx="6" fill="#4E342E"/>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#EFEBE9" font-weight="bold">皇帝（嬴政·始皇帝）</text>
+  <text x="400" y="86" text-anchor="middle" font-size="11" fill="#D7CCC8">至高无上·总揽军政大权</text>
+  <!-- 中央三公 -->
+  <line x1="400" y1="95" x2="400" y2="120" stroke="#795548" stroke-width="2"/>
+  <rect x="80" y="120" width="180" height="55" rx="6" fill="#795548"/>
+  <text x="170" y="143" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">丞相</text>
+  <text x="170" y="161" text-anchor="middle" font-size="11" fill="#D7CCC8">行政</text>
+  <rect x="310" y="120" width="180" height="55" rx="6" fill="#795548"/>
+  <text x="400" y="143" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">太尉</text>
+  <text x="400" y="161" text-anchor="middle" font-size="11" fill="#D7CCC8">军事</text>
+  <rect x="540" y="120" width="180" height="55" rx="6" fill="#795548"/>
+  <text x="630" y="143" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">御史大夫</text>
+  <text x="630" y="161" text-anchor="middle" font-size="11" fill="#D7CCC8">监察</text>
+  <line x1="260" y1="120" x2="400" y2="120" stroke="#795548" stroke-width="1.5"/>
+  <line x1="400" y1="120" x2="540" y2="120" stroke="#795548" stroke-width="1.5"/>
+  <line x1="170" y1="120" x2="170" y2="120" stroke="#795548" stroke-width="1.5"/>
+  <!-- 地方郡县 -->
+  <line x1="400" y1="175" x2="400" y2="200" stroke="#795548" stroke-width="2"/>
+  <rect x="200" y="200" width="400" height="50" rx="6" fill="#A1887F"/>
+  <text x="400" y="223" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">地方：郡县制（废分封）</text>
+  <text x="400" y="241" text-anchor="middle" font-size="11" fill="#D7CCC8">郡县长官由朝廷直接任免·开创历代地方行政基本模式</text>
+  <!-- 巩固统一措施 -->
+  <text x="400" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E2723">巩固统一的措施</text>
+  <rect x="20" y="285" width="175" height="60" rx="4" fill="#D7CCC8"/>
+  <text x="107" y="305" text-anchor="middle" font-size="11" fill="#3E2723" font-weight="bold">文化</text>
+  <text x="107" y="321" text-anchor="middle" font-size="10" fill="#4E342E">统一文字→小篆</text>
+  <rect x="205" y="285" width="175" height="60" rx="4" fill="#D7CCC8"/>
+  <text x="292" y="305" text-anchor="middle" font-size="11" fill="#3E2723" font-weight="bold">经济</text>
+  <text x="292" y="321" text-anchor="middle" font-size="10" fill="#4E342E">统一货币（半两钱）</text>
+  <text x="292" y="337" text-anchor="middle" font-size="10" fill="#4E342E">统一度量衡</text>
+  <rect x="390" y="285" width="175" height="60" rx="4" fill="#D7CCC8"/>
+  <text x="477" y="305" text-anchor="middle" font-size="11" fill="#3E2723" font-weight="bold">交通</text>
+  <text x="477" y="321" text-anchor="middle" font-size="10" fill="#4E342E">统一车轨·修驰道</text>
+  <text x="477" y="337" text-anchor="middle" font-size="10" fill="#4E342E">开凿灵渠</text>
+  <rect x="575" y="285" width="205" height="60" rx="4" fill="#D7CCC8"/>
+  <text x="677" y="305" text-anchor="middle" font-size="11" fill="#3E2723" font-weight="bold">军事·边疆</text>
+  <text x="677" y="321" text-anchor="middle" font-size="10" fill="#4E342E">蒙恬北击匈奴</text>
+  <text x="677" y="337" text-anchor="middle" font-size="10" fill="#4E342E">修长城（临洮→辽东）</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 分封制（西周） | 郡县制（秦） |

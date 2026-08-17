@@ -54,6 +54,48 @@ date: 2026-08-05
 | 多元一体 | 中华文明多区域起源、逐渐融汇一体的特征 |
 | 史料实证 | 依据可靠史料对历史作出论证的方法与素养 |
 
+**知识结构图：中华文明起源的多元一体格局**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" style="max-width:100%;height:auto">
+  <rect width="800" height="300" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">考古发现：中华文明起源的多元一体</text>
+  <!-- 中心 -->
+  <ellipse cx="400" cy="155" rx="80" ry="40" fill="#4E342E"/>
+  <text x="400" y="150" text-anchor="middle" font-size="12" fill="#EFEBE9" font-weight="bold">中华文明</text>
+  <text x="400" y="168" text-anchor="middle" font-size="11" fill="#D7CCC8">多元一体</text>
+  <!-- 良渚 -->
+  <rect x="20" y="40" width="180" height="80" rx="6" fill="#795548"/>
+  <text x="110" y="62" text-anchor="middle" font-size="11" fill="#EFEBE9" font-weight="bold">良渚古城</text>
+  <text x="110" y="80" text-anchor="middle" font-size="10" fill="#D7CCC8">浙江余杭·长江下游</text>
+  <text x="110" y="96" text-anchor="middle" font-size="10" fill="#D7CCC8">约5300—4300年前</text>
+  <text x="110" y="112" text-anchor="middle" font-size="9" fill="#BCAAA4">古城·水利·玉琮玉璧</text>
+  <line x1="200" y1="80" x2="320" y2="140" stroke="#795548" stroke-width="1.5"/>
+  <!-- 陶寺 -->
+  <rect x="20" y="180" width="180" height="80" rx="6" fill="#795548"/>
+  <text x="110" y="202" text-anchor="middle" font-size="11" fill="#EFEBE9" font-weight="bold">陶寺古城</text>
+  <text x="110" y="220" text-anchor="middle" font-size="10" fill="#D7CCC8">山西襄汾·黄河中游</text>
+  <text x="110" y="236" text-anchor="middle" font-size="10" fill="#D7CCC8">约4300—4000年前</text>
+  <text x="110" y="252" text-anchor="middle" font-size="9" fill="#BCAAA4">宫城·大墓·观象台</text>
+  <line x1="200" y1="220" x2="320" y2="165" stroke="#795548" stroke-width="1.5"/>
+  <!-- 牛河梁 -->
+  <rect x="600" y="40" width="180" height="80" rx="6" fill="#A1887F"/>
+  <text x="690" y="62" text-anchor="middle" font-size="11" fill="#EFEBE9" font-weight="bold">牛河梁遗址</text>
+  <text x="690" y="80" text-anchor="middle" font-size="10" fill="#D7CCC8">辽宁·红山文化</text>
+  <text x="690" y="96" text-anchor="middle" font-size="10" fill="#D7CCC8">约5900—5000年前</text>
+  <text x="690" y="112" text-anchor="middle" font-size="9" fill="#BCAAA4">祭坛·女神庙·积石冢</text>
+  <line x1="600" y1="80" x2="480" y2="140" stroke="#A1887F" stroke-width="1.5"/>
+  <!-- 二里头 -->
+  <rect x="600" y="180" width="180" height="80" rx="6" fill="#A1887F"/>
+  <text x="690" y="202" text-anchor="middle" font-size="11" fill="#EFEBE9" font-weight="bold">二里头遗址</text>
+  <text x="690" y="220" text-anchor="middle" font-size="10" fill="#D7CCC8">河南洛阳·黄河流域</text>
+  <text x="690" y="236" text-anchor="middle" font-size="10" fill="#D7CCC8">约4100—3500年前</text>
+  <text x="690" y="252" text-anchor="middle" font-size="9" fill="#BCAAA4">宫殿·青铜礼器（疑夏都）</text>
+  <line x1="600" y1="220" x2="480" y2="165" stroke="#A1887F" stroke-width="1.5"/>
+  <!-- 结论 -->
+  <rect x="200" y="260" width="400" height="30" rx="6" fill="#D7CCC8"/>
+  <text x="400" y="278" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">结论：实证中华文明有5000多年历史</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 传说 | 考古发现 |

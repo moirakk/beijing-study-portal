@@ -24,6 +24,56 @@ date: 2026-08-05
 | 约5000多年前 | 良渚、陶寺等古城出现，中华文明起源 |
 | 约4000多年前 | 传说中炎帝、黄帝、尧舜禹的时代 |
 
+**时间轴：**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" style="max-width:100%;height:auto">
+  <rect width="820" height="220" fill="#EFEBE9" rx="10"/>
+  <text x="410" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">第一单元史前时期大事时间轴</text>
+  <!-- 主轴线 -->
+  <line x1="40" y1="90" x2="780" y2="90" stroke="#795548" stroke-width="3"/>
+  <polygon points="780,85 795,90 780,95" fill="#795548"/>
+  <!-- 刻度点 -->
+  <circle cx="80" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="190" cy="90" r="7" fill="#4E342E"/>
+  <circle cx="310" cy="90" r="7" fill="#795548"/>
+  <circle cx="420" cy="90" r="7" fill="#795548"/>
+  <circle cx="510" cy="90" r="7" fill="#795548"/>
+  <circle cx="590" cy="90" r="7" fill="#795548"/>
+  <circle cx="680" cy="90" r="7" fill="#A1887F"/>
+  <circle cx="750" cy="90" r="7" fill="#A1887F"/>
+  <!-- 上方标注（奇数） -->
+  <line x1="80" y1="83" x2="80" y2="50" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="80" y="44" text-anchor="middle" font-size="10" fill="#3E2723">约170万年前</text>
+  <text x="80" y="56" text-anchor="middle" font-size="9" fill="#4E342E">元谋人</text>
+  <line x1="310" y1="83" x2="310" y2="50" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="310" y="44" text-anchor="middle" font-size="10" fill="#3E2723">约3万年前</text>
+  <text x="310" y="56" text-anchor="middle" font-size="9" fill="#4E342E">山顶洞人</text>
+  <line x1="510" y1="83" x2="510" y2="50" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="510" y="44" text-anchor="middle" font-size="10" fill="#3E2723">约7000年前</text>
+  <text x="510" y="56" text-anchor="middle" font-size="9" fill="#4E342E">河姆渡人</text>
+  <line x1="680" y1="83" x2="680" y2="50" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="680" y="44" text-anchor="middle" font-size="10" fill="#3E2723">约5000多年前</text>
+  <text x="680" y="56" text-anchor="middle" font-size="9" fill="#4E342E">良渚·陶寺</text>
+  <!-- 下方标注（偶数） -->
+  <line x1="190" y1="97" x2="190" y2="140" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="190" y="152" text-anchor="middle" font-size="10" fill="#3E2723">约70万—20万年前</text>
+  <text x="190" y="164" text-anchor="middle" font-size="9" fill="#4E342E">北京人</text>
+  <line x1="420" y1="97" x2="420" y2="140" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="420" y="152" text-anchor="middle" font-size="10" fill="#3E2723">约1万年前</text>
+  <text x="420" y="164" text-anchor="middle" font-size="9" fill="#4E342E">新石器时代·原始农业</text>
+  <line x1="590" y1="97" x2="590" y2="140" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="590" y="152" text-anchor="middle" font-size="10" fill="#3E2723">约6000年前</text>
+  <text x="590" y="164" text-anchor="middle" font-size="9" fill="#4E342E">半坡人</text>
+  <line x1="750" y1="97" x2="750" y2="140" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="750" y="152" text-anchor="middle" font-size="10" fill="#3E2723">约4000多年前</text>
+  <text x="750" y="164" text-anchor="middle" font-size="9" fill="#4E342E">炎黄·尧舜禹</text>
+  <!-- 时代分区标注 -->
+  <rect x="42" y="185" width="260" height="22" rx="4" fill="#D7CCC8"/>
+  <text x="172" y="200" text-anchor="middle" font-size="11" fill="#3E2723">旧石器时代（打制石器）</text>
+  <rect x="310" y="185" width="460" height="22" rx="4" fill="#BCAAA4"/>
+  <text x="540" y="200" text-anchor="middle" font-size="11" fill="#3E2723">新石器时代（磨制石器·原始农业·聚落·文明起源）</text>
+</svg>
+
 ## 三、单元知识框架
 
 ### 1. 三课内容的逻辑线索

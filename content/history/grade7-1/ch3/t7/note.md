@@ -53,6 +53,50 @@ date: 2026-08-05
 | 西域都护 | 西汉管理西域的最高长官 |
 | 大秦 | 汉代对罗马帝国的称呼 |
 
+**知识结构图：丝绸之路路线示意**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" style="max-width:100%;height:auto">
+  <rect width="800" height="260" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">陆上丝绸之路路线与张骞出使西域</text>
+  <!-- 路线箭头 -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#795548"/>
+    </marker>
+  </defs>
+  <line x1="80" y1="120" x2="720" y2="120" stroke="#795548" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="8,4"/>
+  <!-- 地点节点 -->
+  <circle cx="80" cy="120" r="18" fill="#4E342E"/>
+  <text x="80" y="116" text-anchor="middle" font-size="10" fill="#EFEBE9" font-weight="bold">长安</text>
+  <text x="80" y="128" text-anchor="middle" font-size="9" fill="#D7CCC8">起点</text>
+  <circle cx="220" cy="120" r="18" fill="#795548"/>
+  <text x="220" y="116" text-anchor="middle" font-size="10" fill="#EFEBE9" font-weight="bold">河西</text>
+  <text x="220" y="128" text-anchor="middle" font-size="9" fill="#D7CCC8">走廊</text>
+  <circle cx="360" cy="120" r="18" fill="#795548"/>
+  <text x="360" y="116" text-anchor="middle" font-size="10" fill="#EFEBE9" font-weight="bold">西域</text>
+  <text x="360" y="128" text-anchor="middle" font-size="9" fill="#D7CCC8">新疆</text>
+  <circle cx="500" cy="120" r="18" fill="#A1887F"/>
+  <text x="500" y="116" text-anchor="middle" font-size="10" fill="#EFEBE9" font-weight="bold">中亚</text>
+  <text x="500" y="128" text-anchor="middle" font-size="9" fill="#D7CCC8">西亚</text>
+  <circle cx="640" cy="120" r="18" fill="#A1887F"/>
+  <text x="640" y="116" text-anchor="middle" font-size="10" fill="#EFEBE9" font-weight="bold">欧洲</text>
+  <text x="640" y="128" text-anchor="middle" font-size="9" fill="#D7CCC8">大秦</text>
+  <!-- 张骞出使标注 -->
+  <rect x="20" y="155" width="360" height="90" rx="6" fill="#D7CCC8"/>
+  <text x="200" y="175" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">张骞两次出使西域</text>
+  <text x="200" y="193" text-anchor="middle" font-size="11" fill="#4E342E">第一次（前138年）：联络大月氏夹击匈奴</text>
+  <text x="200" y="209" text-anchor="middle" font-size="11" fill="#4E342E">→两次被扣留，未达军事目的，了解西域情况</text>
+  <text x="200" y="225" text-anchor="middle" font-size="11" fill="#4E342E">第二次（前119年）：走访各国，促进友好往来</text>
+  <text x="200" y="241" text-anchor="middle" font-size="10" fill="#795548">→"凿空"西域，为丝路开通奠定基础</text>
+  <!-- 交流内容 -->
+  <rect x="400" y="155" width="380" height="90" rx="6" fill="#BCAAA4"/>
+  <text x="590" y="175" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">丝路交流内容</text>
+  <text x="590" y="193" text-anchor="middle" font-size="11" fill="#4E342E">西传：丝绸·漆器·茶叶·凿井·冶铁技术</text>
+  <text x="590" y="209" text-anchor="middle" font-size="11" fill="#4E342E">东来：核桃·葡萄·石榴·苜蓿·良种马·乐器</text>
+  <text x="590" y="225" text-anchor="middle" font-size="11" fill="#4E342E">前60年：设西域都护→西域正式归属中央</text>
+  <text x="590" y="241" text-anchor="middle" font-size="10" fill="#795548">→古代东西方往来的大动脉</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 张骞第一次出使 | 张骞第二次出使 |

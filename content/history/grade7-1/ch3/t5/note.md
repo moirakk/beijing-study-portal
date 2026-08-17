@@ -62,6 +62,51 @@ date: 2026-08-05
 | 太学 | 汉武帝在长安设立的最高学府 |
 | 盐铁官营 | 盐和铁由国家垄断经营 |
 
+**知识结构图：汉武帝巩固大一统的四大措施**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" style="max-width:100%;height:auto">
+  <rect width="800" height="360" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">汉武帝巩固大一统的四大措施</text>
+  <!-- 中心 -->
+  <ellipse cx="400" cy="185" rx="75" ry="40" fill="#4E342E"/>
+  <text x="400" y="180" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">汉武帝</text>
+  <text x="400" y="198" text-anchor="middle" font-size="11" fill="#D7CCC8">大一统鼎盛</text>
+  <!-- 政治 -->
+  <rect x="20" y="40" width="200" height="130" rx="6" fill="#795548"/>
+  <text x="120" y="65" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">政治</text>
+  <text x="120" y="85" text-anchor="middle" font-size="11" fill="#D7CCC8">推恩令（主父偃）</text>
+  <text x="120" y="103" text-anchor="middle" font-size="11" fill="#D7CCC8">诸侯国越分越小</text>
+  <text x="120" y="121" text-anchor="middle" font-size="11" fill="#D7CCC8">刺史制度</text>
+  <text x="120" y="139" text-anchor="middle" font-size="11" fill="#D7CCC8">监察地方官吏豪强</text>
+  <text x="120" y="157" text-anchor="middle" font-size="10" fill="#BCAAA4">→加强中央集权</text>
+  <line x1="220" y1="105" x2="325" y2="175" stroke="#795548" stroke-width="1.5"/>
+  <!-- 思想 -->
+  <rect x="580" y="40" width="200" height="130" rx="6" fill="#795548"/>
+  <text x="680" y="65" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">思想</text>
+  <text x="680" y="85" text-anchor="middle" font-size="11" fill="#D7CCC8">尊崇儒术（董仲舒）</text>
+  <text x="680" y="103" text-anchor="middle" font-size="11" fill="#D7CCC8">儒学立为正统思想</text>
+  <text x="680" y="121" text-anchor="middle" font-size="11" fill="#D7CCC8">兴办太学（长安）</text>
+  <text x="680" y="139" text-anchor="middle" font-size="11" fill="#D7CCC8">以五经为教材</text>
+  <text x="680" y="157" text-anchor="middle" font-size="10" fill="#BCAAA4">→儒学居主导地位</text>
+  <line x1="580" y1="105" x2="475" y2="175" stroke="#795548" stroke-width="1.5"/>
+  <!-- 经济 -->
+  <rect x="20" y="240" width="200" height="105" rx="6" fill="#A1887F"/>
+  <text x="120" y="265" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">经济</text>
+  <text x="120" y="285" text-anchor="middle" font-size="11" fill="#D7CCC8">统一铸五铢钱</text>
+  <text x="120" y="303" text-anchor="middle" font-size="11" fill="#D7CCC8">盐铁官营专卖</text>
+  <text x="120" y="321" text-anchor="middle" font-size="11" fill="#D7CCC8">均输平准（平抑物价）</text>
+  <text x="120" y="337" text-anchor="middle" font-size="10" fill="#BCAAA4">→中央财政大为改善</text>
+  <line x1="220" y1="265" x2="325" y2="200" stroke="#A1887F" stroke-width="1.5"/>
+  <!-- 军事 -->
+  <rect x="580" y="240" width="200" height="105" rx="6" fill="#A1887F"/>
+  <text x="680" y="265" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">军事</text>
+  <text x="680" y="285" text-anchor="middle" font-size="11" fill="#D7CCC8">北击匈奴</text>
+  <text x="680" y="303" text-anchor="middle" font-size="11" fill="#D7CCC8">前119年漠北战役</text>
+  <text x="680" y="321" text-anchor="middle" font-size="11" fill="#D7CCC8">卫青·霍去病大败匈奴</text>
+  <text x="680" y="337" text-anchor="middle" font-size="10" fill="#BCAAA4">→匈奴再无力对抗西汉</text>
+  <line x1="580" y1="265" x2="475" y2="200" stroke="#A1887F" stroke-width="1.5"/>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 秦始皇 | 汉武帝 |

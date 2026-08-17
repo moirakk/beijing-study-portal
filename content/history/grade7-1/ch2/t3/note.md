@@ -55,6 +55,53 @@ date: 2026-08-05
 | 霸主 | 通过会盟等方式取得诸侯领导地位的强国国君 |
 | 华夏认同 | 春秋时期中原各国与周边民族交融中产生的民族认同观念 |
 
+**知识结构图：春秋时期王室衰微与诸侯争霸**
+
+```mermaid
+flowchart LR
+    A["前770年\n平王东迁洛邑\n东周开始"] --> B["王室衰微\n财力兵力大减\n天子依附强国"]
+    B --> C["诸侯争霸\n口号：尊王攘夷"]
+    C --> D["齐桓公\n任用管仲改革\n春秋首霸"]
+    C --> E["晋文公·楚庄王\n秦穆公等相继称霸"]
+    C --> F["吴王阖闾·越王勾践\n春秋末期争霸"]
+    D --> G["争霸影响"]
+    E --> G
+    F --> G
+    G --> H["消极：战争给人民带来灾难"]
+    G --> I["积极：局部统一·民族交融\n华夏认同观念形成"]
+    style A fill:#4E342E,color:#EFEBE9
+    style B fill:#795548,color:#EFEBE9
+    style C fill:#A1887F,color:#EFEBE9
+    style D fill:#D7CCC8,color:#3E2723
+    style G fill:#795548,color:#EFEBE9
+```
+
+**知识结构图：春秋时期经济发展**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" style="max-width:100%;height:auto">
+  <rect width="700" height="160" fill="#EFEBE9" rx="10"/>
+  <text x="350" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">春秋时期经济发展（三大领域）</text>
+  <!-- 农业 -->
+  <rect x="30" y="45" width="190" height="100" rx="6" fill="#4E342E"/>
+  <text x="125" y="70" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">农业</text>
+  <text x="125" y="90" text-anchor="middle" font-size="11" fill="#D7CCC8">铁制农具出现</text>
+  <text x="125" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">牛耕出现</text>
+  <text x="125" y="122" text-anchor="middle" font-size="10" fill="#BCAAA4">→生产力提高的重要标志</text>
+  <text x="125" y="136" text-anchor="middle" font-size="10" fill="#BCAAA4">（春秋后期出现）</text>
+  <!-- 手工业 -->
+  <rect x="255" y="45" width="190" height="100" rx="6" fill="#795548"/>
+  <text x="350" y="70" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">手工业</text>
+  <text x="350" y="90" text-anchor="middle" font-size="11" fill="#D7CCC8">青铜业·冶铁业</text>
+  <text x="350" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">纺织业·煮盐业</text>
+  <text x="350" y="122" text-anchor="middle" font-size="10" fill="#BCAAA4">规模扩大</text>
+  <!-- 商业 -->
+  <rect x="480" y="45" width="190" height="100" rx="6" fill="#A1887F"/>
+  <text x="575" y="70" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">商业</text>
+  <text x="575" y="90" text-anchor="middle" font-size="11" fill="#D7CCC8">商品交换市场出现</text>
+  <text x="575" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">金属货币广泛使用</text>
+  <text x="575" y="122" text-anchor="middle" font-size="10" fill="#BCAAA4">产品交换增多</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 西周 | 春秋 |

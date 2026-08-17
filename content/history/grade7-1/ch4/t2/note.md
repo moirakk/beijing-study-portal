@@ -62,6 +62,48 @@ date: 2026-08-05
 | 屯田 | 组织军民垦荒种地以解决军粮的措施 |
 | 三国鼎立 | 魏、蜀、吴三个政权并立对峙的局面 |
 
+**知识结构图：三国鼎立形成过程**
+
+```mermaid
+flowchart LR
+    A["东汉末年\n军阀割据\n曹操·刘备·孙权\n势力崛起"] -->|"200年\n官渡之战\n曹操以少胜多\n袁绍"| B["曹操统一北方\n挟天子以令诸侯"]
+    B -->|"208年\n赤壁之战\n孙刘联军以少胜多\n曹操南下受阻"| C["三国鼎立局面形成"]
+    C --> D["220年\n曹丕称帝\n建魏·都洛阳"]
+    C --> E["221年\n刘备称帝\n建蜀汉·都成都"]
+    C --> F["222年\n孙权称王\n建吴·都建业"]
+    D --> G["263年\n魏灭蜀"]
+    G -->|"265年\n司马炎建晋"| H["280年\n西晋灭吴\n短暂统一"]
+    style A fill:#4E342E,color:#EFEBE9
+    style B fill:#795548,color:#EFEBE9
+    style C fill:#A1887F,color:#EFEBE9
+    style H fill:#795548,color:#EFEBE9
+```
+
+**知识结构图：三国经济发展**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" style="max-width:100%;height:auto">
+  <rect width="700" height="160" fill="#EFEBE9" rx="10"/>
+  <text x="350" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#3E2723">三国时期各地区经济发展</text>
+  <!-- 魏 -->
+  <rect x="20" y="45" width="200" height="100" rx="6" fill="#4E342E"/>
+  <text x="120" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">魏（北方）</text>
+  <text x="120" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">修建许多水利工程</text>
+  <text x="120" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">北方生产逐渐恢复</text>
+  <text x="120" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">丝织业发达</text>
+  <!-- 蜀汉 -->
+  <rect x="250" y="45" width="200" height="100" rx="6" fill="#795548"/>
+  <text x="350" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">蜀汉（西南）</text>
+  <text x="350" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">丝织业兴旺</text>
+  <text x="350" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">蜀锦行销三国</text>
+  <text x="350" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">诸葛亮治蜀有方</text>
+  <!-- 吴 -->
+  <rect x="480" y="45" width="200" height="100" rx="6" fill="#A1887F"/>
+  <text x="580" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">吴（江南）</text>
+  <text x="580" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">开发江南</text>
+  <text x="580" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">造船业发达</text>
+  <text x="580" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">船队到达夷洲（台湾）</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 官渡之战 | 赤壁之战 |

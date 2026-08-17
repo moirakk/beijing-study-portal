@@ -53,6 +53,58 @@ date: 2026-08-05
 | 天然火 | 雷电、火山等自然原因产生的火，北京人会使用和保存 |
 | 群居 | 原始人类为对抗险恶环境而结成群体共同生活的方式 |
 
+**知识结构图：北京人与山顶洞人对比**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" style="max-width:100%;height:auto">
+  <rect width="800" height="320" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">远古人类对比：北京人 vs 山顶洞人</text>
+  <!-- 表头 -->
+  <rect x="20" y="45" width="200" height="36" rx="4" fill="#4E342E"/>
+  <text x="120" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">对比项</text>
+  <rect x="228" y="45" width="260" height="36" rx="4" fill="#795548"/>
+  <text x="358" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">北京人（约70万—20万年前）</text>
+  <rect x="496" y="45" width="284" height="36" rx="4" fill="#A1887F"/>
+  <text x="638" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">山顶洞人（约3万年前）</text>
+  <!-- 行1：体貌 -->
+  <rect x="20" y="88" width="200" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="120" y="111" text-anchor="middle" font-size="12" fill="#3E2723">体貌特征</text>
+  <rect x="228" y="88" width="260" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="358" y="111" text-anchor="middle" font-size="12" fill="#3E2723">保留猿的特征，前额低平</text>
+  <rect x="496" y="88" width="284" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="638" y="111" text-anchor="middle" font-size="12" fill="#3E2723">与现代人基本相同</text>
+  <!-- 行2：工具 -->
+  <rect x="20" y="130" width="200" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="120" y="153" text-anchor="middle" font-size="12" fill="#3E2723">生产工具</text>
+  <rect x="228" y="130" width="260" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="358" y="153" text-anchor="middle" font-size="12" fill="#3E2723">打制石器（砍砸器、刮削器）</text>
+  <rect x="496" y="130" width="284" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="638" y="153" text-anchor="middle" font-size="12" fill="#3E2723">打制石器+掌握磨光、钻孔技术</text>
+  <!-- 行3：用火 -->
+  <rect x="20" y="172" width="200" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="120" y="195" text-anchor="middle" font-size="12" fill="#3E2723">用火情况</text>
+  <rect x="228" y="172" width="260" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="358" y="195" text-anchor="middle" font-size="12" fill="#3E2723">使用天然火、保存火种</text>
+  <rect x="496" y="172" width="284" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="638" y="195" text-anchor="middle" font-size="12" fill="#3E2723">可能已会人工取火</text>
+  <!-- 行4：精神生活 -->
+  <rect x="20" y="214" width="200" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="120" y="237" text-anchor="middle" font-size="12" fill="#3E2723">精神生活</text>
+  <rect x="228" y="214" width="260" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="358" y="237" text-anchor="middle" font-size="12" fill="#3E2723">——</text>
+  <rect x="496" y="214" width="284" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="638" y="237" text-anchor="middle" font-size="12" fill="#3E2723">佩戴装饰品、埋葬死者</text>
+  <!-- 行5：生活方式 -->
+  <rect x="20" y="256" width="200" height="36" rx="2" fill="#D7CCC8"/>
+  <text x="120" y="279" text-anchor="middle" font-size="12" fill="#3E2723">生活方式</text>
+  <rect x="228" y="256" width="260" height="36" rx="2" fill="#EFEBE9"/>
+  <text x="358" y="279" text-anchor="middle" font-size="12" fill="#3E2723">群居，共同劳动分享食物</text>
+  <rect x="496" y="256" width="284" height="36" rx="2" fill="#FFF8F5"/>
+  <text x="638" y="279" text-anchor="middle" font-size="12" fill="#3E2723">采集、狩猎、捕鱼</text>
+  <!-- 重点标注 -->
+  <rect x="20" y="298" width="760" height="16" rx="3" fill="#BCAAA4"/>
+  <text x="400" y="310" text-anchor="middle" font-size="10" fill="#3E2723">★ 学会用火是人类进化史上的里程碑（北京人使用天然火）</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 北京人 | 山顶洞人 |

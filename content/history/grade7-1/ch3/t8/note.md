@@ -60,6 +60,50 @@ date: 2026-08-05
 | 治未病 | 张仲景提出的疾病预防思想 |
 | 本土宗教 | 在中国产生的宗教，指道教 |
 
+**知识结构图：秦汉科技文化成就**
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" style="max-width:100%;height:auto">
+  <rect width="800" height="340" fill="#EFEBE9" rx="10"/>
+  <text x="400" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#3E2723">秦汉时期科技与文化成就</text>
+  <!-- 造纸术 -->
+  <rect x="20" y="45" width="230" height="110" rx="6" fill="#4E342E"/>
+  <text x="135" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">造纸术</text>
+  <text x="135" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">西汉：已掌握造纸方法</text>
+  <text x="135" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">105年蔡伦改进</text>
+  <text x="135" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">树皮·麻头·破布·旧渔网</text>
+  <text x="135" y="142" text-anchor="middle" font-size="10" fill="#BCAAA4">→"蔡侯纸"·世界文明贡献</text>
+  <!-- 医学 -->
+  <rect x="285" y="45" width="230" height="110" rx="6" fill="#795548"/>
+  <text x="400" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">医学</text>
+  <text x="400" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">张仲景：《伤寒杂病论》</text>
+  <text x="400" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">治未病·"医圣"</text>
+  <text x="400" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">华佗：麻沸散·五禽戏</text>
+  <text x="400" y="142" text-anchor="middle" font-size="10" fill="#BCAAA4">外科手术·针灸</text>
+  <!-- 史学 -->
+  <rect x="550" y="45" width="230" height="110" rx="6" fill="#A1887F"/>
+  <text x="665" y="68" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">史学</text>
+  <text x="665" y="88" text-anchor="middle" font-size="11" fill="#D7CCC8">司马迁·汉武帝时期</text>
+  <text x="665" y="106" text-anchor="middle" font-size="11" fill="#D7CCC8">《史记》</text>
+  <text x="665" y="124" text-anchor="middle" font-size="11" fill="#D7CCC8">第一部纪传体通史</text>
+  <text x="665" y="142" text-anchor="middle" font-size="10" fill="#BCAAA4">黄帝→汉武帝·约3000年</text>
+  <!-- 数学农学 -->
+  <rect x="20" y="175" width="230" height="80" rx="6" fill="#795548"/>
+  <text x="135" y="198" text-anchor="middle" font-size="13" fill="#EFEBE9" font-weight="bold">数学·农学</text>
+  <text x="135" y="218" text-anchor="middle" font-size="11" fill="#D7CCC8">《九章算术》（东汉）</text>
+  <text x="135" y="236" text-anchor="middle" font-size="11" fill="#D7CCC8">当时世界先进数学著作</text>
+  <text x="135" y="248" text-anchor="middle" font-size="10" fill="#BCAAA4">《氾胜之书》等农书</text>
+  <!-- 宗教 -->
+  <rect x="285" y="175" width="495" height="80" rx="6" fill="#D7CCC8"/>
+  <text x="532" y="198" text-anchor="middle" font-size="13" fill="#3E2723" font-weight="bold">宗教：道教与佛教</text>
+  <text x="532" y="218" text-anchor="middle" font-size="11" fill="#4E342E">道教：东汉末年本土产生·张角（太平道）·张陵（五斗米道）</text>
+  <text x="532" y="236" text-anchor="middle" font-size="11" fill="#4E342E">佛教：古印度起源·两汉之际经丝路传入·东汉明帝建白马寺</text>
+  <!-- 易错提示 -->
+  <rect x="20" y="270" width="760" height="55" rx="6" fill="#BCAAA4"/>
+  <text x="400" y="292" text-anchor="middle" font-size="12" fill="#3E2723" font-weight="bold">易错提示</text>
+  <text x="400" y="310" text-anchor="middle" font-size="11" fill="#4E342E">造纸术：西汉"发明"，蔡伦"改进"（不能说蔡伦发明造纸术）</text>
+  <text x="400" y="326" text-anchor="middle" font-size="11" fill="#4E342E">《史记》是"纪传体通史"，不是编年体；道教是本土宗教，佛教是外来宗教</text>
+</svg>
+
 ## 五、易混辨析
 
 | 对比项 | 张仲景 | 华佗 |
