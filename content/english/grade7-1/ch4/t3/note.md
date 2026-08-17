@@ -86,3 +86,15 @@ date: 2026-08-05
 - 汉译英第 1 题："有几口人"用 There be，不用 have。
 
 相关：[[Family ties（家庭纽带）]] ｜ [[Unit 3·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

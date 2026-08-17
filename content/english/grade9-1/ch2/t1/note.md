@@ -60,3 +60,15 @@ date: 2026-08-06
 **答案**：1. A  2. C  3. as soon as  4. off  5. As soon as the holiday begins, we will make plans for our trip.
 
 相关：[[Unit 2]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

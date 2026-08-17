@@ -65,3 +65,15 @@ date: 2026-08-05
 
 - 与[[蚊子和狮子]]同出《伊索寓言》，同属《寓言四则》；
 - 与[[穿井得一人]]、[[杞人忧天]]（中国古代寓言）对比：中外寓言都借小故事说大道理。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

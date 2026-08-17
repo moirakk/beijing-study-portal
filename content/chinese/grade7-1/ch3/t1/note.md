@@ -66,3 +66,15 @@ date: 2026-08-05
 
 - 出自[[整本书阅读：《朝花夕拾》]]，先读此篇再读整本书事半功倍；
 - "不必说……也不必说……单是……"句式与动词连用，是写作仿写高频考点。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

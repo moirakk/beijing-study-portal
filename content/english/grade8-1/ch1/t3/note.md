@@ -57,3 +57,15 @@ Developing ideas 在 Unit 1 中侧重拓展阅读与语言运用。课文常通�
 **答案**：1. Tom's; His; theirs  2. C  3. mine  4. Our hobbies are similar, but her schoolbag is newer than mine.
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Presenting ideas]] ｜ [[Reflection]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

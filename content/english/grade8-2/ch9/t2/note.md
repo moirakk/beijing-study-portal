@@ -60,3 +60,15 @@ date: 2026-08-06
 **答案**：1. A  2. makes; alone, lonely  3. that; is  4. Remember that if you are kind to others, you will probably make many friends.
 
 相关：[[Unit 1 Could I ask if you've mentioned this to her?]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

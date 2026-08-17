@@ -77,3 +77,15 @@ zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve,
 **答案**：1. am; is 2. Are; am 3. A 4. an; a; an 5. He is my English teacher. He is from England/the UK. 6. Are they in Class 5? — No, they aren't.
 
 相关：[[Welcome to junior high!（欢迎来到初中）]] ｜ [[Starter·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

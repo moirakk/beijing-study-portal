@@ -71,3 +71,15 @@ date: 2026-08-05
 
 - 与[[17 猫（郑振铎）]]、[[18 我的白鸽（陈忠实）]]共同构成本单元"人与动物"主题群文；
 - 观察记录式写法可迁移到[[写作：热爱生活，学会观察]]。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

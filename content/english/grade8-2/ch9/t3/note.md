@@ -61,3 +61,15 @@ date: 2026-08-06
 **答案**：1. B  2. would help; goes  3. where; lives  4. I want to know if/whether you have forgiven her.
 
 相关：[[Unit 1 Could I ask if you've mentioned this to her?]] ｜ [[Unit 2 I believe that the world is what you think it is]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

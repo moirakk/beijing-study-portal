@@ -61,3 +61,15 @@ date: 2026-08-06
 **答案**：1. A  2. have sent; goes  3. no  4. With the help of scientists, we have learned more about the universe.
 
 相关：[[Unit 1 Has it arrived yet?]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

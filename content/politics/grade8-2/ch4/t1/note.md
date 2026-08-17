@@ -73,3 +73,15 @@ date: 2026-08-06
 - 同单元姊妹课：[[第八课 维护公平正义]]。
 - 自由界限的权利基础：[[公民基本权利／依法行使权利]]。
 - 平等的宪法依据：[[第一课 维护宪法权威]]。
+
+
+### 政治理论与逻辑框架
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffebee', 'primaryBorderColor': '#c62828', 'lineColor': '#c62828'}}}%%
+graph TD
+  A[核心价值观] --> B[制度体系保障]
+  A --> C[法律法规规范]
+  B --> D[社会实践落实]
+  C --> D
+```

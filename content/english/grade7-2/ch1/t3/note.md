@@ -79,3 +79,15 @@ date: 2026-08-05
 - 改写句子第 2 题：还原 cleaned → clean，did 已承担过去时标志。
 
 相关：[[The secrets of happiness（幸福的秘诀）]] ｜ [[Unit 1·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

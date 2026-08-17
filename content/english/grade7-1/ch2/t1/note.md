@@ -82,3 +82,15 @@ date: 2026-08-05
 **答案**：1. classes; families; children 2. A 3. A 4. A（就近原则，靠近的 a library 为单数）5. On the first day of school, I am a little nervous, but I make many new friends.
 
 相关：[[Unit 1·重点梳理]] ｜ [[Unit 1·综合练习]] ｜ [[Starter·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

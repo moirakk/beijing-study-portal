@@ -63,3 +63,15 @@ date: 2026-08-05
 ## 七、知识联系
 
 - 同为古代诗歌四首之一，与[[次北固山下]][[闻王昌龄左迁龙标遥有此寄]][[天净沙·秋思]]合并复习"借景抒情"手法的不同形态。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

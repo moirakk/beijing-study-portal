@@ -84,3 +84,15 @@ date: 2026-08-05
 
 - 本课是初中文言文起步课，重点积累**古今异义、通假字、敬谦辞**；
 - 与[[12 《论语》十二章]]的"与朋友交而不信乎"呼应"诚信"主题。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

@@ -82,3 +82,15 @@ date: 2026-08-05
 
 - 同单元[[20 狼（蒲松龄）]]写人与动物的对立冲突，视角迥异；
 - 与[[19 大雁归来（利奥波德）]]"尊重生命"的主题互相印证。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

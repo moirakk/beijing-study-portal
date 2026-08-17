@@ -70,3 +70,15 @@ Unit 5 的语法核心：**there be 句型**、**可数与不可数名词（巩�
 **答案**：1. A（water 不可数）2. B（就近 two apples）3. B 4. A（就近 an eraser）5. B 6. There is a big garden in our school. It's full of flowers and grass.
 
 相关：[[The power of plants（植物的力量）]] ｜ [[Unit 5·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

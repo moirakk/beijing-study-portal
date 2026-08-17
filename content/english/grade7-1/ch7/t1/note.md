@@ -90,3 +90,15 @@ date: 2026-08-05
 **答案**：1. B（look like 问外貌）2. A（be like 问性格）3. A 4. B（the same 固定）5. B 6. My best friend is friendly to everyone. She always makes us laugh.
 
 相关：[[Unit 6·重点梳理]] ｜ [[Unit 6·综合练习]] ｜ [[More than fun（不只是乐趣——兴趣爱好）]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

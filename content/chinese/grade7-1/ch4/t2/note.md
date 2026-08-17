@@ -68,3 +68,15 @@ date: 2026-08-05
 
 - 与[[5 秋天的怀念（史铁生）]]同写母亲：一个以细节动人，一个以朴实见深情；
 - 与[[13 纪念白求恩（毛泽东）]]比较：记叙为主 vs 议论为主。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

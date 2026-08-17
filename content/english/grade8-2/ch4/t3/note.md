@@ -57,3 +57,15 @@ date: 2026-08-06
 **答案**：1. B  2. for; since  3. How long  4. b → c → d → e → a
 
 相关：[[Unit 1 I haven't done much exercise since I got my computer]] ｜ [[Unit 2 We have played football for a year now]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

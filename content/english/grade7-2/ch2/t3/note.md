@@ -75,3 +75,15 @@ date: 2026-08-05
 - 动词过去式第 8 题：read 过去式拼写不变，考试常考读音辨析。
 
 相关：[[Go for it!（勇敢尝试）]] ｜ [[Unit 2·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

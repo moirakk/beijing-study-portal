@@ -73,3 +73,15 @@ date: 2026-08-06
 - 总览：[[第四课 公民义务]]。
 - 权利部分对照：[[第三课 公民权利]]、[[公民基本权利／依法行使权利]]。
 - 义务的宪法来源：[[第二课 保障宪法实施]]。
+
+
+### 政治理论与逻辑框架
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffebee', 'primaryBorderColor': '#c62828', 'lineColor': '#c62828'}}}%%
+graph TD
+  A[核心价值观] --> B[制度体系保障]
+  A --> C[法律法规规范]
+  B --> D[社会实践落实]
+  C --> D
+```

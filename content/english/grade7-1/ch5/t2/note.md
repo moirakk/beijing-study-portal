@@ -67,3 +67,15 @@ Unit 4 的语法核心：**时间介词 in / on / at**、**一般现在时描述
 **答案**：1. B（具体某天的晚上用 on）2. C 3. A 4. B 5. A 6. The Mid-Autumn Festival is in September or October. People watch the moon on that evening/night.
 
 相关：[[Time to celebrate（欢庆时刻——节日）]] ｜ [[Unit 4·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

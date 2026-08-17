@@ -64,3 +64,15 @@ Unit 5 的语法核心：**形容词比较级**（构成、句型、修饰语）
 **答案**：1. warmer; warmer 2. heavier 3. better 4. more; fewer 5. very → much
 
 相关：[[Amazing nature（奇妙的大自然）]] ｜ [[Unit 5·综合练习]] ｜ [[Unit 6·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

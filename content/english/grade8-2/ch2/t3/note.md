@@ -59,3 +59,15 @@ date: 2026-08-06
 **答案**：1. A  2. ridden; visited  3. go → gone / been  4. 示例：I have flown a kite on the beach. I have won a prize in a drawing competition. I have never been abroad.
 
 相关：[[Unit 1 I've also entered lots of speaking competitions]] ｜ [[Unit 2 They have seen the Pyramids]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

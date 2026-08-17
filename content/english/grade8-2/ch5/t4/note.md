@@ -64,3 +64,15 @@ Revision module A 综合复习 Module 1-5 的全部核心内容，是期中考�
 **答案**：1. B  2. wonderful, better; has been, went  3. hasn't; yet  4. 略（要求：三段式，至少两处现在完成时）
 
 相关：[[Unit 3 Language in use]] ｜ [[Unit 2 Tintin has been popular for over eighty years]] ｜ [[Unit 1 It smells delicious]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

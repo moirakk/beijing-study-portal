@@ -90,3 +90,15 @@ date: 2026-08-05
 - 汉译英第 4 题：make sb laugh 中 laugh 用**动词原形**。
 
 相关：[[Fantastic friends（了不起的朋友）]] ｜ [[Unit 6·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

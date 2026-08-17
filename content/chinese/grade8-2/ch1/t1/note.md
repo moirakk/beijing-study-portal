@@ -68,3 +68,15 @@ date: 2026-08-06
 - 排比句式的模仿训练见[[写作：学习仿写]]；
 - 单元字词与文体总结见[[单元综合梳理]]；
 - 民俗中的对话应变可结合[[口语交际：应对]]体会。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

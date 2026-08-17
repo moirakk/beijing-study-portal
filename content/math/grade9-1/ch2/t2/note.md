@@ -67,3 +67,23 @@ $$-1<x<3$$
 5. 方程 $x^2-2x-1=0$ 的根可以看作抛物线 $y=x^2-2x$ 与直线____的交点横坐标。
 
 方程解法详见 [[21.2 解一元二次方程]]，函数图象性质见 [[22.1 二次函数的图象和性质]]，综合应用见 [[22.3 实际问题与二次函数]]。
+
+
+### 数学几何与函数分析
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" style="background-color: #f3e5f5; border: 1px solid #7b1fa2; border-radius: 8px;">
+  <line x1="20" y1="180" x2="280" y2="180" stroke="#7b1fa2" stroke-width="2" />
+  <line x1="50" y1="20" x2="50" y2="180" stroke="#7b1fa2" stroke-width="2" />
+  <path d="M50,180 Q150,20 280,180" fill="none" stroke="#9c27b0" stroke-width="3" />
+  <text x="260" y="195" fill="#7b1fa2" font-size="12">X轴</text>
+  <text x="10" y="30" fill="#7b1fa2" font-size="12">Y轴</text>
+  <text x="140" y="100" fill="#7b1fa2" font-size="14">抛物线图示</text>
+</svg>
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f3e5f5', 'primaryBorderColor': '#7b1fa2', 'lineColor': '#7b1fa2'}}}%%
+graph TD
+  A[已知条件分析] --> B[建立数学模型]
+  B --> C[求解方程/不等式]
+  C --> D[结果验证与讨论]
+```

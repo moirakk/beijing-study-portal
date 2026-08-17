@@ -75,3 +75,15 @@ Unit 3 的语法核心：**一般现在时第三人称单数（三单）**、**�
 **答案**：1. watches 2. B 3. B 4. B 5. A 6. My father works in a hospital. He goes to work early every day.
 
 相关：[[Family ties（家庭纽带）]] ｜ [[Unit 3·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

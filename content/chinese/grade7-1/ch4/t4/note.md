@@ -73,3 +73,15 @@ $$
 
 - 与[[12 《论语》十二章]]的修身思想一脉相承（"不义而富且贵，于我如浮云"）；
 - "淡泊明志、宁静致远"已成千古名联，作文素材常用。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

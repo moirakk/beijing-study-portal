@@ -77,3 +77,15 @@ date: 2026-08-05
 
 - 与[[1 春（朱自清）]]对读，体会不同作家的语言风格；
 - "抓特征、按顺序、融感情"是[[写作：热爱生活，学会观察]]的核心方法。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

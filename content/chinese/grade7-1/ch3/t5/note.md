@@ -60,3 +60,15 @@ date: 2026-08-05
 - 详略安排的范文见[[9 从百草园到三味书屋（鲁迅）]]；
 - 反复点题的范文见[[5 秋天的怀念（史铁生）]]；
 - 与[[学会记事]]的"以小见大"配合使用。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

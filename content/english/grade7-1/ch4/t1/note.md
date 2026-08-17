@@ -85,3 +85,15 @@ date: 2026-08-05
 **答案**：1. C 2. A 3. B 4. B 5. This is a photo of my family. There are five people in my family. 6. My grandpa is very kind. He always takes care of me.
 
 相关：[[Unit 3·重点梳理]] ｜ [[Unit 3·综合练习]] ｜ [[Starter·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

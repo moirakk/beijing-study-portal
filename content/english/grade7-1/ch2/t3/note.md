@@ -86,3 +86,15 @@ date: 2026-08-05
 - 词形填空第 2 题：library 变复数要变 y 为 i 加 es。
 
 相关：[[A new start（新的开始）]] ｜ [[Unit 1·重点梳理]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

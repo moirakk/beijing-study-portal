@@ -63,3 +63,15 @@ a piece of bread（一片面包）、a bowl of rice（一碗米饭）、a glass 
 **答案**：1. many; much 2. glasses; piece 3. Don't put 4. any 5. tastes → taste（noodles 复数）
 
 相关：[[Food matters（食物很重要）]] ｜ [[Unit 3·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

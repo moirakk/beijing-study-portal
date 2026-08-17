@@ -72,3 +72,15 @@ date: 2026-08-05
 **答案**：1. deeper 2. driest; drier 3. more amazing 4. like 5. This river is much wider than that one.
 
 相关：[[Unit 5·重点梳理]] ｜ [[Unit 5·综合练习]] ｜ [[Hitting the road（踏上旅途）]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

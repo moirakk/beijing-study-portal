@@ -68,3 +68,15 @@ date: 2026-08-05
 
 - 与[[1 春（朱自清）]]的"春雨图"比较：同写春雨，朱自清重"细密"，刘湛秋重"娇媚"；
 - 拟人化写景的思路可用于[[写作：热爱生活，学会观察]]。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

@@ -55,3 +55,15 @@ date: 2026-08-05
 
 - "与朋友交而不信乎"出自[[12 《论语》十二章]]，诚信交友一脉相承；
 - [[8 《世说新语》二则（咏雪；陈太丘与友期行）]]中"友人无信"是反面例证。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

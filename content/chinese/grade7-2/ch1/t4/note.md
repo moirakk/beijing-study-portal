@@ -75,3 +75,15 @@ date: 2026-08-05
 
 - 同为劝勉勤学的文言文，可与[[13 卖油翁]]（熟能生巧）比较主旨；
 - 文言词法积累与[[17 短文两篇（陋室铭；爱莲说）]][[25 活板]]互相巩固。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

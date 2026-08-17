@@ -73,3 +73,15 @@ Listen to me. 听我说 ｜ Open your books. 打开书 ｜ Close the door. 关�
 **答案**：1. B 2. B 3. C 4. F G H；O P Q 5. My name is Wang Fang. I'm in Class 3, Grade 7.
 
 相关：[[Starter·重点梳理]] ｜ [[Starter·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

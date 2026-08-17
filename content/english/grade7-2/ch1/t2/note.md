@@ -64,3 +64,15 @@ yesterday（昨天）、last night / week / month / year（昨晚/上周/上月/
 **答案**：1. was 2. studied 3. didn't play 4. Were 5. visited → visit
 
 相关：[[The secrets of happiness（幸福的秘诀）]] ｜ [[Unit 1·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

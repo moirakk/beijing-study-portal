@@ -63,3 +63,15 @@ date: 2026-08-05
 
 - 方法源头：[[1 春（朱自清）]]的五幅图、[[2 济南的冬天（老舍）]]的抓特征；
 - 观察能力也是[[学会记事]]（第二单元写作）的基础。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

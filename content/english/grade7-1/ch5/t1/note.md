@@ -85,3 +85,15 @@ date: 2026-08-05
 **答案**：1. B 2. C 3. A 4. B 5. B 6. My favourite festival is the Mid-Autumn Festival. We watch the (full) moon and eat mooncakes.
 
 相关：[[Unit 4·重点梳理]] ｜ [[Unit 4·综合练习]] ｜ [[Family ties（家庭纽带）]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

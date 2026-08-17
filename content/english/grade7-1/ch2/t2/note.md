@@ -73,3 +73,15 @@ Unit 1 的语法核心：**一般现在时（含第三人称单数以外的形�
 **答案**：1. B 2. A 3. B 4. B 5. The library is next to the teaching building. 6. What's your favourite subject?
 
 相关：[[A new start（新的开始）]] ｜ [[Unit 1·综合练习]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

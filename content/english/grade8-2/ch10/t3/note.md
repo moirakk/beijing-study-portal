@@ -61,3 +61,15 @@ date: 2026-08-06
 **答案**：1. B  2. liked; to make  3. how he  4. 示例：Welcome to our class radio show! I hope that you will enjoy the music today. Please tell us what songs you want to hear. We are waiting for your messages!
 
 相关：[[Unit 1 I hope that you can join us one day]] ｜ [[Unit 2 It seemed that they were speaking to me in person]] ｜ [[Revision module B]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

@@ -60,3 +60,15 @@ date: 2026-08-06
 **答案**：1. A  2. B  3. B  4. was invited  5. He won an Olympic gold medal at the age of 21 and was seen as a hero by the whole country.
 
 相关：[[Unit 1]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

@@ -60,3 +60,15 @@ date: 2026-08-06
 **答案**：1. B  2. Playing; practising  3. to me  4. 示例：My hobby is taking photos. My father gave me a camera two years ago. Taking photos makes me happy. I have taken hundreds of photos since then.
 
 相关：[[Unit 1 Do you collect anything?]] ｜ [[Unit 2 Hobbies can make you grow as a person]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

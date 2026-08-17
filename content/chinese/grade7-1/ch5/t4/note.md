@@ -94,3 +94,15 @@ date: 2026-08-05
 
 - 与[[16 诫子书（诸葛亮）]]同为七上重点文言篇目，可对比"议论点题"的写法；
 - 文言词类活用现象在[[穿井得一人]]、[[杞人忧天]]中继续巩固。
+
+
+### 语文阅读与写作结构
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#efebe9', 'primaryBorderColor': '#6d4c41', 'lineColor': '#6d4c41'}}}%%
+graph TD
+  A[引论/破题] --> B[分论点一: 提出与论证]
+  A --> C[分论点二: 递进与深化]
+  B --> D[结论/升华]
+  C --> D
+```

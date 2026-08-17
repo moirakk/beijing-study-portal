@@ -57,3 +57,15 @@ Reflection 是 Unit 6 *When disaster strikes* 的总结与反思板块。本环�
 **答案**：1. came; were watching; Don't play; was walking; saw  2. I was doing my homework when my father came back.  3. （略）
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Developing ideas]] ｜ [[Presenting ideas]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

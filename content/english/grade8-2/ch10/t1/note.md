@@ -59,3 +59,15 @@ date: 2026-08-06
 **答案**：1. A  2. interviewing; has  3. to visit  4. He showed me around the studio, and I hope that I can join them one day.
 
 相关：[[Unit 2 It seemed that they were speaking to me in person]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

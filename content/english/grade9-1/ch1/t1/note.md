@@ -62,3 +62,15 @@ date: 2026-08-06
 **答案**：1. A（news 不可数）  2. C  3. more than  4. What a  5. I agree with you. The Great Wall is really a wonder.
 
 相关：[[Unit 2]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

@@ -58,3 +58,15 @@ date: 2026-08-06
 **答案**：1. B  2. C  3. who won  4. The woman who is talking with our teacher is a famous photographer.  5. The photo (that) I like best is the one (that) Daming took on the Great Wall.
 
 相关：[[Unit 2]] ｜ [[Unit 3 Language in use]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

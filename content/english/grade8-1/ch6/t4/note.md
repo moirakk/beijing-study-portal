@@ -59,3 +59,15 @@ Presenting ideas 是 Unit 6 的综合输出板块。学生需要围绕"When disa
 **答案**：1. A  2. First, you should cover your head and neck.  3. 去掉 happens 或改为 If an earthquake happens  4. （略）
 
 相关：[[Starting out]] ｜ [[Understanding ideas]] ｜ [[Developing ideas]] ｜ [[Reflection]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```

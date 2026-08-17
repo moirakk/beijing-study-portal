@@ -66,3 +66,15 @@ date: 2026-08-05
 **答案**：1. was 2. smiled 3. Did; help 4. B（make sb + 形容词） 5. Sharing happiness is a secret of happiness.
 
 相关：[[Unit 1·重点梳理]] ｜ [[Unit 1·综合练习]] ｜ [[Go for it!（勇敢尝试）]]
+
+
+### 英语语法树与词汇图
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#e65100', 'lineColor': '#e65100'}}}%%
+graph TD
+  A[Sentence Structure] --> B[Subject (Noun Phrase)]
+  A --> C[Predicate (Verb Phrase)]
+  B --> D[Modifiers]
+  C --> E[Object / Complement]
+```
