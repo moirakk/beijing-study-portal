@@ -55,12 +55,12 @@ export default function Dashboard() {
         </div>
         <Reveal>
           <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
-            北京 · 初高中学习资料
+            图文讲义 · 随时随地学
           </div>
         </Reveal>
         <Reveal delay={90}>
           <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
-            北京初高中图文讲义
+            dby赶紧学习！
           </h1>
         </Reveal>
         <Reveal delay={180}>

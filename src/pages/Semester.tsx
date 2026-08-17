@@ -81,7 +81,7 @@ export default function Semester() {
       <header className="mt-6">
         <Reveal>
           <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
-            北京 · 初高中学习资料 · 按学期
+            按学期 · 系统学习
           </div>
           <h1 className="mb-0 mt-[0.28em] font-serif text-[clamp(34px,7vw,54px)] font-bold leading-[1.15] tracking-[0.02em]">
             {semesterFullLabel(gradeId)}

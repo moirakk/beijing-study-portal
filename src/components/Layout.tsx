@@ -58,7 +58,7 @@ export default function Layout() {
             className="mr-auto shrink-0 flex items-center gap-2 text-sm font-bold tracking-wide"
           >
             <Mascot pokemon="pikachu" size={26} state="none" className="drop-shadow-sm -mt-1" />
-            <span><span className="text-gold">北京</span><span className="hidden sm:inline">初高中学习门户</span></span>
+            <span><span className="text-gold">dby</span><span className="hidden sm:inline">赶紧学习</span></span>
           </Link>
 
           <nav className="flex items-center gap-1.5 overflow-x-auto no-scrollbar mask-edge">
@@ -140,7 +140,7 @@ export default function Layout() {
       </AnimatePresence>
 
       <footer className="border-t border-line py-6 text-center text-[12.5px] text-ink-soft">
-        北京初高中学习门户 · 图文讲义
+        dby赶紧学习！· 图文讲义
       </footer>
     </div>
   )
