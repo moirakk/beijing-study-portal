@@ -181,8 +181,8 @@ function GradeLearningPath({
 const NODE_R = 28
 const NODE_STEP = 104
 const PATH_W = 320
-const LEFT_X = 80
-const RIGHT_X = 240
+const LEFT_X = 88
+const RIGHT_X = 232
 
 function getNodeX(i: number) {
   return i % 2 === 0 ? LEFT_X : RIGHT_X
@@ -279,10 +279,11 @@ function PathNodes({ topics, readSet }: { topics: Topic[]; readSet: Set<string> 
   }, '')
 
   return (
-    <div
-      className="relative mx-auto mt-4"
-      style={{ width: PATH_W, height: svgH }}
-    >
+    <div className="overflow-x-auto">
+      <div
+        className="relative mx-auto mt-4 overflow-visible"
+        style={{ width: PATH_W, height: svgH }}
+      >
       <svg
         className="absolute inset-0 pointer-events-none"
         width={PATH_W}
@@ -320,6 +321,7 @@ function PathNodes({ topics, readSet }: { topics: Topic[]; readSet: Set<string> 
           isCurrent={i === firstUnreadIdx}
         />
       ))}
+      </div>
     </div>
   )
 }
@@ -409,10 +411,10 @@ function PathNodeItem({
 
       {/* 标题标签 */}
       <div
-        className={`absolute top-1/2 -translate-y-1/2 w-[88px] pointer-events-none ${
+        className={`absolute top-1/2 -translate-y-1/2 w-[72px] pointer-events-none ${
           labelOnRight
-            ? 'left-[calc(100%+10px)] text-left'
-            : 'right-[calc(100%+10px)] text-right'
+            ? 'left-[calc(100%+8px)] text-left'
+            : 'right-[calc(100%+8px)] text-right'
         }`}
       >
         <span

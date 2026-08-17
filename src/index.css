@@ -616,7 +616,7 @@ mark {
 .flashcard-inner {
   position: relative;
   width: 100%;
-  min-height: 180px;
+  min-height: 220px;
   transform-style: preserve-3d;
   transition: transform 0.5s var(--ease-out-soft);
 }
@@ -631,7 +631,7 @@ mark {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 180px;
+  min-height: 220px;
 }
 .flashcard-back {
   transform: rotateY(180deg);
@@ -748,6 +748,11 @@ mark {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+}
+
+/* 暗色模式下 select 原生控件可读性修复 */
+.dark select {
+  color-scheme: dark;
 }
 
 /* ---------------------------------------------------------------------------

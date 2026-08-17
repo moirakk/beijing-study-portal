@@ -301,7 +301,7 @@ export default function TopicDetail() {
 
       {/* 锚点电梯导航（draft 页只有占位骨架，不显示） */}
       {!draft && availableSections.length > 0 && (
-        <nav className="nav-blur top-12 z-[5] -mx-1 mt-5 flex gap-1.5 overflow-x-auto rounded-full border border-line px-2 py-1.5">
+        <nav className="sticky top-12 z-[45] -mx-1 mt-5 flex gap-1.5 overflow-x-auto rounded-full border border-line bg-panel/90 backdrop-blur-sm px-2 py-1.5 no-scrollbar">
           {availableSections.map((s) => (
             <button
               key={s.key}
@@ -489,8 +489,8 @@ export default function TopicDetail() {
         </Reveal>
       )}
 
-      {/* 悬浮小向导 */}
-      <div className="fixed bottom-6 right-6 z-40 drop-shadow-md pointer-events-none">
+      {/* 悬浮小向导：移动端上移避免被底部 tab 栏遮挡 */}
+      <div className="fixed bottom-20 right-4 z-40 drop-shadow-md pointer-events-none sm:bottom-6 sm:right-6">
         <Mascot subject={subject.id} size={44} state="idle" />
       </div>
     </div>
