@@ -13,6 +13,44 @@ date: 2026-08-05
 
 > ⚠️ 顺序不同意义不同：$(2, 3)$ 与 $(3, 2)$ 表示不同位置，如"3 排 2 号"与"2 排 3 号"。
 
+<svg viewBox="0 0 340 300" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- x轴 -->
+  <line x1="20" y1="160" x2="320" y2="160" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="315,155 325,160 315,165" fill="#7b1fa2"/>
+  <!-- y轴 -->
+  <line x1="160" y1="290" x2="160" y2="20" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="155,25 160,15 165,25" fill="#7b1fa2"/>
+  <!-- 轴标签 -->
+  <text x="328" y="164" font-size="14" fill="#7b1fa2" font-family="serif">x</text>
+  <text x="163" y="14" font-size="14" fill="#7b1fa2" font-family="serif">y</text>
+  <text x="148" y="175" font-size="13" fill="#333" font-family="serif">O</text>
+  <!-- 刻度 -->
+  <line x1="220" y1="155" x2="220" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="216" y="178" font-size="12" fill="#333">1</text>
+  <line x1="280" y1="155" x2="280" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="276" y="178" font-size="12" fill="#333">2</text>
+  <line x1="100" y1="155" x2="100" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="93" y="178" font-size="12" fill="#333">-1</text>
+  <line x1="155" y1="100" x2="165" y2="100" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="168" y="104" font-size="12" fill="#333">1</text>
+  <line x1="155" y1="220" x2="165" y2="220" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="168" y="224" font-size="12" fill="#333">-1</text>
+  <!-- 象限标注 -->
+  <text x="240" y="80" font-size="12" fill="#9c27b0">第一象限(+,+)</text>
+  <text x="40" y="80" font-size="12" fill="#9c27b0">第二象限(-,+)</text>
+  <text x="40" y="240" font-size="12" fill="#9c27b0">第三象限(-,-)</text>
+  <text x="220" y="240" font-size="12" fill="#9c27b0">第四象限(+,-)</text>
+  <!-- 示例点A(2,1) -->
+  <circle cx="280" cy="100" r="5" fill="#e91e63"/>
+  <text x="285" y="97" font-size="13" fill="#e91e63" font-family="serif">A(2,1)</text>
+  <!-- 辅助虚线 -->
+  <line x1="280" y1="100" x2="280" y2="160" stroke="#e91e63" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="280" y1="100" x2="160" y2="100" stroke="#e91e63" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- 示例点B(-1,-1) -->
+  <circle cx="100" cy="220" r="5" fill="#2196f3"/>
+  <text x="60" y="215" font-size="13" fill="#2196f3" font-family="serif">B(-1,-1)</text>
+</svg>
+
 ## 二、平面直角坐标系
 
 在平面内画两条**互相垂直**且**原点重合**的数轴，组成**平面直角坐标系**：

@@ -39,6 +39,34 @@ date: 2026-08-05
 
 ### 3. 细胞中的能量转换
 
+<svg viewBox="0 0 580 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="220" fill="#f1f8e9" rx="12"/>
+  <text x="290" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">细胞中的能量转换器</text>
+  <!-- 叶绿体 -->
+  <rect x="30" y="50" width="230" height="140" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="145" y="75" text-anchor="middle" fill="#1b5e20" font-size="13" font-weight="bold">叶绿体</text>
+  <text x="145" y="95" text-anchor="middle" fill="#2e7d32" font-size="11">分布：植物绿色部分细胞</text>
+  <text x="145" y="115" text-anchor="middle" fill="#2e7d32" font-size="11">功能：光合作用</text>
+  <!-- 箭头 -->
+  <rect x="80" y="130" width="130" height="30" rx="6" fill="#4caf50"/>
+  <text x="145" y="150" text-anchor="middle" fill="white" font-size="11" font-weight="bold">光能 → 化学能</text>
+  <text x="145" y="175" text-anchor="middle" fill="#2e7d32" font-size="10">（储存在有机物中）</text>
+  <!-- 线粒体 -->
+  <rect x="320" y="50" width="230" height="140" rx="10" fill="#fff3e0" stroke="#ff8a65" stroke-width="2"/>
+  <text x="435" y="75" text-anchor="middle" fill="#bf360c" font-size="13" font-weight="bold">线粒体</text>
+  <text x="435" y="95" text-anchor="middle" fill="#e64a19" font-size="11">分布：动植物细胞均有</text>
+  <text x="435" y="115" text-anchor="middle" fill="#e64a19" font-size="11">功能：呼吸作用</text>
+  <rect x="370" y="130" width="130" height="30" rx="6" fill="#ff8a65"/>
+  <text x="435" y="150" text-anchor="middle" fill="white" font-size="11" font-weight="bold">化学能 → 可用能量</text>
+  <text x="435" y="175" text-anchor="middle" fill="#e64a19" font-size="10">（供生命活动利用）</text>
+  <!-- 中间连接 -->
+  <text x="290" y="130" text-anchor="middle" fill="#388e3c" font-size="20" font-weight="bold">⇌</text>
+  <text x="290" y="155" text-anchor="middle" fill="#1b5e20" font-size="9">能量</text>
+  <text x="290" y="168" text-anchor="middle" fill="#1b5e20" font-size="9">转换</text>
+  <!-- 底部说明 -->
+  <text x="290" y="205" text-anchor="middle" fill="#388e3c" font-size="10">细胞是物质、能量和信息的统一体</text>
+</svg>
+
 | 能量转换器 | 分布 | 功能 |
 |---|---|---|
 | 叶绿体 | 植物绿色部分细胞 | 光合作用：光能 → 化学能（储存在有机物中） |

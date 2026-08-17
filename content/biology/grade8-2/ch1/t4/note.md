@@ -31,6 +31,51 @@ date: 2026-08-06
 系带能固定卵黄位置，胚盘是将来发育成雏鸟的部位。
 气室为胚胎发育后期提供空气。
 
+<svg viewBox="0 0 620 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <!-- 标题 -->
+  <text x="310" y="18" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">鸟卵结构示意图</text>
+  <!-- 卵壳外形 -->
+  <ellipse cx="200" cy="130" rx="160" ry="110" fill="#fff9c4" stroke="#f9a825" stroke-width="2"/>
+  <!-- 卵壳膜 -->
+  <ellipse cx="200" cy="130" rx="150" ry="100" fill="#fff8e1" stroke="#fbc02d" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- 气室（钝端） -->
+  <path d="M50,110 Q55,90 80,90 Q105,90 110,110" fill="#b2dfdb" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 卵白 -->
+  <ellipse cx="210" cy="135" rx="120" ry="85" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <!-- 卵黄 -->
+  <ellipse cx="215" cy="138" rx="65" ry="60" fill="#fff176" stroke="#f9a825" stroke-width="1.5"/>
+  <!-- 系带 -->
+  <line x1="90" y1="135" x2="150" y2="138" stroke="#a5d6a7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="280" y1="138" x2="340" y2="135" stroke="#a5d6a7" stroke-width="3" stroke-linecap="round"/>
+  <!-- 胚盘 -->
+  <ellipse cx="215" cy="100" rx="18" ry="10" fill="#ef9a9a" stroke="#c62828" stroke-width="1.5"/>
+  <text x="215" y="104" text-anchor="middle" font-size="9" fill="#b71c1c">胚盘</text>
+  <!-- 标注线和文字 -->
+  <!-- 卵壳 -->
+  <line x1="200" y1="22" x2="200" y2="38" stroke="#888" stroke-width="1"/>
+  <line x1="200" y1="38" x2="360" y2="38" stroke="#888" stroke-width="1"/>
+  <text x="365" y="42" font-size="11" fill="#555">卵壳（有气孔，保护+透气）</text>
+  <!-- 气室 -->
+  <line x1="80" y1="90" x2="80" y2="60" stroke="#888" stroke-width="1"/>
+  <line x1="80" y1="60" x2="360" y2="60" stroke="#888" stroke-width="1"/>
+  <text x="365" y="64" font-size="11" fill="#555">气室（提供空气）</text>
+  <!-- 卵白 -->
+  <line x1="130" y1="175" x2="130" y2="195" stroke="#888" stroke-width="1"/>
+  <line x1="130" y1="195" x2="360" y2="195" stroke="#888" stroke-width="1"/>
+  <text x="365" y="199" font-size="11" fill="#555">卵白（保护+提供水分蛋白质）</text>
+  <!-- 卵黄 -->
+  <line x1="215" y1="198" x2="215" y2="215" stroke="#888" stroke-width="1"/>
+  <line x1="215" y1="215" x2="360" y2="215" stroke="#888" stroke-width="1"/>
+  <text x="365" y="219" font-size="11" fill="#555">卵黄（主要营养来源）</text>
+  <!-- 系带 -->
+  <line x1="120" y1="138" x2="120" y2="155" stroke="#888" stroke-width="1"/>
+  <line x1="120" y1="155" x2="360" y2="155" stroke="#888" stroke-width="1"/>
+  <text x="365" y="159" font-size="11" fill="#555">系带（固定卵黄位置）</text>
+  <!-- 胚盘说明 -->
+  <line x1="233" y1="100" x2="360" y2="80" stroke="#888" stroke-width="1"/>
+  <text x="365" y="84" font-size="11" fill="#c62828">胚盘（发育成雏鸟）</text>
+</svg>
+
 鸟卵孵化需要适宜的温度、一定的湿度、空气和亲鸟翻卵等条件。
 若温度过低或过高，胚胎都可能停止发育。
 

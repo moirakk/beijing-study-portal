@@ -23,6 +23,38 @@ date: 2026-08-05
 | 血流方向 | 心脏→全身 | 动脉→静脉 | 全身→心脏 |
 | 瓣膜 | 无 | 无 | 有（防止血液倒流） |
 
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="200" fill="#f1f8e9" rx="10"/>
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">三种血管结构对比示意图</text>
+  <!-- 动脉 -->
+  <rect x="30" y="45" width="160" height="130" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="110" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">动脉</text>
+  <!-- 动脉截面 -->
+  <circle cx="110" cy="115" r="35" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/>
+  <circle cx="110" cy="115" r="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1"/>
+  <text x="110" y="119" text-anchor="middle" font-size="9" fill="#b71c1c">管腔小</text>
+  <text x="110" y="162" text-anchor="middle" font-size="9" fill="#c62828">壁厚弹性大·流速快</text>
+  <!-- 毛细血管 -->
+  <rect x="220" y="45" width="160" height="130" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="300" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">毛细血管</text>
+  <!-- 毛细血管截面 -->
+  <circle cx="300" cy="115" r="12" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <circle cx="300" cy="115" r="6" fill="#a5d6a7" stroke="#388e3c" stroke-width="1"/>
+  <text x="300" y="119" text-anchor="middle" font-size="7" fill="#1b5e20">极小</text>
+  <text x="300" y="145" text-anchor="middle" font-size="9" fill="#1b5e20">壁最薄（一层细胞）</text>
+  <text x="300" y="162" text-anchor="middle" font-size="9" fill="#1b5e20">流速最慢·物质交换</text>
+  <!-- 静脉 -->
+  <rect x="410" y="45" width="160" height="130" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="490" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#1565c0">静脉</text>
+  <!-- 静脉截面 -->
+  <circle cx="490" cy="115" r="40" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <circle cx="490" cy="115" r="28" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="490" y="119" text-anchor="middle" font-size="9" fill="#1565c0">管腔大</text>
+  <!-- 静脉瓣 -->
+  <path d="M 470 100 Q 490 108 510 100" stroke="#1565c0" stroke-width="1.5" fill="none"/>
+  <text x="490" y="162" text-anchor="middle" font-size="9" fill="#1565c0">壁薄有瓣膜·流速慢</text>
+</svg>
+
 ### 毛细血管——物质交换的场所
 
 毛细血管适于物质交换的特点：

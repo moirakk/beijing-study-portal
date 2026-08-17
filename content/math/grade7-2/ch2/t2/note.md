@@ -17,6 +17,38 @@ $$x = \sqrt[3]{a}$$
 
 求一个数立方根的运算叫做**开立方**，与立方互为逆运算。
 
+<svg viewBox="0 0 360 190" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="80" y="22" font-size="14" fill="#7b1fa2" font-weight="bold">立方根与平方根的关键区别</text>
+  <!-- 表格框架 -->
+  <rect x="20" y="35" width="320" height="140" fill="#f3e5f5" rx="6" stroke="#9c27b0" stroke-width="1.5"/>
+  <!-- 表头 -->
+  <rect x="20" y="35" width="320" height="28" fill="#7b1fa2" rx="6"/>
+  <text x="65" y="53" font-size="12" fill="white" font-weight="bold">数 a</text>
+  <text x="155" y="53" font-size="12" fill="white" font-weight="bold">平方根 ±√a</text>
+  <text x="258" y="53" font-size="12" fill="white" font-weight="bold">立方根 ∛a</text>
+  <!-- 分隔线 -->
+  <line x1="130" y1="35" x2="130" y2="175" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="240" y1="35" x2="240" y2="175" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="90" x2="340" y2="90" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="125" x2="340" y2="125" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="155" x2="340" y2="155" stroke="#9c27b0" stroke-width="1"/>
+  <!-- 行1：正数 -->
+  <text x="50" y="78" font-size="12" fill="#333" font-family="serif">a &gt; 0</text>
+  <text x="140" y="78" font-size="12" fill="#9c27b0" font-family="serif">两个（±√a）</text>
+  <text x="248" y="78" font-size="12" fill="#7b1fa2" font-family="serif">一个（正数）</text>
+  <!-- 行2：零 -->
+  <text x="55" y="112" font-size="12" fill="#333" font-family="serif">a = 0</text>
+  <text x="175" y="112" font-size="12" fill="#9c27b0" font-family="serif">0</text>
+  <text x="278" y="112" font-size="12" fill="#7b1fa2" font-family="serif">0</text>
+  <!-- 行3：负数 -->
+  <text x="50" y="143" font-size="12" fill="#333" font-family="serif">a &lt; 0</text>
+  <text x="140" y="143" font-size="12" fill="#e91e63" font-family="serif">不存在！</text>
+  <text x="248" y="143" font-size="12" fill="#4caf50" font-family="serif">一个（负数）</text>
+  <!-- 公式提示 -->
+  <text x="30" y="172" font-size="11" fill="#555">∛(-a) = -∛a；∛(a³) = a（可为负，与√a²=|a|不同）</text>
+</svg>
+
 ## 二、立方根的性质
 
 - **正数**的立方根是**正数**；

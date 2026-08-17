@@ -21,6 +21,42 @@ date: 2026-08-05
 | 呼吸道 | 鼻→咽→喉→气管→支气管 | 气体进出的通道 |
 | 肺 | 左肺（两叶）右肺（三叶） | 气体交换的场所 |
 
+<svg viewBox="0 0 580 320" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="320" fill="#f1f8e9" rx="10"/>
+  <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">呼吸系统结构示意图</text>
+  <!-- 鼻腔 -->
+  <rect x="220" y="40" width="140" height="35" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="62" text-anchor="middle" font-size="12" fill="#1b5e20">鼻腔（清洁·温暖·湿润）</text>
+  <!-- 咽 -->
+  <rect x="250" y="82" width="80" height="25" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="290" y="99" text-anchor="middle" font-size="11" fill="#1b5e20">咽（食气共道）</text>
+  <!-- 喉 -->
+  <rect x="255" y="114" width="70" height="25" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="290" y="131" text-anchor="middle" font-size="11" fill="#1b5e20">喉（声带·会厌）</text>
+  <!-- 气管 -->
+  <rect x="272" y="146" width="36" height="45" rx="4" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="173" text-anchor="middle" font-size="10" fill="#1b5e20">气管</text>
+  <!-- 支气管 -->
+  <line x1="272" y1="191" x2="210" y2="215" stroke="#388e3c" stroke-width="3"/>
+  <line x1="308" y1="191" x2="370" y2="215" stroke="#388e3c" stroke-width="3"/>
+  <text x="200" y="210" text-anchor="end" font-size="10" fill="#1b5e20">左支气管</text>
+  <text x="380" y="210" font-size="10" fill="#1b5e20">右支气管</text>
+  <!-- 左肺 -->
+  <ellipse cx="175" cy="260" rx="65" ry="45" fill="#66bb6a" stroke="#388e3c" stroke-width="2.5"/>
+  <text x="175" y="255" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">左肺</text>
+  <text x="175" y="272" text-anchor="middle" font-size="10" fill="#e8f5e9">两叶</text>
+  <!-- 右肺 -->
+  <ellipse cx="405" cy="260" rx="65" ry="45" fill="#66bb6a" stroke="#388e3c" stroke-width="2.5"/>
+  <text x="405" y="255" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">右肺</text>
+  <text x="405" y="272" text-anchor="middle" font-size="10" fill="#e8f5e9">三叶</text>
+  <!-- 标注 -->
+  <text x="290" y="300" text-anchor="middle" font-size="11" fill="#388e3c">肺是气体交换的场所（约7亿个肺泡）</text>
+  <!-- 会厌软骨标注 -->
+  <text x="80" y="128" text-anchor="middle" font-size="10" fill="#c62828">会厌软骨</text>
+  <text x="80" y="142" text-anchor="middle" font-size="9" fill="#c62828">吞咽时盖住喉口</text>
+  <line x1="140" y1="130" x2="253" y2="128" stroke="#c62828" stroke-width="1" stroke-dasharray="3"/>
+</svg>
+
 ### 呼吸道对空气的处理
 
 | 部位 | 处理方式 | 作用 |

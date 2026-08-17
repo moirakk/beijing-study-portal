@@ -32,6 +32,27 @@ $$
 | $a$ | $1 \le a < 10$，只留一位整数 | $1.5$、$9.99$ ✔；$15$、$0.8$ ✘ |
 | $n$ | 正整数 | 等于原数的**整数位数减 1** |
 
+## 图示
+
+<svg viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="120" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">科学记数法：小数点移动示意</text>
+  <!-- 示例1：567000 -->
+  <text x="50" y="58" font-size="13" fill="#212121">567000</text>
+  <text x="160" y="58" font-size="13" fill="#9c27b0">→ 小数点左移5位 →</text>
+  <text x="360" y="58" font-size="13" fill="#7b1fa2" font-weight="bold">5.67 × 10⁵</text>
+  <!-- 示例2：1500000 -->
+  <text x="50" y="85" font-size="13" fill="#212121">1500000</text>
+  <text x="160" y="85" font-size="13" fill="#9c27b0">→ 小数点左移6位 →</text>
+  <text x="360" y="85" font-size="13" fill="#7b1fa2" font-weight="bold">1.5 × 10⁶</text>
+  <!-- 示例3：-8040000 -->
+  <text x="50" y="112" font-size="13" fill="#212121">-8040000</text>
+  <text x="160" y="112" font-size="13" fill="#9c27b0">→ 小数点左移6位 →</text>
+  <text x="360" y="112" font-size="13" fill="#7b1fa2" font-weight="bold">-8.04 × 10⁶</text>
+  <!-- 规则提示 -->
+  <text x="250" y="130" text-anchor="middle" font-size="11" fill="#424242">n = 整数位数 - 1；1 ≤ a &lt; 10</text>
+</svg>
+
 ## 三、如何确定指数 $n$
 
 **方法 1（数位法）**：$n = $ 原数的整数位数 $- 1$。

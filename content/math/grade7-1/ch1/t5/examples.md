@@ -20,6 +20,38 @@
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t5e" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#424242" stroke-width="2" marker-end="url(#arr-t5e)"/>
+  <line x1="90" y1="43" x2="90" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">-4</text>
+  <line x1="170" y1="43" x2="170" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">-2</text>
+  <line x1="250" y1="43" x2="250" y2="57" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-size="13" fill="#424242">0</text>
+  <line x1="330" y1="43" x2="330" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">2</text>
+  <line x1="410" y1="43" x2="410" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">4</text>
+  <!-- x=-4 和 x=4 的绝对值示意 -->
+  <circle cx="90" cy="50" r="5" fill="#7b1fa2"/>
+  <circle cx="410" cy="50" r="5" fill="#7b1fa2"/>
+  <line x1="90" y1="30" x2="250" y2="30" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="90" y1="25" x2="90" y2="35" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="250" y1="25" x2="250" y2="35" stroke="#9c27b0" stroke-width="2"/>
+  <text x="170" y="22" text-anchor="middle" font-size="11" fill="#9c27b0">|x|=4（x=-4时）</text>
+  <line x1="250" y1="30" x2="410" y2="30" stroke="#ce93d8" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="410" y1="25" x2="410" y2="35" stroke="#ce93d8" stroke-width="2"/>
+  <text x="330" y="22" text-anchor="middle" font-size="11" fill="#ce93d8">|x|=4（x=4时）</text>
+  <text x="250" y="92" text-anchor="middle" font-size="12" fill="#7b1fa2">|x|=4 有两解：x=±4</text>
+</svg>
+
 ## 例题 2（基础 · 已知绝对值求数）
 
 ### 题目

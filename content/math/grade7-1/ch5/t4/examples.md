@@ -30,6 +30,35 @@ $$
 
 甲、乙两地相距 360 千米。一辆轿车从甲地出发，速度为 80 千米/时；同时一辆货车从乙地出发相向而行，速度为 64 千米/时。几小时后两车相遇？
 
+<svg viewBox="0 0 480 100" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="100" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="20" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">行程相遇问题线段图</text>
+  <!-- Main line -->
+  <line x1="40" y1="55" x2="440" y2="55" stroke="#424242" stroke-width="2.5"/>
+  <!-- Points -->
+  <circle cx="40" cy="55" r="5" fill="#7b1fa2"/>
+  <circle cx="440" cy="55" r="5" fill="#7b1fa2"/>
+  <circle cx="240" cy="55" r="5" fill="#9c27b0"/>
+  <!-- Labels -->
+  <text x="40" y="75" text-anchor="middle" fill="#4a148c" font-size="12">甲地</text>
+  <text x="440" y="75" text-anchor="middle" fill="#4a148c" font-size="12">乙地</text>
+  <text x="240" y="75" text-anchor="middle" fill="#9c27b0" font-size="12">相遇点</text>
+  <!-- Arrows -->
+  <line x1="40" y1="42" x2="220" y2="42" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arr1)"/>
+  <line x1="440" y1="42" x2="260" y2="42" stroke="#9c27b0" stroke-width="2" marker-end="url(#arr2)"/>
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#9c27b0"/>
+    </marker>
+  </defs>
+  <text x="130" y="36" text-anchor="middle" fill="#7b1fa2" font-size="11">轿车 80t 千米</text>
+  <text x="350" y="36" text-anchor="middle" fill="#9c27b0" font-size="11">货车 64t 千米</text>
+  <text x="240" y="92" text-anchor="middle" fill="#4a148c" font-size="11">80t + 64t = 360 → t = 2.5 小时</text>
+</svg>
+
 ### 解析
 
 设 $t$ 小时后相遇。相遇问题：两车路程之和 $=$ 全程：

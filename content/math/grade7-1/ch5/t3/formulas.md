@@ -28,10 +28,11 @@ $$
 
 ## 5. $ax = b$ 解的讨论
 
-$$
-\begin{cases}
-a \neq 0: & x = \dfrac{b}{a} \ \text{（唯一解）} \\
-a = 0,\ b = 0: & \text{解为任意数} \\
-a = 0,\ b \neq 0: & \text{无解}
-\end{cases}
-$$
+```mermaid
+flowchart TD
+    A["ax = b"] --> B{"a ≠ 0？"}
+    B -- "是" --> C["唯一解\nx = b/a"]
+    B -- "否（a=0）" --> D{"b = 0？"}
+    D -- "是（0=0）" --> E["无数个解\nx 为任意数"]
+    D -- "否（0=b≠0）" --> F["无解\n矛盾方程"]
+```

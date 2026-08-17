@@ -28,6 +28,52 @@ date: 2026-08-05
 
 ### 1. 生物分类的七个等级
 
+<svg viewBox="0 0 580 320" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="320" fill="#f1f8e9" rx="12"/>
+  <text x="290" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">生物分类等级（从大到小）</text>
+  <!-- 界 -->
+  <rect x="190" y="40" width="200" height="32" rx="6" fill="#1b5e20"/>
+  <text x="290" y="61" text-anchor="middle" fill="white" font-size="13" font-weight="bold">界（Kingdom）</text>
+  <text x="420" y="61" fill="#2e7d32" font-size="10">最大分类单位</text>
+  <!-- 门 -->
+  <rect x="200" y="82" width="180" height="28" rx="5" fill="#2e7d32"/>
+  <text x="290" y="101" text-anchor="middle" fill="white" font-size="12" font-weight="bold">门（Phylum）</text>
+  <!-- 纲 -->
+  <rect x="210" y="120" width="160" height="28" rx="5" fill="#388e3c"/>
+  <text x="290" y="139" text-anchor="middle" fill="white" font-size="12" font-weight="bold">纲（Class）</text>
+  <!-- 目 -->
+  <rect x="220" y="158" width="140" height="28" rx="5" fill="#4caf50"/>
+  <text x="290" y="177" text-anchor="middle" fill="white" font-size="12" font-weight="bold">目（Order）</text>
+  <!-- 科 -->
+  <rect x="230" y="196" width="120" height="28" rx="5" fill="#66bb6a"/>
+  <text x="290" y="215" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">科（Family）</text>
+  <!-- 属 -->
+  <rect x="240" y="234" width="100" height="28" rx="5" fill="#81c784"/>
+  <text x="290" y="253" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">属（Genus）</text>
+  <!-- 种 -->
+  <rect x="250" y="272" width="80" height="28" rx="5" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="291" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">种（Species）</text>
+  <text x="420" y="291" fill="#2e7d32" font-size="10">最小分类单位</text>
+  <!-- 连接线 -->
+  <line x1="290" y1="72" x2="290" y2="82" stroke="#388e3c" stroke-width="2"/>
+  <line x1="290" y1="110" x2="290" y2="120" stroke="#388e3c" stroke-width="2"/>
+  <line x1="290" y1="148" x2="290" y2="158" stroke="#388e3c" stroke-width="2"/>
+  <line x1="290" y1="186" x2="290" y2="196" stroke="#388e3c" stroke-width="2"/>
+  <line x1="290" y1="224" x2="290" y2="234" stroke="#388e3c" stroke-width="2"/>
+  <line x1="290" y1="262" x2="290" y2="272" stroke="#388e3c" stroke-width="2"/>
+  <!-- 左侧说明 -->
+  <text x="30" y="170" fill="#1b5e20" font-size="10" font-weight="bold">分类单位越大</text>
+  <text x="30" y="185" fill="#2e7d32" font-size="9">包含生物种类越多</text>
+  <text x="30" y="200" fill="#2e7d32" font-size="9">共同特征越少</text>
+  <text x="30" y="215" fill="#2e7d32" font-size="9">亲缘关系越远</text>
+  <line x1="100" y1="185" x2="185" y2="100" stroke="#388e3c" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="30" y="250" fill="#1b5e20" font-size="10" font-weight="bold">分类单位越小</text>
+  <text x="30" y="265" fill="#2e7d32" font-size="9">包含生物种类越少</text>
+  <text x="30" y="280" fill="#2e7d32" font-size="9">共同特征越多</text>
+  <text x="30" y="295" fill="#2e7d32" font-size="9">亲缘关系越近</text>
+  <line x1="100" y1="270" x2="245" y2="285" stroke="#388e3c" stroke-width="1" stroke-dasharray="4,3"/>
+</svg>
+
 - 从大到小依次为：**界、门、纲、目、科、属、种**。
 - **种**是最基本的分类单位，同种生物的亲缘关系最密切，共同特征最多。
 

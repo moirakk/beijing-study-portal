@@ -43,6 +43,19 @@ date: 2026-08-05
 
 ### 3. 植物体的结构层次
 
+```mermaid
+flowchart LR
+    A["细胞\n（基本单位）"] -->|"细胞分化"| B["组织\n分生/保护/营养\n输导/机械"]
+    B -->|"不同组织\n按次序结合"| C["器官\n根·茎·叶\n花·果实·种子"]
+    C -->|"六大器官\n直接构成"| D["植物体"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style D fill:#388e3c,stroke:#1b5e20,color:#fff
+```
+
+> 注意：植物体**没有系统**这一层次，与动物体不同。
+
 **细胞 → 组织 → 器官 → 植物体**
 
 - 植物体没有"系统"这一层次。

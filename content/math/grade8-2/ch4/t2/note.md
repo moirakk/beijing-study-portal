@@ -22,6 +22,36 @@ date: 2026-08-06
 
 > ⚠️ **易错点**：$k \ne 0$ 是定义的一部分。若 $y = (m-1)x + 3$ 是一次函数，则 $m \ne 1$。
 
+<svg width="420" height="220" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 220">
+  <!-- 坐标轴 -->
+  <line x1="20" y1="110" x2="400" y2="110" stroke="#424242" stroke-width="2"/>
+  <polygon points="400,110 392,106 392,114" fill="#424242"/>
+  <text x="404" y="114" font-size="13" fill="#424242" font-style="italic">x</text>
+  <line x1="210" y1="200" x2="210" y2="20" stroke="#424242" stroke-width="2"/>
+  <polygon points="210,20 206,28 214,28" fill="#424242"/>
+  <text x="214" y="18" font-size="13" fill="#424242" font-style="italic">y</text>
+  <text x="214" y="124" font-size="12" fill="#424242">O</text>
+
+  <!-- k>0, b>0: y=x+2（过(0,2)，斜率正） -->
+  <line x1="60" y1="200" x2="360" y2="20" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="362" y="18" font-size="12" fill="#7b1fa2" font-weight="bold">k&gt;0,b&gt;0</text>
+  <!-- y轴截距标注 -->
+  <circle cx="210" cy="70" r="4" fill="#7b1fa2"/>
+  <text x="216" y="68" font-size="12" fill="#7b1fa2">b&gt;0</text>
+
+  <!-- k<0, b>0: y=-x+2（过(0,2)，斜率负） -->
+  <line x1="60" y1="20" x2="360" y2="200" stroke="#9c27b0" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="362" y="200" font-size="12" fill="#9c27b0" font-weight="bold">k&lt;0,b&gt;0</text>
+
+  <!-- k>0, b<0: y=x-2（过(0,-2)，斜率正） -->
+  <line x1="60" y1="230" x2="360" y2="50" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="3,3" opacity="0.6"/>
+  <circle cx="210" cy="150" r="4" fill="#9c27b0"/>
+  <text x="216" y="162" font-size="12" fill="#9c27b0">b&lt;0</text>
+
+  <!-- 斜率说明 -->
+  <text x="210" y="212" font-size="12" fill="#424242" text-anchor="middle">k=斜率（倾斜程度）；b=y轴截距（与y轴交点纵坐标）</text>
+</svg>
+
 ## 三、图象与性质
 
 一次函数图象是一条直线，由 $k$、$b$ 共同决定位置：

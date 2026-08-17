@@ -36,6 +36,46 @@ date: 2026-08-05
 
 ### 3. 两栖动物与爬行动物的比较
 
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="200" fill="#f1f8e9" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">两栖动物 vs 爬行动物</text>
+  <!-- 表头 -->
+  <rect x="10" y="40" width="110" height="30" rx="4" fill="#388e3c"/>
+  <text x="65" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">比较项目</text>
+  <rect x="125" y="40" width="200" height="30" rx="4" fill="#4caf50"/>
+  <text x="225" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">两栖动物</text>
+  <rect x="330" y="40" width="260" height="30" rx="4" fill="#2e7d32"/>
+  <text x="460" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">爬行动物</text>
+  <!-- 行1：皮肤 -->
+  <rect x="10" y="72" width="110" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="65" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">皮肤</text>
+  <rect x="125" y="72" width="200" height="28" rx="2" fill="#fff8e1" stroke="#ffe082" stroke-width="1"/>
+  <text x="225" y="90" text-anchor="middle" fill="#f57f17" font-size="10">裸露湿润（辅助呼吸）</text>
+  <rect x="330" y="72" width="260" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="460" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">覆盖鳞片或甲（防水）</text>
+  <!-- 行2：呼吸 -->
+  <rect x="10" y="102" width="110" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="65" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">呼吸</text>
+  <rect x="125" y="102" width="200" height="28" rx="2" fill="#fff8e1" stroke="#ffe082" stroke-width="1"/>
+  <text x="225" y="120" text-anchor="middle" fill="#f57f17" font-size="10">幼体鳃呼吸，成体肺+皮肤</text>
+  <rect x="330" y="102" width="260" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="460" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">完全用肺呼吸</text>
+  <!-- 行3：生殖 -->
+  <rect x="10" y="132" width="110" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="65" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">生殖</text>
+  <rect x="125" y="132" width="200" height="28" rx="2" fill="#fff8e1" stroke="#ffe082" stroke-width="1"/>
+  <text x="225" y="150" text-anchor="middle" fill="#f57f17" font-size="10">水中受精，卵无硬壳</text>
+  <rect x="330" y="132" width="260" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="460" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">陆地产卵，卵有坚韧外壳</text>
+  <!-- 行4：代表 -->
+  <rect x="10" y="162" width="110" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="65" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">代表动物</text>
+  <rect x="125" y="162" width="200" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="225" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">青蛙·蟾蜍·大鲵·蝾螈</text>
+  <rect x="330" y="162" width="260" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="460" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">蜥蜴·蛇·龟·鳄鱼</text>
+</svg>
+
 | 比较项目 | 两栖动物 | 爬行动物 |
 |---|---|---|
 | 体表 | 裸露、湿润 | 有角质鳞片或甲 |

@@ -11,6 +11,31 @@ date: 2026-08-06
 
 三角形的角平分线是指三角形一个内角的平分线与对边相交，顶点和交点之间的线段。
 
+<svg width="320" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 320 200">
+  <!-- 角 AOB -->
+  <line x1="160" y1="160" x2="40" y2="40" stroke="#7b1fa2" stroke-width="2"/>
+  <line x1="160" y1="160" x2="280" y2="40" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 角平分线 OC -->
+  <line x1="160" y1="160" x2="160" y2="30" stroke="#9c27b0" stroke-width="2" stroke-dasharray="6,3"/>
+  <!-- 顶点标注 -->
+  <text x="155" y="178" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">O</text>
+  <text x="28" y="36" font-size="14" fill="#7b1fa2" font-weight="bold">A</text>
+  <text x="282" y="36" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="162" y="22" font-size="14" fill="#9c27b0" font-weight="bold">C</text>
+  <!-- 点 P 在角平分线上 -->
+  <circle cx="160" cy="100" r="4" fill="#7b1fa2"/>
+  <text x="168" y="98" font-size="13" fill="#7b1fa2" font-weight="bold">P</text>
+  <!-- PD⊥OA, PE⊥OB -->
+  <line x1="160" y1="100" x2="100" y2="100" stroke="#424242" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="160" y1="100" x2="220" y2="100" stroke="#424242" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="94" y="94" width="6" height="6" fill="none" stroke="#424242" stroke-width="1.5"/>
+  <rect x="220" y="94" width="6" height="6" fill="none" stroke="#424242" stroke-width="1.5"/>
+  <text x="94" y="118" font-size="12" fill="#424242">D</text>
+  <text x="222" y="118" font-size="12" fill="#424242">E</text>
+  <!-- 性质说明 -->
+  <text x="160" y="192" font-size="12" fill="#9c27b0" text-anchor="middle" font-weight="bold">PD = PE（P到角两边距离相等）</text>
+</svg>
+
 ## 角平分线的性质定理
 
 **性质定理**：角的平分线上的点到角的两边的距离相等。

@@ -30,6 +30,47 @@ date: 2026-08-05
 - 心室与动脉之间有**动脉瓣**（只朝动脉开）
 - 瓣膜保证血液**单向流动**
 
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="620" height="300" fill="#f1f8e9" rx="10"/>
+  <text x="310" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">心脏结构与血液循环示意图</text>
+  <!-- 心脏外轮廓 -->
+  <path d="M 220 60 Q 180 50 160 90 Q 140 130 180 160 Q 220 190 260 220 Q 300 250 310 260 Q 320 250 360 220 Q 400 190 440 160 Q 480 130 460 90 Q 440 50 400 60 Q 360 40 310 70 Q 260 40 220 60 Z" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5"/>
+  <!-- 左心房（右上） -->
+  <ellipse cx="370" cy="100" rx="55" ry="35" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/>
+  <text x="370" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">左心房</text>
+  <text x="370" y="112" text-anchor="middle" font-size="9" fill="#fff">接收肺静脉血</text>
+  <!-- 右心房（左上） -->
+  <ellipse cx="250" cy="100" rx="55" ry="35" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="250" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#b71c1c">右心房</text>
+  <text x="250" y="112" text-anchor="middle" font-size="9" fill="#b71c1c">接收腔静脉血</text>
+  <!-- 左心室（右下，壁最厚） -->
+  <ellipse cx="370" cy="195" rx="60" ry="45" fill="#c62828" stroke="#b71c1c" stroke-width="3"/>
+  <text x="370" y="190" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">左心室</text>
+  <text x="370" y="206" text-anchor="middle" font-size="9" fill="#ffcdd2">壁最厚·泵全身</text>
+  <!-- 右心室（左下） -->
+  <ellipse cx="250" cy="195" rx="55" ry="40" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/>
+  <text x="250" y="190" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">右心室</text>
+  <text x="250" y="206" text-anchor="middle" font-size="9" fill="#fff">泵血到肺</text>
+  <!-- 体循环标注 -->
+  <text x="80" y="195" text-anchor="middle" font-size="10" fill="#1b5e20">体循环</text>
+  <text x="80" y="210" text-anchor="middle" font-size="9" fill="#388e3c">左室→主动脉</text>
+  <text x="80" y="224" text-anchor="middle" font-size="9" fill="#388e3c">→全身→腔静脉</text>
+  <text x="80" y="238" text-anchor="middle" font-size="9" fill="#388e3c">→右房</text>
+  <!-- 肺循环标注 -->
+  <text x="540" y="195" text-anchor="middle" font-size="10" fill="#1b5e20">肺循环</text>
+  <text x="540" y="210" text-anchor="middle" font-size="9" fill="#388e3c">右室→肺动脉</text>
+  <text x="540" y="224" text-anchor="middle" font-size="9" fill="#388e3c">→肺→肺静脉</text>
+  <text x="540" y="238" text-anchor="middle" font-size="9" fill="#388e3c">→左房</text>
+  <!-- 房室瓣标注 -->
+  <text x="310" y="155" text-anchor="middle" font-size="9" fill="#1b5e20">房室瓣</text>
+  <text x="310" y="168" text-anchor="middle" font-size="8" fill="#388e3c">（单向→心室）</text>
+  <!-- 血液颜色说明 -->
+  <rect x="160" y="265" width="130" height="22" rx="4" fill="#ef9a9a" stroke="#c62828" stroke-width="1"/>
+  <text x="225" y="280" text-anchor="middle" font-size="10" fill="#b71c1c">静脉血（暗红·缺O₂）</text>
+  <rect x="330" y="265" width="130" height="22" rx="4" fill="#c62828" stroke="#b71c1c" stroke-width="1"/>
+  <text x="395" y="280" text-anchor="middle" font-size="10" fill="#fff">动脉血（鲜红·富O₂）</text>
+</svg>
+
 ### 血液循环
 
 **体循环（大循环）：**

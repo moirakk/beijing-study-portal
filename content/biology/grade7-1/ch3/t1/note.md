@@ -30,6 +30,23 @@ date: 2026-08-05
 
 ### 2. 细胞分裂的过程
 
+```mermaid
+flowchart TD
+    A["亲代细胞\n（含染色体N条）"] --> B["染色体复制\n（DNA加倍，2N条）"]
+    B --> C["细胞核分裂\n（一个核→两个核）"]
+    C --> D["细胞质分裂\n（分成两份）"]
+    D --> E1["子代细胞①\n（含染色体N条）"]
+    D --> E2["子代细胞②\n（含染色体N条）"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style D fill:#81c784,stroke:#2e7d32,color:#1b5e20
+    style E1 fill:#4caf50,stroke:#1b5e20,color:#fff
+    style E2 fill:#4caf50,stroke:#1b5e20,color:#fff
+```
+
+> 关键：染色体先复制再平均分配，新细胞与原细胞**遗传物质相同**。
+
 1. **动物细胞分裂**：
    - 细胞核先由一个分成两个。
    - 细胞质分成两份，每份各含一个细胞核。

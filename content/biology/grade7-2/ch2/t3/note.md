@@ -21,6 +21,31 @@ $$有机物(淀粉等) + 氧气 \rightarrow 二氧化碳 + 水 + 能量$$
 - **条件：** 有光无光均可进行，全天候
 - **实质：** 分解有机物，释放能量
 
+<svg viewBox="0 0 580 180" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="180" fill="#f1f8e9" rx="10"/>
+  <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">呼吸作用过程示意图（线粒体）</text>
+  <!-- 线粒体 -->
+  <ellipse cx="290" cy="105" rx="85" ry="55" fill="#c8e6c9" stroke="#388e3c" stroke-width="3"/>
+  <text x="290" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b5e20">线粒体</text>
+  <text x="290" y="116" text-anchor="middle" font-size="11" fill="#2e7d32">（呼吸作用场所）</text>
+  <!-- 原料输入 -->
+  <text x="80" y="88" text-anchor="middle" font-size="12" fill="#388e3c">有机物</text>
+  <line x1="130" y1="90" x2="203" y2="100" stroke="#388e3c" stroke-width="1.5" marker-end="url(#ga)"/>
+  <text x="80" y="120" text-anchor="middle" font-size="12" fill="#43a047">O₂</text>
+  <line x1="115" y1="118" x2="203" y2="112" stroke="#43a047" stroke-width="1.5" marker-end="url(#ga)"/>
+  <!-- 产物输出 -->
+  <text x="490" y="88" text-anchor="middle" font-size="12" fill="#c62828">CO₂</text>
+  <line x1="375" y1="100" x2="450" y2="90" stroke="#c62828" stroke-width="1.5" marker-end="url(#red)"/>
+  <text x="490" y="120" text-anchor="middle" font-size="12" fill="#e65100">H₂O</text>
+  <line x1="375" y1="112" x2="450" y2="118" stroke="#e65100" stroke-width="1.5" marker-end="url(#red)"/>
+  <!-- 能量 -->
+  <text x="290" y="158" text-anchor="middle" font-size="12" font-weight="bold" fill="#f57f17">↓ 释放能量（供生命活动）</text>
+  <defs>
+    <marker id="ga" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/></marker>
+    <marker id="red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#c62828"/></marker>
+  </defs>
+</svg>
+
 ### 呼吸作用的实验验证
 
 **实验一：产生CO₂**

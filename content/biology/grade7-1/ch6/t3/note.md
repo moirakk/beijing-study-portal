@@ -26,6 +26,19 @@ date: 2026-08-05
 
 ### 1. 真菌的种类
 
+```mermaid
+graph TD
+    A["真菌\n（真核生物·有细胞核）"] --> B["单细胞真菌\n酵母菌\n（出芽生殖）"]
+    A --> C["多细胞真菌\n由菌丝构成"]
+    C --> D["霉菌\n青霉·曲霉·根霉\n（孢子生殖）"]
+    C --> E["大型真菌\n蘑菇·木耳·灵芝\n（孢子生殖）"]
+    style A fill:#388e3c,stroke:#1b5e20,color:#fff
+    style B fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style C fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style D fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style E fill:#66bb6a,stroke:#2e7d32,color:#fff
+```
+
 - **单细胞真菌**：如酵母菌。
 - **多细胞真菌**：如霉菌（青霉、曲霉）、蘑菇、木耳等。
 

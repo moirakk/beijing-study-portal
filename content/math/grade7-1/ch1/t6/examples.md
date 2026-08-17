@@ -22,6 +22,38 @@ $$
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t6e" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#424242" stroke-width="2" marker-end="url(#arr-t6e)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="43" x2="90" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">-1/2</text>
+  <line x1="170" y1="43" x2="170" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">-1/3</text>
+  <line x1="250" y1="43" x2="250" y2="57" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-size="13" fill="#424242">0</text>
+  <line x1="350" y1="43" x2="350" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="350" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">1</text>
+  <line x1="430" y1="43" x2="430" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="430" y="72" text-anchor="middle" font-size="12" fill="#7b1fa2">3</text>
+  <!-- 标注各点 -->
+  <circle cx="90" cy="50" r="5" fill="#7b1fa2"/>
+  <circle cx="170" cy="50" r="5" fill="#9c27b0"/>
+  <circle cx="250" cy="50" r="5" fill="#424242"/>
+  <circle cx="350" cy="50" r="5" fill="#9c27b0"/>
+  <circle cx="430" cy="50" r="5" fill="#7b1fa2"/>
+  <!-- 关键：两负数比较 -->
+  <text x="130" y="30" text-anchor="middle" font-size="11" fill="#7b1fa2">|-1/2|&gt;|-1/3|</text>
+  <text x="130" y="18" text-anchor="middle" font-size="11" fill="#9c27b0">故 -1/2 &lt; -1/3</text>
+  <text x="250" y="92" text-anchor="middle" font-size="12" fill="#424242">-1/2 &lt; -1/3 &lt; 0 &lt; 1 &lt; 3</text>
+</svg>
+
 ## 例题 2（基础 · 排序）
 
 ### 题目

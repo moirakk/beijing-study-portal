@@ -7,6 +7,29 @@
 (1) 判断 $2a^2b$ 与 $-3ba^2$ 是否为同类项；
 (2) 合并同类项：$4x^2 - 3x + 7x^2 + 5x - 6$。
 
+<svg viewBox="0 0 500 90" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="90" rx="10" fill="#f3e5f5"/>
+  <text x="250" y="22" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">合并同类项示意：4x²−3x+7x²+5x−6</text>
+  <!-- x² group -->
+  <rect x="20" y="32" width="90" height="28" rx="6" fill="#7b1fa2"/>
+  <text x="65" y="51" text-anchor="middle" fill="white" font-size="13">4x²</text>
+  <rect x="130" y="32" width="90" height="28" rx="6" fill="#7b1fa2"/>
+  <text x="175" y="51" text-anchor="middle" fill="white" font-size="13">+7x²</text>
+  <text x="240" y="51" text-anchor="middle" fill="#9c27b0" font-size="18" font-weight="bold">→</text>
+  <rect x="255" y="32" width="90" height="28" rx="6" fill="#4a148c"/>
+  <text x="300" y="51" text-anchor="middle" fill="white" font-size="13">11x²</text>
+  <!-- x group -->
+  <rect x="20" y="62" width="90" height="22" rx="6" fill="#ce93d8"/>
+  <text x="65" y="77" text-anchor="middle" fill="#4a148c" font-size="12">−3x</text>
+  <rect x="130" y="62" width="90" height="22" rx="6" fill="#ce93d8"/>
+  <text x="175" y="77" text-anchor="middle" fill="#4a148c" font-size="12">+5x</text>
+  <text x="240" y="77" text-anchor="middle" fill="#9c27b0" font-size="18" font-weight="bold">→</text>
+  <rect x="255" y="62" width="90" height="22" rx="6" fill="#9c27b0"/>
+  <text x="300" y="77" text-anchor="middle" fill="white" font-size="12">+2x</text>
+  <text x="390" y="62" fill="#4a148c" font-size="12">常数项</text>
+  <text x="390" y="77" fill="#4a148c" font-size="12">−6 不变</text>
+</svg>
+
 ### 解析
 
 (1) 两式所含字母都是 $a$、$b$，且 $a$ 的指数都是 2、$b$ 的指数都是 1，字母顺序不影响判断——**是同类项**。

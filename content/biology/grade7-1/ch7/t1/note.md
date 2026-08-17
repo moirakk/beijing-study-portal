@@ -31,6 +31,27 @@ date: 2026-08-05
 
 ### 2. 植物的分类依据
 
+```mermaid
+graph TD
+    A["植物分类\n（从低等到高等）"] --> B["藻类植物\n无根茎叶·孢子繁殖\n水生为主"]
+    A --> C["苔藓植物\n有茎叶·假根\n无输导组织"]
+    A --> D["蕨类植物\n有根茎叶·有输导组织\n孢子繁殖"]
+    A --> E["种子植物"]
+    E --> F["裸子植物\n种子裸露\n无果皮"]
+    E --> G["被子植物\n种子有果皮\n有花·最高等"]
+    G --> H["单子叶植物\n子叶1片\n玉米·小麦"]
+    G --> I["双子叶植物\n子叶2片\n菜豆·桃"]
+    style A fill:#388e3c,stroke:#1b5e20,color:#fff
+    style B fill:#e3f2fd,stroke:#1565c0,color:#1565c0
+    style C fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style D fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style E fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style F fill:#81c784,stroke:#2e7d32,color:#1b5e20
+    style G fill:#4caf50,stroke:#1b5e20,color:#fff
+    style H fill:#66bb6a,stroke:#2e7d32,color:#fff
+    style I fill:#66bb6a,stroke:#2e7d32,color:#fff
+```
+
 | 分类角度 | 具体特征 |
 |---|---|
 | 有无种子 | 孢子植物（无种子）/ 种子植物（有种子） |

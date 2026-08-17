@@ -24,6 +24,40 @@ date: 2026-08-06
 不同环境条件和长期自然选择，使生物不断分化，形成丰富的物种和复杂的生态系统。
 生物多样性不仅包括看得见的物种数量，还包括同种生物内部的基因差异以及生态系统类型差异。
 
+<svg viewBox="0 0 620 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr11" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="310" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">生物多样性的三个层次</text>
+  <!-- 中心 -->
+  <ellipse cx="310" cy="110" rx="70" ry="40" fill="#388e3c" stroke="#1b5e20" stroke-width="2"/>
+  <text x="310" y="106" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">生物多样性</text>
+  <text x="310" y="122" text-anchor="middle" font-size="10" fill="#e8f5e9">三个层次</text>
+  <!-- 基因多样性 -->
+  <line x1="240" y1="110" x2="170" y2="80" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr11)"/>
+  <rect x="20" y="55" width="150" height="55" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="95" y="77" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">基因多样性</text>
+  <text x="95" y="93" text-anchor="middle" font-size="10" fill="#388e3c">同种生物基因差异</text>
+  <text x="95" y="107" text-anchor="middle" font-size="10" fill="#555">例：不同水稻品种</text>
+  <!-- 物种多样性 -->
+  <line x1="310" y1="70" x2="310" y2="30" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr11)"/>
+  <rect x="220" y="5" width="180" height="25" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="310" y="22" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">物种多样性（最直观）</text>
+  <!-- 生态系统多样性 -->
+  <line x1="380" y1="110" x2="450" y2="80" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr11)"/>
+  <rect x="450" y="55" width="160" height="55" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="530" y="77" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">生态系统多样性</text>
+  <text x="530" y="93" text-anchor="middle" font-size="10" fill="#388e3c">生态系统类型多样</text>
+  <text x="530" y="107" text-anchor="middle" font-size="10" fill="#555">森林、草原、湿地</text>
+  <!-- 保护措施 -->
+  <rect x="20" y="155" width="580" height="55" rx="10" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="310" y="175" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">保护措施</text>
+  <text x="310" y="193" text-anchor="middle" font-size="11" fill="#388e3c">根本措施：保护栖息环境和生态系统多样性</text>
+  <text x="310" y="207" text-anchor="middle" font-size="11" fill="#388e3c">最有效措施之一：建立自然保护区（就地保护）；迁地保护、法制管理</text>
+</svg>
+
 生物多样性具有重要价值。
 它为人类提供食物、药物、工业原料和基因资源，也维持生态平衡。
 如果某些关键物种消失，生态系统稳定性可能受到破坏。

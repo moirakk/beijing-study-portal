@@ -11,6 +11,41 @@ date: 2026-08-06
 
 集合定义：圆是到定点（圆心）的距离等于定长（半径）的所有点的集合。
 
+<svg viewBox="0 0 400 320" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 圆 -->
+  <circle cx="200" cy="160" r="110" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- 圆心O -->
+  <circle cx="200" cy="160" r="4" fill="#7b1fa2"/>
+  <text x="207" y="165" font-size="13" font-weight="bold" fill="#7b1fa2">O</text>
+  <!-- 半径OA -->
+  <line x1="200" y1="160" x2="310" y2="160" stroke="#7b1fa2" stroke-width="2"/>
+  <circle cx="310" cy="160" r="4" fill="#7b1fa2"/>
+  <text x="314" y="156" font-size="12" fill="#7b1fa2">A</text>
+  <text x="248" y="152" font-size="12" fill="#7b1fa2">半径 r</text>
+  <!-- 直径BC（过圆心） -->
+  <line x1="90" y1="160" x2="310" y2="160" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="90" cy="160" r="4" fill="#9c27b0"/>
+  <text x="74" y="156" font-size="12" fill="#9c27b0">B</text>
+  <text x="180" y="185" font-size="11" fill="#9c27b0">直径 d=2r</text>
+  <!-- 弦DE（不过圆心） -->
+  <line x1="130" y1="80" x2="310" y2="220" stroke="#ab47bc" stroke-width="2"/>
+  <circle cx="130" cy="80" r="4" fill="#ab47bc"/>
+  <circle cx="310" cy="220" r="4" fill="#ab47bc"/>
+  <text x="116" y="76" font-size="12" fill="#ab47bc">D</text>
+  <text x="314" y="228" font-size="12" fill="#ab47bc">E</text>
+  <text x="185" y="130" font-size="11" fill="#ab47bc">弦 DE</text>
+  <!-- 弧标注 -->
+  <path d="M 130,80 A 110,110 0 0,1 310,220" fill="none" stroke="#e91e63" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="310" y="130" font-size="11" fill="#e91e63">弧（劣弧）</text>
+  <!-- 圆心角 -->
+  <line x1="200" y1="160" x2="130" y2="80" stroke="#555" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="200" y1="160" x2="310" y2="220" stroke="#555" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <path d="M 185,148 A 20,20 0 0,0 208,172" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="155" y="168" font-size="10" fill="#555">圆心角</text>
+  <!-- 标题 -->
+  <text x="200" y="308" text-anchor="middle" font-size="12" font-weight="bold" fill="#7b1fa2">圆的基本元素：圆心O、半径r、直径d、弦、弧、圆心角</text>
+</svg>
+
 ## 基本概念
 
 - **弦**：连接圆上任意两点的线段；经过圆心的弦叫**直径**（$d=2r$），是最长的弦。

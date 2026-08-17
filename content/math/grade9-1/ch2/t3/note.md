@@ -16,6 +16,39 @@ $$y=ax^2+bx+c \implies x=-\frac{b}{2a}\ \text{时},\ y_{\text{最值}}=\frac{4ac
 
 **关键**：实际问题中自变量往往有取值范围，若顶点横坐标不在范围内，则在**范围端点**处取最值。
 
+<svg viewBox="0 0 480 260" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="axm" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#555"/></marker>
+    <marker id="aym" markerWidth="7" markerHeight="7" refX="3" refY="5" orient="auto"><path d="M0,7 L6,7 L3,0 z" fill="#555"/></marker>
+  </defs>
+  <!-- 坐标轴 -->
+  <line x1="40" y1="200" x2="440" y2="200" stroke="#555" stroke-width="1.5" marker-end="url(#axm)"/>
+  <line x1="240" y1="20" x2="240" y2="240" stroke="#555" stroke-width="1.5" marker-end="url(#aym)"/>
+  <text x="444" y="204" font-size="12" fill="#555">x</text>
+  <text x="243" y="17" font-size="12" fill="#555">y</text>
+  <text x="234" y="214" font-size="11" fill="#555">O</text>
+  <!-- a<0 开口向下抛物线，顶点在(240,80)，最大值 -->
+  <polyline points="80,200 110,170 140,148 170,132 200,120 240,80 280,120 310,132 340,148 370,170 400,200"
+    fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- 顶点 -->
+  <circle cx="240" cy="80" r="5" fill="#7b1fa2"/>
+  <!-- 对称轴虚线 -->
+  <line x1="240" y1="80" x2="240" y2="200" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- 顶点坐标标注 -->
+  <text x="248" y="78" font-size="12" fill="#7b1fa2" font-weight="bold">顶点(h, k)</text>
+  <!-- 最大值标注 -->
+  <line x1="240" y1="80" x2="160" y2="80" stroke="#e1bee7" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="100" y="84" font-size="11" fill="#7b1fa2">最大值 k</text>
+  <!-- 对称轴标注 -->
+  <text x="244" y="218" font-size="11" fill="#9c27b0">x=h（对称轴）</text>
+  <!-- a<0 标注 -->
+  <rect x="320" y="50" width="120" height="40" rx="6" fill="#f3e5f5"/>
+  <text x="380" y="68" text-anchor="middle" font-size="12" fill="#7b1fa2">a &lt; 0</text>
+  <text x="380" y="84" text-anchor="middle" font-size="11" fill="#7b1fa2">顶点处取最大值</text>
+  <!-- 标题 -->
+  <text x="240" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#7b1fa2">y = a(x-h)² + k，顶点(h,k)决定最值</text>
+</svg>
+
 ## 常见题型
 
 ### 1. 图形面积最值

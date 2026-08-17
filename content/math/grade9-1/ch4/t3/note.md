@@ -11,6 +11,43 @@ date: 2026-08-06
 
 把圆分成 $n$ 等份（$n\geq 3$），依次连接各分点所得的多边形是这个圆的**内接正 $n$ 边形**，这个圆叫做正多边形的**外接圆**。
 
+<svg viewBox="0 0 400 320" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外接圆 -->
+  <circle cx="200" cy="160" r="120" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 内切圆（边心距为半径） -->
+  <circle cx="200" cy="160" r="104" fill="none" stroke="#e1bee7" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- 正六边形顶点（半径120，中心角60°） -->
+  <!-- 顶点坐标：(200+120cos(k*60°), 160+120sin(k*60°)) k=0..5 -->
+  <!-- k=0: (320,160), k=1: (260,264), k=2: (140,264), k=3: (80,160), k=4: (140,56), k=5: (260,56) -->
+  <polygon points="320,160 260,264 140,264 80,160 140,56 260,56"
+    fill="#e1bee7" fill-opacity="0.5" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- 圆心O -->
+  <circle cx="200" cy="160" r="4" fill="#7b1fa2"/>
+  <text x="206" y="165" font-size="13" font-weight="bold" fill="#7b1fa2">O</text>
+  <!-- 半径R（到顶点） -->
+  <line x1="200" y1="160" x2="320" y2="160" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="254" y="152" font-size="12" fill="#7b1fa2">R（半径）</text>
+  <!-- 边心距r（到边中点） -->
+  <line x1="200" y1="160" x2="290" y2="212" stroke="#9c27b0" stroke-width="1.8" stroke-dasharray="5,3"/>
+  <text x="252" y="200" font-size="11" fill="#9c27b0">r（边心距）</text>
+  <!-- 边长a标注 -->
+  <text x="290" y="155" font-size="12" fill="#ab47bc">a=R</text>
+  <!-- 中心角标注 -->
+  <path d="M 230,160 A 30,30 0 0,0 215,134" fill="none" stroke="#e91e63" stroke-width="1.5"/>
+  <text x="232" y="148" font-size="10" fill="#e91e63">60°</text>
+  <!-- 顶点标注 -->
+  <circle cx="320" cy="160" r="4" fill="#7b1fa2"/>
+  <circle cx="260" cy="264" r="4" fill="#7b1fa2"/>
+  <circle cx="140" cy="264" r="4" fill="#7b1fa2"/>
+  <circle cx="80" cy="160" r="4" fill="#7b1fa2"/>
+  <circle cx="140" cy="56" r="4" fill="#7b1fa2"/>
+  <circle cx="260" cy="56" r="4" fill="#7b1fa2"/>
+  <!-- 直角标记（边心距垂直于边） -->
+  <rect x="283" y="205" width="10" height="10" fill="none" stroke="#555" stroke-width="1.2" transform="rotate(30,288,210)"/>
+  <!-- 标题 -->
+  <text x="200" y="308" text-anchor="middle" font-size="12" font-weight="bold" fill="#7b1fa2">正六边形：中心角60°，边长a=R，边心距r=√3R/2</text>
+</svg>
+
 ## 相关概念
 
 - **中心**：正多边形外接圆的圆心 $O$；

@@ -26,6 +26,68 @@ date: 2026-08-05
 
 ### 1. 显微镜的结构
 
+<svg viewBox="0 0 520 480" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="520" height="480" fill="#f1f8e9" rx="12"/>
+  <text x="260" y="28" text-anchor="middle" fill="#1b5e20" font-size="16" font-weight="bold">显微镜结构示意图</text>
+  <!-- 镜座 -->
+  <rect x="160" y="420" width="200" height="30" rx="6" fill="#388e3c"/>
+  <text x="260" y="440" text-anchor="middle" fill="white" font-size="12" font-weight="bold">镜座</text>
+  <!-- 镜柱 -->
+  <rect x="230" y="370" width="60" height="55" fill="#4caf50"/>
+  <text x="260" y="400" text-anchor="middle" fill="white" font-size="11">镜柱</text>
+  <!-- 镜臂 -->
+  <rect x="200" y="280" width="30" height="100" rx="4" fill="#66bb6a"/>
+  <text x="155" y="335" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">镜臂</text>
+  <line x1="185" y1="335" x2="200" y2="335" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 粗准焦螺旋 -->
+  <ellipse cx="195" cy="310" rx="18" ry="10" fill="#2e7d32"/>
+  <text x="100" y="310" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">粗准焦螺旋</text>
+  <line x1="145" y1="310" x2="177" y2="310" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 细准焦螺旋 -->
+  <ellipse cx="195" cy="340" rx="14" ry="8" fill="#388e3c"/>
+  <text x="100" y="345" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">细准焦螺旋</text>
+  <line x1="145" y1="345" x2="181" y2="342" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 镜筒 -->
+  <rect x="235" y="160" width="50" height="120" rx="4" fill="#81c784"/>
+  <text x="380" y="225" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">镜筒</text>
+  <line x1="340" y1="225" x2="285" y2="225" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 目镜 -->
+  <rect x="240" y="140" width="40" height="25" rx="4" fill="#1b5e20"/>
+  <text x="260" y="157" text-anchor="middle" fill="white" font-size="11" font-weight="bold">目镜</text>
+  <text x="380" y="155" text-anchor="middle" fill="#1b5e20" font-size="10">（无螺纹，越长倍数越小）</text>
+  <line x1="340" y1="155" x2="280" y2="155" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 转换器 -->
+  <ellipse cx="260" cy="285" rx="35" ry="12" fill="#2e7d32"/>
+  <text x="380" y="288" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">转换器</text>
+  <line x1="340" y1="288" x2="295" y2="288" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 物镜 -->
+  <rect x="248" y="295" width="24" height="40" rx="3" fill="#1b5e20"/>
+  <text x="260" y="320" text-anchor="middle" fill="white" font-size="10">物镜</text>
+  <text x="380" y="320" text-anchor="middle" fill="#1b5e20" font-size="10">（有螺纹，越长倍数越大）</text>
+  <line x1="340" y1="320" x2="272" y2="320" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 载物台 -->
+  <rect x="195" y="355" width="130" height="18" rx="3" fill="#4caf50"/>
+  <text x="260" y="368" text-anchor="middle" fill="white" font-size="11">载物台（通光孔）</text>
+  <!-- 遮光器 -->
+  <ellipse cx="260" cy="375" rx="20" ry="6" fill="#388e3c"/>
+  <text x="100" y="378" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">遮光器</text>
+  <line x1="145" y1="378" x2="240" y2="378" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 反光镜 -->
+  <ellipse cx="260" cy="410" rx="25" ry="8" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="100" y="413" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">反光镜</text>
+  <text x="100" y="425" text-anchor="middle" fill="#2e7d32" font-size="9">（平面/凹面）</text>
+  <line x1="145" y1="413" x2="235" y2="413" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 说明框 -->
+  <rect x="10" y="45" width="200" height="80" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="110" y="65" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">光学部分</text>
+  <text x="110" y="82" text-anchor="middle" fill="#2e7d32" font-size="10">目镜 · 物镜 · 反光镜</text>
+  <rect x="10" y="135" width="200" height="80" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="110" y="155" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">机械部分</text>
+  <text x="110" y="172" text-anchor="middle" fill="#2e7d32" font-size="10">镜座·镜柱·镜臂·镜筒</text>
+  <text x="110" y="188" text-anchor="middle" fill="#2e7d32" font-size="10">载物台·遮光器·转换器</text>
+  <text x="110" y="204" text-anchor="middle" fill="#2e7d32" font-size="10">粗/细准焦螺旋</text>
+</svg>
+
 - **光学部分**：目镜、物镜、反光镜。
 - **机械部分**：镜座、镜柱、镜臂、载物台、压片夹、通光孔、遮光器、转换器、镜筒、粗/细准焦螺旋。
 

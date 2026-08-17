@@ -32,6 +32,68 @@ date: 2026-08-05
 
 ### 2. 草履虫的结构与功能
 
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="560" height="300" fill="#f1f8e9" rx="12"/>
+  <text x="280" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">草履虫结构示意图</text>
+  <!-- 草履虫轮廓（鞋底形） -->
+  <ellipse cx="200" cy="155" rx="90" ry="120" fill="#e8f5e9" stroke="#388e3c" stroke-width="3"/>
+  <!-- 纤毛（周围小线条） -->
+  <g stroke="#66bb6a" stroke-width="1">
+    <line x1="110" y1="100" x2="95" y2="88"/>
+    <line x1="115" y1="120" x2="98" y2="112"/>
+    <line x1="118" y1="140" x2="100" y2="135"/>
+    <line x1="118" y1="160" x2="100" y2="158"/>
+    <line x1="115" y1="180" x2="98" y2="180"/>
+    <line x1="110" y1="200" x2="95" y2="202"/>
+    <line x1="290" y1="100" x2="305" y2="88"/>
+    <line x1="288" y1="120" x2="303" y2="112"/>
+    <line x1="285" y1="140" x2="300" y2="135"/>
+    <line x1="285" y1="160" x2="300" y2="158"/>
+    <line x1="288" y1="180" x2="303" y2="180"/>
+    <line x1="290" y1="200" x2="305" y2="202"/>
+    <line x1="150" y1="38" x2="148" y2="22"/>
+    <line x1="170" y1="36" x2="170" y2="20"/>
+    <line x1="190" y1="35" x2="192" y2="19"/>
+    <line x1="210" y1="36" x2="212" y2="20"/>
+    <line x1="230" y1="38" x2="232" y2="22"/>
+    <line x1="150" y1="272" x2="148" y2="288"/>
+    <line x1="170" y1="274" x2="170" y2="290"/>
+    <line x1="190" y1="275" x2="192" y2="291"/>
+    <line x1="210" y1="274" x2="212" y2="290"/>
+    <line x1="230" y1="272" x2="232" y2="288"/>
+  </g>
+  <!-- 口沟 -->
+  <path d="M 155 80 Q 175 100 165 130" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- 食物泡 -->
+  <circle cx="185" cy="140" r="12" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="185" y="143" text-anchor="middle" fill="#1b5e20" font-size="8">食物泡</text>
+  <!-- 大核 -->
+  <ellipse cx="200" cy="155" rx="30" ry="20" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="200" y="158" text-anchor="middle" fill="white" font-size="9" font-weight="bold">大核</text>
+  <!-- 小核 -->
+  <circle cx="230" cy="145" r="8" fill="#1b5e20" stroke="#388e3c" stroke-width="1"/>
+  <text x="230" y="148" text-anchor="middle" fill="white" font-size="7">小核</text>
+  <!-- 伸缩泡 -->
+  <circle cx="175" cy="210" r="14" fill="#b2dfdb" stroke="#4db6ac" stroke-width="1.5"/>
+  <text x="175" y="213" text-anchor="middle" fill="#00695c" font-size="8">伸缩泡</text>
+  <!-- 胞肛 -->
+  <ellipse cx="215" cy="240" rx="12" ry="8" fill="#81c784" stroke="#388e3c" stroke-width="1"/>
+  <text x="215" y="243" text-anchor="middle" fill="#1b5e20" font-size="8">胞肛</text>
+  <!-- 标注 -->
+  <rect x="340" y="45" width="200" height="220" rx="8" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="440" y="68" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">各结构功能</text>
+  <text x="350" y="90" fill="#2e7d32" font-size="10">纤毛：运动（旋转前进）</text>
+  <text x="350" y="108" fill="#2e7d32" font-size="10">表膜：呼吸（气体交换）</text>
+  <text x="350" y="126" fill="#2e7d32" font-size="10">口沟：摄取食物</text>
+  <text x="350" y="144" fill="#2e7d32" font-size="10">食物泡：消化食物</text>
+  <text x="350" y="162" fill="#2e7d32" font-size="10">大核：与营养有关</text>
+  <text x="350" y="180" fill="#2e7d32" font-size="10">小核：与生殖有关</text>
+  <text x="350" y="198" fill="#2e7d32" font-size="10">伸缩泡：排出多余水分</text>
+  <text x="350" y="216" fill="#2e7d32" font-size="10">胞肛：排出食物残渣</text>
+  <rect x="345" y="228" width="185" height="28" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="437" y="246" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">一个细胞完成全部生命活动</text>
+</svg>
+
 | 结构 | 功能 |
 |---|---|
 | 纤毛 | 摆动，使草履虫在水中旋转前进 |

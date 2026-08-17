@@ -29,6 +29,19 @@ date: 2026-08-05
 
 ### 2. 观察周边环境中的生物
 
+```mermaid
+flowchart TD
+    A["🎯 确定观察目的\n（明确要观察什么）"] --> B["🔍 明确观察对象\n（选定具体生物）"]
+    B --> C["🛠️ 准备观察工具\n（放大镜/显微镜/照相机等）"]
+    C --> D["📝 做好观察记录\n（名称·数量·环境·形态·习性）"]
+    D --> E["💬 交流观察结果\n（整理·归纳·分享）"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style C fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style D fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
+    style E fill:#a5d6a7,stroke:#1b5e20,color:#1b5e20
+```
+
 - 步骤：确定观察目的 → 明确观察对象 → 做好观察记录 → 交流观察结果。
 - 记录内容：生物的**名称**、**数量**、**生活环境**、**形态特征**、**生活习性**等。
 - 观察过程中要爱护生物，**不破坏环境**，不伤害动植物。

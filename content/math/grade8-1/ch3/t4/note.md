@@ -9,6 +9,37 @@ date: 2026-08-06
 
 有两边相等的三角形叫做等腰三角形。相等的两边叫做腰，另一边叫做底边，两腰的夹角叫做顶角，腰和底边的夹角叫做底角。
 
+<svg width="360" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 360 200">
+  <!-- 等腰三角形 ABC，AB=AC -->
+  <polygon points="180,20 60,170 300,170" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 顶点标注 -->
+  <text x="175" y="14" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="44" y="184" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="302" y="184" font-size="14" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 腰标注（AB=AC） -->
+  <text x="108" y="90" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">腰</text>
+  <text x="252" y="90" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">腰</text>
+  <!-- 等号标记 -->
+  <line x1="112" y1="78" x2="122" y2="72" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="108" y1="84" x2="118" y2="78" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="238" y1="72" x2="248" y2="78" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="242" y1="78" x2="252" y2="84" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 底边标注 -->
+  <text x="180" y="188" font-size="13" fill="#7b1fa2" text-anchor="middle">底边 BC</text>
+  <!-- 顶角标注 -->
+  <path d="M180,20 Q168,38 162,36" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="152" y="52" font-size="12" fill="#7b1fa2">顶角∠A</text>
+  <!-- 底角标注 -->
+  <path d="M60,170 Q78,158 80,148" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="82" y="158" font-size="12" fill="#9c27b0">∠B</text>
+  <path d="M300,170 Q284,158 282,148" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="256" y="158" font-size="12" fill="#9c27b0">∠C</text>
+  <!-- 三线合一 -->
+  <line x1="180" y1="20" x2="180" y2="170" stroke="#424242" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="174" y="164" width="6" height="6" fill="none" stroke="#424242" stroke-width="1.5"/>
+  <text x="180" y="200" font-size="12" fill="#424242" text-anchor="middle">∠B = ∠C（等边对等角）；AD 为高、中线、顶角平分线（三线合一）</text>
+</svg>
+
 ## 等腰三角形的性质
 
 1. **等边对等角**：等腰三角形的两个底角相等。

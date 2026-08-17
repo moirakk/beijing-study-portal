@@ -19,6 +19,20 @@ $$\begin{cases} x + y + z = 12 \\ x + 2y + 5z = 22 \\ x = 4y \end{cases}$$
 
 $$\text{三元} \xrightarrow{\text{消去一个未知数}} \text{二元} \xrightarrow{\text{再消元}} \text{一元}$$
 
+```mermaid
+flowchart TD
+    A["三元一次方程组\n三个方程，三个未知数"] --> B["选定先消去的未知数\n（选系数简单、出现多的）"]
+    B --> C["两两配对消元\n方程①②消去z → 方程④\n方程①③消去z → 方程⑤"]
+    C --> D["得到二元一次方程组\n{ 方程④\n{ 方程⑤"]
+    D --> E["用代入法或加减法\n解二元方程组\n求出两个未知数"]
+    E --> F["回代到最简方程\n求第三个未知数"]
+    F --> G["写出解\n{ x=...\n{ y=...\n{ z=..."]
+    G --> H["代入三个原方程验证 ✓"]
+    style A fill:#e1bee7
+    style D fill:#9c27b0,color:#fff
+    style G fill:#7b1fa2,color:#fff
+```
+
 一般步骤：
 
 1. 选定要先消去的未知数（选系数简单、出现次数多的）；

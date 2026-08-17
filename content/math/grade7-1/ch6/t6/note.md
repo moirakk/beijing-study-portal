@@ -14,6 +14,29 @@ date: 2026-08-05
 | **互为余角**（互余） | 两个角的和等于 $90°$ | $\angle 1 + \angle 2 = 90°$ |
 | **互为补角**（互补） | 两个角的和等于 $180°$ | $\angle 1 + \angle 2 = 180°$ |
 
+<svg viewBox="0 0 480 80" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="80" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="16" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">余角与补角的数轴示意</text>
+  <!-- Number line -->
+  <line x1="30" y1="45" x2="450" y2="45" stroke="#424242" stroke-width="2"/>
+  <!-- Ticks -->
+  <line x1="30" y1="38" x2="30" y2="52" stroke="#424242" stroke-width="2"/>
+  <text x="30" y="65" text-anchor="middle" fill="#4a148c" font-size="11">0°</text>
+  <line x1="240" y1="38" x2="240" y2="52" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="240" y="65" text-anchor="middle" fill="#7b1fa2" font-size="11">90°</text>
+  <line x1="450" y1="38" x2="450" y2="52" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="450" y="65" text-anchor="middle" fill="#7b1fa2" font-size="11">180°</text>
+  <!-- Example angle α = 60° at position 30+60/180*420=170 -->
+  <circle cx="170" cy="45" r="5" fill="#9c27b0"/>
+  <text x="170" y="35" text-anchor="middle" fill="#9c27b0" font-size="11">α=60°</text>
+  <!-- Complement: 90-60=30° at position 30+30/180*420=100 -->
+  <line x1="100" y1="45" x2="170" y2="45" stroke="#ce93d8" stroke-width="4" opacity="0.7"/>
+  <text x="135" y="75" text-anchor="middle" fill="#ce93d8" font-size="10">余角30°</text>
+  <!-- Supplement: 180-60=120° at position 30+120/180*420=310 -->
+  <line x1="170" y1="45" x2="310" y2="45" stroke="#9c27b0" stroke-width="4" opacity="0.5"/>
+  <text x="240" y="75" text-anchor="middle" fill="#9c27b0" font-size="10">补角120°</text>
+</svg>
+
 - $\angle \alpha$ 的余角 $= 90° - \angle \alpha$；
 - $\angle \alpha$ 的补角 $= 180° - \angle \alpha$。
 

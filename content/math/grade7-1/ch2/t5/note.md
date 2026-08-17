@@ -29,6 +29,28 @@ date: 2026-08-05
 | 精确到 $0.01$（百分位） | $3.14$ |
 | 精确到 $0.001$（千分位） | $3.142$ |
 
+## 图示
+
+<svg viewBox="0 0 500 130" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="110" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">四舍五入：以 3.14159 为例</text>
+  <!-- 数字展示 -->
+  <text x="50" y="60" font-size="16" fill="#212121" font-family="monospace">3 . 1 4 1 5 9</text>
+  <!-- 位置标注 -->
+  <text x="50" y="80" font-size="11" fill="#7b1fa2">个位</text>
+  <text x="80" y="80" font-size="11" fill="#424242">.</text>
+  <text x="100" y="80" font-size="11" fill="#9c27b0">十分位</text>
+  <text x="150" y="80" font-size="11" fill="#7b1fa2">百分位</text>
+  <text x="200" y="80" font-size="11" fill="#9c27b0">千分位</text>
+  <text x="250" y="80" font-size="11" fill="#7b1fa2">万分位</text>
+  <!-- 精确到百分位示意 -->
+  <rect x="40" y="88" width="130" height="22" fill="#ce93d8" rx="4" opacity="0.7"/>
+  <text x="105" y="103" text-anchor="middle" font-size="12" fill="#212121">精确到百分位→3.14</text>
+  <!-- 精确到千分位示意 -->
+  <rect x="40" y="88" width="180" height="22" fill="none" stroke="#9c27b0" stroke-width="1.5" rx="4" stroke-dasharray="4,3"/>
+  <text x="300" y="103" font-size="12" fill="#9c27b0">精确到千分位→3.142（5进一）</text>
+</svg>
+
 ## 三、判断一个近似数精确到哪一位
 
 **看这个近似数的最后一位数字处在什么数位。**

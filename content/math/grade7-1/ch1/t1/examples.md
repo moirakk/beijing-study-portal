@@ -19,6 +19,34 @@ A. $0$　　B. $-(-2)$　　C. $-\frac{1}{3}$　　D. $+5$
 
 > ⚠️ 判断正负前，一定先把 $-(-2)$ 这类数**化简**。
 
+## 数轴示意
+
+<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t1e" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#424242" stroke-width="2" marker-end="url(#arr-t1e)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="43" x2="90" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="72" text-anchor="middle" font-size="13" fill="#7b1fa2">-2</text>
+  <line x1="170" y1="43" x2="170" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="72" text-anchor="middle" font-size="13" fill="#7b1fa2">-1</text>
+  <line x1="250" y1="43" x2="250" y2="57" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="72" text-anchor="middle" font-size="14" fill="#424242">0</text>
+  <line x1="330" y1="43" x2="330" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="72" text-anchor="middle" font-size="13" fill="#7b1fa2">1</text>
+  <line x1="410" y1="43" x2="410" y2="57" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="72" text-anchor="middle" font-size="13" fill="#7b1fa2">2</text>
+  <!-- 标注 C 选项 -1/3 的位置 -->
+  <circle cx="223" cy="50" r="5" fill="#7b1fa2"/>
+  <text x="223" y="35" text-anchor="middle" font-size="12" fill="#7b1fa2">-⅓（负数✔）</text>
+  <!-- 标注 B 选项 -(-2)=2 的位置 -->
+  <circle cx="410" cy="50" r="5" fill="#9c27b0"/>
+  <text x="410" y="35" text-anchor="middle" font-size="12" fill="#9c27b0">-(-2)=2（正数）</text>
+</svg>
+
 ---
 
 ## 例题 2（基础 · 相反意义的量）

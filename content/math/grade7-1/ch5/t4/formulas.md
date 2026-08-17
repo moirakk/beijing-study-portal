@@ -2,17 +2,12 @@
 
 ## 1. 行程问题
 
-$$
-s = vt
-$$
-
-$$
-\text{相遇}: v_1 t + v_2 t = s_{\text{总}}, \qquad \text{追及}: v_{\text{快}} t - v_{\text{慢}} t = s_{\text{差}}
-$$
-
-$$
-v_{\text{顺}} = v_{\text{静}} + v_{\text{水}}, \qquad v_{\text{逆}} = v_{\text{静}} - v_{\text{水}}
-$$
+```mermaid
+flowchart LR
+    A["行程问题\ns = vt"] --> B["相遇\nv₁t + v₂t = s总"]
+    A --> C["追及\nv快·t − v慢·t = s差"]
+    A --> D["顺逆流\nv顺 = v静 + v水\nv逆 = v静 − v水"]
+```
 
 ## 2. 工程问题
 

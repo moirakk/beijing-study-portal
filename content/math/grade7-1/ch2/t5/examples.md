@@ -20,6 +20,21 @@
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="100" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">近似数精确度判断</text>
+  <!-- 示例1 -->
+  <rect x="40" y="42" width="420" height="22" fill="#e1bee7" rx="3"/>
+  <text x="250" y="57" text-anchor="middle" font-size="12" fill="#212121">0.030 → 最后一位0在千分位 → 精确到千分位（0.001）</text>
+  <!-- 示例2 -->
+  <rect x="40" y="68" width="420" height="22" fill="#ce93d8" rx="3" opacity="0.6"/>
+  <text x="250" y="83" text-anchor="middle" font-size="12" fill="#212121">4.50×10³=4500 → 最后一位0在十位 → 精确到十位</text>
+  <!-- 提示 -->
+  <text x="250" y="105" text-anchor="middle" font-size="11" fill="#7b1fa2">⚠ 末尾的0不能省略，它表示精确度！</text>
+</svg>
+
 ## 例题 2（基础 · 判断精确度）
 
 ### 题目

@@ -43,6 +43,66 @@ date: 2026-08-05
 
 ## 四、易混辨析
 
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="620" height="200" fill="#f1f8e9" rx="12"/>
+  <text x="310" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">孢子植物三类群对比</text>
+  <!-- 表头 -->
+  <rect x="10" y="40" width="100" height="30" rx="4" fill="#388e3c"/>
+  <text x="60" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">特征</text>
+  <rect x="115" y="40" width="100" height="30" rx="4" fill="#388e3c"/>
+  <text x="165" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">藻类</text>
+  <rect x="220" y="40" width="130" height="30" rx="4" fill="#388e3c"/>
+  <text x="285" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">苔藓植物</text>
+  <rect x="355" y="40" width="130" height="30" rx="4" fill="#388e3c"/>
+  <text x="420" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">蕨类植物</text>
+  <rect x="490" y="40" width="120" height="30" rx="4" fill="#388e3c"/>
+  <text x="550" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">生活环境</text>
+  <!-- 行1：根 -->
+  <rect x="10" y="72" width="100" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="60" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">根</text>
+  <rect x="115" y="72" width="100" height="28" rx="2" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="165" y="90" text-anchor="middle" fill="#c62828" font-size="10">无</text>
+  <rect x="220" y="72" width="130" height="28" rx="2" fill="#fff8e1" stroke="#ffe082" stroke-width="1"/>
+  <text x="285" y="90" text-anchor="middle" fill="#f57f17" font-size="10">假根（固定）</text>
+  <rect x="355" y="72" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="420" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">有真正的根</text>
+  <rect x="490" y="72" width="120" height="28" rx="2" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="550" y="90" text-anchor="middle" fill="#1565c0" font-size="10">大多水中</text>
+  <!-- 行2：茎叶 -->
+  <rect x="10" y="102" width="100" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="60" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">茎和叶</text>
+  <rect x="115" y="102" width="100" height="28" rx="2" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="165" y="120" text-anchor="middle" fill="#c62828" font-size="10">无</text>
+  <rect x="220" y="102" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="285" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">有（简单）</text>
+  <rect x="355" y="102" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="420" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">有</text>
+  <rect x="490" y="102" width="120" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="550" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">阴湿陆地</text>
+  <!-- 行3：输导组织 -->
+  <rect x="10" y="132" width="100" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="60" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">输导组织</text>
+  <rect x="115" y="132" width="100" height="28" rx="2" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="165" y="150" text-anchor="middle" fill="#c62828" font-size="10">无</text>
+  <rect x="220" y="132" width="130" height="28" rx="2" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="285" y="150" text-anchor="middle" fill="#c62828" font-size="10">无</text>
+  <rect x="355" y="132" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="420" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">有（能长高大）</text>
+  <rect x="490" y="132" width="120" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="550" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">阴湿陆地</text>
+  <!-- 行4：繁殖 -->
+  <rect x="10" y="162" width="100" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="60" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">繁殖方式</text>
+  <rect x="115" y="162" width="100" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="165" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">孢子</text>
+  <rect x="220" y="162" width="130" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="285" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">孢子</text>
+  <rect x="355" y="162" width="130" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="420" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">孢子</text>
+  <rect x="490" y="162" width="120" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="550" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">均用孢子</text>
+</svg>
+
 | 植物类群 | 根 | 茎 | 叶 | 输导组织 | 生活环境 |
 |---|---|---|---|---|---|
 | 藻类 | 无 | 无 | 无 | 无 | 大多水中 |

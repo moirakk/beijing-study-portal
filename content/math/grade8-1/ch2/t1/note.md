@@ -11,6 +11,35 @@ date: 2026-08-06
 
 把两个全等的三角形重合在一起，重合的顶点叫做对应顶点，重合的边叫做对应边，重合的角叫做对应角。
 
+<svg width="380" height="180" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 380 180">
+  <!-- 三角形 ABC（左） -->
+  <polygon points="40,160 140,160 90,30" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="86" y="22" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="24" y="172" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="142" y="172" font-size="14" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 边长标注 -->
+  <text x="56" y="100" font-size="12" fill="#9c27b0" font-style="italic">c</text>
+  <text x="122" y="100" font-size="12" fill="#9c27b0" font-style="italic">b</text>
+  <text x="90" y="175" font-size="12" fill="#9c27b0" font-style="italic">a</text>
+
+  <!-- 全等符号 -->
+  <text x="185" y="100" font-size="22" fill="#7b1fa2" font-weight="bold" text-anchor="middle">≅</text>
+
+  <!-- 三角形 DEF（右，对应） -->
+  <polygon points="230,160 330,160 280,30" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="276" y="22" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">D</text>
+  <text x="214" y="172" font-size="14" fill="#7b1fa2" font-weight="bold">E</text>
+  <text x="332" y="172" font-size="14" fill="#7b1fa2" font-weight="bold">F</text>
+  <!-- 边长标注（对应相等） -->
+  <text x="246" y="100" font-size="12" fill="#9c27b0" font-style="italic">c</text>
+  <text x="312" y="100" font-size="12" fill="#9c27b0" font-style="italic">b</text>
+  <text x="280" y="175" font-size="12" fill="#9c27b0" font-style="italic">a</text>
+
+  <!-- 对应关系箭头 -->
+  <text x="190" y="170" font-size="11" fill="#424242" text-anchor="middle">△ABC ≅ △DEF</text>
+  <text x="190" y="155" font-size="11" fill="#424242" text-anchor="middle">A↔D, B↔E, C↔F</text>
+</svg>
+
 ## 全等三角形的性质
 
 1. **对应边相等**：全等三角形的对应边相等。

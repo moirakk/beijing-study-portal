@@ -23,6 +23,37 @@ date: 2026-08-06
 复习第一章时，要抓住不同类群生殖发育方式的比较。
 植物既有有性生殖也有无性生殖；昆虫有完全变态和不完全变态；两栖动物多体外受精并变态发育；鸟类体内受精且卵结构适于陆生发育。
 
+<svg viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <text x="340" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">单元综合复习——高频考点速查</text>
+  <rect x="10" y="25" width="660" height="28" rx="0" fill="#388e3c"/>
+  <text x="95" y="44" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">板块</text>
+  <text x="260" y="44" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">核心概念</text>
+  <text x="480" y="44" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">高频考点</text>
+  <line x1="170" y1="25" x2="170" y2="175" stroke="#fff" stroke-width="1"/>
+  <line x1="360" y1="25" x2="360" y2="175" stroke="#fff" stroke-width="1"/>
+  <rect x="10" y="53" width="660" height="28" fill="#e8f5e9"/>
+  <text x="95" y="72" text-anchor="middle" font-size="11" fill="#1b5e20">生殖与发育</text>
+  <text x="260" y="72" text-anchor="middle" font-size="10" fill="#388e3c">受精方式、发育类型</text>
+  <text x="480" y="72" text-anchor="middle" font-size="10" fill="#555">完全/不完全变态；体内/体外受精</text>
+  <rect x="10" y="81" width="660" height="28" fill="#f1f8e9"/>
+  <text x="95" y="100" text-anchor="middle" font-size="11" fill="#1b5e20">遗传</text>
+  <text x="260" y="100" text-anchor="middle" font-size="10" fill="#388e3c">基因、染色体、显隐性</text>
+  <text x="480" y="100" text-anchor="middle" font-size="10" fill="#555">遗传图解；性别遗传；近亲结婚</text>
+  <rect x="10" y="109" width="660" height="28" fill="#e8f5e9"/>
+  <text x="95" y="128" text-anchor="middle" font-size="11" fill="#1b5e20">变异与进化</text>
+  <text x="260" y="128" text-anchor="middle" font-size="10" fill="#388e3c">可遗传变异、化石、自然选择</text>
+  <text x="480" y="128" text-anchor="middle" font-size="10" fill="#555">米勒实验；进化趋势；自然选择四环节</text>
+  <rect x="10" y="137" width="660" height="28" fill="#f1f8e9"/>
+  <text x="95" y="156" text-anchor="middle" font-size="11" fill="#1b5e20">生物多样性保护</text>
+  <text x="260" y="156" text-anchor="middle" font-size="10" fill="#388e3c">三个层次、保护措施</text>
+  <text x="480" y="156" text-anchor="middle" font-size="10" fill="#555">根本措施vs最有效措施；就地/迁地保护</text>
+  <rect x="10" y="25" width="660" height="140" rx="0" fill="none" stroke="#388e3c" stroke-width="1.5"/>
+  <line x1="10" y1="53" x2="670" y2="53" stroke="#388e3c" stroke-width="1"/>
+  <line x1="10" y1="81" x2="670" y2="81" stroke="#388e3c" stroke-width="0.5"/>
+  <line x1="10" y1="109" x2="670" y2="109" stroke="#388e3c" stroke-width="0.5"/>
+  <line x1="10" y1="137" x2="670" y2="137" stroke="#388e3c" stroke-width="0.5"/>
+</svg>
+
 复习第二章时，要建立“细胞核—染色体—DNA—基因—性状”的链条。
 理解基因通过生殖细胞传递，掌握显性和隐性的判断方法，以及人的性别由性染色体决定。
 同时要会区分可遗传变异和不可遗传变异。

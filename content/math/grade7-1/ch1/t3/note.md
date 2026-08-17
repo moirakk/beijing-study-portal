@@ -21,6 +21,40 @@ date: 2026-08-05
 
 > ⚠️ **易错点**：画数轴时忘记箭头、忘记标 0、刻度不均匀，都是"三要素不全"，要扣分。
 
+## 图示
+
+<svg viewBox="0 0 520 130" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t3n" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <!-- 数轴主线 -->
+  <line x1="30" y1="65" x2="490" y2="65" stroke="#424242" stroke-width="2.5" marker-end="url(#arr-t3n)"/>
+  <!-- 刻度线 -->
+  <line x1="110" y1="57" x2="110" y2="73" stroke="#424242" stroke-width="2"/>
+  <line x1="190" y1="57" x2="190" y2="73" stroke="#424242" stroke-width="2"/>
+  <line x1="270" y1="57" x2="270" y2="73" stroke="#424242" stroke-width="2.5"/>
+  <line x1="350" y1="57" x2="350" y2="73" stroke="#424242" stroke-width="2"/>
+  <line x1="430" y1="57" x2="430" y2="73" stroke="#424242" stroke-width="2"/>
+  <!-- 数字标注 -->
+  <text x="110" y="90" text-anchor="middle" font-size="14" fill="#7b1fa2">-2</text>
+  <text x="190" y="90" text-anchor="middle" font-size="14" fill="#7b1fa2">-1</text>
+  <text x="270" y="90" text-anchor="middle" font-size="15" fill="#424242" font-weight="bold">0</text>
+  <text x="350" y="90" text-anchor="middle" font-size="14" fill="#7b1fa2">1</text>
+  <text x="430" y="90" text-anchor="middle" font-size="14" fill="#7b1fa2">2</text>
+  <!-- 原点标注 -->
+  <circle cx="270" cy="65" r="5" fill="#7b1fa2"/>
+  <text x="270" y="45" text-anchor="middle" font-size="12" fill="#7b1fa2">原点</text>
+  <line x1="270" y1="48" x2="270" y2="57" stroke="#7b1fa2" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- 单位长度标注 -->
+  <line x1="270" y1="108" x2="350" y2="108" stroke="#9c27b0" stroke-width="1.5" marker-end="url(#arr-t3n)"/>
+  <line x1="350" y1="108" x2="270" y2="108" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="310" y="125" text-anchor="middle" font-size="12" fill="#9c27b0">单位长度</text>
+  <!-- 正方向标注 -->
+  <text x="460" y="55" text-anchor="start" font-size="12" fill="#7b1fa2">正方向</text>
+</svg>
+
 ## 二、数与点的对应
 
 - **任何一个有理数都可以用数轴上的一个点表示**；

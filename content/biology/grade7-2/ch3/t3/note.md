@@ -23,6 +23,20 @@ date: 2026-08-05
 | 胚胎发育 | 子宫 |
 | 物质交换 | 胎盘 |
 
+```mermaid
+graph LR
+    A["睾丸\n产生精子"] -->|"输精管"| B["输卵管\n受精场所"]
+    C["卵巢\n产生卵细胞"] --> B
+    B -->|"受精卵分裂"| D["子宫\n胚胎发育280天"]
+    D -->|"胎盘脐带\n物质交换"| E["母体血液\n提供营养O₂"]
+    D --> F["分娩\n约40周"]
+    style A fill:#388e3c,color:#fff
+    style C fill:#388e3c,color:#fff
+    style B fill:#66bb6a,color:#fff
+    style D fill:#a5d6a7
+    style F fill:#1b5e20,color:#fff
+```
+
 ### 重点二：胚胎发育时间线
 
 ```

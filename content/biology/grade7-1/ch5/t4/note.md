@@ -26,6 +26,42 @@ date: 2026-08-05
 
 ### 1. 鸟类
 
+<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="240" fill="#f1f8e9" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">鸟适于飞行的结构特征</text>
+  <!-- 鸟体轮廓 -->
+  <ellipse cx="220" cy="130" rx="80" ry="50" fill="#c8e6c9" stroke="#388e3c" stroke-width="2.5"/>
+  <!-- 头部 -->
+  <circle cx="155" cy="100" r="30" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <!-- 喙 -->
+  <polygon points="130,100 110,95 110,105" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <!-- 翅膀 -->
+  <ellipse cx="220" cy="90" rx="90" ry="30" fill="#81c784" stroke="#388e3c" stroke-width="2" transform="rotate(-15,220,90)"/>
+  <!-- 尾羽 -->
+  <polygon points="295,130 340,110 340,150" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- 腿 -->
+  <line x1="200" y1="178" x2="195" y2="210" stroke="#388e3c" stroke-width="3"/>
+  <line x1="240" y1="178" x2="245" y2="210" stroke="#388e3c" stroke-width="3"/>
+  <!-- 标注框 -->
+  <rect x="360" y="40" width="225" height="185" rx="8" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="472" y="62" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">飞行适应特征</text>
+  <text x="370" y="82" fill="#2e7d32" font-size="10">① 体表覆羽，前肢变翼</text>
+  <text x="370" y="99" fill="#2e7d32" font-size="10">② 身体呈流线型，减少阻力</text>
+  <text x="370" y="116" fill="#2e7d32" font-size="10">③ 骨骼轻薄，长骨中空</text>
+  <text x="370" y="133" fill="#2e7d32" font-size="10">④ 胸肌发达，提供飞行动力</text>
+  <text x="370" y="150" fill="#2e7d32" font-size="10">⑤ 双重呼吸（气囊辅助）</text>
+  <text x="370" y="167" fill="#2e7d32" font-size="10">⑥ 食量大，消化快，直肠短</text>
+  <text x="370" y="184" fill="#2e7d32" font-size="10">⑦ 心脏四腔，循环效率高</text>
+  <text x="370" y="201" fill="#2e7d32" font-size="10">⑧ 体温恒定（恒温动物）</text>
+  <!-- 左侧标注 -->
+  <text x="30" y="80" fill="#1b5e20" font-size="10" font-weight="bold">角质喙</text>
+  <text x="30" y="93" fill="#2e7d32" font-size="9">（无牙，减重）</text>
+  <line x1="90" y1="88" x2="120" y2="100" stroke="#388e3c" stroke-width="1"/>
+  <text x="30" y="160" fill="#1b5e20" font-size="10" font-weight="bold">翅膀（前肢）</text>
+  <text x="30" y="173" fill="#2e7d32" font-size="9">（飞行器官）</text>
+  <line x1="100" y1="165" x2="140" y2="120" stroke="#388e3c" stroke-width="1"/>
+</svg>
+
 - **主要特征**：体表覆羽；前肢变成**翼**；有喙无齿；有**气囊**辅助肺呼吸。
 - **适于飞行的特点**：
   - 身体呈**流线型**，减少空气阻力。

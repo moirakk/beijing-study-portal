@@ -17,6 +17,39 @@ date: 2026-08-05
 
 > 💡 与方程不同，不等式的解往往有**无数多个**。
 
+<svg viewBox="0 0 360 180" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <text x="80" y="20" font-size="13" fill="#7b1fa2" font-weight="bold">四种不等式解集的数轴表示</text>
+  <!-- 数轴1：x>3 -->
+  <line x1="30" y1="50" x2="330" y2="50" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,45 335,50 325,55" fill="#7b1fa2"/>
+  <line x1="160" y1="45" x2="160" y2="55" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="155" y="68" font-size="12" fill="#333">3</text>
+  <circle cx="160" cy="50" r="5" fill="white" stroke="#e91e63" stroke-width="2"/>
+  <line x1="162" y1="50" x2="330" y2="50" stroke="#e91e63" stroke-width="3"/>
+  <text x="30" y="45" font-size="12" fill="#e91e63">x&gt;3（空心圆，不含3）</text>
+  <!-- 数轴2：x≥3 -->
+  <line x1="30" y1="90" x2="330" y2="90" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,85 335,90 325,95" fill="#7b1fa2"/>
+  <line x1="160" y1="85" x2="160" y2="95" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="155" y="108" font-size="12" fill="#333">3</text>
+  <circle cx="160" cy="90" r="5" fill="#9c27b0" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="160" y1="90" x2="330" y2="90" stroke="#9c27b0" stroke-width="3"/>
+  <text x="30" y="85" font-size="12" fill="#9c27b0">x≥3（实心圆，含3）</text>
+  <!-- 数轴3：x<3 -->
+  <line x1="30" y1="130" x2="330" y2="130" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,125 335,130 325,135" fill="#7b1fa2"/>
+  <line x1="160" y1="125" x2="160" y2="135" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="155" y="148" font-size="12" fill="#333">3</text>
+  <circle cx="160" cy="130" r="5" fill="white" stroke="#2196f3" stroke-width="2"/>
+  <line x1="30" y1="130" x2="158" y2="130" stroke="#2196f3" stroke-width="3"/>
+  <text x="30" y="125" font-size="12" fill="#2196f3">x&lt;3（空心圆，不含3）</text>
+  <!-- 图例 -->
+  <circle cx="30" cy="168" r="5" fill="white" stroke="#555" stroke-width="2"/>
+  <text x="40" y="172" font-size="11" fill="#555">空心圆：严格不等号 &gt; 或 &lt;</text>
+  <circle cx="200" cy="168" r="5" fill="#555"/>
+  <text x="210" y="172" font-size="11" fill="#555">实心圆：≥ 或 ≤</text>
+</svg>
+
 ## 二、不等式的解集
 
 一个含未知数的不等式的**所有解**组成这个不等式的**解集**。

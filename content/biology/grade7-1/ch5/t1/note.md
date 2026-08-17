@@ -27,6 +27,23 @@ date: 2026-08-05
 
 ### 1. 无脊椎动物主要类群
 
+```mermaid
+graph TD
+    A["无脊椎动物\n（体内无脊柱）"] --> B["刺胞动物\n辐射对称·有刺细胞\n有口无肛门\n水螅·海蜇·珊瑚虫"]
+    A --> C["扁形动物\n两侧对称·背腹扁平\n有口无肛门\n涡虫·血吸虫"]
+    A --> D["线虫动物\n圆柱形·有口有肛门\n蛔虫·蛲虫"]
+    A --> E["环节动物\n身体分节·有刚毛\n蚯蚓·沙蚕·水蛭"]
+    A --> F["软体动物\n身体柔软·有外套膜\n河蚌·蜗牛·乌贼"]
+    A --> G["节肢动物\n体表外骨骼·附肢分节\n蝗虫·蜘蛛·虾·蟹"]
+    style A fill:#388e3c,stroke:#1b5e20,color:#fff
+    style B fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style C fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style D fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style E fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style F fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style G fill:#66bb6a,stroke:#2e7d32,color:#fff
+```
+
 | 类群 | 主要特征 | 代表动物 |
 |---|---|---|
 | 刺胞动物 | 辐射对称，有刺细胞，有口无肛门 | 水螅、海蜇、海葵、珊瑚虫 |

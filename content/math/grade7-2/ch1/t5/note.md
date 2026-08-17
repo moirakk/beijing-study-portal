@@ -23,6 +23,24 @@ $$\angle 2 = \angle 3 \Rightarrow a \parallel b \quad (\text{内错角})$$
 
 $$\angle 2 + \angle 4 = 180^{\circ} \Rightarrow a \parallel b \quad (\text{同旁内角})$$
 
+```mermaid
+flowchart TD
+    A["两条直线被第三条直线所截"] --> B{"角的数量关系"}
+    B --> C["同位角相等\n∠1 = ∠2"]
+    B --> D["内错角相等\n∠3 = ∠4"]
+    B --> E["同旁内角互补\n∠5 + ∠6 = 180°"]
+    C --> F["两直线平行 a ∥ b"]
+    D --> F
+    E --> F
+    A --> G["垂直于同一直线\na⊥c 且 b⊥c"]
+    G --> F
+    A --> H["平行于同一直线\na∥c 且 b∥c（传递性）"]
+    H --> F
+    style F fill:#7b1fa2,color:#fff
+    style A fill:#e1bee7
+    style B fill:#9c27b0,color:#fff
+```
+
 ## 二、其他常用判定
 
 - **平行公理推论**：平行于同一条直线的两条直线互相平行（$a \parallel c,\ b \parallel c \Rightarrow a \parallel b$）。

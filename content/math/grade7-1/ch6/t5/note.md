@@ -14,6 +14,37 @@ date: 2026-08-05
 1. **度量法**：用量角器量出度数比较；
 2. **叠合法**：使两角顶点及一边重合，看另一边的位置。
 
+<svg viewBox="0 0 480 150" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="150" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="18" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">角的和差与角平分线</text>
+  <!-- Angle AOB with OC inside -->
+  <circle cx="100" cy="120" r="4" fill="#7b1fa2"/>
+  <!-- OA ray -->
+  <line x1="100" y1="120" x2="160" y2="40" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- OB ray -->
+  <line x1="100" y1="120" x2="220" y2="120" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- OC ray (bisector) -->
+  <line x1="100" y1="120" x2="190" y2="60" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Arc for AOB -->
+  <path d="M 150,120 A 50,50 0 0,0 133,80" fill="none" stroke="#ce93d8" stroke-width="1.5"/>
+  <!-- Arc for AOC -->
+  <path d="M 140,120 A 40,40 0 0,0 127,88" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <!-- Labels -->
+  <text x="100" y="138" text-anchor="middle" fill="#4a148c" font-size="12" font-weight="bold">O</text>
+  <text x="162" y="35" fill="#7b1fa2" font-size="12">A</text>
+  <text x="225" y="125" fill="#7b1fa2" font-size="12">B</text>
+  <text x="195" y="55" fill="#9c27b0" font-size="12">C（平分线）</text>
+  <text x="155" y="115" fill="#ce93d8" font-size="11">∠AOB</text>
+  <!-- Formulas -->
+  <rect x="260" y="30" width="200" height="110" rx="6" fill="white" stroke="#ce93d8" stroke-width="1.5"/>
+  <text x="360" y="50" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">关键公式</text>
+  <text x="360" y="68" text-anchor="middle" fill="#4a148c" font-size="11">OC在∠AOB内部：</text>
+  <text x="360" y="84" text-anchor="middle" fill="#4a148c" font-size="11">∠AOC + ∠COB = ∠AOB</text>
+  <text x="360" y="102" text-anchor="middle" fill="#9c27b0" font-size="11">OC平分∠AOB：</text>
+  <text x="360" y="118" text-anchor="middle" fill="#9c27b0" font-size="11">∠AOC = ∠COB = ½∠AOB</text>
+  <text x="360" y="134" text-anchor="middle" fill="#4a148c" font-size="10">无图时分类讨论OC位置</text>
+</svg>
+
 ## 二、角的和差
 
 如果射线 $OC$ 在 $\angle AOB$ **内部**，那么：

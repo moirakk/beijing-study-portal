@@ -39,6 +39,24 @@ date: 2026-08-05
 
 ### 3. 分类单位与特征、亲缘关系
 
+```mermaid
+graph LR
+    A["界\n最大"] -->|"包含范围\n逐渐缩小"| B["门"] --> C["纲"] --> D["目"] --> E["科"] --> F["属"] --> G["种\n最小"]
+    A2["共同特征\n最少"] -.->|"特征越来越多"| G2["共同特征\n最多"]
+    A3["亲缘关系\n最远"] -.->|"亲缘关系越来越近"| G3["亲缘关系\n最近"]
+    style A fill:#1b5e20,stroke:#1b5e20,color:#fff
+    style B fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style C fill:#388e3c,stroke:#1b5e20,color:#fff
+    style D fill:#4caf50,stroke:#2e7d32,color:#fff
+    style E fill:#66bb6a,stroke:#2e7d32,color:#fff
+    style F fill:#81c784,stroke:#2e7d32,color:#1b5e20
+    style G fill:#a5d6a7,stroke:#388e3c,color:#1b5e20
+    style A2 fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style G2 fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style A3 fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style G3 fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+```
+
 ```
 分类单位越大 → 包含种类越多 → 共同特征越少 → 亲缘关系越远
 分类单位越小 → 包含种类越少 → 共同特征越多 → 亲缘关系越近

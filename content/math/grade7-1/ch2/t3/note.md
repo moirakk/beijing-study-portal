@@ -25,6 +25,24 @@ $$
 
 读法：$a^n$ 读作"$a$ 的 $n$ 次方"或"$a$ 的 $n$ 次幂"。
 
+## 图示
+
+<svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="140" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="35" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">乘方符号法则</text>
+  <!-- 正数 -->
+  <rect x="40" y="45" width="420" height="26" fill="#7b1fa2" rx="4"/>
+  <text x="250" y="63" text-anchor="middle" font-size="13" fill="white">正数的任何次幂 → 正数：(+2)³ = +8</text>
+  <!-- 负数偶次 -->
+  <rect x="40" y="75" width="420" height="26" fill="#9c27b0" rx="4"/>
+  <text x="250" y="93" text-anchor="middle" font-size="13" fill="white">负数的偶数次幂 → 正数：(-2)² = +4</text>
+  <!-- 负数奇次 -->
+  <rect x="40" y="105" width="420" height="26" fill="#ce93d8" rx="4"/>
+  <text x="250" y="123" text-anchor="middle" font-size="13" fill="#212121">负数的奇数次幂 → 负数：(-2)³ = -8</text>
+  <!-- 易错对比 -->
+  <text x="250" y="150" text-anchor="middle" font-size="12" fill="#7b1fa2" font-weight="bold">⚠ (-2)² = 4，但 -2² = -(2²) = -4，两者不同！</text>
+</svg>
+
 ## 二、符号法则（重中之重）
 
 1. **正数的任何次幂都是正数**；

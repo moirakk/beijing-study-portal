@@ -17,6 +17,52 @@ date: 2026-08-05
 - **频数**：落在各小组内的数据的个数；
 - **组数**：$\text{组数} \approx \dfrac{\text{最大值} - \text{最小值}}{\text{组距}}$（结果向上取整，一般分 5～12 组）。
 
+<svg viewBox="0 0 360 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <text x="80" y="18" font-size="13" fill="#7b1fa2" font-weight="bold">频数分布直方图示例（身高数据）</text>
+  <!-- y轴 -->
+  <line x1="50" y1="180" x2="50" y2="30" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="45,35 50,25 55,35" fill="#7b1fa2"/>
+  <!-- x轴 -->
+  <line x1="50" y1="180" x2="340" y2="180" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="335,175 345,180 335,185" fill="#7b1fa2"/>
+  <!-- y轴刻度 -->
+  <line x1="45" y1="150" x2="55" y2="150" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="154" font-size="11" fill="#333">2</text>
+  <line x1="45" y1="120" x2="55" y2="120" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="124" font-size="11" fill="#333">4</text>
+  <line x1="45" y1="90" x2="55" y2="90" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="94" font-size="11" fill="#333">6</text>
+  <line x1="45" y1="60" x2="55" y2="60" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="64" font-size="11" fill="#333">8</text>
+  <!-- 频数轴标签 -->
+  <text x="10" y="110" font-size="11" fill="#7b1fa2" transform="rotate(-90,20,110)">频数/人</text>
+  <!-- 各矩形（组距=5cm，频数分别为2,5,8,6,3） -->
+  <!-- [150,155) 频数2 -->
+  <rect x="55" y="150" width="50" height="30" fill="#9c27b0" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- [155,160) 频数5 -->
+  <rect x="105" y="105" width="50" height="75" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- [160,165) 频数8 -->
+  <rect x="155" y="60" width="50" height="120" fill="#9c27b0" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- [165,170) 频数6 -->
+  <rect x="205" y="90" width="50" height="90" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- [170,175) 频数3 -->
+  <rect x="255" y="135" width="50" height="45" fill="#9c27b0" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- x轴标注 -->
+  <text x="50" y="195" font-size="10" fill="#333">150</text>
+  <text x="100" y="195" font-size="10" fill="#333">155</text>
+  <text x="150" y="195" font-size="10" fill="#333">160</text>
+  <text x="200" y="195" font-size="10" fill="#333">165</text>
+  <text x="250" y="195" font-size="10" fill="#333">170</text>
+  <text x="300" y="195" font-size="10" fill="#333">175</text>
+  <text x="140" y="210" font-size="11" fill="#555">身高/cm（组距=5）</text>
+  <!-- 频数标注 -->
+  <text x="72" y="145" font-size="10" fill="white">2</text>
+  <text x="122" y="100" font-size="10" fill="white">5</text>
+  <text x="172" y="55" font-size="10" fill="white">8</text>
+  <text x="222" y="85" font-size="10" fill="white">6</text>
+  <text x="272" y="130" font-size="10" fill="white">3</text>
+</svg>
+
 ## 二、画直方图的步骤
 
 1. **求极差**：最大值 $-$ 最小值；

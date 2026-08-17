@@ -25,6 +25,52 @@ date: 2026-08-05
 
 ### 1. 病毒的结构
 
+<svg viewBox="0 0 560 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="560" height="240" fill="#f1f8e9" rx="12"/>
+  <text x="280" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">病毒结构示意图</text>
+  <!-- 噬菌体 -->
+  <text x="120" y="55" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">噬菌体（T4噬菌体）</text>
+  <!-- 头部（蛋白质外壳） -->
+  <polygon points="120,65 90,100 90,130 120,145 150,130 150,100" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <!-- DNA -->
+  <ellipse cx="120" cy="105" rx="22" ry="30" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="120" y="108" text-anchor="middle" fill="white" font-size="9" font-weight="bold">DNA</text>
+  <!-- 尾部 -->
+  <rect x="113" y="145" width="14" height="35" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <!-- 尾丝 -->
+  <line x1="113" y1="180" x2="90" y2="210" stroke="#388e3c" stroke-width="1.5"/>
+  <line x1="120" y1="180" x2="110" y2="215" stroke="#388e3c" stroke-width="1.5"/>
+  <line x1="127" y1="180" x2="130" y2="215" stroke="#388e3c" stroke-width="1.5"/>
+  <line x1="127" y1="180" x2="150" y2="210" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="120" y="228" text-anchor="middle" fill="#2e7d32" font-size="9">尾丝（识别宿主）</text>
+  <!-- 标注 -->
+  <text x="30" y="100" fill="#1b5e20" font-size="9" font-weight="bold">蛋白质外壳</text>
+  <line x1="88" y1="100" x2="75" y2="100" stroke="#388e3c" stroke-width="1"/>
+  <!-- 动物病毒（球形） -->
+  <text x="350" y="55" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">动物病毒（球形）</text>
+  <!-- 外壳 -->
+  <circle cx="350" cy="140" r="70" fill="#c8e6c9" stroke="#388e3c" stroke-width="3"/>
+  <!-- 蛋白质突起 -->
+  <circle cx="350" cy="70" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="420" cy="140" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="280" cy="140" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="350" cy="210" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="400" cy="95" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="300" cy="95" r="8" fill="#66bb6a" stroke="#2e7d32" stroke-width="1"/>
+  <!-- RNA -->
+  <ellipse cx="350" cy="140" rx="35" ry="30" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="350" y="143" text-anchor="middle" fill="white" font-size="10" font-weight="bold">RNA</text>
+  <!-- 标注 -->
+  <text x="440" y="75" fill="#1b5e20" font-size="9">蛋白质外壳</text>
+  <line x1="430" y1="78" x2="408" y2="95" stroke="#388e3c" stroke-width="1"/>
+  <text x="440" y="145" fill="#1b5e20" font-size="9">遗传物质</text>
+  <text x="440" y="158" fill="#2e7d32" font-size="9">（RNA或DNA）</text>
+  <!-- 底部说明 -->
+  <rect x="10" y="195" width="240" height="35" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="125" y="210" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">病毒结构：蛋白质外壳 + 遗传物质</text>
+  <text x="125" y="225" text-anchor="middle" fill="#2e7d32" font-size="9">无细胞结构，不能独立生活</text>
+</svg>
+
 - 病毒**没有细胞结构**，结构简单。
 - 由**蛋白质外壳**和内部的**遗传物质**组成。
 - 病毒个体极其微小，必须用电子显微镜才能观察到。

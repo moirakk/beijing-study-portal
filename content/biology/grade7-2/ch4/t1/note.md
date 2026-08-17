@@ -16,6 +16,53 @@ date: 2026-08-05
 | 无机盐 | 构成组织，维持生理功能 | 蔬菜、肉类、奶 |
 | 维生素 | 调节代谢（需要量小但不可缺） | 蔬菜、水果 |
 
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="620" height="200" fill="#f1f8e9" rx="10"/>
+  <text x="310" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">六大营养素功能速记图</text>
+  <!-- 糖类 -->
+  <rect x="15" y="45" width="90" height="130" rx="8" fill="#fff9c4" stroke="#f9a825" stroke-width="2"/>
+  <text x="60" y="68" text-anchor="middle" font-size="20">🍚</text>
+  <text x="60" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#e65100">糖类</text>
+  <text x="60" y="108" text-anchor="middle" font-size="10" fill="#795548">主要供能</text>
+  <text x="60" y="124" text-anchor="middle" font-size="9" fill="#795548">约17kJ/g</text>
+  <text x="60" y="140" text-anchor="middle" font-size="9" fill="#795548">米饭面食</text>
+  <!-- 脂肪 -->
+  <rect x="115" y="45" width="90" height="130" rx="8" fill="#ffe0b2" stroke="#ef6c00" stroke-width="2"/>
+  <text x="160" y="68" text-anchor="middle" font-size="20">🥜</text>
+  <text x="160" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#e65100">脂肪</text>
+  <text x="160" y="108" text-anchor="middle" font-size="10" fill="#795548">备用能源</text>
+  <text x="160" y="124" text-anchor="middle" font-size="9" fill="#795548">约39kJ/g</text>
+  <text x="160" y="140" text-anchor="middle" font-size="9" fill="#795548">花生肥肉</text>
+  <!-- 蛋白质 -->
+  <rect x="215" y="45" width="90" height="130" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="260" y="68" text-anchor="middle" font-size="20">🥩</text>
+  <text x="260" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">蛋白质</text>
+  <text x="260" y="108" text-anchor="middle" font-size="10" fill="#2e7d32">构成细胞</text>
+  <text x="260" y="124" text-anchor="middle" font-size="9" fill="#2e7d32">修复组织</text>
+  <text x="260" y="140" text-anchor="middle" font-size="9" fill="#2e7d32">肉蛋奶豆</text>
+  <!-- 水 -->
+  <rect x="315" y="45" width="90" height="130" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="360" y="68" text-anchor="middle" font-size="20">💧</text>
+  <text x="360" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#1565c0">水</text>
+  <text x="360" y="108" text-anchor="middle" font-size="10" fill="#1565c0">细胞主要</text>
+  <text x="360" y="124" text-anchor="middle" font-size="9" fill="#1565c0">成分</text>
+  <text x="360" y="140" text-anchor="middle" font-size="9" fill="#1565c0">参与代谢</text>
+  <!-- 无机盐 -->
+  <rect x="415" y="45" width="90" height="130" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="460" y="68" text-anchor="middle" font-size="20">🦴</text>
+  <text x="460" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#7b1fa2">无机盐</text>
+  <text x="460" y="108" text-anchor="middle" font-size="10" fill="#7b1fa2">构成组织</text>
+  <text x="460" y="124" text-anchor="middle" font-size="9" fill="#7b1fa2">钙铁碘锌</text>
+  <text x="460" y="140" text-anchor="middle" font-size="9" fill="#7b1fa2">蔬菜肉奶</text>
+  <!-- 维生素 -->
+  <rect x="515" y="45" width="90" height="130" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="560" y="68" text-anchor="middle" font-size="20">🥦</text>
+  <text x="560" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#388e3c">维生素</text>
+  <text x="560" y="108" text-anchor="middle" font-size="10" fill="#2e7d32">调节代谢</text>
+  <text x="560" y="124" text-anchor="middle" font-size="9" fill="#2e7d32">需量少</text>
+  <text x="560" y="140" text-anchor="middle" font-size="9" fill="#2e7d32">蔬菜水果</text>
+</svg>
+
 ### 三大供能物质
 
 | 物质 | 功能特点 | 每克产能 |

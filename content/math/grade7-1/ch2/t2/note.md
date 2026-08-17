@@ -21,6 +21,34 @@ date: 2026-08-05
 
 > 几个不为 $0$ 的数相乘，**负因数的个数为偶数时积为正，为奇数时积为负**；只要有一个因数为 $0$，积就是 $0$。
 
+## 图示
+
+<svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <!-- 乘法符号规律表格 -->
+  <rect x="30" y="10" width="440" height="140" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="35" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">乘法符号法则</text>
+  <!-- 表头 -->
+  <rect x="50" y="45" width="180" height="28" fill="#7b1fa2" rx="4"/>
+  <rect x="240" y="45" width="210" height="28" fill="#7b1fa2" rx="4"/>
+  <text x="140" y="64" text-anchor="middle" font-size="13" fill="white">因数符号</text>
+  <text x="345" y="64" text-anchor="middle" font-size="13" fill="white">积的符号</text>
+  <!-- 行1 -->
+  <rect x="50" y="75" width="180" height="26" fill="#e1bee7" rx="3"/>
+  <rect x="240" y="75" width="210" height="26" fill="#e1bee7" rx="3"/>
+  <text x="140" y="93" text-anchor="middle" font-size="13" fill="#212121">(+) × (+)</text>
+  <text x="345" y="93" text-anchor="middle" font-size="13" fill="#7b1fa2" font-weight="bold">+ （正）</text>
+  <!-- 行2 -->
+  <rect x="50" y="103" width="180" height="26" fill="#ce93d8" rx="3" opacity="0.5"/>
+  <rect x="240" y="103" width="210" height="26" fill="#ce93d8" rx="3" opacity="0.5"/>
+  <text x="140" y="121" text-anchor="middle" font-size="13" fill="#212121">(-) × (-)</text>
+  <text x="345" y="121" text-anchor="middle" font-size="13" fill="#7b1fa2" font-weight="bold">+ （正）</text>
+  <!-- 行3 -->
+  <rect x="50" y="131" width="180" height="26" fill="#e1bee7" rx="3"/>
+  <rect x="240" y="131" width="210" height="26" fill="#e1bee7" rx="3"/>
+  <text x="140" y="149" text-anchor="middle" font-size="13" fill="#212121">(+) × (-) 或 (-) × (+)</text>
+  <text x="345" y="149" text-anchor="middle" font-size="13" fill="#9c27b0" font-weight="bold">- （负）</text>
+</svg>
+
 ## 二、倒数
 
 **乘积为 $1$ 的两个数互为倒数**：$a \cdot \frac{1}{a} = 1 \;(a \neq 0)$。

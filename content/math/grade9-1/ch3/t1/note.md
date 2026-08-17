@@ -15,6 +15,37 @@ date: 2026-08-06
 
 旋转的三要素：**旋转中心、旋转方向（顺时针或逆时针）、旋转角度**。
 
+<svg viewBox="0 0 400 280" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 旋转中心O -->
+  <circle cx="200" cy="160" r="5" fill="#7b1fa2"/>
+  <text x="207" y="165" font-size="13" font-weight="bold" fill="#7b1fa2">O（旋转中心）</text>
+  <!-- 原三角形 ABC -->
+  <polygon points="200,160 120,80 80,160" fill="#e1bee7" fill-opacity="0.6" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="112" y="74" font-size="13" font-weight="bold" fill="#7b1fa2">A</text>
+  <text x="66" y="168" font-size="13" font-weight="bold" fill="#7b1fa2">B</text>
+  <!-- 旋转后三角形 A'B'C' -->
+  <polygon points="200,160 280,80 320,160" fill="#9c27b0" fill-opacity="0.25" stroke="#9c27b0" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="282" y="74" font-size="13" font-weight="bold" fill="#9c27b0">A'</text>
+  <text x="322" y="168" font-size="13" font-weight="bold" fill="#9c27b0">B'</text>
+  <!-- OA 和 OA' 连线 -->
+  <line x1="200" y1="160" x2="120" y2="80" stroke="#7b1fa2" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="200" y1="160" x2="280" y2="80" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- 旋转角弧线 -->
+  <path d="M 155,115 A 60,60 0 0,1 245,115" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <text x="192" y="108" font-size="11" fill="#e91e63">旋转角α</text>
+  <!-- 等距标注 -->
+  <text x="148" y="128" font-size="10" fill="#7b1fa2">OA</text>
+  <text x="238" y="128" font-size="10" fill="#9c27b0">OA'</text>
+  <!-- 等号 -->
+  <text x="192" y="145" font-size="11" fill="#555">OA = OA'</text>
+  <!-- 标签 -->
+  <rect x="20" y="200" width="160" height="30" rx="5" fill="#f3e5f5"/>
+  <text x="100" y="219" text-anchor="middle" font-size="11" fill="#7b1fa2">原图形（旋转前）</text>
+  <rect x="220" y="200" width="160" height="30" rx="5" fill="#ede7f6"/>
+  <text x="300" y="219" text-anchor="middle" font-size="11" fill="#9c27b0">旋转后图形（全等）</text>
+  <text x="200" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#7b1fa2">旋转性质：OA=OA'，∠AOA'=旋转角α</text>
+</svg>
+
 ## 旋转的性质
 
 1. 对应点到旋转中心的距离相等：$OP=OP'$；

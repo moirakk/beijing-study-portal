@@ -24,6 +24,54 @@ date: 2026-08-06
 生物体形成生殖细胞时，要经过减数分裂，使染色体数目减半。
 因此精子和卵细胞中染色体不是成对的，而是成单存在。
 
+<svg viewBox="0 0 640 210" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="320" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">基因在亲子代间的传递（以人为例）</text>
+  <!-- 父方体细胞 -->
+  <rect x="10" y="30" width="110" height="60" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="65" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">父方体细胞</text>
+  <text x="65" y="70" text-anchor="middle" font-size="10" fill="#388e3c">23对染色体</text>
+  <text x="65" y="84" text-anchor="middle" font-size="10" fill="#388e3c">基因成对</text>
+  <!-- 母方体细胞 -->
+  <rect x="10" y="120" width="110" height="60" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="65" y="142" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">母方体细胞</text>
+  <text x="65" y="160" text-anchor="middle" font-size="10" fill="#388e3c">23对染色体</text>
+  <text x="65" y="174" text-anchor="middle" font-size="10" fill="#388e3c">基因成对</text>
+  <!-- 减数分裂箭头 -->
+  <line x1="120" y1="60" x2="195" y2="60" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <text x="157" y="52" text-anchor="middle" font-size="9" fill="#388e3c">减数分裂</text>
+  <line x1="120" y1="150" x2="195" y2="150" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <text x="157" y="142" text-anchor="middle" font-size="9" fill="#388e3c">减数分裂</text>
+  <!-- 精子 -->
+  <rect x="195" y="40" width="90" height="40" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="240" y="57" text-anchor="middle" font-size="11" fill="#1b5e20">精子</text>
+  <text x="240" y="73" text-anchor="middle" font-size="10" fill="#388e3c">23条（减半）</text>
+  <!-- 卵细胞 -->
+  <rect x="195" y="130" width="90" height="40" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="240" y="147" text-anchor="middle" font-size="11" fill="#1b5e20">卵细胞</text>
+  <text x="240" y="163" text-anchor="middle" font-size="10" fill="#388e3c">23条（减半）</text>
+  <!-- 受精箭头 -->
+  <line x1="285" y1="60" x2="330" y2="100" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <line x1="285" y1="150" x2="330" y2="110" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <text x="310" y="90" text-anchor="middle" font-size="9" fill="#388e3c">受精</text>
+  <!-- 受精卵 -->
+  <rect x="330" y="75" width="110" height="60" rx="10" fill="#81c784" stroke="#1b5e20" stroke-width="2"/>
+  <text x="385" y="97" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">受精卵</text>
+  <text x="385" y="113" text-anchor="middle" font-size="10" fill="#e8f5e9">23对（恢复）</text>
+  <text x="385" y="127" text-anchor="middle" font-size="10" fill="#e8f5e9">基因重新成对</text>
+  <!-- 子代箭头 -->
+  <line x1="440" y1="105" x2="490" y2="105" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <!-- 子代 -->
+  <rect x="490" y="75" width="130" height="60" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="555" y="97" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">子代体细胞</text>
+  <text x="555" y="113" text-anchor="middle" font-size="10" fill="#388e3c">一半基因来自父方</text>
+  <text x="555" y="127" text-anchor="middle" font-size="10" fill="#388e3c">一半基因来自母方</text>
+</svg>
+
 受精时，精子和卵细胞结合形成受精卵。
 受精卵中的染色体数目恢复为体细胞水平，基因重新成对存在。
 这样，子代的一对基因中，一个来自父方，一个来自母方。

@@ -12,6 +12,32 @@ date: 2026-08-06
 
 对于匀质薄板，重心只与几何形状有关，称为形心。规则图形的重心在其几何中心。
 
+<svg width="320" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 320 200">
+  <!-- 三角形 ABC -->
+  <polygon points="160,15 30,175 290,175" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 三条中线 -->
+  <!-- D为BC中点(160,175), E为AC中点(225,95), F为AB中点(95,95) -->
+  <line x1="160" y1="15" x2="160" y2="175" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="30" y1="175" x2="225" y2="95" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="290" y1="175" x2="95" y2="95" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <!-- 重心 G（三中线交点，约在(160,122)） -->
+  <circle cx="160" cy="122" r="5" fill="#7b1fa2"/>
+  <text x="168" y="118" font-size="13" fill="#7b1fa2" font-weight="bold">G（重心）</text>
+  <!-- 顶点标注 -->
+  <text x="155" y="10" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="16" y="188" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="292" y="188" font-size="14" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 中点标注 -->
+  <circle cx="160" cy="175" r="3" fill="#9c27b0"/>
+  <text x="162" y="192" font-size="11" fill="#9c27b0">D</text>
+  <circle cx="225" cy="95" r="3" fill="#9c27b0"/>
+  <text x="228" y="93" font-size="11" fill="#9c27b0">E</text>
+  <circle cx="95" cy="95" r="3" fill="#9c27b0"/>
+  <text x="80" y="93" font-size="11" fill="#9c27b0">F</text>
+  <!-- 比例标注 -->
+  <text x="160" y="198" font-size="11" fill="#424242" text-anchor="middle">AG:GD = BG:GE = CG:GF = 2:1</text>
+</svg>
+
 ## 确定重心的方法
 
 **悬挂法**：

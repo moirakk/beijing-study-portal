@@ -15,6 +15,57 @@ date: 2026-08-06
 | 点在圆上 | $d=r$ |
 | 点在圆内 | $d<r$ |
 
+<svg viewBox="0 0 500 200" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 情形1：点在圆外 d>r -->
+  <g transform="translate(10,10)">
+    <circle cx="80" cy="90" r="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+    <circle cx="80" cy="90" r="3" fill="#7b1fa2"/>
+    <text x="84" y="94" font-size="11" fill="#7b1fa2">O</text>
+    <!-- 点P在圆外 -->
+    <circle cx="168" cy="90" r="4" fill="#e91e63"/>
+    <text x="172" y="94" font-size="11" fill="#e91e63">P</text>
+    <!-- d线段 -->
+    <line x1="80" y1="90" x2="168" y2="90" stroke="#555" stroke-width="1.2" stroke-dasharray="4,2"/>
+    <text x="118" y="84" font-size="10" fill="#555">d</text>
+    <!-- 半径 -->
+    <line x1="80" y1="90" x2="140" y2="90" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="104" y="108" font-size="10" fill="#7b1fa2">r</text>
+    <text x="80" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#7b1fa2">点在圆外</text>
+    <text x="80" y="185" text-anchor="middle" font-size="11" fill="#555">d &gt; r</text>
+  </g>
+  <!-- 情形2：点在圆上 d=r -->
+  <g transform="translate(170,10)">
+    <circle cx="80" cy="90" r="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+    <circle cx="80" cy="90" r="3" fill="#7b1fa2"/>
+    <text x="84" y="94" font-size="11" fill="#7b1fa2">O</text>
+    <!-- 点P在圆上 -->
+    <circle cx="140" cy="90" r="5" fill="#7b1fa2" stroke="#fff" stroke-width="1.5"/>
+    <text x="144" y="86" font-size="11" fill="#7b1fa2">P</text>
+    <!-- d=r线段 -->
+    <line x1="80" y1="90" x2="140" y2="90" stroke="#7b1fa2" stroke-width="2"/>
+    <text x="104" y="84" font-size="10" fill="#7b1fa2">d=r</text>
+    <text x="80" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#7b1fa2">点在圆上</text>
+    <text x="80" y="185" text-anchor="middle" font-size="11" fill="#555">d = r</text>
+  </g>
+  <!-- 情形3：点在圆内 d<r -->
+  <g transform="translate(330,10)">
+    <circle cx="80" cy="90" r="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+    <circle cx="80" cy="90" r="3" fill="#7b1fa2"/>
+    <text x="84" y="94" font-size="11" fill="#7b1fa2">O</text>
+    <!-- 点P在圆内 -->
+    <circle cx="110" cy="70" r="4" fill="#9c27b0"/>
+    <text x="114" y="68" font-size="11" fill="#9c27b0">P</text>
+    <!-- d线段 -->
+    <line x1="80" y1="90" x2="110" y2="70" stroke="#555" stroke-width="1.2" stroke-dasharray="4,2"/>
+    <text x="88" y="74" font-size="10" fill="#555">d</text>
+    <!-- 半径 -->
+    <line x1="80" y1="90" x2="140" y2="90" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="104" y="108" font-size="10" fill="#7b1fa2">r</text>
+    <text x="80" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#9c27b0">点在圆内</text>
+    <text x="80" y="185" text-anchor="middle" font-size="11" fill="#555">d &lt; r</text>
+  </g>
+</svg>
+
 **确定圆的条件**：不在同一直线上的三个点确定一个圆。
 
 - 三角形的**外接圆**：经过三角形三个顶点的圆；圆心叫**外心**，是三边垂直平分线的交点，到三个**顶点**距离相等。

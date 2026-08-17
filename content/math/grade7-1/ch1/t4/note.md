@@ -26,6 +26,43 @@ date: 2026-08-05
 
 也就是说，它们关于**原点对称**。
 
+## 图示
+
+<svg viewBox="0 0 500 110" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t4n" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="60" x2="470" y2="60" stroke="#424242" stroke-width="2" marker-end="url(#arr-t4n)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="53" x2="90" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="82" text-anchor="middle" font-size="13" fill="#7b1fa2">-3</text>
+  <line x1="170" y1="53" x2="170" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="82" text-anchor="middle" font-size="13" fill="#7b1fa2">-2</text>
+  <line x1="250" y1="53" x2="250" y2="67" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="82" text-anchor="middle" font-size="14" fill="#424242" font-weight="bold">0</text>
+  <line x1="330" y1="53" x2="330" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="82" text-anchor="middle" font-size="13" fill="#7b1fa2">2</text>
+  <line x1="410" y1="53" x2="410" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="82" text-anchor="middle" font-size="13" fill="#7b1fa2">3</text>
+  <!-- 相反数对：-3 和 3 -->
+  <circle cx="90" cy="60" r="6" fill="#7b1fa2"/>
+  <text x="90" y="40" text-anchor="middle" font-size="12" fill="#7b1fa2">-3</text>
+  <circle cx="410" cy="60" r="6" fill="#7b1fa2"/>
+  <text x="410" y="40" text-anchor="middle" font-size="12" fill="#7b1fa2">3</text>
+  <!-- 对称弧线 -->
+  <path d="M96,52 Q250,15 404,52" stroke="#9c27b0" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="250" y="22" text-anchor="middle" font-size="12" fill="#9c27b0">关于原点对称，距离相等</text>
+  <!-- 相反数对：-2 和 2 -->
+  <circle cx="170" cy="60" r="5" fill="#ce93d8"/>
+  <circle cx="330" cy="60" r="5" fill="#ce93d8"/>
+  <path d="M175,53 Q250,30 325,53" stroke="#ce93d8" stroke-width="1.2" fill="none" stroke-dasharray="4,3"/>
+  <!-- 原点标注 -->
+  <circle cx="250" cy="60" r="4" fill="#424242"/>
+  <text x="250" y="105" text-anchor="middle" font-size="11" fill="#424242">a + (-a) = 0</text>
+</svg>
+
 ## 三、代数表示
 
 - 数 $a$ 的相反数是 $-a$；

@@ -25,6 +25,51 @@ date: 2026-08-06
 这些有机小分子进一步形成有机大分子，并逐步演变出原始生命。
 原始海洋被认为是生命的摇篮。
 
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr8" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="330" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">化学进化学说——生命起源过程</text>
+  <!-- 步骤1 -->
+  <rect x="10" y="30" width="130" height="55" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="75" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">无机小分子</text>
+  <text x="75" y="68" text-anchor="middle" font-size="10" fill="#388e3c">H₂O、NH₃、CH₄等</text>
+  <text x="75" y="82" text-anchor="middle" font-size="10" fill="#555">原始大气（无O₂）</text>
+  <!-- 箭头1 -->
+  <line x1="140" y1="57" x2="175" y2="57" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr8)"/>
+  <text x="157" y="48" text-anchor="middle" font-size="9" fill="#388e3c">高温/闪电</text>
+  <text x="157" y="72" text-anchor="middle" font-size="9" fill="#388e3c">紫外线</text>
+  <!-- 步骤2 -->
+  <rect x="175" y="30" width="130" height="55" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="240" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">有机小分子</text>
+  <text x="240" y="68" text-anchor="middle" font-size="10" fill="#388e3c">氨基酸、核苷酸等</text>
+  <text x="240" y="82" text-anchor="middle" font-size="10" fill="#555">米勒实验证明</text>
+  <!-- 箭头2 -->
+  <line x1="305" y1="57" x2="340" y2="57" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr8)"/>
+  <text x="322" y="48" text-anchor="middle" font-size="9" fill="#388e3c">原始海洋</text>
+  <text x="322" y="72" text-anchor="middle" font-size="9" fill="#388e3c">长期积累</text>
+  <!-- 步骤3 -->
+  <rect x="340" y="30" width="130" height="55" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="405" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">有机大分子</text>
+  <text x="405" y="68" text-anchor="middle" font-size="10" fill="#388e3c">蛋白质、核酸等</text>
+  <text x="405" y="82" text-anchor="middle" font-size="10" fill="#555">原始海洋中</text>
+  <!-- 箭头3 -->
+  <line x1="470" y1="57" x2="505" y2="57" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr8)"/>
+  <text x="487" y="48" text-anchor="middle" font-size="9" fill="#388e3c">漫长演变</text>
+  <!-- 步骤4 -->
+  <rect x="505" y="30" width="130" height="55" rx="8" fill="#66bb6a" stroke="#1b5e20" stroke-width="2"/>
+  <text x="570" y="52" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">原始生命</text>
+  <text x="570" y="68" text-anchor="middle" font-size="10" fill="#e8f5e9">原始海洋中</text>
+  <text x="570" y="82" text-anchor="middle" font-size="10" fill="#e8f5e9">（生命摇篮）</text>
+  <!-- 米勒实验说明 -->
+  <rect x="10" y="110" width="640" height="75" rx="10" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="330" y="130" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">米勒实验（1953年）</text>
+  <text x="330" y="150" text-anchor="middle" font-size="11" fill="#388e3c">模拟原始大气（H₂O、NH₃、CH₄、H₂）+ 放电（模拟闪电）→ 检测到多种氨基酸</text>
+  <text x="330" y="170" text-anchor="middle" font-size="11" fill="#555">结论：无机物可形成有机物；但不能直接证明生命已产生</text>
+</svg>
+
 原始地球环境与现在差异很大。
 当时地表温度高，火山活动频繁，大气中没有游离氧。
 缺少氧气有利于某些有机物的形成和保存。

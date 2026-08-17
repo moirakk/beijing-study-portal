@@ -15,6 +15,43 @@ date: 2026-08-05
 
 > 💡 **理解要点**：绝对值的本质是**距离**。距离只关心"多远"，不关心"哪个方向"，所以绝对值永远不会是负数。
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t5n" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="65" x2="470" y2="65" stroke="#424242" stroke-width="2" marker-end="url(#arr-t5n)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="58" x2="90" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="86" text-anchor="middle" font-size="13" fill="#7b1fa2">-3</text>
+  <line x1="170" y1="58" x2="170" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="86" text-anchor="middle" font-size="13" fill="#7b1fa2">-2</text>
+  <line x1="250" y1="58" x2="250" y2="72" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="86" text-anchor="middle" font-size="14" fill="#424242" font-weight="bold">0</text>
+  <line x1="330" y1="58" x2="330" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="86" text-anchor="middle" font-size="13" fill="#7b1fa2">-2</text>
+  <line x1="410" y1="58" x2="410" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="86" text-anchor="middle" font-size="13" fill="#7b1fa2">3</text>
+  <!-- |-3|=3 的距离示意 -->
+  <circle cx="90" cy="65" r="6" fill="#7b1fa2"/>
+  <text x="90" y="48" text-anchor="middle" font-size="12" fill="#7b1fa2">-3</text>
+  <circle cx="250" cy="65" r="5" fill="#424242"/>
+  <!-- 距离线 -->
+  <line x1="90" y1="100" x2="250" y2="100" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="90" y1="95" x2="90" y2="105" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="250" y1="95" x2="250" y2="105" stroke="#9c27b0" stroke-width="2"/>
+  <text x="170" y="116" text-anchor="middle" font-size="13" fill="#9c27b0" font-weight="bold">|-3| = 3（到原点的距离）</text>
+  <!-- |3|=3 的距离示意 -->
+  <circle cx="410" cy="65" r="6" fill="#7b1fa2"/>
+  <text x="410" y="48" text-anchor="middle" font-size="12" fill="#7b1fa2">3</text>
+  <line x1="250" y1="100" x2="410" y2="100" stroke="#ce93d8" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="410" y1="95" x2="410" y2="105" stroke="#ce93d8" stroke-width="2"/>
+  <text x="330" y="116" text-anchor="middle" font-size="12" fill="#ce93d8">|3| = 3</text>
+</svg>
+
 ## 二、代数意义（分段定义）
 
 $$

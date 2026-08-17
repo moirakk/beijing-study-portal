@@ -10,6 +10,30 @@ date: 2026-08-06
 - **内角**：三角形两边组成的角，三角形有三个内角。
 - **外角**：三角形的一边与另一边的延长线组成的角，叫做三角形的外角。
 
+<svg width="360" height="180" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 360 180">
+  <!-- 三角形 ABC -->
+  <polygon points="60,150 200,150 130,30" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 延长 BC 到 D -->
+  <line x1="200" y1="150" x2="300" y2="150" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 顶点标注 -->
+  <text x="125" y="24" font-size="15" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="44" y="165" font-size="15" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="200" y="165" font-size="15" fill="#7b1fa2" font-weight="bold">C</text>
+  <text x="305" y="165" font-size="15" fill="#9c27b0" font-weight="bold">D</text>
+  <!-- 内角弧 -->
+  <path d="M130,30 Q118,48 112,46" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="108" y="60" font-size="12" fill="#424242">∠A</text>
+  <path d="M60,150 Q78,138 80,128" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="82" y="140" font-size="12" fill="#424242">∠B</text>
+  <path d="M200,150 Q186,138 184,128" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="162" y="140" font-size="12" fill="#424242">∠C</text>
+  <!-- 外角弧 -->
+  <path d="M200,150 Q218,138 222,128" fill="none" stroke="#9c27b0" stroke-width="2"/>
+  <text x="224" y="140" font-size="12" fill="#9c27b0" font-weight="bold">∠ACD</text>
+  <!-- 公式说明 -->
+  <text x="180" y="175" font-size="12" fill="#424242" text-anchor="middle">∠ACD = ∠A + ∠B（外角 = 不相邻两内角之和）</text>
+</svg>
+
 ## 内角和定理
 
 三角形三个内角的和等于 $180^{\circ}$。

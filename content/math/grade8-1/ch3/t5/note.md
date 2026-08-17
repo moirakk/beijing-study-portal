@@ -9,6 +9,34 @@ date: 2026-08-06
 
 最短路径问题是利用轴对称、平移等几何变换，将折线转化为直线，从而利用"两点之间线段最短"或"垂线段最短"解决问题。
 
+<svg width="380" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 380 200">
+  <!-- 直线 l -->
+  <line x1="20" y1="130" x2="360" y2="130" stroke="#424242" stroke-width="2"/>
+  <text x="362" y="128" font-size="13" fill="#424242" font-style="italic">l</text>
+  <!-- 点 A（上方） -->
+  <circle cx="80" cy="60" r="5" fill="#7b1fa2"/>
+  <text x="66" y="56" font-size="14" fill="#7b1fa2" font-weight="bold">A</text>
+  <!-- 点 B（上方） -->
+  <circle cx="280" cy="80" r="5" fill="#7b1fa2"/>
+  <text x="286" y="76" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <!-- A 关于 l 的对称点 A' -->
+  <circle cx="80" cy="200" r="5" fill="#9c27b0"/>
+  <text x="66" y="198" font-size="14" fill="#9c27b0" font-weight="bold">A'</text>
+  <!-- A 到 l 的垂线（虚线） -->
+  <line x1="80" y1="60" x2="80" y2="200" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- 最优点 P（A'B 与 l 的交点，约在(160,130)） -->
+  <circle cx="160" cy="130" r="5" fill="#7b1fa2"/>
+  <text x="162" y="122" font-size="13" fill="#7b1fa2" font-weight="bold">P</text>
+  <!-- A'B 连线（最短路径） -->
+  <line x1="80" y1="200" x2="280" y2="80" stroke="#9c27b0" stroke-width="2"/>
+  <!-- AP + PB 折线 -->
+  <line x1="80" y1="60" x2="160" y2="130" stroke="#7b1fa2" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="160" y1="130" x2="280" y2="80" stroke="#7b1fa2" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 说明 -->
+  <text x="190" y="170" font-size="12" fill="#9c27b0" text-anchor="middle" font-weight="bold">作 A 关于 l 的对称点 A'，连 A'B 交 l 于 P</text>
+  <text x="190" y="185" font-size="12" fill="#424242" text-anchor="middle">PA + PB = A'B（最小值）</text>
+</svg>
+
 ## 常见类型
 
 **类型一：两点在直线同侧**

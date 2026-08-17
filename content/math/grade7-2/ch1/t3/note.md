@@ -13,6 +13,47 @@ date: 2026-08-05
 
 按位置关系，这些角分为三类：**同位角、内错角、同旁内角**。
 
+<svg viewBox="0 0 340 300" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 直线a（上方被截线） -->
+  <line x1="30" y1="90" x2="310" y2="90" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 直线b（下方被截线） -->
+  <line x1="30" y1="200" x2="310" y2="200" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 截线c（斜线） -->
+  <line x1="80" y1="30" x2="240" y2="270" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 交点E（截线与a的交点） -->
+  <circle cx="130" cy="90" r="3" fill="#7b1fa2"/>
+  <!-- 交点F（截线与b的交点） -->
+  <circle cx="190" cy="200" r="3" fill="#7b1fa2"/>
+  <!-- 标注直线名称 -->
+  <text x="315" y="94" font-size="13" fill="#7b1fa2" font-family="serif">a</text>
+  <text x="315" y="204" font-size="13" fill="#7b1fa2" font-family="serif">b</text>
+  <text x="244" y="272" font-size="13" fill="#9c27b0" font-family="serif">c</text>
+  <text x="118" y="85" font-size="13" fill="#333" font-family="serif">E</text>
+  <text x="178" y="215" font-size="13" fill="#333" font-family="serif">F</text>
+  <!-- 同位角标注（F形）：∠1在E右上，∠5在F右上 -->
+  <path d="M 148 78 A 20 20 0 0 0 142 72" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <path d="M 208 188 A 20 20 0 0 0 202 182" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <text x="152" y="76" font-size="12" fill="#e91e63">∠1</text>
+  <text x="212" y="186" font-size="12" fill="#e91e63">∠5</text>
+  <text x="155" y="65" font-size="11" fill="#e91e63">同位角(F形)</text>
+  <!-- 内错角标注（Z形）：∠3在E左下，∠5在F右上 -->
+  <path d="M 118 100 A 18 18 0 0 1 112 106" fill="none" stroke="#2196f3" stroke-width="2"/>
+  <text x="95" y="112" font-size="12" fill="#2196f3">∠3</text>
+  <!-- ∠5已标注，用∠6在F左下 -->
+  <path d="M 178 210 A 18 18 0 0 0 172 216" fill="none" stroke="#2196f3" stroke-width="2"/>
+  <text x="155" y="222" font-size="12" fill="#2196f3">∠6</text>
+  <text x="60" y="165" font-size="11" fill="#2196f3">内错角(Z形)</text>
+  <!-- 同旁内角标注（U形）：∠3在E左下，∠6在F左下 -->
+  <!-- 用虚线连接示意同旁 -->
+  <line x1="112" y1="108" x2="172" y2="218" stroke="#4caf50" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="185" font-size="11" fill="#4caf50">同旁内角(U形)</text>
+  <!-- 图例 -->
+  <rect x="30" y="270" width="10" height="10" fill="#e91e63" rx="1"/>
+  <text x="44" y="279" font-size="11" fill="#555">同位角：∠1与∠5（F形，截线同侧）</text>
+  <rect x="30" y="284" width="10" height="10" fill="#2196f3" rx="1"/>
+  <text x="44" y="293" font-size="11" fill="#555">内错角：∠3与∠5（Z形，截线两侧）</text>
+</svg>
+
 ## 二、三类角的定义
 
 设截线为 $c$，被截两直线为 $a$、$b$：

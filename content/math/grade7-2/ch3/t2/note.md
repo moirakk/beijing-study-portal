@@ -17,6 +17,39 @@ date: 2026-08-05
 
 > 💡 原点通常选取有代表性、便于确定其他地点位置的参照点（如学校、车站）。
 
+<svg viewBox="0 0 340 280" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标系 -->
+  <line x1="20" y1="150" x2="320" y2="150" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="315,145 325,150 315,155" fill="#7b1fa2"/>
+  <line x1="160" y1="270" x2="160" y2="20" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="155,25 160,15 165,25" fill="#7b1fa2"/>
+  <text x="328" y="154" font-size="13" fill="#7b1fa2" font-family="serif">东(x)</text>
+  <text x="163" y="14" font-size="13" fill="#7b1fa2" font-family="serif">北(y)</text>
+  <text x="145" y="165" font-size="12" fill="#333" font-family="serif">O(学校)</text>
+  <!-- 刻度（1km） -->
+  <line x1="220" y1="145" x2="220" y2="155" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="214" y="168" font-size="11" fill="#333">1km</text>
+  <line x1="100" y1="145" x2="100" y2="155" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="88" y="168" font-size="11" fill="#333">-1km</text>
+  <line x1="155" y1="90" x2="165" y2="90" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="168" y="94" font-size="11" fill="#333">1km</text>
+  <!-- 地点标注 -->
+  <!-- 小刚家(2,1) -->
+  <circle cx="280" cy="90" r="6" fill="#e91e63"/>
+  <text x="285" y="87" font-size="12" fill="#e91e63">小刚家(2,1)</text>
+  <line x1="280" y1="90" x2="280" y2="150" stroke="#e91e63" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="280" y1="90" x2="160" y2="90" stroke="#e91e63" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- 书店(-1,-2) -->
+  <circle cx="100" cy="210" r="6" fill="#2196f3"/>
+  <text x="40" y="207" font-size="12" fill="#2196f3">书店(-1,-2)</text>
+  <!-- 方位角示意：北偏东60° -->
+  <line x1="160" y1="150" x2="220" y2="50" stroke="#ff9800" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="222" y="48" font-size="11" fill="#ff9800">北偏东60°</text>
+  <!-- 说明 -->
+  <text x="20" y="255" font-size="11" fill="#555">以学校为原点，东为x轴正方向，北为y轴正方向</text>
+  <text x="20" y="270" font-size="11" fill="#555">单位：1km。确定位置需两个数据（坐标或方向+距离）</text>
+</svg>
+
 ## 二、另一种定位方式：方位角 + 距离
 
 除坐标外，还常用"**方向 + 距离**"确定位置。

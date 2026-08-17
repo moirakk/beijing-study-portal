@@ -11,6 +11,38 @@ $$a^2-b^2=(a+b)(a-b)$$
 
 适用范围：两项都是平方形式，且符号相反。
 
+<svg width="400" height="190" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 400 190">
+  <!-- 标题 -->
+  <text x="200" y="20" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">因式分解公式法图示</text>
+  <!-- 平方差：大正方形 a² 减去小正方形 b² -->
+  <!-- 大正方形 -->
+  <rect x="20" y="35" width="130" height="130" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="85" y="105" font-size="16" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a²</text>
+  <!-- 小正方形（左上角，b²） -->
+  <rect x="20" y="35" width="50" height="50" fill="#9c27b0" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="45" y="65" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">b²</text>
+  <!-- 标注 -->
+  <text x="85" y="178" font-size="12" fill="#424242" text-anchor="middle">a²-b² = (a+b)(a-b)</text>
+  <text x="20" y="30" font-size="12" fill="#424242">b</text>
+  <text x="70" y="30" font-size="12" fill="#424242">a-b</text>
+  <text x="10" y="65" font-size="12" fill="#424242">b</text>
+  <text x="10" y="110" font-size="12" fill="#424242">a-b</text>
+
+  <!-- 完全平方：(a+b)² 面积模型 -->
+  <rect x="210" y="35" width="160" height="130" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 分割线 -->
+  <line x1="270" y1="35" x2="270" y2="165" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="210" y1="95" x2="370" y2="95" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- 四块 -->
+  <text x="240" y="70" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a²</text>
+  <text x="320" y="70" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">ab</text>
+  <text x="240" y="135" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">ab</text>
+  <text x="320" y="135" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">b²</text>
+  <text x="290" y="178" font-size="12" fill="#424242" text-anchor="middle">(a+b)² = a²+2ab+b²</text>
+  <text x="240" y="30" font-size="12" fill="#424242" text-anchor="middle">a</text>
+  <text x="320" y="30" font-size="12" fill="#424242" text-anchor="middle">b</text>
+</svg>
+
 ## 完全平方公式
 
 $$a^2+2ab+b^2=(a+b)^2$$

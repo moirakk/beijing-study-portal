@@ -11,6 +11,27 @@ date: 2026-08-05
 
 把等式想象成一架**天平**：两边平衡时，同时加、减、乘、除相同的"砝码"，天平仍然平衡。
 
+<svg viewBox="0 0 480 180" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="180" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="22" text-anchor="middle" fill="#7b1fa2" font-size="14" font-weight="bold">天平模型：等式的性质</text>
+  <!-- Stand -->
+  <line x1="240" y1="40" x2="240" y2="100" stroke="#424242" stroke-width="3"/>
+  <line x1="100" y1="100" x2="380" y2="100" stroke="#424242" stroke-width="3"/>
+  <!-- Left pan -->
+  <line x1="130" y1="100" x2="130" y2="130" stroke="#424242" stroke-width="2"/>
+  <ellipse cx="130" cy="135" rx="50" ry="10" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="130" y="139" text-anchor="middle" fill="#4a148c" font-size="12">a + c</text>
+  <!-- Right pan -->
+  <line x1="350" y1="100" x2="350" y2="130" stroke="#424242" stroke-width="2"/>
+  <ellipse cx="350" cy="135" rx="50" ry="10" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="350" y="139" text-anchor="middle" fill="#4a148c" font-size="12">b + c</text>
+  <!-- Labels -->
+  <text x="240" y="90" text-anchor="middle" fill="#7b1fa2" font-size="12">a = b</text>
+  <text x="130" y="160" text-anchor="middle" fill="#9c27b0" font-size="11">左边同加 c</text>
+  <text x="350" y="160" text-anchor="middle" fill="#9c27b0" font-size="11">右边同加 c</text>
+  <text x="240" y="175" text-anchor="middle" fill="#4a148c" font-size="12">两边同加减同一数，等式不变（性质1）</text>
+</svg>
+
 ### 性质 1（加减）
 
 **等式两边加（或减）同一个数（或式子），结果仍相等。**

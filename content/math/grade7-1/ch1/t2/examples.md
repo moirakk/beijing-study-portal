@@ -24,6 +24,36 @@ D. $\pi$ 是有理数
 
 ---
 
+## 数轴示意
+
+<svg viewBox="0 0 500 110" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t2e" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="55" x2="470" y2="55" stroke="#424242" stroke-width="2" marker-end="url(#arr-t2e)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="48" x2="90" y2="62" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="76" text-anchor="middle" font-size="12" fill="#7b1fa2">-4</text>
+  <line x1="170" y1="48" x2="170" y2="62" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="76" text-anchor="middle" font-size="12" fill="#7b1fa2">-2</text>
+  <line x1="250" y1="48" x2="250" y2="62" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="76" text-anchor="middle" font-size="13" fill="#424242">0</text>
+  <line x1="330" y1="48" x2="330" y2="62" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="76" text-anchor="middle" font-size="12" fill="#7b1fa2">2</text>
+  <line x1="410" y1="48" x2="410" y2="62" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="76" text-anchor="middle" font-size="12" fill="#7b1fa2">4</text>
+  <!-- 例3：点A(-4)和点B(2) -->
+  <circle cx="90" cy="55" r="5" fill="#7b1fa2"/>
+  <text x="90" y="38" text-anchor="middle" font-size="12" fill="#7b1fa2">A(-4)</text>
+  <circle cx="330" cy="55" r="5" fill="#9c27b0"/>
+  <text x="330" y="38" text-anchor="middle" font-size="12" fill="#9c27b0">B(2)</text>
+  <!-- P=0 和 P=8 标注 -->
+  <circle cx="250" cy="55" r="5" fill="#ce93d8"/>
+  <text x="250" y="100" text-anchor="middle" font-size="11" fill="#7b1fa2">P=0（PA=2PB✔）</text>
+</svg>
+
 ## 例题 2（中档 · 绝对值化简）
 
 ### 题目

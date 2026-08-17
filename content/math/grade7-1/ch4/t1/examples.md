@@ -8,6 +8,33 @@
 
 (1) $-3x^2y$；(2) $\frac{ab^2c}{4}$；(3) $-m$；(4) $2\pi r^2$。
 
+<svg viewBox="0 0 520 160" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="160" rx="10" fill="#f3e5f5"/>
+  <!-- Header -->
+  <rect x="10" y="10" width="500" height="36" rx="6" fill="#7b1fa2"/>
+  <text x="260" y="33" text-anchor="middle" fill="white" font-size="14" font-weight="bold">单项式的系数与次数</text>
+  <!-- Row 1 -->
+  <rect x="10" y="50" width="500" height="28" rx="0" fill="#e1bee7"/>
+  <text x="130" y="69" text-anchor="middle" fill="#4a148c" font-size="13" font-weight="bold">$-3x^2y$</text>
+  <text x="310" y="69" text-anchor="middle" fill="#4a148c" font-size="13">系数 $-3$</text>
+  <text x="450" y="69" text-anchor="middle" fill="#4a148c" font-size="13">次数 $2+1=3$</text>
+  <!-- Row 2 -->
+  <rect x="10" y="78" width="500" height="28" rx="0" fill="white"/>
+  <text x="130" y="97" text-anchor="middle" fill="#4a148c" font-size="13">$\frac{1}{4}ab^2c$</text>
+  <text x="310" y="97" text-anchor="middle" fill="#4a148c" font-size="13">系数 $\frac{1}{4}$</text>
+  <text x="450" y="97" text-anchor="middle" fill="#4a148c" font-size="13">次数 $1+2+1=4$</text>
+  <!-- Row 3 -->
+  <rect x="10" y="106" width="500" height="28" rx="0" fill="#e1bee7"/>
+  <text x="130" y="125" text-anchor="middle" fill="#4a148c" font-size="13">$-m$</text>
+  <text x="310" y="125" text-anchor="middle" fill="#4a148c" font-size="13">系数 $-1$</text>
+  <text x="450" y="125" text-anchor="middle" fill="#4a148c" font-size="13">次数 $1$</text>
+  <!-- Row 4 -->
+  <rect x="10" y="134" width="500" height="26" rx="0" fill="white"/>
+  <text x="130" y="152" text-anchor="middle" fill="#4a148c" font-size="13">$2\pi r^2$</text>
+  <text x="310" y="152" text-anchor="middle" fill="#4a148c" font-size="13">系数 $2\pi$（$\pi$ 是数）</text>
+  <text x="450" y="152" text-anchor="middle" fill="#4a148c" font-size="13">次数 $2$</text>
+</svg>
+
 ### 解析
 
 | 单项式 | 系数 | 次数 |

@@ -31,6 +31,46 @@ date: 2026-08-05
 
 ### 2. 细菌的结构
 
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="560" height="280" fill="#f1f8e9" rx="12"/>
+  <text x="280" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">细菌结构示意图（以球菌为例）</text>
+  <!-- 荚膜（最外层） -->
+  <ellipse cx="200" cy="150" rx="110" ry="100" fill="none" stroke="#a5d6a7" stroke-width="4" stroke-dasharray="8,4"/>
+  <text x="80" y="60" fill="#2e7d32" font-size="10">荚膜（部分细菌有）</text>
+  <line x1="120" y1="65" x2="130" y2="80" stroke="#388e3c" stroke-width="1"/>
+  <!-- 细胞壁 -->
+  <ellipse cx="200" cy="150" rx="95" ry="85" fill="none" stroke="#388e3c" stroke-width="5"/>
+  <!-- 细胞膜 -->
+  <ellipse cx="200" cy="150" rx="85" ry="75" fill="none" stroke="#66bb6a" stroke-width="2.5"/>
+  <!-- 细胞质 -->
+  <ellipse cx="200" cy="150" rx="82" ry="72" fill="#e8f5e9"/>
+  <!-- DNA（拟核） -->
+  <ellipse cx="200" cy="150" rx="35" ry="25" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="200" y="147" text-anchor="middle" fill="white" font-size="9" font-weight="bold">拟核</text>
+  <text x="200" y="160" text-anchor="middle" fill="white" font-size="8">（DNA，无核膜）</text>
+  <!-- 核糖体 -->
+  <circle cx="155" cy="120" r="6" fill="#ff8a65"/>
+  <circle cx="170" cy="110" r="6" fill="#ff8a65"/>
+  <circle cx="240" cy="115" r="6" fill="#ff8a65"/>
+  <circle cx="255" cy="130" r="6" fill="#ff8a65"/>
+  <text x="200" y="105" text-anchor="middle" fill="#e64a19" font-size="8">核糖体（小点）</text>
+  <!-- 鞭毛 -->
+  <path d="M 295 130 Q 330 100 350 70 Q 370 40 360 20" fill="none" stroke="#388e3c" stroke-width="2"/>
+  <text x="365" y="18" fill="#2e7d32" font-size="10">鞭毛（运动）</text>
+  <!-- 标注 -->
+  <rect x="340" y="80" width="200" height="180" rx="8" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="440" y="100" text-anchor="middle" fill="#1b5e20" font-size="11" font-weight="bold">结构说明</text>
+  <text x="350" y="120" fill="#2e7d32" font-size="9">细胞壁：保护支持</text>
+  <text x="350" y="137" fill="#2e7d32" font-size="9">细胞膜：控制物质进出</text>
+  <text x="350" y="154" fill="#2e7d32" font-size="9">细胞质：代谢场所</text>
+  <text x="350" y="171" fill="#2e7d32" font-size="9">拟核：含DNA，无核膜</text>
+  <text x="350" y="188" fill="#2e7d32" font-size="9">核糖体：合成蛋白质</text>
+  <text x="350" y="205" fill="#2e7d32" font-size="9">荚膜：保护（部分有）</text>
+  <text x="350" y="222" fill="#2e7d32" font-size="9">鞭毛：运动（部分有）</text>
+  <rect x="345" y="232" width="185" height="22" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="437" y="247" text-anchor="middle" fill="#1b5e20" font-size="9" font-weight="bold">无以膜为界限的细胞核 = 原核生物</text>
+</svg>
+
 | 结构 | 功能 |
 |---|---|
 | 细胞壁 | 保护和支持 |

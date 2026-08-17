@@ -9,6 +9,31 @@ date: 2026-08-06
 
 画一个图形关于某条直线的轴对称图形，关键是找出原图形上的一些特殊点，作出这些点关于对称轴的对称点，再顺次连接各对称点。
 
+<svg width="380" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 380 200">
+  <!-- y轴（对称轴） -->
+  <line x1="190" y1="10" x2="190" y2="185" stroke="#424242" stroke-width="2"/>
+  <polygon points="190,5 186,14 194,14" fill="#424242"/>
+  <text x="196" y="14" font-size="13" fill="#424242" font-style="italic">y</text>
+  <!-- x轴 -->
+  <line x1="10" y1="130" x2="370" y2="130" stroke="#424242" stroke-width="2"/>
+  <polygon points="375,130 366,126 366,134" fill="#424242"/>
+  <text x="368" y="145" font-size="13" fill="#424242" font-style="italic">x</text>
+  <!-- 原三角形 ABC（左侧） -->
+  <polygon points="80,130 130,60 150,130" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="66" y="145" font-size="13" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="126" y="52" font-size="13" fill="#7b1fa2" font-weight="bold">A</text>
+  <text x="152" y="145" font-size="13" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 对称三角形 A'B'C'（右侧，关于y轴） -->
+  <polygon points="300,130 250,60 230,130" fill="#e1bee7" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="302" y="145" font-size="13" fill="#9c27b0" font-weight="bold">B'</text>
+  <text x="248" y="52" font-size="13" fill="#9c27b0" font-weight="bold">A'</text>
+  <text x="210" y="145" font-size="13" fill="#9c27b0" font-weight="bold">C'</text>
+  <!-- 对应点连线 -->
+  <line x1="130" y1="60" x2="250" y2="60" stroke="#424242" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- 坐标说明 -->
+  <text x="190" y="195" font-size="12" fill="#424242" text-anchor="middle">关于y轴对称：(x,y) → (-x,y)；关于x轴对称：(x,y) → (x,-y)</text>
+</svg>
+
 ## 画轴对称图形的步骤
 
 1. **找点**：确定原图形的关键点（如顶点、端点等）。

@@ -23,6 +23,17 @@ $$a > b,\ c < 0 \Rightarrow ac < bc,\quad \frac{a}{c} < \frac{b}{c}$$
 
 > ⚠️ 与等式性质最大的区别：**乘除负数要变号**！这是全章的核心与高频考点。
 
+```mermaid
+flowchart LR
+    A["不等式两边\n进行运算"] --> B{"运算类型"}
+    B -- "加减任意数" --> C["不等号方向\n不变 ✓"]
+    B -- "乘除正数 c>0" --> C
+    B -- "乘除负数 c<0" --> D["不等号方向\n改变！⚠️\n> 变 <，< 变 >"]
+    style C fill:#4caf50,color:#fff
+    style D fill:#e91e63,color:#fff
+    style A fill:#e1bee7
+```
+
 ## 二、利用性质解简单不等式
 
 **例**：解不等式 $-2x > 6$。

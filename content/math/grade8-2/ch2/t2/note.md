@@ -13,6 +13,27 @@ date: 2026-08-06
 
 它把"由形定数"的勾股定理反过来，变成"由数定形"的**直角三角形判定方法**。
 
+<svg width="420" height="180" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 180">
+  <!-- 标题 -->
+  <text x="210" y="18" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">勾股定理与逆定理对比</text>
+  <!-- 左侧：勾股定理（正向） -->
+  <rect x="10" y="30" width="185" height="130" rx="8" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="102" y="52" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">勾股定理（正向）</text>
+  <text x="102" y="72" font-size="12" fill="#424242" text-anchor="middle">已知：直角三角形</text>
+  <text x="102" y="90" font-size="12" fill="#424242" text-anchor="middle">∠C = 90°</text>
+  <text x="102" y="112" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">⟹ a² + b² = c²</text>
+  <text x="102" y="148" font-size="11" fill="#424242" text-anchor="middle">由形（直角）→ 数（等式）</text>
+  <!-- 双向箭头 -->
+  <text x="210" y="100" font-size="22" fill="#7b1fa2" text-anchor="middle">⇔</text>
+  <!-- 右侧：逆定理 -->
+  <rect x="225" y="30" width="185" height="130" rx="8" fill="#e1bee7" stroke="#9c27b0" stroke-width="2"/>
+  <text x="317" y="52" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">逆定理（反向）</text>
+  <text x="317" y="72" font-size="12" fill="#424242" text-anchor="middle">已知：a² + b² = c²</text>
+  <text x="317" y="90" font-size="12" fill="#424242" text-anchor="middle">（三边满足此关系）</text>
+  <text x="317" y="112" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">⟹ ∠C = 90°</text>
+  <text x="317" y="148" font-size="11" fill="#424242" text-anchor="middle">由数（等式）→ 形（直角）</text>
+</svg>
+
 ## 二、原命题与逆命题
 
 - 把一个命题的题设和结论互换，得到它的**逆命题**；

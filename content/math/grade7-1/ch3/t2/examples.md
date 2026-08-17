@@ -18,6 +18,22 @@ $$
 
 > ⚠️ $(-3)^2 = 9$，代入时括号不可少；$-2 \times (-3) = +6$，负负得正。
 
+## 图示
+
+<svg viewBox="0 0 500 130" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="110" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">代入求值流程：x=-3 时求 x²-2x+1</text>
+  <!-- 步骤1 -->
+  <rect x="40" y="42" width="420" height="22" fill="#7b1fa2" rx="4"/>
+  <text x="250" y="57" text-anchor="middle" font-size="12" fill="white">原式 = x² - 2x + 1</text>
+  <!-- 步骤2 -->
+  <rect x="40" y="68" width="420" height="22" fill="#9c27b0" rx="4"/>
+  <text x="250" y="83" text-anchor="middle" font-size="12" fill="white">代入 = (-3)² - 2×(-3) + 1　← 负数加括号！</text>
+  <!-- 步骤3 -->
+  <rect x="40" y="94" width="420" height="22" fill="#ce93d8" rx="4"/>
+  <text x="250" y="109" text-anchor="middle" font-size="12" fill="#212121">计算 = 9 + 6 + 1 = 16</text>
+</svg>
+
 ---
 
 ## 例题 2（基础 · 两个字母代入）

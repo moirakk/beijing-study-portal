@@ -17,6 +17,33 @@ date: 2026-08-06
 
 三者都具备平行四边形的一般性质（对边平行相等、对角线互相平分）。
 
+<svg width="420" height="180" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 180">
+  <!-- 矩形 -->
+  <rect x="15" y="40" width="110" height="80" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <rect x="15" y="40" width="10" height="10" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="70" y="90" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">矩形</text>
+  <line x1="15" y1="40" x2="125" y2="120" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="125" y1="40" x2="15" y2="120" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="70" y="140" font-size="11" fill="#424242" text-anchor="middle">对角线相等</text>
+  <text x="70" y="155" font-size="11" fill="#424242" text-anchor="middle">四角均90°</text>
+
+  <!-- 菱形 -->
+  <polygon points="225,30 270,100 225,170 180,100" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <line x1="180" y1="100" x2="270" y2="100" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="225" y1="30" x2="225" y2="170" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="221" y="96" width="8" height="8" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="225" y="100" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">菱形</text>
+  <text x="225" y="178" font-size="11" fill="#424242" text-anchor="middle">对角线互相垂直</text>
+
+  <!-- 正方形 -->
+  <rect x="300" y="50" width="100" height="100" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <rect x="300" y="50" width="10" height="10" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="300" y1="50" x2="400" y2="150" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="50" x2="300" y2="150" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="350" y="105" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">正方形</text>
+  <text x="350" y="165" font-size="11" fill="#424242" text-anchor="middle">矩形+菱形</text>
+</svg>
+
 ## 二、重要推论与公式
 
 1. **直角三角形斜边上的中线等于斜边的一半**（由矩形对角线性质导出）；

@@ -19,6 +19,29 @@ $$ax^2+bx+c=0 \quad (a\neq 0)$$
 
 **注意**：$a\neq 0$ 是一元二次方程的必要条件。若 $a=0$ 且 $b\neq 0$，方程退化为一元一次方程。
 
+<svg viewBox="0 0 520 160" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="520" height="160" rx="10" fill="#f3e5f5"/>
+  <!-- 标题 -->
+  <text x="260" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#7b1fa2">一元二次方程一般形式：ax² + bx + c = 0（a ≠ 0）</text>
+  <!-- 三个方框 -->
+  <!-- 二次项 -->
+  <rect x="30" y="50" width="140" height="80" rx="8" fill="#7b1fa2"/>
+  <text x="100" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="white">ax²</text>
+  <text x="100" y="106" text-anchor="middle" font-size="13" fill="#e1bee7">二次项</text>
+  <text x="100" y="122" text-anchor="middle" font-size="12" fill="#e1bee7">a 为二次项系数，a ≠ 0</text>
+  <!-- 一次项 -->
+  <rect x="190" y="50" width="140" height="80" rx="8" fill="#9c27b0"/>
+  <text x="260" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="white">bx</text>
+  <text x="260" y="106" text-anchor="middle" font-size="13" fill="#e1bee7">一次项</text>
+  <text x="260" y="122" text-anchor="middle" font-size="12" fill="#e1bee7">b 为一次项系数，可为 0</text>
+  <!-- 常数项 -->
+  <rect x="350" y="50" width="140" height="80" rx="8" fill="#ab47bc"/>
+  <text x="420" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="white">c</text>
+  <text x="420" y="106" text-anchor="middle" font-size="13" fill="#e1bee7">常数项</text>
+  <text x="420" y="122" text-anchor="middle" font-size="12" fill="#e1bee7">c 为常数项，可为 0</text>
+</svg>
+
 ## 方程的根
 
 使一元二次方程左右两边相等的未知数的值，叫做一元二次方程的**解**，也叫做方程的**根**。

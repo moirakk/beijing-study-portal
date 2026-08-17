@@ -17,6 +17,37 @@ date: 2026-08-06
 
 **区别**：中心对称是**两个图形**之间的关系；中心对称图形是**一个图形**自身的性质。
 
+<svg viewBox="0 0 460 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 对称中心O -->
+  <circle cx="230" cy="110" r="6" fill="#7b1fa2"/>
+  <text x="238" y="115" font-size="13" font-weight="bold" fill="#7b1fa2">O（对称中心）</text>
+  <!-- 图形A：左上三角形 -->
+  <polygon points="100,50 160,50 130,100" fill="#e1bee7" fill-opacity="0.8" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="118" y="44" font-size="13" font-weight="bold" fill="#7b1fa2">A</text>
+  <text x="162" y="44" font-size="13" font-weight="bold" fill="#7b1fa2">B</text>
+  <text x="126" y="116" font-size="13" font-weight="bold" fill="#7b1fa2">C</text>
+  <!-- 图形A'：右下三角形（关于O中心对称） -->
+  <polygon points="360,170 300,170 330,120" fill="#9c27b0" fill-opacity="0.25" stroke="#9c27b0" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="362" y="184" font-size="13" font-weight="bold" fill="#9c27b0">A'</text>
+  <text x="292" y="184" font-size="13" font-weight="bold" fill="#9c27b0">B'</text>
+  <text x="326" y="116" font-size="13" font-weight="bold" fill="#9c27b0">C'</text>
+  <!-- 对应点连线（过O） -->
+  <line x1="100" y1="50" x2="360" y2="170" stroke="#e1bee7" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="160" y1="50" x2="300" y2="170" stroke="#e1bee7" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="130" y1="100" x2="330" y2="120" stroke="#e1bee7" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <!-- 标注：O是AA'中点 -->
+  <text x="230" y="195" text-anchor="middle" font-size="11" fill="#555">对应点连线均过O，且O是各连线的中点</text>
+  <!-- 坐标对比 -->
+  <rect x="20" y="155" width="130" height="40" rx="5" fill="#f3e5f5"/>
+  <text x="85" y="172" text-anchor="middle" font-size="11" fill="#7b1fa2">点P(x, y)</text>
+  <text x="85" y="188" text-anchor="middle" font-size="11" fill="#7b1fa2">关于原点对称</text>
+  <text x="160" y="178" font-size="16" fill="#9c27b0">→</text>
+  <rect x="175" y="155" width="130" height="40" rx="5" fill="#ede7f6"/>
+  <text x="240" y="172" text-anchor="middle" font-size="11" fill="#9c27b0">P'(-x, -y)</text>
+  <text x="240" y="188" text-anchor="middle" font-size="11" fill="#9c27b0">横纵坐标均变号</text>
+  <text x="230" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#7b1fa2">中心对称：绕对称中心旋转180°后重合</text>
+</svg>
+
 ## 中心对称的性质
 
 1. 对称中心是任意一对对应点连线的**中点**（对应点连线都经过对称中心，且被对称中心平分）；

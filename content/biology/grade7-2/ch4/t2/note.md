@@ -27,6 +27,46 @@ date: 2026-08-05
 | 胰腺 | 胰液（含多种酶） | 消化糖类、蛋白质、脂肪 |
 | 肠腺 | 肠液（含多种酶） | 消化糖类、蛋白质、脂肪 |
 
+<svg viewBox="0 0 580 340" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="340" fill="#f1f8e9" rx="10"/>
+  <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">消化系统结构示意图</text>
+  <!-- 口腔 -->
+  <rect x="220" y="40" width="140" height="35" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="62" text-anchor="middle" font-size="12" fill="#1b5e20">口腔（唾液腺→淀粉初消化）</text>
+  <!-- 咽 -->
+  <rect x="250" y="82" width="80" height="25" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="290" y="99" text-anchor="middle" font-size="11" fill="#1b5e20">咽</text>
+  <!-- 食道 -->
+  <rect x="270" y="114" width="40" height="35" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="290" y="136" text-anchor="middle" font-size="11" fill="#1b5e20">食道</text>
+  <!-- 胃 -->
+  <ellipse cx="290" cy="185" rx="55" ry="35" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">胃</text>
+  <text x="290" y="196" text-anchor="middle" font-size="10" fill="#2e7d32">蛋白质初消化</text>
+  <!-- 小肠 -->
+  <path d="M 290 220 Q 350 240 330 270 Q 310 300 290 290 Q 270 280 260 260 Q 250 240 290 230" fill="#66bb6a" stroke="#388e3c" stroke-width="2"/>
+  <text x="290" y="262" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">小肠</text>
+  <text x="290" y="276" text-anchor="middle" font-size="9" fill="#e8f5e9">消化吸收主场所</text>
+  <!-- 大肠 -->
+  <rect x="220" y="295" width="140" height="30" rx="6" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="290" y="315" text-anchor="middle" font-size="11" fill="#1b5e20">大肠→肛门（排出残渣）</text>
+  <!-- 肝脏标注 -->
+  <ellipse cx="430" cy="175" rx="50" ry="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="430" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">肝脏</text>
+  <text x="430" y="185" text-anchor="middle" font-size="9" fill="#2e7d32">分泌胆汁</text>
+  <line x1="380" y1="180" x2="345" y2="185" stroke="#388e3c" stroke-width="1.5" stroke-dasharray="4"/>
+  <!-- 胰腺标注 -->
+  <rect x="400" y="220" width="80" height="30" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="440" y="235" text-anchor="middle" font-size="11" fill="#1b5e20">胰腺</text>
+  <text x="440" y="248" text-anchor="middle" font-size="9" fill="#2e7d32">分泌胰液</text>
+  <line x1="400" y1="235" x2="345" y2="255" stroke="#388e3c" stroke-width="1.5" stroke-dasharray="4"/>
+  <!-- 唾液腺标注 -->
+  <ellipse cx="130" cy="55" rx="45" ry="22" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="130" y="50" text-anchor="middle" font-size="10" fill="#1b5e20">唾液腺</text>
+  <text x="130" y="64" text-anchor="middle" font-size="9" fill="#2e7d32">分泌唾液</text>
+  <line x1="175" y1="55" x2="218" y2="58" stroke="#388e3c" stroke-width="1.5" stroke-dasharray="4"/>
+</svg>
+
 ### 三大营养物质的消化过程
 
 | 物质 | 开始消化部位 | 最终产物 |

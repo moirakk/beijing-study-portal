@@ -15,6 +15,51 @@ date: 2026-08-05
 - 线段**下降** → 数据减少；
 - 线段**平缓** → 变化不大；线段**陡峭** → 变化剧烈。
 
+<svg viewBox="0 0 360 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <text x="80" y="18" font-size="13" fill="#7b1fa2" font-weight="bold">折线趋势图示例（月销售量）</text>
+  <!-- y轴 -->
+  <line x1="50" y1="185" x2="50" y2="35" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="45,40 50,30 55,40" fill="#7b1fa2"/>
+  <!-- x轴 -->
+  <line x1="50" y1="185" x2="340" y2="185" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="335,180 345,185 335,190" fill="#7b1fa2"/>
+  <!-- y轴刻度 -->
+  <line x1="45" y1="155" x2="55" y2="155" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="159" font-size="11" fill="#333">20</text>
+  <line x1="45" y1="125" x2="55" y2="125" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="129" font-size="11" fill="#333">40</text>
+  <line x1="45" y1="95" x2="55" y2="95" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="99" font-size="11" fill="#333">60</text>
+  <line x1="45" y1="65" x2="55" y2="65" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="28" y="69" font-size="11" fill="#333">80</text>
+  <!-- 数据点（月份1-6，销量：30,45,40,65,55,70） -->
+  <!-- 月份x坐标：70,115,160,205,250,295 -->
+  <!-- 销量y坐标：185-30*1.5=140, 185-45*1.5=117.5, 185-40*1.5=125, 185-65*1.5=87.5, 185-55*1.5=102.5, 185-70*1.5=80 -->
+  <polyline points="70,140 115,118 160,125 205,88 250,103 295,80" fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+  <circle cx="70" cy="140" r="4" fill="#e91e63"/>
+  <circle cx="115" cy="118" r="4" fill="#e91e63"/>
+  <circle cx="160" cy="125" r="4" fill="#e91e63"/>
+  <circle cx="205" cy="88" r="4" fill="#e91e63"/>
+  <circle cx="250" cy="103" r="4" fill="#e91e63"/>
+  <circle cx="295" cy="80" r="4" fill="#e91e63"/>
+  <!-- 数据标注 -->
+  <text x="62" y="133" font-size="10" fill="#7b1fa2">30</text>
+  <text x="107" y="111" font-size="10" fill="#7b1fa2">45</text>
+  <text x="152" y="118" font-size="10" fill="#7b1fa2">40</text>
+  <text x="197" y="81" font-size="10" fill="#7b1fa2">65</text>
+  <text x="242" y="96" font-size="10" fill="#7b1fa2">55</text>
+  <text x="287" y="73" font-size="10" fill="#7b1fa2">70</text>
+  <!-- x轴月份标注 -->
+  <text x="65" y="200" font-size="10" fill="#333">1月</text>
+  <text x="110" y="200" font-size="10" fill="#333">2月</text>
+  <text x="155" y="200" font-size="10" fill="#333">3月</text>
+  <text x="200" y="200" font-size="10" fill="#333">4月</text>
+  <text x="245" y="200" font-size="10" fill="#333">5月</text>
+  <text x="290" y="200" font-size="10" fill="#333">6月</text>
+  <!-- 趋势说明 -->
+  <text x="50" y="215" font-size="11" fill="#555">总体上升趋势；3月略有下降；4月增幅最大</text>
+</svg>
+
 ## 二、读趋势图的要点
 
 1. 先看**横轴**（时间/顺序）与**纵轴**（数量）的含义和**单位刻度**；

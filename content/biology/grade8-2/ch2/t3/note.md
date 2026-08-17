@@ -28,6 +28,52 @@ date: 2026-08-06
 若用A表示显性基因，a表示隐性基因，则高茎可能是AA或Aa，矮茎只能是aa。
 因此表现型相同不一定基因组成相同。
 
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr5" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="310" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">豌豆高茎×矮茎遗传图解</text>
+  <!-- 亲代 -->
+  <text x="100" y="40" text-anchor="middle" font-size="12" fill="#388e3c" font-weight="bold">亲代（P）</text>
+  <rect x="30" y="48" width="140" height="44" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="100" y="67" text-anchor="middle" font-size="13" fill="#1b5e20">高茎 AA</text>
+  <text x="100" y="84" text-anchor="middle" font-size="11" fill="#388e3c">（纯合显性）</text>
+  <text x="220" y="72" text-anchor="middle" font-size="16" fill="#388e3c">×</text>
+  <rect x="250" y="48" width="140" height="44" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="320" y="67" text-anchor="middle" font-size="13" fill="#1b5e20">矮茎 aa</text>
+  <text x="320" y="84" text-anchor="middle" font-size="11" fill="#388e3c">（纯合隐性）</text>
+  <!-- 配子 -->
+  <line x1="100" y1="92" x2="100" y2="118" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <line x1="320" y1="92" x2="320" y2="118" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <text x="100" y="135" text-anchor="middle" font-size="12" fill="#388e3c">配子：A</text>
+  <text x="320" y="135" text-anchor="middle" font-size="12" fill="#388e3c">配子：a</text>
+  <!-- F1 -->
+  <line x1="130" y1="140" x2="200" y2="158" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <line x1="290" y1="140" x2="220" y2="158" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <text x="210" y="155" text-anchor="middle" font-size="11" fill="#388e3c">受精</text>
+  <rect x="140" y="162" width="140" height="44" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="210" y="181" text-anchor="middle" font-size="13" fill="#1b5e20" font-weight="bold">子一代 Aa</text>
+  <text x="210" y="198" text-anchor="middle" font-size="11" fill="#1b5e20">全部高茎（显性）</text>
+  <text x="210" y="148" text-anchor="middle" font-size="12" fill="#388e3c" font-weight="bold">子一代（F1）</text>
+  <!-- F1自交 -->
+  <line x1="210" y1="206" x2="210" y2="225" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr5)"/>
+  <text x="210" y="222" text-anchor="middle" font-size="10" fill="#388e3c">Aa × Aa（自交）</text>
+  <!-- F2 -->
+  <text x="210" y="240" text-anchor="middle" font-size="12" fill="#388e3c" font-weight="bold">子二代（F2）</text>
+  <rect x="430" y="48" width="180" height="200" rx="10" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="520" y="70" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">F2基因型比例</text>
+  <text x="520" y="92" text-anchor="middle" font-size="11" fill="#388e3c">AA : Aa : aa</text>
+  <text x="520" y="110" text-anchor="middle" font-size="13" fill="#1b5e20" font-weight="bold">1 : 2 : 1</text>
+  <text x="520" y="135" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">F2表现型比例</text>
+  <text x="520" y="155" text-anchor="middle" font-size="11" fill="#388e3c">高茎 : 矮茎</text>
+  <text x="520" y="173" text-anchor="middle" font-size="13" fill="#1b5e20" font-weight="bold">3 : 1</text>
+  <text x="520" y="200" text-anchor="middle" font-size="10" fill="#555">高茎=AA+Aa</text>
+  <text x="520" y="218" text-anchor="middle" font-size="10" fill="#555">矮茎=aa</text>
+  <text x="520" y="236" text-anchor="middle" font-size="10" fill="#c62828">隐性性状只能是aa</text>
+</svg>
+
 禁止近亲结婚与隐性遗传病有关。
 近亲双方携带相同隐性致病基因的可能性较大，后代患病风险增加。
 这是遗传学知识在生活中的重要应用。

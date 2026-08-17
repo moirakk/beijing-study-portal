@@ -13,6 +13,41 @@ date: 2026-08-06
 - **中线**：连接三角形的一个顶点和它所对边的中点的线段叫做三角形的中线。
 - **角平分线**：三角形的一个内角的平分线与它的对边相交，这个角的顶点和交点之间的线段叫做三角形的角平分线。
 
+<svg width="480" height="190" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 480 190">
+  <!-- 三角形（高） -->
+  <polygon points="80,20 20,160 160,160" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="80" y="14" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="8" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="162" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 高 AD -->
+  <line x1="80" y1="20" x2="80" y2="160" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <rect x="74" y="154" width="6" height="6" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="84" y="148" font-size="12" fill="#9c27b0">D</text>
+  <text x="80" y="182" font-size="12" fill="#424242" text-anchor="middle">高 AD⊥BC</text>
+
+  <!-- 三角形（中线） -->
+  <polygon points="250,20 190,160 330,160" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="250" y="14" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="178" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="332" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 中线 AM，M为BC中点 -->
+  <line x1="250" y1="20" x2="260" y2="160" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="260" cy="160" r="3" fill="#7b1fa2"/>
+  <text x="264" y="155" font-size="12" fill="#9c27b0">M</text>
+  <text x="260" y="182" font-size="12" fill="#424242" text-anchor="middle">中线 AM，BM=MC</text>
+
+  <!-- 三角形（角平分线） -->
+  <polygon points="420,20 360,160 480,160" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="420" y="14" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="348" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="482" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 角平分线 AN -->
+  <line x1="420" y1="20" x2="420" y2="160" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="420" cy="160" r="3" fill="#7b1fa2"/>
+  <text x="424" y="155" font-size="12" fill="#9c27b0">N</text>
+  <text x="420" y="182" font-size="12" fill="#424242" text-anchor="middle">角平分线 AN</text>
+</svg>
+
 ## 重要性质
 
 **高的性质**：

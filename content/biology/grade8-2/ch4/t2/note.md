@@ -24,6 +24,53 @@ date: 2026-08-06
 植物可进行有性生殖和无性生殖；昆虫、两栖动物和鸟类在受精方式和发育方式上各有特点。
 比较这些内容时，要特别关注是否依赖水环境、是否有变态发育、是否具有保护胚胎的结构。
 
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr12" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="340" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">生命延续与进化知识网络</text>
+  <!-- 中心主题 -->
+  <ellipse cx="340" cy="130" rx="80" ry="38" fill="#388e3c" stroke="#1b5e20" stroke-width="2"/>
+  <text x="340" y="126" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">生命延续</text>
+  <text x="340" y="142" text-anchor="middle" font-size="10" fill="#e8f5e9">与进化</text>
+  <!-- 生殖发育 -->
+  <rect x="10" y="30" width="140" height="60" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="80" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">生殖与发育</text>
+  <text x="80" y="68" text-anchor="middle" font-size="10" fill="#388e3c">有性/无性生殖</text>
+  <text x="80" y="82" text-anchor="middle" font-size="10" fill="#555">变态/不变态发育</text>
+  <line x1="150" y1="60" x2="260" y2="115" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 遗传 -->
+  <rect x="10" y="140" width="140" height="60" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="80" y="162" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">遗传</text>
+  <text x="80" y="178" text-anchor="middle" font-size="10" fill="#388e3c">基因→染色体→性状</text>
+  <text x="80" y="192" text-anchor="middle" font-size="10" fill="#555">显隐性、性别遗传</text>
+  <line x1="150" y1="170" x2="260" y2="145" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 变异 -->
+  <rect x="530" y="30" width="140" height="60" rx="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="600" y="52" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">变异</text>
+  <text x="600" y="68" text-anchor="middle" font-size="10" fill="#388e3c">可遗传/不可遗传</text>
+  <text x="600" y="82" text-anchor="middle" font-size="10" fill="#555">进化的原材料</text>
+  <line x1="530" y1="60" x2="420" y2="115" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 进化 -->
+  <rect x="530" y="140" width="140" height="60" rx="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="600" y="162" text-anchor="middle" font-size="11" fill="#1b5e20" font-weight="bold">进化</text>
+  <text x="600" y="178" text-anchor="middle" font-size="10" fill="#388e3c">自然选择学说</text>
+  <text x="600" y="192" text-anchor="middle" font-size="10" fill="#555">化石证据</text>
+  <line x1="530" y1="170" x2="420" y2="145" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 生命起源 -->
+  <rect x="240" y="30" width="200" height="35" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="340" y="52" text-anchor="middle" font-size="11" fill="#1b5e20">生命起源：化学进化学说 + 米勒实验</text>
+  <line x1="340" y1="65" x2="340" y2="92" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 生物多样性 -->
+  <rect x="240" y="195" width="200" height="35" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="340" y="217" text-anchor="middle" font-size="11" fill="#1b5e20">生物多样性：基因/物种/生态系统</text>
+  <line x1="340" y1="168" x2="340" y2="195" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr12)"/>
+  <!-- 底部说明 -->
+  <text x="340" y="248" text-anchor="middle" font-size="11" fill="#388e3c">主线：生殖→遗传→变异→进化→多样性保护</text>
+</svg>
+
 第二章围绕遗传与变异展开。
 基因控制性状，基因位于染色体上，并通过生殖细胞在亲子代间传递。
 显性和隐性解释了相对性状的表现规律，性别遗传说明性染色体的作用。

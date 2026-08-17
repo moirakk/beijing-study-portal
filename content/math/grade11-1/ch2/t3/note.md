@@ -26,6 +26,42 @@ $$d=\dfrac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$$
 
 **对称问题**：点关于直线对称，用"中点在直线上 + 连线与直线垂直"两条件列方程组；点关于点对称用中点公式。
 
+<svg viewBox="0 0 480 280" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="axd" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#555"/></marker>
+    <marker id="ayd" markerWidth="7" markerHeight="7" refX="3" refY="5" orient="auto"><path d="M0,7 L6,7 L3,0 z" fill="#555"/></marker>
+  </defs>
+  <!-- 坐标轴 -->
+  <line x1="40" y1="220" x2="440" y2="220" stroke="#555" stroke-width="1.5" marker-end="url(#axd)"/>
+  <line x1="80" y1="260" x2="80" y2="20" stroke="#555" stroke-width="1.5" marker-end="url(#ayd)"/>
+  <text x="444" y="224" font-size="12" fill="#555">x</text>
+  <text x="83" y="17" font-size="12" fill="#555">y</text>
+  <text x="72" y="234" font-size="11" fill="#555">O</text>
+  <!-- 直线 l: Ax+By+C=0，画为 y = (-Ax-C)/B，取斜线 -->
+  <!-- 示例直线：3x+4y-60=0，即 y=(60-3x)/4，x=0→y=15，x=20→y=0 -->
+  <!-- 在SVG坐标中：x轴y=220，每单位10px，原点(80,220) -->
+  <!-- x=0(SVG:80), y=15(SVG:220-150=70); x=20(SVG:280), y=0(SVG:220) -->
+  <line x1="60" y1="82" x2="340" y2="222" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="344" y="218" font-size="13" font-weight="bold" fill="#7b1fa2">l: Ax+By+C=0</text>
+  <!-- 点P(x₀,y₀)，取P=(5,20)→SVG(130,20) -->
+  <circle cx="180" cy="80" r="5" fill="#e91e63"/>
+  <text x="186" y="76" font-size="13" font-weight="bold" fill="#e91e63">P(x₀, y₀)</text>
+  <!-- 垂线（从P到直线的垂足） -->
+  <!-- 直线方向向量(4,-3)（法向量(3,4)），垂足计算略，示意即可 -->
+  <!-- 垂足约在(200,155)处 -->
+  <line x1="180" y1="80" x2="218" y2="158" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="218" cy="158" r="4" fill="#9c27b0"/>
+  <text x="222" y="156" font-size="11" fill="#9c27b0">垂足</text>
+  <!-- 直角标记 -->
+  <rect x="210" y="150" width="10" height="10" fill="none" stroke="#555" stroke-width="1.2" transform="rotate(-37,215,155)"/>
+  <!-- d标注 -->
+  <text x="186" y="128" font-size="13" font-weight="bold" fill="#9c27b0">d</text>
+  <!-- 公式框 -->
+  <rect x="20" y="230" width="420" height="40" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="230" y="248" text-anchor="middle" font-size="13" font-weight="bold" fill="#7b1fa2">点到直线距离：d = |Ax₀+By₀+C| / √(A²+B²)</text>
+  <text x="230" y="265" text-anchor="middle" font-size="11" fill="#555">分子：点坐标代入直线方程取绝对值；分母：系数平方和开根</text>
+</svg>
+
 ## 典型例题
 
 **例 1**：求点 $P(3,-2)$ 到直线 $l:3x+4y-1=0$ 的距离。

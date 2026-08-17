@@ -31,6 +31,23 @@ date: 2026-08-05
 
 ### 2. 培养细菌和真菌的一般方法
 
+```mermaid
+flowchart TD
+    A["配制培养基\n（含水·无机盐·有机物）"] --> B["高温灭菌\n（杀灭培养基中的杂菌）"]
+    B --> C["冷却至室温\n（防止高温杀死接种菌）"]
+    C --> D["接种\n（将样品接种到培养基上）"]
+    D --> E["培养\n（放在适宜温度下培养）"]
+    E --> F["观察菌落\n（记录结果）"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#ffebee,stroke:#ef9a9a,color:#c62828
+    style C fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style D fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style E fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style F fill:#66bb6a,stroke:#2e7d32,color:#fff
+```
+
+> 关键步骤：**灭菌**（杀死所有微生物）→ **接种**（引入目标微生物）→ **培养**
+
 1. **配制培养基**：常用牛肉汁加琼脂，为细菌和真菌提供有机物和水分。
 2. **高温灭菌**：杀死培养基和培养皿中的杂菌。
 3. **冷却接种**：待培养基冷却后，将少量细菌或真菌转移到培养基上。

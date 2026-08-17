@@ -29,6 +29,61 @@ date: 2026-08-06
 脊椎动物进化顺序常概括为鱼类、两栖类、爬行类、鸟类和哺乳类。
 植物进化趋势常概括为藻类、苔藓、蕨类、裸子植物、被子植物。
 
+<svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr9" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="350" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">生物进化历程（由简单→复杂，由低等→高等，由水生→陆生）</text>
+  <!-- 时间轴 -->
+  <line x1="20" y1="60" x2="680" y2="60" stroke="#388e3c" stroke-width="2" marker-end="url(#arr9)"/>
+  <text x="680" y="55" font-size="11" fill="#388e3c">现代</text>
+  <text x="20" y="55" font-size="11" fill="#388e3c">远古</text>
+  <!-- 动物进化 -->
+  <text x="10" y="95" font-size="11" fill="#1b5e20" font-weight="bold">动物：</text>
+  <rect x="50" y="78" width="70" height="30" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="85" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">原始单细胞</text>
+  <line x1="120" y1="93" x2="145" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="145" y="78" width="70" height="30" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="180" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">无脊椎动物</text>
+  <line x1="215" y1="93" x2="240" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="240" y="78" width="55" height="30" rx="6" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="267" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">鱼类</text>
+  <line x1="295" y1="93" x2="320" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="320" y="78" width="55" height="30" rx="6" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="347" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">两栖类</text>
+  <line x1="375" y1="93" x2="400" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="400" y="78" width="55" height="30" rx="6" fill="#81c784" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="427" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">爬行类</text>
+  <line x1="455" y1="93" x2="480" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="480" y="78" width="55" height="30" rx="6" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="507" y="98" text-anchor="middle" font-size="10" fill="#1b5e20">鸟类</text>
+  <line x1="535" y1="93" x2="560" y2="93" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="560" y="78" width="60" height="30" rx="6" fill="#388e3c" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="590" y="98" text-anchor="middle" font-size="10" fill="#fff">哺乳类</text>
+  <!-- 植物进化 -->
+  <text x="10" y="145" font-size="11" fill="#1b5e20" font-weight="bold">植物：</text>
+  <rect x="50" y="128" width="55" height="30" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="77" y="148" text-anchor="middle" font-size="10" fill="#1b5e20">藻类</text>
+  <line x1="105" y1="143" x2="130" y2="143" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="130" y="128" width="55" height="30" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="157" y="148" text-anchor="middle" font-size="10" fill="#1b5e20">苔藓</text>
+  <line x1="185" y1="143" x2="210" y2="143" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="210" y="128" width="55" height="30" rx="6" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="237" y="148" text-anchor="middle" font-size="10" fill="#1b5e20">蕨类</text>
+  <line x1="265" y1="143" x2="290" y2="143" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="290" y="128" width="70" height="30" rx="6" fill="#81c784" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="325" y="148" text-anchor="middle" font-size="10" fill="#1b5e20">裸子植物</text>
+  <line x1="360" y1="143" x2="385" y2="143" stroke="#388e3c" stroke-width="1.2" marker-end="url(#arr9)"/>
+  <rect x="385" y="128" width="70" height="30" rx="6" fill="#388e3c" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="420" y="148" text-anchor="middle" font-size="10" fill="#fff">被子植物</text>
+  <!-- 化石证据说明 -->
+  <rect x="10" y="175" width="680" height="45" rx="8" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="350" y="195" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">化石证据：越古老地层→化石越简单低等；越晚近地层→化石越复杂高等</text>
+  <text x="350" y="213" text-anchor="middle" font-size="11" fill="#388e3c">化石是研究生物进化历程最重要的直接证据</text>
+</svg>
+
 除了化石证据，比较解剖学、胚胎学和分子生物学研究也能为进化提供证据。
 生物之间相似性越多，亲缘关系通常越近。
 

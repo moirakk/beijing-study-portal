@@ -18,6 +18,50 @@ $$\frac{m}{n}$$
 在大量重复试验中，随机事件发生的频率会**稳定**在某个常数附近。这个常数就可以作为该事件概率的估计值：
 $$P(A)\approx \frac{m}{n} \quad (n\text{ 很大时})$$
 
+<svg viewBox="0 0 480 240" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标轴 -->
+  <line x1="60" y1="200" x2="440" y2="200" stroke="#555" stroke-width="1.5"/>
+  <line x1="60" y1="20" x2="60" y2="210" stroke="#555" stroke-width="1.5"/>
+  <!-- y轴标签 -->
+  <text x="10" y="205" font-size="11" fill="#555">0</text>
+  <text x="10" y="155" font-size="11" fill="#555">0.5</text>
+  <text x="10" y="105" font-size="11" fill="#555">0.9</text>
+  <text x="10" y="75" font-size="11" fill="#555">1.0</text>
+  <text x="30" y="30" font-size="11" fill="#555">频率</text>
+  <!-- y轴刻度线 -->
+  <line x1="55" y1="155" x2="65" y2="155" stroke="#555" stroke-width="1"/>
+  <line x1="55" y1="105" x2="65" y2="105" stroke="#555" stroke-width="1"/>
+  <line x1="55" y1="75" x2="65" y2="75" stroke="#555" stroke-width="1"/>
+  <!-- 概率稳定线 P≈0.95 -->
+  <line x1="60" y1="90" x2="440" y2="90" stroke="#7b1fa2" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="442" y="94" font-size="11" fill="#7b1fa2">P≈0.95</text>
+  <!-- 频率折线（模拟大数法则：初期波动大，后期趋于稳定） -->
+  <polyline points="80,160 110,60 140,130 170,50 200,110 230,80 260,100 290,88 320,95 350,91 380,93 410,90 430,90"
+    fill="none" stroke="#9c27b0" stroke-width="2.2"/>
+  <!-- 数据点 -->
+  <circle cx="80" cy="160" r="3" fill="#9c27b0"/>
+  <circle cx="110" cy="60" r="3" fill="#9c27b0"/>
+  <circle cx="140" cy="130" r="3" fill="#9c27b0"/>
+  <circle cx="170" cy="50" r="3" fill="#9c27b0"/>
+  <circle cx="200" cy="110" r="3" fill="#9c27b0"/>
+  <circle cx="230" cy="80" r="3" fill="#9c27b0"/>
+  <circle cx="260" cy="100" r="3" fill="#9c27b0"/>
+  <circle cx="290" cy="88" r="3" fill="#9c27b0"/>
+  <circle cx="320" cy="95" r="3" fill="#9c27b0"/>
+  <circle cx="350" cy="91" r="3" fill="#9c27b0"/>
+  <circle cx="380" cy="93" r="3" fill="#9c27b0"/>
+  <circle cx="410" cy="90" r="3" fill="#9c27b0"/>
+  <!-- x轴标签 -->
+  <text x="80" y="215" font-size="10" fill="#555">100</text>
+  <text x="170" y="215" font-size="10" fill="#555">500</text>
+  <text x="260" y="215" font-size="10" fill="#555">1000</text>
+  <text x="360" y="215" font-size="10" fill="#555">5000</text>
+  <text x="240" y="232" text-anchor="middle" font-size="11" fill="#555">试验次数 n</text>
+  <!-- 标注 -->
+  <rect x="130" y="22" width="200" height="22" rx="5" fill="#f3e5f5"/>
+  <text x="230" y="37" text-anchor="middle" font-size="11" fill="#7b1fa2">频率随n增大趋于稳定（大数法则）</text>
+</svg>
+
 ## 频率与概率的区别和联系
 
 | | 频率 | 概率 |

@@ -31,6 +31,23 @@ $$P(A)=\frac{m}{n}$$
 
 **选择建议**：一步→直接列举；两步→列表法或树状图；三步及以上→树状图。
 
+```mermaid
+flowchart TD
+    A["掷硬币两次"] --> B["第一次：正面H"]
+    A --> C["第一次：反面T"]
+    B --> B1["第二次：正面H\n结果：HH"]
+    B --> B2["第二次：反面T\n结果：HT ✓"]
+    C --> C1["第二次：正面H\n结果：TH ✓"]
+    C --> C2["第二次：反面T\n结果：TT"]
+    style A fill:#7b1fa2,color:#fff
+    style B fill:#9c27b0,color:#fff
+    style C fill:#9c27b0,color:#fff
+    style B2 fill:#e1bee7,color:#4a148c
+    style C1 fill:#e1bee7,color:#4a148c
+```
+
+> 树状图共4个等可能结果，恰好一次正面（✓）有2个，P = 2/4 = 1/2
+
 ## "放回"与"不放回"
 
 - **放回**：第二次抽取时所有对象都还在，两次抽取相互独立；

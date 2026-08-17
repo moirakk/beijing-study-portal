@@ -19,6 +19,34 @@ A. $a \times 5$　　B. $2\frac{1}{2}x$　　C. $\frac{mn}{3}$　　D. $x \div y
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="100" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">代数式书写规范对比</text>
+  <!-- 表头 -->
+  <rect x="40" y="40" width="130" height="22" fill="#7b1fa2" rx="3"/>
+  <rect x="180" y="40" width="130" height="22" fill="#7b1fa2" rx="3"/>
+  <rect x="320" y="40" width="150" height="22" fill="#7b1fa2" rx="3"/>
+  <text x="105" y="55" text-anchor="middle" font-size="12" fill="white">错误写法</text>
+  <text x="245" y="55" text-anchor="middle" font-size="12" fill="white">正确写法</text>
+  <text x="395" y="55" text-anchor="middle" font-size="12" fill="white">规范说明</text>
+  <!-- 行1 -->
+  <rect x="40" y="65" width="130" height="22" fill="#e1bee7" rx="3"/>
+  <rect x="180" y="65" width="130" height="22" fill="#ce93d8" rx="3" opacity="0.6"/>
+  <rect x="320" y="65" width="150" height="22" fill="#e1bee7" rx="3"/>
+  <text x="105" y="80" text-anchor="middle" font-size="12" fill="#9c27b0">a×5 或 a5</text>
+  <text x="245" y="80" text-anchor="middle" font-size="12" fill="#7b1fa2" font-weight="bold">5a</text>
+  <text x="395" y="80" text-anchor="middle" font-size="11" fill="#212121">数字在前，省乘号</text>
+  <!-- 行2 -->
+  <rect x="40" y="90" width="130" height="22" fill="#e1bee7" rx="3"/>
+  <rect x="180" y="90" width="130" height="22" fill="#ce93d8" rx="3" opacity="0.6"/>
+  <rect x="320" y="90" width="150" height="22" fill="#e1bee7" rx="3"/>
+  <text x="105" y="105" text-anchor="middle" font-size="12" fill="#9c27b0">x÷y</text>
+  <text x="245" y="105" text-anchor="middle" font-size="12" fill="#7b1fa2" font-weight="bold">x/y</text>
+  <text x="395" y="105" text-anchor="middle" font-size="11" fill="#212121">除法写分数形式</text>
+</svg>
+
 ## 例题 2（基础 · 翻译句子）
 
 ### 题目

@@ -15,6 +15,22 @@ date: 2026-08-06
 
 必然事件和不可能事件统称为**确定性事件**。
 
+```mermaid
+flowchart TD
+    A["事件的分类"] --> B["确定性事件"]
+    A --> C["随机事件\n（可能发生，也可能不发生）\n0 < P(A) < 1"]
+    B --> D["必然事件\n（一定发生）\nP = 1"]
+    B --> E["不可能事件\n（一定不发生）\nP = 0"]
+    D --> D1["例：抛出石子会下落"]
+    E --> E1["例：三角形内角和为360°"]
+    C --> C1["例：掷骰子出现6点"]
+    style A fill:#7b1fa2,color:#fff
+    style B fill:#9c27b0,color:#fff
+    style C fill:#ab47bc,color:#fff
+    style D fill:#e1bee7,color:#4a148c
+    style E fill:#e1bee7,color:#4a148c
+```
+
 ## 概率的定义
 
 一般地，对于一个随机事件 $A$，我们把刻画其发生可能性大小的数值，称为随机事件 $A$ 发生的**概率**，记为 $P(A)$。

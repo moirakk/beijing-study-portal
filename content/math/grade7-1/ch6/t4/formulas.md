@@ -10,9 +10,29 @@ $$
 
 ## 2. 角的分类
 
-$$
-0° < \text{锐角} < 90° = \text{直角} < \text{钝角} < 180° = \text{平角}, \qquad \text{周角} = 360°
-$$
+<svg viewBox="0 0 480 60" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="60" rx="10" fill="#f3e5f5"/>
+  <!-- Number line for angles -->
+  <line x1="30" y1="35" x2="450" y2="35" stroke="#424242" stroke-width="2"/>
+  <!-- Tick marks and labels -->
+  <line x1="30" y1="28" x2="30" y2="42" stroke="#424242" stroke-width="2"/>
+  <text x="30" y="55" text-anchor="middle" fill="#4a148c" font-size="11">0°</text>
+  <line x1="180" y1="28" x2="180" y2="42" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="180" y="55" text-anchor="middle" fill="#7b1fa2" font-size="11">90°</text>
+  <line x1="330" y1="28" x2="330" y2="42" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="330" y="55" text-anchor="middle" fill="#7b1fa2" font-size="11">180°</text>
+  <line x1="450" y1="28" x2="450" y2="42" stroke="#424242" stroke-width="2"/>
+  <text x="450" y="55" text-anchor="middle" fill="#4a148c" font-size="11">360°</text>
+  <!-- Region labels -->
+  <text x="105" y="22" text-anchor="middle" fill="#9c27b0" font-size="11">锐角</text>
+  <text x="180" y="22" text-anchor="middle" fill="#7b1fa2" font-size="11">直角</text>
+  <text x="255" y="22" text-anchor="middle" fill="#9c27b0" font-size="11">钝角</text>
+  <text x="330" y="22" text-anchor="middle" fill="#7b1fa2" font-size="11">平角</text>
+  <text x="450" y="22" text-anchor="middle" fill="#7b1fa2" font-size="11">周角</text>
+  <!-- Colored segments -->
+  <rect x="30" y="32" width="150" height="6" fill="#ce93d8" rx="2"/>
+  <rect x="180" y="32" width="150" height="6" fill="#9c27b0" rx="2"/>
+</svg>
 
 ## 3. 钟表角速度
 

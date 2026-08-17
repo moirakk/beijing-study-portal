@@ -28,6 +28,53 @@ date: 2026-08-07
 
 **激素分泌异常病例**：幼年生长激素不足——侏儒症；幼年过多——巨人症；成年过多——肢端肥大症。幼年甲状腺激素不足——呆小症；成年分泌过多——甲亢；缺碘——地方性甲状腺肿（大脖子病）。
 
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arrH" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+    <marker id="arrHr" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#c62828"/>
+    </marker>
+  </defs>
+  <text x="350" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">甲状腺激素分级调节与负反馈示意图</text>
+  <!-- 下丘脑 -->
+  <rect x="270" y="28" width="160" height="44" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">下丘脑</text>
+  <text x="350" y="64" text-anchor="middle" font-size="10" fill="#388e3c">分泌促甲状腺激素释放激素（TRH）</text>
+  <!-- 垂体 -->
+  <line x1="350" y1="72" x2="350" y2="100" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arrH)"/>
+  <rect x="270" y="100" width="160" height="44" rx="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="120" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">垂体</text>
+  <text x="350" y="136" text-anchor="middle" font-size="10" fill="#388e3c">分泌促甲状腺激素（TSH）</text>
+  <!-- 甲状腺 -->
+  <line x1="350" y1="144" x2="350" y2="172" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arrH)"/>
+  <rect x="270" y="172" width="160" height="44" rx="10" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="192" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">甲状腺</text>
+  <text x="350" y="208" text-anchor="middle" font-size="10" fill="#1b5e20">分泌甲状腺激素</text>
+  <!-- 靶器官 -->
+  <line x1="350" y1="216" x2="350" y2="240" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arrH)"/>
+  <rect x="270" y="240" width="160" height="14" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
+  <text x="350" y="251" text-anchor="middle" font-size="10" fill="#388e3c">靶器官/靶细胞（促进代谢、发育）</text>
+  <!-- 负反馈箭头 -->
+  <path d="M430,194 Q520,194 520,120 Q520,50 430,50" fill="none" stroke="#c62828" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrHr)"/>
+  <text x="535" y="125" text-anchor="middle" font-size="10" fill="#c62828" font-weight="bold">负反馈</text>
+  <text x="535" y="140" text-anchor="middle" font-size="9" fill="#c62828">（抑制）</text>
+  <!-- 左侧说明 -->
+  <rect x="10" y="28" width="240" height="220" rx="10" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="130" y="50" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">主要内分泌腺速查</text>
+  <text x="20" y="72" font-size="10" fill="#388e3c">下丘脑：TRH、抗利尿激素</text>
+  <text x="20" y="90" font-size="10" fill="#388e3c">垂体：生长激素、TSH等</text>
+  <text x="20" y="108" font-size="10" fill="#388e3c">甲状腺：甲状腺激素</text>
+  <text x="20" y="126" font-size="10" fill="#388e3c">胰岛B细胞：胰岛素（降血糖）</text>
+  <text x="20" y="144" font-size="10" fill="#388e3c">胰岛A细胞：胰高血糖素（升血糖）</text>
+  <text x="20" y="162" font-size="10" fill="#388e3c">肾上腺：肾上腺素（应急）</text>
+  <text x="20" y="180" font-size="10" fill="#388e3c">性腺：雄/雌激素</text>
+  <text x="130" y="205" text-anchor="middle" font-size="11" fill="#c62828" font-weight="bold">激素特点</text>
+  <text x="20" y="220" font-size="10" fill="#555">微量高效 · 体液运输 · 作用靶细胞</text>
+  <text x="20" y="236" font-size="10" fill="#555">信使分子 · 不催化 · 不供能</text>
+</svg>
+
 **激素研究方法**：切除法（摘除腺体观察症状）、移植法/注射法（补充激素观察恢复）、饲喂法（仅适用于甲状腺激素等口服有效的激素；蛋白质类激素如胰岛素、生长激素**不能饲喂**，会被消化分解）。
 
 ## 典型例题

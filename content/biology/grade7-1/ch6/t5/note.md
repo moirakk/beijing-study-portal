@@ -25,6 +25,56 @@ date: 2026-08-05
 
 ### 1. 常见发酵食品及其原理
 
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="200" fill="#f1f8e9" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">常见发酵食品与微生物对应关系</text>
+  <!-- 表头 -->
+  <rect x="10" y="40" width="130" height="30" rx="4" fill="#388e3c"/>
+  <text x="75" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">发酵食品</text>
+  <rect x="145" y="40" width="150" height="30" rx="4" fill="#388e3c"/>
+  <text x="220" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">参与微生物</text>
+  <rect x="300" y="40" width="140" height="30" rx="4" fill="#388e3c"/>
+  <text x="370" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">发酵原理</text>
+  <rect x="445" y="40" width="145" height="30" rx="4" fill="#388e3c"/>
+  <text x="517" y="60" text-anchor="middle" fill="white" font-size="11" font-weight="bold">条件</text>
+  <!-- 行1：米酒 -->
+  <rect x="10" y="72" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="75" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">米酒（甜酒）</text>
+  <rect x="145" y="72" width="150" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="220" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">酵母菌</text>
+  <rect x="300" y="72" width="140" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="370" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">糖→酒精+CO₂</text>
+  <rect x="445" y="72" width="145" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="517" y="90" text-anchor="middle" fill="#1b5e20" font-size="10">无氧·适温</text>
+  <!-- 行2：酸奶 -->
+  <rect x="10" y="102" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="75" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">酸奶</text>
+  <rect x="145" y="102" width="150" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="220" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">乳酸菌</text>
+  <rect x="300" y="102" width="140" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="370" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">乳糖→乳酸</text>
+  <rect x="445" y="102" width="145" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="517" y="120" text-anchor="middle" fill="#1b5e20" font-size="10">无氧·适温</text>
+  <!-- 行3：馒头面包 -->
+  <rect x="10" y="132" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="75" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">馒头/面包</text>
+  <rect x="145" y="132" width="150" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="220" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">酵母菌</text>
+  <rect x="300" y="132" width="140" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="370" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">糖→CO₂（使面团膨胀）</text>
+  <rect x="445" y="132" width="145" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="517" y="150" text-anchor="middle" fill="#1b5e20" font-size="10">有氧·适温</text>
+  <!-- 行4：泡菜 -->
+  <rect x="10" y="162" width="130" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="75" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">泡菜</text>
+  <rect x="145" y="162" width="150" height="28" rx="2" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="220" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">乳酸菌</text>
+  <rect x="300" y="162" width="140" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="370" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">糖→乳酸（酸味）</text>
+  <rect x="445" y="162" width="145" height="28" rx="2" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="517" y="180" text-anchor="middle" fill="#1b5e20" font-size="10">无氧·密封</text>
+</svg>
+
 | 食品 | 主要微生物 | 发酵原理 |
 |---|---|---|
 | 馒头、面包 | 酵母菌 | 分解葡萄糖产生二氧化碳，使面团膨胀 |

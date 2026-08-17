@@ -45,6 +45,29 @@ D. 两点之间，直线最短
 
 已知线段 $AB = 12$ cm，点 $C$ 是 $AB$ 的中点，点 $D$ 是 $CB$ 的中点。求线段 $AD$ 的长。
 
+<svg viewBox="0 0 480 80" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="80" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="16" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">线段中点示意图</text>
+  <!-- Main segment A to B -->
+  <line x1="40" y1="45" x2="440" y2="45" stroke="#424242" stroke-width="2.5"/>
+  <!-- Points -->
+  <circle cx="40" cy="45" r="5" fill="#7b1fa2"/>
+  <circle cx="240" cy="45" r="5" fill="#9c27b0"/>
+  <circle cx="340" cy="45" r="5" fill="#ce93d8"/>
+  <circle cx="440" cy="45" r="5" fill="#7b1fa2"/>
+  <!-- Labels -->
+  <text x="40" y="65" text-anchor="middle" fill="#4a148c" font-size="13" font-weight="bold">A</text>
+  <text x="240" y="65" text-anchor="middle" fill="#9c27b0" font-size="13" font-weight="bold">C</text>
+  <text x="340" y="65" text-anchor="middle" fill="#ce93d8" font-size="13" font-weight="bold">D</text>
+  <text x="440" y="65" text-anchor="middle" fill="#4a148c" font-size="13" font-weight="bold">B</text>
+  <!-- Measurements -->
+  <text x="140" y="35" text-anchor="middle" fill="#7b1fa2" font-size="11">AC=6cm</text>
+  <text x="290" y="35" text-anchor="middle" fill="#9c27b0" font-size="11">CD=3cm</text>
+  <text x="390" y="35" text-anchor="middle" fill="#ce93d8" font-size="11">DB=3cm</text>
+  <!-- AD brace -->
+  <text x="190" y="78" text-anchor="middle" fill="#4a148c" font-size="11">AD = AC + CD = 6 + 3 = 9 cm</text>
+</svg>
+
 ### 解析
 
 $C$ 是 $AB$ 中点：

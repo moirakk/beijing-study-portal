@@ -43,6 +43,19 @@ date: 2026-08-05
 
 ### 4. 动物体的结构层次
 
+```mermaid
+flowchart LR
+    A["细胞\n（基本单位）"] -->|"细胞分化"| B["组织\n上皮/肌肉/神经/结缔"]
+    B -->|"不同组织\n按次序结合"| C["器官\n心脏/胃/肺/肾"]
+    C -->|"多个器官\n协同工作"| D["系统\n消化/循环/神经等"]
+    D -->|"八大系统\n协调统一"| E["动物体"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style D fill:#66bb6a,stroke:#2e7d32,color:#fff
+    style E fill:#388e3c,stroke:#1b5e20,color:#fff
+```
+
 **细胞 → 组织 → 器官 → 系统 → 动物体**
 
 人体八大系统：运动系统、消化系统、呼吸系统、循环系统、泌尿系统、神经系统、内分泌系统、生殖系统。

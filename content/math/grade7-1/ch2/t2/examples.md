@@ -27,6 +27,21 @@ $$
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 130" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="110" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">多因数乘积符号规律</text>
+  <!-- 示例1：3个负因数 -->
+  <rect x="40" y="42" width="420" height="28" fill="#e1bee7" rx="4"/>
+  <text x="250" y="61" text-anchor="middle" font-size="13" fill="#212121">(-2)×(-3)×(-5)：负因数3个（奇数）→ 积为负 = -30</text>
+  <!-- 示例2：2个负因数 -->
+  <rect x="40" y="74" width="420" height="28" fill="#ce93d8" rx="4" opacity="0.6"/>
+  <text x="250" y="93" text-anchor="middle" font-size="13" fill="#212121">(-2)×(-3)×4：负因数2个（偶数）→ 积为正 = +24</text>
+  <!-- 规律 -->
+  <text x="250" y="118" text-anchor="middle" font-size="12" fill="#7b1fa2">口诀：负因数个数为偶数→正，为奇数→负</text>
+</svg>
+
 ## 例题 2（中档 · 分配律简算）
 
 ### 题目

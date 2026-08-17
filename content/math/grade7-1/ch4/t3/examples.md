@@ -74,6 +74,19 @@ $$
 
 一个长方形的长为 $(3a + 2b)$，宽为 $(2a - b)$（$2a > b$）。用整式表示它的周长，并求当 $a = 3$，$b = 2$ 时的周长。
 
+<svg viewBox="0 0 400 160" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="160" rx="10" fill="#f3e5f5"/>
+  <!-- Rectangle -->
+  <rect x="60" y="40" width="280" height="80" rx="4" fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- Labels -->
+  <text x="200" y="30" text-anchor="middle" fill="#7b1fa2" font-size="14" font-weight="bold">长 = 3a + 2b</text>
+  <text x="200" y="138" text-anchor="middle" fill="#7b1fa2" font-size="14" font-weight="bold">长 = 3a + 2b</text>
+  <text x="30" y="85" text-anchor="middle" fill="#9c27b0" font-size="13" transform="rotate(-90,30,85)">宽 = 2a − b</text>
+  <text x="375" y="85" text-anchor="middle" fill="#9c27b0" font-size="13" transform="rotate(90,375,85)">宽 = 2a − b</text>
+  <!-- Formula -->
+  <text x="200" y="158" text-anchor="middle" fill="#4a148c" font-size="12">周长 = 2×[(3a+2b)+(2a−b)] = 2(5a+b) = 10a+2b</text>
+</svg>
+
 ### 解析
 
 周长 $= 2(\text{长} + \text{宽})$：

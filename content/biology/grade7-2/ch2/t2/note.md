@@ -30,6 +30,37 @@ $$二氧化碳 + 水 \xrightarrow{光能（叶绿体）} 有机物(淀粉) + 氧
 - **条件：** 光能
 - **场所：** 叶绿体
 
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="620" height="200" fill="#f1f8e9" rx="10"/>
+  <text x="310" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">光合作用过程示意图</text>
+  <!-- 叶绿体 -->
+  <ellipse cx="310" cy="115" rx="90" ry="60" fill="#a5d6a7" stroke="#388e3c" stroke-width="3"/>
+  <text x="310" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b5e20">叶绿体</text>
+  <text x="310" y="126" text-anchor="middle" font-size="11" fill="#2e7d32">（光合作用场所）</text>
+  <!-- 光能箭头 -->
+  <line x1="310" y1="55" x2="310" y2="40" stroke="#f9a825" stroke-width="2" marker-end="url(#sun)"/>
+  <text x="310" y="36" text-anchor="middle" font-size="11" fill="#f57f17">光能</text>
+  <!-- 原料输入 -->
+  <text x="80" y="90" text-anchor="middle" font-size="12" fill="#1565c0">CO₂</text>
+  <text x="80" y="108" text-anchor="middle" font-size="12" fill="#1565c0">（气孔进入）</text>
+  <line x1="130" y1="100" x2="218" y2="108" stroke="#1565c0" stroke-width="1.5" marker-end="url(#blu)"/>
+  <text x="80" y="140" text-anchor="middle" font-size="12" fill="#0277bd">H₂O</text>
+  <text x="80" y="158" text-anchor="middle" font-size="12" fill="#0277bd">（根吸收）</text>
+  <line x1="130" y1="148" x2="218" y2="128" stroke="#0277bd" stroke-width="1.5" marker-end="url(#blu)"/>
+  <!-- 产物输出 -->
+  <text x="530" y="90" text-anchor="middle" font-size="12" fill="#388e3c">有机物</text>
+  <text x="530" y="108" text-anchor="middle" font-size="12" fill="#388e3c">（淀粉）</text>
+  <line x1="400" y1="108" x2="480" y2="100" stroke="#388e3c" stroke-width="1.5" marker-end="url(#grn)"/>
+  <text x="530" y="140" text-anchor="middle" font-size="12" fill="#43a047">O₂</text>
+  <text x="530" y="158" text-anchor="middle" font-size="12" fill="#43a047">（气孔散出）</text>
+  <line x1="400" y1="122" x2="480" y2="140" stroke="#43a047" stroke-width="1.5" marker-end="url(#grn)"/>
+  <defs>
+    <marker id="sun" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#f9a825"/></marker>
+    <marker id="blu" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#1565c0"/></marker>
+    <marker id="grn" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/></marker>
+  </defs>
+</svg>
+
 ### 实验：检验光合作用产生淀粉
 
 1. **暗处理**：将植物放在黑暗处一昼夜（消耗原有淀粉）
@@ -47,6 +78,20 @@ $$二氧化碳 + 水 \xrightarrow{光能（叶绿体）} 有机物(淀粉) + 氧
 | 原料 | CO₂和水 | 有机物和O₂ |
 | 产物 | 有机物和O₂ | CO₂和水 |
 | 能量 | 储存能量 | 释放能量 |
+
+```mermaid
+graph LR
+    A["光合作用<br/>叶绿体·需光"] -->|"储存能量"| B["有机物 + O₂"]
+    C["CO₂ + H₂O"] --> A
+    B -->|"原料"| D["呼吸作用<br/>线粒体·全天"]
+    D -->|"释放能量"| E["CO₂ + H₂O"]
+    E -->|"原料"| A
+    style A fill:#388e3c,color:#fff
+    style D fill:#66bb6a,color:#fff
+    style B fill:#c8e6c9
+    style C fill:#c8e6c9
+    style E fill:#c8e6c9
+```
 
 > **背记要点：**
 > - 光合作用场所叶绿体，条件光，原料CO₂+水，产物有机物+O₂

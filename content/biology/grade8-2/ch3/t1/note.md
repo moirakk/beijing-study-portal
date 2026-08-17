@@ -29,6 +29,37 @@ date: 2026-08-06
 由环境条件引起的变异一般不能遗传，如晒黑的皮肤、营养不同导致植株高矮差异。
 判断关键是遗传物质是否发生改变。
 
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr7" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="310" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">变异的分类与判断</text>
+  <!-- 变异 -->
+  <rect x="240" y="28" width="140" height="40" rx="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="310" y="53" text-anchor="middle" font-size="13" fill="#1b5e20" font-weight="bold">变异</text>
+  <!-- 分支 -->
+  <line x1="240" y1="48" x2="160" y2="90" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr7)"/>
+  <line x1="380" y1="48" x2="460" y2="90" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr7)"/>
+  <!-- 可遗传变异 -->
+  <rect x="60" y="90" width="200" height="55" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="160" y="112" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">可遗传变异</text>
+  <text x="160" y="130" text-anchor="middle" font-size="10" fill="#388e3c">遗传物质改变</text>
+  <text x="160" y="145" text-anchor="middle" font-size="10" fill="#555">例：太空椒、染色体异常</text>
+  <!-- 不可遗传变异 -->
+  <rect x="360" y="90" width="200" height="55" rx="10" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="460" y="112" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">不可遗传变异</text>
+  <text x="460" y="130" text-anchor="middle" font-size="10" fill="#388e3c">环境改变，遗传物质未变</text>
+  <text x="460" y="145" text-anchor="middle" font-size="10" fill="#555">例：晒黑皮肤、营养差异</text>
+  <!-- 判断关键 -->
+  <rect x="180" y="160" width="260" height="32" rx="8" fill="#f1f8e9" stroke="#388e3c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="310" y="181" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">判断关键：遗传物质是否改变</text>
+  <!-- 育种价值标注 -->
+  <text x="160" y="170" text-anchor="middle" font-size="10" fill="#c62828">育种价值大</text>
+  <text x="460" y="170" text-anchor="middle" font-size="10" fill="#888">育种价值小</text>
+</svg>
+
 人类利用有利变异进行选育。
 杂交育种、诱变育种和选择育种都离不开变异。
 例如高产抗倒伏水稻品种的培育，就是利用变异并进行人工选择的结果。

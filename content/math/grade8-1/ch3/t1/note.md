@@ -11,6 +11,28 @@ date: 2026-08-06
 
 如果把一个图形沿着某一条直线折叠后，能够与另一个图形重合，那么就说这两个图形关于这条直线成轴对称，这条直线叫做对称轴，折叠后重合的点是对应点，叫做对称点。
 
+<svg width="380" height="190" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 380 190">
+  <!-- 对称轴 l -->
+  <line x1="190" y1="10" x2="190" y2="180" stroke="#424242" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="194" y="18" font-size="13" fill="#424242" font-style="italic">l</text>
+  <!-- 三角形 ABC（左） -->
+  <polygon points="50,160 130,160 90,30" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="86" y="22" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="36" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="132" y="172" font-size="13" fill="#7b1fa2" font-weight="bold">C</text>
+  <!-- 三角形 A'B'C'（右，对称） -->
+  <polygon points="330,160 250,160 290,30" fill="#e1bee7" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="290" y="22" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">A'</text>
+  <text x="334" y="172" font-size="13" fill="#9c27b0" font-weight="bold">B'</text>
+  <text x="240" y="172" font-size="13" fill="#9c27b0" font-weight="bold">C'</text>
+  <!-- 对应点连线（垂直于对称轴） -->
+  <line x1="90" y1="30" x2="290" y2="30" stroke="#424242" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="50" y1="160" x2="330" y2="160" stroke="#424242" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="130" y1="160" x2="250" y2="160" stroke="#424242" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- 箭头说明 -->
+  <text x="190" y="185" font-size="12" fill="#424242" text-anchor="middle">△ABC 与 △A'B'C' 关于直线 l 成轴对称</text>
+</svg>
+
 ## 轴对称的性质
 
 1. 关于某条直线对称的两个图形全等。

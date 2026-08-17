@@ -18,6 +18,40 @@ date: 2026-08-05
 
 > ⚠️ **易错点**：异号相加时，先比较**绝对值**大小定符号，再做减法。很多同学直接把两数相加导致符号错误。
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t2-1n" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+    <marker id="arr-t2-1p" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#9c27b0"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="65" x2="470" y2="65" stroke="#424242" stroke-width="2" marker-end="url(#arr-t2-1n)"/>
+  <!-- 刻度 -->
+  <line x1="90" y1="58" x2="90" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="84" text-anchor="middle" font-size="12" fill="#7b1fa2">-3</text>
+  <line x1="170" y1="58" x2="170" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="84" text-anchor="middle" font-size="12" fill="#7b1fa2">-2</text>
+  <line x1="250" y1="58" x2="250" y2="72" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="84" text-anchor="middle" font-size="13" fill="#424242" font-weight="bold">0</text>
+  <line x1="330" y1="58" x2="330" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="84" text-anchor="middle" font-size="12" fill="#7b1fa2">2</text>
+  <line x1="410" y1="58" x2="410" y2="72" stroke="#424242" stroke-width="1.5"/>
+  <text x="410" y="84" text-anchor="middle" font-size="12" fill="#7b1fa2">5</text>
+  <!-- 演示 (-3) + 5 = 2 -->
+  <circle cx="90" cy="65" r="6" fill="#7b1fa2"/>
+  <text x="90" y="48" text-anchor="middle" font-size="11" fill="#7b1fa2">-3</text>
+  <!-- 向右移动5 -->
+  <path d="M96,57 L324,57" stroke="#9c27b0" stroke-width="2" marker-end="url(#arr-t2-1p)"/>
+  <text x="210" y="48" text-anchor="middle" font-size="12" fill="#9c27b0">+5（向右移5）</text>
+  <circle cx="330" cy="65" r="6" fill="#9c27b0"/>
+  <text x="330" y="48" text-anchor="middle" font-size="11" fill="#9c27b0">结果=2</text>
+  <text x="250" y="108" text-anchor="middle" font-size="13" fill="#7b1fa2" font-weight="bold">(-3) + 5 = 2（异号相加，取绝对值大的符号）</text>
+</svg>
+
 ## 二、加法运算律
 
 - **交换律**：$a + b = b + a$

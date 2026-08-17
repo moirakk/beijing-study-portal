@@ -35,6 +35,47 @@ date: 2026-08-05
 
 > 底层吃得多，顶层吃得少
 
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="500" height="320" fill="#f1f8e9" rx="10"/>
+  <text x="250" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">中国居民平衡膳食宝塔</text>
+  <!-- 第五层（顶）油盐 -->
+  <polygon points="210,45 290,45 270,75 230,75" fill="#ef9a9a" stroke="#c62828" stroke-width="1.5"/>
+  <text x="250" y="64" text-anchor="middle" font-size="10" fill="#b71c1c">油盐（少）</text>
+  <!-- 第四层 奶豆 -->
+  <polygon points="225,78 275,78 260,108 240,108" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="250" y="97" text-anchor="middle" font-size="10" fill="#e65100">奶豆类</text>
+  <!-- 第三层 肉蛋鱼 -->
+  <polygon points="235,111 265,111 248,141 252,141" fill="#ffe0b2" stroke="#ef6c00" stroke-width="1.5"/>
+  <text x="250" y="130" text-anchor="middle" font-size="10" fill="#bf360c">肉蛋鱼</text>
+  <!-- 第二层 蔬菜水果 -->
+  <polygon points="200,144 300,144 285,174 215,174" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="250" y="163" text-anchor="middle" font-size="11" fill="#1b5e20">蔬菜水果</text>
+  <!-- 第一层（底）谷薯 -->
+  <polygon points="170,177 330,177 320,207 180,207" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="250" y="196" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">谷薯类（最多）</text>
+  <!-- 标注 -->
+  <text x="340" y="64" font-size="10" fill="#c62828">油25-30g 盐&lt;6g</text>
+  <text x="340" y="97" font-size="10" fill="#e65100">奶300g 豆25g</text>
+  <text x="340" y="130" font-size="10" fill="#bf360c">120-200g</text>
+  <text x="340" y="163" font-size="10" fill="#1b5e20">蔬300-500g 果200-350g</text>
+  <text x="340" y="196" font-size="10" fill="#1b5e20">250-400g</text>
+  <!-- 连接线 -->
+  <line x1="290" y1="64" x2="338" y2="64" stroke="#999" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="275" y1="97" x2="338" y2="97" stroke="#999" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="265" y1="130" x2="338" y2="130" stroke="#999" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="300" y1="163" x2="338" y2="163" stroke="#999" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="320" y1="196" x2="338" y2="196" stroke="#999" stroke-width="1" stroke-dasharray="3"/>
+  <!-- 三餐比例 -->
+  <rect x="30" y="230" width="440" height="70" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="250" y="252" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">三餐热量比例：早餐30% · 午餐40% · 晚餐30%</text>
+  <rect x="50" y="262" width="120" height="22" rx="4" fill="#81c784"/>
+  <text x="110" y="277" text-anchor="middle" font-size="11" fill="#fff">早餐 30%</text>
+  <rect x="190" y="262" width="120" height="22" rx="4" fill="#388e3c"/>
+  <text x="250" y="277" text-anchor="middle" font-size="11" fill="#fff">午餐 40%</text>
+  <rect x="330" y="262" width="120" height="22" rx="4" fill="#81c784"/>
+  <text x="390" y="277" text-anchor="middle" font-size="11" fill="#fff">晚餐 30%</text>
+</svg>
+
 ### 食品安全常识
 
 | 方面 | 注意事项 |

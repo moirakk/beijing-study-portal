@@ -20,6 +20,36 @@ $$a^2 + b^2 = c^2$$
 | 两直角边 $a$、$b$ | $c = \sqrt{a^2 + b^2}$ |
 | 斜边 $c$ 和一直角边 $a$ | $b = \sqrt{c^2 - a^2}$ |
 
+<svg width="420" height="220" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 220">
+  <!-- 直角三角形 -->
+  <polygon points="60,180 60,40 220,180" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 直角标记 -->
+  <rect x="60" y="164" width="16" height="16" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <!-- 顶点标注 -->
+  <text x="44" y="196" font-size="14" fill="#7b1fa2" font-weight="bold">C</text>
+  <text x="44" y="34" font-size="14" fill="#7b1fa2" font-weight="bold">A</text>
+  <text x="222" y="196" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <!-- 边标注 -->
+  <text x="30" y="115" font-size="15" fill="#9c27b0" font-weight="bold" font-style="italic">a</text>
+  <text x="135" y="198" font-size="15" fill="#9c27b0" font-weight="bold" font-style="italic">b</text>
+  <text x="148" y="100" font-size="15" fill="#7b1fa2" font-weight="bold" font-style="italic">c</text>
+  <!-- a² 正方形（左侧） -->
+  <rect x="20" y="40" width="40" height="140" fill="#9c27b0" opacity="0.25" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="40" y="115" font-size="13" fill="#9c27b0" font-weight="bold" text-anchor="middle">a²</text>
+  <!-- b² 正方形（下方） -->
+  <rect x="60" y="180" width="160" height="35" fill="#7b1fa2" opacity="0.2" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="140" y="202" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">b²</text>
+  <!-- c² 正方形（斜边，简化为文字） -->
+  <text x="310" y="80" font-size="15" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a² + b² = c²</text>
+  <rect x="260" y="60" width="140" height="40" rx="6" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="330" y="86" font-size="15" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a² + b² = c²</text>
+  <!-- 勾股数示例 -->
+  <text x="310" y="130" font-size="13" fill="#424242" text-anchor="middle">常见勾股数：</text>
+  <text x="310" y="150" font-size="13" fill="#9c27b0" text-anchor="middle">3,4,5</text>
+  <text x="310" y="168" font-size="13" fill="#9c27b0" text-anchor="middle">5,12,13</text>
+  <text x="310" y="186" font-size="13" fill="#9c27b0" text-anchor="middle">8,15,17</text>
+</svg>
+
 ## 二、定理的证明思想
 
 教材采用**赵爽弦图**：用 4 个全等的直角三角形拼成大正方形，中间空出小正方形，由面积关系

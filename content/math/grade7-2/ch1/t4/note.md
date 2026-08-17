@@ -17,6 +17,31 @@ $$a \parallel b$$
 
 > 💡 同一平面内两条直线的位置关系只有两种：**相交**或**平行**。（重合视为同一条直线）
 
+<svg viewBox="0 0 320 200" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 平行线a -->
+  <line x1="30" y1="70" x2="290" y2="70" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 平行线b -->
+  <line x1="30" y1="140" x2="290" y2="140" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 平行箭头标记（a上） -->
+  <polygon points="155,62 165,70 155,78" fill="#9c27b0"/>
+  <polygon points="170,62 180,70 170,78" fill="#9c27b0"/>
+  <!-- 平行箭头标记（b上） -->
+  <polygon points="155,132 165,140 155,148" fill="#9c27b0"/>
+  <polygon points="170,132 180,140 170,148" fill="#9c27b0"/>
+  <!-- 直线名称 -->
+  <text x="295" y="74" font-size="14" fill="#7b1fa2" font-family="serif">a</text>
+  <text x="295" y="144" font-size="14" fill="#7b1fa2" font-family="serif">b</text>
+  <!-- 平行符号标注 -->
+  <text x="120" y="112" font-size="16" fill="#9c27b0" font-family="serif">a ∥ b</text>
+  <!-- 两端无交点说明 -->
+  <text x="30" y="170" font-size="12" fill="#555">同一平面内，a与b无公共点（不相交）→ a ∥ b</text>
+  <!-- 平行公理：过外点P只有一条平行线 -->
+  <circle cx="80" cy="35" r="4" fill="#e91e63"/>
+  <text x="88" y="33" font-size="13" fill="#e91e63" font-family="serif">P</text>
+  <line x1="30" y1="35" x2="290" y2="35" stroke="#e91e63" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="30" y="20" font-size="11" fill="#e91e63">过P有且只有一条直线与a平行（平行公理）</text>
+</svg>
+
 ## 二、平行公理及其推论
 
 **平行公理（基本事实）**：过直线外一点，**有且只有一条**直线与这条直线平行。

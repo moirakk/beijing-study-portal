@@ -25,6 +25,41 @@ date: 2026-08-06
 在斗争中，具有有利变异的个体更容易生存下来并繁殖后代。
 不利变异的个体则容易被淘汰。
 
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr10" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="320" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">达尔文自然选择学说——进化机制</text>
+  <rect x="10" y="30" width="130" height="55" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="75" y="52" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">过度繁殖</text>
+  <text x="75" y="70" text-anchor="middle" font-size="10" fill="#388e3c">后代数量多</text>
+  <text x="75" y="83" text-anchor="middle" font-size="10" fill="#555">超过环境承受力</text>
+  <rect x="10" y="130" width="130" height="55" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="75" y="152" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">遗传变异</text>
+  <text x="75" y="170" text-anchor="middle" font-size="10" fill="#388e3c">个体存在差异</text>
+  <text x="75" y="183" text-anchor="middle" font-size="10" fill="#555">变异是基础</text>
+  <line x1="140" y1="57" x2="200" y2="90" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr10)"/>
+  <line x1="140" y1="157" x2="200" y2="110" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr10)"/>
+  <rect x="200" y="75" width="130" height="55" rx="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="265" y="97" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">生存斗争</text>
+  <text x="265" y="115" text-anchor="middle" font-size="10" fill="#388e3c">食物/空间竞争</text>
+  <text x="265" y="128" text-anchor="middle" font-size="10" fill="#555">形成选择压力</text>
+  <line x1="330" y1="102" x2="390" y2="102" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr10)"/>
+  <rect x="390" y="75" width="130" height="55" rx="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="455" y="97" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">自然选择</text>
+  <text x="455" y="115" text-anchor="middle" font-size="10" fill="#388e3c">有利变异保留</text>
+  <text x="455" y="128" text-anchor="middle" font-size="10" fill="#555">不利变异淘汰</text>
+  <line x1="520" y1="102" x2="580" y2="102" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr10)"/>
+  <rect x="580" y="75" width="50" height="55" rx="10" fill="#388e3c" stroke="#1b5e20" stroke-width="2"/>
+  <text x="605" y="97" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">适者</text>
+  <text x="605" y="113" text-anchor="middle" font-size="11" fill="#fff">生存</text>
+  <text x="605" y="128" text-anchor="middle" font-size="9" fill="#e8f5e9">进化</text>
+  <rect x="10" y="195" width="620" height="20" rx="6" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="320" y="210" text-anchor="middle" font-size="11" fill="#388e3c">案例：长颈鹿颈变长——变异先存在，环境选择有利变异（非主动适应）</text>
+</svg>
+
 经过长期自然选择，有利变异逐渐积累，生物种群就会发生变化，形成新的适应特征。
 这就是生物进化的主要原因。
 长颈鹿颈和前肢逐渐变长、抗药性细菌出现等，都是常见教材案例。

@@ -15,6 +15,51 @@ date: 2026-08-05
 | **扇形图** | 清楚地看出各部分占总体的**百分比** | 反映部分与总体的关系 |
 | **折线图** | 清楚地反映数据的**变化趋势** | 随时间变化的数据 |
 
+<svg viewBox="0 0 360 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="100" y="18" font-size="13" fill="#7b1fa2" font-weight="bold">三种统计图对比示意</text>
+  <!-- 条形图（左） -->
+  <text x="20" y="38" font-size="11" fill="#7b1fa2" font-weight="bold">条形图</text>
+  <rect x="20" y="60" width="18" height="60" fill="#7b1fa2" rx="2"/>
+  <rect x="42" y="80" width="18" height="40" fill="#9c27b0" rx="2"/>
+  <rect x="64" y="50" width="18" height="70" fill="#7b1fa2" rx="2"/>
+  <rect x="86" y="70" width="18" height="50" fill="#9c27b0" rx="2"/>
+  <line x1="15" y1="120" x2="110" y2="120" stroke="#555" stroke-width="1"/>
+  <text x="22" y="132" font-size="9" fill="#555">A</text>
+  <text x="44" y="132" font-size="9" fill="#555">B</text>
+  <text x="66" y="132" font-size="9" fill="#555">C</text>
+  <text x="88" y="132" font-size="9" fill="#555">D</text>
+  <text x="20" y="148" font-size="10" fill="#555">比较各类别数量</text>
+  <!-- 扇形图（中） -->
+  <text x="140" y="38" font-size="11" fill="#7b1fa2" font-weight="bold">扇形图</text>
+  <circle cx="175" cy="88" r="40" fill="#e1bee7" stroke="#9c27b0" stroke-width="1"/>
+  <!-- 扇形1：40% = 144° -->
+  <path d="M175,88 L215,88 A40,40 0 0,0 175,48 Z" fill="#7b1fa2"/>
+  <!-- 扇形2：30% = 108° -->
+  <path d="M175,88 L175,48 A40,40 0 0,0 135,88 Z" fill="#9c27b0"/>
+  <!-- 扇形3：30% = 108° -->
+  <path d="M175,88 L135,88 A40,40 0 0,0 215,88 Z" fill="#e1bee7"/>
+  <text x="185" y="75" font-size="9" fill="white">40%</text>
+  <text x="148" y="75" font-size="9" fill="white">30%</text>
+  <text x="162" y="110" font-size="9" fill="#555">30%</text>
+  <text x="140" y="148" font-size="10" fill="#555">反映各部分比例</text>
+  <!-- 折线图（右） -->
+  <text x="260" y="38" font-size="11" fill="#7b1fa2" font-weight="bold">折线图</text>
+  <line x1="255" y1="120" x2="345" y2="120" stroke="#555" stroke-width="1"/>
+  <line x1="255" y1="120" x2="255" y2="50" stroke="#555" stroke-width="1"/>
+  <!-- 折线 -->
+  <polyline points="265,110 285,90 305,100 325,65 345,75" fill="none" stroke="#7b1fa2" stroke-width="2"/>
+  <circle cx="265" cy="110" r="3" fill="#7b1fa2"/>
+  <circle cx="285" cy="90" r="3" fill="#7b1fa2"/>
+  <circle cx="305" cy="100" r="3" fill="#7b1fa2"/>
+  <circle cx="325" cy="65" r="3" fill="#7b1fa2"/>
+  <circle cx="345" cy="75" r="3" fill="#7b1fa2"/>
+  <text x="258" y="148" font-size="10" fill="#555">反映变化趋势</text>
+  <!-- 底部说明 -->
+  <text x="20" y="175" font-size="11" fill="#555">选图原则：比较数量→条形图；看比例→扇形图；看趋势→折线图</text>
+  <text x="20" y="192" font-size="11" fill="#555">同一数据可用多种图表示，但各有侧重</text>
+</svg>
+
 ## 二、扇形图要点
 
 扇形图用圆代表**总体**（$100\%$），每个扇形代表一个部分。

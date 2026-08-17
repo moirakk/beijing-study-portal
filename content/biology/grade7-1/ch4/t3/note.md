@@ -34,6 +34,21 @@ date: 2026-08-05
 
 ### 2. 各类群的进化趋势
 
+```mermaid
+flowchart LR
+    A["藻类\n无根茎叶\n水生"] -->|"进化"| B["苔藓植物\n有茎叶/假根\n无输导组织"]
+    B -->|"进化"| C["蕨类植物\n有根茎叶\n有输导组织"]
+    C -->|"进化"| D["裸子植物\n种子裸露\n无果皮"]
+    D -->|"进化"| E["被子植物\n种子有果皮\n最高等"]
+    style A fill:#e3f2fd,stroke:#1565c0,color:#1565c0
+    style B fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style C fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style D fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style E fill:#388e3c,stroke:#1b5e20,color:#fff
+```
+
+> 进化趋势：从简单→复杂，从水生→陆生，从低等→高等
+
 - 从简单到复杂：藻类 → 苔藓植物 → 蕨类植物 → 种子植物。
 - 从水生到陆生：藻类多水生，苔藓、蕨类、种子植物逐渐适应陆地生活。
 - 从低等到高等：生殖过程越来越摆脱对水的依赖，尤其是种子植物。

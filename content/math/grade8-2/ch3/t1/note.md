@@ -13,6 +13,30 @@ date: 2026-08-06
 
 定义本身既是性质又是判定。
 
+<svg width="400" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 400 200">
+  <!-- 平行四边形 ABCD -->
+  <polygon points="80,160 160,40 320,40 240,160" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 顶点标注 -->
+  <text x="62" y="174" font-size="14" fill="#7b1fa2" font-weight="bold">A</text>
+  <text x="154" y="32" font-size="14" fill="#7b1fa2" font-weight="bold">B</text>
+  <text x="322" y="32" font-size="14" fill="#7b1fa2" font-weight="bold">C</text>
+  <text x="242" y="174" font-size="14" fill="#7b1fa2" font-weight="bold">D</text>
+  <!-- 对角线 AC, BD -->
+  <line x1="80" y1="160" x2="320" y2="40" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="160" y1="40" x2="240" y2="160" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <!-- 对角线交点 O -->
+  <circle cx="200" cy="100" r="4" fill="#7b1fa2"/>
+  <text x="206" y="96" font-size="13" fill="#7b1fa2" font-weight="bold">O</text>
+  <!-- 等号标记（对边相等） -->
+  <line x1="112" y1="96" x2="122" y2="90" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="108" y1="102" x2="118" y2="96" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="278" y1="90" x2="288" y2="96" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="282" y1="96" x2="292" y2="102" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 性质标注 -->
+  <text x="200" y="185" font-size="12" fill="#424242" text-anchor="middle">AB∥DC，AD∥BC（对边平行）</text>
+  <text x="200" y="198" font-size="12" fill="#9c27b0" text-anchor="middle">AB=DC，AD=BC（对边相等）；OA=OC，OB=OD（对角线互相平分）</text>
+</svg>
+
 ## 二、平行四边形的性质
 
 | 角度 | 性质 |

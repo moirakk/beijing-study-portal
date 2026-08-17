@@ -19,6 +19,38 @@ $$x = \sqrt{a}$$
 
 > 💡 $\sqrt{a}$ 有意义的条件：$a \geq 0$；且 $\sqrt{a} \geq 0$（**双重非负性**）。
 
+<svg viewBox="0 0 360 200" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="100" y="22" font-size="14" fill="#7b1fa2" font-weight="bold">平方根与算术平方根对比</text>
+  <!-- 表格框架 -->
+  <rect x="20" y="35" width="320" height="150" fill="#f3e5f5" rx="6" stroke="#9c27b0" stroke-width="1.5"/>
+  <!-- 表头 -->
+  <rect x="20" y="35" width="320" height="30" fill="#7b1fa2" rx="6"/>
+  <text x="80" y="55" font-size="12" fill="white" font-weight="bold">数 a</text>
+  <text x="170" y="55" font-size="12" fill="white" font-weight="bold">平方根（±）</text>
+  <text x="270" y="55" font-size="12" fill="white" font-weight="bold">算术平方根</text>
+  <!-- 分隔线 -->
+  <line x1="140" y1="35" x2="140" y2="185" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="240" y1="35" x2="240" y2="185" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="95" x2="340" y2="95" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="130" x2="340" y2="130" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="20" y1="160" x2="340" y2="160" stroke="#9c27b0" stroke-width="1"/>
+  <!-- 行1：正数 -->
+  <text x="55" y="82" font-size="13" fill="#333" font-family="serif">a &gt; 0</text>
+  <text x="155" y="82" font-size="13" fill="#9c27b0" font-family="serif">±√a（两个）</text>
+  <text x="258" y="82" font-size="13" fill="#7b1fa2" font-family="serif">√a（一个）</text>
+  <!-- 行2：零 -->
+  <text x="60" y="118" font-size="13" fill="#333" font-family="serif">a = 0</text>
+  <text x="175" y="118" font-size="13" fill="#9c27b0" font-family="serif">0</text>
+  <text x="278" y="118" font-size="13" fill="#7b1fa2" font-family="serif">0</text>
+  <!-- 行3：负数 -->
+  <text x="55" y="148" font-size="13" fill="#333" font-family="serif">a &lt; 0</text>
+  <text x="155" y="148" font-size="13" fill="#e91e63" font-family="serif">不存在</text>
+  <text x="258" y="148" font-size="13" fill="#e91e63" font-family="serif">不存在</text>
+  <!-- 公式提示 -->
+  <text x="30" y="182" font-size="11" fill="#555">关键：√a² = |a|（非负）；(√a)² = a（a≥0）</text>
+</svg>
+
 ## 二、平方根
 
 如果 $x^2 = a$，那么 $x$ 叫做 $a$ 的**平方根**（二次方根），记作 $x = \pm\sqrt{a}$。

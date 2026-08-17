@@ -23,6 +23,31 @@ date: 2026-08-05
 4. **合并同类项**；
 5. **系数化为 1**——⚠️ 若两边**除以负数，不等号变向**。
 
+<svg viewBox="0 0 360 160" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="20" font-size="13" fill="#7b1fa2" font-weight="bold">例：解 3x-1 &gt; 2x+3，在数轴上表示解集</text>
+  <!-- 解题过程 -->
+  <text x="20" y="45" font-size="12" fill="#333">3x-1 &gt; 2x+3</text>
+  <text x="20" y="62" font-size="12" fill="#333">→ 移项：3x-2x &gt; 3+1</text>
+  <text x="20" y="79" font-size="12" fill="#333">→ 合并：x &gt; 4</text>
+  <!-- 数轴 -->
+  <line x1="30" y1="120" x2="330" y2="120" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="325,115 335,120 325,125" fill="#7b1fa2"/>
+  <!-- 刻度 -->
+  <line x1="100" y1="115" x2="100" y2="125" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="95" y="138" font-size="12" fill="#333">2</text>
+  <line x1="160" y1="115" x2="160" y2="125" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="155" y="138" font-size="12" fill="#333">3</text>
+  <line x1="220" y1="115" x2="220" y2="125" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="215" y="138" font-size="12" fill="#333">4</text>
+  <line x1="280" y1="115" x2="280" y2="125" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="275" y="138" font-size="12" fill="#333">5</text>
+  <!-- 解集 x>4：空心圆+右侧粗线 -->
+  <circle cx="220" cy="120" r="6" fill="white" stroke="#e91e63" stroke-width="2.5"/>
+  <line x1="223" y1="120" x2="330" y2="120" stroke="#e91e63" stroke-width="4"/>
+  <text x="220" y="108" font-size="12" fill="#e91e63">x&gt;4</text>
+  <text x="20" y="155" font-size="11" fill="#555">空心圆表示不含端点4（严格大于）</text>
+</svg>
+
 最后可把解集表示在数轴上。
 
 ## 三、例题解析

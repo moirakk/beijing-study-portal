@@ -18,6 +18,50 @@ date: 2026-08-05
 
 血液 = **血浆**（液体部分，约55%）+ **血细胞**（固体部分，约45%）
 
+<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="240" fill="#f1f8e9" rx="10"/>
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">血液成分示意图</text>
+  <!-- 血液整体 -->
+  <rect x="30" y="45" width="120" height="170" rx="8" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="90" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#b71c1c">血液</text>
+  <!-- 血浆部分（上55%） -->
+  <rect x="35" y="72" width="110" height="90" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="90" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#e65100">血浆 55%</text>
+  <text x="90" y="116" text-anchor="middle" font-size="9" fill="#795548">水90%</text>
+  <text x="90" y="130" text-anchor="middle" font-size="9" fill="#795548">蛋白质·葡萄糖</text>
+  <text x="90" y="144" text-anchor="middle" font-size="9" fill="#795548">无机盐·废物</text>
+  <!-- 血细胞部分（下45%） -->
+  <rect x="35" y="168" width="110" height="42" rx="4" fill="#ef9a9a" stroke="#c62828" stroke-width="1.5"/>
+  <text x="90" y="193" text-anchor="middle" font-size="11" font-weight="bold" fill="#b71c1c">血细胞 45%</text>
+  <!-- 三种血细胞对比 -->
+  <!-- 红细胞 -->
+  <rect x="180" y="45" width="120" height="170" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="240" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">红细胞</text>
+  <ellipse cx="240" cy="110" rx="30" ry="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1.5"/>
+  <ellipse cx="240" cy="110" rx="15" ry="8" fill="#ffcdd2" stroke="#c62828" stroke-width="1"/>
+  <text x="240" y="148" text-anchor="middle" font-size="9" fill="#c62828">双面凹圆饼状</text>
+  <text x="240" y="162" text-anchor="middle" font-size="9" fill="#c62828">无核·最多</text>
+  <text x="240" y="176" text-anchor="middle" font-size="9" fill="#c62828">含血红蛋白</text>
+  <text x="240" y="190" text-anchor="middle" font-size="9" fill="#c62828">运输O₂</text>
+  <!-- 白细胞 -->
+  <rect x="320" y="45" width="120" height="170" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="380" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">白细胞</text>
+  <circle cx="380" cy="110" r="28" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <circle cx="380" cy="110" r="12" fill="#66bb6a" stroke="#388e3c" stroke-width="1"/>
+  <text x="380" y="148" text-anchor="middle" font-size="9" fill="#1b5e20">有核·体积最大</text>
+  <text x="380" y="162" text-anchor="middle" font-size="9" fill="#1b5e20">数量最少</text>
+  <text x="380" y="176" text-anchor="middle" font-size="9" fill="#1b5e20">吞噬病菌</text>
+  <text x="380" y="190" text-anchor="middle" font-size="9" fill="#1b5e20">防御保护</text>
+  <!-- 血小板 -->
+  <rect x="460" y="45" width="120" height="170" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="520" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#e65100">血小板</text>
+  <polygon points="520,90 535,115 520,130 505,115" fill="#ffcc80" stroke="#ef6c00" stroke-width="1.5"/>
+  <text x="520" y="148" text-anchor="middle" font-size="9" fill="#e65100">不规则形</text>
+  <text x="520" y="162" text-anchor="middle" font-size="9" fill="#e65100">无核·最小</text>
+  <text x="520" y="176" text-anchor="middle" font-size="9" fill="#e65100">10-30万/mm³</text>
+  <text x="520" y="190" text-anchor="middle" font-size="9" fill="#e65100">止血凝血</text>
+</svg>
+
 ### 血浆
 
 | 成分 | 含量/说明 |

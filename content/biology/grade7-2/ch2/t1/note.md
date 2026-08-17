@@ -39,6 +39,52 @@ date: 2026-08-05
 | 吸水膨胀 | 弯曲变形 | 张开 |
 | 失水收缩 | 恢复原状 | 关闭 |
 
+<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="220" fill="#f1f8e9" rx="10"/>
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">水分运输路径与蒸腾作用示意图</text>
+  <!-- 土壤 -->
+  <rect x="20" y="170" width="120" height="40" rx="4" fill="#8d6e63" opacity="0.5"/>
+  <text x="80" y="195" text-anchor="middle" font-size="11" fill="#3e2723">土壤水分</text>
+  <!-- 根毛 -->
+  <rect x="80" y="130" width="40" height="40" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="100" y="155" text-anchor="middle" font-size="10" fill="#1b5e20">根毛</text>
+  <!-- 导管（茎） -->
+  <rect x="90" y="80" width="20" height="50" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="130" y="108" font-size="10" fill="#1b5e20">导管</text>
+  <text x="130" y="120" font-size="10" fill="#1b5e20">（茎）</text>
+  <!-- 叶片 -->
+  <ellipse cx="200" cy="75" rx="80" ry="35" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="200" y="79" text-anchor="middle" font-size="11" fill="#1b5e20">叶片（气孔蒸腾）</text>
+  <!-- 水蒸气散出 -->
+  <text x="310" y="55" font-size="20" fill="#81c784">~</text>
+  <text x="330" y="45" font-size="20" fill="#81c784">~</text>
+  <text x="350" y="55" font-size="20" fill="#81c784">~</text>
+  <text x="310" y="40" font-size="11" fill="#388e3c">水蒸气散失</text>
+  <!-- 箭头 -->
+  <line x1="100" y1="170" x2="100" y2="130" stroke="#388e3c" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="100" y1="130" x2="100" y2="80" stroke="#388e3c" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="110" y1="80" x2="160" y2="75" stroke="#388e3c" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="270" y1="65" x2="305" y2="55" stroke="#388e3c" stroke-width="1.5" stroke-dasharray="4" marker-end="url(#a1)"/>
+  <!-- 气孔放大图 -->
+  <rect x="390" y="50" width="180" height="140" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="480" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">气孔放大图</text>
+  <!-- 气孔张开 -->
+  <ellipse cx="440" cy="120" rx="18" ry="10" fill="#fff" stroke="#388e3c" stroke-width="1.5"/>
+  <ellipse cx="440" cy="108" rx="10" ry="8" fill="#66bb6a" stroke="#388e3c" stroke-width="1"/>
+  <ellipse cx="440" cy="132" rx="10" ry="8" fill="#66bb6a" stroke="#388e3c" stroke-width="1"/>
+  <text x="440" y="155" text-anchor="middle" font-size="10" fill="#388e3c">张开（吸水）</text>
+  <!-- 气孔关闭 -->
+  <ellipse cx="520" cy="120" rx="4" ry="10" fill="#fff" stroke="#388e3c" stroke-width="1.5"/>
+  <ellipse cx="520" cy="110" rx="10" ry="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1"/>
+  <ellipse cx="520" cy="130" rx="10" ry="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1"/>
+  <text x="520" y="155" text-anchor="middle" font-size="10" fill="#388e3c">关闭（失水）</text>
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+</svg>
+
 **蒸腾作用的意义：**
 1. 产生**拉力**，促进水分和无机盐的运输
 2. **降低叶片温度**，防止灼伤

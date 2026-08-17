@@ -25,6 +25,40 @@ date: 2026-08-05
 
 > 花的主要结构是**雄蕊和雌蕊**（与繁殖直接相关）
 
+<svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="280" fill="#f1f8e9" rx="10"/>
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">花的结构示意图</text>
+  <!-- 花托/花柄 -->
+  <rect x="270" y="240" width="60" height="30" rx="4" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="300" y="260" text-anchor="middle" font-size="11" fill="#1b5e20">花托/花柄</text>
+  <!-- 花萼 -->
+  <ellipse cx="300" cy="210" rx="55" ry="20" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="300" y="214" text-anchor="middle" font-size="11" fill="#1b5e20">花萼（保护花蕾）</text>
+  <!-- 花瓣 -->
+  <ellipse cx="300" cy="175" rx="65" ry="28" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="300" y="179" text-anchor="middle" font-size="11" fill="#2e7d32">花瓣（吸引昆虫）</text>
+  <!-- 雄蕊（花丝+花药） -->
+  <line x1="260" y1="170" x2="255" y2="120" stroke="#388e3c" stroke-width="2"/>
+  <ellipse cx="255" cy="112" rx="12" ry="8" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="220" y="116" text-anchor="end" font-size="11" fill="#1b5e20">花药</text>
+  <text x="220" y="150" text-anchor="end" font-size="11" fill="#1b5e20">花丝</text>
+  <text x="220" y="165" text-anchor="end" font-size="11" font-weight="bold" fill="#388e3c">雄蕊</text>
+  <line x1="340" y1="170" x2="345" y2="120" stroke="#388e3c" stroke-width="2"/>
+  <ellipse cx="345" cy="112" rx="12" ry="8" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 雌蕊（柱头+花柱+子房） -->
+  <ellipse cx="300" cy="105" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="2"/>
+  <text x="300" y="109" text-anchor="middle" font-size="10" fill="#fff">柱头</text>
+  <rect x="294" y="113" width="12" height="30" fill="#66bb6a" stroke="#388e3c" stroke-width="1"/>
+  <text x="330" y="128" font-size="10" fill="#1b5e20">花柱</text>
+  <ellipse cx="300" cy="158" rx="22" ry="14" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="300" y="162" text-anchor="middle" font-size="10" fill="#1b5e20">子房</text>
+  <text x="370" y="108" font-size="11" font-weight="bold" fill="#388e3c">雌蕊</text>
+  <line x1="360" y1="110" x2="315" y2="110" stroke="#388e3c" stroke-width="1" stroke-dasharray="3"/>
+  <!-- 胚珠 -->
+  <circle cx="300" cy="158" r="5" fill="#388e3c"/>
+  <text x="370" y="162" font-size="10" fill="#1b5e20">←胚珠（含卵细胞）</text>
+</svg>
+
 ### 传粉方式
 
 | 类型 | 特点 | 举例 |
@@ -49,6 +83,38 @@ date: 2026-08-05
 | 子房壁 | 果皮 |
 | 胚珠 | 种子 |
 | 受精卵 | 胚 |
+
+<svg viewBox="0 0 580 160" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="160" fill="#f1f8e9" rx="10"/>
+  <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">传粉→受精→果实和种子形成过程</text>
+  <!-- 步骤1 -->
+  <rect x="20" y="45" width="90" height="90" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="65" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">①传粉</text>
+  <text x="65" y="96" text-anchor="middle" font-size="10" fill="#2e7d32">花粉落到</text>
+  <text x="65" y="110" text-anchor="middle" font-size="10" fill="#2e7d32">柱头上</text>
+  <!-- 箭头 -->
+  <text x="120" y="95" font-size="18" fill="#388e3c">→</text>
+  <!-- 步骤2 -->
+  <rect x="140" y="45" width="90" height="90" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="185" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">②萌发</text>
+  <text x="185" y="96" text-anchor="middle" font-size="10" fill="#2e7d32">花粉管</text>
+  <text x="185" y="110" text-anchor="middle" font-size="10" fill="#2e7d32">穿过花柱</text>
+  <!-- 箭头 -->
+  <text x="240" y="95" font-size="18" fill="#388e3c">→</text>
+  <!-- 步骤3 -->
+  <rect x="260" y="45" width="90" height="90" rx="8" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+  <text x="305" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">③受精</text>
+  <text x="305" y="96" text-anchor="middle" font-size="10" fill="#1b5e20">精子+卵细胞</text>
+  <text x="305" y="110" text-anchor="middle" font-size="10" fill="#1b5e20">→受精卵</text>
+  <!-- 箭头 -->
+  <text x="360" y="95" font-size="18" fill="#388e3c">→</text>
+  <!-- 步骤4 -->
+  <rect x="380" y="45" width="180" height="90" rx="8" fill="#66bb6a" stroke="#388e3c" stroke-width="2"/>
+  <text x="470" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">④发育</text>
+  <text x="470" y="90" text-anchor="middle" font-size="10" fill="#e8f5e9">子房→果实</text>
+  <text x="470" y="106" text-anchor="middle" font-size="10" fill="#e8f5e9">胚珠→种子</text>
+  <text x="470" y="122" text-anchor="middle" font-size="10" fill="#e8f5e9">受精卵→胚</text>
+</svg>
 
 > **背记要点：**
 > - 花最重要的结构：雄蕊和雌蕊

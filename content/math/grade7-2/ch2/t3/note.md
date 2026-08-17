@@ -19,6 +19,49 @@ date: 2026-08-05
 
 $$\text{实数} \begin{cases} \text{有理数（有限小数或无限循环小数）} \\ \text{无理数（无限不循环小数）} \end{cases}$$
 
+<svg viewBox="0 0 380 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 实数数轴 -->
+  <line x1="20" y1="110" x2="360" y2="110" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 箭头 -->
+  <polygon points="355,105 365,110 355,115" fill="#7b1fa2"/>
+  <!-- 刻度 -->
+  <line x1="80" y1="105" x2="80" y2="115" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="140" y1="105" x2="140" y2="115" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="190" y1="105" x2="190" y2="115" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="240" y1="105" x2="240" y2="115" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="300" y1="105" x2="300" y2="115" stroke="#7b1fa2" stroke-width="1.5"/>
+  <!-- 刻度标注 -->
+  <text x="74" y="128" font-size="12" fill="#333" font-family="serif">-2</text>
+  <text x="134" y="128" font-size="12" fill="#333" font-family="serif">-1</text>
+  <text x="187" y="128" font-size="12" fill="#333" font-family="serif">0</text>
+  <text x="237" y="128" font-size="12" fill="#333" font-family="serif">1</text>
+  <text x="297" y="128" font-size="12" fill="#333" font-family="serif">2</text>
+  <!-- 有理数点（实心圆，紫色） -->
+  <circle cx="80" cy="110" r="5" fill="#7b1fa2"/>
+  <circle cx="140" cy="110" r="5" fill="#7b1fa2"/>
+  <circle cx="190" cy="110" r="5" fill="#7b1fa2"/>
+  <circle cx="240" cy="110" r="5" fill="#7b1fa2"/>
+  <circle cx="300" cy="110" r="5" fill="#7b1fa2"/>
+  <!-- √2点（无理数，红色） -->
+  <circle cx="255" cy="110" r="5" fill="#e91e63"/>
+  <text x="248" y="95" font-size="12" fill="#e91e63" font-family="serif">√2</text>
+  <line x1="255" y1="97" x2="255" y2="105" stroke="#e91e63" stroke-width="1"/>
+  <!-- π点（无理数，橙色） -->
+  <circle cx="284" cy="110" r="5" fill="#ff9800"/>
+  <text x="278" y="95" font-size="12" fill="#ff9800" font-family="serif">π</text>
+  <line x1="284" y1="97" x2="284" y2="105" stroke="#ff9800" stroke-width="1"/>
+  <!-- -√3点 -->
+  <circle cx="138" cy="110" r="5" fill="#e91e63"/>
+  <text x="118" y="95" font-size="12" fill="#e91e63" font-family="serif">-√3</text>
+  <line x1="138" y1="97" x2="138" y2="105" stroke="#e91e63" stroke-width="1"/>
+  <!-- 图例 -->
+  <circle cx="30" cy="165" r="6" fill="#7b1fa2"/>
+  <text x="42" y="169" font-size="12" fill="#555">有理数（整数、分数、有限/循环小数）</text>
+  <circle cx="30" cy="185" r="6" fill="#e91e63"/>
+  <text x="42" y="189" font-size="12" fill="#555">无理数（√2、π、无限不循环小数）</text>
+  <text x="20" y="210" font-size="11" fill="#7b1fa2">实数与数轴上的点一一对应（每个点都是实数）</text>
+</svg>
+
 ## 二、实数与数轴
 
 **实数与数轴上的点一一对应**：每个实数都对应数轴上一个点，数轴上每个点都表示一个实数。

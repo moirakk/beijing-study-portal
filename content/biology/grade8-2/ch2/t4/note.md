@@ -30,6 +30,54 @@ date: 2026-08-06
 因此生男生女机会均等，概率理论上各为50%。
 决定后代性别的关键在于哪种精子与卵细胞结合。
 
+<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr6" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <text x="300" y="16" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">人的性别遗传图解</text>
+  <!-- 母方 -->
+  <rect x="20" y="30" width="120" height="55" rx="10" fill="#f8bbd0" stroke="#c2185b" stroke-width="1.5"/>
+  <text x="80" y="52" text-anchor="middle" font-size="12" fill="#880e4f" font-weight="bold">母方（女性）</text>
+  <text x="80" y="70" text-anchor="middle" font-size="13" fill="#880e4f">44+XX</text>
+  <!-- 父方 -->
+  <rect x="200" y="30" width="120" height="55" rx="10" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="260" y="52" text-anchor="middle" font-size="12" fill="#0d47a1" font-weight="bold">父方（男性）</text>
+  <text x="260" y="70" text-anchor="middle" font-size="13" fill="#0d47a1">44+XY</text>
+  <!-- 配子箭头 -->
+  <line x1="80" y1="85" x2="80" y2="115" stroke="#c2185b" stroke-width="1.5" marker-end="url(#arr6)"/>
+  <line x1="260" y1="85" x2="260" y2="115" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arr6)"/>
+  <!-- 卵细胞 -->
+  <rect x="20" y="115" width="120" height="38" rx="8" fill="#fce4ec" stroke="#c2185b" stroke-width="1.5"/>
+  <text x="80" y="130" text-anchor="middle" font-size="11" fill="#880e4f">卵细胞</text>
+  <text x="80" y="146" text-anchor="middle" font-size="12" fill="#880e4f" font-weight="bold">只含 X</text>
+  <!-- 精子 -->
+  <rect x="180" y="115" width="100" height="38" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="230" y="130" text-anchor="middle" font-size="11" fill="#0d47a1">含X精子</text>
+  <text x="230" y="146" text-anchor="middle" font-size="11" fill="#0d47a1">50%</text>
+  <rect x="290" y="115" width="100" height="38" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="340" y="130" text-anchor="middle" font-size="11" fill="#0d47a1">含Y精子</text>
+  <text x="340" y="146" text-anchor="middle" font-size="11" fill="#0d47a1">50%</text>
+  <!-- 受精结果 -->
+  <line x1="80" y1="153" x2="140" y2="185" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr6)"/>
+  <line x1="230" y1="153" x2="170" y2="185" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr6)"/>
+  <rect x="100" y="185" width="120" height="45" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="160" y="204" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">受精卵 XX</text>
+  <text x="160" y="222" text-anchor="middle" font-size="12" fill="#388e3c">→ 女孩 50%</text>
+  <line x1="80" y1="153" x2="340" y2="185" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr6)" stroke-dasharray="4,2"/>
+  <line x1="340" y1="153" x2="400" y2="185" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr6)"/>
+  <rect x="340" y="185" width="120" height="45" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="204" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">受精卵 XY</text>
+  <text x="400" y="222" text-anchor="middle" font-size="12" fill="#388e3c">→ 男孩 50%</text>
+  <!-- 关键结论 -->
+  <rect x="470" y="30" width="120" height="80" rx="8" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="530" y="52" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">关键结论</text>
+  <text x="530" y="70" text-anchor="middle" font-size="10" fill="#388e3c">性别由父方</text>
+  <text x="530" y="85" text-anchor="middle" font-size="10" fill="#388e3c">精子类型决定</text>
+  <text x="530" y="100" text-anchor="middle" font-size="10" fill="#388e3c">各50%概率</text>
+</svg>
+
 社会上把生男生女归因于母亲是错误的。
 因为卵细胞只提供X染色体，父亲提供X或Y染色体，后代性别由父方精子类型决定。
 

@@ -20,6 +20,23 @@
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="100" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">(-a)ⁿ 与 -aⁿ 的区别（最高频易错）</text>
+  <!-- 左列 -->
+  <rect x="40" y="42" width="195" height="55" fill="#7b1fa2" rx="6"/>
+  <text x="137" y="62" text-anchor="middle" font-size="13" fill="white" font-weight="bold">(-2)²</text>
+  <text x="137" y="80" text-anchor="middle" font-size="12" fill="white">底数是 -2</text>
+  <text x="137" y="96" text-anchor="middle" font-size="13" fill="white">= (-2)×(-2) = 4</text>
+  <!-- 右列 -->
+  <rect x="265" y="42" width="195" height="55" fill="#9c27b0" rx="6"/>
+  <text x="362" y="62" text-anchor="middle" font-size="13" fill="white" font-weight="bold">-2²</text>
+  <text x="362" y="80" text-anchor="middle" font-size="12" fill="white">底数是 2，先算 2²</text>
+  <text x="362" y="96" text-anchor="middle" font-size="13" fill="white">= -(2×2) = -4</text>
+</svg>
+
 ## 例题 2（基础 · 辨析题）
 
 ### 题目

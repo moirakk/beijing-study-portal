@@ -21,6 +21,39 @@ $$y=ax^2+bx+c \quad (a,b,c\text{ 为常数},\ a\neq 0)$$
 - $a<0$：开口向下，顶点 $(0,0)$ 是最高点；
 - $|a|$ 越大，开口越小（抛物线越"瘦"）。
 
+<svg viewBox="0 0 500 300" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标轴 -->
+  <line x1="50" y1="150" x2="450" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="250" y1="20" x2="250" y2="280" stroke="#555" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="3" refY="6" orient="auto">
+      <path d="M0,8 L6,8 L3,0 z" fill="#555"/>
+    </marker>
+  </defs>
+  <text x="455" y="154" font-size="13" fill="#555">x</text>
+  <text x="253" y="16" font-size="13" fill="#555">y</text>
+  <text x="248" y="163" font-size="12" fill="#555">O</text>
+  <!-- a>0 抛物线 y=0.04(x-250)² 开口向上，顶点(250,150) -->
+  <polyline points="100,294 130,258 160,228 190,204 220,186 250,174 280,186 310,204 340,228 370,258 400,294"
+    fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- a<0 抛物线 y=150-0.04(x-250)² 开口向下，顶点(250,150) -->
+  <polyline points="100,6 130,42 160,72 190,96 220,114 250,126 280,114 310,96 340,72 370,42 400,6"
+    fill="none" stroke="#e91e63" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <!-- 顶点标注 -->
+  <circle cx="250" cy="174" r="4" fill="#7b1fa2"/>
+  <text x="258" y="178" font-size="12" fill="#7b1fa2">顶点(0,0)</text>
+  <circle cx="250" cy="126" r="4" fill="#e91e63"/>
+  <!-- 标签 -->
+  <rect x="310" y="200" width="130" height="22" rx="4" fill="#f3e5f5"/>
+  <text x="375" y="215" text-anchor="middle" font-size="12" fill="#7b1fa2">a&gt;0，开口向上（实线）</text>
+  <rect x="310" y="228" width="130" height="22" rx="4" fill="#fce4ec"/>
+  <text x="375" y="243" text-anchor="middle" font-size="12" fill="#e91e63">a&lt;0，开口向下（虚线）</text>
+  <text x="250" y="295" text-anchor="middle" font-size="13" font-weight="bold" fill="#7b1fa2">y = ax²（对称轴为 y 轴，顶点为原点）</text>
+</svg>
+
 ### 顶点式 $y=a(x-h)^2+k$
 
 - 顶点坐标：$(h,k)$；

@@ -25,6 +25,49 @@ date: 2026-08-06
 受精卵发育成胚，胚珠发育成种子，子房发育成果实。
 有性生殖的后代具有双亲遗传特性，适应环境变化的能力较强。
 
+<svg viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <!-- 有性生殖流程 -->
+  <rect x="10" y="20" width="90" height="36" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="55" y="43" text-anchor="middle" font-size="13" fill="#1b5e20">花粉→柱头</text>
+  <line x1="100" y1="38" x2="130" y2="38" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <rect x="130" y="20" width="90" height="36" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="175" y="43" text-anchor="middle" font-size="13" fill="#1b5e20">花粉管萌发</text>
+  <line x1="220" y1="38" x2="250" y2="38" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <rect x="250" y="20" width="90" height="36" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="295" y="43" text-anchor="middle" font-size="13" fill="#1b5e20">受精卵形成</text>
+  <line x1="340" y1="38" x2="370" y2="38" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <rect x="370" y="20" width="80" height="36" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="410" y="43" text-anchor="middle" font-size="13" fill="#1b5e20">种子/果实</text>
+  <line x1="450" y1="38" x2="480" y2="38" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <rect x="480" y="20" width="80" height="36" rx="8" fill="#81c784" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="520" y="43" text-anchor="middle" font-size="13" fill="#1b5e20">新植株</text>
+  <text x="340" y="10" text-anchor="middle" font-size="12" fill="#388e3c" font-weight="bold">有性生殖流程</text>
+  <!-- 无性生殖方式 -->
+  <text x="10" y="100" font-size="12" fill="#388e3c" font-weight="bold">无性生殖常见方式</text>
+  <rect x="10" y="110" width="70" height="32" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="45" y="131" text-anchor="middle" font-size="12" fill="#2e7d32">扦插</text>
+  <text x="45" y="155" text-anchor="middle" font-size="10" fill="#555">月季</text>
+  <rect x="100" y="110" width="70" height="32" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="135" y="131" text-anchor="middle" font-size="12" fill="#2e7d32">嫁接</text>
+  <text x="135" y="155" text-anchor="middle" font-size="10" fill="#555">苹果/桃</text>
+  <rect x="190" y="110" width="70" height="32" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="225" y="131" text-anchor="middle" font-size="12" fill="#2e7d32">压条</text>
+  <text x="225" y="155" text-anchor="middle" font-size="10" fill="#555">葡萄</text>
+  <rect x="280" y="110" width="80" height="32" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="320" y="131" text-anchor="middle" font-size="12" fill="#2e7d32">组织培养</text>
+  <text x="320" y="155" text-anchor="middle" font-size="10" fill="#555">快速繁殖</text>
+  <!-- 嫁接关键提示 -->
+  <rect x="400" y="105" width="260" height="60" rx="8" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="530" y="125" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">嫁接成功关键</text>
+  <text x="530" y="143" text-anchor="middle" font-size="11" fill="#388e3c">接穗与砧木形成层</text>
+  <text x="530" y="158" text-anchor="middle" font-size="11" fill="#388e3c">必须紧密对齐</text>
+</svg>
+
 无性生殖不需要受精过程。
 常见方式有扦插、嫁接、压条和组织培养。
 甘薯可用块根繁殖，月季常用扦插，苹果和桃树常用嫁接。

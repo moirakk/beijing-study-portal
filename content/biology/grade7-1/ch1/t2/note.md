@@ -24,6 +24,55 @@ date: 2026-08-05
 
 ### 生物的共同特征
 
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <!-- 背景 -->
+  <rect width="700" height="420" fill="#f1f8e9" rx="12"/>
+  <!-- 中心 -->
+  <ellipse cx="350" cy="210" rx="70" ry="40" fill="#388e3c" stroke="#1b5e20" stroke-width="2"/>
+  <text x="350" y="205" text-anchor="middle" fill="white" font-size="14" font-weight="bold">生物的</text>
+  <text x="350" y="222" text-anchor="middle" fill="white" font-size="14" font-weight="bold">共同特征</text>
+  <!-- 特征1：需要营养 -->
+  <rect x="20" y="20" width="130" height="50" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="85" y="42" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">①需要营养</text>
+  <text x="85" y="60" text-anchor="middle" fill="#2e7d32" font-size="10">植物光合/动物捕食</text>
+  <line x1="150" y1="45" x2="280" y2="185" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征2：能呼吸 -->
+  <rect x="20" y="110" width="130" height="50" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="85" y="132" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">②能呼吸</text>
+  <text x="85" y="150" text-anchor="middle" fill="#2e7d32" font-size="10">吸O₂/呼CO₂</text>
+  <line x1="150" y1="135" x2="280" y2="200" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征3：排出废物 -->
+  <rect x="20" y="200" width="130" height="50" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="85" y="222" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">③排出废物</text>
+  <text x="85" y="240" text-anchor="middle" fill="#2e7d32" font-size="10">排尿/出汗/落叶</text>
+  <line x1="150" y1="225" x2="280" y2="215" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征4：应激性 -->
+  <rect x="20" y="290" width="130" height="50" rx="8" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="85" y="312" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">④应激性</text>
+  <text x="85" y="330" text-anchor="middle" fill="#2e7d32" font-size="10">含羞草/飞蛾扑火</text>
+  <line x1="150" y1="315" x2="280" y2="230" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征5：生长繁殖 -->
+  <rect x="550" y="20" width="130" height="50" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="615" y="42" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">⑤生长繁殖</text>
+  <text x="615" y="60" text-anchor="middle" fill="#2e7d32" font-size="10">体积增大/产生后代</text>
+  <line x1="550" y1="45" x2="420" y2="185" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征6：遗传变异 -->
+  <rect x="550" y="110" width="130" height="50" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="615" y="132" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">⑥遗传变异</text>
+  <text x="615" y="150" text-anchor="middle" fill="#2e7d32" font-size="10">种瓜得瓜/一母九子</text>
+  <line x1="550" y1="135" x2="420" y2="200" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 特征7：由细胞构成 -->
+  <rect x="550" y="200" width="130" height="60" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="615" y="222" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">⑦由细胞构成</text>
+  <text x="615" y="240" text-anchor="middle" fill="#2e7d32" font-size="10">病毒除外</text>
+  <text x="615" y="255" text-anchor="middle" fill="#2e7d32" font-size="10">细胞是基本单位</text>
+  <line x1="550" y1="225" x2="420" y2="215" stroke="#388e3c" stroke-width="1.5"/>
+  <!-- 注释 -->
+  <rect x="160" y="360" width="380" height="40" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="350" y="378" text-anchor="middle" fill="#2e7d32" font-size="11">注意：病毒没有细胞结构，但能繁殖，仍属于生物</text>
+  <text x="350" y="394" text-anchor="middle" fill="#388e3c" font-size="11">判断生物需综合多项特征，不能只看单一特征</text>
+</svg>
+
 1. **生物的生活需要营养**
    - 绿色植物通过**光合作用**自己制造有机物。
    - 动物不能自己制造有机物，必须从外界**获取食物**。

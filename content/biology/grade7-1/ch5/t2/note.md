@@ -32,6 +32,44 @@ date: 2026-08-05
 
 ### 2. 鱼适于水中生活的形态结构
 
+<svg viewBox="0 0 580 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="580" height="220" fill="#e3f2fd" rx="12"/>
+  <text x="290" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">鱼适于水中生活的结构特征</text>
+  <!-- 鱼体轮廓（流线型） -->
+  <ellipse cx="250" cy="120" rx="130" ry="60" fill="#a5d6a7" stroke="#388e3c" stroke-width="3"/>
+  <!-- 头部 -->
+  <ellipse cx="130" cy="120" rx="30" ry="40" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+  <!-- 尾鳍 -->
+  <polygon points="380,80 420,60 420,180 380,160" fill="#66bb6a" stroke="#388e3c" stroke-width="2"/>
+  <!-- 背鳍 -->
+  <polygon points="220,60 250,30 280,60" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- 胸鳍 -->
+  <ellipse cx="165" cy="140" rx="20" ry="10" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5" transform="rotate(-20,165,140)"/>
+  <!-- 腹鳍 -->
+  <ellipse cx="240" cy="175" rx="18" ry="8" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- 鳃 -->
+  <path d="M 145 90 Q 155 120 145 150" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <!-- 侧线 -->
+  <path d="M 160 120 Q 250 115 370 120" fill="none" stroke="#1b5e20" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- 鳞片纹理 -->
+  <text x="250" y="125" text-anchor="middle" fill="#2e7d32" font-size="9">鳞片</text>
+  <!-- 标注 -->
+  <text x="50" y="60" fill="#1b5e20" font-size="10" font-weight="bold">流线型身体</text>
+  <text x="50" y="75" fill="#2e7d32" font-size="9">→减少水阻力</text>
+  <line x1="120" y1="80" x2="140" y2="100" stroke="#388e3c" stroke-width="1"/>
+  <text x="50" y="155" fill="#1b5e20" font-size="10" font-weight="bold">鳃</text>
+  <text x="50" y="170" fill="#2e7d32" font-size="9">→水中呼吸</text>
+  <line x1="80" y1="155" x2="140" y2="130" stroke="#388e3c" stroke-width="1"/>
+  <text x="420" y="60" fill="#1b5e20" font-size="10" font-weight="bold">尾鳍</text>
+  <text x="420" y="75" fill="#2e7d32" font-size="9">→推进动力</text>
+  <text x="420" y="100" fill="#1b5e20" font-size="10" font-weight="bold">背鳍</text>
+  <text x="420" y="115" fill="#2e7d32" font-size="9">→保持平衡</text>
+  <text x="420" y="140" fill="#1b5e20" font-size="10" font-weight="bold">侧线（虚线）</text>
+  <text x="420" y="155" fill="#2e7d32" font-size="9">→感知水流方向</text>
+  <text x="420" y="180" fill="#1b5e20" font-size="10" font-weight="bold">鳞片+黏液</text>
+  <text x="420" y="195" fill="#2e7d32" font-size="9">→保护减阻</text>
+</svg>
+
 | 结构 | 适应功能 |
 |---|---|
 | 流线型身体 | 减少水的阻力 |

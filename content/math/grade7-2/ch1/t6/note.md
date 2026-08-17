@@ -23,6 +23,43 @@ $$a \parallel b \Rightarrow \angle 2 = \angle 3 \quad (\text{内错角})$$
 
 $$a \parallel b \Rightarrow \angle 2 + \angle 4 = 180^{\circ} \quad (\text{同旁内角})$$
 
+<svg viewBox="0 0 340 240" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 平行线a -->
+  <line x1="30" y1="80" x2="310" y2="80" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 平行线b -->
+  <line x1="30" y1="180" x2="310" y2="180" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 截线c -->
+  <line x1="90" y1="30" x2="230" y2="230" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 平行箭头 -->
+  <polygon points="155,72 165,80 155,88" fill="#7b1fa2"/>
+  <polygon points="155,172 165,180 155,188" fill="#7b1fa2"/>
+  <!-- 交点E和F -->
+  <circle cx="140" cy="80" r="3" fill="#7b1fa2"/>
+  <circle cx="190" cy="180" r="3" fill="#7b1fa2"/>
+  <text x="128" y="75" font-size="13" fill="#333" font-family="serif">E</text>
+  <text x="178" y="195" font-size="13" fill="#333" font-family="serif">F</text>
+  <!-- 直线名称 -->
+  <text x="315" y="84" font-size="13" fill="#7b1fa2" font-family="serif">a</text>
+  <text x="315" y="184" font-size="13" fill="#7b1fa2" font-family="serif">b</text>
+  <!-- 同位角标注（相等，用相同颜色） -->
+  <path d="M 155 68 A 18 18 0 0 0 148 62" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <path d="M 205 168 A 18 18 0 0 0 198 162" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <text x="158" y="66" font-size="11" fill="#e91e63">∠1</text>
+  <text x="208" y="166" font-size="11" fill="#e91e63">∠5</text>
+  <!-- 内错角标注（相等，用蓝色） -->
+  <path d="M 128 90 A 16 16 0 0 1 122 96" fill="none" stroke="#2196f3" stroke-width="2"/>
+  <path d="M 205 168 A 16 16 0 0 0 199 162" fill="none" stroke="#2196f3" stroke-width="1"/>
+  <text x="100" y="102" font-size="11" fill="#2196f3">∠3</text>
+  <!-- 同旁内角标注（互补，用绿色） -->
+  <path d="M 128 90 A 16 16 0 0 1 122 96" fill="none" stroke="#4caf50" stroke-width="1"/>
+  <path d="M 178 190 A 16 16 0 0 0 172 196" fill="none" stroke="#4caf50" stroke-width="2"/>
+  <text x="160" y="200" font-size="11" fill="#4caf50">∠6</text>
+  <!-- 性质说明 -->
+  <text x="30" y="220" font-size="11" fill="#e91e63">同位角：∠1=∠5</text>
+  <text x="130" y="220" font-size="11" fill="#2196f3">内错角：∠3=∠5</text>
+  <text x="230" y="220" font-size="11" fill="#4caf50">同旁内角：∠3+∠6=180°</text>
+</svg>
+
 > 💡 性质的逻辑方向：**由两直线平行（位置关系）→ 得出角的数量关系**，与 [[判定]] 恰好相反。
 
 ## 二、性质与判定的对比

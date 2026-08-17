@@ -16,6 +16,40 @@ date: 2026-08-05
 - **邻补角**：有一条公共边，另一边互为反向延长线的两个角。如 $\angle 1$ 与 $\angle 2$。
 - **对顶角**：有公共顶点，且两边分别互为反向延长线的两个角。如 $\angle 1$ 与 $\angle 3$。
 
+<svg viewBox="0 0 320 260" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 两条直线相交于O点 -->
+  <!-- 直线AB：从左下到右上 -->
+  <line x1="40" y1="210" x2="280" y2="50" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 直线CD：从左上到右下 -->
+  <line x1="40" y1="50" x2="280" y2="210" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 交点O -->
+  <circle cx="160" cy="130" r="3" fill="#7b1fa2"/>
+  <!-- 角度弧线 ∠1（右上，对顶角∠3在左下） -->
+  <path d="M 185 115 A 30 30 0 0 0 175 105" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <!-- 角度弧线 ∠2（右下，邻补角） -->
+  <path d="M 185 145 A 30 30 0 0 1 175 155" fill="none" stroke="#e91e63" stroke-width="1.5"/>
+  <!-- 角度弧线 ∠3（左下，对顶角∠1） -->
+  <path d="M 135 145 A 30 30 0 0 0 145 155" fill="none" stroke="#9c27b0" stroke-width="1.5"/>
+  <!-- 角度弧线 ∠4（左上，邻补角） -->
+  <path d="M 135 115 A 30 30 0 0 1 145 105" fill="none" stroke="#e91e63" stroke-width="1.5"/>
+  <!-- 标注角度编号 -->
+  <text x="195" y="118" font-size="14" fill="#9c27b0" font-family="serif">∠1</text>
+  <text x="195" y="158" font-size="14" fill="#e91e63" font-family="serif">∠2</text>
+  <text x="112" y="158" font-size="14" fill="#9c27b0" font-family="serif">∠3</text>
+  <text x="112" y="118" font-size="14" fill="#e91e63" font-family="serif">∠4</text>
+  <!-- 端点字母 -->
+  <text x="25" y="218" font-size="14" fill="#333" font-family="serif">A</text>
+  <text x="282" y="48" font-size="14" fill="#333" font-family="serif">B</text>
+  <text x="25" y="48" font-size="14" fill="#333" font-family="serif">C</text>
+  <text x="282" y="218" font-size="14" fill="#333" font-family="serif">D</text>
+  <text x="165" y="125" font-size="13" fill="#333" font-family="serif">O</text>
+  <!-- 图例说明 -->
+  <rect x="30" y="228" width="12" height="12" fill="#9c27b0" rx="2"/>
+  <text x="46" y="239" font-size="12" fill="#555">对顶角：∠1=∠3（相等）</text>
+  <rect x="175" y="228" width="12" height="12" fill="#e91e63" rx="2"/>
+  <text x="191" y="239" font-size="12" fill="#555">邻补角：∠1+∠2=180°</text>
+</svg>
+
 ## 二、性质
 
 **邻补角互补**：

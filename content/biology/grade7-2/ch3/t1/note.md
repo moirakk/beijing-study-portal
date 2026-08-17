@@ -33,6 +33,45 @@ date: 2026-08-05
 4. 胚胎通过**胎盘**和**脐带**从母体获取营养和氧气
 5. 约**40周（280天）** 发育成熟，分娩
 
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="620" height="200" fill="#f1f8e9" rx="10"/>
+  <text x="310" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">人体生殖过程关键场所示意图</text>
+  <!-- 卵巢 -->
+  <ellipse cx="80" cy="110" rx="40" ry="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="80" y="107" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">卵巢</text>
+  <text x="80" y="122" text-anchor="middle" font-size="10" fill="#2e7d32">产生卵细胞</text>
+  <!-- 输卵管 -->
+  <path d="M 120 100 Q 200 60 260 100" stroke="#388e3c" stroke-width="3" fill="none"/>
+  <text x="190" y="72" text-anchor="middle" font-size="11" fill="#1b5e20">输卵管</text>
+  <text x="190" y="85" text-anchor="middle" font-size="10" fill="#388e3c">（受精场所）</text>
+  <!-- 受精卵标记 -->
+  <circle cx="220" cy="88" r="8" fill="#66bb6a" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="220" y="92" text-anchor="middle" font-size="8" fill="#fff">受精卵</text>
+  <!-- 子宫 -->
+  <ellipse cx="380" cy="120" rx="70" ry="55" fill="#a5d6a7" stroke="#388e3c" stroke-width="2.5"/>
+  <text x="380" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">子宫</text>
+  <text x="380" y="128" text-anchor="middle" font-size="10" fill="#2e7d32">胚胎发育场所</text>
+  <text x="380" y="144" text-anchor="middle" font-size="10" fill="#2e7d32">约40周（280天）</text>
+  <!-- 胎盘 -->
+  <ellipse cx="460" cy="90" rx="35" ry="22" fill="#81c784" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="460" y="87" text-anchor="middle" font-size="10" font-weight="bold" fill="#1b5e20">胎盘</text>
+  <text x="460" y="100" text-anchor="middle" font-size="9" fill="#2e7d32">物质交换</text>
+  <!-- 睾丸 -->
+  <ellipse cx="80" cy="165" rx="40" ry="22" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="80" y="162" text-anchor="middle" font-size="11" font-weight="bold" fill="#1b5e20">睾丸</text>
+  <text x="80" y="176" text-anchor="middle" font-size="10" fill="#2e7d32">产生精子</text>
+  <!-- 箭头 -->
+  <line x1="260" y1="95" x2="308" y2="108" stroke="#388e3c" stroke-width="1.5" marker-end="url(#ar3)"/>
+  <defs>
+    <marker id="ar3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/></marker>
+  </defs>
+  <!-- 分娩 -->
+  <rect x="530" y="100" width="70" height="40" rx="6" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="565" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">分娩</text>
+  <text x="565" y="132" text-anchor="middle" font-size="9" fill="#e8f5e9">约40周</text>
+  <line x1="450" y1="120" x2="528" y2="120" stroke="#388e3c" stroke-width="1.5" marker-end="url(#ar3)"/>
+</svg>
+
 ### 胚胎发育过程
 
 | 时期 | 发育特点 |

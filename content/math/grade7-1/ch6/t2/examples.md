@@ -44,6 +44,31 @@
 
 将一个直角边分别为 3 cm 和 4 cm 的直角三角形，绕长为 4 cm 的直角边所在直线旋转一周，得到什么几何体？描述它的底面半径和高。
 
+<svg viewBox="0 0 400 180" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="180" rx="10" fill="#f3e5f5"/>
+  <text x="200" y="18" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">直角三角形绕直角边旋转 → 圆锥</text>
+  <!-- Triangle -->
+  <polygon points="80,40 80,160 200,160" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- Right angle mark -->
+  <rect x="80" y="148" width="12" height="12" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <!-- Labels -->
+  <text x="60" y="105" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">4cm</text>
+  <text x="140" y="175" text-anchor="middle" fill="#9c27b0" font-size="13" font-weight="bold">3cm</text>
+  <!-- Rotation axis -->
+  <line x1="80" y1="20" x2="80" y2="175" stroke="#424242" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="68" y="15" fill="#424242" font-size="11">旋转轴</text>
+  <!-- Arrow -->
+  <text x="220" y="105" fill="#9c27b0" font-size="24">→</text>
+  <!-- Cone -->
+  <ellipse cx="320" cy="160" rx="50" ry="10" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1.5"/>
+  <line x1="270" y1="160" x2="320" y2="40" stroke="#7b1fa2" stroke-width="2"/>
+  <line x1="370" y1="160" x2="320" y2="40" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="320" y="35" text-anchor="middle" fill="#4a148c" font-size="11">顶点</text>
+  <text x="295" y="155" fill="#9c27b0" font-size="11">r=3cm</text>
+  <line x1="320" y1="40" x2="320" y2="160" stroke="#424242" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="330" y="105" fill="#7b1fa2" font-size="11">h=4cm</text>
+</svg>
+
 ### 解析
 
 直角三角形绕**直角边**旋转一周得到**圆锥**：

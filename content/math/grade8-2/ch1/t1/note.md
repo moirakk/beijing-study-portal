@@ -20,6 +20,27 @@ date: 2026-08-06
 
 > ⚠️ **易错点**：$\sqrt{a}$ 中的 $a$ 可以是数，也可以是含字母的代数式，但必须保证 $a \ge 0$ 才有意义。
 
+<svg width="420" height="130" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 420 130">
+  <!-- 标题 -->
+  <text x="210" y="20" font-size="14" fill="#7b1fa2" font-weight="bold" text-anchor="middle">√a 有意义的条件：a ≥ 0</text>
+  <!-- 数轴 -->
+  <line x1="30" y1="70" x2="390" y2="70" stroke="#424242" stroke-width="2"/>
+  <polygon points="390,70 382,66 382,74" fill="#424242"/>
+  <!-- 原点 -->
+  <circle cx="200" cy="70" r="5" fill="#7b1fa2"/>
+  <text x="200" y="90" font-size="13" fill="#424242" text-anchor="middle">0</text>
+  <!-- 负数区域（红色，无意义） -->
+  <line x1="30" y1="70" x2="200" y2="70" stroke="#e53935" stroke-width="5" opacity="0.5"/>
+  <text x="110" y="55" font-size="13" fill="#e53935" font-weight="bold" text-anchor="middle">a &lt; 0：√a 无意义</text>
+  <!-- 非负数区域（紫色，有意义） -->
+  <line x1="200" y1="70" x2="385" y2="70" stroke="#7b1fa2" stroke-width="5" opacity="0.7"/>
+  <text x="295" y="55" font-size="13" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a ≥ 0：√a 有意义</text>
+  <!-- 示例 -->
+  <text x="210" y="110" font-size="12" fill="#424242" text-anchor="middle">例：√(x-3) 有意义 ⟺ x-3 ≥ 0 ⟺ x ≥ 3</text>
+  <!-- 括号标注 -->
+  <text x="200" y="90" font-size="16" fill="#7b1fa2" text-anchor="middle">●</text>
+</svg>
+
 ## 二、二次根式有意义的条件
 
 使 $\sqrt{a}$ 有意义的条件是 **$a \ge 0$**。

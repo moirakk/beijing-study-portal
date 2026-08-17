@@ -2,9 +2,22 @@
 
 ## 1. $n$ 棱柱的元素
 
-$$
-\text{顶点数} = 2n, \qquad \text{棱数} = 3n, \qquad \text{面数} = n + 2
-$$
+<svg viewBox="0 0 480 100" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="100" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="20" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">n 棱柱的元素计数</text>
+  <!-- Three boxes -->
+  <rect x="30" y="32" width="120" height="50" rx="8" fill="#7b1fa2"/>
+  <text x="90" y="54" text-anchor="middle" fill="white" font-size="13" font-weight="bold">顶点数</text>
+  <text x="90" y="72" text-anchor="middle" fill="#e1bee7" font-size="16">2n</text>
+  <rect x="180" y="32" width="120" height="50" rx="8" fill="#9c27b0"/>
+  <text x="240" y="54" text-anchor="middle" fill="white" font-size="13" font-weight="bold">棱数</text>
+  <text x="240" y="72" text-anchor="middle" fill="#e1bee7" font-size="16">3n</text>
+  <rect x="330" y="32" width="120" height="50" rx="8" fill="#7b1fa2"/>
+  <text x="390" y="54" text-anchor="middle" fill="white" font-size="13" font-weight="bold">面数</text>
+  <text x="390" y="72" text-anchor="middle" fill="#e1bee7" font-size="16">n + 2</text>
+  <!-- Euler formula -->
+  <text x="240" y="95" text-anchor="middle" fill="#4a148c" font-size="11">欧拉公式：V − E + F = 2n − 3n + (n+2) = 2 ✓</text>
+</svg>
 
 ## 2. 欧拉公式（了解）
 

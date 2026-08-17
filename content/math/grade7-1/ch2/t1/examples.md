@@ -34,6 +34,39 @@ $$
 
 ---
 
+## 图示
+
+<svg viewBox="0 0 500 110" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <defs>
+    <marker id="arr-t21e" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#424242"/>
+    </marker>
+    <marker id="arr-t21ep" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#9c27b0"/>
+    </marker>
+    <marker id="arr-t21en" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#7b1fa2"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="60" x2="470" y2="60" stroke="#424242" stroke-width="2" marker-end="url(#arr-t21e)"/>
+  <line x1="90" y1="53" x2="90" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="90" y="80" text-anchor="middle" font-size="12" fill="#7b1fa2">-15</text>
+  <line x1="250" y1="53" x2="250" y2="67" stroke="#424242" stroke-width="2"/>
+  <text x="250" y="80" text-anchor="middle" font-size="13" fill="#424242">0</text>
+  <line x1="330" y1="53" x2="330" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="330" y="80" text-anchor="middle" font-size="12" fill="#7b1fa2">9</text>
+  <line x1="170" y1="53" x2="170" y2="67" stroke="#424242" stroke-width="1.5"/>
+  <text x="170" y="80" text-anchor="middle" font-size="12" fill="#7b1fa2">-6</text>
+  <!-- 演示 (-15)+9=-6 -->
+  <circle cx="90" cy="60" r="6" fill="#7b1fa2"/>
+  <text x="90" y="43" text-anchor="middle" font-size="11" fill="#7b1fa2">-15</text>
+  <path d="M96,52 L324,52" stroke="#9c27b0" stroke-width="2" marker-end="url(#arr-t21ep)"/>
+  <text x="210" y="43" text-anchor="middle" font-size="11" fill="#9c27b0">+9（右移9）</text>
+  <circle cx="170" cy="60" r="6" fill="#9c27b0"/>
+  <text x="170" y="43" text-anchor="middle" font-size="11" fill="#9c27b0">结果=-6</text>
+  <text x="250" y="100" text-anchor="middle" font-size="12" fill="#7b1fa2">(-15)+9=-(15-9)=-6（|−15|&gt;|9|，取负号）</text>
+</svg>
+
 ## 例题 2（中档 · 简便运算）
 
 ### 题目

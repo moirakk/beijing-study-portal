@@ -28,6 +28,18 @@ $$
 
 > 💡 (3) 中 $a = 1$ 时不能省略，完整写成 $1 \times 10^7$。
 
+## 图示
+
+<svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;display:block;margin:1em auto">
+  <rect x="20" y="10" width="460" height="100" fill="#f3e5f5" rx="8"/>
+  <text x="250" y="32" text-anchor="middle" font-size="14" fill="#7b1fa2" font-weight="bold">科学记数法比较大小</text>
+  <text x="50" y="58" font-size="13" fill="#212121">9.9 × 10⁵</text>
+  <text x="200" y="58" font-size="20" fill="#9c27b0">&lt;</text>
+  <text x="240" y="58" font-size="13" fill="#7b1fa2" font-weight="bold">3.2 × 10⁶</text>
+  <text x="50" y="82" font-size="12" fill="#424242">指数5 &lt; 指数6，所以 10⁵ &lt; 10⁶</text>
+  <text x="50" y="100" font-size="12" fill="#9c27b0">规则：先比指数，指数大的数大；指数相同再比 a</text>
+</svg>
+
 ---
 
 ## 例题 2（基础 · 带单位换算）

@@ -30,6 +30,25 @@ date: 2026-08-05
 
 ### 2. 植物细胞模型应包含的结构
 
+```mermaid
+graph TD
+    A["植物细胞模型"] --> B["细胞壁\n硬纸板/塑料盒\n（最外层）"]
+    A --> C["细胞膜\n透明薄膜/保鲜膜\n（紧贴细胞壁内侧）"]
+    A --> D["细胞质\n果冻/琼脂/面团\n（填充内部）"]
+    A --> E["细胞核\n乒乓球/橡皮泥球\n（颜色较深）"]
+    A --> F["液泡\n大气球/透明塑料袋\n（成熟细胞有大液泡）"]
+    A --> G["叶绿体\n绿色橡皮泥/绿豆\n（绿色部分才有）"]
+    A --> H["线粒体\n黄色/橙色橡皮泥\n（较小，数量多）"]
+    style A fill:#388e3c,stroke:#1b5e20,color:#fff
+    style B fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style C fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style D fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style E fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style F fill:#b2dfdb,stroke:#4db6ac,color:#00695c
+    style G fill:#4caf50,stroke:#2e7d32,color:#fff
+    style H fill:#ff8a65,stroke:#e64a19,color:#fff
+```
+
 | 结构 | 可选材料 | 说明 |
 |---|---|---|
 | 细胞壁 | 硬纸板、塑料盒 | 最外层，起支持作用 |

@@ -12,6 +12,32 @@ $$l=\frac{n\pi R}{180}$$
 
 推导：圆周长为 $2\pi R$，$n^\circ$ 圆心角所对弧长占整个圆周的 $\dfrac{n}{360}$，即 $l=\dfrac{n}{360}\times 2\pi R=\dfrac{n\pi R}{180}$。
 
+<svg viewBox="0 0 400 300" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 圆（虚线，完整圆） -->
+  <circle cx="200" cy="160" r="110" fill="none" stroke="#e1bee7" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- 扇形填充 -->
+  <!-- 圆心角约120°，从0°到120°（即从右水平到左上60°） -->
+  <!-- 起点(310,160)，终点(200-55,160-95.26)=(145,65) -->
+  <path d="M 200,160 L 310,160 A 110,110 0 0,0 145,65 Z"
+    fill="#e1bee7" fill-opacity="0.7" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- 圆心O -->
+  <circle cx="200" cy="160" r="4" fill="#7b1fa2"/>
+  <text x="206" y="165" font-size="13" font-weight="bold" fill="#7b1fa2">O</text>
+  <!-- 半径R标注 -->
+  <text x="252" y="152" font-size="12" fill="#7b1fa2">R（母线/半径）</text>
+  <!-- 弧长l标注 -->
+  <path d="M 310,160 A 110,110 0 0,0 145,65" fill="none" stroke="#9c27b0" stroke-width="3"/>
+  <text x="295" y="90" font-size="12" fill="#9c27b0">弧长 l</text>
+  <!-- 圆心角n°标注 -->
+  <path d="M 240,160 A 40,40 0 0,0 220,125" fill="none" stroke="#e91e63" stroke-width="1.8"/>
+  <text x="244" y="140" font-size="12" fill="#e91e63">n°</text>
+  <!-- 公式框 -->
+  <rect x="20" y="220" width="360" height="60" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="200" y="242" text-anchor="middle" font-size="13" font-weight="bold" fill="#7b1fa2">弧长：l = nπR/180</text>
+  <text x="200" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#9c27b0">扇形面积：S = nπR²/360 = lR/2</text>
+  <text x="200" y="278" text-anchor="middle" font-size="11" fill="#555">（n为圆心角度数，R为半径）</text>
+</svg>
+
 ## 扇形面积公式
 
 半径为 $R$、圆心角为 $n^\circ$ 的扇形面积：

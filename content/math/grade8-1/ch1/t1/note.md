@@ -13,6 +13,28 @@ date: 2026-08-06
 - **边**：组成三角形的线段，如 $AB$、$BC$、$CA$，通常用小写字母 $a$、$b$、$c$ 表示对边。
 - **内角**：两边组成的角，如 $\angle A$、$\angle B$、$\angle C$。
 
+<svg width="320" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 320 200">
+  <!-- 三角形 ABC -->
+  <polygon points="160,20 40,170 280,170" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 顶点标注 -->
+  <text x="155" y="14" font-size="16" fill="#7b1fa2" font-weight="bold" text-anchor="middle">A</text>
+  <text x="24" y="185" font-size="16" fill="#7b1fa2" font-weight="bold" text-anchor="middle">B</text>
+  <text x="292" y="185" font-size="16" fill="#7b1fa2" font-weight="bold" text-anchor="middle">C</text>
+  <!-- 边标注 -->
+  <text x="90" y="108" font-size="14" fill="#9c27b0" font-style="italic" text-anchor="middle">c</text>
+  <text x="228" y="108" font-size="14" fill="#9c27b0" font-style="italic" text-anchor="middle">b</text>
+  <text x="160" y="185" font-size="14" fill="#9c27b0" font-style="italic" text-anchor="middle">a</text>
+  <!-- 角标注 -->
+  <path d="M160,20 Q148,38 140,36" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="148" y="50" font-size="12" fill="#424242">∠A</text>
+  <path d="M40,170 Q58,158 60,148" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="62" y="162" font-size="12" fill="#424242">∠B</text>
+  <path d="M280,170 Q264,158 262,148" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="238" y="162" font-size="12" fill="#424242">∠C</text>
+  <!-- 说明 -->
+  <text x="160" y="198" font-size="12" fill="#424242" text-anchor="middle">△ABC：三顶点 A、B、C，三边 a、b、c，三内角 ∠A、∠B、∠C</text>
+</svg>
+
 ## 三边关系
 
 三角形任意两边之和大于第三边，任意两边之差小于第三边。

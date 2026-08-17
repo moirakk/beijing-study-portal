@@ -22,6 +22,47 @@ date: 2026-08-05
 
 $$ (x,y) \xrightarrow{\text{右移}a\text{,上移}b} (x+a,\ y+b) $$
 
+<svg viewBox="0 0 340 280" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标系 -->
+  <line x1="20" y1="160" x2="320" y2="160" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="315,155 325,160 315,165" fill="#7b1fa2"/>
+  <line x1="100" y1="270" x2="100" y2="20" stroke="#7b1fa2" stroke-width="2"/>
+  <polygon points="95,25 100,15 105,25" fill="#7b1fa2"/>
+  <text x="328" y="164" font-size="13" fill="#7b1fa2" font-family="serif">x</text>
+  <text x="103" y="14" font-size="13" fill="#7b1fa2" font-family="serif">y</text>
+  <text x="85" y="175" font-size="12" fill="#333" font-family="serif">O</text>
+  <!-- 刻度 -->
+  <line x1="160" y1="155" x2="160" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="156" y="178" font-size="11" fill="#333">1</text>
+  <line x1="220" y1="155" x2="220" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="216" y="178" font-size="11" fill="#333">2</text>
+  <line x1="280" y1="155" x2="280" y2="165" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="276" y="178" font-size="11" fill="#333">3</text>
+  <line x1="95" y1="100" x2="105" y2="100" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="108" y="104" font-size="11" fill="#333">2</text>
+  <!-- 原点P(-2,3) -->
+  <circle cx="160" cy="100" r="6" fill="#7b1fa2"/>
+  <text x="165" y="97" font-size="13" fill="#7b1fa2" font-family="serif">P(1,2)</text>
+  <!-- 右移2后P'(3,2) -->
+  <circle cx="280" cy="100" r="6" fill="#e91e63"/>
+  <text x="285" y="97" font-size="13" fill="#e91e63" font-family="serif">P'(3,2)</text>
+  <!-- 平移箭头（向右） -->
+  <line x1="168" y1="100" x2="272" y2="100" stroke="#e91e63" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="268,95 278,100 268,105" fill="#e91e63"/>
+  <text x="200" y="90" font-size="11" fill="#e91e63">右移2：x+2</text>
+  <!-- 上移1后P''(1,3) -->
+  <circle cx="160" cy="40" r="6" fill="#4caf50"/>
+  <text x="165" y="37" font-size="13" fill="#4caf50" font-family="serif">P''(1,3)</text>
+  <!-- 平移箭头（向上） -->
+  <line x1="160" y1="92" x2="160" y2="48" stroke="#4caf50" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="155,52 160,42 165,52" fill="#4caf50"/>
+  <text x="108" y="70" font-size="11" fill="#4caf50">上移1：y+1</text>
+  <!-- 说明 -->
+  <text x="20" y="220" font-size="12" fill="#555">右加左减（横坐标x）</text>
+  <text x="20" y="238" font-size="12" fill="#555">上加下减（纵坐标y）</text>
+  <text x="20" y="256" font-size="11" fill="#7b1fa2">图形平移 = 每个顶点作相同平移</text>
+</svg>
+
 ## 二、图形的平移
 
 对一个图形进行平移，等价于把图形上**每个点**（实际操作中只需关键点/顶点）作同样的平移：

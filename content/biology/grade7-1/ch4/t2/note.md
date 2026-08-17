@@ -26,6 +26,52 @@ date: 2026-08-05
 
 ### 1. 种子的结构
 
+<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <rect width="600" height="260" fill="#f1f8e9" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" fill="#1b5e20" font-size="14" font-weight="bold">菜豆种子 vs 玉米种子结构对比</text>
+  <!-- 菜豆种子 -->
+  <text x="130" y="55" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">菜豆种子（双子叶）</text>
+  <!-- 种皮 -->
+  <ellipse cx="130" cy="150" rx="90" ry="75" fill="none" stroke="#388e3c" stroke-width="5"/>
+  <!-- 子叶（两片） -->
+  <ellipse cx="110" cy="150" rx="55" ry="60" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5"/>
+  <ellipse cx="150" cy="150" rx="55" ry="60" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="110" y="148" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">子叶①</text>
+  <text x="150" y="148" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">子叶②</text>
+  <text x="130" y="165" text-anchor="middle" fill="#2e7d32" font-size="9">（储存营养）</text>
+  <!-- 胚 -->
+  <rect x="100" y="90" width="60" height="50" rx="4" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="130" y="108" text-anchor="middle" fill="white" font-size="9" font-weight="bold">胚芽</text>
+  <text x="130" y="122" text-anchor="middle" fill="white" font-size="9">胚轴</text>
+  <text x="130" y="136" text-anchor="middle" fill="white" font-size="9">胚根</text>
+  <!-- 标注 -->
+  <text x="30" y="80" fill="#1b5e20" font-size="9">种皮</text>
+  <line x1="50" y1="82" x2="65" y2="90" stroke="#388e3c" stroke-width="1"/>
+  <text x="30" y="230" fill="#2e7d32" font-size="9">无胚乳，营养在子叶</text>
+  <!-- 玉米种子 -->
+  <text x="450" y="55" text-anchor="middle" fill="#1b5e20" font-size="12" font-weight="bold">玉米种子（单子叶）</text>
+  <!-- 种皮+果皮 -->
+  <rect x="360" y="75" width="180" height="150" rx="10" fill="none" stroke="#388e3c" stroke-width="5"/>
+  <!-- 胚乳（大） -->
+  <rect x="370" y="85" width="160" height="130" rx="8" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.5"/>
+  <text x="450" y="155" text-anchor="middle" fill="#33691e" font-size="11" font-weight="bold">胚乳</text>
+  <text x="450" y="170" text-anchor="middle" fill="#33691e" font-size="9">（储存营养）</text>
+  <!-- 胚（小） -->
+  <rect x="375" y="90" width="55" height="80" rx="4" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="402" y="108" text-anchor="middle" fill="white" font-size="8" font-weight="bold">胚芽</text>
+  <text x="402" y="122" text-anchor="middle" fill="white" font-size="8">子叶①</text>
+  <text x="402" y="136" text-anchor="middle" fill="white" font-size="8">胚轴</text>
+  <text x="402" y="150" text-anchor="middle" fill="white" font-size="8">胚根</text>
+  <!-- 标注 -->
+  <text x="360" y="240" fill="#2e7d32" font-size="9">有胚乳，营养在胚乳；子叶1片</text>
+  <!-- 中间说明 -->
+  <rect x="240" y="100" width="110" height="80" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="295" y="120" text-anchor="middle" fill="#1b5e20" font-size="10" font-weight="bold">共同点</text>
+  <text x="295" y="138" text-anchor="middle" fill="#2e7d32" font-size="9">都有种皮</text>
+  <text x="295" y="153" text-anchor="middle" fill="#2e7d32" font-size="9">都有胚</text>
+  <text x="295" y="168" text-anchor="middle" fill="#2e7d32" font-size="9">（胚是主要部分）</text>
+</svg>
+
 | 结构 | 功能 |
 |---|---|
 | 种皮 | 保护胚 |

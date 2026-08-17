@@ -24,6 +24,19 @@ date: 2026-08-05
 
 ### 1. 科学观察的要求
 
+```mermaid
+flowchart LR
+    A["明确目的\n确定对象"] --> B["选择工具\n放大镜/显微镜\n望远镜/照相机"]
+    B --> C["全面细致\n实事求是\n观察记录"]
+    C --> D["及时如实\n记录数据\n绘图拍照"]
+    D --> E["整理归纳\n交流分享\n得出结论"]
+    style A fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style B fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#1b5e20
+    style D fill:#81c784,stroke:#2e7d32,color:#1b5e20
+    style E fill:#66bb6a,stroke:#1b5e20,color:#fff
+```
+
 - 明确观察目的，确定观察对象。
 - 可借助工具：放大镜、显微镜、望远镜、照相机等。
 - 及时、如实记录，不凭主观臆断。

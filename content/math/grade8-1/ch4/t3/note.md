@@ -10,6 +10,29 @@ date: 2026-08-06
 两个数的和与这两个数的差的积，等于这两个数的平方差。
 $$(a+b)(a-b)=a^2-b^2$$
 
+<svg width="400" height="200" style="max-width:100%;display:block;margin:1em auto" viewBox="0 0 400 200">
+  <!-- 平方差公式几何图示 -->
+  <!-- 大正方形 a² -->
+  <rect x="30" y="20" width="140" height="140" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="100" y="95" font-size="16" fill="#7b1fa2" font-weight="bold" text-anchor="middle">a²</text>
+  <text x="100" y="170" font-size="13" fill="#424242" text-anchor="middle">a</text>
+  <text x="16" y="95" font-size="13" fill="#424242" text-anchor="middle">a</text>
+  <!-- 小正方形 b² -->
+  <rect x="30" y="20" width="50" height="50" fill="#9c27b0" stroke="#7b1fa2" stroke-width="2" opacity="0.5"/>
+  <text x="55" y="50" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">b²</text>
+  <text x="55" y="78" font-size="12" fill="#424242" text-anchor="middle">b</text>
+  <text x="16" y="50" font-size="12" fill="#424242" text-anchor="middle">b</text>
+  <!-- 公式区域 -->
+  <text x="230" y="60" font-size="14" fill="#7b1fa2" font-weight="bold">(a+b)(a-b)</text>
+  <text x="230" y="85" font-size="14" fill="#7b1fa2" font-weight="bold">= a² - b²</text>
+  <!-- 完全平方公式 -->
+  <text x="230" y="120" font-size="13" fill="#9c27b0" font-weight="bold">(a+b)² = a²+2ab+b²</text>
+  <text x="230" y="145" font-size="13" fill="#9c27b0" font-weight="bold">(a-b)² = a²-2ab+b²</text>
+  <!-- 记忆口诀 -->
+  <rect x="220" y="158" width="165" height="30" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="302" y="178" font-size="12" fill="#7b1fa2" text-anchor="middle">口诀：首平方+尾平方±2倍积</text>
+</svg>
+
 ## 完全平方公式
 
 两数和（或差）的平方，等于它们的平方和，加上（或减去）它们的积的 $2$ 倍。

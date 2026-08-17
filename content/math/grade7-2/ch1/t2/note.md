@@ -17,6 +17,40 @@ $$AB \perp CD$$
 
 > 💡 由对顶角相等与邻补角互补可知：只要有一个角是 $90^{\circ}$，四个角就**都是** $90^{\circ}$。
 
+<svg viewBox="0 0 320 280" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 水平直线 AB -->
+  <line x1="30" y1="150" x2="290" y2="150" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 垂直直线 CD -->
+  <line x1="160" y1="30" x2="160" y2="270" stroke="#7b1fa2" stroke-width="2"/>
+  <!-- 垂足O -->
+  <circle cx="160" cy="150" r="3" fill="#7b1fa2"/>
+  <!-- 直角标记（小正方形） -->
+  <rect x="160" y="138" width="12" height="12" fill="none" stroke="#9c27b0" stroke-width="2"/>
+  <!-- 四个90°标注 -->
+  <text x="172" y="143" font-size="12" fill="#9c27b0">90°</text>
+  <text x="136" y="143" font-size="12" fill="#9c27b0">90°</text>
+  <text x="172" y="168" font-size="12" fill="#9c27b0">90°</text>
+  <text x="136" y="168" font-size="12" fill="#9c27b0">90°</text>
+  <!-- 端点字母 -->
+  <text x="15" y="155" font-size="14" fill="#333" font-family="serif">A</text>
+  <text x="278" y="155" font-size="14" fill="#333" font-family="serif">B</text>
+  <text x="163" y="25" font-size="14" fill="#333" font-family="serif">C</text>
+  <text x="163" y="278" font-size="14" fill="#333" font-family="serif">D</text>
+  <text x="140" y="165" font-size="13" fill="#333" font-family="serif">O</text>
+  <!-- 垂线段最短示意：直线外一点P -->
+  <circle cx="230" cy="80" r="4" fill="#e91e63"/>
+  <text x="238" y="78" font-size="13" fill="#e91e63" font-family="serif">P</text>
+  <!-- P到垂足的垂线段（最短） -->
+  <line x1="230" y1="80" x2="230" y2="150" stroke="#e91e63" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- 小直角标记 -->
+  <rect x="218" y="138" width="12" height="12" fill="none" stroke="#e91e63" stroke-width="1.5"/>
+  <!-- P到其他点的斜线段（更长） -->
+  <line x1="230" y1="80" x2="160" y2="150" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 标注 -->
+  <text x="235" y="118" font-size="11" fill="#e91e63">垂线段（最短）</text>
+  <text x="30" y="240" font-size="12" fill="#555">AB⊥CD，垂足O；点P到直线AB的距离 = PO（垂线段长）</text>
+</svg>
+
 ## 二、垂线的基本性质
 
 **性质 1（存在唯一性）**：在同一平面内，过一点**有且只有一条**直线与已知直线垂直。

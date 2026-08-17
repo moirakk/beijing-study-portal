@@ -15,6 +15,42 @@ $$\begin{cases} x + 1 > 0 \\ 2x - 4 \leq 0 \end{cases}$$
 
 **不等式组的解集**：组成不等式组的各不等式解集的**公共部分**。求解集的过程叫做解不等式组。
 
+<svg viewBox="0 0 360 200" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <text x="50" y="18" font-size="13" fill="#7b1fa2" font-weight="bold">例：解不等式组 { x&gt;-1 且 x≤2 }</text>
+  <!-- 数轴1：x>-1 -->
+  <line x1="30" y1="50" x2="330" y2="50" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,45 335,50 325,55" fill="#7b1fa2"/>
+  <line x1="130" y1="45" x2="130" y2="55" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="122" y="68" font-size="12" fill="#333">-1</text>
+  <line x1="250" y1="45" x2="250" y2="55" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="246" y="68" font-size="12" fill="#333">2</text>
+  <circle cx="130" cy="50" r="5" fill="white" stroke="#e91e63" stroke-width="2"/>
+  <line x1="133" y1="50" x2="330" y2="50" stroke="#e91e63" stroke-width="3"/>
+  <text x="30" y="45" font-size="11" fill="#e91e63">①x&gt;-1</text>
+  <!-- 数轴2：x≤2 -->
+  <line x1="30" y1="100" x2="330" y2="100" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,95 335,100 325,105" fill="#7b1fa2"/>
+  <line x1="130" y1="95" x2="130" y2="105" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="122" y="118" font-size="12" fill="#333">-1</text>
+  <line x1="250" y1="95" x2="250" y2="105" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="246" y="118" font-size="12" fill="#333">2</text>
+  <circle cx="250" cy="100" r="5" fill="#9c27b0" stroke="#9c27b0" stroke-width="2"/>
+  <line x1="30" y1="100" x2="250" y2="100" stroke="#9c27b0" stroke-width="3"/>
+  <text x="30" y="95" font-size="11" fill="#9c27b0">②x≤2</text>
+  <!-- 数轴3：公共部分 -1<x≤2 -->
+  <line x1="30" y1="150" x2="330" y2="150" stroke="#7b1fa2" stroke-width="1.5"/>
+  <polygon points="325,145 335,150 325,155" fill="#7b1fa2"/>
+  <line x1="130" y1="145" x2="130" y2="155" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="122" y="168" font-size="12" fill="#333">-1</text>
+  <line x1="250" y1="145" x2="250" y2="155" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="246" y="168" font-size="12" fill="#333">2</text>
+  <circle cx="130" cy="150" r="5" fill="white" stroke="#7b1fa2" stroke-width="2"/>
+  <circle cx="250" cy="150" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2"/>
+  <line x1="133" y1="150" x2="250" y2="150" stroke="#7b1fa2" stroke-width="4"/>
+  <text x="30" y="145" font-size="11" fill="#7b1fa2">解集：-1&lt;x≤2（取交集）</text>
+  <text x="30" y="190" font-size="11" fill="#555">口诀：同大取大，同小取小，大小小大取中间，大大小小无解</text>
+</svg>
+
 ## 二、解法步骤
 
 1. 分别解出每个不等式的解集；

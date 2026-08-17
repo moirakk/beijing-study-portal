@@ -16,6 +16,32 @@ date: 2026-08-05
 | 可否度量 | 不可 | 不可 | **可以** |
 | 表示法 | 直线 $AB$ 或直线 $l$ | 射线 $OA$（端点字母在前） | 线段 $AB$ 或线段 $a$ |
 
+<svg viewBox="0 0 480 130" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="130" rx="10" fill="#f3e5f5"/>
+  <text x="240" y="18" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">直线、射线、线段对比图</text>
+  <!-- Line (infinite both ways) -->
+  <line x1="20" y1="45" x2="460" y2="45" stroke="#7b1fa2" stroke-width="2.5"/>
+  <polygon points="20,45 35,40 35,50" fill="#7b1fa2"/>
+  <polygon points="460,45 445,40 445,50" fill="#7b1fa2"/>
+  <text x="240" y="40" text-anchor="middle" fill="#7b1fa2" font-size="11">直线 AB（无端点，向两方无限延伸）</text>
+  <text x="60" y="60" fill="#4a148c" font-size="11">A</text>
+  <text x="420" y="60" fill="#4a148c" font-size="11">B</text>
+  <!-- Ray (one endpoint) -->
+  <circle cx="80" cy="85" r="4" fill="#9c27b0"/>
+  <line x1="80" y1="85" x2="450" y2="85" stroke="#9c27b0" stroke-width="2.5"/>
+  <polygon points="450,85 435,80 435,90" fill="#9c27b0"/>
+  <text x="80" y="100" text-anchor="middle" fill="#9c27b0" font-size="11">O（端点）</text>
+  <text x="270" y="80" text-anchor="middle" fill="#9c27b0" font-size="11">射线 OA（一个端点，向一方延伸）</text>
+  <text x="430" y="100" fill="#9c27b0" font-size="11">A</text>
+  <!-- Segment (two endpoints) -->
+  <circle cx="100" cy="118" r="4" fill="#4a148c"/>
+  <circle cx="380" cy="118" r="4" fill="#4a148c"/>
+  <line x1="100" y1="118" x2="380" y2="118" stroke="#4a148c" stroke-width="2.5"/>
+  <text x="100" y="130" text-anchor="middle" fill="#4a148c" font-size="11">A</text>
+  <text x="380" y="130" text-anchor="middle" fill="#4a148c" font-size="11">B</text>
+  <text x="240" y="113" text-anchor="middle" fill="#4a148c" font-size="11">线段 AB（两个端点，可度量）</text>
+</svg>
+
 > ⚠️ **易错点**：
 > 1. 射线 $OA$ 与射线 $AO$ **不同**（端点不同，方向不同）；
 > 2. 直线 $AB$ 与直线 $BA$ 是**同一条**直线；

@@ -30,6 +30,49 @@ date: 2026-08-06
 蛹期是幼虫向成虫转变的重要阶段。
 这种发育方式有利于幼体和成体减少食物与空间竞争。
 
+<svg viewBox="0 0 660 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;font-family:sans-serif">
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+  <!-- 标题 -->
+  <text x="330" y="18" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="bold">昆虫发育方式对比</text>
+  <!-- 完全变态 -->
+  <text x="10" y="42" font-size="12" fill="#388e3c" font-weight="bold">完全变态（家蚕）</text>
+  <rect x="10" y="50" width="60" height="34" rx="7" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="40" y="72" text-anchor="middle" font-size="12" fill="#1b5e20">卵</text>
+  <line x1="70" y1="67" x2="100" y2="67" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <rect x="100" y="50" width="60" height="34" rx="7" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="130" y="72" text-anchor="middle" font-size="12" fill="#1b5e20">幼虫</text>
+  <line x1="160" y1="67" x2="190" y2="67" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <rect x="190" y="50" width="60" height="34" rx="7" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+  <text x="220" y="72" text-anchor="middle" font-size="12" fill="#1b5e20" font-weight="bold">蛹</text>
+  <line x1="250" y1="67" x2="280" y2="67" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <rect x="280" y="50" width="60" height="34" rx="7" fill="#81c784" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="310" y="72" text-anchor="middle" font-size="12" fill="#1b5e20">成虫</text>
+  <text x="175" y="100" text-anchor="middle" font-size="10" fill="#555">有蛹期，幼虫与成虫差异大</text>
+  <!-- 不完全变态 -->
+  <text x="10" y="135" font-size="12" fill="#388e3c" font-weight="bold">不完全变态（蝗虫）</text>
+  <rect x="10" y="143" width="60" height="34" rx="7" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="40" y="165" text-anchor="middle" font-size="12" fill="#1b5e20">卵</text>
+  <line x1="70" y1="160" x2="100" y2="160" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <rect x="100" y="143" width="60" height="34" rx="7" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="130" y="165" text-anchor="middle" font-size="12" fill="#1b5e20">若虫</text>
+  <line x1="160" y1="160" x2="190" y2="160" stroke="#388e3c" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <rect x="190" y="143" width="60" height="34" rx="7" fill="#66bb6a" stroke="#388e3c" stroke-width="1.5"/>
+  <text x="220" y="165" text-anchor="middle" font-size="12" fill="#fff">成虫</text>
+  <text x="130" y="193" text-anchor="middle" font-size="10" fill="#555">无蛹期，若虫与成虫形态相似</text>
+  <!-- 蜕皮说明 -->
+  <rect x="400" y="45" width="240" height="155" rx="10" fill="#f1f8e9" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="520" y="68" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">蜕皮原因</text>
+  <text x="520" y="90" text-anchor="middle" font-size="11" fill="#388e3c">外骨骼不能随身体</text>
+  <text x="520" y="108" text-anchor="middle" font-size="11" fill="#388e3c">连续增大</text>
+  <text x="520" y="130" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="bold">代表动物</text>
+  <text x="520" y="150" text-anchor="middle" font-size="11" fill="#388e3c">完全变态：家蚕、蝴蝶</text>
+  <text x="520" y="168" text-anchor="middle" font-size="11" fill="#388e3c">不完全变态：蝗虫、蝉</text>
+</svg>
+
 不完全变态发育的代表有蝗虫、蟋蟀、蝉、蜻蜓等。
 若虫与成虫形态相似，只是生殖器官和翅未发育成熟。
 若虫经过多次蜕皮逐渐发育为成虫。

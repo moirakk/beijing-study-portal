@@ -15,6 +15,40 @@ date: 2026-08-05
 
 平移前后：原图形上一点 $P$ 移动到的新位置 $P'$ 叫做 $P$ 的**对应点**。
 
+<svg viewBox="0 0 360 220" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <!-- 原三角形ABC -->
+  <polygon points="50,170 110,170 80,90" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="44" y="185" font-size="13" fill="#7b1fa2" font-family="serif">A</text>
+  <text x="112" y="185" font-size="13" fill="#7b1fa2" font-family="serif">B</text>
+  <text x="76" y="82" font-size="13" fill="#7b1fa2" font-family="serif">C</text>
+  <!-- 平移后三角形A'B'C' -->
+  <polygon points="190,170 250,170 220,90" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="184" y="185" font-size="13" fill="#9c27b0" font-family="serif">A'</text>
+  <text x="252" y="185" font-size="13" fill="#9c27b0" font-family="serif">B'</text>
+  <text x="216" y="82" font-size="13" fill="#9c27b0" font-family="serif">C'</text>
+  <!-- 对应点连线（平行且相等） -->
+  <line x1="80" y1="170" x2="190" y2="170" stroke="#e91e63" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="110" y1="170" x2="250" y2="170" stroke="#e91e63" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="80" y1="90" x2="220" y2="90" stroke="#e91e63" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 平移方向箭头 -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#7b1fa2"/>
+    </marker>
+  </defs>
+  <line x1="130" y1="40" x2="200" y2="40" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="148" y="32" font-size="12" fill="#7b1fa2">平移方向</text>
+  <!-- 平移距离标注 -->
+  <line x1="80" y1="200" x2="190" y2="200" stroke="#555" stroke-width="1"/>
+  <line x1="80" y1="195" x2="80" y2="205" stroke="#555" stroke-width="1"/>
+  <line x1="190" y1="195" x2="190" y2="205" stroke="#555" stroke-width="1"/>
+  <text x="118" y="215" font-size="11" fill="#555">平移距离 AA'</text>
+  <!-- 性质说明 -->
+  <text x="270" y="120" font-size="11" fill="#555">AA'∥BB'∥CC'</text>
+  <text x="270" y="135" font-size="11" fill="#555">AA'=BB'=CC'</text>
+  <text x="270" y="150" font-size="11" fill="#555">△ABC≅△A'B'C'</text>
+</svg>
+
 ## 二、平移的性质
 
 1. 平移后的图形与原图形**形状、大小完全相同**（全等），只是位置改变；

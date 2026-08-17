@@ -58,6 +58,31 @@ A. 三角形　　B. 圆　　C. 圆锥　　D. 线段
 
 一个正方体展开图呈 1-4-1 型：中间一行从左到右依次标有数字 $2$、$3$、$4$、$5$，上方（与 $3$ 相邻）标 $1$，下方（与 $3$ 相邻）标 $6$。折成正方体后，与 $3$ 相对的面是几？与 $1$ 相对的面是几？
 
+<svg viewBox="0 0 400 160" style="max-width:100%;display:block;margin:1em auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="160" rx="10" fill="#f3e5f5"/>
+  <text x="200" y="18" text-anchor="middle" fill="#7b1fa2" font-size="13" font-weight="bold">正方体展开图（1-4-1型）</text>
+  <!-- Grid cells: each 60x50, starting at x=80, y=25 -->
+  <!-- Row 1: face 1 above face 3 -->
+  <rect x="140" y="28" width="60" height="50" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="170" y="58" text-anchor="middle" fill="#4a148c" font-size="18" font-weight="bold">1</text>
+  <!-- Row 2: faces 2,3,4,5 -->
+  <rect x="80" y="78" width="60" height="50" fill="#ce93d8" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="110" y="108" text-anchor="middle" fill="#4a148c" font-size="18" font-weight="bold">2</text>
+  <rect x="140" y="78" width="60" height="50" fill="#7b1fa2" stroke="#4a148c" stroke-width="2"/>
+  <text x="170" y="108" text-anchor="middle" fill="white" font-size="18" font-weight="bold">3</text>
+  <rect x="200" y="78" width="60" height="50" fill="#ce93d8" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="230" y="108" text-anchor="middle" fill="#4a148c" font-size="18" font-weight="bold">4</text>
+  <rect x="260" y="78" width="60" height="50" fill="#9c27b0" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="290" y="108" text-anchor="middle" fill="white" font-size="18" font-weight="bold">5</text>
+  <!-- Row 3: face 6 below face 3 -->
+  <rect x="140" y="128" width="60" height="28" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="170" y="147" text-anchor="middle" fill="#4a148c" font-size="18" font-weight="bold">6</text>
+  <!-- Annotations -->
+  <text x="340" y="95" fill="#9c27b0" font-size="11">3↔5 相对</text>
+  <text x="340" y="110" fill="#9c27b0" font-size="11">2↔4 相对</text>
+  <text x="340" y="125" fill="#9c27b0" font-size="11">1↔6 相对</text>
+</svg>
+
 ### 解析
 
 1-4-1 型中，中间一行**隔一个**的两面相对：

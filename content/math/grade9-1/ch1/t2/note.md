@@ -76,6 +76,22 @@ $$x=\frac{3\pm\sqrt{17}}{4}$$
 3. 二次项系数为 $1$ 且一次项系数为偶数 → 配方法；
 4. 其他情况 → 公式法（万能）。
 
+```mermaid
+flowchart TD
+    A["一元二次方程 ax²+bx+c=0"] --> B{"缺一次项？\nb=0"}
+    B -- 是 --> C["直接开平方法\nx²=p → x=±√p"]
+    B -- 否 --> D{"能因式分解？"}
+    D -- 是 --> E["因式分解法\nA·B=0 → A=0或B=0"]
+    D -- 否 --> F{"a=1且b为偶数？"}
+    F -- 是 --> G["配方法\n(x+b/2)²=b²/4-c"]
+    F -- 否 --> H["公式法（万能）\nx=(-b±√Δ)/2a\nΔ=b²-4ac"]
+    style A fill:#7b1fa2,color:#fff
+    style C fill:#9c27b0,color:#fff
+    style E fill:#9c27b0,color:#fff
+    style G fill:#9c27b0,color:#fff
+    style H fill:#9c27b0,color:#fff
+```
+
 ## 自测题
 
 1. 方程 $(x-1)^2=9$ 的解为____。
