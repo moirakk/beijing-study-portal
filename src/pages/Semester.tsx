@@ -97,6 +97,22 @@ export default function Semester() {
             <SemesterPillNav current={gradeId} />
           </div>
         </Reveal>
+        {withContent.length > 1 && (
+          <Reveal delay={200}>
+            <div className="mt-4 flex gap-2 overflow-x-auto pb-1 sm:hidden">
+              {withContent.map(({ subject }) => (
+                <a
+                  key={subject.id}
+                  href={`#subject-${subject.id}`}
+                  style={subjectVars(subject.id as SubjectId)}
+                  className="shrink-0 rounded-full border border-line bg-panel px-3 py-1.5 text-[12.5px] font-semibold text-[var(--s-deep)]"
+                >
+                  {subject.name}
+                </a>
+              ))}
+            </div>
+          </Reveal>
+        )}
       </header>
 
       {/* 有内容的学科分段（可折叠） */}
@@ -149,10 +165,13 @@ function SubjectSection({
   gradeId: GradeId
 }) {
   const { subject, chapters, textbook } = entry
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(() => {
+    if (typeof window === 'undefined') return true
+    return !window.matchMedia('(max-width: 640px)').matches || index === 0
+  })
 
   return (
-    <section style={subjectVars(subject.id as SubjectId)}>
+    <section id={`subject-${subject.id}`} style={subjectVars(subject.id as SubjectId)}>
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}

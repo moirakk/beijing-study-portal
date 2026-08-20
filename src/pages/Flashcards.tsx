@@ -3,6 +3,7 @@
  * 支持"记住了/再练"分级，简单间隔复习（localStorage）。
  */
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Mascot from '../components/Mascot'
 import { findTopic } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
@@ -57,6 +58,12 @@ export default function Flashcards() {
           <p className="mt-3 text-[14px] text-ink-soft">
             还没有可复习的卡片。先去知识点页做几道题吧！
           </p>
+          <Link
+            to="/search?q=易错"
+            className="mt-4 inline-flex rounded-full bg-gold px-4 py-2 text-[13.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
+          >
+            去学习一个知识点
+          </Link>
         </div>
       ) : (
         <div className="mx-auto mt-6 max-w-xl">

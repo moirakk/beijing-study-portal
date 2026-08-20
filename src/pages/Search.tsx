@@ -4,7 +4,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import Reveal from '../components/Reveal'
 import { findTopic, getSubjects } from '../lib/contentLoader'
 import type { TopicLocation } from '../lib/contentLoader'
-import { searchAll, encodeCJK } from '../lib/searchEngine'
+import { searchAll, encodeCJK, ensureEngine } from '../lib/searchEngine'
 import type { SearchHit } from '../lib/searchEngine'
 import {
   ALL_GRADE_IDS,
@@ -93,6 +93,13 @@ export default function Search() {
 
   useEffect(() => {
     inputRef.current?.focus()
+    const warmup = () => {
+      ensureEngine().catch(() => {
+        // 搜索页仍会在正式查询时重试；预热失败不打断用户。
+      })
+    }
+    const idle = window.requestIdleCallback?.(warmup, { timeout: 1800 })
+    const timer = !window.requestIdleCallback ? window.setTimeout(warmup, 400) : null
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== '/') return
       const target = e.target as HTMLElement
@@ -101,7 +108,11 @@ export default function Search() {
       inputRef.current?.focus()
     }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      if (idle != null) window.cancelIdleCallback?.(idle)
+      if (timer != null) window.clearTimeout(timer)
+    }
   }, [])
 
   // FlexSearch 检索（索引首次搜索时异步构建）
@@ -220,7 +231,7 @@ export default function Search() {
           </p>
         ) : searching ? (
           <p className="text-center text-sm text-ink-faint">
-            正在检索…（首次搜索需要构建索引，请稍候）
+            正在准备全站索引，马上就好…
           </p>
         ) : results.length === 0 ? (
           <div className="card text-center">

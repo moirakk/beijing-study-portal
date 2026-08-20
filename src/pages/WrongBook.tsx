@@ -78,6 +78,12 @@ export default function WrongBook() {
           <p className="mt-3 text-[14px] text-ink-soft">
             {wrong.length === 0 ? '还没有错题，继续保持！' : '该学科暂无错题'}
           </p>
+          <Link
+            to="/search?q=有理数"
+            className="mt-4 inline-flex rounded-full bg-gold px-4 py-2 text-[13.5px] font-bold text-white transition-opacity hover:opacity-90 dark:text-panel"
+          >
+            去做几道题
+          </Link>
         </div>
       ) : (
         <ul className="mt-5 space-y-3.5">
