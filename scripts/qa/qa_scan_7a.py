@@ -4,7 +4,7 @@ import json, re, sys
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CONTENT = ROOT / "content"
 
 # ---------- 收集知识点标题集合 ----------

@@ -9,7 +9,7 @@ import os
 import subprocess
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONTENT = os.path.join(ROOT, "content")
 SUBJECTS_JSON = os.path.join(CONTENT, "subjects.json")
 

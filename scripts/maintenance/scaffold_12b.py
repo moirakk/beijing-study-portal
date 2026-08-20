@@ -4,12 +4,12 @@ import unicodedata
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
-CURRICULUM_PATH = ROOT / "docs" / "curriculum-11b.md"
+ROOT = Path(__file__).resolve().parent.parent.parent
+CURRICULUM_PATH = ROOT / "docs" / "curriculum-12b.md"
 SUBJECTS_PATH = ROOT / "content" / "subjects.json"
 CONTENT_ROOT = ROOT / "content"
-GRADE_ID = "11b"
-GRADE_DIR = "grade11-2"
+GRADE_ID = "12b"
+GRADE_DIR = "grade12-2"
 
 
 DEFAULT_META = {
@@ -33,55 +33,49 @@ def extract_curriculum() -> dict:
     text = CURRICULUM_PATH.read_text(encoding="utf-8")
     match = re.search(r"## 机器可读结构\s+```json\s*(\{.*?\})\s*```", text, re.S)
     if not match:
-        raise RuntimeError("未在 curriculum-11b.md 中找到机器可读 JSON 结构")
+        raise RuntimeError("未在 curriculum-12b.md 中找到机器可读 JSON 结构")
     return json.loads(match.group(1))
 
 
 def topic_meta(subject_id: str, chapter_title: str, title: str) -> tuple[int, str, list[str]]:
     if subject_id == "chinese":
-        if "古诗词诵读" in chapter_title:
-            return 3, "高考必考", ["#需背诵"]
-        if "历史的现场" in chapter_title:
+        if any(key in title for key in ["作文", "审题", "立意", "结构", "素材"]):
+            return 4, "高考必考", ["#需大量练习"]
+        if any(key in title for key in ["默写", "文言", "诗歌", "断句", "翻译"]):
             return 4, "高考必考", ["#需背诵"]
         return 3, "高考高频", ["#基础"]
     if subject_id == "math":
-        if any(key in title for key in ["等差数列", "等比数列", "单调性", "极值"]):
+        if any(key in title for key in ["导数", "圆锥曲线", "数列", "概率", "统计", "立体几何"]):
             return 5, "高考必考", ["#需大量练习"]
-        if "数学归纳法" in title:
-            return 3, "高考高频", ["#提高"]
         return 4, "高考必考", ["#基础"]
     if subject_id == "english":
-        if "语法" in title:
-            return 3, "高考高频", ["#需大量练习"]
+        if any(key in title for key in ["写作", "续写", "改错", "语法填空"]):
+            return 4, "高考必考", ["#需大量练习"]
         return 3, "高考高频", ["#基础"]
     if subject_id == "physics":
-        if any(key in title for key in ["带电粒子", "楞次定律", "法拉第电磁感应定律", "交变电流", "变压器"]):
+        if any(key in title for key in ["电磁", "动量", "力学综合", "实验", "计算"]):
             return 5, "高考必考", ["#需大量练习"]
-        if any(key in title for key in ["传感器", "电磁波谱", "无线电波"]):
-            return 2, "了解即可", ["#提高"]
-        return 3, "高考高频", ["#基础"]
+        return 4, "高考必考", ["#基础"]
     if subject_id == "chemistry":
-        if "实验活动" in title:
-            return 3, "高考高频", ["#需大量练习"]
-        if any(key in title for key in ["原子结构", "共价键", "分子的空间结构", "晶体"]):
+        if any(key in title for key in ["工艺流程", "实验", "有机", "推断", "合成", "电化学"]):
             return 4, "高考必考", ["#需大量练习"]
         return 3, "高考高频", ["#基础"]
     if subject_id == "biology":
-        if any(key in title for key in ["种群数量的变化", "群落的结构", "能量流动", "物质循环"]):
-            return 4, "高考必考", ["#基础"]
+        if any(key in title for key in ["遗传", "实验", "信息题", "系谱", "计算"]):
+            return 4, "高考必考", ["#需大量练习"]
         return 3, "高考高频", ["#基础"]
     if subject_id == "history":
-        if any(key in title for key in ["第一次世界大战", "十月革命", "第二次世界大战", "冷战", "多极化"]):
+        if any(key in title for key in ["小论文", "史料", "阶段特征", "中外关联"]):
             return 4, "高考必考", ["#需背诵"]
         return 3, "高考高频", ["#需背诵"]
     if subject_id == "geography":
-        if any(key in title for key in ["区域整体性", "生态脆弱区", "城市的辐射功能", "资源跨区域调配", "产业转移"]):
-            return 4, "高考必考", ["#基础"]
+        if any(key in title for key in ["综合题", "区位", "区域", "图表", "判读"]):
+            return 4, "高考必考", ["#需大量练习"]
         return 3, "高考高频", ["#基础"]
     if subject_id == "politics":
-        if "综合探究" in title:
-            return 2, "了解即可", ["#提高"]
-        if any(key in title for key in ["物质性", "规律性", "普遍联系", "永恒发展", "实质与核心", "认识从何而来", "追求和发展真理"]):
+        if any(key in title for key in ["主观题", "选择题", "时政", "答题"]):
+            return 4, "高考必考", ["#需大量练习"]
+        if any(key in title for key in ["法律", "逻辑", "思维"]):
             return 4, "高考必考", ["#需背诵"]
         return 3, "高考必考", ["#需背诵"]
     return DEFAULT_META["difficulty"], DEFAULT_META["importance"], list(DEFAULT_META["tags"])

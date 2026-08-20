@@ -22,7 +22,7 @@ import re
 import sys
 from collections import defaultdict
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONTENT_DIR = os.path.join(ROOT, "content")
 SUBJECTS_JSON = os.path.join(CONTENT_DIR, "subjects.json")
 REPORT_PATH = os.path.join(ROOT, "docs", "audit-report.md")

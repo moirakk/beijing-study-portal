@@ -4,17 +4,17 @@ import unicodedata
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
-CURRICULUM_PATH = ROOT / "docs" / "curriculum-9b.md"
+ROOT = Path(__file__).resolve().parent.parent.parent
+CURRICULUM_PATH = ROOT / "docs" / "curriculum-11a.md"
 SUBJECTS_PATH = ROOT / "content" / "subjects.json"
 CONTENT_ROOT = ROOT / "content"
-GRADE_ID = "9b"
-GRADE_DIR = "grade9-2"
+GRADE_ID = "11a"
+GRADE_DIR = "grade11-1"
 
 
 DEFAULT_META = {
-    "difficulty": 2,
-    "importance": "中考高频",
+    "difficulty": 3,
+    "importance": "高考高频",
     "tags": ["#基础"],
     "prerequisites": [],
     "related": [],
@@ -33,60 +33,66 @@ def extract_curriculum() -> dict:
     text = CURRICULUM_PATH.read_text(encoding="utf-8")
     match = re.search(r"## 机器可读结构\s+```json\s*(\{.*?\})\s*```", text, re.S)
     if not match:
-        raise RuntimeError("未在 curriculum-9b.md 中找到机器可读 JSON 结构")
+        raise RuntimeError("未在 curriculum-11a.md 中找到机器可读 JSON 结构")
     return json.loads(match.group(1))
 
 
 def topic_meta(subject_id: str, chapter_title: str, title: str) -> tuple[int, str, list[str]]:
     if subject_id == "chinese":
-        if "写作" in title or "口语交际" in title or "排练" in title or "演出" in title:
-            return 2, "中考高频", ["#需大量练习"]
-        if "名著导读" in title or "课外古诗词" in title:
-            return 2, "中考高频", ["#需背诵"]
-        if "综合性学习" in title:
-            return 2, "中考高频", ["#提高"]
-        if chapter_title in {"第三单元", "第六单元"}:
-            return 3, "中考必考", ["#需背诵"]
-        return 2, "中考高频", ["#基础"]
+        if "逻辑的力量" in chapter_title:
+            return 3, "高考高频", ["#提高"]
+        if "古诗词诵读" in chapter_title:
+            return 3, "高考必考", ["#需背诵"]
+        if "百家争鸣" in chapter_title:
+            return 4, "高考必考", ["#需背诵"]
+        return 3, "高考高频", ["#基础"]
     if subject_id == "math":
-        if "课题学习" in title:
-            return 2, "中考高频", ["#提高"]
-        if any(key in title for key in ["反比例函数", "相似三角形", "锐角三角函数", "解直角三角形"]):
-            return 3, "中考必考", ["#基础"]
-        return 2, "中考高频", ["#基础"]
+        if any(key in title for key in ["空间向量的应用", "椭圆", "双曲线", "抛物线", "直线与圆、圆与圆的位置关系"]):
+            return 5, "高考必考", ["#需大量练习"]
+        if any(key in title for key in ["坐标表示", "圆的方程", "距离公式"]):
+            return 4, "高考必考", ["#基础"]
+        return 3, "高考必考", ["#基础"]
     if subject_id == "english":
-        if "Revision" in chapter_title or "Revision" in title:
-            return 1, "了解即可", ["#复习"]
-        if "Language in use" in title:
-            return 2, "中考高频", ["#语法"]
-        return 2, "中考高频", ["#基础"]
+        if "语法" in title:
+            return 3, "高考高频", ["#需大量练习"]
+        return 3, "高考高频", ["#基础"]
     if subject_id == "physics":
-        if "电功率" in chapter_title or "焦耳定律" in title or "欧姆" in title:
-            return 3, "中考必考", ["#基础"]
-        if "电与磁" in chapter_title or "安全用电" in title or "家庭电路" in title:
-            return 3, "中考必考", ["#基础"]
-        return 2, "中考高频", ["#基础"]
+        if "实验" in title:
+            return 3, "高考高频", ["#需大量练习"]
+        if any(key in title for key in ["动量守恒定律", "弹性碰撞", "简谐运动", "波的描述", "光的折射", "全反射", "光的干涉"]):
+            return 4, "高考必考", ["#基础"]
+        if any(key in title for key in ["多普勒", "偏振"]):
+            return 2, "了解即可", ["#提高"]
+        return 3, "高考高频", ["#基础"]
     if subject_id == "chemistry":
-        if any(key in chapter_title for key in ["金属", "溶液", "酸和碱", "盐"]):
-            return 3, "中考必考", ["#基础"]
-        return 2, "中考高频", ["#基础"]
+        if "实验活动" in title:
+            return 3, "高考高频", ["#需大量练习"]
+        if any(key in title for key in ["化学平衡", "电离平衡", "盐类的水解", "沉淀溶解平衡", "原电池", "电解池", "反应热"]):
+            return 5, "高考必考", ["#需大量练习"]
+        return 3, "高考高频", ["#基础"]
+    if subject_id == "biology":
+        if any(key in title for key in ["神经冲动", "激素调节的过程", "特异性免疫", "植物生长素", "内环境的稳态"]):
+            return 4, "高考必考", ["#基础"]
+        return 3, "高考高频", ["#基础"]
     if subject_id == "history":
-        if "活动课" in title:
-            return 1, "了解即可", ["#提高"]
-        if any(key in title for key in ["明治维新", "第二次工业革命", "十月革命", "罗斯福新政", "第二次世界大战", "冷战", "第一次世界大战"]):
-            return 3, "中考必考", ["#需背诵"]
-        return 2, "中考高频", ["#基础"]
+        if any(key in title for key in ["文明的产生", "全球航路", "思想解放运动", "资产阶级革命", "工业革命", "马克思主义"]):
+            return 4, "高考必考", ["#需背诵"]
+        return 3, "高考高频", ["#需背诵"]
+    if subject_id == "geography":
+        if any(key in title for key in ["地球运动的地理意义", "构造地貌", "河流地貌", "气压带和风带", "洋流", "整体性", "地域差异性"]):
+            return 4, "高考必考", ["#基础"]
+        return 3, "高考高频", ["#基础"]
     if subject_id == "politics":
-        if any(key in title for key in ["人类命运共同体", "和平与发展", "中国担当", "互利共赢"]):
-            return 3, "中考必考", ["#需背诵"]
-        return 2, "中考高频", ["#基础"]
+        if "综合探究" in title:
+            return 2, "了解即可", ["#提高"]
+        return 3, "高考必考", ["#需背诵"]
     return DEFAULT_META["difficulty"], DEFAULT_META["importance"], list(DEFAULT_META["tags"])
 
 
 def build_topic(subject_id: str, chapter_no: int, topic_no: int, chapter_title: str, title: str) -> dict:
     difficulty, importance, tags = topic_meta(subject_id, chapter_title, title)
     return {
-        "id": f"{subject_id}-{GRADE_ID}-{chapter_no}-{slugify(title)}",
+        "id": f"{subject_id}-{GRADE_ID}-{chapter_no}-{slugify(title)}-{topic_no}",
         "title": title,
         "difficulty": difficulty,
         "importance": importance,

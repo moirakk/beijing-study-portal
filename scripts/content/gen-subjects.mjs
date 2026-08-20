@@ -1,11 +1,11 @@
 /* eslint-disable */
 // 生成 content/subjects.json：按 docs/textbook-research.md（东城区 2024/2025 新版教材）校准初一全科结构。
-// 运行：node scripts/gen-subjects.mjs
+// 运行：node scripts/content/gen-subjects.mjs
 import { writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 
 // ---------- 辅助 ----------
 const t = (id, title, o = {}) => {

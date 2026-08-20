@@ -1,5 +1,5 @@
 /* eslint-disable */
-// 学生视角走查脚本：node scripts/journey.mjs <outdir>
+// 学生视角走查脚本：node scripts/visual/journey.mjs <outdir>
 // 真实点击/输入/后退，每一步截图
 import { chromium } from 'playwright'
 import { mkdirSync } from 'fs'

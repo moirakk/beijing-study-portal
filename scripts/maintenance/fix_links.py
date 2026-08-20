@@ -9,7 +9,7 @@ import json
 import os
 import re
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONTENT_DIR = os.path.join(ROOT, "content")
 SUBJECTS_JSON = os.path.join(CONTENT_DIR, "subjects.json")
 

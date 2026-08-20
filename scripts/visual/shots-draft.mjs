@@ -1,5 +1,5 @@
 /* eslint-disable */
-// 验收截图：node scripts/shots-draft.mjs <outdir>
+// 验收截图：node scripts/visual/shots-draft.mjs <outdir>
 // 覆盖：首页目录树（数学=有真内容 / 历史=全 draft）、draft 知识点页、真内容页、学期页、搜索结果
 // 桌面 + 移动 + 暗色
 import { chromium } from 'playwright'

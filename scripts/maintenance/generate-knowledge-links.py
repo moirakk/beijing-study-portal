@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 SUBJECTS_JSON = ROOT / "content" / "subjects.json"
 OUTPUT = ROOT / "content" / "knowledge-links.json"
 

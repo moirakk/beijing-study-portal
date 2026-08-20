@@ -2,33 +2,38 @@
 
 这些脚本用于维护内容库和做站点检查。默认从项目根目录运行。
 
-## 内容结构
+## content/
 
-- `gen-subjects.mjs`：生成或重建 `content/subjects.json` 的早期脚本。
-- `build-subjects.py`：根据 `docs/toc-digest.json` 和旧版 `subjects.json` 生成新版知识树。
-- `parse-toc.py`：解析课程目录资料，生成结构化目录摘要。
-- `rename-content-slugs.py`：整理内容目录 slug。
+内容结构生成与目录迁移工具。
 
-## 内容生成与修复
+- `parse-toc.py`：解析 `docs/textbook-research.md`，生成 `docs/toc-digest.json`。
+- `build-subjects.py`：根据 `docs/toc-digest.json` 和现有 `content/subjects.json` 生成新版知识树。
+- `gen-subjects.mjs`：早期的 `content/subjects.json` 生成脚本，保留作历史参考。
+- `rename-content-slugs.py`：把内容目录迁移为 `chN/tN` 结构，并同步 `contentPath`。
 
-- `scaffold_8b.py`、`scaffold_9a.py`、`scaffold_9b.py`、`scaffold_10a.py`、`scaffold_10b.py`、`scaffold_11a.py`、`scaffold_11b.py`、`scaffold_12a.py`、`scaffold_12b.py`：按年级/学期补齐内容骨架。
-- `recover_chinese_and_scaffold.py`：恢复语文内容并补齐骨架。
-- `fix_frontmatter.py`：修复 Markdown frontmatter。
-- `fix_links.py`：修复内容中的链接。
-- `cleanup-template-charts.py`：清理模板化图表内容。
-- `add-geo-charts.cjs`、`add-other-charts.cjs`、`add-remaining-charts.cjs`、`add_english_charts.cjs`：为部分学科补充图表内容。
+## maintenance/
 
-## 审计与质量检查
+内容修复、补齐与派生数据工具。
 
-- `audit_content.py`：检查内容完整度。
-- `inventory_stats.py`：统计内容库存。
-- `qa_scan_7a.py`：初一上内容专项检查。
+- `fix_frontmatter.py`：为缺少 frontmatter 的 `note.md` 补充标题和日期。
+- `fix_links.py`：修复 Markdown wikilink 断链。
 - `generate-knowledge-links.py`：生成 `content/knowledge-links.json`。
+- `cleanup-template-charts.py`：清理旧模板图表内容。
+- `scaffold_*.py`：按年级/学期补齐内容骨架。
 
-## 截图与体验走查
+## qa/
 
-- `shots.mjs`：对当前站点生成视觉检查截图。
-- `shots-draft.mjs`：针对草稿态页面生成截图。
-- `journey.mjs`：从学生视角走查主要路径。
+内容质量检查工具。
 
-如果某个脚本只用于一次性迁移，完成后应删除，避免根目录或脚本目录再次堆积临时补丁。
+- `audit_content.py`：检查全站内容完整度，输出 `docs/audit-report.md`。
+- `qa_scan_7a.py`：初一上内容专项检查。
+
+## visual/
+
+本地页面截图与体验走查工具。运行前需要先启动预览服务。
+
+- `shots.mjs`：生成当前版本视觉检查截图。
+- `shots-draft.mjs`：生成草稿态页面截图。
+- `journey.mjs`：从学生视角走查主要路径并截图。
+
+如果某个脚本只用于一次性迁移，完成后应删除，避免脚本目录再次堆积临时补丁。

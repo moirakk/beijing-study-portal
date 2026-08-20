@@ -4,7 +4,7 @@ import unicodedata
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 SUBJECTS_PATH = ROOT / "content" / "subjects.json"
 
 
