@@ -6,13 +6,12 @@ import { countRealInGrade, getSubjects, isDraftTopic } from '../lib/contentLoade
 import { useQuizProgress } from '../lib/useQuizProgress'
 import { useReadingProgress } from '../lib/useReadingProgress'
 import {
-  ALL_GRADE_IDS,
   CURRENT_GRADE_IDS,
   GRADE_TITLES,
   SUBJECT_EN,
   subjectVars,
 } from '../lib/constants'
-import type { GradeId, Subject, SubjectId } from '../types'
+import type { Subject, SubjectId } from '../types'
 
 export default function Dashboard() {
   const subjects = useMemo(
@@ -145,56 +144,7 @@ export default function Dashboard() {
         </div>
       </Reveal>
 
-      <Reveal delay={200}>
-        <SemesterArchive />
-      </Reveal>
-
     </div>
-  )
-}
-
-function SemesterArchive() {
-  const groups: { label: string; grades: GradeId[] }[] = [
-    { label: '初中', grades: ALL_GRADE_IDS.filter((g) => parseInt(g, 10) <= 9) },
-    { label: '高中', grades: ALL_GRADE_IDS.filter((g) => parseInt(g, 10) >= 10) },
-  ]
-
-  return (
-    <section className="mt-4 border-b border-line pb-5">
-      <div className="mb-3 text-[12px] font-bold tracking-[0.18em] text-gold">
-        学期总览
-      </div>
-      <div className="grid gap-3 md:grid-cols-2">
-        {groups.map((group) => (
-          <div
-            key={group.label}
-            className="rounded-lg border border-line bg-panel/65 px-4 py-3"
-          >
-            <div className="mb-2 text-[12px] font-bold text-ink-faint">
-              {group.label}
-            </div>
-            <div className="grid grid-cols-3 gap-2">
-              {group.grades.map((grade) => {
-                const current = CURRENT_GRADE_IDS.includes(grade)
-                return (
-                  <Link
-                    key={grade}
-                    to={`/semester/${grade}`}
-                    className={`rounded-md border px-3 py-2 text-center text-[13px] font-semibold transition-colors ${
-                      current
-                        ? 'border-gold bg-[#fdf7ec] text-gold dark:bg-[#2a2418]'
-                        : 'border-line bg-paper text-ink-soft hover:border-gold hover:text-ink'
-                    }`}
-                  >
-                    {GRADE_TITLES[grade]}
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
   )
 }
 

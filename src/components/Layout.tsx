@@ -9,8 +9,8 @@ import Mascot from './Mascot'
 /** 移动端底部 Tab 栏配置 */
 const BOTTOM_TABS = [
   { to: '/', label: '首页', icon: '🏠', end: true },
+  { to: '/semesters', label: '学期', icon: '🗂️', end: false },
   { to: '/search', label: '搜索', icon: '🔍', end: false },
-  { to: '/flashcards', label: '卡片', icon: '📖', end: false },
   { to: '/wrongbook', label: '错题', icon: '⚡', end: false },
 ] as const
 
@@ -103,6 +103,12 @@ export default function Layout() {
               className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
             >
               搜索
+            </NavLink>
+            <NavLink
+              to="/semesters"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >
+              学期
             </NavLink>
             <NavLink
               to="/wrongbook"
