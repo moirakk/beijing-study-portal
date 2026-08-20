@@ -170,10 +170,7 @@ function SubjectSection({
   gradeId: GradeId
 }) {
   const { subject, chapters, textbook } = entry
-  const [open, setOpen] = useState(() => {
-    if (typeof window === 'undefined') return true
-    return !window.matchMedia('(max-width: 640px)').matches || index === 0
-  })
+  const [open, setOpen] = useState(false)
 
   return (
     <section id={`subject-${subject.id}`} style={subjectVars(subject.id as SubjectId)}>
@@ -212,7 +209,7 @@ function SubjectSection({
         <div className="fold-in">
           <div className="mt-4">
             {chapters.map((chapter) => (
-              <ChapterCard key={chapter.id} chapter={chapter} />
+              <ChapterCard key={chapter.id} chapter={chapter} defaultOpen={false} />
             ))}
           </div>
           <div className="mt-3 text-right">
