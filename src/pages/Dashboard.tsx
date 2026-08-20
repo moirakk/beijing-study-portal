@@ -44,11 +44,6 @@ export default function Dashboard() {
             dby赶紧学习！
           </h1>
         </Reveal>
-        <Reveal delay={180}>
-          <p className="mt-0 max-w-[52ch] text-[15.5px] text-ink-soft leading-relaxed">
-            把课本核心考点，配上精要的笔记、公式、例题和真题，方便看图记知识。
-          </p>
-        </Reveal>
         <div className="flex sm:hidden items-center gap-2 mt-3">
           <Mascot pokemon="pikachu" size={36} state="idle" />
           <span className="text-[13px] font-semibold text-[var(--s-deep,var(--gold))]">
@@ -131,12 +126,20 @@ export default function Dashboard() {
       <Reveal delay={120}>
         <div className="mt-4 border-b border-line pb-4">
           <div className="mb-2.5 flex items-baseline gap-2">
-            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按学期</span>
-            <span className="text-[12px] text-ink-faint">
-              先聚焦七年级，后续学段留在知识库里
-            </span>
+            <span className="text-[12px] font-bold tracking-[0.18em] text-gold">当前学期</span>
           </div>
           <SemesterPillNav />
+          <div className="mt-4">
+            <div className="mb-2.5 flex items-baseline gap-2">
+              <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
+                完整学期导航
+              </span>
+              <span className="text-[12px] text-ink-faint">
+                后续内容可直接进入
+              </span>
+            </div>
+            <SemesterPillNav scope="all" />
+          </div>
         </div>
       </Reveal>
 
