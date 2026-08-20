@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import ChapterCard from '../components/ChapterCard'
@@ -55,6 +55,14 @@ export default function Semester() {
       empty: list.filter((e) => e.realCount === 0),
     }
   }, [gradeId, valid])
+  const [selectedSubjectId, setSelectedSubjectId] = useState<SubjectId | null>(null)
+
+  useEffect(() => {
+    setSelectedSubjectId(null)
+  }, [gradeId])
+
+  const selectedEntry =
+    withContent.find((entry) => entry.subject.id === selectedSubjectId) ?? null
 
   if (!valid) {
     return (
@@ -102,39 +110,39 @@ export default function Semester() {
             />
           </div>
         </Reveal>
-        {withContent.length > 1 && (
-          <Reveal delay={200}>
-            <div className="mt-4 flex gap-2 overflow-x-auto pb-1 sm:hidden">
-              {withContent.map(({ subject }) => (
-                <a
-                  key={subject.id}
-                  href={`#subject-${subject.id}`}
-                  style={subjectVars(subject.id as SubjectId)}
-                  className="shrink-0 rounded-full border border-line bg-panel px-3 py-1.5 text-[12.5px] font-semibold text-[var(--s-deep)]"
-                >
-                  {subject.name}
-                </a>
-              ))}
-            </div>
-          </Reveal>
-        )}
       </header>
 
-      {/* 有内容的学科分段（可折叠） */}
       {withContent.length === 0 ? (
         <div className="mt-12 rounded-xl border border-dashed border-line px-5 py-8 text-center text-[14px] text-ink-soft">
           暂无内容
         </div>
       ) : (
-        withContent.map((entry, i) => (
-          <Reveal
-            key={entry.subject.id}
-            delay={Math.min(i, 3) * 60}
-            className={i === 0 ? 'mt-10' : 'mt-[52px]'}
-          >
-            <SubjectSection entry={entry} index={i} gradeId={gradeId} />
-          </Reveal>
-        ))
+        <Reveal delay={200}>
+          <section className="mt-8">
+            <div className="mb-3 text-[12px] font-bold tracking-[0.18em] text-gold">
+              选择科目
+            </div>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+              {withContent.map((entry, index) => (
+                <SubjectPicker
+                  key={entry.subject.id}
+                  entry={entry}
+                  index={index}
+                  active={entry.subject.id === selectedSubjectId}
+                  onSelect={() => setSelectedSubjectId(entry.subject.id as SubjectId)}
+                />
+              ))}
+            </div>
+          </section>
+
+          {selectedEntry ? (
+            <SubjectChapters entry={selectedEntry} gradeId={gradeId} />
+          ) : (
+            <div className="mt-5 rounded-lg border border-dashed border-line bg-panel/55 px-5 py-8 text-center text-[14px] text-ink-faint">
+              先选择一个科目
+            </div>
+          )}
+        </Reveal>
       )}
 
       {/* 暂无内容的学科：集中收纳，不占大版面 */}
@@ -159,69 +167,99 @@ export default function Semester() {
   )
 }
 
-/** 一个学科分段：subject-head 大标题（整行可点击折叠）+ 学科色渐变线 + 章节目录 */
-function SubjectSection({
+function SubjectPicker({
   entry,
   index,
-  gradeId,
+  active,
+  onSelect,
 }: {
   entry: SubjectSemesterEntry
   index: number
-  gradeId: GradeId
+  active: boolean
+  onSelect: () => void
 }) {
   const { subject, chapters, textbook } = entry
-  const [open, setOpen] = useState(false)
 
   return (
-    <section id={`subject-${subject.id}`} style={subjectVars(subject.id as SubjectId)}>
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        className="group block w-full text-left"
-      >
-        <div className="subject-head">
-          <span className="num">{CN_NUMERALS[index] ?? '1'}</span>
-          <div>
-            <h2 className="name">{subject.name}</h2>
-            <div className="en">{SUBJECT_EN[subject.id as SubjectId]}</div>
-          </div>
-          <span className="mb-1 ml-auto flex items-center gap-3">
-            {textbook && (
-              <span className="hidden text-[12.5px] text-ink-soft sm:inline">
-                {textbook}
-              </span>
-            )}
-            <span
-              className={`text-[12px] leading-none text-ink-faint transition-transform duration-200 group-hover:text-[var(--s)] ${
-                open ? '' : '-rotate-90'
-              }`}
-              aria-hidden
-            >
-              ▾
-            </span>
+    <button
+      type="button"
+      onClick={onSelect}
+      style={subjectVars(subject.id as SubjectId)}
+      className={`group rounded-lg border bg-panel px-4 py-4 text-left transition-all hover:border-[var(--s)] hover:bg-[var(--s-soft)] ${
+        active ? 'border-[var(--s)] shadow-sm ring-1 ring-[var(--s)]' : 'border-line'
+      }`}
+      aria-pressed={active}
+    >
+      <div className="flex items-start gap-3">
+        <span className="font-serif text-[32px] leading-none text-[var(--s-deep)]">
+          {CN_NUMERALS[index] ?? '1'}
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block truncate text-[16px] font-extrabold text-[var(--s-deep)]">
+            {subject.name}
           </span>
+          {textbook && (
+            <span className="mt-1 block truncate text-[12px] text-ink-faint">
+              {textbook}
+            </span>
+          )}
+          <span className="mt-2 block text-[12px] text-ink-faint">
+            {chapters.length} 章 · {entry.realCount} 个知识点
+          </span>
+        </span>
+        <span
+          className={`mt-1 text-[12px] text-ink-faint transition-transform ${
+            active ? 'rotate-90 text-[var(--s)]' : ''
+          }`}
+          aria-hidden
+        >
+          →
+        </span>
+      </div>
+    </button>
+  )
+}
+
+function SubjectChapters({
+  entry,
+  gradeId,
+}: {
+  entry: SubjectSemesterEntry
+  gradeId: GradeId
+}) {
+  const { subject, chapters } = entry
+
+  return (
+    <section className="mt-5" style={subjectVars(subject.id as SubjectId)}>
+      <div>
+        <div className="flex items-end gap-3">
+          <div>
+            <h2 className="m-0 font-serif text-[clamp(26px,5vw,38px)] font-bold leading-tight text-[var(--s-deep)]">
+              {subject.name}
+            </h2>
+            <div className="mt-1 text-[12px] font-bold tracking-[0.24em] text-ink-faint">
+              {SUBJECT_EN[subject.id as SubjectId]}
+            </div>
+          </div>
         </div>
         <div className="rule" />
-      </button>
+      </div>
 
-      {open && (
-        <div className="fold-in">
-          <div className="mt-4">
-            {chapters.map((chapter) => (
-              <ChapterCard key={chapter.id} chapter={chapter} defaultOpen={false} />
-            ))}
-          </div>
-          <div className="mt-3 text-right">
-            <Link
-              to={`/subject/${subject.id}?grade=${gradeId}`}
-              className="text-[13px] font-semibold text-[var(--s-deep)] transition-opacity hover:opacity-75"
-            >
-              查看{subject.name}全部学期 →
-            </Link>
-          </div>
+      <div className="fold-in">
+        <div className="mt-4">
+          {chapters.map((chapter) => (
+            <ChapterCard key={chapter.id} chapter={chapter} defaultOpen={false} />
+          ))}
         </div>
-      )}
+        <div className="mt-3 text-right">
+          <Link
+            to={`/subject/${subject.id}?grade=${gradeId}`}
+            className="text-[13px] font-semibold text-[var(--s-deep)] transition-opacity hover:opacity-75"
+          >
+            查看全部学期 →
+          </Link>
+        </div>
+      </div>
     </section>
   )
 }

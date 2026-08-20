@@ -1,7 +1,6 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import Reveal from '../components/Reveal'
-import SemesterPillNav from '../components/SemesterPillNav'
 import Mascot from '../components/Mascot'
 import { countRealInGrade, getSubjects, isDraftTopic } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
@@ -31,12 +30,12 @@ export default function Dashboard() {
   return (
     <div>
       {/* 顶部 hero */}
-      <header className="border-b border-line pb-5 pt-4 md:pt-7 relative">
-        <div className="absolute right-4 top-4 hidden sm:flex items-start gap-3 z-10">
-          <Mascot pokemon="pikachu" size={120} state="run-in" />
+      <header className="border-b border-line pb-3 pt-2 md:pt-4 relative">
+        <div className="absolute right-4 top-1 hidden sm:flex items-start gap-3 z-10">
+          <Mascot pokemon="pikachu" size={82} state="run-in" />
         </div>
         <Reveal delay={90}>
-          <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
+          <h1 className="mb-0 mt-0 font-serif text-[clamp(28px,5vw,40px)] font-bold leading-[1.15] tracking-[0.02em]">
             dby赶紧学习！
           </h1>
         </Reveal>
@@ -70,8 +69,8 @@ export default function Dashboard() {
 
       {/* 学习概览 */}
       <Reveal delay={120}>
-        <div className="card card-lift mt-4 flex flex-wrap items-center gap-4">
-          <Mascot pokemon="pikachu" size={52} state="idle" />
+        <div className="card card-lift mt-3 flex flex-wrap items-center gap-4">
+          <Mascot pokemon="pikachu" size={44} state="idle" />
           <div className="min-w-0 flex-1">
             <div className="text-[12px] font-bold tracking-[0.18em] text-gold">我的学习</div>
             <div className="mt-1 flex flex-wrap gap-x-5 gap-y-1 text-[13.5px] text-ink-soft">
@@ -114,20 +113,26 @@ export default function Dashboard() {
 
       {/* 按学期 */}
       <Reveal delay={120}>
-        <div className="mt-4 border-b border-line pb-4">
+        <div className="mt-4">
           <div className="mb-2.5 flex items-baseline gap-2">
             <span className="text-[12px] font-bold tracking-[0.18em] text-gold">当前学期</span>
           </div>
-          <SemesterPillNav />
+          <div className="grid gap-3 sm:grid-cols-2">
+            {CURRENT_GRADE_IDS.map((grade) => (
+              <Link
+                key={grade}
+                to={`/semester/${grade}`}
+                className="rounded-lg border border-gold bg-[#fdf7ec] px-5 py-4 font-semibold text-gold transition-colors hover:bg-panel dark:bg-[#2a2418]"
+              >
+                {GRADE_TITLES[grade]}
+              </Link>
+            ))}
+          </div>
         </div>
       </Reveal>
 
-      <Reveal delay={160}>
-        <SemesterArchive />
-      </Reveal>
-
       {/* 学科卡片 */}
-      <Reveal delay={200}>
+      <Reveal delay={160}>
         <div className="mt-5">
           <div className="mb-3 flex items-baseline gap-2">
             <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按科目</span>
@@ -138,6 +143,10 @@ export default function Dashboard() {
             ))}
           </div>
         </div>
+      </Reveal>
+
+      <Reveal delay={200}>
+        <SemesterArchive />
       </Reveal>
 
     </div>
