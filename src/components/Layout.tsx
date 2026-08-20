@@ -16,8 +16,29 @@ const BOTTOM_TABS = [
 
 const THEME_KEY = 'bsp-theme'
 
+const WEEKDAYS = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
+
 function loadTheme(): 'light' | 'dark' {
   return localStorage.getItem(THEME_KEY) === 'dark' ? 'dark' : 'light'
+}
+
+function TodayBadge() {
+  const today = new Date()
+  const month = today.getMonth() + 1
+  const date = today.getDate()
+  const weekday = WEEKDAYS[today.getDay()]
+
+  return (
+    <div
+      className="shrink-0 rounded-full border border-line bg-panel px-2.5 py-1 text-[11.5px] font-semibold text-ink-faint"
+      title={`${today.getFullYear()}年${month}月${date}日 ${weekday}`}
+      aria-label={`今天是${today.getFullYear()}年${month}月${date}日${weekday}`}
+    >
+      <span className="hidden md:inline">今天 </span>
+      {month}月{date}日
+      <span className="hidden sm:inline"> {weekday}</span>
+    </div>
+  )
 }
 
 /**
@@ -108,6 +129,8 @@ export default function Layout() {
               className="w-full rounded-full border border-line bg-panel px-4 py-1 text-[13px] outline-none placeholder:text-ink-faint focus:border-gold"
             />
           </div>
+
+          <TodayBadge />
 
           {/* 移动端搜索图标（与底部 tab 栏重复，因此隐藏） */}
           <button
