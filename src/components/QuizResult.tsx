@@ -19,7 +19,6 @@ export default function QuizResult({
 }: QuizResultProps) {
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0
   const perfect = total > 0 && correct === total
-  const good = pct >= 60
 
   return (
     <div className="quiz-pop rounded-xl border border-line bg-panel p-5 text-center">
@@ -27,7 +26,7 @@ export default function QuizResult({
         <Mascot subject={subjectId} size={56} evolved={perfect} state={perfect ? "happy" : "idle"} />
         <div className="text-left">
           <div className="font-serif text-[18px] font-bold text-[var(--s-deep)]">
-            {perfect ? '完美！宝可梦进化了！' : good ? '做得不错！' : '继续加油！'}
+            本次结果
           </div>
           <div className="mt-1 text-[14.5px] text-ink-soft">
             答对 {correct} / {total} 题（{pct}%）
@@ -37,7 +36,7 @@ export default function QuizResult({
 
       {perfect && (
         <div className="quiz-confetti mt-3 text-[13px] text-[var(--s-deep)]">
-          ✨ 满分成就 · 捕获成功 · 进化动画 ✨
+          满分
         </div>
       )}
 

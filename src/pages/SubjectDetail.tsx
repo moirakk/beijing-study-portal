@@ -69,10 +69,6 @@ export default function SubjectDetail() {
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <div className="hidden sm:block rounded-xl rounded-tr-none bg-[var(--s-soft)] border border-line px-3 py-2 text-[13px] font-bold text-[var(--s-deep)] shadow-sm relative mt-2">
-              准备好探索 {subject.name} 的奥秘了吗？
-              <div className="absolute -right-[5px] top-3 w-2 h-2 bg-[var(--s-soft)] border-r border-t border-line rotate-45" />
-            </div>
             <Mascot subject={subject.id} size={90} state="enter" className="mb-2" />
           </div>
         </div>
@@ -81,7 +77,7 @@ export default function SubjectDetail() {
 
       {gradesWithContent.length === 0 ? (
         <div className="card mt-8 text-ink-soft">
-          该学科的知识树正在搭建中，敬请期待。
+          暂无内容
         </div>
       ) : (
         <>

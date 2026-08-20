@@ -121,7 +121,6 @@ export default function KnowledgeLinks({ links, currentSubjectId: _currentSubjec
         <h2 className="m-0 font-sans text-[15px] font-extrabold tracking-normal text-[var(--s-deep)]">
           知识关联
         </h2>
-        <span className="tag ml-auto shrink-0">串联知识·深度记忆</span>
       </div>
 
       <div className="space-y-4">
@@ -130,7 +129,6 @@ export default function KnowledgeLinks({ links, currentSubjectId: _currentSubjec
           <div>
             <div className="mb-2 flex items-center gap-1.5">
               <span className="text-[11px] font-bold text-ink-faint">⚡ 纵向延伸</span>
-              <span className="text-[10px] text-ink-faint">同学科不同年级</span>
             </div>
             <div className="grid gap-2 sm:grid-cols-2">
               {sameSubject.map((item) => (

@@ -123,7 +123,7 @@ export default function Semester() {
       {/* 有内容的学科分段（可折叠） */}
       {withContent.length === 0 ? (
         <div className="mt-12 rounded-xl border border-dashed border-line px-5 py-8 text-center text-[14px] text-ink-soft">
-          本学期各科内容整理中，敬请期待。
+          暂无内容
         </div>
       ) : (
         withContent.map((entry, i) => (

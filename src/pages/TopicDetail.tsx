@@ -293,8 +293,7 @@ export default function TopicDetail() {
         <div className="mt-5 flex flex-wrap items-baseline gap-x-2.5 gap-y-1 rounded-xl border border-dashed border-line bg-panel px-4 py-3">
           <span className="tag shrink-0">待补充</span>
           <span className="text-[13.5px] leading-relaxed text-ink-soft">
-            这一页还没有内容。你可以在 Obsidian 里打开对应笔记补充，或用 AI
-            生成后粘贴进来，保存后这里会自动更新。
+            暂无内容
           </span>
         </div>
       )}
@@ -323,7 +322,7 @@ export default function TopicDetail() {
 
         {content !== null && availableSections.length === 0 && (
           <div className="card text-center text-ink-soft">
-            该知识点的学习资料还在整理中，敬请期待。
+            暂无学习资料
           </div>
         )}
 

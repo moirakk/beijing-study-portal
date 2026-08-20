@@ -162,7 +162,7 @@ export default function QuizSection({
 
       {!hasQuestions ? (
         <div className="py-4 text-center text-[13.5px] text-ink-faint">
-          本知识点暂无题目，敬请期待。
+          暂无题目
         </div>
       ) : done ? (
         <QuizResult

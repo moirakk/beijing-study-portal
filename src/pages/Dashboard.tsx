@@ -27,29 +27,13 @@ export default function Dashboard() {
       {/* 顶部 hero */}
       <header className="border-b border-line pb-5 pt-4 md:pt-7 relative">
         <div className="absolute right-4 top-4 hidden sm:flex items-start gap-3 z-10">
-          <div className="rounded-2xl rounded-tr-none bg-[var(--s-soft,var(--paper))] border border-line px-4 py-2 text-[13.5px] shadow-sm relative mt-4">
-            <span className="font-bold text-[var(--s-deep,var(--gold))]">Pika pika!</span>{' '}
-            欢迎来到学习基地！
-            <div className="absolute -right-[6px] top-3 w-3 h-3 bg-[var(--s-soft,var(--paper))] border-r border-t border-line rotate-45" />
-          </div>
           <Mascot pokemon="pikachu" size={120} state="run-in" />
         </div>
-        <Reveal>
-          <div className="text-[13px] font-bold tracking-[0.24em] text-gold">
-            图文讲义 · 随时随地学
-          </div>
-        </Reveal>
         <Reveal delay={90}>
           <h1 className="mb-[0.2em] mt-[0.24em] font-serif text-[clamp(30px,6vw,44px)] font-bold leading-[1.15] tracking-[0.02em]">
             dby赶紧学习！
           </h1>
         </Reveal>
-        <div className="flex sm:hidden items-center gap-2 mt-3">
-          <Mascot pokemon="pikachu" size={36} state="idle" />
-          <span className="text-[13px] font-semibold text-[var(--s-deep,var(--gold))]">
-            Pika pika！加油哦！
-          </span>
-        </div>
       </header>
 
       {/* 继续学习（有阅读历史时显示） */}
@@ -134,9 +118,6 @@ export default function Dashboard() {
               <span className="text-[12px] font-bold tracking-[0.18em] text-gold">
                 完整学期导航
               </span>
-              <span className="text-[12px] text-ink-faint">
-                后续内容可直接进入
-              </span>
             </div>
             <SemesterPillNav scope="all" />
           </div>
@@ -148,7 +129,6 @@ export default function Dashboard() {
         <div className="mt-5">
           <div className="mb-3 flex items-baseline gap-2">
             <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按科目</span>
-            <span className="text-[12px] text-ink-faint">默认统计当前年级学习进度</span>
           </div>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
             {subjects.map((subject) => (
@@ -158,13 +138,6 @@ export default function Dashboard() {
         </div>
       </Reveal>
 
-      {/* 底部鼓励 */}
-      <div className="mt-12 mb-4 flex flex-col items-center gap-3 opacity-80">
-        <Mascot pokemon="eevee" size={48} state="idle" />
-        <p className="text-[13px] font-bold tracking-widest text-ink-faint">
-          "就决定是你了！今天也要加油哦！"
-        </p>
-      </div>
     </div>
   )
 }

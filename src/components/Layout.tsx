@@ -170,10 +170,6 @@ export default function Layout() {
         </motion.main>
       </AnimatePresence>
 
-      <footer className="border-t border-line py-6 text-center text-[12.5px] text-ink-soft hidden sm:block">
-        dby赶紧学习！· 图文讲义
-      </footer>
-
       {/* 移动端底部 Tab 栏（sm 以下显示） */}
       <nav className="sm:hidden fixed bottom-0 left-0 right-0 z-50 border-t border-line bg-panel/95 backdrop-blur-sm">
         <div className="flex">

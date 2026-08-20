@@ -67,7 +67,7 @@ export default function ChapterCard({
         <div className="fold-in px-4 pb-3.5 sm:px-[22px]">
           {count === 0 ? (
             <div className="pb-1 text-[13.5px] text-ink-faint">
-              本章内容整理中，敬请期待。
+              暂无内容
             </div>
           ) : (
             <ul className="kv">
