@@ -9,6 +9,8 @@ import {
   ALL_GRADE_IDS,
   CN_NUMERALS,
   SUBJECT_EN,
+  isCurrentGrade,
+  isJuniorGrade,
   semesterFullLabel,
   subjectVars,
 } from '../lib/constants'
@@ -94,7 +96,10 @@ export default function Semester() {
         {/* 学期切换胶囊 */}
         <Reveal delay={140}>
           <div className="mt-5">
-            <SemesterPillNav current={gradeId} />
+            <SemesterPillNav
+              current={gradeId}
+              scope={isCurrentGrade(gradeId) ? 'current' : isJuniorGrade(gradeId) ? 'junior' : 'all'}
+            />
           </div>
         </Reveal>
         {withContent.length > 1 && (

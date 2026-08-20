@@ -81,6 +81,35 @@ export const ALL_GRADE_IDS: GradeId[] = [
   '10a', '10b', '11a', '11b', '12a', '12b',
 ]
 
+/** 当前默认学习范围：孩子现在七年级，入口只突出正在用的内容 */
+export const CURRENT_GRADE_IDS: GradeId[] = ['7a', '7b']
+
+export type GradeScope = 'current' | 'junior' | 'all'
+
+export function isCurrentGrade(gradeId: string): gradeId is GradeId {
+  return CURRENT_GRADE_IDS.includes(gradeId as GradeId)
+}
+
+export function isJuniorGrade(gradeId: string): boolean {
+  return parseInt(gradeId, 10) <= 9
+}
+
+export function isCurrentGradeTitle(title: string): boolean {
+  return CURRENT_GRADE_IDS.some((id) => GRADE_TITLES[id] === title)
+}
+
+export function gradeIdsForScope(scope: GradeScope): GradeId[] {
+  if (scope === 'current') return CURRENT_GRADE_IDS
+  if (scope === 'junior') return ALL_GRADE_IDS.filter(isJuniorGrade)
+  return ALL_GRADE_IDS
+}
+
+export const GRADE_SCOPE_LABELS: Record<GradeScope, string> = {
+  current: '当前年级',
+  junior: '初中全部',
+  all: '全部内容',
+}
+
 /** 年级前缀 → 中文年级名 */
 export const GRADE_NAMES: Record<string, string> = {
   '7': '七年级',

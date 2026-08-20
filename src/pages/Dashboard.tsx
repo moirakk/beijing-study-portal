@@ -6,7 +6,7 @@ import Mascot from '../components/Mascot'
 import { countRealInGrade, getSubjects, isDraftTopic } from '../lib/contentLoader'
 import { useQuizProgress } from '../lib/useQuizProgress'
 import { useReadingProgress } from '../lib/useReadingProgress'
-import { SUBJECT_EN, subjectVars } from '../lib/constants'
+import { CURRENT_GRADE_IDS, SUBJECT_EN, subjectVars } from '../lib/constants'
 import type { Subject, SubjectId } from '../types'
 
 export default function Dashboard() {
@@ -133,7 +133,7 @@ export default function Dashboard() {
           <div className="mb-2.5 flex items-baseline gap-2">
             <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按学期</span>
             <span className="text-[12px] text-ink-faint">
-              选择学期，查看该学期全部科目目录
+              先聚焦七年级，后续学段留在知识库里
             </span>
           </div>
           <SemesterPillNav />
@@ -145,7 +145,7 @@ export default function Dashboard() {
         <div className="mt-5">
           <div className="mb-3 flex items-baseline gap-2">
             <span className="text-[12px] font-bold tracking-[0.18em] text-gold">按科目</span>
-            <span className="text-[12px] text-ink-faint">点击学科进入学习路径</span>
+            <span className="text-[12px] text-ink-faint">默认统计当前年级学习进度</span>
           </div>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
             {subjects.map((subject) => (
@@ -179,7 +179,8 @@ function SubjectCard({
 }) {
   const allRealTopicIds = useMemo(() => {
     const ids: string[] = []
-    for (const grade of subject.grades) {
+    const currentGrades = subject.grades.filter((grade) => CURRENT_GRADE_IDS.includes(grade.id))
+    for (const grade of currentGrades) {
       for (const chapter of grade.chapters) {
         for (const topic of chapter.topics) {
           if (!isDraftTopic(topic)) ids.push(topic.id)
@@ -192,7 +193,9 @@ function SubjectCard({
   const total = allRealTopicIds.length
   const read = allRealTopicIds.filter((id) => readSet.has(id)).length
   const pct = total > 0 ? Math.round((read / total) * 100) : 0
-  const gradeCount = subject.grades.filter((g) => countRealInGrade(g) > 0).length
+  const gradeCount = subject.grades.filter((g) =>
+    CURRENT_GRADE_IDS.includes(g.id) && countRealInGrade(g) > 0
+  ).length
 
   return (
     <Link
@@ -210,7 +213,7 @@ function SubjectCard({
       {total > 0 && (
         <div className="w-full mt-1">
           <div className="flex justify-between text-[10px] mb-1 text-ink-faint">
-            <span>{gradeCount} 个学期</span>
+            <span>{gradeCount} 个当前学期</span>
             <span className="font-semibold text-[var(--s)]">{pct}%</span>
           </div>
           <div className="h-1.5 rounded-full bg-[var(--s-soft)] overflow-hidden">

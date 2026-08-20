@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom'
-import { ALL_GRADE_IDS, GRADE_TITLES } from '../lib/constants'
+import {
+  ALL_GRADE_IDS,
+  GRADE_TITLES,
+  gradeIdsForScope,
+  isCurrentGrade,
+  isJuniorGrade,
+} from '../lib/constants'
 import type { GradeId } from '../types'
 
 const JUNIOR = ALL_GRADE_IDS.filter((g) => parseInt(g, 10) <= 9)
@@ -14,10 +20,28 @@ const GROUPS: { label: string; grades: GradeId[] }[] = [
  * 学期胶囊导航：初中/高中各一行，前置学段小标签。
  * current 传入当前学期 id 时高亮（金色实底）。
  */
-export default function SemesterPillNav({ current }: { current?: GradeId }) {
+export default function SemesterPillNav({
+  current,
+  scope,
+}: {
+  current?: GradeId
+  scope?: 'current' | 'junior' | 'all'
+}) {
+  const resolvedScope = scope ?? (current && !isCurrentGrade(current)
+    ? isJuniorGrade(current) ? 'junior' : 'all'
+    : 'current')
+  const visible = new Set(gradeIdsForScope(resolvedScope))
+  if (current) visible.add(current)
+  const groups = GROUPS
+    .map((group) => ({
+      ...group,
+      grades: group.grades.filter((grade) => visible.has(grade)),
+    }))
+    .filter((group) => group.grades.length > 0)
+
   return (
     <div className="space-y-2">
-      {GROUPS.map(({ label, grades }) => (
+      {groups.map(({ label, grades }) => (
         <div key={label} className="flex items-center gap-2">
           <span className="w-8 shrink-0 text-[11.5px] font-bold tracking-[0.1em] text-ink-faint">
             {label}

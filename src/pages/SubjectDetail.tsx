@@ -4,7 +4,14 @@ import Breadcrumb from '../components/Breadcrumb'
 import Reveal from '../components/Reveal'
 import Mascot from '../components/Mascot'
 import { getSubject, getSubjects, isDraftTopic, countRealInGrade } from '../lib/contentLoader'
-import { CN_NUMERALS, SUBJECT_EN, subjectVars, semesterFullLabel } from '../lib/constants'
+import {
+  CN_NUMERALS,
+  CURRENT_GRADE_IDS,
+  SUBJECT_EN,
+  isCurrentGrade,
+  subjectVars,
+  semesterFullLabel,
+} from '../lib/constants'
 import { useReadingProgress } from '../lib/useReadingProgress'
 import type { Chapter, Topic, Grade } from '../types'
 import type { SubjectId } from '../types'
@@ -31,16 +38,21 @@ export default function SubjectDetail() {
   }
 
   const subjectIndex = getSubjects().findIndex((s) => s.id === subject.id)
+  const defaultCurrentGrade = gradesWithContent.find((g) => CURRENT_GRADE_IDS.includes(g.id))
   const currentGradeId =
     (paramGradeId && gradesWithContent.some((g) => g.id === paramGradeId)
       ? paramGradeId
       : null) ??
+    defaultCurrentGrade?.id ??
     gradesWithContent[0]?.id ??
     null
   const currentGrade =
     gradesWithContent.find((g) => g.id === currentGradeId) ?? null
   const setActiveGradeId = (gradeId: string) =>
     setParams({ grade: gradeId }, { replace: true })
+  const currentStageGrades = subject.grades.filter((grade) => isCurrentGrade(grade.id))
+  const futureGrades = subject.grades.filter((grade) => !isCurrentGrade(grade.id))
+  const activeInFuture = futureGrades.some((grade) => grade.id === currentGradeId)
 
   return (
     <div style={subjectVars(subject.id as SubjectId)}>
@@ -75,32 +87,38 @@ export default function SubjectDetail() {
         <>
           {/* 学期切换胶囊 */}
           <Reveal delay={120}>
-            <div className="mt-7 flex flex-wrap gap-2">
-              {subject.grades.map((grade) => {
-                const hasContent = grade.chapters.length > 0
-                const active = grade.id === currentGradeId
-                const real = countRealInGrade(grade)
-                return (
-                  <button
+            <div className="mt-7">
+              <div className="mb-2 text-[12px] font-bold tracking-[0.18em] text-gold">
+                当前学习
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {currentStageGrades.map((grade) => (
+                  <GradeSwitchButton
                     key={grade.id}
-                    type="button"
-                    disabled={!hasContent}
-                    onClick={() => setActiveGradeId(grade.id)}
-                    className={`rounded-full border px-4 py-1.5 text-[14px] font-semibold transition-all duration-200 active:scale-95 ${
-                      active
-                        ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
-                        : hasContent
-                          ? 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:text-[var(--s-deep)]'
-                          : 'cursor-not-allowed border-line bg-paper text-ink-faint'
-                    }`}
-                  >
-                    {grade.title}
-                    {hasContent && real > 0 && (
-                      <span className="ml-1.5 text-[11px] opacity-70">{real}篇</span>
-                    )}
-                  </button>
-                )
-              })}
+                    grade={grade}
+                    active={grade.id === currentGradeId}
+                    onClick={setActiveGradeId}
+                  />
+                ))}
+              </div>
+              {futureGrades.length > 0 && (
+                <details className="mt-3" open={activeInFuture}>
+                  <summary className="cursor-pointer list-none text-[12.5px] font-semibold text-ink-faint transition-colors hover:text-ink">
+                    以后会学的学期
+                    <span className="ml-1 text-[11px]" aria-hidden>▾</span>
+                  </summary>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {futureGrades.map((grade) => (
+                      <GradeSwitchButton
+                        key={grade.id}
+                        grade={grade}
+                        active={grade.id === currentGradeId}
+                        onClick={setActiveGradeId}
+                      />
+                    ))}
+                  </div>
+                </details>
+              )}
             </div>
           </Reveal>
 
@@ -113,6 +131,39 @@ export default function SubjectDetail() {
         </>
       )}
     </div>
+  )
+}
+
+function GradeSwitchButton({
+  grade,
+  active,
+  onClick,
+}: {
+  grade: Grade
+  active: boolean
+  onClick: (gradeId: string) => void
+}) {
+  const hasContent = grade.chapters.length > 0
+  const real = countRealInGrade(grade)
+
+  return (
+    <button
+      type="button"
+      disabled={!hasContent}
+      onClick={() => onClick(grade.id)}
+      className={`rounded-full border px-4 py-1.5 text-[14px] font-semibold transition-all duration-200 active:scale-95 ${
+        active
+          ? 'border-transparent bg-[var(--s)] text-white dark:text-panel'
+          : hasContent
+            ? 'border-line bg-panel text-ink-soft hover:border-[var(--s)] hover:text-[var(--s-deep)]'
+            : 'cursor-not-allowed border-line bg-paper text-ink-faint'
+      }`}
+    >
+      {grade.title}
+      {hasContent && real > 0 && (
+        <span className="ml-1.5 text-[11px] opacity-70">{real}篇</span>
+      )}
+    </button>
   )
 }
 

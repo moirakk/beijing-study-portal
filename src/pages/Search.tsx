@@ -8,10 +8,13 @@ import { searchAll, encodeCJK, ensureEngine } from '../lib/searchEngine'
 import type { SearchHit } from '../lib/searchEngine'
 import {
   ALL_GRADE_IDS,
+  GRADE_SCOPE_LABELS,
   GRADE_TITLES,
   MATERIAL_LABELS,
+  gradeIdsForScope,
   subjectVars,
 } from '../lib/constants'
+import type { GradeScope } from '../lib/constants'
 import type { GradeId, MaterialType, SubjectId, TopicTag } from '../types'
 
 const ALL_TAGS: TopicTag[] = [
@@ -81,6 +84,7 @@ export default function Search() {
 
   const [fSubject, setFSubject] = useState<SubjectId | ''>('')
   const [fGrade, setFGrade] = useState<GradeId | ''>('')
+  const [scope, setScope] = useState<GradeScope>('current')
   const [fMaterial, setFMaterial] = useState<MaterialType | ''>('')
   const [fTag, setFTag] = useState<TopicTag | ''>('')
   const [hits, setHits] = useState<SearchHit[]>([])
@@ -137,22 +141,24 @@ export default function Search() {
 
   // 附加位置信息，再按筛选器过滤
   const results = useMemo<ResultRow[]>(() => {
+    const scopedGradeIds = new Set(gradeIdsForScope(scope))
     return hits
       .map((hit) => ({ hit, loc: findTopic(hit.topicId) }))
       .filter((row): row is ResultRow => row.loc != null)
       .filter(({ hit, loc }) => {
         if (fSubject && loc.subject.id !== fSubject) return false
         if (fGrade && loc.grade.id !== fGrade) return false
+        if (!fGrade && !scopedGradeIds.has(loc.grade.id)) return false
         if (fMaterial && !(hit.materialType === fMaterial || loc.topic.materials.includes(fMaterial))) return false
         if (fTag && !loc.topic.tags.includes(fTag)) return false
         return true
       })
-  }, [hits, fSubject, fGrade, fMaterial, fTag])
+  }, [hits, fSubject, fGrade, scope, fMaterial, fTag])
 
   // 查询或筛选变化时重置渐进披露条数
   useEffect(() => {
     setVisibleCount(PAGE_SIZE)
-  }, [query, fSubject, fGrade, fMaterial, fTag])
+  }, [query, fSubject, fGrade, scope, fMaterial, fTag])
 
   const visibleResults = results.slice(0, visibleCount)
   const remaining = results.length - visibleResults.length
@@ -194,6 +200,11 @@ export default function Search() {
 
         {/* 筛选器 */}
         <div className="mt-3.5 flex flex-wrap justify-center gap-2">
+          <select value={scope} onChange={(e) => setScope(e.target.value as GradeScope)} className={selectCls} aria-label="按学习范围筛选">
+            {(Object.keys(GRADE_SCOPE_LABELS) as GradeScope[]).map((key) => (
+              <option key={key} value={key}>{GRADE_SCOPE_LABELS[key]}</option>
+            ))}
+          </select>
           <select value={fSubject} onChange={(e) => setFSubject(e.target.value as SubjectId | '')} className={selectCls} aria-label="按学科筛选">
             <option value="">全部学科</option>
             {getSubjects().map((s) => (
@@ -201,7 +212,7 @@ export default function Search() {
             ))}
           </select>
           <select value={fGrade} onChange={(e) => setFGrade(e.target.value as GradeId | '')} className={selectCls} aria-label="按年级筛选">
-            <option value="">全部年级</option>
+            <option value="">不指定学期</option>
             {ALL_GRADE_IDS.map((g) => (
               <option key={g} value={g}>{GRADE_TITLES[g]}</option>
             ))}
@@ -246,6 +257,7 @@ export default function Search() {
           <>
             <p className="mb-3 text-[13px] text-ink-soft">
               共 {results.length} 条结果
+              {!fGrade && ` · ${GRADE_SCOPE_LABELS[scope]}`}
               {remaining > 0 && `，先展示前 ${visibleResults.length} 条`}
             </p>
             <ul className="space-y-3.5">

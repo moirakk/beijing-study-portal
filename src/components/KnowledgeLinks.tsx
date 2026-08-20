@@ -5,7 +5,7 @@
  * 宝可梦风格：精灵球图标 + 学科色胶囊卡片
  */
 import { Link } from 'react-router-dom'
-import { SUBJECT_THEMES } from '../lib/constants'
+import { SUBJECT_THEMES, isCurrentGradeTitle } from '../lib/constants'
 import type { SubjectId } from '../types'
 
 export interface KnowledgeLinkItem {
@@ -45,6 +45,7 @@ function PokeBallIcon({ size = 16 }: { size?: number }) {
 /** 单条关联卡片 */
 function LinkCard({ item, isCross }: { item: KnowledgeLinkItem; isCross: boolean }) {
   const theme = SUBJECT_THEMES[(item.subjectId as SubjectId) ?? 'misc'] ?? SUBJECT_THEMES.misc
+  const currentStage = isCurrentGradeTitle(item.gradeTitle)
 
   return (
     <Link
@@ -74,6 +75,9 @@ function LinkCard({ item, isCross }: { item: KnowledgeLinkItem; isCross: boolean
             style={{ background: theme.soft, color: theme.deep }}
           >
             {item.gradeTitle}
+          </span>
+          <span className="rounded-full border border-line bg-panel px-1.5 py-0.5 text-[10px] font-semibold leading-none text-ink-faint">
+            {currentStage ? '当前学习' : '以后会学'}
           </span>
           {isCross && (
             <span
