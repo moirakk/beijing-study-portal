@@ -223,7 +223,7 @@ graph TD
 
 ```
 beijing-study-portal/
-├── DESIGN.md                     # 本设计文档
+├── docs/design.md                # 本设计文档
 ├── index.html
 ├── package.json
 ├── vite.config.ts

@@ -1,6 +1,6 @@
 /**
  * UI 常量：学科主题色（主色/浅底/深色）、学期列表、资料类型文案。
- * 学科三色与 references/ui-reference.html 的 --hist/--geo 模式一致，
+ * 学科三色与 docs/design.md 中的视觉方案一致，
  * 通过 CSS 变量（--s / --s-soft / --s-deep）注入组件树。
  */
 import type { CSSProperties } from 'react'

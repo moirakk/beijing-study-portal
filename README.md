@@ -4,6 +4,17 @@
 
 **访问地址：[https://dbystudy.cn](https://dbystudy.cn)**
 
+## 项目结构
+
+```text
+src/        前端应用源码
+content/    学科、年级、章节、知识点与 Markdown 内容
+scripts/    内容生成、审计、修复、截图等维护脚本
+docs/       课程研究、设计记录、审计与验证文档
+shots/      当前版本的视觉检查截图
+public/     GitHub Pages 自定义域名等静态文件
+```
+
 ## 技术栈
 
 - React + TypeScript + Vite
@@ -24,3 +35,10 @@ npm run build
 ```
 
 通过 GitHub Actions 自动部署至 GitHub Pages，自定义域名 `dbystudy.cn`。
+
+## 维护说明
+
+- 新增或调整知识点内容时，优先修改 `content/` 与 `content/subjects.json`。
+- 内容结构生成、关联关系生成、审计统计等工具放在 `scripts/`，具体用途见 `scripts/README.md`。
+- 设计、体验复盘、验证记录等长期参考资料放在 `docs/`。
+- 根目录只保留运行、构建、部署所需的核心文件。
