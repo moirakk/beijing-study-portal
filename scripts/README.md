@@ -8,7 +8,6 @@
 
 - `parse-toc.py`：解析 `docs/textbook-research.md`，生成 `docs/toc-digest.json`。
 - `build-subjects.py`：根据 `docs/toc-digest.json` 和现有 `content/subjects.json` 生成新版知识树。
-- `gen-subjects.mjs`：早期的 `content/subjects.json` 生成脚本，保留作历史参考。
 - `rename-content-slugs.py`：把内容目录迁移为 `chN/tN` 结构，并同步 `contentPath`。
 
 ## maintenance/
@@ -35,5 +34,7 @@
 - `shots.mjs`：生成当前版本视觉检查截图。
 - `shots-draft.mjs`：生成草稿态页面截图。
 - `journey.mjs`：从学生视角走查主要路径并截图。
+
+截图输出目录默认不提交；需要保留截图时请先确认它们有长期参考价值。
 
 如果某个脚本只用于一次性迁移，完成后应删除，避免脚本目录再次堆积临时补丁。

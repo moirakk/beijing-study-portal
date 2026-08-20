@@ -21,14 +21,18 @@ logs
 npm-debug.log*
 
 # 截图产物（UI 走查用）
+shots/
+shots-draft/
 shots-before/
 shots-after/
 
 # 走查截图（本地验证产物，不入库）
+journey/
 journey-before/
 journey-after/
-shots-before/
-shots-after/
+
+# 质量审计报告由脚本生成，不长期入库
+docs/audit-report.md
 .vercel
 
 dist-cf
