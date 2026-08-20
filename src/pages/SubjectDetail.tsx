@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useParams, useSearchParams, Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import Reveal from '../components/Reveal'
@@ -121,7 +121,7 @@ export default function SubjectDetail() {
           {/* 学习路径图 */}
           {currentGrade && (
             <Reveal delay={180}>
-              <GradeLearningPath grade={currentGrade} readSet={readSet} />
+              <GradeLearningPath key={currentGrade.id} grade={currentGrade} readSet={readSet} />
             </Reveal>
           )}
         </>
@@ -174,6 +174,7 @@ function GradeLearningPath({
   grade: Grade
   readSet: Set<string>
 }) {
+  const [openChapterId, setOpenChapterId] = useState<string | null>(null)
   const realCount = countRealInGrade(grade)
   const readCount = grade.chapters.reduce((n, ch) => {
     return n + ch.topics.filter((t) => !isDraftTopic(t) && readSet.has(t.id)).length
@@ -215,6 +216,10 @@ function GradeLearningPath({
           chapter={chapter}
           readSet={readSet}
           isFirst={ci === 0}
+          open={openChapterId === chapter.id}
+          onToggle={() =>
+            setOpenChapterId((current) => (current === chapter.id ? null : chapter.id))
+          }
         />
       ))}
     </div>
@@ -242,24 +247,33 @@ function ChapterPath({
   chapter,
   readSet,
   isFirst,
+  open,
+  onToggle,
 }: {
   chapter: Chapter
   readSet: Set<string>
   isFirst: boolean
+  open: boolean
+  onToggle: () => void
 }) {
   const realTopics = chapter.topics.filter((t) => !isDraftTopic(t))
   if (chapter.topics.length === 0 && realTopics.length === 0) return null
 
   return (
-    <div className={isFirst ? '' : 'mt-8'}>
-      <ChapterBanner chapter={chapter} readSet={readSet} />
-      {realTopics.length === 0 ? (
+    <div className={isFirst ? '' : 'mt-3'}>
+      <ChapterBanner
+        chapter={chapter}
+        readSet={readSet}
+        open={open}
+        onToggle={onToggle}
+      />
+      {open && realTopics.length === 0 ? (
         <div className="mt-3 mb-4 text-center text-[13px] text-ink-faint">
           本章节内容整理中…
         </div>
-      ) : (
+      ) : open ? (
         <PathNodes topics={realTopics} readSet={readSet} />
-      )}
+      ) : null}
     </div>
   )
 }
@@ -267,16 +281,29 @@ function ChapterPath({
 function ChapterBanner({
   chapter,
   readSet,
+  open,
+  onToggle,
 }: {
   chapter: Chapter
   readSet: Set<string>
+  open: boolean
+  onToggle: () => void
 }) {
   const realTopics = chapter.topics.filter((t) => !isDraftTopic(t))
   const readCount = realTopics.filter((t) => readSet.has(t.id)).length
   const total = realTopics.length
 
   return (
-    <div className="flex items-center gap-3 rounded-2xl border border-[var(--s)] bg-[var(--s-soft)] px-4 py-3">
+    <button
+      type="button"
+      onClick={onToggle}
+      aria-expanded={open}
+      className={`flex w-full items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-colors ${
+        open
+          ? 'border-[var(--s)] bg-[var(--s-soft)]'
+          : 'border-line bg-panel hover:border-[var(--s)] hover:bg-[var(--s-soft)]'
+      }`}
+    >
       <div className="shrink-0 pokeball" style={{ width: 32, height: 32 }}>
         <div className="pokeball-btn" />
       </div>
@@ -293,7 +320,15 @@ function ChapterBanner({
       {readCount === total && total > 0 && (
         <span className="shrink-0 text-lg">✅</span>
       )}
-    </div>
+      <span
+        className={`shrink-0 text-[18px] font-bold text-ink-faint transition-transform ${
+          open ? 'rotate-180 text-[var(--s)]' : ''
+        }`}
+        aria-hidden
+      >
+        ▾
+      </span>
+    </button>
   )
 }
 
